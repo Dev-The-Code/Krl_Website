@@ -1,0 +1,39 @@
+.team_txt{
+    font-size: calc(10px + 1.9vw);
+    font-family: montserrat-extrabold;
+    text-align: center;
+}
+
+@media only screen and (min-device-width : 300) and (max-device-width : 767px){
+    .imG_teamMem{
+        margin-left: -1vw;
+        border-radius: 1vw;
+        width: 17vw;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px){
+    .imG_teamMem{
+        margin-left: -1vw;
+        border-radius: 1vw;
+        width: 17vw;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px){
+    .imG_teamMem{
+        margin-left: -1vw;
+        border-radius: 1vw;
+        width: 17vw;
+    }
+}
+@media only screen and (min-device-width : 1366px){
+    .imG_teamMem{
+        margin-left: -1vw;
+        width: 17vw;
+        border-radius: 1vw;
+    }
+}
+.imG_teamMem_Mob{
+    width : 100%;
+    text-align:center;
+    border-radius: 1vw;
+}

@@ -1,0 +1,74 @@
+.sm1{
+    margin-top: 5vw;
+    margin-bottom: 0.5vw;
+}
+.sm2{
+    font-size: calc(10px + 1.9vw);
+    font-family: montserrat-extrabold;
+}
+
+
+.social_lst{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+.fB_sitesNam{
+    font-family: montserrat-light;
+    color: #3b5998;
+    text-decoration: underline;
+}
+.fB_sitesNam:hover{
+    color:black;
+    text-decoration: none;
+}
+.linKDi_sitesNam{
+    margin-left: 2vw;
+    font-family: montserrat-light;
+    color: #0077b5;
+    text-decoration: underline;
+}
+.linKDi_sitesNam:hover{
+    color:black;
+    text-decoration: none;
+}
+.twiTer_sitesNam{
+    margin-left: 2vw;
+    font-family: montserrat-light;
+    color: #1da1f2;
+    text-decoration: underline;
+}
+.twiTer_sitesNam:hover{
+    color:black;
+    text-decoration: none;
+}
+.driBle_sitesNam{
+    margin-left: 2vw;
+    font-family: montserrat-light;
+    color: #ea4c89;
+    text-decoration: underline;
+}
+.driBle_sitesNam:hover{
+    color:black;
+    text-decoration: none;
+}
+.driBle_sitesNam_Mob{
+
+    font-family: montserrat-light;
+    color: #ea4c89;
+    text-decoration: underline;
+}
+.driBle_sitesNam_Mob:hover{
+    color:black;
+    text-decoration: none;
+}
+.beHance_sitesNam{
+    margin-left: 2vw;
+    font-family: montserrat-light;
+    color: #1769ff;
+    text-decoration: underline;
+}
+.beHance_sitesNam:hover{
+    color:black;
+    text-decoration: none;
+}

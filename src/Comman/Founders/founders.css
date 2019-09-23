@@ -1,0 +1,37 @@
+.devFond{
+    background-image:linear-gradient(to right,#ff9b54 , #ff3b5f);
+    border-radius: 1vw;
+    margin-bottom: 7vmax;
+}
+.devFondImg{
+    width: 4vw;
+    padding-top: 4.2vw;
+    padding-bottom: 3.1vw;
+    margin-left: 3.1vw;
+}
+.devFondPera{
+    font-size: 1.15vmax;
+    color: white;
+    font-family: montserrat-light;
+    margin-left: 3.1vw;
+    margin-right: 3vw;
+}
+.devFondProf{
+    width: 4vw;
+    margin-left: calc(-5px + 1.2vw);
+}
+.devFond1{
+    margin-bottom: 3.1vw;
+}
+.devFondName{
+    color: white;
+    font-family: montserrat-extrabold;
+    margin-top: calc(5px + 0.3vw);
+    font-size: 1.15vw;
+}
+.devFondcomp{
+    color: white;
+    font-family: montserrat-light;
+    font-size: 0.7vw;
+    margin-top: -1vw;
+}

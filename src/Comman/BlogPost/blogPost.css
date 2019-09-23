@@ -1,0 +1,101 @@
+.blog_head{
+    font-size: calc(12px + 0.2vw);
+    font-family: montserrat-extrabold;
+    color: black;
+    padding-top: 2vw;
+}
+.blog_para{
+    font-size: calc(12px + 0.1vw);
+    font-family: montserrat-light;
+    color: black;
+   
+}
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .img_red{
+        background-color: red;
+        width: 35.4vw;
+        height: 45vw;
+    }
+    .img_pink{
+        background-color: pink;
+        width: 35.4vw;
+        height: 45vw;
+    }
+    .img_blue{
+        background-color: blue;
+        width: 35.4vw;
+        height: 45vw;
+    }
+    .img_orange{
+        background-color: orange;
+        width: 35.4vw;
+        height: 45vw;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .img_red{
+        background-color: red;
+        width: 35.4vw;
+        height: 21.9vw;
+    }
+    .img_pink{
+        background-color: pink;
+        width: 35.4vw;
+        height: 21.9vw;
+    }
+    .img_blue{
+        background-color: blue;
+        width: 35.4vw;
+        height: 21.9vw;
+    }
+    .img_orange{
+        background-color: orange;
+        width: 35.4vw;
+        height: 21.9vw;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .img_red{
+        background-color: red;
+        width: 35.4vw;
+        height: 21.9vw;
+    }
+    .img_pink{
+        background-color: pink;
+        width: 35.4vw;
+        height: 21.9vw;
+    }
+    .img_blue{
+        background-color: blue;
+        width: 35.4vw;
+        height: 21.9vw;
+    }
+    .img_orange{
+        background-color: orange;
+        width: 35.4vw;
+        height: 21.9vw;
+    }
+}
+@media only screen and (min-device-width : 1366px) {
+    .img_red{
+        background-color: red;
+        width: 35.4vw;
+        height: 21.9vw;
+    }
+    .img_pink{
+        background-color: pink;
+        width: 35.4vw;
+        height: 21.9vw;
+    }
+    .img_blue{
+        background-color: blue;
+        width: 35.4vw;
+        height: 21.9vw;
+    }
+    .img_orange{
+        background-color: orange;
+        width: 35.4vw;
+        height: 21.9vw;
+    }
+}

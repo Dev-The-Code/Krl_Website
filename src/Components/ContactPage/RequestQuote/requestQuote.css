@@ -1,0 +1,206 @@
+::-webkit-input-placeholder { /* Edge */
+    color: #7a7574;
+}
+:-ms-input-placeholder { /* Internet Explorer */
+    color: #7a7574;
+}
+::placeholder {
+    color: #7a7574;
+}
+@media only screen and (min-device-width : 300px) and (max-device-width : 768px) {
+    .head_quote{
+        color: white;
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 3vw);
+        margin-top: calc(10px + 5vw);
+        margin-left: calc(10px + 5vw);
+    }
+    .quote_descrip{
+        color: white;
+        font-family: montserrat-light;
+        font-size: calc(10px + 0.8vw);
+        margin-bottom: calc(10px + 25vw);
+        margin-left: calc(10px + 5vw);
+    } 
+    .naam_input{     
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+    }
+    .mailCont_input{
+        
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+        margin-top: 6.7vw;
+    }
+    .projectt_input{
+        
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+        margin-top: 6.2vw;
+    } 
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+   .head_quote{
+    color: white;
+    font-family: montserrat-extrabold;
+    font-size: calc(12px + 2vw);
+    margin-top: calc(10px + 19vw);
+    }
+    .quote_descrip{
+        color: white;
+        font-family: montserrat-light;
+        font-size: calc(10px + 0.2vw);
+    }
+    .naam_input{
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+    }
+    .mailCont_input{
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+        margin-top: 2.7vw;
+    }
+    .projectt_input{
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+        margin-top: 3.2vw;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .head_quote{
+        color: white;
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 2.2vw);
+        margin-top: calc(10px + 18vw);
+        margin-left: 1vw;
+    }
+    .quote_descrip{
+        color: white;
+        font-family: montserrat-light;
+        font-size: calc(10px + 0.3vw);
+        margin-left: 1vw;
+    }
+    .naam_input{
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+    }
+    .mailCont_input{
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+        margin-top: 2.7vw;
+    }
+    .projectt_input{
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+        margin-top: 3.2vw;
+    }
+}
+@media only screen and (min-device-width : 1366px) {
+    .head_quote{
+        color: white;
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 3vw);
+        margin-top: calc(10px + 19vw);
+        margin-left: 1vw;
+    }
+    .quote_descrip{
+        color: white;
+        font-family: montserrat-light;
+        font-size: calc(10px + 0.8vw);
+        margin-left: 1vw;
+    }
+    .naam_input{
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+    }
+    .mailCont_input{
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+        margin-top: 2.7vw;
+    }
+    .projectt_input{
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+        margin-top: 3.2vw;
+    }
+}
+
+
+.qoute_backColor{
+    background-color: #fafafa;
+    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.1);
+    position: absolute;
+    border-radius: 1vw;
+    padding: 2.5vw;
+    margin-left: 48vw;
+    margin-top: 6vw;
+}
+.backgrund_cont{
+    background-image: url("../../../Assets/Images/mailbox.png");
+   border-radius: 1vw;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-position-x: center;
+   position: relative;
+}
+
+.qoute_backCol_mob{
+    background-color: #fafafa;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.18);
+    border-radius: 1vw;
+    padding: 1.5vw;
+    margin-top: -18vw;
+    margin-left: 7vw;
+}
+.backgrund_cont_mob{
+    background-image: url("../../../Assets/Images/mailbox.png");
+   border-radius: 7vw;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-position-x: center;
+   padding: 2vw;
+}
+
+.cont_requet{
+    /* background-color: black; */
+}
+.btn_sendRequest{
+    background: none;
+    border: none;
+    border-bottom: 2px solid linear-gradient(to right, red, purple);
+}
+.text_sendRqust{
+    background: -webkit-linear-gradient(	#0ac3d0 , #953797 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: calc(10px + 0.5vw);
+    font-family: montserrat-extrabold;
+}

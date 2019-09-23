@@ -1,0 +1,71 @@
+.sh_main{
+    padding-right: 0px; 
+    background-color: black;
+    /* height: 66vw;  */
+    /* height: calc(2150px - 1100px); */
+        height: calc(860px + 12vw);
+}
+
+.sh{
+    font-size: calc(10px + 0.8vw);
+    font-family: montserrat-extrabold;
+    margin-top: 6.25vw;
+    color: white;
+}
+.sh1{
+    color: white;
+    font-family: montserrat-light;
+    padding-top: 4vw;
+    padding-right: 7vw;
+}
+.sh2{
+    color: white;
+    font-family: montserrat-light;
+    padding-right: 7vw;
+}
+.sh3{
+    background-color:  #7A3185;
+    margin-top: 6vw;
+}
+.sh4{
+    font-size: calc(10px + 0.8vw);
+    font-family: montserrat-extrabold;
+    padding-top: 5vw;
+    color: white;
+    padding-left: 5vw;
+}
+.sh5{
+    padding-top: 4vw;
+    padding-bottom: 5vw;
+    padding-left: 5vw;
+    padding-right: 18vw;
+    font-family: montserrat-light;
+    color: white;
+}
+
+.sh6{
+    background-color: #FF3B5F;
+    margin-top: -16px;
+}
+.sh7{
+    padding-top: 5vw;
+    padding-left: 5vw;
+    font-size: calc(10px + 0.8vw);
+    font-family: montserrat-extrabold;
+    color: white;
+}
+.sh8{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 5vw;
+    padding-top: 4vw;
+    font-family: montserrat-light;
+    color: white;
+}
+.sh9{
+    background-color: #0BC3D1;
+    margin-top: -16px;
+}
+.sh10{
+    background-color: #FFA86B;
+}

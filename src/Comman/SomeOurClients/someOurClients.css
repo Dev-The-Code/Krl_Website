@@ -1,0 +1,27 @@
+.companiesLogo{
+    margin-bottom: 9.6vw;
+    width: 5vw;
+}
+.companiesLogo1{
+    margin-bottom: 9.6vw;
+    width: 7vw;
+}
+.companiesLogo2{
+    margin-bottom: 9.6vw;
+    width: 10vw;
+    margin-top: 2vw;
+}
+.logos{
+    text-align: left;
+    padding: 0vw;
+}
+.clients{
+    font-size: calc(10px + 1.8vw);
+    font-family: montserrat-extrabold;
+    color: black;
+    padding-bottom: 4.2vw;
+}
+.sOClients{
+    margin-top: 10.4vw;
+
+}

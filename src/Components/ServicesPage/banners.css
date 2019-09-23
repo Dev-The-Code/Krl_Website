@@ -1,0 +1,366 @@
+
+/*
+.banDev{
+    padding-top: 5vmax;
+
+}
+.banChildDev{
+    margin-left: 30.5vw;
+}
+.banProChildDev{
+    margin-left: 29.4vw;
+}
+.childDev1{
+    background-image: url("../../Assets/Images/circle.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 29vmax;
+    border-radius: 4vh;
+    position: absolute;
+    float: right;
+}
+.childProDev1{
+    background-image: url("../../Assets/Images/acf.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 29vmax;
+    border-radius: 4vh;
+    position: absolute;
+    float: right;
+}
+.chidDevPera{
+    background-color: white;
+    padding: 3.1vw;
+    margin-top: 27vmax;
+    border-radius:1vmax;
+    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+    margin-left: -5vmax;
+}
+.childPera{
+    font-size: 1.15vmax;
+    font-family: montserrat-light;
+    color: #adadad;
+}
+.chilDev2{
+    position: relative;
+    padding-top: 10vmax;
+}
+.childhedng{
+    font-size: 4.7vw;
+    font-family: montserrat-extrabold;
+}
+.childProhedng{
+    font-size: 4.4vw;
+    font-family: montserrat-extrabold;
+}
+.colrhedng{
+    color: white;
+    font-size: 4.7vw;
+    font-family: montserrat-extrabold;
+} */
+/* checking......... */
+.ban{
+    margin-top: 13vmax;
+}
+.banDev{
+    padding-right: 0vw;
+}
+.banDevSmall{
+    padding-right: 0vw;
+}
+.banPera{
+    font-size: 1.15vw;
+    font-family: montserrat-light;
+    background-color: #cab8b8;
+    border-radius: 1vw;
+    width: 12vw;
+    padding: 1.1vw;
+}
+.banPeraSmall{
+    font-size: 1.15vw;
+    font-family: montserrat-light;
+    background-color: #cab8b8;
+    border-radius: 1vw;
+    width: 12vw;
+    padding: 1.1vw;
+}
+.banPera1{
+    font-size: 1.15vw;
+    font-family: montserrat-light;
+    border-radius: 1vw;
+    width: 12vw;
+    padding: 1.1vw;
+}
+.banPera1Small{
+    font-size: 1.15vw;
+    font-family: montserrat-light;
+    border-radius: 1vw;
+    width: 12vw;
+    padding: 1.1vw;
+}
+
+
+.banHedng1{
+    font-size: 5vw;
+}
+
+.banDev1{
+    background-image: url("../../Assets/Images/circle.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: calc(10px + 1vh);
+    padding-left: 0vw;
+    height: 29.3vmax;
+}
+.banDevPro{
+    background-image: url("../../Assets/Images/acf.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: calc(10px + 1vh);
+    padding-left: 0vw;
+    height: 29.3vmax;
+}
+.banDev1Small{
+    background-image: url("../../Assets/Images/acf.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: calc(10px + 1vh);
+    padding-left: 0vw;
+    height: 29.3vmax;
+}
+.banDev1ProSmall{
+    background-image: url("../../Assets/Images/acf.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: calc(10px + 1vh);
+    padding-left: 0vw;
+    height: 29.3vmax;
+}
+.banHedng2{
+    font-size: 5.1vw;
+    font-family: montserrat-extrabold;
+    color: white;
+    padding-top: calc(0.3vw + 10vmax);
+}
+
+.banChildDev1{
+    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+    background-color: white;
+    margin-top: 5vmax;
+    /* padding: 3.1vw; */
+    border-radius: 1vw;
+}
+.banChildDev1Small{
+    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+    background-color: white;
+    margin-top: 4vmax;
+    padding: 3.1vw;
+    border-radius: 1vw;
+}
+.peraChild1{
+    padding: 3.1vw;
+    padding-bottom: 1vw;
+    font-size: 1.15vmax;
+    color: #adadad;
+    font-family: montserrat-light;
+}
+.peraChild2{
+    padding-right: 3.1vw;
+    padding-left: 3.1vw;
+    padding-bottom: 3.1vw;
+    font-size: 1.15vmax;
+    color: #adadad;
+    font-family: montserrat-light;
+}
+.banServiceChildDev1{
+    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+    background-color: white;
+    margin-top: 5vmax;
+    /* padding: 3.1vw; */
+    border-radius: 1vw;
+    margin-left: -4vmax;
+}
+.banServiceChildDev1Small{
+    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+    background-color: white;
+    margin-top: 4vmax;
+    padding: 3.1vw;
+    border-radius: 1vw;
+    margin-left: -4vmax;
+}
+
+
+
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .banHedngSmall{
+        font-size: 4.8vw;
+        font-family: montserrat-extrabold;
+        padding-top: calc(2px + 8.9vmax);
+    }
+    
+    .banHedng1Small{
+        font-size: 4.8vw;
+    }
+    .banHedng2Small {
+        font-size: 4.8vw;
+        font-family: montserrat-extrabold;
+        color: white;
+        padding-top: calc(0.4vw + 9.2vmax);
+    }
+    .banServiceHedng2Small {
+        font-size: 4.8vw;
+        font-family: montserrat-extrabold;
+        color: white;
+        padding-top: calc(0.4vw + 7.9vmax);
+    }
+    .banServiceHedngSmall{
+        font-size: 4.8vw;
+        font-family: montserrat-extrabold;
+        padding-top: calc(2px + 8.9vmax);
+    }
+    .banHedng2Small {
+        font-size: 4.8vw;
+        font-family: montserrat-extrabold;
+        color: white;
+        padding-top: calc(0.4vw + 10vmax);
+    }
+    
+    
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .banHedngSmall{
+        font-size: 5.8vw;
+        font-family: montserrat-extrabold;
+        padding-top: calc(2px + 8.9vmax);
+    }
+    .banServiceHedngSmall{
+        font-size: 5.8vw;
+        font-family: montserrat-extrabold;
+        padding-top: calc(2px + 8.9vmax);
+    }
+    .banHedng1Small{
+        font-size: 5.8vw;
+    }
+    .banHedng2Small {
+        font-size: 5.8vw;
+        font-family: montserrat-extrabold;
+        color: white;
+        padding-top: calc(0.4vw + 9.2vmax);
+    }
+    .banServiceHedng2Small {
+        font-size: 4.8vw;
+        font-family: montserrat-extrabold;
+        color: white;
+        padding-top: calc(0.4vw + 7.9vmax);
+    }
+    .banServiceHedng1Small {
+        font-size: 5.8vw;
+    }
+    .banHedngSmall {
+        font-size: 4.7vw;
+        font-family: montserrat-extrabold;
+        padding-top: calc(2px + 8.9vmax);
+    }
+    .banHedng1Small {
+        font-size: 4.6vw;
+    }
+    .banHedng2Small {
+        font-size: 4.6vw;
+        font-family: montserrat-extrabold;
+        color: white;
+        padding-top: calc(0.4vw + 10vmax);
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .banServiceHedng {
+        font-size: 4.9vw;
+        font-family: montserrat-extrabold;
+        padding-top: 10vmax;
+    }
+    .banServiceHedng1 {
+        font-size: 5vw;
+    }
+    .banServiceHedng2{
+        font-size: 5vw;
+        font-family: montserrat-extrabold;
+        color: white;
+        padding-top: calc(0.3vw + 8vmax);
+    }
+    .banHedng{
+        font-size: 4.9vw;
+        font-family: montserrat-extrabold;
+        padding-top: 9vmax;
+    }
+    .banHedng1{
+        font-size: 4.8vw;
+    }
+    
+}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .banServiceHedng {
+        font-size: 5vw;
+        font-family: montserrat-extrabold;
+        padding-top: 10vmax;
+    }
+    .banServiceHedng2{
+        font-size: 5vw;
+        font-family: montserrat-extrabold;
+        color: white;
+        padding-top: calc(0.3vw + 8vmax);
+    }
+    .banHedng{
+        font-size: 5.1vw;
+        font-family: montserrat-extrabold;
+        padding-top: 9vmax;
+    }
+    .banHedng1{
+        font-size: 5vw;
+    }
+}
+@media only screen and (min-device-width : 1600px) {
+    .banServiceHedng {
+        font-size: 5vw;
+        font-family: montserrat-extrabold;
+        padding-top: 10vmax;
+    }
+    .banServiceHedng2{
+        font-size: 5vw;
+        font-family: montserrat-extrabold;
+        color: white;
+        padding-top: calc(0.3vw + 8vmax);
+    }
+    .banHedng{
+        font-size: 5.1vw;
+        font-family: montserrat-extrabold;
+        padding-top: 9vmax;
+    }
+    .banHedng1{
+        font-size: 5vw;
+    }
+}
+

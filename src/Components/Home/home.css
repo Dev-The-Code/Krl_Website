@@ -1,0 +1,57 @@
+.dai_coLrsty {
+    background-color: #fafafa;
+    padding: 2.7vw;
+    padding-bottom: 0.6vw;
+    border-radius: 1vw;
+    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+    margin-left: -8vw;
+    margin-right: 8vw;
+    margin-top: -7vw;
+}
+.backG_colR{
+    background-color: #f7f7f7;
+    margin-bottom: 13vw;
+}
+.pro_DeV{
+    margin-top: 14.7vmax;
+}
+
+.fot_hoMe_coLor{
+    background-color: #f7f7f7;
+    padding-top: 10.4vw;
+    padding-bottom: 10.4vw;
+}
+/* @media only screen and (min-device-width : 1024px) and (max-device-width : 787px) {}
+@media only screen and (min-device-width : 768px) {} */
+.arroW_lastesT{
+    padding-left: 2.5vw;
+    padding-top: 3.1vw;
+    padding-bottom: 1.5vmax;
+    font-family: montserrat-extrabold;
+    font-size: calc(10px + 0.8vw);
+    color: #303030;
+}
+.vieW_btn{
+    background-color: #f7f7f7;
+    height: 9vmax;
+    border-radius: 1vw;
+    margin-bottom: 12vmax;
+    margin-left: -1vw;
+}
+.raW_styl{
+    width: 26vw;
+    margin-left: -1vw;
+}
+.heaD_font{
+    font-size: calc(10px + 1.8vw);
+    font-family: montserrat-extrabold;
+    color: black;
+    padding-bottom: 3.2vw;
+    padding-left: 1vw;
+}
+.heaD_Profont{
+    font-size: calc(10px + 1.8vw);
+    font-family: montserrat-extrabold;
+    color: black;
+    padding-bottom: 3.2vw;
+}

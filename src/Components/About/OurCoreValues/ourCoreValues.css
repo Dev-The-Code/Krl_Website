@@ -1,0 +1,93 @@
+.Ocv{
+    
+    margin-top: calc(150px + 3vw);
+}
+.Ocv1{
+    text-align: right;
+}
+.Ocv2{
+    font-size: calc(10px + 2.8vw);
+    font-family: montserrat-extrabold;
+}
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .onColor{
+        color: #adadad;
+        margin-top: -0.3vw;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .onColor{
+        color: #adadad;
+        margin-top: -1.8vw;
+    }
+    .Ocv3{
+        background-color: #f2f2f2;
+        height: 22vw;
+        box-shadow: 0px 2px 1vw rgba(0, 0 ,0 , 0.18);
+        border-radius: 2vw;
+        margin-top: 2vw;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .onColor{
+        color: #adadad;
+        margin-top: -0.5vw;
+    }
+    .Ocv3{
+        background-color: #f2f2f2;
+        height: 21.5vw;
+        box-shadow: 0px 2px 1vw rgba(0, 0 ,0 , 0.18);
+        border-radius: 2vw;
+        margin-top: 1.5vw;
+    }
+}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .onColor{
+        color: #adadad;
+        margin-top: -0.3vw;
+    }
+    .Ocv3{
+        background-color: #f2f2f2;
+        height: 20vw;
+        box-shadow: 0px 2px 1vw rgba(0, 0 ,0 , 0.18);
+        border-radius: 2vw;
+        margin-top: 1vw;
+    }
+}
+@media only screen and (min-device-width : 1600px) {
+    .onColor{
+        color: #adadad;
+        margin-top: 1.5vw;
+    }
+    .Ocv3{
+        background-color: #f2f2f2;
+        height: 20vw;
+        box-shadow: 0px 2px 1vw rgba(0, 0 ,0 , 0.18);
+        border-radius: 2vw;
+        margin-top: 1.5vw;
+    }
+}
+.onColor:hover {
+    color: red;
+    cursor: pointer;
+}
+.onColor_mob{
+    color: #adadad;
+    font-family: montserrat-light;
+    font-size: 5vw;
+    margin-top: 4.5vw;
+}
+.onColor_mob:hover {
+    color: red;
+    cursor: pointer;
+}
+.Ocv2_mob{
+    font-size: calc(10px + 3.8vw);
+    font-family: montserrat-extrabold;
+    text-align: center;
+}
+.Ocv3_mob{
+    background-color: #f2f2f2;
+    height: 40.5vw;
+}

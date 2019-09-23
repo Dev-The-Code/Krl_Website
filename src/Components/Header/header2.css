@@ -1,0 +1,56 @@
+.logo{
+    width: calc(10px + 13.9vw);
+}
+.menu{
+    width: calc(10px + 0.9vw);
+}
+.menu_List{
+    list-style-type: none;
+    display: flex;
+}
+.menu_ListMoB{
+    list-style-type: none;
+    text-align: center;
+    margin-left: -10vw;
+}
+.nav_List{
+    padding: 2vw;
+    margin-top: 2vw;
+}
+.nav_ListMOB{
+    padding: 2vw;
+    margin-top: 2vw;
+    font-size: calc(10px + 1vw);
+    font-family: montserrat-extrabold;
+}
+.logoo_Mob{
+    width: 45vw;
+    margin-top: 5vw;
+}
+.heaD_Mob{
+    width: 10vw;
+    margin-top: 5vw;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #f7f7f7 0%, #f7f7f7 100%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    color: white;
+  }
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: relative;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+ 

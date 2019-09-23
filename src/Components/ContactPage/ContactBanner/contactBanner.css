@@ -1,0 +1,91 @@
+@media only screen and (min-device-width : 300px) and (max-device-width : 768px) {
+    .baner_Text{
+        color: 	#303030;
+        font-size: calc(12px + 4.6vw);
+        font-family: montserrat-extrabold;
+        text-align: center;
+    }
+    .backk_Text{
+        color: #ffffff;
+        font-size: calc(12px + 4.6vw);
+        font-family: montserrat-extrabold;
+        margin-left: -1.4vw;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .baner_Text{
+        color: 	#303030;
+        font-size: calc(12px + 4.4vw);
+        font-family: montserrat-extrabold;
+        text-align: center;
+    }
+    .backk_Text{
+        color: #ffffff;
+        font-size: calc(12px + 4.4vw);
+        font-family: montserrat-extrabold;
+        margin-left: -1.4vw;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .baner_Text{
+        color: 	#303030;
+        font-size: calc(12px + 4.6vw);
+        font-family: montserrat-extrabold;
+        text-align: center;
+    }
+    .backk_Text{
+        color: #ffffff;
+        font-size: calc(12px + 4.6vw);
+        font-family: montserrat-extrabold;
+        margin-left: -1.4vw;
+    }
+}
+@media only screen and (min-device-width : 1366px) {
+    .baner_Text{
+        color: 	#303030;
+        font-size: calc(12px + 4.6vw);
+        font-family: montserrat-extrabold;
+        text-align: center;
+    }
+    .backk_Text{
+        color: #ffffff;
+        font-size: calc(12px + 4.6vw);
+        font-family: montserrat-extrabold;
+        margin-left: -1.4vw;
+    }
+}
+.backkMOB_Textblck{
+    color: #303030;
+    font-size: calc(12px + 3.6vw);
+    font-family: montserrat-extrabold;
+    text-align: right;
+    margin-top: 9.5vw;
+}
+.backkMOB_Text{
+    color: #ffffff;
+    font-size: calc(12px + 3.2vw);
+    font-family: montserrat-extrabold;
+    margin-left: -1.4vw;
+    text-align: left;
+}
+.backgrond_baner{
+    background-image: url("../../../Assets/Images/mobile.png");
+   border-radius: 1vw;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-position-x: center;
+   padding-top: 19vw;
+}
+.backMob_baner{
+    background-image: url("../../../Assets/Images/mobile.png");
+   border-radius: 1vw;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-position-x: center;
+   padding-top: 10vw;
+   padding-bottom: 10vw;
+}

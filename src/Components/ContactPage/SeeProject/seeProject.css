@@ -1,0 +1,46 @@
+
+.SEE_backColor{
+    background-color: ;
+}
+ .SEE_backColor{
+    background-color: #f7f7f7;
+    padding-top: 8vw;
+    padding-bottom: 10vw;
+} 
+.se_text{
+    color: 	#C0C0C0;
+    font-size: calc(10px + 0.5vw);
+    font-family: montserrat-light;
+    font-weight: 700;
+}
+.large_text{
+    color: black;
+    font-size: calc(15px + 3vw);
+    font-family: montserrat-extrabold;
+}
+.arrowRight1{
+    margin-top: calc(2.9em + 0.9vmax);
+    width: 10vw;
+    margin-left: 2vw;
+}
+.proSeeFotr{
+    background-color: #f7f7f7;
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+}
+.seProFotr_text{
+    color: 	#adadad;
+    font-size: calc(10px + 0.5vw);
+    font-family: montserrat-extrabold;
+    font-weight: 700;
+}
+.largeProFotr_text{
+    color: #303030;
+    font-size: calc(15px + 3vw);
+    font-family: montserrat-extrabold;
+}
+.footer_contact{
+    padding-bottom: 6vw;
+    padding-top: 6vw;
+    background-color: #f7f7f7;
+}
