@@ -1,74 +1,5 @@
-
-/*
-.banDev{
-    padding-top: 5vmax;
-
-}
-.banChildDev{
-    margin-left: 30.5vw;
-}
-.banProChildDev{
-    margin-left: 29.4vw;
-}
-.childDev1{
-    background-image: url("../../Assets/Images/circle.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    height: 29vmax;
-    border-radius: 4vh;
-    position: absolute;
-    float: right;
-}
-.childProDev1{
-    background-image: url("../../Assets/Images/acf.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    height: 29vmax;
-    border-radius: 4vh;
-    position: absolute;
-    float: right;
-}
-.chidDevPera{
-    background-color: white;
-    padding: 3.1vw;
-    margin-top: 27vmax;
-    border-radius:1vmax;
-    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
-    margin-left: -5vmax;
-}
-.childPera{
-    font-size: 1.15vmax;
-    font-family: montserrat-light;
-    color: #adadad;
-}
-.chilDev2{
-    position: relative;
-    padding-top: 10vmax;
-}
-.childhedng{
-    font-size: 4.7vw;
-    font-family: montserrat-extrabold;
-}
-.childProhedng{
-    font-size: 4.4vw;
-    font-family: montserrat-extrabold;
-}
-.colrhedng{
-    color: white;
-    font-size: 4.7vw;
-    font-family: montserrat-extrabold;
-} */
-/* checking......... */
 .ban{
-    margin-top: 13vmax;
+    margin-top: 6vmax;
 }
 .banDev{
     padding-right: 0vw;
@@ -137,7 +68,7 @@
     height: 29.3vmax;
 }
 .banDev1Small{
-    background-image: url("../../Assets/Images/acf.png");
+    background-image: url("../../Assets/Images/circle.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -182,24 +113,24 @@
     border-radius: 1vw;
 }
 .peraChild1{
-    padding: 3.1vw;
+    padding: 2.9vw;
     padding-bottom: 1vw;
-    font-size: 1.15vmax;
+    font-size: calc(6.5px + 0.6vmax);
     color: #adadad;
     font-family: montserrat-light;
 }
 .peraChild2{
-    padding-right: 3.1vw;
-    padding-left: 3.1vw;
-    padding-bottom: 3.1vw;
-    font-size: 1.15vmax;
+    padding-right: 2.9vw;
+    padding-left: 2.9vw;
+    padding-bottom: 2.9vw;
+    font-size: calc(6.5px + 0.6vmax);
     color: #adadad;
     font-family: montserrat-light;
 }
 .banServiceChildDev1{
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
     background-color: white;
-    margin-top: 5vmax;
+    margin-top: 9vmax;
     /* padding: 3.1vw; */
     border-radius: 1vw;
     margin-left: -4vmax;
@@ -207,7 +138,7 @@
 .banServiceChildDev1Small{
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
     background-color: white;
-    margin-top: 4vmax;
+    margin-top: 11vmax;
     padding: 3.1vw;
     border-radius: 1vw;
     margin-left: -4vmax;
@@ -236,7 +167,7 @@
         font-size: 4.8vw;
         font-family: montserrat-extrabold;
         color: white;
-        padding-top: calc(0.4vw + 7.9vmax);
+        padding-top: 14.5vw;
     }
     .banServiceHedngSmall{
         font-size: 4.8vw;
@@ -276,7 +207,7 @@
         font-size: 4.8vw;
         font-family: montserrat-extrabold;
         color: white;
-        padding-top: calc(0.4vw + 7.9vmax);
+        padding-top: 10.5vw;
     }
     .banServiceHedng1Small {
         font-size: 5.8vw;
@@ -306,10 +237,10 @@
         font-size: 5vw;
     }
     .banServiceHedng2{
-        font-size: 5vw;
+        font-size: 4.9vw;
         font-family: montserrat-extrabold;
         color: white;
-        padding-top: calc(0.3vw + 8vmax);
+        padding-top: calc(0.2vw + 8vmax);
     }
     .banHedng{
         font-size: 4.9vw;

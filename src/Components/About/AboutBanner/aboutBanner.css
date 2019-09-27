@@ -9,57 +9,172 @@
    padding-top: 25vw;
 }
 .backImgee_baner_Mob{
-    background-image: url("../../../Assets/Images/about-header.png");
-   border-radius: 1vw;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
-   background-size: cover;
-   background-position-x: center;
-   padding-top: 30vw;
-   height: 65vw;
+   background-image: url(/static/media/about-header.2cd2d68f.png);
+   border-radius: 1vw;
+    background-size: cover;
+    background-position-x: center;
+    padding-top: 30vw;
+    height: 53vw;
+    margin-top: 45vw;
+
 }
-.abut_banerText{
-    color: #303030;
-    font-size: calc(12px + 4.6vw);
-    font-family: montserrat-extrabold;
-    margin-top: -19vw;
-    margin-left: -35vmax;
-}
+
 .abut_banerText_Mob{
-    color: #303030;
+    color: black;
     font-size: calc(12px + 4.6vw);
     font-family: montserrat-extrabold;
-    margin-left: -46vw;
-    margin-top: -5vw;
+    margin-left: -4vw;
+    margin-top: -52vw;
 }
-.para_Textt{
-    font-size: calc(12px + 0.3vw);
-    font-family: montserrat-light;
-    color: #adadad;
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .para_Textt{
+        font-size: calc(12px + 0.2vw);
+        font-family: montserrat-light;
+        color: #adadad;
+    }
+    .abut_banerText{
+        color: #303030;
+        font-size: calc(12px + 4.6vw);
+        font-family: montserrat-extrabold;
+        margin-top: -19vw;
+        margin-left: -35vmax;
+    }
+    .divi_Colorsty{
+        background-color: #fafafa;
+        padding: 3.2vw;
+        padding-bottom: 0.4vw;
+        border-radius: 2vw;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.12);
+        margin-left: -8vw;
+        margin-right: 8vw;
+        margin-top: -3vw;
+    }
 }
-.divi_Colorsty{
-    background-color: #fafafa;
-    padding: 1.5vw;
-    border-radius: 2vw;
-    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
-    margin-left: -8vw;
-    margin-right: 8vw;
-    margin-top: -3vw;
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .para_Textt{
+        font-size: calc(12px + 0.2vw);
+        font-family: montserrat-light;
+        color: #adadad;
+    }
+    .abut_banerText{
+        color: #303030;
+        font-size: calc(12px + 4.6vw);
+        font-family: montserrat-extrabold;
+        margin-top: -19vw;
+        margin-left: -31.5vmax;
+    }
+    .divi_Colorsty{
+        background-color: #fafafa;
+        padding: 3.2vw;
+        padding-bottom: 0.4vw;
+        border-radius: 2vw;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.12);
+        margin-left: -8vw;
+        margin-right: 8vw;
+        margin-top: -3vw;
+    }
 }
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .para_Textt{
+        font-size: calc(12px + 0.2vw);
+        font-family: montserrat-light;
+        color: #adadad;
+        line-height: 2.2vw;
+    }
+    .abut_banerText{
+        color: #303030;
+        font-size: calc(12px + 5.5vw);
+        font-family: montserrat-extrabold;
+        margin-top: -19vw;
+        margin-left: -41.5vmax;
+    }
+    .divi_Colorsty{
+        background-color: #fafafa;
+        padding: 3.2vw;
+        padding-bottom: 0.4vw;
+        border-radius: 1.3vw;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.12);
+        margin-left: -8vw;
+        margin-right: 8vw;
+        margin-top: -3vw;
+    }
+}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .para_Textt{
+        font-size: calc(12px + 0.3vw);
+        font-family: montserrat-light;
+        color: #adadad;
+        line-height: 2.2vw;
+    }
+    .abut_banerText{
+        color: #303030;
+        font-family: montserrat-extrabold;
+        margin-top: -19vw;
+        font-size: calc(12px + 5.5vw);
+        margin-left: -41.5vmax;
+    }
+    .divi_Colorsty{
+        background-color: #fafafa;
+        padding: 3.2vw;
+        padding-bottom: 0.4vw;
+        border-radius: 1vw;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.12);
+        margin-left: -8vw;
+        margin-right: 8vw;
+        margin-top: -3vw;
+    }
+}
+
+@media only screen and (min-device-width : 1600px){
+    .para_Textt{
+        font-size: calc(12px + 0.4vw);
+        font-family: montserrat-light;
+        color: #adadad;
+        line-height: 2vw;
+    }
+    .abut_banerText{
+        color: #303030;
+        font-size: calc(12px + 5.5vw);
+        font-family: montserrat-extrabold;
+        margin-top: -19vw;
+        margin-left: -40.7vmax;
+    }
+    .divi_Colorsty{
+        background-color: #fafafa;
+        padding: 3.2vw;
+        padding-bottom: 0.4vw;
+        border-radius: 1vw;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.12);
+        margin-left: -8vw;
+        margin-right: 8vw;
+        margin-top: -3vw;
+    }
+}
+
+
 
 .para_Textt_Mob{
     font-size: calc(12px + 0.3vw);
     font-family: montserrat-light;
     color: #adadad;
+    letter-spacing: -0.05vmax;
+    line-height: 3.5vmax;
+    margin-bottom: 1vw;
 }
 .divi_Colorsty_Mob{
     background-color: #fafafa;
-    padding: 3.5vw;
+    padding: 7.5vw;
+    padding-bottom: 3vw;
     border-radius: 3vw;
-    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
     text-align: justify;
-    margin-top: -12vw;
+    margin-top: -25vw;
+    width: 75vw;
+    margin-left: 4vw;
+    word-spacing: -0.4vw;
 }
 .rawWW_Top{
     padding-top: 5vw;

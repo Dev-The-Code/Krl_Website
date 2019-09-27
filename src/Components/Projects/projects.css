@@ -103,7 +103,7 @@
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: 12vmax;
+    margin-bottom: 17vmax;
 }
 .bgChild{
     color: #fafafa;
@@ -129,7 +129,7 @@
     font-size: calc(1em + 0.3vw);
     color: #adadad;
     letter-spacing: -0.03vmax;
-    line-height: calc(1em + 0.4vw);
+    line-height: 1.5em;
 }
 .GFApera1{
     padding-left: 3.1vw;
@@ -179,6 +179,14 @@
 .ADBhedng{
     padding-top: 4.2vw;
     padding-left: 2.1vw;
+    padding-bottom: 3.2vw;
+    font-size: 2.6vmax;
+    font-family: montserrat-extrabold;
+    color: #ffffff;
+}
+.ADBhedngSmMd{
+    padding-top: 4.2vw;
+    padding-left: 7.1vw;
     padding-bottom: 3.2vw;
     font-size: 2.6vmax;
     font-family: montserrat-extrabold;
@@ -250,14 +258,29 @@
     font-size: calc(1em + 0.3vw);
     color: #adadad;
     letter-spacing: -0.03vmax;
-    line-height: calc(1em + 0.4vw);
+    line-height: 2em;
 }
 .ADBpera1{
+    padding-left: 0.5vw;
+    padding-top: 15.1vw;
+    padding-bottom: 1.5vmax;
+    font-family: montserrat-extrabold;
+    font-size: 1.3vw;
+    color: #303030;
+}
+.servicePeraAerow{
+    padding-top: 11.1vw;
+    padding-bottom: 1.5vmax;
+    font-family: montserrat-extrabold;
+    font-size: 1.3vw;
+    color: #303030;
+}
+.servicePeraAerowSmMd{
     padding-left: 3.1vw;
     padding-top: 3.1vw;
     padding-bottom: 1.5vmax;
     font-family: montserrat-extrabold;
-    font-size: 1.5vw;
+    font-size: 1.5vmax;
     color: #303030;
 }
 .ADBimg{

@@ -14,7 +14,7 @@ class SomeOurClients extends Component {
         <div className="row sOClients">
                <h3 className="clients">Some of our clients</h3>
             
-            <div className="row">
+            
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 logos">
                 <img href="#" className="companiesLogo" src={require('../../Assets/Images/sindh-gov_logo.png')} />
               </div>
@@ -35,7 +35,7 @@ class SomeOurClients extends Component {
               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 logos">
                 <img href="#" className="companiesLogo2" src={require('../../Assets/Images/drent_logo.png')} />
               </div>
-            </div>
+            
           
         </div>
     );

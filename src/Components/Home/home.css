@@ -1,13 +1,104 @@
-.dai_coLrsty {
-    background-color: #fafafa;
-    padding: 2.7vw;
-    padding-bottom: 0.6vw;
-    border-radius: 1vw;
-    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
-    margin-left: -8vw;
-    margin-right: 8vw;
-    margin-top: -7vw;
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .dai_coLrsty {
+        background-color: #fafafa;
+        padding: 2.7vw;
+        padding-bottom: 1.6vw;
+        border-radius: 1vw;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+        margin-left: -8vw;
+        margin-right: 8vw;
+        margin-top: -7vw;
+    }
+    .heaD_font{
+        font-size: 7vw;
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+        padding-left: 5vw;
+    }
 }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .dai_coLrsty {
+        background-color: #fafafa;
+        padding: 2.7vw;
+        padding-bottom: 1.6vw;
+        border-radius: 1vw;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+        margin-left: -8vw;
+        margin-right: 8vw;
+        margin-top: -7vw;
+        width: 95%;
+    }
+    .heaD_font{
+        font-size: calc(10px + 1.8vw);
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+        padding-left: 1vw;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .dai_coLrsty {
+        background-color: #fafafa;
+        padding: 2.7vw;
+        padding-bottom: 1.6vw;
+        border-radius: 1vw;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+        margin-left: -6.5vw;
+        margin-right: 8vw;
+        margin-top: -10vw;
+        width: 89%;
+    }
+    .heaD_font{
+        font-size: calc(10px + 1.8vw);
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+        padding-left: 1vw;
+    }
+}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .dai_coLrsty {
+        background-color: #fafafa;
+        padding: 2.7vw;
+        padding-bottom: 1.6vw;
+        border-radius: 1vw;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+        margin-left: -7vw;
+        margin-right: 8vw;
+        margin-top: -9vw;
+        margin-bottom: 11vw;
+        width: 34vw;
+    }
+    .heaD_font{
+        font-size: calc(10px + 1.8vw);
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+        padding-left: 1vw;
+    }
+}
+@media only screen and (min-device-width : 1600px) {
+    .dai_coLrsty {
+        background-color: #fafafa;
+        padding: 2.7vw;
+        padding-bottom: 2vw;
+        border-radius: 1vw;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+        margin-left: -6vw;
+        margin-right: 8vw;
+        margin-top: -8vw;
+        width: 31vw;
+    }
+    .heaD_font{
+        font-size: calc(10px + 1.8vw);
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+        padding-left: 1vw;
+    }
+}
+
 .backG_colR{
     background-color: #f7f7f7;
     margin-bottom: 13vw;
@@ -18,8 +109,8 @@
 
 .fot_hoMe_coLor{
     background-color: #f7f7f7;
-    padding-top: 10.4vw;
-    padding-bottom: 10.4vw;
+    padding-top: 8vw;
+    padding-bottom: 7vw;
 }
 /* @media only screen and (min-device-width : 1024px) and (max-device-width : 787px) {}
 @media only screen and (min-device-width : 768px) {} */
@@ -42,13 +133,7 @@
     width: 26vw;
     margin-left: -1vw;
 }
-.heaD_font{
-    font-size: calc(10px + 1.8vw);
-    font-family: montserrat-extrabold;
-    color: black;
-    padding-bottom: 3.2vw;
-    padding-left: 1vw;
-}
+
 .heaD_Profont{
     font-size: calc(10px + 1.8vw);
     font-family: montserrat-extrabold;

@@ -3,7 +3,13 @@
     font-family: montserrat-extrabold;
     text-align: center;
 }
+.team_txt_mob{
+    font-size: 7vw;
+    font-family: montserrat-extrabold;
+    text-align: center;
+    margin-top: 2.2vw;
 
+}
 @media only screen and (min-device-width : 300) and (max-device-width : 767px){
     .imG_teamMem{
         margin-left: -1vw;
@@ -33,7 +39,12 @@
     }
 }
 .imG_teamMem_Mob{
-    width : 100%;
-    text-align:center;
+    width: 100%;
+    text-align: center;
     border-radius: 1vw;
+    margin-bottom: 10vw;
+}
+.war_marG{
+    margin-top: 11.5vw;
+    padding-bottom: 3vw;
 }

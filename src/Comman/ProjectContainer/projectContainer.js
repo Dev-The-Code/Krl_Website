@@ -18,13 +18,13 @@ class ProjectContainer extends Component {
             <div className={projctBox}>
             <h2 className={projctHedng}>{hed}<br/>{hed1}</h2>
             <div className="row">
-              <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
+              <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
               <div className={projctChildBox}>
                 <p className={projctPera}>
                   {pera}
                 </p>
                {seeAerro  ? <p className={projctPera1}>
-                View Project.<img href="#" className={proAeroImg} src={require('../../Assets/Images/arrowPurple.png')} />
+                {this.props.ViewPro} <img href="#" className={proAeroImg} src={require('../../Assets/Images/arrowPurple.png')} />
               </p>
               : null }
               </div>

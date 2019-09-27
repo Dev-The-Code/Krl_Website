@@ -14,7 +14,7 @@ class SocialMedia extends Component {
               <p className="sm2">Social media</p>
             </div>
           </div>
-          <div className="row" style={{paddingBottom: '5vw'}}>
+          <div className="row" style={{paddingBottom: '10.5vw'}}>
             <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
             <div className="col-12 col-md-10 col-lg-10 col-xl-10">
               <ul className="social_lst">
@@ -32,7 +32,7 @@ class SocialMedia extends Component {
           <div className="row sm1">
             <div className="col-1"></div>
             <div className="col-11">
-              <p className="sm2">Social media</p>
+              <p className="sm2_MoB">Social media</p>
             </div>
           </div>
           <div className="row">

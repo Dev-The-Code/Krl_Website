@@ -36,6 +36,13 @@ class About extends React.Component {
           para_ClaSs='para_Textt'
           descrip_Text='KRL Creatives provides consultation businesses to help them grow. We listen thouroughly to your problem, empathize with you and your customers and create useful digital solutions that maximise your return on investments.'
           mOR_texT=''
+          conts_sol='Consultation '
+          With_sool='with solution.'
+          bigGerText="KRL Creatives provides consultation businesses to help them grow.
+          We listen thouroughly to your problem, empathize with you and your
+          customers and create useful digital solutions that maximise
+          your return on investments."
+          bigGerInSmall=''
         />
         <br /><br />
         <OurCoreValues />

@@ -31,10 +31,10 @@ class AboutBanner extends Component {
                 </div>
                 <div className="d-block d-sm-none">
                     <div className="row">
-                        <div className="col-6">             
+                        <div className="col-1">             
                         </div>
-                        <div className="col-6 backImgee_baner_Mob">  
-                            <h1 className="abut_banerText_Mob">Consultation <br />with solution.</h1>                          
+                        <div className="col-10 backImgee_baner_Mob">  
+                            <h1 className="abut_banerText_Mob">{this.props.conts_sol}<br />{this.props.With_sool}</h1>                          
                         </div>
                     </div>
                     <div className="container">
@@ -42,10 +42,7 @@ class AboutBanner extends Component {
                             <div className="col-12">
                                 <div className="divi_Colorsty_Mob">
                                     <p className="para_Textt_Mob">
-                                        KRL Creatives provides consultation businesses to help them grow.
-                                        We listen thouroughly to your problem, empathize with you and your
-                                        customers and create useful digital solutions that maximise
-                                        your return on investments.
+                                       {this.props.bigGerText} <br/><br/> {this.props.bigGerInSmall}
                                     </p>
                                 </div>
                             </div>

@@ -27,6 +27,7 @@
         border: none;
         background: none;
         border-bottom: 1px solid #8a8883;
+        height: 3vw;
     }
     .mailCont_input{
         
@@ -35,6 +36,7 @@
         background: none;
         border-bottom: 1px solid #8a8883;
         margin-top: 6.7vw;
+        height: 3vw;
     }
     .projectt_input{
         
@@ -43,7 +45,20 @@
         background: none;
         border-bottom: 1px solid #8a8883;
         margin-top: 6.2vw;
+        height: 3vw;
     } 
+    .qoute_backColor{
+        background-color: #fafafa;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.1);
+        position: absolute;
+        border-radius: 1vw;
+        padding-top: 2.5vw;
+        padding-bottom: 2.5vw;
+        padding-left: 2.5vw;
+        padding-right: 3.5vw;
+        margin-left: 33.5vw;
+        margin-top: 6vw;
+    }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
    .head_quote{
@@ -62,6 +77,7 @@
         border: none;
         background: none;
         border-bottom: 1px solid #8a8883;
+        height: 3vw;
     }
     .mailCont_input{
         width: 100%;
@@ -69,6 +85,7 @@
         background: none;
         border-bottom: 1px solid #8a8883;
         margin-top: 2.7vw;
+        height: 3vw;
     }
     .projectt_input{
         width: 100%;
@@ -76,27 +93,42 @@
         background: none;
         border-bottom: 1px solid #8a8883;
         margin-top: 3.2vw;
+        height: 3vw;
+    }
+    .qoute_backColor{
+        background-color: #fafafa;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.1);
+        position: absolute;
+        border-radius: 1vw;
+        padding-top: 2.5vw;
+        padding-bottom: 2.5vw;
+        padding-left: 2.5vw;
+        padding-right: 3.5vw;
+        margin-left: 33.5vw;
+        margin-top: 6vw;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .head_quote{
         color: white;
         font-family: montserrat-extrabold;
-        font-size: calc(12px + 2.2vw);
-        margin-top: calc(10px + 18vw);
-        margin-left: 1vw;
+        font-size: calc(12px + 1.9vw);
+        margin-top: calc(10px + 16.5vw);
+        margin-bottom: 3vw;
+        margin-left: 3vw;
     }
     .quote_descrip{
         color: white;
         font-family: montserrat-light;
-        font-size: calc(10px + 0.3vw);
-        margin-left: 1vw;
+        font-size: 1.15vw;
+        margin-left: 3vw;
     }
     .naam_input{
         width: 100%;
         border: none;
         background: none;
         border-bottom: 1px solid #8a8883;
+        height: 2.5vw;
     }
     .mailCont_input{
         width: 100%;
@@ -104,6 +136,7 @@
         background: none;
         border-bottom: 1px solid #8a8883;
         margin-top: 2.7vw;
+        height: 2.5vw;
     }
     .projectt_input{
         width: 100%;
@@ -111,9 +144,73 @@
         background: none;
         border-bottom: 1px solid #8a8883;
         margin-top: 3.2vw;
+        height: 2.5vw;
+    }
+    .qoute_backColor{
+        background-color: #fafafa;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.1);
+        position: absolute;
+        border-radius: 1vw;
+        padding-top: 2.5vw;
+        padding-bottom: 2.5vw;
+        padding-left: 2.5vw;
+        padding-right: 3.5vw;
+        margin-left: 33.5vw;
+        margin-top: 3.5vw;
     }
 }
-@media only screen and (min-device-width : 1366px) {
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .head_quote{
+        color: white;
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 1.9vw);
+        margin-top: calc(10px + 19vw);
+        margin-left: 3vw;
+    }
+    .quote_descrip{
+        color: white;
+        font-family: montserrat-light;
+        font-size: 1.15vw;
+        margin-left: 3vw;
+    }
+    .naam_input{
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+        height: 2.5vw;
+        
+    }
+    .mailCont_input{
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+        margin-top: 2.7vw;
+        height: 2.5vw;
+    }
+    .projectt_input{
+        width: 100%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #8a8883;
+        margin-top: 3.2vw;
+        height: 2.5vw;
+    }
+    .qoute_backColor{
+        background-color: #fafafa;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.1);
+        position: absolute;
+        border-radius: 1vw;
+        padding-top: 2.5vw;
+        padding-bottom: 2.5vw;
+        padding-left: 2.5vw;
+        padding-right: 3.5vw;
+        margin-left: 33.5vw;
+        margin-top: 4vw;
+    }
+}
+@media only screen and (min-device-width : 1600px) {
     .head_quote{
         color: white;
         font-family: montserrat-extrabold;
@@ -124,14 +221,15 @@
     .quote_descrip{
         color: white;
         font-family: montserrat-light;
-        font-size: calc(10px + 0.8vw);
-        margin-left: 1vw;
+        font-size: 1.15vw;
+        margin-left: 3vw;
     }
     .naam_input{
         width: 100%;
         border: none;
         background: none;
         border-bottom: 1px solid #8a8883;
+        height: 3vw;
     }
     .mailCont_input{
         width: 100%;
@@ -139,6 +237,7 @@
         background: none;
         border-bottom: 1px solid #8a8883;
         margin-top: 2.7vw;
+        height: 3vw;
     }
     .projectt_input{
         width: 100%;
@@ -146,19 +245,24 @@
         background: none;
         border-bottom: 1px solid #8a8883;
         margin-top: 3.2vw;
+        height: 3vw;
+    }
+    .qoute_backColor{
+        background-color: #fafafa;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.1);
+        position: absolute;
+        border-radius: 1vw;
+        padding-top: 2.5vw;
+        padding-bottom: 2.5vw;
+        padding-left: 2.5vw;
+        padding-right: 3.5vw;
+        margin-left: 33.5vw;
+        margin-top: 6vw;
     }
 }
 
 
-.qoute_backColor{
-    background-color: #fafafa;
-    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.1);
-    position: absolute;
-    border-radius: 1vw;
-    padding: 2.5vw;
-    margin-left: 48vw;
-    margin-top: 6vw;
-}
+
 .backgrund_cont{
     background-image: url("../../../Assets/Images/mailbox.png");
    border-radius: 1vw;
@@ -168,6 +272,7 @@
    background-size: cover;
    background-position-x: center;
    position: relative;
+   height: 30vw;
 }
 
 .qoute_backCol_mob{
@@ -195,12 +300,13 @@
 .btn_sendRequest{
     background: none;
     border: none;
-    border-bottom: 2px solid linear-gradient(to right, red, purple);
+    border-bottom: 2px linear-gradient(to right, red, purple);
 }
 .text_sendRqust{
     background: -webkit-linear-gradient(	#0ac3d0 , #953797 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: calc(10px + 0.5vw);
-    font-family: montserrat-extrabold;
+    font-size: calc(10px + 0.7vw);
+    font-family: montserrat-light;
+    letter-spacing: -0.1vw;
 }

@@ -1,27 +1,26 @@
 .devFondp2{
     background-color: white;
     border-radius: 1vw;
-    margin-bottom: 7vmax;
+    margin-bottom: 14vmax;
 }
 .devFondp2Img{
-    width: 4vw;
+    width: 4vmax;
     padding-top: 10.4vw;
     padding-bottom: 3.1vw;
     margin-left: 7.2vw;
 }
 .devFondp2Pera {
-    font-size: 1.15vw;
+    font-size: calc(15px + 1.15vw);
     color: #adadad;
     font-family: montserrat-light;
     margin-left: 7.2vw;
     margin-right: 3vw;
     letter-spacing: 0.25vw;
-    line-height: 3.7vw;
     padding-bottom: 3.1vw;
 }
 .devFondp2Prof{
-    width: 4vw;
-    margin-left: calc(-5px + 1.2vw);
+    width: calc(25px + 4vmax);
+    margin-left: calc(-25px + 1.2vw);
 }
 .devFond1{
     margin-bottom: 3.1vw;
@@ -30,13 +29,13 @@
     color: #303030;
     font-family: montserrat-extrabold;
     margin-top: calc(5px + 0.3vw);
-    font-size: 1.15vw;
+    font-size: calc(15px + 0.5vw);
 }
 .devFondp2comp{
     color: black;
     font-family: montserrat-light;
-    font-size: 0.7vw;
-    margin-top: -1vw;
+    font-size: calc(10px + 0.2vw);
+    margin-top: calc(-10px - 0.5vw);
 }
 .imgDev{
     padding: 0vw;

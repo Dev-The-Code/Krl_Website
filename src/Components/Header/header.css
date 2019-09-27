@@ -1,4 +1,4 @@
-.nav_bTnTeXt{
+/* .nav_bTnTeXt{
     font-size: calc(10px + 1vw);
     font-family: montserrat-extrabold;
     background: none;
@@ -8,7 +8,19 @@
 .btNCenter{
     text-align: center;
 }
+.btNCenter_MoBB{
+    text-align: center;
+    padding-bottom: 9vw;
+}
 .naVBar_aliGN{
     padding: 2vw;
     box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
 }
+.logO_MoB{
+    width: calc(10px + 40vw);
+    margin-top: 2vw;
+}
+.menU_MoB{
+    width: calc(10px + 2vw);
+    margin-top: 2vw;    
+} */

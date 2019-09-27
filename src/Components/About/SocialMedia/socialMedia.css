@@ -6,7 +6,11 @@
     font-size: calc(10px + 1.9vw);
     font-family: montserrat-extrabold;
 }
-
+.sm2_MoB{
+    font-size: 7vw;
+    font-family: montserrat-extrabold;
+    margin-top: 8vw;
+}
 
 .social_lst{
     padding-left: 0;

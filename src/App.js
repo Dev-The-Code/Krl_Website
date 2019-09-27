@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './App.css';
 import Contact from './Components/ContactPage/contact';
 import Blog from './Components/Blog/blogMain';
@@ -15,6 +14,7 @@ import Header from './Components/Header/header';
 function App() {
   return (
     <div>
+
       <Route />
     </div>
   );

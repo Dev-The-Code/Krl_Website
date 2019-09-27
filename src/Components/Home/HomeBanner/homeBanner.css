@@ -1,45 +1,66 @@
 .rAw_PadD{
-    padding-bottom: 15vw;
-    padding-top: 5vw;
+    padding-bottom: 6vw;
 }
-.dot_imgBaner{
-    position: absolute;
-    width: 70%;
-}
+
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .Banerr_texxt{
         font-family: montserrat-extrabold;
         font-size: calc(12px + 4.5vw);
         color: #303030;
         margin-left: 3vw;
-        margin-top: 10vw;
+        margin-top: 37vw;
+    }
+    .dot_imgBaner{
+        position: absolute;
+        width: 33vw;
+        margin-left: 37vw;
+        margin-top: 26vw;
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .Banerr_texxt{
         font-family: montserrat-extrabold;
-        font-size: calc(12px + 3vw);
+        font-size: calc(12px + 5vw);
         color: #303030;
-        margin-left: -12vw;
-        margin-top: 19vw;
+        margin-left: -23vw;
+        margin-top: 10vw;
+        line-height: 7vw;
+        letter-spacing: -0.2vw;
+    }
+    .dot_imgBaner{
+        position: absolute;
+        width: 25vw;
+        margin-left: 7vw;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .Banerr_texxt{
         font-family: montserrat-extrabold;
-        font-size: calc(12px + 4.5vw);
+        font-size: calc(12px + 5.5vw);
         color: #303030;
-        margin-left: -22vw;
-        margin-top: 12vw;
+        margin-left: -24vw;
+        margin-top: 10vw;
+        line-height: 6.5vmax;
+        letter-spacing: -0.2vmax;
+    }
+    .dot_imgBaner{
+        position: absolute;
+        width: 25vw;
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .Banerr_texxt{
         font-family: montserrat-extrabold;
-        font-size: calc(12px + 4.5vw);
+        font-size: calc(12px + 5.5vw);
         color: #303030;
-        margin-left: -21vw;
+        margin-left: -23.6vw;
         margin-top: 10vw;
+        line-height: 6.5vmax;
+        letter-spacing: -0.2vmax;
+    }
+    .dot_imgBaner{
+        position: absolute;
+        width: 25vw;
     }
 }
 @media only screen and (min-device-width : 1600px) {
@@ -47,7 +68,11 @@
         font-family: montserrat-extrabold;
         font-size: calc(12px + 4.5vw);
         color: #303030;
-        margin-left: -25vw;
+        margin-left: -24vw;
         margin-top: 7vw;
+    }
+    .dot_imgBaner{
+        position: absolute;
+        width: 25vw;
     }
 }

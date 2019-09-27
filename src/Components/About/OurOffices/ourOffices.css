@@ -1,6 +1,6 @@
 .raw_background{
     background-color: white;
-    padding-top: 5vw;
+    padding-top: 4vw;
     /* height: 37vw; */
     
 }
@@ -8,6 +8,14 @@
     background-color: #f7f7f7;
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.10);
     border-radius: 20px;
+    padding-bottom: 1vw;
+}
+.back_divColor_moB{
+    background-color: #f7f7f7;
+    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.10);
+    border-radius: 20px;
+    padding-bottom: 1vw;
+    margin-bottom: 10vw;
 }
 .locat_office{
     width: 17.5vw;
@@ -43,10 +51,14 @@
 .background_office{
     padding-top: 5vw;
 }
-.off_head{
-    font-size: calc(12px + 1.9vw);
+
+.off_head_Mob{
+    font-size: 7vw;
     font-family: montserrat-extrabold;
     color: black;
+    padding-bottom: 10vw;
+    margin-left: -8vw;
+    margin-top: -6vw;
 }
 .demo{
     color:white;
@@ -95,74 +107,33 @@
     padding-right: 0px;
 }
 @media only screen and (min-device-width : 360px) and (max-device-width : 767px) {
-    .back_color_arr{
-        background-color: #992C8C;
-        color:white;
-        padding: 50px;
-    
-    }
-    .back_color_tus{
-        background-color: #C7266C;
-        color:white;
-        padding: 50px;
-    }
-    .back_color_khi{
-        background-color: #1FC4BF;
-        color:white;
-        padding: 50px;
+    .off_head{
+        font-size: calc(12px + 1.9vw);
+        font-family: montserrat-extrabold;
+        color: black;
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
-    .back_color_arr{
-        background-color: #992C8C;
-        color:white;
-        padding: 35px;
-    
-    }
-    .back_color_tus{
-        background-color: #C7266C;
-        color:white;
-        padding: 35px;
-    }
-    .back_color_khi{
-        background-color: #1FC4BF;
-        color:white;
-        padding: 35px;
+
+    .off_head{
+        font-size: calc(12px + 1.7vw);
+        font-family: montserrat-extrabold;
+        color: black;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
-    .back_color_arr{
-        background-color: #992C8C;
-        color:white;
-        padding: 50px;
-    
-    }
-    .back_color_tus{
-        background-color: #C7266C;
-        color:white;
-        padding: 50px;
-    }
-    .back_color_khi{
-        background-color: #1FC4BF;
-        color:white;
-        padding: 50px;
+
+    .off_head{
+        font-size: calc(12px + 1.9vw);
+        font-family: montserrat-extrabold;
+        color: black;
     }
 }
 @media only screen and (min-device-width : 1366px){
-    .back_color_arr{
-        background-color: #992C8C;
-        color:white;
-        padding: 50px;
-    
-    }
-    .back_color_tus{
-        background-color: #C7266C;
-        color:white;
-        padding: 50px;
-    }
-    .back_color_khi{
-        background-color: #1FC4BF;
-        color:white;
-        padding: 50px;
+
+    .off_head{
+        font-size: calc(12px + 1.9vw);
+        font-family: montserrat-extrabold;
+        color: black;
     }
 }

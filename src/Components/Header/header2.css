@@ -1,9 +1,61 @@
 .logo{
     width: calc(10px + 13.9vw);
 }
-.menu{
-    width: calc(10px + 0.9vw);
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .menu{
+        width: calc(10px + 1.5vw);
+        margin-left: 3.3vw;
+    }
+    .loGo_devv{
+        margin-bottom: 3rem!important;
+        margin-top: 3rem!important;
+        margin-left: 1rem!important;
+    }
 }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .menu{
+        width: calc(10px + 1.5vw);
+        margin-left: 3.3vw;
+    }
+    .loGo_devv{
+        margin-bottom: 3rem!important;
+        margin-top: 3rem!important;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .menu{
+        width: calc(10px + 1.5vw);
+        margin-left: 4.2vw;
+    }
+    .loGo_devv{
+        margin-bottom: 3rem!important;
+        margin-top: 3rem!important;
+        
+    }
+}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .menu{
+        width: calc(10px + 1.5vw);
+        margin-left: 4.1vw;
+    }
+    .loGo_devv{
+        margin-bottom: 3rem!important;
+        margin-top: 3rem!important;
+    }
+}
+@media only screen and (min-device-width : 1600px) {
+    .menu{
+        width: calc(10px + 1.5vw);
+        margin-left: 4.3vw;
+    }
+    .loGo_devv{
+        margin-bottom: 3rem!important;
+        margin-top: 3rem!important;
+        margin-left: 1rem!important;
+    }
+}
+
 .menu_List{
     list-style-type: none;
     display: flex;
@@ -54,3 +106,39 @@
     font-size: 60px;
   }
  
+{/*Header main CSS*/}
+
+
+  .nav_bTnTeXt{
+    font-size: calc(10px + 1vw);
+    font-family: montserrat-extrabold;
+    background: none;
+    border:none;
+   
+}
+.btNCenter{
+    text-align: center;
+}
+.btNCenter_MoBB{
+    text-align: center;
+    padding-bottom: 9vw;
+}
+.naVBar_aliGN{
+    padding: 2vw;
+    box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
+}
+.logO_MoB{
+    width: calc(10px + 40vw);
+    margin-top: 2vw;
+}
+.menU_MoB{
+    width: calc(10px + 2vw);
+    margin-top: 2vw;    
+}  
+
+.texTt_bottom{
+    border-top: 3px solid black;
+    margin-left: 1.7vw;
+    margin-top: 0.5vw;
+    width: 3vw;
+}

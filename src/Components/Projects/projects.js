@@ -116,7 +116,7 @@ class Projects extends React.Component {
                 projctHedng="GFAhedng" 
                 hed={GFAHeading} 
                 hed1={GFAHeadingBr}
-                projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
+                projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
                 projctPera="GFApera"
 
                 seeAerro= {devPeraImg}
@@ -128,7 +128,7 @@ class Projects extends React.Component {
                 projctHedng="Drenthedng"
                 hed={DrentHeading}
                 hed1={DrentHeadingBr}
-                projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
+                projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
                 projctPera="GFApera"
 
                 seeAerro= {devPeraImg}
@@ -142,7 +142,7 @@ class Projects extends React.Component {
                 projctHedng="GFAhedng" 
                 hed={GFAHeading} 
                 hed1={GFAHeadingBr}
-                projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
+                projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
                 projctPera="GFApera"
                 
                 seeAerro= {devPeraImg}
@@ -154,7 +154,7 @@ class Projects extends React.Component {
                 projctHedng="Drenthedng"
                 hed={DrentHeading}
                 hed1={DrentHeadingBr}
-                projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
+                projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
                 projctPera="GFApera"
                 
                 seeAerro= {devPeraImg}
@@ -166,7 +166,7 @@ class Projects extends React.Component {
                 projctHedng="Drenthedng"
                 hed={DrentHeading}
                 hed1={DrentHeadingBr}
-                projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
+                projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
                 projctPera="GFApera"
                 
                 seeAerro= {devPeraImg}
@@ -193,7 +193,7 @@ class Projects extends React.Component {
 
                 {/*mobile, ipad visible*/}
                 <ProjectContainer projctBox='d-block d-sm-block d-md-block d-xl-none d-lg-none ADB_BgImgSmMd' 
-                projctHedng="ADBhedng"
+                projctHedng="ADBhedngSmMd"
                 hed={ADBHeading}
                 hed1={ADBHeadingBr}
                 projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChildSmMd"
@@ -220,7 +220,7 @@ class Projects extends React.Component {
                 />
                 {/*mobile, ipad visible*/}
                 <ProjectContainer projctBox='d-block d-sm-block d-md-block d-xl-none d-lg-none DPW_BgImg' 
-                projctHedng="ADBhedng"
+                projctHedng="ADBhedngSmMd"
                 hed={DPWHeading}
                 hed1={DPWHeadingBr}
                 projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 DPW_BgChildSmMd"
@@ -247,7 +247,7 @@ class Projects extends React.Component {
                 />
                 {/*mobile, ipad visible*/}
                 <ProjectContainer projctBox='d-block d-sm-block d-md-block d-xl-none d-lg-none ODW_BgImg' 
-                projctHedng="ADBhedng"
+                projctHedng="ADBhedngSmMd"
                 hed={ODSHeading}
                 hed1={ODSHeadingBr}
                 projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ODW_BgChildSmMd"
@@ -274,7 +274,7 @@ class Projects extends React.Component {
                 />
                 {/*mobile, ipad visible*/}
                 <ProjectContainer projctBox='d-block d-sm-block d-md-block d-xl-none d-lg-none ODW_BgImg' 
-                projctHedng="ADBhedng"
+                projctHedng="ADBhedngSmMd"
                 hed={ODSHeading}
                 hed1={ODSHeadingBr}
                 projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ODW_BgChildSmMd"
@@ -301,7 +301,7 @@ class Projects extends React.Component {
                 />
                 {/*mobile, ipad visible*/}
                 <ProjectContainer projctBox='d-block d-sm-block d-md-block d-xl-none d-lg-none ODW_BgImg' 
-                projctHedng="ADBhedng"
+                projctHedng="ADBhedngSmMd"
                 hed={ODSHeading}
                 hed1={ODSHeadingBr}
                 projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ODW_BgChildSmMd"

@@ -85,9 +85,9 @@ class OurOffices extends Component {
             <div className="col-1"></div>
             <div className="col-9  raw_background">
               <div className="col-12">
-                <h4 className="off_head">Offices</h4>
+                <h4 className="off_head_Mob">Offices</h4>
               </div>
-              <div className="col-12 back_divColor">
+              <div className="col-12 back_divColor_moB">
                 <OfficesContainer
                   ariHead={Ari}
                   img_Stylig='local_imgOffice'
@@ -100,7 +100,7 @@ class OurOffices extends Component {
                 />
               </div>
               <br />
-              <div className="col-12 back_divColor">
+              <div className="col-12 back_divColor_moB">
                 <OfficesContainer
                   ariHead={khi}
                   img_Stylig='local_imgOffice'
@@ -113,7 +113,7 @@ class OurOffices extends Component {
                 />
               </div>
               <br />
-              <div className="col-12 back_divColor">
+              <div className="col-12 back_divColor_moB">
                 <OfficesContainer
                   ariHead={Tuc}
                   img_Stylig='local_imgOffice'

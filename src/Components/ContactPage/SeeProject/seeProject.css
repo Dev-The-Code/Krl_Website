@@ -5,13 +5,14 @@
  .SEE_backColor{
     background-color: #f7f7f7;
     padding-top: 8vw;
-    padding-bottom: 10vw;
+    padding-bottom: 7vw;
 } 
 .se_text{
-    color: 	#C0C0C0;
+    color: #C0C0C0;
     font-size: calc(10px + 0.5vw);
-    font-family: montserrat-light;
+    font-family: montserrat-extrabold;
     font-weight: 700;
+    margin-bottom: -0.6vw;
 }
 .large_text{
     color: black;
@@ -19,9 +20,14 @@
     font-family: montserrat-extrabold;
 }
 .arrowRight1{
+    margin-top: calc(2.9em + -0.1vmax);
+    width: 7vw;
+    margin-left: 2vw;
+}
+.serviceArrowRight1{
     margin-top: calc(2.9em + 0.9vmax);
     width: 10vw;
-    margin-left: 2vw;
+    margin-left: calc(-2em - -6vw);
 }
 .proSeeFotr{
     background-color: #f7f7f7;
@@ -29,10 +35,11 @@
     padding-bottom: 8vw;
 }
 .seProFotr_text{
-    color: 	#adadad;
+    color: #adadad;
     font-size: calc(10px + 0.5vw);
     font-family: montserrat-extrabold;
     font-weight: 700;
+    margin-bottom: -0.6vw;
 }
 .largeProFotr_text{
     color: #303030;

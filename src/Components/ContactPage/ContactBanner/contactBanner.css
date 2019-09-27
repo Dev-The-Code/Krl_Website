@@ -15,23 +15,25 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .baner_Text{
         color: 	#303030;
-        font-size: calc(12px + 4.4vw);
+        font-size: calc(12px + 3.4vw);
         font-family: montserrat-extrabold;
         text-align: center;
+        margin-left: -4.3vw;
     }
     .backk_Text{
         color: #ffffff;
-        font-size: calc(12px + 4.4vw);
+        font-size: calc(12px + 3.4vw);
         font-family: montserrat-extrabold;
         margin-left: -1.4vw;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .baner_Text{
-        color: 	#303030;
-        font-size: calc(12px + 4.6vw);
+        color: #303030;
+        font-size: calc(12px + 4.5vw);
         font-family: montserrat-extrabold;
-        text-align: center;
+        text-align: left;
+        margin-left: -1.7vw;
     }
     .backk_Text{
         color: #ffffff;
@@ -40,12 +42,13 @@
         margin-left: -1.4vw;
     }
 }
-@media only screen and (min-device-width : 1366px) {
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px)  {
     .baner_Text{
-        color: 	#303030;
+        color: #303030;
         font-size: calc(12px + 4.6vw);
         font-family: montserrat-extrabold;
-        text-align: center;
+        text-align: left;
+        margin-left: -1.5vw;
     }
     .backk_Text{
         color: #ffffff;
@@ -53,6 +56,29 @@
         font-family: montserrat-extrabold;
         margin-left: -1.4vw;
     }
+}
+@media only screen and (min-device-width : 1600px) {
+    .baner_Text{
+        color: #303030;
+        font-size: calc(12px + 4.6vw);
+        font-family: montserrat-extrabold;
+        text-align: left;
+    }
+    .backk_Text{
+        color: #ffffff;
+        font-size: calc(12px + 4.6vw);
+        font-family: montserrat-extrabold;
+        margin-left: -1.4vw;
+    }
+}
+.rawWW_BOtop{
+    padding-top: 8vw;
+    margin-bottom: 10vw;
+}
+.whitEArow{
+    height: 6vw;
+    margin-left: 2vw;
+    margin-top: -0.5vw;
 }
 .backkMOB_Textblck{
     color: #303030;
@@ -76,7 +102,9 @@
    -o-background-size: cover;
    background-size: cover;
    background-position-x: center;
-   padding-top: 19vw;
+   padding-top: 15vw;
+   display: inline-flex;
+   padding-bottom: 6vw;
 }
 .backMob_baner{
     background-image: url("../../../Assets/Images/mobile.png");

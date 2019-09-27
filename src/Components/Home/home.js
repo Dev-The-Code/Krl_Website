@@ -45,6 +45,8 @@ class Home extends React.Component {
           para_ClaSs='para_Textt'
           descrip_Text='KRL Creatives covers you for all your digital needs your brand needs to serve your audience well'
           mOR_texT='We design, develop and produce'
+          bigGerText='KRL Creatives covers you for all your digital needs your brand needs to serve your audience well'
+          bigGerInSmall='We design, develop and produce'
         /><br /><br />
 
 
@@ -56,7 +58,7 @@ class Home extends React.Component {
             <h2 className="heaD_font">Services</h2>
           </div>
         </div>
-        <Mainservice /><br /><br />
+        <Mainservice />
 
 
         {/*Project Page*/}

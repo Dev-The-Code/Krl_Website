@@ -5,10 +5,7 @@
 .Ocv1{
     text-align: right;
 }
-.Ocv2{
-    font-size: calc(10px + 2.8vw);
-    font-family: montserrat-extrabold;
-}
+
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .onColor{
@@ -22,50 +19,97 @@
         margin-top: -1.8vw;
     }
     .Ocv3{
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-image: url(../../../Assets/Images/acf.png);
+        background-size: cover;
+        background-position-x: center;
         background-color: #f2f2f2;
-        height: 22vw;
+        height: 24.5vw;
         box-shadow: 0px 2px 1vw rgba(0, 0 ,0 , 0.18);
         border-radius: 2vw;
-        margin-top: 2vw;
+        margin-top: 1.5vw;
+    }
+    .Ocv2{
+        font-size: calc(12px + 1.9vw);
+        font-family: montserrat-extrabold;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .onColor{
         color: #adadad;
-        margin-top: -0.5vw;
+        margin-top: -0.4vw;
+        font-size: calc(12px + 0.4vw);
     }
     .Ocv3{
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-image: url(../../../Assets/Images/acf.png);
+        background-size: cover;
+        background-position-x: center;
         background-color: #f2f2f2;
         height: 21.5vw;
         box-shadow: 0px 2px 1vw rgba(0, 0 ,0 , 0.18);
         border-radius: 2vw;
         margin-top: 1.5vw;
     }
+    .Ocv2{
+        font-size: calc(12px + 1.9vw);
+        font-family: montserrat-extrabold;
+        margin-top: 0.5vw;
+    }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .onColor{
         color: #adadad;
-        margin-top: -0.3vw;
+        margin-top: -0.2vw;
+        font-size: calc(12px + 0.4vw);
     }
     .Ocv3{
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-image: url(../../../Assets/Images/acf.png);
+        background-size: cover;
+        background-position-x: center;
         background-color: #f2f2f2;
-        height: 20vw;
+        height: 20.5vw;
         box-shadow: 0px 2px 1vw rgba(0, 0 ,0 , 0.18);
         border-radius: 2vw;
-        margin-top: 1vw;
+        margin-top: 1.5vw;
     }
+    .Ocv2{
+        font-size: calc(12px + 1.9vw);
+        font-family: montserrat-extrabold;
+        margin-top: 0.5vw;
+}
+    
 }
 @media only screen and (min-device-width : 1600px) {
     .onColor{
         color: #adadad;
-        margin-top: 1.5vw;
+        margin-top: 1vw;
+        font-size: calc(12px + 0.6vw);
     }
     .Ocv3{
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-image: url(../../../Assets/Images/acf.png);
+        background-size: cover;
+        background-position-x: center;
         background-color: #f2f2f2;
-        height: 20vw;
+        height: 20.5vw;
         box-shadow: 0px 2px 1vw rgba(0, 0 ,0 , 0.18);
         border-radius: 2vw;
         margin-top: 1.5vw;
+    }
+    .Ocv2{
+        font-size: calc(12px + 1.9vw);
+        font-family: montserrat-extrabold;
+        margin-top: 0.6vw;
     }
 }
 .onColor:hover {
@@ -82,12 +126,30 @@
     color: red;
     cursor: pointer;
 }
+.onColor_mob_emp{
+    color: red;
+    font-family: montserrat-light;
+    font-size: 5vw;
+    margin-top: 4.5vw;
+}
 .Ocv2_mob{
-    font-size: calc(10px + 3.8vw);
+    font-size: 7vw;
     font-family: montserrat-extrabold;
     text-align: center;
+    padding-top: 10vw;
 }
 .Ocv3_mob{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-image: url(../../../Assets/Images/acf.png);
+    background-size: cover;
+    background-position-x: center;
     background-color: #f2f2f2;
+    height: 20.5vw;
+    box-shadow: 0px 2px 1vw rgba(0, 0 ,0 , 0.18);
     height: 40.5vw;
+    margin-left: -4.5vw;
+    width: 83.5vw;
+    border-radius: 3vw;
 }
