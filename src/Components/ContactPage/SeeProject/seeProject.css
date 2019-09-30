@@ -14,6 +14,15 @@
     font-weight: 700;
     margin-bottom: -0.6vw;
 }
+
+.se_text_cOnt{
+    color: #C0C0C0;
+    font-size: calc(10px + 0.5vw);
+    font-family: montserrat-extrabold;
+    font-weight: 700;
+    margin-bottom: -0.6vw;
+}
+
 .large_text{
     color: black;
     font-size: calc(15px + 3vw);
@@ -24,6 +33,198 @@
     width: 7vw;
     margin-left: 2vw;
 }
+
+.ReW_SerVice{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .arrowRight1_hoMe{
+        margin-top: calc(2.9em + -1vmax);
+        width: 11vw;
+        margin-left: -11vw;
+    }
+    .arrowRight1_aboUt{
+        margin-top: calc(2.9em + -1vmax);
+        width: 11vw;
+        margin-left: -11vw;
+    }
+    .RwO_aboUT{
+        margin-left: 8vw;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+    .ReW_home{
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+    .arrowRight1_ProjeCT{
+        margin-top: calc(2.9em + -1vmax);
+        width: 11vw;
+        margin-left: 4vw;
+    }
+    .higH_TextContact{
+        color: black;
+        font-size: calc(15px + 0.6vw);
+        font-family: montserrat-extrabold;
+        letter-spacing: 0.1vw;
+    }
+    .arrowRight1_ConTact{
+        margin-top: calc(2.9em + 0.9vmax);
+        width: 15vw;
+        margin-left: 0vw;
+    }
+    .rEw_conT{
+        margin-left: 1.7vw;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .arrowRight1_hoMe{
+        margin-top: calc(2.9em + -0.1vmax);
+        width: 7vw;
+        margin-left: 2vw;
+    }
+    .arrowRight1_aboUt{
+        margin-top: calc(2.9em + -0.1vmax);
+        width: 7vw;
+        margin-left: 2vw;
+    }
+    .RwO_aboUT{
+
+    }
+    .ReW_home{
+
+    }
+    .arrowRight1_ProjeCT{
+        margin-top: calc(2.9em + -0.1vmax);
+        width: 7vw;
+        margin-left: 2vw;
+    }
+    .higH_TextContact{
+        color: black;
+        font-size: calc(15px + 2vw);
+        font-family: montserrat-extrabold;
+    }
+    .arrowRight1_ConTact{
+        margin-top: calc(2.9em + 2.9vmax);
+        width: 7vw;
+        margin-left: -2vw;
+    }
+    .rEw_conT{
+        margin-left: -1.3vw;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .arrowRight1_hoMe{
+        margin-top: calc(2.9em + -0.1vmax);
+        width: 7vw;
+        margin-left: 2vw;
+    }
+    .arrowRight1_aboUt{
+        margin-top: calc(2.9em + -0.1vmax);
+        width: 7vw;
+        margin-left: 2vw;
+    }
+    .RwO_aboUT{
+        
+    }
+    .ReW_home{
+
+    }
+    .arrowRight1_ProjeCT{
+        margin-top: calc(2.9em + -0.1vmax);
+        width: 7vw;
+        margin-left: 2vw;
+    }
+    .higH_TextContact{
+        color: black;
+        font-size: calc(15px + 2.8vw);
+        font-family: montserrat-extrabold;
+    }
+    .arrowRight1_ConTact{
+        margin-top: calc(2.9em + 4.7vmax);
+        width: 7vw;
+        margin-left: -1vw;
+    }
+    .rEw_conT{
+        margin-left: -1.3vw;
+    }
+}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .arrowRight1_hoMe{
+        margin-top: calc(2.9em + -0.1vmax);
+        width: 7vw;
+        margin-left: 2vw;
+    }
+    .arrowRight1_aboUt{
+        margin-top: calc(2.9em + -0.1vmax);
+        width: 7vw;
+        margin-left: 2vw;
+    }
+    .RwO_aboUT{
+        
+    }
+    .ReW_home{
+
+    }
+    .arrowRight1_ProjeCT{
+        margin-top: calc(2.9em + -0.1vmax);
+        width: 7vw;
+        margin-left: 2vw;
+    }
+    .higH_TextContact{
+        color: black;
+        font-size: calc(15px + 3vw);
+        font-family: montserrat-extrabold;
+    }
+    .arrowRight1_ConTact{
+        margin-top: calc(2.9em + 4.8vmax);
+        width: 7vw;
+        margin-left: -3vw;
+    }
+    .rEw_conT{
+        margin-left: -1.3vw;
+    }
+}
+@media only screen and (min-device-width : 1600px){
+    .arrowRight1_hoMe{
+        margin-top: calc(2.9em + -0.1vmax);
+        width: 7vw;
+        margin-left: 2vw;
+    }
+    .arrowRight1_aboUt{
+        margin-top: calc(2.9em + -0.1vmax);
+        width: 7vw;
+        margin-left: 2vw;
+    }
+    .RwO_aboUT{
+        
+    }
+    .ReW_home{
+
+    }
+    .arrowRight1_ProjeCT{
+        margin-top: calc(2.9em + -0.1vmax);
+        width: 7vw;
+        margin-left: 2vw;
+    }
+    .higH_TextContact{
+        color: black;
+        font-size: calc(15px + 3vw);
+        font-family: montserrat-extrabold;
+    }
+    .arrowRight1_ConTact{
+        margin-top: calc(2.9em + 4.2vmax);
+        width: 8vw;
+        margin-left: -8vw;
+    }
+    .rEw_conT{
+        margin-left: -1.3vw;
+    }
+}
+
 .serviceArrowRight1{
     margin-top: calc(2.9em + 0.9vmax);
     width: 10vw;

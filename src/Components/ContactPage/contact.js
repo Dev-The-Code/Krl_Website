@@ -6,18 +6,22 @@ import OurOffice from '../About/OurOffices/ourOffices';
 import Header2 from '../Header/header2';
 
 class Contact extends React.Component {
-
+  componentWillMount() {
+    let data = this.props.location.pathname;
+    let routName;
+    routName = data.slice(1);
+    routName = routName.charAt(0).toUpperCase() + routName.slice(1);
+    //  console.log(routName,'sss');
+    this.setState({ headerPath: routName });
+  }
   render() {
+    const { headerPath } = this.state
     return (
       <div>
-        <Header2 />
+        <Header2 headerPath={headerPath} />
         <ContBanner />
 
-        <br /><br />
-
         <ReqQoute />
-
-        <br /><br /><br /><br />
 
         <OurOffice
           backColor='row background_office'
@@ -25,18 +29,17 @@ class Contact extends React.Component {
           decripText='demo_cont'
         />
 
-        <br /><br /><br />
-
         <SeeProject
           seeBckColr="row footer_contact"
+          roWalign='row rEw_conT'
           colSetText='col-7 col-sm-8 col-md-8 col-lg-8 col-xl-8'
           seeText='See projects'
-          se_Text='ml-xl-1 se_text'    /*class css*/
+          se_Text='ml-xl-1 se_text_cOnt'    /*class css*/
           lrgText="Can't Make Your Mind?"
-          lgBrText="See our projects!"
-          se_Text1='large_text'  /*class css*/
-          colSetArrow='col-5 col-sm-4 col-md-4 col-lg-4 col-xl-4'
-          arrow_Right='arrowRight1'
+          lgBrText="See some of our projects"
+          se_Text1='higH_TextContact'  /*class css*/
+          colSetArrow='col-5 col-sm-4 col-md-4 col-xl-4'
+          arrow_Right='arrowRight1_ConTact'
         />
       </div>
 

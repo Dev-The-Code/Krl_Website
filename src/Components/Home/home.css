@@ -122,13 +122,13 @@
     font-size: calc(10px + 0.8vw);
     color: #303030;
 }
-.vieW_btn{
+/* .vieW_btn{
     background-color: #f7f7f7;
     height: 9vmax;
     border-radius: 1vw;
     margin-bottom: 12vmax;
-    margin-left: -1vw;
-}
+    margin-left: -2.3vw;
+} */
 .raW_styl{
     width: 26vw;
     margin-left: -1vw;
@@ -139,4 +139,52 @@
     font-family: montserrat-extrabold;
     color: black;
     padding-bottom: 3.2vw;
+}
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .vieW_btn {
+        background-color: #f7f7f7;
+        height: 9vmax;
+        border-radius: 1vw;
+        margin-bottom: 12vmax;
+        
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .vieW_btn {
+        background-color: #f7f7f7;
+        height: 9vmax;
+        border-radius: 1vw;
+        margin-bottom: 12vmax;
+        margin-top: 17vw;
+        /* margin-left: -2.3vw; */
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .vieW_btn {
+        background-color: #f7f7f7;
+        height: 9vmax;
+        border-radius: 1vw;
+        margin-bottom: 12vmax;
+        margin-left: -2.3vw;
+    }
+}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .vieW_btn {
+        background-color: #f7f7f7;
+        height: 9vmax;
+        border-radius: 1vw;
+        margin-bottom: 12vmax;
+        margin-left: -2.3vw;
+    }
+}
+@media only screen and (min-device-width : 1600px) {
+    .vieW_btn {
+        background-color: #f7f7f7;
+        height: 9vmax;
+        border-radius: 1vw;
+        margin-bottom: 12vmax;
+        margin-left: -2.3vw;
+    }
 }

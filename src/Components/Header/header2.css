@@ -2,6 +2,7 @@
     width: calc(10px + 13.9vw);
 }
 
+
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .menu{
         width: calc(10px + 1.5vw);
@@ -12,6 +13,13 @@
         margin-top: 3rem!important;
         margin-left: 1rem!important;
     }
+    .header_Textt{
+        margin-top: 5.8vw;
+        margin-right: -11vw;
+        font-size: 4vw;
+        font-family: montserrat-extrabold;
+        color: #adadad;
+    }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .menu{
@@ -21,6 +29,13 @@
     .loGo_devv{
         margin-bottom: 3rem!important;
         margin-top: 3rem!important;
+    }
+    .header_Textt{
+        margin-top: 7vw;
+        margin-right: -5vw;
+        font-size: 1.5vw;
+        font-family: montserrat-extrabold;
+        color: #adadad;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
@@ -33,6 +48,13 @@
         margin-top: 3rem!important;
         
     }
+    .header_Textt{
+        margin-top: 3.8vw;
+        margin-right: -4vw;
+        font-size: calc(1em + 0.1vmax);
+        font-family: montserrat-extrabold;
+        color: #adadad;
+    }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .menu{
@@ -43,6 +65,13 @@
         margin-bottom: 3rem!important;
         margin-top: 3rem!important;
     }
+    .header_Textt{
+        margin-top: 3.3vw;
+        margin-right: -4vw;
+        font-size: calc(1em + 0.1vmax);
+        font-family: montserrat-extrabold;
+        color: #adadad;
+    }
 }
 @media only screen and (min-device-width : 1600px) {
     .menu{
@@ -52,7 +81,13 @@
     .loGo_devv{
         margin-bottom: 3rem!important;
         margin-top: 3rem!important;
-        margin-left: 1rem!important;
+    }
+    .header_Textt{
+        margin-top: 2vw;
+        margin-right: -4vw;
+        font-size: calc(12px + 0.7vw);
+        font-family: montserrat-extrabold;
+        color: #adadad;
     }
 }
 
@@ -76,12 +111,14 @@
     font-family: montserrat-extrabold;
 }
 .logoo_Mob{
-    width: 45vw;
+    width: 37vw;
     margin-top: 5vw;
+    margin-left: 5.2vw;
 }
 .heaD_Mob{
-    width: 10vw;
-    margin-top: 5vw;
+    width: 6vw;
+    margin-top: 6.7vw;
+    margin-left: 6vw;
 }
 .overlay {
     height: 100%;
@@ -99,22 +136,30 @@
     color: #f1f1f1;
   }
   
-  .overlay .closebtn {
+.overlay .closebtn {
     position: relative;
     top: 20px;
     right: 45px;
     font-size: 60px;
-  }
+}
  
-{/*Header main CSS*/}
+/* Header main CSS */
 
 
-  .nav_bTnTeXt{
+.nav_bTnTeXt{
     font-size: calc(10px + 1vw);
     font-family: montserrat-extrabold;
     background: none;
-    border:none;
-   
+    border:none; 
+}
+.nav_bTnTeXt:hover{
+    font-size: calc(10px + 1vw);
+    font-family: montserrat-extrabold;
+    background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border:none; 
+    /* color:	#0ac3d0 to #953797  */
 }
 .btNCenter{
     text-align: center;
@@ -135,10 +180,3 @@
     width: calc(10px + 2vw);
     margin-top: 2vw;    
 }  
-
-.texTt_bottom{
-    border-top: 3px solid black;
-    margin-left: 1.7vw;
-    margin-top: 0.5vw;
-    width: 3vw;
-}

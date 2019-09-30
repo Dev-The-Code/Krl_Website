@@ -16,7 +16,7 @@ class ContactBanner extends Component {
                   <h1 className="baner_Text">Hi! Drop us</h1>
                 </div>
                 <div className="col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7 backgrond_baner">
-                  <h1 className="backk_Text">a line below</h1><img src={WhiteArrow} className="whitEArow"/>
+                  <h1 className="backk_Text">a line below</h1><img src={WhiteArrow} className="whitEArow" />
                 </div>
               </div>
             </div>
@@ -24,13 +24,28 @@ class ContactBanner extends Component {
           </div>
         </div>
         <div className="d-block d-sm-none">
+          <div className="row" style={{ marginTop: '25vw' }}>
+            <div className="col-1"></div>
+            <div className="col-2">
+              <h1 className="backkMOB_Textblck_hi">Hi!</h1>
+            </div>
+            <div className="col-8 backMob_baner">
+              <h1 className="backkMOB_Textblck">Drop us a</h1>
+              <div className="dv_iNlinNE">
+                <h1 className="backkMOB_Text">below.</h1>
+              </div>
+            </div>
+            <div className="col-1"></div>
+            {/* <div className="col-8 backMob_baner">
+              <h1 className="backkMOB_Text">a line below</h1><img src={WhiteArrow} className="whitEArow"/>
+            </div> */}
+          </div>
           <div className="row">
-            <div className="col-6">
-              <h1 className="backkMOB_Textblck">Hi! Drop us</h1>
+            <div className="col-1"></div>
+            <div className="col-2">
+              <h1 className="backkMOB_Textblck_linE">line</h1>
             </div>
-            <div className="col-6 backMob_baner">
-              <h1 className="backkMOB_Text">a line below</h1>
-            </div>
+            <div className="col-9"></div>
           </div>
         </div>
       </div>

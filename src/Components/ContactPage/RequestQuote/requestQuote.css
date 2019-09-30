@@ -1,24 +1,17 @@
-::-webkit-input-placeholder { /* Edge */
-    color: #7a7574;
-}
-:-ms-input-placeholder { /* Internet Explorer */
-    color: #7a7574;
-}
-::placeholder {
-    color: #7a7574;
-}
-@media only screen and (min-device-width : 300px) and (max-device-width : 768px) {
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .head_quote{
         color: white;
         font-family: montserrat-extrabold;
-        font-size: calc(12px + 3vw);
+        font-size: 7vw;
         margin-top: calc(10px + 5vw);
         margin-left: calc(10px + 5vw);
+        margin-bottom: 5vw;     
     }
     .quote_descrip{
         color: white;
         font-family: montserrat-light;
-        font-size: calc(10px + 0.8vw);
+        font-size: 4vw;
         margin-bottom: calc(10px + 25vw);
         margin-left: calc(10px + 5vw);
     } 
@@ -26,34 +19,37 @@
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
-        height: 3vw;
+        border-bottom: 1px solid #e6e6e6;
+        height: 9vw;
+        outline:0;
     }
     .mailCont_input{
         
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
+        border-bottom: 1px solid #e6e6e6;
         margin-top: 6.7vw;
-        height: 3vw;
+        height: 9vw;
+        outline:0;
     }
     .projectt_input{
         
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
+        border-bottom: 1px solid #e6e6e6;
         margin-top: 6.2vw;
-        height: 3vw;
+        height: 9vw;
+        outline:0;
     } 
     .qoute_backColor{
         background-color: #fafafa;
         box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.1);
         position: absolute;
         border-radius: 1vw;
-        padding-top: 2.5vw;
-        padding-bottom: 2.5vw;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
         padding-left: 2.5vw;
         padding-right: 3.5vw;
         margin-left: 33.5vw;
@@ -62,48 +58,53 @@
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
    .head_quote{
-    color: white;
-    font-family: montserrat-extrabold;
-    font-size: calc(12px + 2vw);
-    margin-top: calc(10px + 19vw);
+        color: white;
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 1vw);
+        margin-top: calc(10px + 19vw);
+        margin-left: 2vw;
     }
     .quote_descrip{
         color: white;
         font-family: montserrat-light;
-        font-size: calc(10px + 0.2vw);
+        font-size: 1.1vw;
+        margin-left: 2vw;
     }
     .naam_input{
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
+        border-bottom: 1px solid #e6e6e6;
         height: 3vw;
+        outline:0;
     }
     .mailCont_input{
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
+        border-bottom: 1px solid #e6e6e6;
         margin-top: 2.7vw;
         height: 3vw;
+        outline:0;
     }
     .projectt_input{
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
+        border-bottom: 1px solid #e6e6e6;
         margin-top: 3.2vw;
         height: 3vw;
+        outline:0;
     }
     .qoute_backColor{
         background-color: #fafafa;
         box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.1);
         position: absolute;
         border-radius: 1vw;
-        padding-top: 2.5vw;
-        padding-bottom: 2.5vw;
-        padding-left: 2.5vw;
-        padding-right: 3.5vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
         margin-left: 33.5vw;
         margin-top: 6vw;
     }
@@ -127,32 +128,35 @@
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
+        border-bottom: 1px solid #e6e6e6;
         height: 2.5vw;
+        outline:0;
     }
     .mailCont_input{
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
+        border-bottom: 1px solid #e6e6e6;
         margin-top: 2.7vw;
         height: 2.5vw;
+        outline:0;
     }
     .projectt_input{
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
+        border-bottom: 1px solid #e6e6e6;
         margin-top: 3.2vw;
         height: 2.5vw;
+        outline:0;
     }
     .qoute_backColor{
         background-color: #fafafa;
         box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.1);
         position: absolute;
         border-radius: 1vw;
-        padding-top: 2.5vw;
-        padding-bottom: 2.5vw;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
         padding-left: 2.5vw;
         padding-right: 3.5vw;
         margin-left: 33.5vw;
@@ -164,7 +168,7 @@
         color: white;
         font-family: montserrat-extrabold;
         font-size: calc(12px + 1.9vw);
-        margin-top: calc(10px + 19vw);
+        margin-top: calc(10px + 16.3vw);
         margin-left: 3vw;
     }
     .quote_descrip{
@@ -172,38 +176,42 @@
         font-family: montserrat-light;
         font-size: 1.15vw;
         margin-left: 3vw;
+        margin-top: 3.2vw;
     }
     .naam_input{
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
+        border-bottom: 1px solid #e6e6e6;
         height: 2.5vw;
+        outline:0;
         
     }
     .mailCont_input{
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
+        border-bottom: 1px solid #e6e6e6;
         margin-top: 2.7vw;
         height: 2.5vw;
+        outline:0;
     }
     .projectt_input{
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
+        border-bottom: 1px solid #e6e6e6;
         margin-top: 3.2vw;
         height: 2.5vw;
+        outline:0;
     }
     .qoute_backColor{
         background-color: #fafafa;
         box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.1);
         position: absolute;
         border-radius: 1vw;
-        padding-top: 2.5vw;
-        padding-bottom: 2.5vw;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
         padding-left: 2.5vw;
         padding-right: 3.5vw;
         margin-left: 33.5vw;
@@ -214,9 +222,9 @@
     .head_quote{
         color: white;
         font-family: montserrat-extrabold;
-        font-size: calc(12px + 3vw);
+        font-size: calc(12px + 2vw);
         margin-top: calc(10px + 19vw);
-        margin-left: 1vw;
+        margin-left: 3vw;
     }
     .quote_descrip{
         color: white;
@@ -228,34 +236,37 @@
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
-        height: 3vw;
+        border-bottom: 1px solid #e6e6e6;
+        height: 2.2vw;
+        outline:0;
     }
     .mailCont_input{
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
+        border-bottom: 1px solid #e6e6e6;
         margin-top: 2.7vw;
-        height: 3vw;
+        height: 2.2vw;
+        outline:0;
     }
     .projectt_input{
         width: 100%;
         border: none;
         background: none;
-        border-bottom: 1px solid #8a8883;
+        border-bottom: 1px solid #e6e6e6;
         margin-top: 3.2vw;
-        height: 3vw;
+        height: 2.2vw;
+        outline:0;
     }
     .qoute_backColor{
         background-color: #fafafa;
         box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.1);
         position: absolute;
         border-radius: 1vw;
-        padding-top: 2.5vw;
-        padding-bottom: 2.5vw;
-        padding-left: 2.5vw;
-        padding-right: 3.5vw;
+        padding-top: 2.2vw;
+        padding-bottom: 2.2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
         margin-left: 33.5vw;
         margin-top: 6vw;
     }
@@ -277,15 +288,19 @@
 
 .qoute_backCol_mob{
     background-color: #fafafa;
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.18);
-    border-radius: 1vw;
-    padding: 1.5vw;
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+    border-radius: 3vw;
+    padding-top: 6vw;
+    padding-bottom: 6.5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
     margin-top: -18vw;
-    margin-left: 7vw;
+    margin-left: 7.4vw;
+    margin-bottom: 30vw;
 }
 .backgrund_cont_mob{
     background-image: url("../../../Assets/Images/mailbox.png");
-   border-radius: 7vw;
+    border-radius: 3vw;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -297,16 +312,174 @@
 .cont_requet{
     /* background-color: black; */
 }
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .text_sendRqust{
+        background: -webkit-linear-gradient(	#0ac3d0 , #953797 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: calc(10px + 0.7vw);
+        font-family: montserrat-light;
+        letter-spacing: -0.1vw;
+    }
+    ::-webkit-input-placeholder { /* Edge */
+        color: #5b5b5b;
+        font-size: 4vw;
+    }
+    :-ms-input-placeholder { /* Internet Explorer */
+        color: #5b5b5b;
+        font-size: 4vw;
+    }
+    ::placeholder {
+        color: #5b5b5b;
+        font-size: 4vw;
+    }
+    .hR_LIne{
+        width: 28.3vw;
+        margin-top: 0.2vw;
+        margin-left: -0.5vw;
+        height: 0.1vh;
+        background-image: linear-gradient(to right,#ff9b54 , #ff3b5f);
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .text_sendRqust{
+        background: -webkit-linear-gradient( #0ac3d0 , #953797 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.5vw;
+        font-family: montserrat-light;
+        letter-spacing: -0.1vw;
+        margin-left: -1vw;
+    }
+    ::-webkit-input-placeholder { /* Edge */
+        color: #5b5b5b;
+        font-size: 1.15vw;
+    }
+    :-ms-input-placeholder { /* Internet Explorer */
+        color: #5b5b5b;
+        font-size: 1.15vw;
+    }
+    ::placeholder {
+        color: #5b5b5b;
+        font-size: 1.15vw;
+    }
+    .hR_LIne{
+        width: 9.1vw;
+        margin-top: 0.3vw;
+        margin-left: -0.3vw;
+        height: 0.1vh;
+        background-image: linear-gradient(to right,#ff9b54 , #ff3b5f);
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .text_sendRqust{
+        background: -webkit-linear-gradient(	#0ac3d0 , #953797 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: calc(10px + 0.7vw);
+        font-family: montserrat-light;
+        letter-spacing: -0.1vw;
+    }
+    ::-webkit-input-placeholder { /* Edge */
+        color: #5b5b5b;
+        font-size: 1.15vw;
+    }
+    :-ms-input-placeholder { /* Internet Explorer */
+        color: #5b5b5b;
+        font-size: 1.15vw;
+    }
+    ::placeholder {
+        color: #5b5b5b;
+        font-size: 1.15vw;
+    }
+    .hR_LIne{
+        width: 8.6vw;
+        margin-top: 0.3vw;
+        margin-left: 0.4vw;
+        height: 0.2vh;
+        background-image: linear-gradient(to right,#ff9b54 , #ff3b5f);
+    }
+}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .text_sendRqust{
+        background: -webkit-linear-gradient(	#0ac3d0 , #953797 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: calc(10px + 0.7vw);
+        font-family: montserrat-light;
+        letter-spacing: -0.1vw;
+    }
+    ::-webkit-input-placeholder { /* Edge */
+        color: #5b5b5b;
+        font-size: 1.15vw;
+    }
+    :-ms-input-placeholder { /* Internet Explorer */
+        color: #5b5b5b;
+        font-size: 1.15vw;
+    }
+    ::placeholder {
+        color: #5b5b5b;
+        font-size: 1.15vw;
+    }
+    .hR_LIne{
+        width: 8vw;
+        margin-top: 0.3vw;
+        margin-left: 0.3vw;
+        height: 0.2vh;
+        background-image: linear-gradient(to right,#ff9b54 , #ff3b5f);
+    }
+}
+@media only screen and (min-device-width : 1600px){
+    .text_sendRqust{
+        background: -webkit-linear-gradient(	#0ac3d0 , #953797 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: calc(10px + 0.7vw);
+        font-family: montserrat-light;
+        letter-spacing: -0.1vw;
+    }
+    ::-webkit-input-placeholder { /* Edge */
+        color: #5b5b5b;
+        font-size: 1.15vw;
+    }
+    :-ms-input-placeholder { /* Internet Explorer */
+        color: #5b5b5b;
+        font-size: 1.15vw;
+    }
+    ::placeholder {
+        color: #5b5b5b;
+        font-size: 1.15vw;
+    }
+    .hR_LIne{
+        width: 7.2vw;
+        margin-top: 0.3vw;
+        margin-left: 0vw;
+        height: 0.2vh;
+        background-image: linear-gradient(to right,#ff9b54 , #ff3b5f);
+    }
+}
+
 .btn_sendRequest{
     background: none;
     border: none;
-    border-bottom: 2px linear-gradient(to right, red, purple);
+    /* border-bottom: 2px linear-gradient(to right, red, purple); */
+    margin-top: 3vw;
 }
-.text_sendRqust{
+
+.btn_sendRequest_MOB{
+    background: none;
+    border: none;
+    border-bottom: 2px linear-gradient(to right, red, purple);
+    margin-top: 8vw;
+    margin-left: -2vw;
+}
+.text_sendRqust_MOB{
     background: -webkit-linear-gradient(	#0ac3d0 , #953797 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: calc(10px + 0.7vw);
+    font-size: calc(10px + 1.7vw);
     font-family: montserrat-light;
     letter-spacing: -0.1vw;
 }
+
+

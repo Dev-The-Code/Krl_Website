@@ -9,9 +9,9 @@ import { smart } from '@babel/template';
 
 class Projects extends React.Component {
 
-    constructor(props){
-      super(props);
-      this.state={
+  constructor(props) {
+    super(props);
+    this.state = {
 
       GFAHeading: 'GetFitAthletic',
       GFAHeadingBr: 'Mobile App',
@@ -32,22 +32,29 @@ class Projects extends React.Component {
       headingpera1: 'Rescue',
       headingpera2: ' Mobile App.',
       banFuturPro: 'Featured project',
-
-
       devPeraImg: true,
       devParagraph: false,
-      }
+      ViewPro: true
     }
- 
-    render() {
-      const {GFAHeading, GFAHeadingBr, DrentHeading, DrentHeadingBr, GFAperaas, Drentperaas, ADBHeading, ADBHeadingBr,
-        DPWHeading, DPWHeadingBr, DPWperaas, ODSHeading, ODSHeadingBr, devPeraImg, banrPeragh, banrPeragh1, headingpera, headingpera1,
-        headingpera2, banFuturPro}= this.state
-      return (
-        
-        <div>
-            <Header2 />
-          <div className="row">
+  }
+  componentWillMount() {
+    let data = this.props.location.pathname;
+    let routName ;
+    routName = data.slice(1);
+    routName = routName.charAt(0).toUpperCase() + routName.slice(1);
+   //  console.log(routName,'sss');
+    this.setState({headerPath : routName});
+ }
+
+  render() {
+    const { GFAHeading, GFAHeadingBr, DrentHeading, DrentHeadingBr, GFAperaas, Drentperaas, ADBHeading, ADBHeadingBr,
+      DPWHeading, DPWHeadingBr, DPWperaas, ODSHeading, ODSHeadingBr, devPeraImg, banrPeragh, banrPeragh1, headingpera, headingpera1,
+      headingpera2, banFuturPro, ViewPro, headerPath } = this.state
+    return (
+
+      <div>
+        <Header2 headerPath={headerPath} />
+        <div className="row">
           <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
           <div className="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12">
             {/*hidden mobile tablet ipad */}
@@ -67,15 +74,15 @@ class Projects extends React.Component {
                 banhedng2={headingpera1}
                 devChld1="col-xl-8 col-lg-7 col-md-5 col-sm-5 col-5 banChildDev"
                 devChld2="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 banChildDev1"
-                seeAerro= {devPeraImg}
+                seeAerro={devPeraImg}
                 projctPera1="BanrPera1"
-                pera={GFAperaas} 
+                pera={GFAperaas}
                 proAeroImg="BanPeraimg"
-                
+
                 devChld3="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 banChildDev2"
               />
             </div>
-          
+
             <div className="col-12 col-md-12 col-sm-12 d-lg-none d-xl-none">
               <Banners
                 banrs="row banSmall"
@@ -92,249 +99,510 @@ class Projects extends React.Component {
                 banhedng2={headingpera1}
                 devChld1="col-xl-7 col-lg-7 col-md-5 col-sm-5 col-3 banChildDevSmall"
                 devChld2="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-8 banChildDev1Small"
-                
-                seeAerro= {devPeraImg}
+
+                seeAerro={devPeraImg}
                 projctPera1="BanrPera1"
-                pera={GFAperaas} 
+                pera={GFAperaas}
                 proAeroImg="BanPeraimg"
                 devChld3="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 banChildDev2Small"
               />
             </div>
           </div>
           <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
-            
-              
-              {/*peraChld="childPera"
+
+
+          {/*peraChld="childPera"
                 banPera={banrPeragh}
                 banPera1={banrPeragh1} */}
 
-            <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
-            
-            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12" style={{marginTop: '21vw'}}>
+          <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
 
-              <ProjectContainer projctBox='col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 GFA_BgImg'
-                projctHedng="GFAhedng" 
-                hed={GFAHeading} 
-                hed1={GFAHeadingBr}
-                projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
-                projctPera="GFApera"
+          <div className="d-none d-md-none d-lg-block d-xl-block col-xl-6 col-lg-6" style={{ marginTop: '21vw' }}>
 
-                seeAerro= {devPeraImg}
-                projctPera1="GFApera1"
-                pera={GFAperaas} 
-                proAeroImg="GFAimg"  />
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImg'
+              projctHedng="GFAhedng"
+              hed={GFAHeading}
+              hed1={GFAHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
 
-              <ProjectContainer projctBox='col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 DrentBgImg' 
-                projctHedng="Drenthedng"
-                hed={DrentHeading}
-                hed1={DrentHeadingBr}
-                projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
-                projctPera="GFApera"
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={GFAperaas}
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro} />
 
-                seeAerro= {devPeraImg}
-                projctPera1="GFApera1"
-                pera={Drentperaas}
-                proAeroImg="GFAimg" />
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImg'
+              projctHedng="Drenthedng"
+              hed={DrentHeading}
+              hed1={DrentHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
 
-                <Founder />
-              
-                <ProjectContainer projctBox='col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 GFA_BgImg'
-                projctHedng="GFAhedng" 
-                hed={GFAHeading} 
-                hed1={GFAHeadingBr}
-                projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
-                projctPera="GFApera"
-                
-                seeAerro= {devPeraImg}
-                projctPera1="GFApera1"
-                pera={GFAperaas} 
-                proAeroImg="GFAimg"/>
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={Drentperaas}
+              proAeroImg="GFAimg" 
+              ViewPro={ViewPro}/>
 
-                <ProjectContainer projctBox='col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 DrentBgImg' 
-                projctHedng="Drenthedng"
-                hed={DrentHeading}
-                hed1={DrentHeadingBr}
-                projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
-                projctPera="GFApera"
-                
-                seeAerro= {devPeraImg}
-                projctPera1="GFApera1"
-                pera={Drentperaas}
-                proAeroImg="GFAimg" />
+            <Founder />
 
-                <ProjectContainer projctBox='col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 DrentBgImg' 
-                projctHedng="Drenthedng"
-                hed={DrentHeading}
-                hed1={DrentHeadingBr}
-                projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
-                projctPera="GFApera"
-                
-                seeAerro= {devPeraImg}
-                projctPera1="GFApera1"
-                pera={Drentperaas}
-                proAeroImg="GFAimg" />
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImg'
+              projctHedng="GFAhedng"
+              hed={GFAHeading}
+              hed1={GFAHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
 
-            </div>
-            <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ">
-            
-              {/*mobile, ipad hidden*/}
-              <ProjectContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-10 col-lg-10 ADB_BgImg' 
-                projctHedng="ADBhedng"
-                hed={ADBHeading}
-                hed1={ADBHeadingBr}
-                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
-                projctPera="ADBpera"
-                
-                seeAerro= {devPeraImg}
-                projctPera1="ADBpera1"
-                pera={Drentperaas}
-                proAeroImg="ADBimg"
-                />
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={GFAperaas}
+              proAeroImg="GFAimg" 
+              ViewPro={ViewPro}/>
 
-                {/*mobile, ipad visible*/}
-                <ProjectContainer projctBox='d-block d-sm-block d-md-block d-xl-none d-lg-none ADB_BgImgSmMd' 
-                projctHedng="ADBhedngSmMd"
-                hed={ADBHeading}
-                hed1={ADBHeadingBr}
-                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChildSmMd"
-                projctPera="ADBpera"
-                
-                seeAerro= {devPeraImg}
-                projctPera1="ADBpera1"
-                pera={Drentperaas}
-                proAeroImg="ADBimg"
-                />
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImg'
+              projctHedng="Drenthedng"
+              hed={DrentHeading}
+              hed1={DrentHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
 
-                {/*mobile, ipad hidden*/}
-                <ProjectContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-10 col-lg-10 DPW_BgImg' 
-                projctHedng="ADBhedng"
-                hed={DPWHeading}
-                hed1={DPWHeadingBr}
-                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 DPW_BgChild"
-                projctPera="ADBpera"
-                
-                seeAerro= {devPeraImg}
-                projctPera1="ADBpera1"
-                pera={DPWperaas}
-                proAeroImg="ADBimg"
-                />
-                {/*mobile, ipad visible*/}
-                <ProjectContainer projctBox='d-block d-sm-block d-md-block d-xl-none d-lg-none DPW_BgImg' 
-                projctHedng="ADBhedngSmMd"
-                hed={DPWHeading}
-                hed1={DPWHeadingBr}
-                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 DPW_BgChildSmMd"
-                projctPera="ADBpera"
-                
-                seeAerro= {devPeraImg}
-                projctPera1="ADBpera1"
-                pera={DPWperaas}
-                proAeroImg="ADBimg"
-                />
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={Drentperaas}
+              proAeroImg="GFAimg" 
+              ViewPro={ViewPro}/>
 
-                {/*mobile, ipad hidden*/}
-                <ProjectContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-10 col-lg-10 ODW_BgImg' 
-                projctHedng="ADBhedng"
-                hed={ODSHeading}
-                hed1={ODSHeadingBr}
-                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
-                projctPera="ADBpera"
-                
-                seeAerro= {devPeraImg}
-                projctPera1="ADBpera1"
-                pera={DPWperaas}
-                proAeroImg="ADBimg"
-                />
-                {/*mobile, ipad visible*/}
-                <ProjectContainer projctBox='d-block d-sm-block d-md-block d-xl-none d-lg-none ODW_BgImg' 
-                projctHedng="ADBhedngSmMd"
-                hed={ODSHeading}
-                hed1={ODSHeadingBr}
-                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ODW_BgChildSmMd"
-                projctPera="ADBpera"
-                
-                seeAerro= {devPeraImg}
-                projctPera1="ADBpera1"
-                pera={DPWperaas}
-                proAeroImg="ADBimg"
-                />
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImg'
+              projctHedng="Drenthedng"
+              hed={DrentHeading}
+              hed1={DrentHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
 
-                {/*mobile, ipad hidden*/}
-                <ProjectContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-10 col-lg-10 ODW_BgImg' 
-                projctHedng="ADBhedng"
-                hed={ODSHeading}
-                hed1={ODSHeadingBr}
-                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
-                projctPera="ADBpera"
-                
-                seeAerro= {devPeraImg}
-                projctPera1="ADBpera1"
-                pera={DPWperaas}
-                proAeroImg="ADBimg"
-                />
-                {/*mobile, ipad visible*/}
-                <ProjectContainer projctBox='d-block d-sm-block d-md-block d-xl-none d-lg-none ODW_BgImg' 
-                projctHedng="ADBhedngSmMd"
-                hed={ODSHeading}
-                hed1={ODSHeadingBr}
-                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ODW_BgChildSmMd"
-                projctPera="ADBpera"
-                
-                seeAerro= {devPeraImg}
-                projctPera1="ADBpera1"
-                pera={DPWperaas}
-                proAeroImg="ADBimg"
-                />
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={Drentperaas}
+              proAeroImg="GFAimg" 
+              ViewPro={ViewPro}/>
 
-                {/*mobile, ipad hidden*/}
-                <ProjectContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-10 col-lg-10 ODW_BgImg' 
-                projctHedng="ADBhedng"
-                hed={ODSHeading}
-                hed1={ODSHeadingBr}
-                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
-                projctPera="ADBpera"
-                
-                seeAerro= {devPeraImg}
-                projctPera1="ADBpera1"
-                pera={DPWperaas}
-                proAeroImg="ADBimg"
-                />
-                {/*mobile, ipad visible*/}
-                <ProjectContainer projctBox='d-block d-sm-block d-md-block d-xl-none d-lg-none ODW_BgImg' 
-                projctHedng="ADBhedngSmMd"
-                hed={ODSHeading}
-                hed1={ODSHeadingBr}
-                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ODW_BgChildSmMd"
-                projctPera="ADBpera"
-                
-                seeAerro= {devPeraImg}
-                projctPera1="ADBpera1"
-                pera={DPWperaas}
-                proAeroImg="ADBimg"
-                />
-            
-              
-            
-            </div>
-            <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12"></div>
           </div>
 
-          {/*<SeeProject 
+
+          {/*ipad visible */}
+
+          <div className="d-none d-md-block col-lg-none d-xl-none col-md-5" style={{ marginTop: '21vw' }}>
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgMd'
+              projctHedng="GFAhedng"
+              hed={GFAHeading}
+              hed1={GFAHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={GFAperaas}
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro} />
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMd'
+              projctHedng="Drenthedng"
+              hed={DrentHeading}
+              hed1={DrentHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={Drentperaas}
+              proAeroImg="GFAimg" 
+              ViewPro={ViewPro}/>
+
+            <Founder />
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgMd'
+              projctHedng="GFAhedng"
+              hed={GFAHeading}
+              hed1={GFAHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={GFAperaas}
+              proAeroImg="GFAimg" 
+              ViewPro={ViewPro}/>
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMd'
+              projctHedng="Drenthedng"
+              hed={DrentHeading}
+              hed1={DrentHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={Drentperaas}
+              proAeroImg="GFAimg" 
+              ViewPro={ViewPro}/>
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMd'
+              projctHedng="Drenthedng"
+              hed={DrentHeading}
+              hed1={DrentHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={Drentperaas}
+              proAeroImg="GFAimg" 
+              ViewPro={ViewPro}/>
+
+          </div>
+
+          {/*mobile visible */}
+
+          <div className="d-block d-md-none d-lg-none d-xl-none col-11" style={{ marginTop: '21vw', marginLeft: '4.3vw' }}>
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgMb'
+              projctHedng="GFAhedng"
+              hed={GFAHeading}
+              hed1={GFAHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={GFAperaas}
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro} />
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMb'
+              projctHedng="Drenthedng"
+              hed={DrentHeading}
+              hed1={DrentHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={Drentperaas}
+              proAeroImg="GFAimg" 
+              ViewPro={ViewPro}/>
+
+            <Founder />
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgMb'
+              projctHedng="GFAhedng"
+              hed={GFAHeading}
+              hed1={GFAHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={GFAperaas}
+              proAeroImg="GFAimg" 
+              ViewPro={ViewPro}/>
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMb'
+              projctHedng="Drenthedng"
+              hed={DrentHeading}
+              hed1={DrentHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={Drentperaas}
+              proAeroImg="GFAimg" 
+              ViewPro={ViewPro}/>
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMb'
+              projctHedng="Drenthedng"
+              hed={DrentHeading}
+              hed1={DrentHeadingBr}
+              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={Drentperaas}
+              proAeroImg="GFAimg" 
+              ViewPro={ViewPro}/>
+
+          </div>
+
+
+
+          <div className="col-xl-5 col-lg-5 col-md-5 col-12 ">{/* style={{paddingRight: "0vw"}} */}
+
+            {/*mobile, ipad hidden*/}
+            <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
+              projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ADB_BgImg'
+              projctHedng="ADBhedng"
+              hed={ADBHeading}
+              hed1={ADBHeadingBr}
+              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
+              projctPera="ADBpera"
+
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera={Drentperaas}
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+            />
+
+            {/*ipad visible*/}
+            <div className="row">
+
+              <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none ADB_BgImgSmMd'
+                projctHedng="ADBhedngSmMd"
+                hed={ADBHeading}
+                hed1={ADBHeadingBr}
+                projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ADB_BgChildSmMd"
+                projctPera="ADBpera"
+
+                seeAerro={devPeraImg}
+                projctPera1="ADBpera1"
+                pera={Drentperaas}
+                proAeroImg="ADBimg"
+                ViewPro={ViewPro}
+              />
+
+            </div>
+
+            {/*mobile visible*/}
+            <div className="row">
+
+              <ProjectContainer projctBox='d-block d-sm-none d-md-none d-xl-none d-lg-none col-11 ADB_BgImgMb'
+                projctHedng="ADBhedngMb"
+                hed={ADBHeading}
+                hed1={ADBHeadingBr}
+                projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ADB_BgChildSmMd"
+                projctPera="ADBpera"
+
+                seeAerro={devPeraImg}
+                projctPera1="ADBpera1"
+                pera={Drentperaas}
+                proAeroImg="ADBimg"
+                ViewPro={ViewPro}
+              />
+
+            </div>
+
+
+
+
+
+
+            {/*mobile, ipad hidden*/}
+            <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block d-xl-block"
+              projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 DPW_BgImg'
+              projctHedng="ADBhedng"
+              hed={DPWHeading}
+              hed1={DPWHeadingBr}
+              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 DPW_BgChild"
+              projctPera="ADBpera"
+
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera={DPWperaas}
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+            />
+            {/*ipad visible*/}
+            <ProjectContainer projctBox='d-none d-md-block d-xl-none d-lg-none DPW_BgImg'
+              projctHedng="ADBhedngSmMd"
+              hed={DPWHeading}
+              hed1={DPWHeadingBr}
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 DPW_BgChildSmMd"
+              projctPera="ADBpera"
+
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera={DPWperaas}
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+            />
+            {/*mobile visible*/}
+            <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 DPW_BgImgMb'
+              projctHedng="ADBhedngSmMd"
+              hed={DPWHeading}
+              hed1={DPWHeadingBr}
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 DPW_BgChildSmMd"
+              projctPera="ADBpera"
+
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera={DPWperaas}
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+            />
+
+            {/*mobile, ipad hidden*/}
+            <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
+              projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ODW_BgImg'
+              projctHedng="ADBhedng"
+              hed={ODSHeading}
+              hed1={ODSHeadingBr}
+              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
+              projctPera="ADBpera"
+
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera={DPWperaas}
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+            />
+            {/*ipad visible*/}
+            <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none ODW_BgImg'
+              projctHedng="ADBhedngSmMd"
+              hed={ODSHeading}
+              hed1={ODSHeadingBr}
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ODW_BgChildSmMd"
+              projctPera="ADBpera"
+
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera={DPWperaas}
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+            />
+            {/*mobile visible*/}
+            <ProjectContainer projctBox='d-block d-sm-none d-md-block d-xl-none d-lg-none col-11 ODW_BgImgMb'
+              projctHedng="ADBhedngSmMd"
+              hed={ODSHeading}
+              hed1={ODSHeadingBr}
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ODW_BgChildSmMd"
+              projctPera="ADBpera"
+
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera={DPWperaas}
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+            />
+
+            {/*mobile, ipad hidden*/}
+            <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
+              projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ODW_BgImg'
+              projctHedng="ADBhedng"
+              hed={ODSHeading}
+              hed1={ODSHeadingBr}
+              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
+              projctPera="ADBpera"
+
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera={DPWperaas}
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+            />
+            {/*ipad visible*/}
+            <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none ODW_BgImg'
+              projctHedng="ADBhedngSmMd"
+              hed={ODSHeading}
+              hed1={ODSHeadingBr}
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ODW_BgChildSmMd"
+              projctPera="ADBpera"
+
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera={DPWperaas}
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+            />
+            {/*mobile visible*/}
+            <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 ODW_BgImgMb'
+              projctHedng="ADBhedngSmMd"
+              hed={ODSHeading}
+              hed1={ODSHeadingBr}
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ODW_BgChildSmMd"
+              projctPera="ADBpera"
+
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera={DPWperaas}
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+            />
+
+            {/*mobile, ipad hidden*/}
+            <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
+              projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ODW_BgImg'
+              projctHedng="ADBhedng"
+              hed={ODSHeading}
+              hed1={ODSHeadingBr}
+              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
+              projctPera="ADBpera"
+
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera={DPWperaas}
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+            />
+            {/*ipad visible*/}
+            <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none ODW_BgImg'
+              projctHedng="ADBhedngSmMd"
+              hed={ODSHeading}
+              hed1={ODSHeadingBr}
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ODW_BgChildSmMd"
+              projctPera="ADBpera"
+
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera={DPWperaas}
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+            />
+            {/*mobile visible*/}
+            <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 ODW_BgImgMb'
+              projctHedng="ADBhedngSmMd"
+              hed={ODSHeading}
+              hed1={ODSHeadingBr}
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ODW_BgChildSmMd"
+              projctPera="ADBpera"
+
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera={DPWperaas}
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+            />
+
+
+
+          </div>
+          <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12"></div>
+        </div>
+
+        {/*<SeeProject 
           seeBckColr="proSeeFotr"
           colSetText=""/>*/}
 
-          <div className="row proSeeFotr">
-            <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-2"></div>
-            <div className="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-12">{/*seeBckColr="proSeeFotr" ye class or css use hogi*/}
-              <SeeProject  se_Text="seProFotr_text" se_Text1="largeProFotr_text" seeText="Like what you see?" lrgText="Send a request "
-                                                     lgBrText="" arrow_Right="arrowRight1" /> 
-            </div>
-            <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12"></div>
+        <div className="row proSeeFotr">
+          <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-2"></div>
+          <div className="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-12">{/*seeBckColr="proSeeFotr" ye class or css use hogi*/}
+            <SeeProject
+              roWalign='row ReW_home'
+              se_Text="seProFotr_text"
+              se_Text1="largeProFotr_text"
+              seeText="Like what you see?"
+              lrgText="Send a request "
+              lgBrText=""
+              arrow_Right="arrowRight1_ProjeCT"
+            />
           </div>
-
-          
-
+          <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12"></div>
         </div>
+
+
+
+      </div>
     );
   }
 }

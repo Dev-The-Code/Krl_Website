@@ -31,13 +31,16 @@ class Home extends React.Component {
       devPeraImg: true,
     }
   }
+  componentWillMount() {
+    this.setState({ headerPath: 'Home' });
+  }
 
   render() {
     const { GFAHeading, GFAHeadingBr, DrentHeading, DrentHeadingBr, GFAperaas, Drentperaas, ADBHeading, ADBHeadingBr,
-      DPWHeading, DPWHeadingBr, DPWperaas, ODSHeading, ODSHeadingBr, devPeraImg } = this.state
+      DPWHeading, DPWHeadingBr, DPWperaas, ODSHeading, ODSHeadingBr, devPeraImg ,headerPath} = this.state
     return (
       <div>
-        <Header2 />
+        <Header2 headerPath={headerPath}/>
         <HomeBanner />
 
         <AboutBaner
@@ -47,6 +50,7 @@ class Home extends React.Component {
           mOR_texT='We design, develop and produce'
           bigGerText='KRL Creatives covers you for all your digital needs your brand needs to serve your audience well'
           bigGerInSmall='We design, develop and produce'
+          diviColotextt='divi_Colorsty_Mob_Home'
         /><br /><br />
 
 
@@ -73,7 +77,7 @@ class Home extends React.Component {
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
           <div className="col-12 col-md-6 col-lg-6 col-xl-6">
             <ProjectsContainer
-              projctBox='col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 GFA_BgImg'
+              projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-11 GFA_BgImg'
               projctHedng="GFAhedng"
               hed={GFAHeading}
               hed1={GFAHeadingBr}
@@ -87,7 +91,7 @@ class Home extends React.Component {
             />
 
             <ProjectsContainer
-              projctBox='col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 DrentBgImg'
+              projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImg'
               projctHedng="Drenthedng"
               hed={DrentHeading}
               hed1={DrentHeadingBr}
@@ -100,7 +104,7 @@ class Home extends React.Component {
               proAeroImg="GFAimg"
             />
           </div>
-          <div className="col-12 col-md-4 col-lg-4 col-xl-4">
+          <div className="col-12 col-md-5 col-lg-5 col-xl-5">
 
             {/*mobile, ipad hidden*/}
             <ProjectsContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-10 col-lg-10 ADB_HomBgImg'
@@ -117,11 +121,11 @@ class Home extends React.Component {
             />
 
             {/*mobile, ipad visible*/}
-            <ProjectsContainer projctBox='d-block d-sm-block d-md-block d-xl-none d-lg-none ADB_BgImgSmMd'
+            <ProjectsContainer projctBox='d-block d-sm-block d-md-block d-xl-none d-lg-none col-md-10 ADB_BgImgSmMd'
               projctHedng="ADBhedng"
               hed={ADBHeading}
               hed1={ADBHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChildSmMd"
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-11 ADB_BgChildSmMd"
               projctPera="ADBpera"
 
               seeAerro={devPeraImg}
@@ -138,7 +142,7 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
+          <div className="col-12 col-md-12 col-lg-1 col-xl-1"></div>
         </div>
 
 
@@ -148,8 +152,8 @@ class Home extends React.Component {
         <div className="row">
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 backG_colR">
             <div className="row">
-              <div className="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12"></div>
-              <div className="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
+              <div className="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-2"></div>
+              <div className="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-10">
                 <SomeOurClients />
               </div>
             </div>
@@ -166,14 +170,15 @@ class Home extends React.Component {
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
           <div className="col-12 col-md-10 col-lg-10 col-xl-10">
             <SeeProject se_Text="seProFotr_text"
+              roWalign='row ReW_home'
               se_Text1="largeProFotr_text"
               seeText="Lets build something awesome together!"
               lrgText="Send a request "
               lgBrText=""
-              arrow_Right="arrowRight1"
+              arrow_Right="arrowRight1_hoMe"
             />
           </div>
-          <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
+          <div className="col-12 col-md-12 col-lg-1 col-xl-1"></div>
         </div>
       </div>
     );

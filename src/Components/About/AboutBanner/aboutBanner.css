@@ -161,13 +161,24 @@
     font-family: montserrat-light;
     color: #adadad;
     letter-spacing: -0.05vmax;
-    line-height: 3.5vmax;
+    line-height: 6vw;
     margin-bottom: 1vw;
 }
 .divi_Colorsty_Mob{
     background-color: #fafafa;
     padding: 7.5vw;
     padding-bottom: 3vw;
+    border-radius: 3vw;
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+    text-align: justify;
+    margin-top: -25vw;
+    width: 75vw;
+    margin-left: 4vw;
+    word-spacing: -0.4vw;
+}
+.divi_Colorsty_Mob_Home{
+    background-color: #fafafa;
+    padding: 7.5vw;
     border-radius: 3vw;
     box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
     text-align: justify;

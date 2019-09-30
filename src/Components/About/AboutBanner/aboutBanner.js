@@ -40,7 +40,7 @@ class AboutBanner extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
-                                <div className="divi_Colorsty_Mob">
+                                <div className={this.props.diviColotextt}>
                                     <p className="para_Textt_Mob">
                                        {this.props.bigGerText} <br/><br/> {this.props.bigGerInSmall}
                                     </p>

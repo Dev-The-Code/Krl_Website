@@ -40,3 +40,25 @@
 .imgDev{
     padding: 0vw;
 } 
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .devFondp2Name {
+        color: #303030;
+        font-family: montserrat-extrabold;
+        margin-top: calc(5px + 0.3vw);
+        font-size: calc(15px + 0.5vw);
+        padding-left: 4vw;
+    }
+    .devFondp2comp {
+        color: black;
+        font-family: montserrat-light;
+        font-size: calc(10px + 0.2vw);
+        margin-top: calc(-10px - 0.5vw);
+        padding-left: 4vw;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {}
+@media only screen and (min-device-width : 1600px) {}

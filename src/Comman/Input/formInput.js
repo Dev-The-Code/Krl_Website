@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { Input } from 'antd';
 
-class Input extends Component {
+class InputComponent extends Component {
  
     render() {
       return (
         <div>
-          <input 
+          <Input 
               type={this.props.type}
               className={this.props.className} 
               name={this.props.name} 
@@ -16,4 +17,4 @@ class Input extends Component {
   }
 }
 
-export default Input;
+export default InputComponent;

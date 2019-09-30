@@ -103,7 +103,29 @@
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: 17vmax;
+    margin-bottom: calc(15vw - 1vmax);
+}
+.GFA_BgImgMd {
+    background-image: url("../../Assets/Images/getfit.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: 15vmax;
+}
+.GFA_BgImgMb {
+    background-image: url("../../Assets/Images/getfit.png");
+    height: 30.5vmax;
+    border-radius: 3vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(15vw - 1vmax);
 }
 .bgChild{
     color: #fafafa;
@@ -116,7 +138,7 @@
 .GFAhedng{
     padding-top: 4.2vw;
     padding-left: 3.1vw;
-    padding-bottom: 3.2vw;
+    padding-bottom: 4.2vw;
     font-size: 2.6vmax;
     font-family: montserrat-extrabold;
     color: #ffffff;
@@ -165,12 +187,34 @@
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: 12vmax;
+    margin-bottom: calc(15vw - 1vmax);
+}
+.DrentBgImgMd {
+    background-image: url("../../Assets/Images/drent.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: 18vmax;
+}
+.DrentBgImgMb {
+    background-image: url("../../Assets/Images/drent.png");
+    height: 30.5vmax;
+    border-radius: 3vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(15vw - 1vmax);
 }
 .Drenthedng{
     padding-top: 4.2vw;
     padding-left: 3.1vw;
-    padding-bottom: 3.2vw;
+    padding-bottom: 4.2vw;
     font-size: 2.6vmax;
     font-family: montserrat-extrabold;
     color: #ffffff;
@@ -179,12 +223,20 @@
 .ADBhedng{
     padding-top: 4.2vw;
     padding-left: 2.1vw;
-    padding-bottom: 3.2vw;
+    padding-bottom: 4.2vw;
     font-size: 2.6vmax;
     font-family: montserrat-extrabold;
     color: #ffffff;
 }
 .ADBhedngSmMd{
+    padding-top: 4.2vw;
+    padding-left: 4vw;
+    padding-bottom: 3.2vw;
+    font-size: 2.6vmax;
+    font-family: montserrat-extrabold;
+    color: #ffffff;
+}
+.ADBhedngMb{
     padding-top: 4.2vw;
     padding-left: 7.1vw;
     padding-bottom: 3.2vw;
@@ -201,7 +253,7 @@
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: 12vmax;
+    margin-bottom: calc(15vmax - 1vmax);
     margin-top: 40.7vmax;
 }
 .ADB_BgImgSmMd {
@@ -214,6 +266,31 @@
     background-size: cover;
     background-position-x: right;
     margin-bottom: 12vmax;
+    margin-top: 29vmax;
+}
+.ADB_BgImgSmMd1 {
+    background-image: url("../../Assets/Images/amber-dazzle.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: 12vmax;
+    margin-top: 40.7vmax;
+}
+.ADB_BgImgMb {
+    background-image: url("../../Assets/Images/amber-dazzle.png");
+    height: 37.5vmax;
+    border-radius: 2vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: 7vmax;
+    margin-left: 4.3vw;
 }
 .ADB_BgChild{
     color: #fafafa;
@@ -261,8 +338,8 @@
     line-height: 2em;
 }
 .ADBpera1{
-    padding-left: 0.5vw;
-    padding-top: 15.1vw;
+    padding-left: 3.5vw;
+    /* padding-top: 15.1vw; */
     padding-bottom: 1.5vmax;
     font-family: montserrat-extrabold;
     font-size: 1.3vw;
@@ -296,7 +373,19 @@
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: 12vmax;
+    margin-bottom: calc(15vmax - 1vmax);
+}
+.DPW_BgImgMb {
+    background-image: url("../../Assets/Images/dallaspalm.png");
+    height: 33.5vmax;
+    border-radius: 2vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: 11vmax;
+    margin-left: 4.3vw;
 }
 .ODW_BgImg {
     background-image: url("../../Assets/Images/web-app.png");
@@ -307,7 +396,19 @@
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: 12vmax;
+    margin-bottom: calc(14vmax - 0vmax);
+}
+.ODW_BgImgMb {
+    background-image: url("../../Assets/Images/web-app.png");
+    height: 33vmax;
+    border-radius: 2vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: 11vmax;
+    margin-left: 4.3vw;
 }
 .ADB_HomBgImg {
     background-image: url(/static/media/amber-dazzle.06b11d44.png);
@@ -317,4 +418,25 @@
     background-position-x: right;
     margin-bottom: 12vmax;
     margin-top: 19.7vmax;
+}
+.GFA_BgImgHome {
+    background-image: url(/static/media/getfit.2073e563.png);
+    height: 26.5vmax;
+    border-radius: 1vw;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(15vw - 1vmax);
+    margin-left: 4.3vw;
+}
+.DrentBgImgHome {
+    background-image: url("../../Assets/Images/drent.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(15vw - 1vmax);
+    margin-left: 4.3vw;
 }

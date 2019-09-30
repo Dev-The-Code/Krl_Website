@@ -23,11 +23,20 @@ class About extends React.Component {
       hedngPrp1: "awesome together!",
     };
   }
+  componentWillMount() {
+    let data = this.props.location.pathname;
+    let routName;
+    routName = data.slice(1);
+    routName = routName.charAt(0).toUpperCase() + routName.slice(1);
+    //  console.log(routName,'sss');
+    this.setState({ headerPath: routName });
+  }
 
   render() {
+    const { headerPath } = this.state
     return (
       <div>
-        <Header2 />
+        <Header2 headerPath={headerPath}  />
 
         <AboutBanner 
           Consl_text='Consultation'
@@ -43,6 +52,7 @@ class About extends React.Component {
           customers and create useful digital solutions that maximise
           your return on investments."
           bigGerInSmall=''
+          diviColotextt='divi_Colorsty_Mob'
         />
         <br /><br />
         <OurCoreValues />
@@ -55,12 +65,13 @@ class About extends React.Component {
         <SocialMedia />
         <SeeProject
           seeBckColr="row SEE_backColor"
+          roWalign='row RwO_aboUT'
           se_Text="se_text"
           se_Text1="large_text"
           seeText="Let's build something awesome together"
           lrgText="Send a request"
           lgBrText=""
-          arrow_Right="arrowRight1"
+          arrow_Right="arrowRight1_aboUt"
         />
       </div>
 

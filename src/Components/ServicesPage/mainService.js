@@ -91,7 +91,7 @@ class ServicesPage extends Component {
                   <div className="col-xl-7 col-lg-7" style={{padding: '0vw'}}>
                     <div className="row">
                       <div className="col-xl-5 col-lg-5" style={{padding: '0vw'}}>
-                        <div className="develpImage">
+                        <div className="productionImage">
                           <h3 className="devlpHedng">
                             Production
                           </h3>
@@ -131,7 +131,8 @@ class ServicesPage extends Component {
 
               <div className="col-md-11 col-sm-11 col-12">
                 <div className="row">
-                  <div className="col-md-7 col-sm-7 col-12">
+
+                  <div className="col-md-6 col-sm-6 col-12">
                     <div className="consultImageSm">
                       <h3 className="consulHedngSm">
                         Consultation
@@ -139,13 +140,13 @@ class ServicesPage extends Component {
                     </div>
                     <div className="consultDevSm">
                       <p className="consultPeraSm">
-                        With the power of empathy, transpar- ent communication and honest deal- ing we work with
-                        you to help you find the right path to maximising the out- come your brand creates.
+                        With the power of empathy, transparent communication and honest deal- ing we work with
+                        you to help you find the right path to maximising the outcome your brand creates.
                       </p>
                     </div>
                   </div>
 
-                  <div className="col-md-5 col-sm-5 col-12">
+                  <div className="col-md-6 col-sm-6 col-12">
                     <div className="develpImageSm">
                       <h3 className="develpHedngSm">
                         Development
@@ -160,24 +161,40 @@ class ServicesPage extends Component {
                   </div>
 
                   <div className="col-md-6 col-sm-6 col-12">
-                    <div className="row">
-                      <div className="col-md-6 col-sm-6 col-12">
-                      <div className="designImageSm" style={{position: 'absolute'}}>
-                        <h3 className="designHedng" style={{paddingTop: '3.1vw',paddingLeft: '3.1vw',fontSize: '1.2vmax',color: 'white',fontFamily: 'montserrat-extrabold'}}>
-                          Design
-                        </h3>
+                    <div className="designImageSm">
+                      <h3 className="designHedng">
+                        Design
+                      </h3>
+                    </div>
+                    <div className="designDevSm">
+                      <p className="developmentPeraSm">
+                        Our designers works hard to design delightful experiences that 
+                        help you achieve business goals.
+                      </p> 
+                    </div>
+                  </div>
+
+                  <div className="col-md-6 col-sm-6 col-12">
+                    <div className="productionImageSm">
+                      <h3 className="designHedng">
+                        Production
+                      </h3>
+                    </div>
+                    <div className="designDevSm">
+                      <p className="developmentPeraSm">
+                        Our designers works hard to design delightful experiences that 
+                        help you achieve business goals.
+                      </p> 
+                    </div>
+                  </div>
+
+                    <div className="col-md-12 col-sm-12">
+                      <div className="blankDesignSm" style={{backgroundColor: '#f7f7f7'}}>
                       </div>
-                      <div className="designDevSm">
-                        <p className="developmentPera" style={{paddingTop: '3.1vw',paddingLeft: '3.1vw',paddingRight: '3.1vw',paddingBottom: '3.1vw',fontFamily: 'montserrat-light'}}>
-                          Our designers works hard to design delightful experiences that 
-                          help you achieve business goals.
-                        </p> 
+                      <div className="">
                       </div>
                     </div>
 
-                      <div className="col-md-12 col-sm-12 col-12"></div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -199,8 +216,8 @@ class ServicesPage extends Component {
                     </div>
                     <div className="consultDevMb">
                       <p className="consultPeraMb">
-                        With the power of empathy, transparent communication and honest deal- ing we work with
-                        you to help you find the right path to maximising the out- come your brand creates.
+                        With the power of empathy, transparent communication and honest dealing we work with
+                        you to help you find the right path to maximising the outcome your brand creates.
                       </p>
                     </div>
                   </div>
@@ -231,6 +248,29 @@ class ServicesPage extends Component {
                         Our designers works hard to design delightful experiences that 
                         help you achieve business goals.
                       </p> 
+                    </div>
+                  </div>
+
+                  <div className="col-12">
+                    <div className="productionImageMb">
+                      <h3 className="develpHedngMb">
+                        Production
+                      </h3>
+                    </div>
+                    <div className="develpDevMb">
+                      <p className="develpPeraMb">
+                        Our designers works hard to design delightful experiences that 
+                        help you achieve business goals.
+                      </p> 
+                    </div>
+                  </div>
+
+                  <div className="col-12">
+                    <div className="blankDesignMb">
+                      
+                    </div>
+                    <div className="develpDevMb">
+                       
                     </div>
                   </div>
 

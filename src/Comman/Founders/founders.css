@@ -4,34 +4,131 @@
     margin-bottom: 7vmax;
 }
 .devFondImg{
-    width: 4vw;
+    width: 4vmax;
     padding-top: 4.2vw;
     padding-bottom: 3.1vw;
     margin-left: 3.1vw;
 }
 .devFondPera{
-    font-size: 1.15vmax;
+    font-size: calc(1em + 0.3vw);
     color: white;
     font-family: montserrat-light;
     margin-left: 3.1vw;
     margin-right: 3vw;
 }
 .devFondProf{
-    width: 4vw;
-    margin-left: calc(-5px + 1.2vw);
+    width: calc(25px + 4vmax);
+    /* margin-left: calc(-5px + 1.2vw); */
 }
 .devFond1{
     margin-bottom: 3.1vw;
+    padding-left: 0vw;
 }
 .devFondName{
     color: white;
     font-family: montserrat-extrabold;
     margin-top: calc(5px + 0.3vw);
-    font-size: 1.15vw;
+    font-size: calc(1em + 0.3vw);
+    margin-left: 2vmax;
 }
 .devFondcomp{
     color: white;
     font-family: montserrat-light;
-    font-size: 0.7vw;
+    font-size: 0.7vmax;
     margin-top: -1vw;
+    margin-left: calc(6em - 2vmax);
+}
+
+.devFondName1{
+    color: white;
+    font-family: montserrat-extrabold;
+    margin-top: calc(5px + 0.3vw);
+    font-size: calc(1em + 0.3vw);
+    margin-left: 2vmax;
+}
+.devFondcomp1{
+    color: white;
+    font-family: montserrat-light;
+    font-size: 1.7vmax;
+    margin-top: -1vw;
+    margin-left: 2vmax;
+}
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .devFondProf1 {
+        width: 10vmax;
+        padding-left: 1vw;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .devFondcomp1{
+        color: white;
+        font-family: montserrat-light;
+        font-size: 1vmax;
+        margin-top: -1vw;
+        margin-left: 5vmax;
+    }
+    .devFondName1 {
+        color: white;
+        font-family: montserrat-extrabold;
+        margin-top: calc(5px + 0.3vw);
+        margin-left: 5vmax;
+    }
+    .devFond1{
+        margin-bottom: 3.1vw;
+        padding-left: 0vw;
+    }
+    .devFondProf1 {
+        width: 7vmax;
+        padding-left: 1vw;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .devFondName {
+        color: white;
+        font-family: montserrat-extrabold;
+        margin-top: calc(5px + 0.3vw);
+        font-size: calc(1em + 0.3vw);
+        margin-left: 1vmax;
+    }
+    .devFondcomp {
+        color: white;
+        font-family: montserrat-light;
+        font-size: 1vmax;
+        margin-top: -1vw;
+        margin-left: 1vw;
+    }
+}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .devFondName {
+        color: white;
+        font-family: montserrat-extrabold;
+        margin-top: calc(5px + 0.3vw);
+        font-size: calc(1em + 0.3vw);
+        margin-left: 1vmax;
+    }
+    .devFondcomp {
+        color: white;
+        font-family: montserrat-light;
+        font-size: 1vmax;
+        margin-top: -1vw;
+        margin-left: 1vw;
+    }
+}
+@media only screen and (min-device-width : 1600px) {
+    .devFondName {
+        color: white;
+        font-family: montserrat-extrabold;
+        margin-top: calc(5px + 0.3vw);
+        font-size: calc(1em + 0.3vw);
+        margin-left: 1vmax;
+    }
+    .devFondcomp {
+        color: white;
+        font-family: montserrat-light;
+        font-size: 1vmax;
+        margin-top: -1vw;
+        margin-left: 1vw;
+    }
 }

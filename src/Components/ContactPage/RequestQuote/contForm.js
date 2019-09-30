@@ -50,16 +50,31 @@ class contForm extends Component {
                                 />
                             </div>
                         </div>
-                        <br /><br />
-                        <div className="row">
-                            <div className="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5">
-                                <Button
-                                    label='Send request'
-                                    textCss='text_sendRqust'
-                                    classMd='btn_sendRequest'
-                                />
+                        <div className="d-none d-sm-block">
+                            <div className="row">
+                                <div className="col-sm-5 col-md-5 col-lg-5 col-xl-5">
+                                    <Button
+                                        label='Send request'
+                                        textCss='text_sendRqust'
+                                        classMd='btn_sendRequest'
+                                    />
+                                    <hr className="hR_LIne" />
+                                </div>
+                                <div className="col-sm-7 col-md-7 col-lg-7 col-xl-7"></div>
                             </div>
-                            <div className="col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7"></div>
+                        </div>
+                        <div className="d-block d-sm-none">
+                            <div className="row">
+                                <div className="col-12">
+                                    <Button
+                                        label='Send request'
+                                        textCss='text_sendRqust_MOB'
+                                        classMd='btn_sendRequest_MOB'
+                                    />
+                                    <hr className="hR_LIne" />
+                                </div>
+                                <div className="col-12"></div>
+                            </div>
                         </div>
                     </div>
                 </div>

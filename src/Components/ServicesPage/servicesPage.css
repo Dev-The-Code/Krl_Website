@@ -83,11 +83,7 @@
     background-color: #f7f7f7;
     margin-bottom: 13vw;
 }
-.fotBgColr{
-    background-color: #f7f7f7;
-    padding-top: 10.4vw;
-    padding-bottom: 10.4vw;
-}
+
 .blnkColr{
     background-color: #f7f7f7;
     height: 28vmax;
@@ -98,6 +94,11 @@
 
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .fotBgColr{
+        background-color: #f7f7f7;
+        padding-top: 9.4vw;
+        padding-bottom: 8.4vw;
+    }
     .consul_BgImgSmMd{
         background-position: left;
         background-image: url(/static/media/consultation.fc339c9a.png);
@@ -178,6 +179,12 @@
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    
+    .fotBgColr{
+        background-color: #f7f7f7;
+        padding-top: 6.4vw;
+        padding-bottom: 6.4vw;
+    }
     .consul_BgImgSmMd{
         background-position: left;
         background-image: url(/static/media/consultation.fc339c9a.png);
@@ -241,6 +248,11 @@
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .fotBgColr{
+        background-color: #f7f7f7;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
     .consul_BgImgSmMd{
         background-position: left;
         background-image: url(/static/media/consultation.fc339c9a.png);
@@ -304,6 +316,11 @@
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .fotBgColr{
+        background-color: #f7f7f7;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
     .consul_BgImgSmMd{
         background-position: left;
         background-image: url(/static/media/consultation.fc339c9a.png);
@@ -367,6 +384,11 @@
     }
 }
 @media only screen and (min-device-width : 1600px) {
+    .fotBgColr{
+        background-color: #f7f7f7;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
     .consul_BgImgSmMd{
         background-position: left;
         background-image: url(/static/media/consultation.fc339c9a.png);
@@ -489,11 +511,21 @@
     background-color: white;
     border-radius: 1vw;
     width: 19.8vw;
+    margin-bottom: 4vw;
 }
 .developmentPera{
     font-size: calc(1em + 0.1vmax);
     color: #adadad;
     padding-top: 3.1vw;
+    padding-left: 3.1vw;
+    padding-right: 3.1vw;
+    padding-bottom: 3.1vw;
+    font-family: montserrat-light;
+}
+.developmentPeraSm{
+    font-size: calc(1em + 0.1vmax);
+    color: #adadad;
+    padding-top: 8vw;
     padding-left: 3.1vw;
     padding-right: 3.1vw;
     padding-bottom: 3.1vw;
@@ -523,6 +555,7 @@
     border-radius: 1vw;
     width: 19.8vw;
     position: relative;
+    margin-bottom: 4vw;
 }
 .designPera{
     font-size: calc(1em + 0.1vmax);
@@ -539,7 +572,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 1vw;
-    width: 42vw;
+    width: 37vw;
     height: 32.1vw;
     position: absolute;
 }
@@ -556,8 +589,10 @@
     margin-top: 10vw;
     background-color: white;
     border-radius: 1vw;
-    width: 41vw;
+    width: 38vw;
+    height: 29vw;
     position: relative;
+    margin-bottom: 4vw;
 }
 .consultPeraSm{
     font-size: calc(1em + 0.1vmax);
@@ -573,9 +608,10 @@
     background-size: cover;
     background-position: center;
     border-radius: 1vw;
-    width: 30vw;
+    width: 37vw;
     height: 32.1vw;
     position: absolute;
+    margin-bottom: 4vw;
 }
 .develpDevSm{
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
@@ -583,13 +619,14 @@
     margin-top: 10vw;
     background-color: white;
     border-radius: 1vw;
-    width: 29vw;
+    width: 38vw;
+    height: 29vw;
     position: relative;
 }
 .develpPera{
     font-size: calc(1em + 0.1vmax);
     color: #adadad;
-    padding-top: 3.1vw;
+    padding-top: 8vw;
     padding-left: 3.1vw;
     padding-right: 3.1vw;
     padding-bottom: 3.1vw;
@@ -607,7 +644,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 1vw;
-    width: 30vw;
+    width: 37vw;
     height: 32.1vw;
     position: absolute;
 }
@@ -624,8 +661,10 @@
     margin-top: 10vw;
     background-color: white;
     border-radius: 1vw;
-    width: 29vw;
+    width: 38vw;
+    height: 29vw;
     position: relative;
+    margin-bottom: 4vw;
 }
 .consultImageMb {
     background-image: url(/static/media/consultation.fc339c9a.png);
@@ -633,28 +672,29 @@
     background-position: center;
     border-radius: 3vw;
     width: 84vw;
-    height: 20vh;
+    height: 23vh;
     position: absolute;
 }
 .consultDevMb{
-    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
-    margin-left: 3.1vw;
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+    margin-left: 3.3vw;
     margin-top: 9vh;
-    background-color: white;
+    background-color: #fafafa;
     border-radius: 3vw;
-    width: 78vw;
+    width: 77vw;
     position: relative;
+    margin-bottom: 10vw;
 }
 .consultPeraMb {
-    font-size: calc(1em + 0.1vmax);
+    font-size: calc(12px + 0.3vw);
     color: #adadad;
-    padding: 5.1vw;
+    padding: 7.1vw;
     font-family: montserrat-light;
 }
 .consulHedngMb {
-    padding-top: 3.1vw;
-    padding-left: 3.1vw;
-    font-size: 2.6vmax;
+    padding-top: 6.1vw;
+    padding-left: 4.1vw;
+    font-size: 6vw;
     color: white;
     font-family: montserrat-extrabold;
 }
@@ -664,22 +704,23 @@
     background-position: center;
     border-radius: 3vw;
     width: 84vw;
-    height: 20vh;
+    height: 19vh;
     position: absolute;
 }
 .develpDevMb {
-    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
-    margin-left: 3.1vw;
-    margin-top: 9vh;
-    background-color: white;
-    border-radius: 1vw;
-    width: 78vw;
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+    margin-left: 3.3vw;
+    margin-top: 8.9vh;
+    background-color: #fafafa;
+    border-radius: 3vw;
+    width: 77vw;
     position: relative;
+    margin-bottom: 10vw;
 }
 .develpHedngMb {
-    padding-top: 3.1vw;
-    padding-left: 3.1vw;
-    font-size: 2.6vmax;
+    padding-top: 6.1vw;
+    padding-left: 4.1vw;
+    font-size: 6vw;
     color: white;
     font-family: montserrat-extrabold;
 }
@@ -689,17 +730,58 @@
     background-position: center;
     border-radius: 3vw;
     width: 84vw;
-    height: 20vh;
+    height: 19vh;
+    position: absolute;
+}
+.productionImageMb {
+    background-image: url(../../Assets/Images/production.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vw;
+    width: 84vw;
+    height: 19vh;
     position: absolute;
 }
 .develpPeraMb {
-    font-size: calc(1em + 0.1vmax);
+    font-size: calc(12px + 0.3vw);
     color: #adadad;
-    padding: 5.1vw;
+    padding: 7.1vw;
     font-family: montserrat-light;
 }
 .blankDesign{
     background-color: #f7f7f7;
+    border-radius: 1vw;
+    width: 20vw;
+    height: 23.1vw;
+    position: absolute;
+}
+.blankDesignSm{
+    background-color: #f7f7f7;
+    border-radius: 1vw;
+    width: 81vw;
+    height: 23.1vw;
+    margin-bottom: 4vw;
+}
+.blankDesignMb{
+    background-color: #f7f7f7;
+    border-radius: 1vw;
+    width: 84vw;
+    height: 23.1vw;
+    margin-bottom: 4vw;
+}
+.productionImageSm{
+    background-image: url(../../Assets/Images/production.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1vw;
+    width: 37vw;
+    height: 32.1vw;
+    position: absolute;
+}
+.productionImage{
+    background-image: url(../../Assets/Images/production.png);
+    background-size: cover;
+    background-position: center;
     border-radius: 1vw;
     width: 20vw;
     height: 23.1vw;
