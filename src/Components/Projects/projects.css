@@ -105,6 +105,19 @@
     background-position-x: right;
     margin-bottom: calc(15vw - 1vmax);
 }
+.GFA_BgImgHomeMb {
+    background-image: url("../../Assets/Images/getfit.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    /* margin-bottom: calc(15vw - 1vmax); */
+    margin-left: 4.3vw;
+    margin-bottom: calc(15vw - -8vmax);
+}
 .GFA_BgImgMd {
     background-image: url("../../Assets/Images/getfit.png");
     height: 26.5vmax;
@@ -125,7 +138,8 @@
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: calc(15vw - 1vmax);
+    margin-bottom: calc(15vw - -8vmax);
+    margin-top: 20vw;
 }
 .bgChild{
     color: #fafafa;
@@ -155,7 +169,7 @@
 }
 .GFApera1{
     padding-left: 3.1vw;
-    padding-top: 3.1vw;
+    padding-top: 2.1vw;
     padding-bottom: 1.5vmax;
     font-family: montserrat-extrabold;
     font-size: calc(0.8em + 0.5vw);
@@ -166,12 +180,22 @@
     margin-left: 1vw;
 }
 .BanrPera1{
-    padding-left: 0.5vmax;
+    /* padding-left: 0.5vmax;
     padding-top: 1.1vmax;
-    padding-bottom: 1.5vmax;
+    padding-bottom: 1.5vmax; */
     font-family: montserrat-extrabold;
     font-size: calc(0.5em + 0.5vw);
     color: #303030;
+    /* padding: 3.15vw 1.15vw 1.15vw 1.15vw; */
+}
+.BanrPera1Mb{
+    /* padding-left: 0.5vmax;
+    padding-top: 1.1vmax;
+    padding-bottom: 1.5vmax; */
+    font-family: montserrat-extrabold;
+    font-size: calc(0.5em + 0.5vw);
+    color: #303030;
+    padding: 3.15vw 2.1vw 1.15vw 1.15vw;
 }
 .BanPeraimg{
     width: 3vmax;
@@ -188,6 +212,19 @@
     background-size: cover;
     background-position-x: right;
     margin-bottom: calc(15vw - 1vmax);
+}
+.DrentBgImgHomeMb {
+    background-image: url("../../Assets/Images/drent.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    /* margin-bottom: calc(15vw - 1vmax); */
+    margin-left: 4.3vw;
+    margin-bottom: calc(2vw + -9vmax);
 }
 .DrentBgImgMd {
     background-image: url("../../Assets/Images/drent.png");
@@ -209,7 +246,7 @@
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: calc(15vw - 1vmax);
+    margin-bottom: calc(15vw - -8vmax);
 }
 .Drenthedng{
     padding-top: 4.2vw;
@@ -244,6 +281,14 @@
     font-family: montserrat-extrabold;
     color: #ffffff;
 }
+.ADBhedngHomeMb{
+    padding-top: 4.2vw;
+    padding-left: 3.1vw;
+    padding-bottom: 3.2vw;
+    font-size: 2.6vmax;
+    font-family: montserrat-extrabold;
+    color: #ffffff;
+}
 .ADB_BgImg {
     background-image: url("../../Assets/Images/amber-dazzle.png");
     height: 26.5vmax;
@@ -253,7 +298,7 @@
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: calc(15vmax - 1vmax);
+    margin-bottom: calc(17.5vmax - 1vmax);
     margin-top: 40.7vmax;
 }
 .ADB_BgImgSmMd {
@@ -267,6 +312,19 @@
     background-position-x: right;
     margin-bottom: 12vmax;
     margin-top: 29vmax;
+}
+.ADB_BgImgHomeMb {
+    background-image: url("../../Assets/Images/amber-dazzle.png");
+    height: 28.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: 19vh;
+    margin-top: 25vh;
+    margin-left: 4.3vw;
 }
 .ADB_BgImgSmMd1 {
     background-image: url("../../Assets/Images/amber-dazzle.png");
@@ -289,8 +347,9 @@
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: 7vmax;
+    /* margin-bottom: 7vmax; */
     margin-left: 4.3vw;
+    margin-bottom: calc(15vw - -8vmax);
 }
 .ADB_BgChild{
     color: #fafafa;
@@ -301,7 +360,7 @@
 }
 .ADB_BgChildSmMd{
     color: #fafafa;
-    margin-left: 3.6vw;
+    /* margin-left: 3.6vw; */
     background-color: #fafafa;
     border-radius: 1vw;
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
@@ -339,11 +398,12 @@
 }
 .ADBpera1{
     padding-left: 3.5vw;
-    /* padding-top: 15.1vw; */
+    padding-top: 1.1vw;
     padding-bottom: 1.5vmax;
     font-family: montserrat-extrabold;
-    font-size: 1.3vw;
+    /* font-size: 1.3vw; */
     color: #303030;
+    font-size: calc(0.8em + 0.5vw);
 }
 .servicePeraAerow{
     padding-top: 11.1vw;
@@ -373,7 +433,7 @@
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: calc(15vmax - 1vmax);
+    margin-bottom: calc(17.5vmax - 1vmax);
 }
 .DPW_BgImgMb {
     background-image: url("../../Assets/Images/dallaspalm.png");
@@ -384,8 +444,9 @@
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: 11vmax;
+    /* margin-bottom: 11vmax; */
     margin-left: 4.3vw;
+    margin-bottom: calc(15vw - -8vmax);
 }
 .ODW_BgImg {
     background-image: url("../../Assets/Images/web-app.png");
@@ -396,7 +457,7 @@
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: calc(14vmax - 0vmax);
+    margin-bottom: calc(17.5vmax - 0vmax);
 }
 .ODW_BgImgMb {
     background-image: url("../../Assets/Images/web-app.png");
@@ -407,8 +468,10 @@
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: 11vmax;
+    /* margin-bottom: 11vmax; */
     margin-left: 4.3vw;
+    margin-bottom: calc(15vw - -8vmax);
+
 }
 .ADB_HomBgImg {
     background-image: url(/static/media/amber-dazzle.06b11d44.png);

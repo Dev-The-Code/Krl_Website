@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import ReqQoute from './RequestQuote/requestQuote';
 import SeeProject from './SeeProject/seeProject';
 import ContBanner from './ContactBanner/contactBanner';
@@ -28,7 +29,7 @@ class Contact extends React.Component {
           headTextOff='off_head_cont'
           decripText='demo_cont'
         />
-
+        <Link to={`/project`} className="changingColor">
         <SeeProject
           seeBckColr="row footer_contact"
           roWalign='row rEw_conT'
@@ -41,6 +42,7 @@ class Contact extends React.Component {
           colSetArrow='col-5 col-sm-4 col-md-4 col-xl-4'
           arrow_Right='arrowRight1_ConTact'
         />
+        </Link>
       </div>
 
     );

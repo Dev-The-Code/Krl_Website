@@ -31,11 +31,11 @@ class Header2 extends Component {
               <div className="naVBar_aliGN">
                 <div className="row">
                   <div className="col-md-1 col-lg-1 col-xl-1"></div>
-                  <div className="col-md-2 col-lg-2 col-xl-2">
+                  <div className="col-md-2 col-lg-2 col-xl-2 loGo_devv">
                     <img href="#" className="logo" src={require('../../Assets/Images/logo.png')} />
                   </div>
                   <div className="col-md-7 col-lg-7 col-xl-7"></div>
-                  <div className="col-md-1 col-lg-1 col-xl-1">
+                  <div className="col-md-1 col-lg-1 col-xl-1 mt-5">
                     <img className="menu" src={require('../../Assets/Images/close.png')} onClick={this.closeNav} />
                   </div>
                   <div className="col-md-1 col-lg-1 col-xl-1"></div>
@@ -102,7 +102,7 @@ class Header2 extends Component {
               <div className="naVBar_aliGN">
                 <div className="row">
                   <div className="col-6">
-                    <img href="#" className="logO_MoB" src={require('../../Assets/Images/logo.png')} />
+                    <img href="#" className="logoo_Mob" src={require('../../Assets/Images/logo.png')} />
                   </div>
                   <div className="col-6" style={{ textAlign: 'right' }}>
                     <img className="menU_MoB" onClick={this.closeNav} src={require('../../Assets/Images/close.png')} />
@@ -173,11 +173,11 @@ class Header2 extends Component {
                 <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6 loGo_devv">
                   <img href="#" className="logo" src={require('../../Assets/Images/logo.png')} />
                 </div>
-                <div className="col-xl-5 col-lg-5 col-md-5 col-sm-5"></div>
-                <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-1" onClick={this.openNav} style={{textAlign:'right'}}>
+                <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6"></div>
+                <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 cursiraPoinT" onClick={this.openNav} style={{textAlign:'right'}}>
                     <p className="header_Textt"><span>{this.props.headerPath}</span></p>
                 </div>
-                <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-3 mt-5">
+                <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-3 mt-5 cursiraPoinT" onClick={this.openNav}>
                   <img className="menu" src={require('../../Assets/Images/menu.png')} onClick={this.openNav} />
                 </div>
                 <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>

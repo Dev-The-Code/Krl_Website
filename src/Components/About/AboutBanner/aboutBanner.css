@@ -19,8 +19,19 @@
     padding-top: 30vw;
     height: 53vw;
     margin-top: 45vw;
-
 }
+.backImgHome_baner_Mob{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-image: url(/static/media/about-header.2cd2d68f.png);
+    border-radius: 1vw;
+     background-size: cover;
+     background-position-x: center;
+     padding-top: 30vw;
+     height: 53vw;
+     margin-top: 25vw;
+ }
 
 .abut_banerText_Mob{
     color: black;

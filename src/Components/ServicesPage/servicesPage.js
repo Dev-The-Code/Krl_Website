@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './servicesPage.css';
 import Header2 from '../Header/header2';
 import Services from '../About/Services/services';
@@ -6,7 +7,7 @@ import SomeOurClients from '../../Comman/SomeOurClients/someOurClient';
 import Founders2 from '../../Comman/Founders/founders2';
 import SeeProject from '../ContactPage/SeeProject/seeProject';
 import MainServicesPage from '../ServicesPage/mainService';
-
+import Servicebanner from './ServiceBanner/serviceBanner';
 import Mainservice from './mainService';
 
 import ProjectContainer from '../../Comman/ProjectContainer/projectContainer';
@@ -33,38 +34,34 @@ class ServicesPage extends React.Component {
 
       devPeraImg: false,
       devParagraph: true,
-      headerPath : ''
+      headerPath: ''
     }
   }
   componentWillMount() {
-     let data = this.props.location.pathname;
-     let routName ;
-     routName = data.slice(1);
-     routName = routName.charAt(0).toUpperCase() + routName.slice(1);
+    let data = this.props.location.pathname;
+    let routName;
+    routName = data.slice(1);
+    routName = routName.charAt(0).toUpperCase() + routName.slice(1);
     //  console.log(routName,'sss');
-     this.setState({headerPath : routName});
+    this.setState({ headerPath: routName });
   }
 
   render() {
     const { ConsulHedng, ConsulPeraas, dvelpmntHedng, dvelpmntPeraas, dsgnHedng, dsgnPeraas, productionHedng, devPeraImg, GFAperaas, DPWperaas,
       banrPeragh, banrPeragh1, headingpera, headingpera1, headingpera2, devParagraph, headerPath } = this.state
-      // console.log(headerPath,'ssss');
+    // console.log(headerPath,'ssss');
     return (
       <div>
         <Header2 headerPath={headerPath} />
+        <Servicebanner /><br /><br /><br />
         <div className="row">
-          <div className="col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12"></div>
-          <div className="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-            <div className="row">
-              <Banners/>
-            </div>
+          <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
+          <div className="col-12 col-md-11 col-lg-11 col-xl-11">
+              <h1 className="headServicess">Services</h1>
           </div>
-          <div className="col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12"></div>
-            <MainServicesPage />
-
-            
-          
         </div>
+        <MainServicesPage />
+
         <div className="row">
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 bgColr">
             <div className="row">
@@ -78,23 +75,22 @@ class ServicesPage extends React.Component {
             <Founders2 />
           </div>
         </div>
-        <div className="row fotBgColr">
-          <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12"></div>
-          <div className="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-12">
-
-            <SeeProject se_Text="seProFotr_text"
-              se_Text1="largeProFotr_text"
-              roWalign='row ReW_SerVice'
-              seeText="Lets build something awesome together!"
-              lrgText="Send a request "
-              lgBrText=""
-              arrow_Right="arrowRight1_aboUt"
-            />
-
-
+        <Link to={`/contact`} className="changingColor">
+          <div className="row fotBgColr">
             <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12"></div>
+            <div className="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-12">
+              <SeeProject se_Text="seProFotr_text"
+                se_Text1="largeProFotr_text"
+                roWalign='row ReW_SerVice'
+                seeText="Lets build something awesome together!"
+                lrgText="Send a request "
+                lgBrText=""
+                arrow_Right="arrowRight1_aboUt"
+              />
+              <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12"></div>
+            </div>
           </div>
-        </div>
+        </Link>
       </div>
     );
   }

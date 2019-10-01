@@ -19,6 +19,10 @@
         font-size: 4vw;
         font-family: montserrat-extrabold;
         color: #adadad;
+        cursor: pointer;
+    }
+    .naVBar_aliGN{
+        box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
@@ -36,6 +40,10 @@
         font-size: 1.5vw;
         font-family: montserrat-extrabold;
         color: #adadad;
+        cursor: pointer;
+    }
+    .naVBar_aliGN{
+        box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
@@ -54,6 +62,10 @@
         font-size: calc(1em + 0.1vmax);
         font-family: montserrat-extrabold;
         color: #adadad;
+        cursor: pointer;
+    }
+    .naVBar_aliGN{
+        box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
@@ -71,26 +83,38 @@
         font-size: calc(1em + 0.1vmax);
         font-family: montserrat-extrabold;
         color: #adadad;
+        cursor: pointer;
+    }
+    .naVBar_aliGN{
+        box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
     }
 }
 @media only screen and (min-device-width : 1600px) {
     .menu{
         width: calc(10px + 1.5vw);
         margin-left: 4.3vw;
+        margin-top: 0.5vw;
+
     }
     .loGo_devv{
         margin-bottom: 3rem!important;
         margin-top: 3rem!important;
     }
     .header_Textt{
-        margin-top: 2vw;
+        margin-top: 2.5vw;
         margin-right: -4vw;
         font-size: calc(12px + 0.7vw);
         font-family: montserrat-extrabold;
         color: #adadad;
+        cursor: pointer;
+    }
+    .naVBar_aliGN{
+        box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
     }
 }
-
+.cursiraPoinT{
+    cursor: pointer;
+}
 .menu_List{
     list-style-type: none;
     display: flex;
@@ -168,15 +192,13 @@
     text-align: center;
     padding-bottom: 9vw;
 }
-.naVBar_aliGN{
-    padding: 2vw;
-    box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
-}
+
 .logO_MoB{
     width: calc(10px + 40vw);
     margin-top: 2vw;
 }
 .menU_MoB{
-    width: calc(10px + 2vw);
-    margin-top: 2vw;    
+    width: 5vw;
+    margin-top: 6vw;
+    margin-right: 5vw;   
 }  

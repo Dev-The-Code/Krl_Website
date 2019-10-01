@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './home.css';
 import HomeBanner from './HomeBanner/homeBanner';
 import AboutBaner from '../About/AboutBanner/aboutBanner';
@@ -37,10 +38,10 @@ class Home extends React.Component {
 
   render() {
     const { GFAHeading, GFAHeadingBr, DrentHeading, DrentHeadingBr, GFAperaas, Drentperaas, ADBHeading, ADBHeadingBr,
-      DPWHeading, DPWHeadingBr, DPWperaas, ODSHeading, ODSHeadingBr, devPeraImg ,headerPath} = this.state
+      DPWHeading, DPWHeadingBr, DPWperaas, ODSHeading, ODSHeadingBr, devPeraImg, headerPath } = this.state
     return (
       <div>
-        <Header2 headerPath={headerPath}/>
+        <Header2 headerPath={headerPath} />
         <HomeBanner />
 
         <AboutBaner
@@ -51,6 +52,7 @@ class Home extends React.Component {
           bigGerText='KRL Creatives covers you for all your digital needs your brand needs to serve your audience well'
           bigGerInSmall='We design, develop and produce'
           diviColotextt='divi_Colorsty_Mob_Home'
+          BnerAbtHome='col-10 backImgHome_baner_Mob'
         /><br /><br />
 
 
@@ -75,7 +77,7 @@ class Home extends React.Component {
         </div>
         <div className="row">
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div className="d-none d-md-none d-lg-block d-xl-block col-lg-6 col-xl-6">
             <ProjectsContainer
               projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-11 GFA_BgImg'
               projctHedng="GFAhedng"
@@ -104,6 +106,70 @@ class Home extends React.Component {
               proAeroImg="GFAimg"
             />
           </div>
+
+          {/*ipad visible */}
+          <div className="d-none d-md-block d-lg-none d-xl-none col-md-6">
+            <ProjectsContainer
+              projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-11 GFA_BgImg'
+              projctHedng="GFAhedng"
+              hed={GFAHeading}
+              hed1={GFAHeadingBr}
+              projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={GFAperaas}
+              proAeroImg="GFAimg"
+            />
+
+            <ProjectsContainer
+              projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImg'
+              projctHedng="Drenthedng"
+              hed={DrentHeading}
+              hed1={DrentHeadingBr}
+              projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={Drentperaas}
+              proAeroImg="GFAimg"
+            />
+          </div>
+
+          {/*monile visible */}
+          <div className="d-block d-md-none d-lg-none d-xl-none col-11">
+            <ProjectsContainer
+              projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgHomeMb'
+              projctHedng="GFAhedng"
+              hed={GFAHeading}
+              hed1={GFAHeadingBr}
+              projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={GFAperaas}
+              proAeroImg="GFAimg"
+            />
+
+            <ProjectsContainer
+              projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgHomeMb'
+              projctHedng="Drenthedng"
+              hed={DrentHeading}
+              hed1={DrentHeadingBr}
+              projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera={Drentperaas}
+              proAeroImg="GFAimg"
+            />
+          </div>
+
+
           <div className="col-12 col-md-5 col-lg-5 col-xl-5">
 
             {/*mobile, ipad hidden*/}
@@ -120,8 +186,8 @@ class Home extends React.Component {
               proAeroImg="ADBimg"
             />
 
-            {/*mobile, ipad visible*/}
-            <ProjectsContainer projctBox='d-block d-sm-block d-md-block d-xl-none d-lg-none col-md-10 ADB_BgImgSmMd'
+            {/*ipad visible*/}
+            <ProjectsContainer projctBox='d-none d-md-block d-xl-none d-lg-none col-md-10 ADB_BgImgSmMd'
               projctHedng="ADBhedng"
               hed={ADBHeading}
               hed1={ADBHeadingBr}
@@ -133,14 +199,29 @@ class Home extends React.Component {
               pera={Drentperaas}
               proAeroImg="ADBimg"
             />
-            <div className="container">
-              <div className="row">
-                <div className="col-12 col-md-11 col-lg-11 col-xl-11 vieW_btn">
-                  <p className="arroW_lastesT">View All Projects <img src={Smallarrow} className="" /></p>
+            {/*mobile visible*/}
+            <ProjectsContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 ADB_BgImgHomeMb'
+              projctHedng="ADBhedngHomeMb"
+              hed={ADBHeading}
+              hed1={ADBHeadingBr}
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ADB_BgChildSmMd"
+              projctPera="ADBpera"
 
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera={Drentperaas}
+              proAeroImg="ADBimg"
+            />
+
+            <Link to={`/projects`} className="changingdec">
+              <div className="container">
+                <div className="row">
+                  <div className="col-12 col-md-11 col-lg-11 col-xl-11 vieW_btn">
+                    <p className="arroW_lastesT">View All Projects <img src={Smallarrow} className="" /></p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
           <div className="col-12 col-md-12 col-lg-1 col-xl-1"></div>
         </div>
@@ -165,21 +246,22 @@ class Home extends React.Component {
 
 
         {/*footer (Seeproject) */}
-
-        <div className="row fot_hoMe_coLor">
-          <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
-          <div className="col-12 col-md-10 col-lg-10 col-xl-10">
-            <SeeProject se_Text="seProFotr_text"
-              roWalign='row ReW_home'
-              se_Text1="largeProFotr_text"
-              seeText="Lets build something awesome together!"
-              lrgText="Send a request "
-              lgBrText=""
-              arrow_Right="arrowRight1_hoMe"
-            />
+        <Link to={`/contact`} className="changingColor">
+          <div className="row fot_hoMe_coLor">
+            <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
+            <div className="col-12 col-md-10 col-lg-10 col-xl-10">
+              <SeeProject se_Text="seProFotr_text"
+                roWalign='row ReW_home'
+                se_Text1="largeProFotr_text"
+                seeText="Lets build something awesome together!"
+                lrgText="Send a request "
+                lgBrText=""
+                arrow_Right="arrowRight1_hoMe"
+              />
+            </div>
+            <div className="col-12 col-md-12 col-lg-1 col-xl-1"></div>
           </div>
-          <div className="col-12 col-md-12 col-lg-1 col-xl-1"></div>
-        </div>
+        </Link>
       </div>
     );
   }

@@ -17,6 +17,7 @@
     .onColor{
         color: #adadad;
         margin-top: -1.8vw;
+        font-family: montserrat-light;
     }
     .Ocv3{
         -webkit-background-size: cover;
@@ -41,6 +42,7 @@
         color: #adadad;
         margin-top: -0.4vw;
         font-size: calc(12px + 0.4vw);
+        font-family: montserrat-light;
     }
     .Ocv3{
         -webkit-background-size: cover;
@@ -66,6 +68,7 @@
         color: #adadad;
         margin-top: -0.2vw;
         font-size: calc(12px + 0.4vw);
+        font-family: montserrat-light;
     }
     .Ocv3{
         -webkit-background-size: cover;
@@ -92,6 +95,7 @@
         color: #adadad;
         margin-top: 1vw;
         font-size: calc(12px + 0.6vw);
+        font-family: montserrat-light;
     }
     .Ocv3{
         -webkit-background-size: cover;

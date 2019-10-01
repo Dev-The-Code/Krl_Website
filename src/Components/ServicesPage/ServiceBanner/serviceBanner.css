@@ -1,0 +1,242 @@
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .banNer_blaNk{
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 4.6vw);
+        color: #303030;
+        margin-left: -3.7vw;
+    }
+    .banNer_iMgTeXt{
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 5.3vw);
+        color: #ffffff;
+        margin-top: 8.5vw;
+        margin-left: -1vw;
+    }
+    .CircleBanerBack{
+        background-image: url("../../../Assets/Images/circle.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 25vw;
+        margin-left: -1vw;
+    }
+    .divi_Color_Service{
+        background-color: #fafafa;
+        padding: 6vw;
+        border-radius: 1vw;
+        box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+        margin-left: 4vw;
+        margin-right: 8vw;
+        margin-top: -21vw;
+        width: 75vw;
+    }
+    .serVice_Textt{
+        font-size: calc(12px + 0.3vw);
+        font-family: montserrat-light;
+        color: #adadad;
+        letter-spacing: -0.05vmax;
+        line-height: 6vw;
+        margin-bottom: 1vw;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .banNer_blaNk{
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 4.2vw);
+        color: #303030;
+        margin-top: 8.5vw;
+        letter-spacing: 0.15vw;
+        line-height: 6vw;
+    }
+    .banNer_iMgTeXt{
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 4.3vw);
+        color: #ffffff;
+        margin-top: 8.2vw;
+        margin-left: -2vw;
+    }
+    .CircleBanerBack{
+        background-image: url("../../../Assets/Images/circle.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 25vw;
+        margin-left: -1vw;
+    }
+    .divi_Color_Service{
+        background-color: #fafafa;
+        padding: 3.2vw;
+        padding-bottom: 2.2vw;
+        border-radius: 1vw;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.12);
+        margin-left: -8vw;
+        margin-right: 8vw;
+        margin-top: -2.5vw;
+        margin-bottom: 11vw;
+        width: 36vw;
+    }
+       
+    .serVice_Textt{
+        font-size: calc(12px + 0.1vw);
+        font-family: montserrat-light;
+        color: #adadad;
+        line-height: 2.2vw;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .banNer_blaNk{
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 5.1vw);
+        color: #303030;
+        margin-top: 8.8vw;
+        line-height: 6.5vmax;
+        letter-spacing: 0.1vw;
+    }
+    .banNer_iMgTeXt{
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 5.1vw);
+        color: #ffffff;
+        margin-top: 8.5vw;
+        margin-left: -1vw;
+    }
+    .CircleBanerBack{
+        background-image: url("../../../Assets/Images/circle.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 25vw;
+        margin-left: -0.5vw;
+    }
+    .divi_Color_Service{
+        background-color: #fafafa;
+        padding: 3.2vw;
+        padding-bottom: 2.2vw;
+        border-radius: 1vw;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.12);
+        margin-left: -8vw;
+        margin-right: 8vw;
+        margin-top: -2.5vw;
+        width: 36vw;
+        margin-bottom: 10vw;
+    }
+       
+    .serVice_Textt{
+        font-size: calc(12px + 0.3vw);
+        font-family: montserrat-light;
+        color: #adadad;
+        line-height: 2.2vw;
+    }
+}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .banNer_blaNk{
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 5.3vw);
+        color: #303030;
+        margin-top: 8.5vw;
+        line-height: 6.5vmax;
+    }
+    .banNer_iMgTeXt{
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 5.3vw);
+        color: #ffffff;
+        margin-top: 8vw;
+        margin-left: -1vw;
+    }
+    .CircleBanerBack{
+        background-image: url("../../../Assets/Images/circle.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 25vw;
+        margin-left: -1vw;
+    }
+    .divi_Color_Service{
+        background-color: #fafafa;
+        padding: 3.2vw;
+        padding-bottom: 2.2vw;
+        border-radius: 1vw;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.12);
+        margin-left: -8vw;
+        margin-right: 8vw;
+        margin-top: -2.5vw;
+        width: 33vw;
+        margin-bottom: 14vw;
+    }
+       
+    .serVice_Textt{
+        font-size: calc(12px + 0.3vw);
+        font-family: montserrat-light;
+        color: #adadad;
+        line-height: 2.2vw;
+    }
+}
+@media only screen and (min-device-width : 1600px) {
+    .banNer_blaNk{
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 5.6vw);
+        color: #303030;
+        margin-top: 8.5vw;
+    }
+    .banNer_iMgTeXt{
+        font-family: montserrat-extrabold;
+        font-size: calc(12px + 5.6vw);
+        color: #ffffff;
+        margin-top: 8.5vw;
+        margin-left: -1vw;
+    }
+    .CircleBanerBack{
+        background-image: url("../../../Assets/Images/circle.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 25vw;
+        margin-left: -1vw;
+    }
+    .divi_Color_Service{
+        background-color: #fafafa;
+        padding: 3.2vw;
+        padding-bottom: 2.2vw;
+        border-radius: 1vw;
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.12);
+        margin-left: -8vw;
+        margin-right: 8vw;
+        margin-top: -2vw;
+        margin-bottom: 12vw;
+        width: 28vw;
+    }
+    
+    .serVice_Textt{
+        font-size: calc(12px + 0.3vw);
+        font-family: montserrat-light;
+        color: #adadad;
+        line-height: 2.2vw;
+    }
+}
+
+.CircleBaner_Mob{
+    background-image: url("../../../Assets/Images/circle.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 50vw;
+}
+

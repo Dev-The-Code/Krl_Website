@@ -343,13 +343,14 @@
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .text_sendRqust{
-        background: -webkit-linear-gradient( #0ac3d0 , #953797 );
+        background: -webkit-linear-gradient( 360deg,#0ac3d0 , #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 1.5vw;
         font-family: montserrat-light;
         letter-spacing: -0.1vw;
         margin-left: -1vw;
+        cursor: pointer;
     }
     ::-webkit-input-placeholder { /* Edge */
         color: #5b5b5b;
@@ -373,12 +374,13 @@
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .text_sendRqust{
-        background: -webkit-linear-gradient(	#0ac3d0 , #953797 );
+        background: -webkit-linear-gradient( 360deg,#0ac3d0 , #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: calc(10px + 0.7vw);
         font-family: montserrat-light;
         letter-spacing: -0.1vw;
+        cursor: pointer;
     }
     ::-webkit-input-placeholder { /* Edge */
         color: #5b5b5b;
@@ -402,12 +404,13 @@
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .text_sendRqust{
-        background: -webkit-linear-gradient(	#0ac3d0 , #953797 );
+        background: -webkit-linear-gradient( 360deg,#0ac3d0 , #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: calc(10px + 0.7vw);
         font-family: montserrat-light;
         letter-spacing: -0.1vw;
+        cursor: pointer;
     }
     ::-webkit-input-placeholder { /* Edge */
         color: #5b5b5b;
@@ -431,12 +434,13 @@
 }
 @media only screen and (min-device-width : 1600px){
     .text_sendRqust{
-        background: -webkit-linear-gradient(	#0ac3d0 , #953797 );
+        background: -webkit-linear-gradient( 360deg,#0ac3d0 , #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: calc(10px + 0.7vw);
         font-family: montserrat-light;
         letter-spacing: -0.1vw;
+        cursor: pointer;
     }
     ::-webkit-input-placeholder { /* Edge */
         color: #5b5b5b;

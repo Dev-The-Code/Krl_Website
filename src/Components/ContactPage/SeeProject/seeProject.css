@@ -1,12 +1,20 @@
 
 .SEE_backColor{
-    background-color: ;
-}
- .SEE_backColor{
     background-color: #f7f7f7;
     padding-top: 8vw;
     padding-bottom: 7vw;
+    cursor: pointer;
+    text-decoration: none;
 } 
+.SEE_backColor:hover{
+    background-color: #e0e0e0;
+    padding-top: 8vw;
+    padding-bottom: 7vw;
+    
+} 
+.changingColor{
+    text-decoration: none !important;
+}
 .se_text{
     color: #C0C0C0;
     font-size: calc(10px + 0.5vw);
@@ -235,6 +243,11 @@
     padding-top: 8vw;
     padding-bottom: 8vw;
 }
+.proSeeFotr:hover{
+    background-color: #e0e0e0;
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+}
 .seProFotr_text{
     color: #adadad;
     font-size: calc(10px + 0.5vw);
@@ -251,4 +264,10 @@
     padding-bottom: 6vw;
     padding-top: 6vw;
     background-color: #f7f7f7;
+    cursor: pointer;
+}
+.footer_contact:hover{
+    padding-bottom: 6vw;
+    padding-top: 6vw;
+    background-color: #e0e0e0;
 }

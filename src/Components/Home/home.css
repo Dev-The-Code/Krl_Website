@@ -1,3 +1,6 @@
+.changingdec{
+    text-decoration: none !important;
+}
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .dai_coLrsty {
         background-color: #fafafa;
@@ -54,7 +57,6 @@
         font-family: montserrat-extrabold;
         color: black;
         padding-bottom: 3.2vw;
-        padding-left: 1vw;
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
@@ -75,7 +77,6 @@
         font-family: montserrat-extrabold;
         color: black;
         padding-bottom: 3.2vw;
-        padding-left: 1vw;
     }
 }
 @media only screen and (min-device-width : 1600px) {
@@ -109,6 +110,11 @@
 
 .fot_hoMe_coLor{
     background-color: #f7f7f7;
+    padding-top: 8vw;
+    padding-bottom: 7vw;
+}
+.fot_hoMe_coLor:hover{
+    background-color: #e0e0e0;
     padding-top: 8vw;
     padding-bottom: 7vw;
 }
@@ -167,7 +173,8 @@
         height: 9vmax;
         border-radius: 1vw;
         margin-bottom: 12vmax;
-        margin-left: -2.3vw;
+        margin-left: -4.7vw;
+        margin-top: 10vw;
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
@@ -176,15 +183,17 @@
         height: 9vmax;
         border-radius: 1vw;
         margin-bottom: 12vmax;
-        margin-left: -2.3vw;
+        margin-left: -4.7vw;
+        margin-top: 8.5vw;
     }
 }
 @media only screen and (min-device-width : 1600px) {
     .vieW_btn {
+        margin-top: 4.5vw;
         background-color: #f7f7f7;
         height: 9vmax;
         border-radius: 1vw;
         margin-bottom: 12vmax;
-        margin-left: -2.3vw;
+        margin-left: -4.3vw;
     }
 }

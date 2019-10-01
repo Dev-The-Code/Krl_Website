@@ -24,7 +24,7 @@ class Founders2 extends Component {
                 <div className="col-xl-2 col-lg-2 col-md-1 col-sm-1 col-1 imgDev">
                   <img href="#" className="devFondp2Prof" src={require('../../Assets/Images/profilePic.png')}/>
                 </div> 
-                <div className="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 devFond1">
+                <div className="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-9 devFond1">
                   <p className="devFondp2Name">Muzaffer Khan</p>
                   <p className="devFondp2comp">CEO, Selmore Group</p>
                 </div>

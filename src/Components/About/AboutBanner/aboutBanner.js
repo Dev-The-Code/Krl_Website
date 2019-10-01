@@ -33,7 +33,7 @@ class AboutBanner extends Component {
                     <div className="row">
                         <div className="col-1">             
                         </div>
-                        <div className="col-10 backImgee_baner_Mob">  
+                        <div className={this.props.BnerAbtHome}>  
                             <h1 className="abut_banerText_Mob">{this.props.conts_sol}<br />{this.props.With_sool}</h1>                          
                         </div>
                     </div>

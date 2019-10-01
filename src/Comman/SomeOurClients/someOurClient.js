@@ -13,7 +13,7 @@ class SomeOurClients extends Component {
       return (
         <div className="row sOClients">
             <div className="col-xl-12 col-lg-12 col-md-3 col-12"></div>
-            <div className="col-xl-12 col-lg-12 col-md-9 col-10">
+            <div className="col-xl-12 col-lg-12 col-md-9 col-11">
               <h3 className="clients">Some of our clients</h3>
             </div>
             

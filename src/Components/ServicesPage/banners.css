@@ -7,21 +7,37 @@
 .banDevSmall{
     padding-right: 0vw;
 }
+.banPeraDev{
+    background-color: #f8f8f8;
+    width: 12vw;
+    border-radius: 1vw;
+}
+.banPeraDevsmall{
+    background-color: #f8f8f8;
+    width: 20vw;
+    border-radius: 1vw;
+}
 .banPera{
     font-size: 1.15vw;
     font-family: montserrat-light;
-    background-color: #cab8b8;
+    background-color: #f8f8f8;
     border-radius: 1vw;
     width: 12vw;
     padding: 1.1vw;
+    background: -webkit-linear-gradient( 360deg,#0ac3d0 , #953797 );
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
 }
 .banPeraSmall{
-    font-size: 1.15vw;
+    font-size: 2.15vw;
     font-family: montserrat-light;
-    background-color: #cab8b8;
+    background-color: #f8f8f8;
     border-radius: 1vw;
-    width: 12vw;
+    width: 20vw;
     padding: 1.1vw;
+    background: -webkit-linear-gradient( 360deg,#0ac3d0 , #953797 );
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
 }
 .banPera1{
     font-size: 1.15vw;
@@ -64,7 +80,7 @@
     background-repeat: no-repeat;
     background-position-x: center;
     border-radius: calc(10px + 1vh);
-    padding-left: 0vw;
+    /* padding-left: 0vw; */
     height: 29.3vmax;
 }
 .banDev1Small{
@@ -87,9 +103,21 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
-    border-radius: calc(10px + 1vh);
+    border-radius: 2vw;
     padding-left: 0vw;
-    height: 29.3vmax;
+    height: 25.3vmax;
+}
+.banDev1ProMb{
+    background-image: url("../../Assets/Images/acf.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 2vw;
+    padding-left: 0vw;
+    height: 17.3vmax;
 }
 .banHedng2{
     font-size: 5.1vw;
@@ -104,12 +132,13 @@
     margin-top: 5vmax;
     /* padding: 3.1vw; */
     border-radius: 1vw;
+    padding: 2.15vw 3vw 1.3vw 2.15vw;
 }
 .banChildDev1Small{
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
     background-color: white;
     margin-top: 4vmax;
-    padding: 3.1vw;
+    /* padding: 3.1vw; */
     border-radius: 1vw;
 }
 .peraChild1{
@@ -144,24 +173,21 @@
     margin-left: -4vmax;
 }
 
-
-
-
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .banHedngSmall{
-        font-size: 4.8vw;
+        font-size: 5.1vw;
         font-family: montserrat-extrabold;
-        padding-top: calc(2px + 8.9vmax);
+        padding-top: 3vw;
     }
     
     .banHedng1Small{
-        font-size: 4.8vw;
+        font-size: 5vw;
     }
     .banHedng2Small {
-        font-size: 4.8vw;
+        font-size: 5.1vw;
         font-family: montserrat-extrabold;
         color: white;
-        padding-top: calc(0.4vw + 9.2vmax);
+        padding-top: 6.2vw;
     }
     .banServiceHedng2Small {
         font-size: 4.8vw;
@@ -174,11 +200,18 @@
         font-family: montserrat-extrabold;
         padding-top: calc(2px + 8.9vmax);
     }
-    .banHedng2Small {
-        font-size: 4.8vw;
+    .banChildDev1Small{
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+        background-color: white;
+        margin-top: 2vmax;
+        /* padding: 3.1vw; */
+        border-radius: 1vw;
+    }
+    .BanrPera1Mb{
         font-family: montserrat-extrabold;
-        color: white;
-        padding-top: calc(0.4vw + 10vmax);
+        font-size: calc(0.5em + 0.5vw);
+        color: #303030;
+        padding: 3.15vw 0vw 1.15vw 1.15vw;
     }
     
     
@@ -213,18 +246,44 @@
         font-size: 5.8vw;
     }
     .banHedngSmall {
-        font-size: 4.7vw;
+        font-size: 5.2vw;
         font-family: montserrat-extrabold;
-        padding-top: calc(2px + 8.9vmax);
+        padding-top: 10.5vw;
     }
     .banHedng1Small {
-        font-size: 4.6vw;
+        font-size: 5.1vw;
     }
     .banHedng2Small {
-        font-size: 4.6vw;
+        font-size: 5.2vw;
         font-family: montserrat-extrabold;
         color: white;
-        padding-top: calc(0.4vw + 10vmax);
+        padding-top: 13.5vw;
+    }
+    .BanrPera1Mb{
+        
+        font-family: montserrat-extrabold;
+        font-size: calc(0.5em + 0.5vw);
+        color: #303030;
+        padding: 3.15vw 4.1vw 1.15vw 1.15vw;
+    }
+    .banChildDev1Small{
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+        background-color: white;
+        margin-top: 2vmax;
+        /* padding: 3.1vw; */
+        border-radius: 1vw;
+    }
+    .banDev1ProSmall{
+        background-image: url("../../Assets/Images/acf.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        border-radius: 2vw;
+        padding-left: 0.3vw;
+        height: 25.3vmax;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
@@ -243,14 +302,21 @@
         padding-top: calc(0.2vw + 8vmax);
     }
     .banHedng{
-        font-size: 4.9vw;
+        font-size: 5.2vw;
         font-family: montserrat-extrabold;
-        padding-top: 9vmax;
+        padding-top: 8.8vw;
     }
     .banHedng1{
-        font-size: 4.8vw;
+        font-size: 5.2vw;
     }
-    
+    .banChildDev1{
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+        background-color: white;
+        margin-top: 4vmax;
+        /* padding: 3.1vw; */
+        border-radius: 1vw;
+        padding: 2.15vw 4vw 1.3vw 2.15vw;
+    }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .banServiceHedng {
@@ -265,12 +331,26 @@
         padding-top: calc(0.3vw + 8vmax);
     }
     .banHedng{
-        font-size: 5.1vw;
+        font-size: 5.3vw;
         font-family: montserrat-extrabold;
-        padding-top: 9vmax;
+        padding-top: 8.5vmax;
     }
     .banHedng1{
-        font-size: 5vw;
+        font-size: 5.2vw;
+    }
+    .banChildDev1{
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+        background-color: white;
+        margin-top: 5vmax;
+        /* padding: 3.1vw; */
+        border-radius: 1vw;
+        padding: 2.15vw 4vw 1.3vw 2.15vw;
+    }
+    .banHedng2{
+        font-size: 5.3vw;
+        font-family: montserrat-extrabold;
+        color: white;
+        padding-top: 10vw;
     }
 }
 @media only screen and (min-device-width : 1600px) {
@@ -286,12 +366,20 @@
         padding-top: calc(0.3vw + 8vmax);
     }
     .banHedng{
-        font-size: 5.1vw;
+        font-size: 5.3vw;
         font-family: montserrat-extrabold;
-        padding-top: 9vmax;
+        padding-top: 8.5vmax;
     }
     .banHedng1{
         font-size: 5vw;
+    }
+    .banChildDev1{
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+        background-color: white;
+        margin-top: 5vmax;
+        /* padding: 3.1vw; */
+        border-radius: 1vw;
+        padding: 2.15vw 5vw 1.3vw 2.15vw;
     }
 }
 

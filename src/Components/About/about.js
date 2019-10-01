@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import AboutUs from './AboutUs/aboutUs';
 import Services from './Services/services';
 import OurCoreValues from './OurCoreValues/ourCoreValues';
@@ -37,23 +38,23 @@ class About extends React.Component {
     return (
       <div>
         <Header2 headerPath={headerPath}  />
-
-        <AboutBanner 
-          Consl_text='Consultation'
-          solu_text='with solution.'
-          para_Text='divi_Colorsty'
-          para_ClaSs='para_Textt'
-          descrip_Text='KRL Creatives provides consultation businesses to help them grow. We listen thouroughly to your problem, empathize with you and your customers and create useful digital solutions that maximise your return on investments.'
-          mOR_texT=''
-          conts_sol='Consultation '
-          With_sool='with solution.'
-          bigGerText="KRL Creatives provides consultation businesses to help them grow.
-          We listen thouroughly to your problem, empathize with you and your
-          customers and create useful digital solutions that maximise
-          your return on investments."
-          bigGerInSmall=''
-          diviColotextt='divi_Colorsty_Mob'
-        />
+          <AboutBanner 
+            Consl_text='Consultation'
+            solu_text='with solution.'
+            para_Text='divi_Colorsty'
+            para_ClaSs='para_Textt'
+            descrip_Text='KRL Creatives provides consultation businesses to help them grow. We listen thouroughly to your problem, empathize with you and your customers and create useful digital solutions that maximise your return on investments.'
+            mOR_texT=''
+            conts_sol='Consultation '
+            With_sool='with solution.'
+            bigGerText="KRL Creatives provides consultation businesses to help them grow.
+            We listen thouroughly to your problem, empathize with you and your
+            customers and create useful digital solutions that maximise
+            your return on investments."
+            bigGerInSmall=''
+            diviColotextt='divi_Colorsty_Mob'
+            BnerAbtHome='col-10 backImgee_baner_Mob'
+          />
         <br /><br />
         <OurCoreValues />
         <OurOffices
@@ -63,6 +64,7 @@ class About extends React.Component {
         />
         <OurTeam />
         <SocialMedia />
+        <Link to={`/contact`} className="changingColor">
         <SeeProject
           seeBckColr="row SEE_backColor"
           roWalign='row RwO_aboUT'
@@ -72,7 +74,7 @@ class About extends React.Component {
           lrgText="Send a request"
           lgBrText=""
           arrow_Right="arrowRight1_aboUt"
-        />
+        /></Link>
       </div>
 
     );

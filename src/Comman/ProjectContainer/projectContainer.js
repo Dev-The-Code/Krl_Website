@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../../Components/Projects/projects.css';
 
 class ProjectContainer extends Component {
@@ -10,7 +11,7 @@ class ProjectContainer extends Component {
 
   render() {
     const { projctBox, projctBox1, projctHedng, hed, hed1, projctChildBox, projctPera, pera, projctPera1, proAeroImg, seeAerro } = this.props;
-    console.log(pera, 'pera')
+    console.log(this.props,'location');
     return (
       <div>
         <div className="row" style={{ paddingRight: '0vw' }}>
@@ -23,10 +24,12 @@ class ProjectContainer extends Component {
                 <p className={projctPera}>
                   {pera}
                 </p>
-                {seeAerro ? <p className={projctPera1}>
-                  View Project.<img href="#" className={proAeroImg} src={require('../../Assets/Images/arrowPurple.png')} />
-                </p>
-                  : null}
+                <a href={this.props.locationUrl} className="changingdec" target='_blank'>
+                  {seeAerro ? <p className={projctPera1}>
+                    View Project.<img href="#" className={proAeroImg} src={require('../../Assets/Images/arrowPurple.png')} />
+                  </p>
+                    : null}
+                </a>
                 {/* {seeAerro  ? <p className={projctPera1}>
                 {this.props.ViewPro && 
                 <img href="#" className={proAeroImg} src={require('../../Assets/Images/arrowPurple.png')} />

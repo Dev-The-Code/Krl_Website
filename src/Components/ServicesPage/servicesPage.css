@@ -1,3 +1,4 @@
+
 .seeBckgrndColr{
     background-color: white;
 }
@@ -81,7 +82,7 @@
 }
 .bgColr{
     background-color: #f7f7f7;
-    margin-bottom: 13vw;
+    margin-bottom: 16vw;
 }
 
 .blnkColr{
@@ -98,6 +99,13 @@
         background-color: #f7f7f7;
         padding-top: 9.4vw;
         padding-bottom: 8.4vw;
+    }
+    .headServicess{
+        font-size: 7vw;
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+        padding-left: 4.4vw;
     }
     .consul_BgImgSmMd{
         background-position: left;
@@ -179,9 +187,19 @@
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
-    
+    .headServicess{
+        font-size: calc(10px + 1.8vw);
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+    }
     .fotBgColr{
         background-color: #f7f7f7;
+        padding-top: 6.4vw;
+        padding-bottom: 6.4vw;
+    }
+    .fotBgColr:hover{
+        background-color: #e0e0e0;
         padding-top: 6.4vw;
         padding-bottom: 6.4vw;
     }
@@ -248,8 +266,19 @@
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .headServicess{
+        font-size: calc(10px + 1.8vw);
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+    }
     .fotBgColr{
         background-color: #f7f7f7;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+    .fotBgColr:hover{
+        background-color: #e0e0e0;
         padding-top: 5vw;
         padding-bottom: 5vw;
     }
@@ -316,8 +345,19 @@
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .headServicess{
+        font-size: calc(10px + 1.8vw);
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+    }
     .fotBgColr{
         background-color: #f7f7f7;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+    .fotBgColr:hover{
+        background-color: #e0e0e0;
         padding-top: 5vw;
         padding-bottom: 5vw;
     }
@@ -384,8 +424,19 @@
     }
 }
 @media only screen and (min-device-width : 1600px) {
+    .headServicess{
+        font-size: calc(10px + 1.8vw);
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+    }
     .fotBgColr{
         background-color: #f7f7f7;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+    .fotBgColr:hover{
+        background-color: #e0e0e0;
         padding-top: 5vw;
         padding-bottom: 5vw;
     }
@@ -557,6 +608,15 @@
     position: relative;
     margin-bottom: 4vw;
 }
+.blankDevchild{
+    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+    margin-top: 10vw;
+    background-color: white;
+    border-radius: 1vw;
+    width: 19.8vw;
+    position: relative;
+    margin-bottom: 4vw;
+}
 .designPera{
     font-size: calc(1em + 0.1vmax);
     color: #adadad;
@@ -678,7 +738,7 @@
 .consultDevMb{
     box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
     margin-left: 3.3vw;
-    margin-top: 9vh;
+    margin-top: 11vh;
     background-color: #fafafa;
     border-radius: 3vw;
     width: 77vw;
@@ -710,7 +770,7 @@
 .develpDevMb {
     box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
     margin-left: 3.3vw;
-    margin-top: 8.9vh;
+    margin-top: 10vh;
     background-color: #fafafa;
     border-radius: 3vw;
     width: 77vw;
@@ -755,15 +815,36 @@
     height: 23.1vw;
     position: absolute;
 }
+.blankDesign:hover{
+    background-color: #e0e0e0;
+    border-radius: 1vw;
+    width: 20vw;
+    height: 23.1vw;
+    position: absolute;
+}
 .blankDesignSm{
     background-color: #f7f7f7;
     border-radius: 1vw;
     width: 81vw;
-    height: 23.1vw;
-    margin-bottom: 4vw;
+    height: 10vw;
+    margin-bottom: 16vw;
+}
+.blankDesignSm:hover{
+    background-color: #e0e0e0;
+    border-radius: 1vw;
+    width: 81vw;
+    height: 10vw;
+    margin-bottom: 16vw;
 }
 .blankDesignMb{
     background-color: #f7f7f7;
+    border-radius: 1vw;
+    width: 84vw;
+    height: 23.1vw;
+    margin-bottom: 4vw;
+}
+.blankDesignMb:hover{
+    background-color: #e0e0e0;
     border-radius: 1vw;
     width: 84vw;
     height: 23.1vw;
@@ -786,4 +867,28 @@
     width: 20vw;
     height: 23.1vw;
     position: absolute;
+}
+.blankperaimg1 {
+    padding-left: 2.5vw;
+    padding-bottom: 1.5vmax;
+    font-family: montserrat-extrabold;
+    color: #303030;
+    font-size: calc(0.8em + 0.5vw);
+    padding-top: 19vw;
+}
+.blankperaimgMd1 {
+    padding-left: 2.5vw;
+    padding-bottom: 1.5vmax;
+    font-family: montserrat-extrabold;
+    color: #303030;
+    font-size: calc(0.8em + 0.5vw);
+    padding-top: 3.5vw;
+}
+.blankperaimgMb1 {
+    padding-left: 2.5vw;
+    padding-bottom: 1.5vmax;
+    font-family: montserrat-extrabold;
+    color: #303030;
+    font-size: calc(0.8em + 0.5vw);
+    padding-top: 9vw;
 }
