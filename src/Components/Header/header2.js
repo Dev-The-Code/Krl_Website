@@ -36,7 +36,7 @@ class Header2 extends Component {
                   </div>
                   <div className="col-md-7 col-lg-7 col-xl-7"></div>
                   <div className="col-md-1 col-lg-1 col-xl-1 mt-5">
-                    <img className="menu" src={require('../../Assets/Images/close.png')} onClick={this.closeNav} />
+                    <img className="menu_OfClose" src={require('../../Assets/Images/close.png')} onClick={this.closeNav} />
                   </div>
                   <div className="col-md-1 col-lg-1 col-xl-1"></div>
                 </div>
@@ -47,7 +47,7 @@ class Header2 extends Component {
                       <div className="col-md-2 col-lg-2 col-xl-2">
                         <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav} >
                           <Button
-                            classMd="nav_bTnTeXt"
+                            classMd="nav_bTnhoM"
                             label='Home'
                           />
                         </Link>
@@ -71,7 +71,7 @@ class Header2 extends Component {
                       <div className="col-md-2 col-lg-2 col-xl-2 btNCenter">
                         <Link rel="noopener noreferrer" to={`/about`} onClick={this.closeNav} >
                           <Button
-                            classMd="nav_bTnTeXt"
+                            classMd="nav_bTnAbot"
                             label='About'
                           />
                         </Link>
@@ -79,7 +79,7 @@ class Header2 extends Component {
                       <div className="col-md-2 col-lg-2 col-xl-2 btNCenter">
                         <Link rel="noopener noreferrer" to={`/contact`} onClick={this.closeNav} >
                           <Button
-                            classMd="nav_bTnTeXt"
+                            classMd="nav_bTnCont"
                             label='Contact'
                           />
                         </Link>
@@ -87,7 +87,7 @@ class Header2 extends Component {
                       <div className="col-md-2 col-lg-2 col-xl-2 btNCenter">
                         <Link rel="noopener noreferrer" to={`/blog`} onClick={this.closeNav} >
                           <Button
-                            classMd="nav_bTnTeXt"
+                            classMd="nav_bTnBlog"
                             label='Blog'
                           />
                         </Link>

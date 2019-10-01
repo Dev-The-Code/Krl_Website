@@ -108,7 +108,7 @@
 .GFA_BgImgHomeMb {
     background-image: url("../../Assets/Images/getfit.png");
     height: 26.5vmax;
-    border-radius: 1vw;
+    border-radius: 5vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -116,7 +116,7 @@
     background-position-x: right;
     /* margin-bottom: calc(15vw - 1vmax); */
     margin-left: 4.3vw;
-    margin-bottom: calc(15vw - -8vmax);
+    margin-bottom: calc(15vw - -11vmax);
 }
 .GFA_BgImgMd {
     background-image: url("../../Assets/Images/getfit.png");
@@ -141,13 +141,33 @@
     margin-bottom: calc(15vw - -8vmax);
     margin-top: 20vw;
 }
+.GFA_BgImgProMb {
+    background-image: url("../../Assets/Images/getfit.png");
+    height: 30.5vmax;
+    border-radius: 5vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(15vw - -11vmax);
+    margin-top: 15vw;
+}
 .bgChild{
     color: #fafafa;
     /* margin-left: 3.1vw;
     width: 28.9vw; */
     background-color: #fafafa;
     border-radius: 1vw;
-    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+}
+.bgChildMb{
+    color: #fafafa;
+    /* margin-left: 3.1vw;
+    width: 28.9vw; */
+    background-color: #fafafa;
+    border-radius: 4vw;
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
 }
 .GFAhedng{
     padding-top: 4.2vw;
@@ -162,7 +182,7 @@
     padding-top: 3.1vw;
     padding-right: 3.1vw;
     font-family: montserrat-light;
-    font-size: calc(1em + 0.3vw);
+    font-size: calc(12px + 0.3vw);
     color: #adadad;
     letter-spacing: -0.03vmax;
     line-height: 1.5em;
@@ -216,7 +236,7 @@
 .DrentBgImgHomeMb {
     background-image: url("../../Assets/Images/drent.png");
     height: 26.5vmax;
-    border-radius: 1vw;
+    border-radius: 5vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -224,7 +244,7 @@
     background-position-x: right;
     /* margin-bottom: calc(15vw - 1vmax); */
     margin-left: 4.3vw;
-    margin-bottom: calc(2vw + -9vmax);
+    margin-bottom: calc(2vw + -6vmax);
 }
 .DrentBgImgMd {
     background-image: url("../../Assets/Images/drent.png");
@@ -240,13 +260,13 @@
 .DrentBgImgMb {
     background-image: url("../../Assets/Images/drent.png");
     height: 30.5vmax;
-    border-radius: 3vw;
+    border-radius: 5vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: calc(15vw - -8vmax);
+    margin-bottom: calc(15vw - -11vmax);
 }
 .Drenthedng{
     padding-top: 4.2vw;
@@ -275,7 +295,7 @@
 }
 .ADBhedngMb{
     padding-top: 4.2vw;
-    padding-left: 7.1vw;
+    padding-left: 3.1vw;
     padding-bottom: 3.2vw;
     font-size: 2.6vmax;
     font-family: montserrat-extrabold;
@@ -316,7 +336,7 @@
 .ADB_BgImgHomeMb {
     background-image: url("../../Assets/Images/amber-dazzle.png");
     height: 28.5vmax;
-    border-radius: 1vw;
+    border-radius: 5vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -340,8 +360,8 @@
 }
 .ADB_BgImgMb {
     background-image: url("../../Assets/Images/amber-dazzle.png");
-    height: 37.5vmax;
-    border-radius: 2vw;
+    height: 30.5vmax;
+    border-radius: 5vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -349,49 +369,70 @@
     background-position-x: right;
     /* margin-bottom: 7vmax; */
     margin-left: 4.3vw;
-    margin-bottom: calc(15vw - -8vmax);
+    margin-bottom: calc(15vw - -11vmax);
 }
 .ADB_BgChild{
     color: #fafafa;
     margin-left: -7vmax;
     background-color: #fafafa;
     border-radius: 1vw;
-    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
 }
 .ADB_BgChildSmMd{
     color: #fafafa;
     /* margin-left: 3.6vw; */
     background-color: #fafafa;
+    border-radius: 4vw;
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+}
+.ADB_BgChildMd{
+    color: #fafafa;
+    margin-left: 3.6vw;
+    background-color: #fafafa;
     border-radius: 1vw;
-    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
 }
 .DPW_BgChild{
     color: #fafafa;
     margin-left: -7vmax;
     background-color: #fafafa;
     border-radius: 1vw;
-    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
 }
 .DPW_BgChildSmMd{
     color: #fafafa;
-    margin-left: 3.6vw;
+    /* margin-left: 3.6vw; */
     background-color: #fafafa;
-    border-radius: 1vw;
-    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+    border-radius: 4vw;
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
 }
-.ODW_BgChildSmMd{
+.DPW_BgChildMd{
     color: #fafafa;
     margin-left: 3.6vw;
     background-color: #fafafa;
     border-radius: 1vw;
-    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+}
+.ODW_BgChildSmMd{
+    color: #fafafa;
+    /* margin-left: 3.6vw; */
+    background-color: #fafafa;
+    border-radius: 4vw;
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+}
+.ODW_BgChildMd{
+    color: #fafafa;
+    margin-left: 3.6vw;
+    background-color: #fafafa;
+    border-radius: 1vw;
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
 }
 .ADBpera{
     padding-left: 3.1vw;
     padding-top: 3.1vw;
     padding-right: 1.1vw;
     font-family: montserrat-light;
-    font-size: calc(1em + 0.3vw);
+    font-size: calc(12px + 0.3vw);
     color: #adadad;
     letter-spacing: -0.03vmax;
     line-height: 2em;
@@ -438,7 +479,7 @@
 .DPW_BgImgMb {
     background-image: url("../../Assets/Images/dallaspalm.png");
     height: 33.5vmax;
-    border-radius: 2vw;
+    border-radius: 5vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -446,7 +487,7 @@
     background-position-x: right;
     /* margin-bottom: 11vmax; */
     margin-left: 4.3vw;
-    margin-bottom: calc(15vw - -8vmax);
+    margin-bottom: calc(15vw - -11vmax);
 }
 .ODW_BgImg {
     background-image: url("../../Assets/Images/web-app.png");
@@ -462,7 +503,7 @@
 .ODW_BgImgMb {
     background-image: url("../../Assets/Images/web-app.png");
     height: 33vmax;
-    border-radius: 2vw;
+    border-radius: 5vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -470,7 +511,7 @@
     background-position-x: right;
     /* margin-bottom: 11vmax; */
     margin-left: 4.3vw;
-    margin-bottom: calc(15vw - -8vmax);
+    margin-bottom: calc(15vw - -11vmax);
 
 }
 .ADB_HomBgImg {

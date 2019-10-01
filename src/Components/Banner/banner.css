@@ -8,17 +8,17 @@
         font-size: calc(12px + 4vw);
         color: black;
         font-family: montserrat-extrabold;
-        margin-left: 8vw;
+        margin-left: 3.5vw;
     }
     .latest_text{
         font-size: calc(10px + 0.6vw);
         font-family: montserrat-extrabold;
-        margin-left: 8vw;
+        margin-left: 4vw;
     }
     .rebrand_text{
         font-size: calc(10px + 0.4vw);
         font-family: montserrat-light;
-        margin-left: 8vw;
+        margin-left: 3vw;
         color: #8f8f8f;
     }
     .arrow_banImg{

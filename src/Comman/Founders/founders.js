@@ -30,7 +30,20 @@ class Founder extends Component {
               </div>
             </div>
 
-            <div className="d-block d-sm-block d-md-block d-lg-none d-xl-none">
+            <div className="d-none d-sm-block d-md-block d-lg-none d-xl-none" style={{marginBottom: '10vw'}}>
+              <div className="row">
+                {/*<div className="col-md-1 col-sm-1 col-1"></div>*/}
+                <div className="col-md-2 col-sm-2 col-4 imgDev1">
+                  <img href="#" className="devFondProf1" src={require('../../Assets/Images/profilePic.png')}/>
+                </div> 
+                <div className="col-md-10 col-sm-10 col-8 devFond1">
+                  <p className="devFondName1">Muzaffer Khan</p>
+                  <p className="devFondcomp1">CEO, Selmore Group</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="d-block d-sm-none d-md-none d-lg-none d-xl-none">
               <div className="row">
                 {/*<div className="col-md-1 col-sm-1 col-1"></div>*/}
                 <div className="col-md-2 col-sm-2 col-4 imgDev1">

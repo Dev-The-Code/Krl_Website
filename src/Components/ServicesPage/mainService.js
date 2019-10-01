@@ -196,7 +196,7 @@ class ServicesPage extends Component {
                 <Link to={`/project`}>
                   <div className="col-md-12 col-sm-12" style={{ paddingLeft: '0vw' }}>
                     <div className="blankDesignSm" style={{ backgroundColor: '#f7f7f7' }}>
-                      <p className="blankperaimgMd1">view our work
+                      <p className="blankperaimgMd1">View our work
                             <img href="#" className="ADBimg" src={require('../../Assets/Images/arrowPurple.png')} /></p>
                     </div>
                     <div className="">
@@ -275,7 +275,7 @@ class ServicesPage extends Component {
                 <Link to={`/project`}>
                   <div className="col-12">
                     <div className="blankDesignMb">
-                      <p className="blankperaimgMb1">view our work
+                      <p className="blankperaimgMb1">View our work
                           <img href="#" className="ADBimg" src={require('../../Assets/Images/arrowPurple.png')} /></p>
                     </div>
                     <div className="develpDevMb">

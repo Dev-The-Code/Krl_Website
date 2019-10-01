@@ -85,7 +85,7 @@ class Home extends React.Component {
               hed1={GFAHeadingBr}
               projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
-
+              locationUrl={"https://getfitathletic.pk/"}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={GFAperaas}
@@ -99,7 +99,7 @@ class Home extends React.Component {
               hed1={DrentHeadingBr}
               projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
-
+              locationUrl={"http://drent1.herokuapp.com/"}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={Drentperaas}
@@ -116,7 +116,7 @@ class Home extends React.Component {
               hed1={GFAHeadingBr}
               projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
-
+              locationUrl={"https://getfitathletic.pk/"}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={GFAperaas}
@@ -130,7 +130,7 @@ class Home extends React.Component {
               hed1={DrentHeadingBr}
               projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
-
+              locationUrl={"http://drent1.herokuapp.com/"}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={Drentperaas}
@@ -138,16 +138,16 @@ class Home extends React.Component {
             />
           </div>
 
-          {/*monile visible */}
+          {/*monbile visible */}
           <div className="d-block d-md-none d-lg-none d-xl-none col-11">
             <ProjectsContainer
               projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgHomeMb'
               projctHedng="GFAhedng"
               hed={GFAHeading}
               hed1={GFAHeadingBr}
-              projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
+              projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChildMb"
               projctPera="GFApera"
-
+              locationUrl={"https://getfitathletic.pk/"}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={GFAperaas}
@@ -159,9 +159,9 @@ class Home extends React.Component {
               projctHedng="Drenthedng"
               hed={DrentHeading}
               hed1={DrentHeadingBr}
-              projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
+              projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChildMb"
               projctPera="GFApera"
-
+              locationUrl={"http://drent1.herokuapp.com/"}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={Drentperaas}
@@ -179,7 +179,7 @@ class Home extends React.Component {
               hed1={ADBHeadingBr}
               projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
               projctPera="ADBpera"
-
+              locationUrl={"https://www.amberdazzle.com/"}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
               pera={Drentperaas}
@@ -191,9 +191,9 @@ class Home extends React.Component {
               projctHedng="ADBhedng"
               hed={ADBHeading}
               hed1={ADBHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-11 ADB_BgChildSmMd"
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-11 ADB_BgChildMd"
               projctPera="ADBpera"
-
+              locationUrl={"https://www.amberdazzle.com/"}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
               pera={Drentperaas}
@@ -206,14 +206,14 @@ class Home extends React.Component {
               hed1={ADBHeadingBr}
               projctChildBox="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ADB_BgChildSmMd"
               projctPera="ADBpera"
-
+              locationUrl={"https://www.amberdazzle.com/"}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
               pera={Drentperaas}
               proAeroImg="ADBimg"
             />
 
-            <Link to={`/projects`} className="changingdec">
+            <Link to={`/project`} className="changingdec">
               <div className="container">
                 <div className="row">
                   <div className="col-12 col-md-11 col-lg-11 col-xl-11 vieW_btn">
