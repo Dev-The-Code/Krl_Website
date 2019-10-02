@@ -35,7 +35,7 @@ class SocialMedia extends Component {
               <p className="sm2_MoB">Social media</p>
             </div>
           </div>
-          <div className="row">
+          <div className="row" style={{marginBottom:'17vw'}}>
             <div className="col-1"></div>
             <div className="col-10">
               <ul className="social_lst">

@@ -322,15 +322,15 @@
         letter-spacing: -0.1vw;
     }
     ::-webkit-input-placeholder { /* Edge */
-        color: #5b5b5b;
+        color: #969393;
         font-size: 4vw;
     }
     :-ms-input-placeholder { /* Internet Explorer */
-        color: #5b5b5b;
+        color: #969393;
         font-size: 4vw;
     }
     ::placeholder {
-        color: #5b5b5b;
+        color: #969393;
         font-size: 4vw;
     }
     .hR_LIne{
@@ -471,9 +471,10 @@
 }
 
 .btn_sendRequest_MOB{
-    background: none;
     border: none;
-    border-bottom: 2px linear-gradient(to right, red, purple);
+    background: -webkit-linear-gradient( 360deg,#0ac3d0 , #953797 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     margin-top: 8vw;
     margin-left: -2vw;
 }

@@ -16,7 +16,7 @@ class serviceBanners extends Component {
                         </div>
                         <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
                     </div>
-                    <div className="row">
+                    <div className="row" style={{marginBottom: '-3vw'}}>
                         <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
                         <div className="col-12 col-md-5 col-lg-5 col-xl-5"></div>
                         <div className="col-12 col-md-5 col-lg-5 col-xl-5">

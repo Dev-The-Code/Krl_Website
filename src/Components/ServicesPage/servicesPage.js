@@ -44,6 +44,7 @@ class ServicesPage extends React.Component {
     routName = routName.charAt(0).toUpperCase() + routName.slice(1);
     //  console.log(routName,'sss');
     this.setState({ headerPath: routName });
+    window.scrollTo(0, 0)
   }
 
   render() {
@@ -57,7 +58,7 @@ class ServicesPage extends React.Component {
         <div className="row">
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
           <div className="col-12 col-md-11 col-lg-11 col-xl-11">
-              <h1 className="headServicess">Services</h1>
+            <h1 className="headServicess">Services</h1>
           </div>
         </div>
         <MainServicesPage />

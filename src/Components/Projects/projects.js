@@ -46,6 +46,7 @@ class Projects extends React.Component {
     routName = routName.charAt(0).toUpperCase() + routName.slice(1);
     //  console.log(routName,'sss');
     this.setState({ headerPath: routName });
+      window.scrollTo(0, 0)
   }
 
   render() {

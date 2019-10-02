@@ -108,7 +108,7 @@
 .GFA_BgImgHomeMb {
     background-image: url("../../Assets/Images/getfit.png");
     height: 26.5vmax;
-    border-radius: 5vw;
+    border-radius: 3vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -116,7 +116,7 @@
     background-position-x: right;
     /* margin-bottom: calc(15vw - 1vmax); */
     margin-left: 4.3vw;
-    margin-bottom: calc(15vw - -11vmax);
+    margin-bottom: calc(15vw - -9.5vmax);
 }
 .GFA_BgImgMd {
     background-image: url("../../Assets/Images/getfit.png");
@@ -144,13 +144,13 @@
 .GFA_BgImgProMb {
     background-image: url("../../Assets/Images/getfit.png");
     height: 30.5vmax;
-    border-radius: 5vw;
+    border-radius: 3vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: calc(15vw - -11vmax);
+    margin-bottom: calc(15vw - -9.5vmax);
     margin-top: 15vw;
 }
 .bgChild{
@@ -166,7 +166,7 @@
     /* margin-left: 3.1vw;
     width: 28.9vw; */
     background-color: #fafafa;
-    border-radius: 4vw;
+    border-radius: 3vw;
     box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
 }
 .GFAhedng{
@@ -236,7 +236,7 @@
 .DrentBgImgHomeMb {
     background-image: url("../../Assets/Images/drent.png");
     height: 26.5vmax;
-    border-radius: 5vw;
+    border-radius: 3vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -244,7 +244,7 @@
     background-position-x: right;
     /* margin-bottom: calc(15vw - 1vmax); */
     margin-left: 4.3vw;
-    margin-bottom: calc(2vw + -6vmax);
+    margin-bottom: calc(2vw + -8.5vmax);
 }
 .DrentBgImgMd {
     background-image: url("../../Assets/Images/drent.png");
@@ -260,13 +260,13 @@
 .DrentBgImgMb {
     background-image: url("../../Assets/Images/drent.png");
     height: 30.5vmax;
-    border-radius: 5vw;
+    border-radius: 3vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;
-    margin-bottom: calc(15vw - -11vmax);
+    margin-bottom: calc(15vw - -9.5vmax);
 }
 .Drenthedng{
     padding-top: 4.2vw;
@@ -336,7 +336,7 @@
 .ADB_BgImgHomeMb {
     background-image: url("../../Assets/Images/amber-dazzle.png");
     height: 28.5vmax;
-    border-radius: 5vw;
+    border-radius: 3vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -361,7 +361,7 @@
 .ADB_BgImgMb {
     background-image: url("../../Assets/Images/amber-dazzle.png");
     height: 30.5vmax;
-    border-radius: 5vw;
+    border-radius: 3vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -369,7 +369,7 @@
     background-position-x: right;
     /* margin-bottom: 7vmax; */
     margin-left: 4.3vw;
-    margin-bottom: calc(15vw - -11vmax);
+    margin-bottom: calc(15vw - -9.5vmax);
 }
 .ADB_BgChild{
     color: #fafafa;
@@ -382,7 +382,7 @@
     color: #fafafa;
     /* margin-left: 3.6vw; */
     background-color: #fafafa;
-    border-radius: 4vw;
+    border-radius: 3vw;
     box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
 }
 .ADB_BgChildMd{
@@ -403,7 +403,7 @@
     color: #fafafa;
     /* margin-left: 3.6vw; */
     background-color: #fafafa;
-    border-radius: 4vw;
+    border-radius: 3vw;
     box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
 }
 .DPW_BgChildMd{
@@ -417,7 +417,7 @@
     color: #fafafa;
     /* margin-left: 3.6vw; */
     background-color: #fafafa;
-    border-radius: 4vw;
+    border-radius: 3vw;
     box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
 }
 .ODW_BgChildMd{
@@ -479,7 +479,7 @@
 .DPW_BgImgMb {
     background-image: url("../../Assets/Images/dallaspalm.png");
     height: 33.5vmax;
-    border-radius: 5vw;
+    border-radius: 3vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -487,7 +487,7 @@
     background-position-x: right;
     /* margin-bottom: 11vmax; */
     margin-left: 4.3vw;
-    margin-bottom: calc(15vw - -11vmax);
+    margin-bottom: calc(15vw - -9.5vmax);
 }
 .ODW_BgImg {
     background-image: url("../../Assets/Images/web-app.png");
@@ -503,7 +503,7 @@
 .ODW_BgImgMb {
     background-image: url("../../Assets/Images/web-app.png");
     height: 33vmax;
-    border-radius: 5vw;
+    border-radius: 3vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -511,7 +511,7 @@
     background-position-x: right;
     /* margin-bottom: 11vmax; */
     margin-left: 4.3vw;
-    margin-bottom: calc(15vw - -11vmax);
+    margin-bottom: calc(15vw - -9.5vmax);
 
 }
 .ADB_HomBgImg {

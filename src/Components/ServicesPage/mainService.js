@@ -30,7 +30,7 @@ class ServicesPage extends Component {
 
         {/*hidden ipad tablet mobile */}
         <div className="d-none d-sm-none d-md-none d-lg-block d-xl-block">
-          <div className="row" style={{ marginBottom: '16vw' }}>
+          <div className="row" style={{ marginBottom: '10vw' }}>
             <div className="col-xl-1 col-lg-1"></div>
 
             <div className="col-xl-11 col-lg-11">

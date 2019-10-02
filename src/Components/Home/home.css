@@ -19,6 +19,13 @@
         padding-bottom: 3.2vw;
         padding-left: 5vw;
     }
+    .heaD_fontPro{
+        font-size: 7vw;
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+        padding-left: 5vw;
+    }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .dai_coLrsty {
@@ -33,6 +40,13 @@
         width: 95%;
     }
     .heaD_font{
+        font-size: calc(10px + 1.8vw);
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+        padding-left: 1vw;
+    }
+    .heaD_fontPro{
         font-size: calc(10px + 1.8vw);
         font-family: montserrat-extrabold;
         color: black;
@@ -57,6 +71,14 @@
         font-family: montserrat-extrabold;
         color: black;
         padding-bottom: 3.2vw;
+        margin-top: 8vw;
+    }
+    .heaD_fontPro{
+        font-size: calc(10px + 1.8vw);
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+        margin-top: -2vw;
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
@@ -78,6 +100,12 @@
         color: black;
         padding-bottom: 3.2vw;
     }
+    .heaD_fontPro{
+        font-size: calc(10px + 1.8vw);
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+    }
 }
 @media only screen and (min-device-width : 1600px) {
     .dai_coLrsty {
@@ -92,6 +120,13 @@
         width: 31vw;
     }
     .heaD_font{
+        font-size: calc(10px + 1.8vw);
+        font-family: montserrat-extrabold;
+        color: black;
+        padding-bottom: 3.2vw;
+        padding-left: 1vw;
+    }
+    .heaD_fontPro{
         font-size: calc(10px + 1.8vw);
         font-family: montserrat-extrabold;
         color: black;
@@ -174,7 +209,7 @@
         border-radius: 1vw;
         margin-bottom: 12vmax;
         margin-left: -4.7vw;
-        margin-top: 10vw;
+        margin-top: 6.2vw;
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {

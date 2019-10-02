@@ -34,6 +34,7 @@ class Home extends React.Component {
   }
   componentWillMount() {
     this.setState({ headerPath: 'Home' });
+    window.scrollTo(0, 0)
   }
 
   render() {
@@ -72,7 +73,7 @@ class Home extends React.Component {
         <div className="row">
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
           <div className="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-12">
-            <h2 className="heaD_font">Projects</h2>
+            <h2 className="heaD_fontPro">Projects</h2>
           </div>
         </div>
         <div className="row">

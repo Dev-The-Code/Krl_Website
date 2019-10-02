@@ -17,7 +17,7 @@ class Founder extends Component {
             <p className="devFondPera">KRL Creatives workek on the project with a blend of pragmatic approach and creativity. They are meticulous and always receptive to feedback.
              We are so pleased with the outcome and look forward to a continued working relationship with them.</p>
 
-            <div className="d-none d-sm-none d-md-none d-lg-block d-xl-block">
+            <div className="d-none d-sm-none d-md-none d-lg-block d-xl-block" style={{marginBottom: '9vw'}}>
               <div className="row">
                 <div className="col-xl-1 col-lg-1"></div>
                 <div className="col-xl-2 col-lg-2 imgDev">

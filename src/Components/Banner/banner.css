@@ -23,7 +23,9 @@
     }
     .arrow_banImg{
         margin-top: -1.5vw;
-        margin-left: 4vw;
+        margin-left: 3vw;
+        width: 13vw;
+        height: 8vw;
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {

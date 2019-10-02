@@ -18,11 +18,11 @@ class Header2 extends Component {
   }
 
   componentWillUnmount() {
-     
+
   }
 
   render() {
-    console.log(this.props.headerPath,'sssssss');
+    console.log(this.props.headerPath, 'sssssss');
     return (
       <div>
         {this.state.response ?
@@ -32,7 +32,9 @@ class Header2 extends Component {
                 <div className="row">
                   <div className="col-md-1 col-lg-1 col-xl-1"></div>
                   <div className="col-md-2 col-lg-2 col-xl-2 loGo_devv">
-                    <img href="#" className="logo" src={require('../../Assets/Images/logo.png')} />
+                    <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
+                      <img href="#" className="logo" src={require('../../Assets/Images/logo.png')} />
+                    </Link>
                   </div>
                   <div className="col-md-7 col-lg-7 col-xl-7"></div>
                   <div className="col-md-1 col-lg-1 col-xl-1 mt-5">
@@ -43,7 +45,7 @@ class Header2 extends Component {
                 <div className="row">
                   <div className="col-md-1 col-lg-1 col-xl-1"></div>
                   <div className="col-md-10 col-lg-10 col-xl-10">
-                    <div className="row" style={{ paddingTop: '16vw' ,paddingBottom: '3vw'}}>
+                    <div className="row" style={{ paddingTop: '16vw', paddingBottom: '3vw' }}>
                       <div className="col-md-2 col-lg-2 col-xl-2">
                         <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav} >
                           <Button
@@ -102,7 +104,9 @@ class Header2 extends Component {
               <div className="naVBar_aliGN">
                 <div className="row">
                   <div className="col-6">
-                    <img href="#" className="logoo_Mob" src={require('../../Assets/Images/logo.png')} />
+                    <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
+                      <img href="#" className="logoo_Mob" src={require('../../Assets/Images/logo.png')} />
+                    </Link>
                   </div>
                   <div className="col-6" style={{ textAlign: 'right' }}>
                     <img className="menU_MoB" onClick={this.closeNav} src={require('../../Assets/Images/close.png')} />
@@ -171,11 +175,13 @@ class Header2 extends Component {
               <div className="row">
                 <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
                 <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6 loGo_devv">
-                  <img href="#" className="logo" src={require('../../Assets/Images/logo.png')} />
+                  <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
+                    <img href="#" className="logo" src={require('../../Assets/Images/logo.png')} />
+                  </Link>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6"></div>
-                <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 cursiraPoinT" onClick={this.openNav} style={{textAlign:'right'}}>
-                    <p className="header_Textt"><span>{this.props.headerPath}</span></p>
+                <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 cursiraPoinT" onClick={this.openNav} style={{ textAlign: 'right' }}>
+                  <p className="header_Textt"><span>{this.props.headerPath}</span></p>
                 </div>
                 <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-3 mt-5 cursiraPoinT" onClick={this.openNav}>
                   <img className="menu" src={require('../../Assets/Images/menu.png')} onClick={this.openNav} />
@@ -186,10 +192,12 @@ class Header2 extends Component {
             <div className="d-block d-sm-none">
               <div className="row">
                 <div className="col-6">
-                  <img href="#" className="logoo_Mob" src={require('../../Assets/Images/logo.png')} />
+                  <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
+                    <img href="#" className="logoo_Mob" src={require('../../Assets/Images/logo.png')} />
+                  </Link>
                 </div>
-                <div className="col-3" onClick={this.openNav} style={{textAlign:'right'}}>
-                    <p className="header_Textt">{this.props.headerPath}</p>
+                <div className="col-3" onClick={this.openNav} style={{ textAlign: 'right' }}>
+                  <p className="header_Textt">{this.props.headerPath}</p>
                 </div>
                 <div className="col-3" onClick={this.openNav}>
                   <img className="heaD_Mob" src={require('../../Assets/Images/menu.png')} />
