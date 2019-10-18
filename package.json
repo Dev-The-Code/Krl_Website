@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "antd": "^3.23.4",
+    "font-awesome": "^4.7.0",
     "ityped": "^1.0.3",
     "react": "^16.9.0",
     "react-device-detect": "^1.9.9",

@@ -1,5 +1,5 @@
 .ban{
-    margin-top: 6vmax;
+    margin-top: 10vmax;
 }
 .banDev{
     padding-right: 0vw;
@@ -341,7 +341,7 @@
     .banChildDev1{
         box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
         background-color: white;
-        margin-top: 5vmax;
+        margin-top: 3vmax;
         /* padding: 3.1vw; */
         border-radius: 1vw;
         padding: 2.15vw 4vw 1.3vw 2.15vw;
@@ -376,7 +376,7 @@
     .banChildDev1{
         box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
         background-color: white;
-        margin-top: 5vmax;
+        margin-top: 3vmax;
         /* padding: 3.1vw; */
         border-radius: 1vw;
         padding: 2.15vw 5vw 1.3vw 2.15vw;

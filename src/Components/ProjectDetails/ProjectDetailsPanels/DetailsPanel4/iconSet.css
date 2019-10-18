@@ -1,0 +1,55 @@
+.iconSetHedng{
+    margin-top: 10vmax;
+    font-size: calc(12px + 0.7vmax);
+    font-family: montserrat-extrabold;
+}
+.devIcon{
+    padding-left: 0vw;
+}
+.iconSetShortHedng{
+    font-family: montserrat-extrabold;
+    font-size: calc(9px + 0.7vmax);
+    margin-top: 3vmax;
+}
+.iconPera{
+    margin-top: 1vmax;
+    font-size: calc(12px + 0.3vw);
+    font-family: montserrat-light;
+    color: #adadad;
+    line-height: 2.2vmax;
+    padding-right: 3vw;
+}
+.iconImg{
+    margin-top: 3vmax;
+    width: 7vmax
+}
+.iconImg1{
+    margin-top: 3vmax;
+    width: 6.2vmax;
+}
+.iconImg2{
+    margin-top: calc(4vh + 2vmax);
+    width: 9vmax;
+}
+.iconImg3{
+    margin-top: 7vmax;
+    width: 8vmax;
+}
+.iconImg4{
+    margin-top: 7vmax;
+    width: 6.5vmax;
+}
+.iconImg5{
+    margin-top: 7vmax;
+    width: 8vmax;
+}
+.iconPeraMob{
+    font-size: calc(12px + 0.3vw);
+    font-family: montserrat-light;
+    color: #adadad;
+    letter-spacing: -0.05vmax;
+    line-height: 6vw;
+    margin-top: 1vmax;
+    padding-right: 3vw;
+}
+

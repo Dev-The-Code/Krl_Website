@@ -24,12 +24,13 @@ class ProjectContainer extends Component {
                 <p className={projctPera}>
                   {pera}
                 </p>
-                <a href={this.props.locationUrl} className="changingdec" target='_blank'>
+                <Link rel="noopener noreferrer" to={`/projectDetails`}  className="changingdec">
+                <a href={this.props.locationUrl} className="changingdec">
                   {seeAerro ? <p className={projctPera1}>
-                    View Project.<img href="#" className={proAeroImg} src={require('../../Assets/Images/arrowPurple.png')} />
+                    View Project<img href="#" className={proAeroImg} src={require('../../Assets/Images/arrowPurple.png')} />
                   </p>
                     : null}
-                </a>
+                </a></Link>
                 {/* {seeAerro  ? <p className={projctPera1}>
                 {this.props.ViewPro && 
                 <img href="#" className={proAeroImg} src={require('../../Assets/Images/arrowPurple.png')} />

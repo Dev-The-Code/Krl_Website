@@ -9,6 +9,7 @@ import Home from './Components/Home/home';
 import Blog from './Components/Blog/blogMain';
 import Project from './Components/Projects/projects';
 import Contact from './Components/ContactPage/contact';
+import ProjectDetails from './Components/ProjectDetails/projectDetailsMain';
 import './App.css';
 
 
@@ -23,6 +24,7 @@ class Routes extends React.Component {
             <Route path="/contact" component={Contact} />
             <Route path="/blog" component={Blog} />
             <Route path="/project" component={Project} />
+            <Route path="/projectDetails" component={ProjectDetails} />
             <Route path="/services" component={Services} />
 
             {/* </Route> */}

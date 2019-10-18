@@ -1,0 +1,53 @@
+.sumImg{
+    background-image: url("../../../../Assets/Images/getfit.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 1vmax;
+    height: 34vmax;
+    margin-top: 10vmax;
+}
+.sumImgMob{
+    background-image: url("../../../../Assets/Images/getfit.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 1vmax;
+    height: 34vmax;
+}
+.devSum{
+    padding-left: 0vw;
+}
+.sumHedng{
+    font-family: montserrat-extrabold;
+    font-size: calc(12px + 0.7vmax);
+    margin-top: 10vmax;
+}
+.sumShortHedng{
+    margin-top: 3vmax;
+    font-size: calc(9px + 0.7vmax);
+    font-family: montserrat-extrabold;
+}
+.sumPera{
+    margin-top: 1vmax;
+    font-size: calc(12px + 0.3vw);
+    font-family: montserrat-light;
+    color: #adadad;
+    line-height: 2.2vmax;
+    padding-right: 3vw;
+}
+.sumPeraMob{
+    margin-top: 1vmax;
+    padding-right: 3vw;
+    font-size: calc(12px + 0.3vw);
+    font-family: montserrat-light;
+    color: #adadad;
+    letter-spacing: -0.05vmax;
+    line-height: 6vw;
+}

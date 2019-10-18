@@ -11,6 +11,7 @@ import SeeProject from '../ContactPage/SeeProject/seeProject';
 import Contains from '../../Comman/ServiceContainer/contain';
 import AboutBanner from './AboutBanner/aboutBanner';
 import '../../Components/ContactPage/SeeProject/seeProject.css';
+import WeStandFor from './WeStandFor/weStandFor';
 
 
 class About extends React.Component {
@@ -39,6 +40,7 @@ class About extends React.Component {
     return (
       <div>
         <Header2 headerPath={headerPath}  />
+
           <AboutBanner 
             Consl_text='Consultation'
             solu_text='with solution.'
@@ -56,15 +58,23 @@ class About extends React.Component {
             diviColotextt='divi_Colorsty_Mob'
             BnerAbtHome='col-10 backImgee_baner_Mob'
           />
+
         <br /><br />
+
         <OurCoreValues />
+
+        <WeStandFor />
+
         <OurOffices
           backColor='row raw_background'
           headTextOff='off_head'
           decripText='demo'
         />
+
         <OurTeam />
+
         <SocialMedia />
+
         <Link to={`/contact`} className="changingColor">
         <SeeProject
           seeBckColr="row SEE_backColor"
@@ -76,6 +86,7 @@ class About extends React.Component {
           lgBrText=""
           arrow_Right="arrowRight1_aboUt"
         /></Link>
+
       </div>
 
     );

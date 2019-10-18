@@ -314,7 +314,7 @@
 }
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .text_sendRqust{
-        background: -webkit-linear-gradient(	#0ac3d0 , #953797 );
+        background: -webkit-linear-gradient( 360deg,#0ac3d0 , #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: calc(10px + 0.7vw);
@@ -479,7 +479,7 @@
     margin-left: -2vw;
 }
 .text_sendRqust_MOB{
-    background: -webkit-linear-gradient(	#0ac3d0 , #953797 );
+    background: -webkit-linear-gradient( 360deg,#0ac3d0 , #953797 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: calc(10px + 1.7vw);

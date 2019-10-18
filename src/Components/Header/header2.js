@@ -22,6 +22,8 @@ class Header2 extends Component {
   }
 
   render() {
+  
+
     console.log(this.props.headerPath, 'sssssss');
     return (
       <div>
@@ -29,7 +31,7 @@ class Header2 extends Component {
           <div>
             <div className="d-none d-sm-block">
               <div className="naVBar_aliGN">
-                <div className="row">
+              <div className="row hederSticky">
                   <div className="col-md-1 col-lg-1 col-xl-1"></div>
                   <div className="col-md-2 col-lg-2 col-xl-2 loGo_devv">
                     <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
@@ -42,7 +44,7 @@ class Header2 extends Component {
                   </div>
                   <div className="col-md-1 col-lg-1 col-xl-1"></div>
                 </div>
-                <div className="row">
+                <div className="row" style={{position: 'fixed',width: '100vw',backgroundColor: 'white',zIndex: '4'}}>
                   <div className="col-md-1 col-lg-1 col-xl-1"></div>
                   <div className="col-md-10 col-lg-10 col-xl-10">
                     <div className="row" style={{ paddingTop: '16vw', paddingBottom: '3vw' }}>
@@ -95,14 +97,27 @@ class Header2 extends Component {
                         </Link>
                       </div>
                     </div>
+
+
+
+
+                    <div className="row devIcons" style={{display: 'inline-block'}}>
+                      
+                        <a href="https://facebook.com/krlcreatives" target="_blank"> <div className="fb"></div></a>
+                        <a href="https://twitter.com/krlcreatives" target="_blank"> <div className="twitter"></div></a>
+                        <a href="https://pk.linkedin.com/company/krl-creatives" target="_blank"> <div className="linkdin"></div></a>
+                        <a href="https://instagram.com/krlcreatives" target="_blank"> <div className="insta"></div></a>
+                      
+                    </div>
                   </div>
                   <div className="col-md-1 col-lg-1 col-xl-1"></div>
                 </div>
               </div>
             </div>
+        
             <div className="d-block d-sm-none">
               <div className="naVBar_aliGN">
-                <div className="row">
+                <div className="row hederStickyMob">
                   <div className="col-6">
                     <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
                       <img href="#" className="logoo_Mob" src={require('../../Assets/Images/logo.png')} />
@@ -113,8 +128,8 @@ class Header2 extends Component {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-12">
-                    <div className="row" style={{ paddingTop: '16vw' }}>
+                  <div className="col-12" style={{position: 'fixed',backgroundColor: 'white', zIndex: '7' }}>
+                    <div className="row" style={{ paddingTop: '16vw'}}>
                       <div className="col-12 btNCenter_MoBB">
                         <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav} >
                           <Button
@@ -163,6 +178,35 @@ class Header2 extends Component {
                           />
                         </Link>
                       </div>
+                      <div className="row">
+                        <div className="col-2"></div>
+                        <div className="col-8">
+                          <div className="row devIconsMob">
+                          <div className="col-3">
+                            <a href="https://facebook.com/krlcreatives" target="_blank"> <div className="fbMob"></div></a>
+
+                          </div>
+                          <div className="col-3">
+                            <a href="https://twitter.com/krlcreatives" target="_blank"> <div className="twitterMob"></div></a>
+
+                          </div>
+                          <div className="col-3">
+                            <a href="https://pk.linkedin.com/company/krl-creatives" target="_blank"> <div className="linkdinMob"></div></a>
+
+                          </div>
+                          <div className="col-3">
+                            <a href="https://instagram.com/krlcreatives" target="_blank"> <div className="instaMob"></div></a>
+
+                          </div>
+
+                          </div>
+                        
+                        </div>
+                        <div className="col-2"></div>
+                    
+                        
+                      
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -172,7 +216,7 @@ class Header2 extends Component {
           :
           <div>
             <div className="d-none d-sm-block">
-              <div className="row">
+              <div className="row hederSticky">
                 <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
                 <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6 loGo_devv">
                   <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
@@ -188,9 +232,10 @@ class Header2 extends Component {
                 </div>
                 <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
               </div>
+              
             </div>
             <div className="d-block d-sm-none">
-              <div className="row">
+              <div className="row hederStickyMob">
                 <div className="col-6">
                   <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
                     <img href="#" className="logoo_Mob" src={require('../../Assets/Images/logo.png')} />

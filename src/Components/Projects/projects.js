@@ -157,7 +157,7 @@ class Projects extends React.Component {
 
             <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImg'
               projctHedng="GFAhedng"
-              locationUrl={"https://getfitathletic.pk/"}
+              locationUrl={""}
               hed={GFAHeading}
               hed1={GFAHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
@@ -175,7 +175,7 @@ class Projects extends React.Component {
               hed1={DrentHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
-              locationUrl={"http://drent1.herokuapp.com/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={Drentperaas}
@@ -190,7 +190,7 @@ class Projects extends React.Component {
               hed1={GFAHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
-              locationUrl={"https://getfitathletic.pk/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={GFAperaas}
@@ -203,7 +203,7 @@ class Projects extends React.Component {
               hed1={DrentHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
-              locationUrl={"http://drent1.herokuapp.com/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={Drentperaas}
@@ -216,7 +216,7 @@ class Projects extends React.Component {
               hed1={DrentHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
-              locationUrl={"http://drent1.herokuapp.com/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={Drentperaas}
@@ -235,7 +235,7 @@ class Projects extends React.Component {
               hed1={GFAHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
-              locationUrl={"https://getfitathletic.pk/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={GFAperaas}
@@ -248,7 +248,7 @@ class Projects extends React.Component {
               hed1={DrentHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
-              locationUrl={"http://drent1.herokuapp.com/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={Drentperaas}
@@ -263,7 +263,7 @@ class Projects extends React.Component {
               hed1={GFAHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
-              locationUrl={"https://getfitathletic.pk/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={GFAperaas}
@@ -276,7 +276,7 @@ class Projects extends React.Component {
               hed1={DrentHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
-              locationUrl={"http://drent1.herokuapp.com/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={Drentperaas}
@@ -289,7 +289,7 @@ class Projects extends React.Component {
               hed1={DrentHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
-              locationUrl={"http://drent1.herokuapp.com/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={Drentperaas}
@@ -308,7 +308,7 @@ class Projects extends React.Component {
               hed1={GFAHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
               projctPera="GFApera"
-              locationUrl={"https://getfitathletic.pk/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={GFAperaas}
@@ -321,7 +321,7 @@ class Projects extends React.Component {
               hed1={DrentHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
               projctPera="GFApera"
-              locationUrl={"http://drent1.herokuapp.com/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={Drentperaas}
@@ -336,7 +336,7 @@ class Projects extends React.Component {
               hed1={GFAHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
               projctPera="GFApera"
-              locationUrl={"https://getfitathletic.pk/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={GFAperaas}
@@ -349,7 +349,7 @@ class Projects extends React.Component {
               hed1={DrentHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
               projctPera="GFApera"
-              locationUrl={"http://drent1.herokuapp.com/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={Drentperaas}
@@ -362,7 +362,7 @@ class Projects extends React.Component {
               hed1={DrentHeadingBr}
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
               projctPera="GFApera"
-              locationUrl={"http://drent1.herokuapp.com/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
               pera={Drentperaas}
@@ -383,7 +383,7 @@ class Projects extends React.Component {
               hed1={ADBHeadingBr}
               projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
               projctPera="ADBpera"
-              locationUrl={"https://www.amberdazzle.com/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
               pera={Drentperaas}
@@ -400,7 +400,7 @@ class Projects extends React.Component {
                 hed1={ADBHeadingBr}
                 projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ADB_BgChildMd"
                 projctPera="ADBpera"
-                locationUrl={"https://www.amberdazzle.com/"}
+                locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
                 pera={Drentperaas}
@@ -419,7 +419,7 @@ class Projects extends React.Component {
                 hed1={ADBHeadingBr}
                 projctChildBox="col-xl-12 col-lg-12 col-md-11 col-12 ADB_BgChildSmMd"
                 projctPera="ADBpera"
-                locationUrl={"https://www.amberdazzle.com/"}
+                locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
                 pera={Drentperaas}
@@ -442,7 +442,7 @@ class Projects extends React.Component {
               hed1={DPWHeadingBr}
               projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 DPW_BgChild"
               projctPera="ADBpera"
-              locationUrl={"https://dallaspalmsvenue.com/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
               pera={DPWperaas}
@@ -456,7 +456,7 @@ class Projects extends React.Component {
               hed1={DPWHeadingBr}
               projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 DPW_BgChildMd"
               projctPera="ADBpera"
-              locationUrl={"https://dallaspalmsvenue.com/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
               pera={DPWperaas}
@@ -470,7 +470,7 @@ class Projects extends React.Component {
               hed1={DPWHeadingBr}
               projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 DPW_BgChildSmMd"
               projctPera="ADBpera"
-              locationUrl={"https://dallaspalmsvenue.com/"}
+              locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
               pera={DPWperaas}

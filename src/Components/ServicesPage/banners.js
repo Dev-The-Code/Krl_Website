@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Header2 from '../Header/header2';
 import './banners.css';
 
@@ -34,8 +35,8 @@ class Banners extends Component {
                             <div className={devChld1}>{/*"col-xl-8 col-lg-8 col-md-5 col-sm-5 col-5 banChildDev" */}
                             </div>
                             <div className={devChld2}>{/*"col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 banChildDev1" */}
-                                <a href={this.props.locationUrl} className="changingdec" target='_blank'>
-                                    {seeAerro ? <p className={projctPera1}>
+                                <Link rel="noopener noreferrer" to={`/projectDetails`}  className="changingdec">
+                                    {seeAerro ? <p href={this.props.locationUrl} className={projctPera1}>
                                         View Project<img href="#" className={proAeroImg} src={require('../../Assets/Images/arrowPurple.png')} />
                                     </p>
                                         : null}
@@ -45,7 +46,7 @@ class Banners extends Component {
                                         <p className={peraChld2}>{banPera3}</p>
                                     </div> : null}
 
-                                </a>
+                                </Link>
                             </div>
 
                             <div className={devChld3}>{/*"col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 banChildDev2" */}</div>

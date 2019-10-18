@@ -1,0 +1,35 @@
+.bck-to-pro{
+    border: none !important;
+    /* background: -webkit-linear-gradient( 360deg,#0ac3d0 , #953797 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-size: calc(13px + 0.5vmax);
+    font-family: montserrat-light;
+    cursor: pointer;
+    text-decoration: underline;
+    background: none;
+    color: #d4d4d4;
+    margin-top: 8vmax;
+    
+}
+.panelHeading{
+    margin-top: 11vw;
+    font-size: calc(15px + 2.5vmax);
+    font-family: montserrat-extrabold;
+}
+.panelPera{
+    margin-top: 12vw;
+    font-size: calc(12px + 0.3vw);
+    font-family: montserrat-light;
+    color: #adadad;
+    line-height: 2.2vw;
+}
+.panelPeraMob{
+    margin-top: 12vw;
+    font-size: calc(12px + 0.3vw);
+    font-family: montserrat-light;
+    color: #adadad;
+    letter-spacing: -0.05vmax;
+    line-height: 6vw;
+    margin-bottom: 1vw;
+}

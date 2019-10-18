@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './ourOffices.css';
 import OfficesContainer from '../../../Comman/OfficesContainer/officeContainer'
 import khi from '../../../Assets/Images/karachi.png';
-import Ari from '../../../Assets/Images/arizona.png';
-import Tuc from '../../../Assets/Images/tucson.png';
+import Ari from '../../../Assets/Images/dallas.png';
+import Dal from '../../../Assets/Images/arizona.png';
 
 
 class OurOffices extends Component {
@@ -12,22 +12,23 @@ class OurOffices extends Component {
     this.state = {
       ari_head: 'Arizon',
       ari_head1: 'Head office',
-      ariTime: '05:01 AM',
-      ariPhone: ' +1 4598-3738-73',
-      ariMail: ' ar@krlcreatives.com',
-      tuscan_No: '+1 4598-3738-73',
+      ariTime: 'Open',
+      ariTime2: 'Closed',
+      ariPhone: '',
+      ariMail: ' info@krlcreatives.com',
+      dallas_No: '',
       tuscan_head1: 'Marketing',
-      tuscanMail: 'ts@krlcreatives.com',
+      tuscanMail: 'info@krlcreatives.com',
       khi_head: 'Karachi',
       khi_head1: 'Operations',
       khiPhone: '+92 21 388-83676',
-      khiMail: 'khi@krlcreatives.com',
+      khiMail: 'info@krlcreatives.com',
 
     };
   }
 
   render() {
-    const { arizonDev, ariHead, miniHead, ari_head, ari_head1, ariTime, ariPhone, ariMail, tuscan_No, tuscanMail, khi_head, khi_head1, khiPhone, khiMail } = this.state
+    const { arizonDev, ariHead, miniHead, ari_head, ari_head1, ariTime,ariTime2, ariPhone, ariMail, dallas_No, tuscanMail, khi_head, khi_head1, khiPhone, khiMail } = this.state
     return (
       <div>
         <div className="d-none d-sm-block">
@@ -38,24 +39,10 @@ class OurOffices extends Component {
             </div>
             <div className="col-sm-2 col-md-2 col-lg-2 col-xl-2 back_divColor">
               <OfficesContainer
-                ariHead={Ari}
-                img_Stylig='locat_office'
-                inerHedTxt={ariTime}
-                cont_textStyle1="mt-xl-4 mt-lg-4 mt-md-3 mt-sm-3 iner_head_text"
-                inerHedTxt2={ariPhone}
-                cont_textStyle2="iner_head_text"
-                inerHedTxt3={ariMail}
-                cont_textStyle3="pb-xl-3 iner_head_text"
-                
-              />
-            </div>
-            <div className="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-            <div className="col-sm-2 col-md-2 col-lg-2 col-xl-2 back_divColor">
-              <OfficesContainer
                 ariHead={khi}
                 img_Stylig='locat_office'
                 inerHedTxt={ariTime}
-                cont_textStyle1="mt-xl-4 mt-lg-4 mt-md-3  mt-sm-3 iner_head_text"
+                cont_textStyle1="mt-xl-4 mt-lg-4 mt-md-3 mt-sm-3 iner_head_text"
                 inerHedTxt2={khiPhone}
                 cont_textStyle2="iner_head_text"
                 inerHedTxt3={khiMail}
@@ -66,13 +53,27 @@ class OurOffices extends Component {
             <div className="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
             <div className="col-sm-2 col-md-2 col-lg-2 col-xl-2 back_divColor">
               <OfficesContainer
-                ariHead={Tuc}
+                ariHead={Dal}
                 img_Stylig='locat_office'
-                inerHedTxt={ariTime}
-                cont_textStyle1="mt-xl-4 mt-lg-4 mt-md-3 mt-sm-3 iner_head_text"
-                inerHedTxt2={tuscan_No}
+                inerHedTxt={ariTime2}
+                cont_textStyle1="mt-xl-4 mt-lg-4 mt-md-3  mt-sm-3 iner_head_text"
+                inerHedTxt2={ariPhone}
                 cont_textStyle2="iner_head_text"
-                inerHedTxt3={tuscanMail}
+                inerHedTxt3={khiMail}
+                cont_textStyle3="pb-xl-3 iner_head_text"
+                
+              />
+            </div>
+            <div className="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+            <div className="col-sm-2 col-md-2 col-lg-2 col-xl-2 back_divColor">
+              <OfficesContainer
+                ariHead={Ari}
+                img_Stylig='locat_office'
+                inerHedTxt={ariTime2}
+                cont_textStyle1="mt-xl-4 mt-lg-4 mt-md-3 mt-sm-3 iner_head_text"
+                inerHedTxt2={dallas_No}
+                cont_textStyle2="iner_head_text"
+                inerHedTxt3={ariMail}
                 cont_textStyle3="pb-xl-3 iner_head_text"
                
               />
@@ -89,11 +90,11 @@ class OurOffices extends Component {
               </div>
               <div className="col-12 back_divColor_moB">
                 <OfficesContainer
-                  ariHead={Ari}
+                  ariHead={khi}
                   img_Stylig='local_imgOffice'
                   inerHedTxt={ariTime}
                   cont_textStyle1="detail_text"
-                  inerHedTxt2={ariPhone}
+                  inerHedTxt2={khiPhone}
                   cont_textStyle2="detail_text"
                   inerHedTxt3={ariMail}
                   cont_textStyle3="detail_Email"
@@ -102,11 +103,11 @@ class OurOffices extends Component {
               <br />
               <div className="col-12 back_divColor_moB">
                 <OfficesContainer
-                  ariHead={khi}
+                  ariHead={Dal}
                   img_Stylig='local_imgOffice'
-                  inerHedTxt={ariTime}
+                  inerHedTxt={ariTime2}
                   cont_textStyle1="detail_text"
-                  inerHedTxt2={khiPhone}
+                  inerHedTxt2={dallas_No}
                   cont_textStyle2="detail_text"
                   inerHedTxt3={khiMail}
                   cont_textStyle3="detail_Email"
@@ -115,11 +116,11 @@ class OurOffices extends Component {
               <br />
               <div className="col-12 back_divColor_moB">
                 <OfficesContainer
-                  ariHead={Tuc}
+                  ariHead={Ari}
                   img_Stylig='local_imgOffice'
-                  inerHedTxt={ariTime}
+                  inerHedTxt={ariTime2}
                   cont_textStyle1="detail_text"
-                  inerHedTxt2={tuscan_No}
+                  inerHedTxt2={dallas_No}
                  cont_textStyle2="detail_text"
                   inerHedTxt3={tuscanMail}
                   cont_textStyle3="detail_Email"

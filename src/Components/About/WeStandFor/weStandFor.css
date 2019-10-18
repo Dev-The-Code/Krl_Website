@@ -1,0 +1,123 @@
+.DevWeStandFor{
+    margin-top: 5vmax;
+}
+.weStandHedng{
+    font-size: calc(12px + 1.9vw);
+    font-family: montserrat-extrabold;
+    color: black;
+}
+.ourLogoHedng{
+    font-size: calc(10px + 1.4vw);
+    font-family: montserrat-extrabold;
+    color: black;
+    margin-top: 3vmax;
+    margin-bottom: 3vmax;
+
+}
+.weHelp{
+    height: 13vw;
+    padding: 1.1vw;
+}
+.youHelp{
+    height: 13vw;
+    padding: 1.1vw;
+}
+.audience{
+    height: 13vw;
+    padding: 1.1vw;
+}
+.helpOthers{
+    height: 13vw;
+    padding: 1.1vw;
+}
+.ourLogoImg{
+    background-image: url(../../../Assets/Images/AboutPageImages/Aboutpage-06.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 1vw;
+    height: 8vw;
+    margin-left: 6.2vmax;
+    width: 20vw;
+    float: left;
+}
+.ourLogoImg1{
+    background-image: url(../../../Assets/Images/AboutPageImages/Aboutpage-07.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 1vw;
+    height: 8vw;
+    width: 20vw;
+    float: right;
+}
+.ourColorText{
+    font-size: calc(12px + 0.3vw);
+    font-family: montserrat-light;
+    color: #adadad;
+    line-height: 2.2vmax;
+    /* margin-left: 2.1vw;
+    margin-top: 0.3vmax; */
+}
+
+/* mobile css */
+
+.DevWeStandForMob{
+    margin-bottom: 10vmax;
+}
+
+.DevWeStandForChildMob{
+    padding: 0vw;
+}
+
+.weHelpMob{
+    height: 45vw;
+    padding: 1.1vw;
+}
+.youHelpMob{
+    height: 45vw;
+    padding: 1.1vw;
+}
+.audienceMob{
+    height: 45vw;
+    padding: 1.1vw;
+}
+.helpOthersMob{
+    height: 45vw;
+    padding: 1.1vw;
+}
+.DevweHelpMob{
+    margin-bottom: 8vmax;
+}
+.ourLogoImgMob{
+    background-image: url(../../../Assets/Images/AboutPageImages/Aboutpage-06.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 1vw;
+    height: 18vw;
+    width: 45vw;
+    float: left;
+}
+.ourLogoImgMob1{
+    background-image: url(../../../Assets/Images/AboutPageImages/Aboutpage-07.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 1vw;
+    height: 18vw;
+    width: 45vw;
+    float: right;
+}
+.ourColorTextMob{
+    font-size: calc(12px + 0.3vw);
+    font-family: montserrat-light;
+    color: #adadad;
+    letter-spacing: -0.05vmax;
+    line-height: 6vw;
+    margin-bottom: 1vw;
+}

@@ -1,0 +1,73 @@
+.internShipImg{
+    position: absolute;
+    background-image: url("../../Assets/Images/interImage.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+}
+.internShipText{
+    position: relative;
+    background-color: white;
+    /* height: 26.5vmax; */
+    border-radius: 1vw;
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+    margin-top: 4vmax;
+    padding: 3.1vmax;
+
+}
+.interH1{
+    font-family: montserrat-extrabold;
+    padding-bottom: 2vmax;
+    font-size: calc(16px + 1.8vw);
+}
+.internPera{
+    font-family: montserrat-light;
+    font-size: calc(12px + 0.3vw);
+    color: #adadad;
+    letter-spacing: -0.05vmax;
+    line-height: 2.2vmax;
+}
+.internPera2{
+    background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: montserrat-light;
+    font-size: calc(12px + 0.3vw);
+    color: #adadad;
+    letter-spacing: -0.05vmax;
+    line-height: 2.2vmax;
+}
+.internPeraMob{
+    font-family: montserrat-light;
+    font-size: calc(12px + 0.3vw);
+    color: #adadad;
+    letter-spacing: -0.05vmax;
+    line-height: 6vw;
+}
+.internPeraMob2{
+    background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: montserrat-light;
+    font-size: calc(12px + 0.3vw);
+    color: #adadad;
+    letter-spacing: -0.05vmax;
+    line-height: 6vw;
+}
+.interH1Mob{
+    font-size: calc(16px + 1.8vw);
+    font-family: montserrat-extrabold;
+    padding-bottom: 2vmax;
+}
+.internShipTextMob{
+    position: relative;
+    background-color: white;
+    border-radius: 1vw;
+    box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+    margin-top: 20vmax;
+    padding: 3.1vmax;
+}

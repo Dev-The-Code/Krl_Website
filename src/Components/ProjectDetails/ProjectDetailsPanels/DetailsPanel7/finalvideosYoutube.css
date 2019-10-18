@@ -1,0 +1,11 @@
+.finalHedng{
+    font-family: montserrat-extrabold;
+    font-size: calc(12px + 0.7vmax);
+    margin-top: 10vmax;
+}
+.devFinal{
+    background-color: orange;
+    height: 42vmax;
+    border-radius: 1vmax;
+    margin-top: 3vmax;
+}

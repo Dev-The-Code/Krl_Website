@@ -1,0 +1,30 @@
+.devProDetail{
+    margin-top: 10vmax;
+    margin-bottom: 10vmax;
+}
+.devChildProDetail{
+    border: 1px solid black;
+}
+.devPrev{
+    padding-left: 0vw;
+    padding-top: 3vmax;
+    padding-bottom: 2vmax;
+}
+.preHedng{
+    font-family: montserrat-extrabold;
+    font-size: calc(9px + 0.7vmax);
+    color: black;
+}
+.prePera{
+    font-size: calc(14px + 0.3vw);
+    font-family: montserrat-light;
+    color: #adadad;
+}
+.rightAeroImage{
+    width: 5vmax;
+}
+.devNext{
+    text-align: right;
+    padding-top: 3vmax;
+    padding-bottom: 2vmax;
+}

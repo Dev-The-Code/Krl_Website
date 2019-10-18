@@ -7,9 +7,11 @@ import SomeOurClients from '../../Comman/SomeOurClients/someOurClient';
 import Founders2 from '../../Comman/Founders/founders2';
 import Smallarrow from '../../Assets/Images/latest-post-arrow.png';
 import Header2 from '../Header/header2';
+import Header from '../Header/header';
 import SeeProject from '../ContactPage/SeeProject/seeProject';
 import ProjectsContainer from '../../Comman/ProjectContainer/projectContainer';
 import Mainservice from '../ServicesPage/mainService';
+import HomeServicesPage from '../../Comman/HomeServicePage/homeServicePage';
 
 class Home extends React.Component {
   constructor(props) {
@@ -43,6 +45,7 @@ class Home extends React.Component {
     return (
       <div>
         <Header2 headerPath={headerPath} />
+        
         <HomeBanner />
 
         <AboutBaner
@@ -65,7 +68,7 @@ class Home extends React.Component {
             <h2 className="heaD_font">Services</h2>
           </div>
         </div>
-        <Mainservice />
+        <HomeServicesPage />
 
 
         {/*Project Page*/}

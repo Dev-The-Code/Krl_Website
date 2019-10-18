@@ -1,0 +1,158 @@
+.illustrImg1{
+    background-image: url("../../../../Assets//Images/ProjectDetail/Asset1.png");
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 15vmax;
+        margin-top: 2vmax;
+}
+.illustrImg2{
+    background-image: url("../../../../Assets//Images/ProjectDetail/Asset2.png");
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 15vmax;
+        margin-top: 2vmax;
+}
+.illustrImg3{
+    background-image: url("../../../../Assets//Images/ProjectDetail/Asset3.png");
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 15vmax;
+        margin-top: 2vmax;
+}
+.illustrImg4{
+    background-image: url("../../../../Assets//Images/ProjectDetail/Asset4.png");
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 15vmax;
+        margin-top: 2vmax;
+}
+.illustrImg5{
+    background-image: url("../../../../Assets//Images/ProjectDetail/Asset5.png");
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 15vmax;
+        margin-top: 2vmax;
+}
+
+
+
+.illustrImgMob1{
+    background-image: url("../../../../Assets//Images/ProjectDetail/Asset1.png");
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 25vh;
+        margin-top: 2vmax;
+}
+.illustrImgMob2{
+    background-image: url("../../../../Assets//Images/ProjectDetail/Asset2.png");
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 25vh;
+        margin-top: 2vmax;
+}
+.illustrImgMob3{
+    background-image: url("../../../../Assets//Images/ProjectDetail/Asset3.png");
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 25vh;
+        margin-top: 2vmax;
+}
+.illustrImgMob4{
+    background-image: url("../../../../Assets//Images/ProjectDetail/Asset4.png");
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 25vh;
+        margin-top: 2vmax;
+}
+.illustrImgMob5{
+    background-image: url("../../../../Assets//Images/ProjectDetail/Asset5.png");
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        height: 25vh;
+        margin-top: 2vmax;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.devIlustration{
+    padding-left: 0vw;
+}
+.IlustrationHedng{
+    font-family: montserrat-extrabold;
+    font-size: calc(12px + 0.7vmax);
+    margin-top: 10vmax;
+}
+.IlustrationPera{
+    margin-top: 1vmax;
+    font-size: calc(12px + 0.3vw);
+    font-family: montserrat-light;
+    color: #adadad;
+    line-height: 2.2vmax;
+    padding-right: 3vw;
+}
+.IlustrationPeraMob{
+    margin-top: 1vmax;
+    padding-right: 3vw;
+    font-size: calc(12px + 0.3vw);
+    font-family: montserrat-light;
+    color: #adadad;
+    letter-spacing: -0.05vmax;
+    line-height: 6vw;
+}

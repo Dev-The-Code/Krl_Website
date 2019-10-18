@@ -6,7 +6,7 @@ class serviceBanners extends Component {
         return (
             <div>
                 <div className="d-none d-sm-block">
-                    <div className="row" style={{ paddingTop: '5vw' }}>
+                    <div className="row" style={{ paddingTop: '10vmax' }}>
                         <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
                         <div className="col-12 col-md-5 col-lg-5 col-xl-5">
                             <h1 className="banNer_blaNk">We have go <br />all covered.</h1>
@@ -32,7 +32,7 @@ class serviceBanners extends Component {
                     </div>
                 </div>
                 <div className="d-block d-sm-none">
-                    <div className="row" style={{marginTop:'22vw'}}>
+                    <div className="row" style={{paddingTop:'22vw'}}>
                         <div className="col-1"></div>
                         <div className="col-10">
                             <h1 className="banNer_blaNk">We have got you all covered.</h1>

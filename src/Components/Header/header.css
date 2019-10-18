@@ -1,26 +1,27 @@
-/* .nav_bTnTeXt{
-    font-size: calc(10px + 1vw);
-    font-family: montserrat-extrabold;
-    background: none;
-    border:none;
-    border-bottom: 2px solid black;
+.lol{
+    box-shadow: 0px 2px 2vmax rgba(0, 0 ,0 , 0.12);
+        height: 5vmax;
+        margin-top: 1vmax;
+        border-radius: 1vw;
+        margin-left: 9.2vmax;
+        margin-right: 9.2vmax;
+        background-color: white;
 }
-.btNCenter{
-    text-align: center;
-}
-.btNCenter_MoBB{
-    text-align: center;
-    padding-bottom: 9vw;
-}
-.naVBar_aliGN{
-    padding: 2vw;
-    box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
-}
-.logO_MoB{
-    width: calc(10px + 40vw);
-    margin-top: 2vw;
-}
-.menU_MoB{
-    width: calc(10px + 2vw);
-    margin-top: 2vw;    
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

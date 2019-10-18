@@ -11,7 +11,7 @@ class Home extends Component {
                     <div className="col-12 col-md-4 col-lg-4 col-xl-4"></div>
                     <div className="col-12 col-md-4 col-lg-4 col-xl-4">
                         <img src={Dot} className="dot_imgBaner"/>
-                        <h1 className="Banerr_texxt">We help you <br />help others.</h1>
+                        <h1 className="Banerr_texxt">We help you <br />to help others.</h1>
                     </div>
                     <div className="col-12 col-md-4 col-lg-4 col-xl-4"></div>
                 </div>

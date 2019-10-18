@@ -523,3 +523,256 @@
     }
 
 }
+
+
+
+
+
+.devIcons{
+    display: inline-block;
+    margin-bottom: 3.1vmax;
+}
+.devIconsMob{
+    margin-bottom: 3.1vmax;
+}
+.fb{
+    background-image: url("../../Assets/Images/Icons/fb.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 1.5vmax;
+    width: 1.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+.fb:hover{
+    background-image: url("../../Assets/Images/Icons/fb-hover.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 1.5vmax;
+    width: 1.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+.twitter{
+    background-image: url("../../Assets/Images/Icons/twitter.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 1.5vmax;
+    width: 1.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+.twitter:hover{
+    background-image: url("../../Assets/Images/Icons/twitter-hover.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 1.5vmax;
+    width: 1.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+.linkdin{
+    background-image: url("../../Assets/Images/Icons/linkedin.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 1.5vmax;
+    width: 1.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+.linkdin:hover{
+    background-image: url("../../Assets/Images/Icons/linkedin-hover.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 1.5vmax;
+    width: 1.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+.insta{
+    background-image: url("../../Assets/Images/Icons/insta.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 1.5vmax;
+    width: 1.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+.insta:hover{
+    background-image: url("../../Assets/Images/Icons/insta-hover.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 1.5vmax;
+    width: 1.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+
+.fbMob{
+    background-image: url("../../Assets/Images/Icons/fb.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 3.5vmax;
+    width: 3.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+.fbMob:hover{
+    background-image: url("../../Assets/Images/Icons/fb-hover.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 3.5vmax;
+    width: 3.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+
+.twitterMob{
+    background-image: url("../../Assets/Images/Icons/twitter.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 3.5vmax;
+    width: 3.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+.twitterMob:hover{
+    background-image: url("../../Assets/Images/Icons/twitter-hover.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 3.5vmax;
+    width: 3.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+
+.linkdinMob{
+    background-image: url("../../Assets/Images/Icons/linkedin.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 3.5vmax;
+    width: 3.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+.linkdinMob:hover{
+    background-image: url("../../Assets/Images/Icons/linkedin-hover.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 3.5vmax;
+    width: 3.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+
+.instaMob{
+    background-image: url("../../Assets/Images/Icons/insta.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 3.5vmax;
+    width: 3.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+.instaMob:hover{
+    background-image: url("../../Assets/Images/Icons/insta-hover.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    height: 3.5vmax;
+    width: 3.5vmax;
+    cursor: pointer;
+    float: left;
+    margin-right: 1.5vmax;
+}
+
+
+
+
+
+.hederSticky{
+    position: fixed;
+    width: 100vw;
+    margin-top: -2;
+    height: 7vmax;
+    z-index: 8;
+    background-color: white !important;
+}
+.hederStickyMob{
+    position: fixed;
+    width: 100vw;
+    /* margin-top: -22vw; */
+    height: 9vmax;
+    z-index: 8;
+    background-color: white !important;
+}
+.hederStickyMob1{
+    position: fixed;
+    width: 100vw;
+    margin-top: -22vw;
+    height: 9vmax;
+    z-index: 8;
+    background-color: white !important;
+}
