@@ -24,7 +24,7 @@ class ProjectContainer extends Component {
                 <p className={projctPera}>
                   {pera}
                 </p>
-                <Link rel="noopener noreferrer" to={`/projectDetails`}  className="changingdec">
+                <Link rel="noopener noreferrer" to={`/project Details`}  className="changingdec">
                 <a href={this.props.locationUrl} className="changingdec">
                   {seeAerro ? <p className={projctPera1}>
                     View Project<img href="#" className={proAeroImg} src={require('../../Assets/Images/arrowPurple.png')} />

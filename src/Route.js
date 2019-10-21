@@ -24,7 +24,7 @@ class Routes extends React.Component {
             <Route path="/contact" component={Contact} />
             <Route path="/blog" component={Blog} />
             <Route path="/project" component={Project} />
-            <Route path="/projectDetails" component={ProjectDetails} />
+            <Route path="/project Details" component={ProjectDetails} />
             <Route path="/services" component={Services} />
 
             {/* </Route> */}

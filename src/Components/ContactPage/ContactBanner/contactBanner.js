@@ -24,7 +24,7 @@ class ContactBanner extends Component {
           </div>
         </div>
         <div className="d-block d-sm-none">
-          <div className="row" style={{ marginTop: '25vw' }}>
+          <div className="row" style={{ PaddingTop: '25vw' }}>
             <div className="col-1"></div>
             <div className="col-2">
               <h1 className="backkMOB_Textblck_hi">Hi!</h1>

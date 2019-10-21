@@ -3,7 +3,10 @@
     margin-bottom: 10vmax;
 }
 .devChildProDetail{
-    border: 1px solid black;
+    border: 1px solid #f2f2f2;
+}
+.devChildProDetail:hover{
+    background-color: #e0e0e0;
 }
 .devPrev{
     padding-left: 0vw;
@@ -27,4 +30,5 @@
     text-align: right;
     padding-top: 3vmax;
     padding-bottom: 2vmax;
+    padding-right: 0vw;
 }

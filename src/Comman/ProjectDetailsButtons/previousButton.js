@@ -18,7 +18,7 @@ class PreviousButton extends Component {
                             <h4 className="preHedng">ACF Animal Rescue</h4>
                             <h4 className="preHedng">Mobile Application</h4>
                             <p className="prePera">
-                                <img href="#" className="rightAeroImage" src={require('../../Assets/Images/arrowPurple.png')} />&nbsp;&nbsp;&nbsp;&nbsp; Previous</p>
+                                <img href="#" className="rightAeroImage" src={require('../../Assets/Images/leftarrow.png')} />&nbsp;&nbsp;&nbsp;&nbsp; Previous</p>
                         </Link>
                         </div>
                     </div>
