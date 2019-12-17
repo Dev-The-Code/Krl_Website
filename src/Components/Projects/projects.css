@@ -10,14 +10,14 @@
 .hedPrjct{
     padding-top: 10vw;
     color: white;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     font-size: calc(5px + 1.3vw);
 }
 .peraPrjct{
     padding-top: 3vw;
     padding-bottom: 2vw;
     color: white;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: calc(5px + 0.7vw);
 }
 .raws2Prjct{
@@ -35,14 +35,14 @@
 .peraProject2{
     color: white;
     margin-top: 20vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: calc(5px + 0.7vw);
     padding-right: 5vw;
 }
 .peraProject22{
     color: white;
     margin-top: 20vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: calc(5px + 0.7vw);
     padding-right: calc(0vw + 5vw);
     margin-bottom: 5vw;
@@ -64,7 +64,7 @@
     text-align: center;
     background-color: white;
     font-size: calc(0vw + 0.8vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
 }
 .dev5Prjct{
     padding-left: 0px;
@@ -77,14 +77,14 @@
 
 .hed1Prjct{
     color: white;
-    font-family: montserrat-extrabold;
+  font-family: aleta-bold;
     font-size: calc(5px + 1.3vw);
 }
 .pera2Prjct{
     padding-top: 2vw;
     color: white;
     padding-right: 15vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: calc(5px + 0.7vw);
 }
 .devPrjct2{
@@ -174,14 +174,14 @@
     padding-left: 3.1vw;
     padding-bottom: 4.2vw;
     font-size: 2.6vmax;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color: #ffffff;
 }
 .GFApera{
     padding-left: 3.1vw;
     padding-top: 3.1vw;
     padding-right: 3.1vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: calc(12px + 0.3vw);
     color: #adadad;
     letter-spacing: -0.03vmax;
@@ -191,7 +191,7 @@
     padding-left: 3.1vw;
     padding-top: 2.1vw;
     padding-bottom: 1.5vmax;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     font-size: calc(0.8em + 0.5vw);
     color: #303030;
 }
@@ -203,7 +203,7 @@
     /* padding-left: 0.5vmax;
     padding-top: 1.1vmax;
     padding-bottom: 1.5vmax; */
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     font-size: calc(0.5em + 0.5vw);
     color: #303030;
     /* padding: 3.15vw 1.15vw 1.15vw 1.15vw; */
@@ -212,7 +212,7 @@
     /* padding-left: 0.5vmax;
     padding-top: 1.1vmax;
     padding-bottom: 1.5vmax; */
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     font-size: calc(0.5em + 0.5vw);
     color: #303030;
     padding: 3.15vw 2.1vw 1.15vw 1.15vw;
@@ -273,7 +273,7 @@
     padding-left: 3.1vw;
     padding-bottom: 4.2vw;
     font-size: 2.6vmax;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color: #ffffff;
 }
 
@@ -282,7 +282,7 @@
     padding-left: 2.1vw;
     padding-bottom: 4.2vw;
     font-size: 2.6vmax;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color: #ffffff;
 }
 .ADBhedngSmMd{
@@ -290,7 +290,7 @@
     padding-left: 4vw;
     padding-bottom: 3.2vw;
     font-size: 2.6vmax;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color: #ffffff;
 }
 .ADBhedngMb{
@@ -298,7 +298,7 @@
     padding-left: 3.1vw;
     padding-bottom: 3.2vw;
     font-size: 2.6vmax;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color: #ffffff;
 }
 .ADBhedngHomeMb{
@@ -306,7 +306,7 @@
     padding-left: 3.1vw;
     padding-bottom: 3.2vw;
     font-size: 2.6vmax;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color: #ffffff;
 }
 .ADB_BgImg {
@@ -431,7 +431,7 @@
     padding-left: 3.1vw;
     padding-top: 3.1vw;
     padding-right: 1.1vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: calc(12px + 0.3vw);
     color: #adadad;
     letter-spacing: -0.03vmax;
@@ -441,7 +441,7 @@
     padding-left: 3.5vw;
     padding-top: 1.1vw;
     padding-bottom: 1.5vmax;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     /* font-size: 1.3vw; */
     color: #303030;
     font-size: calc(0.8em + 0.5vw);
@@ -449,7 +449,7 @@
 .servicePeraAerow{
     padding-top: 11.1vw;
     padding-bottom: 1.5vmax;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     font-size: 1.3vw;
     color: #303030;
 }
@@ -457,7 +457,7 @@
     padding-left: 3.1vw;
     padding-top: 3.1vw;
     padding-bottom: 1.5vmax;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     font-size: 1.5vmax;
     color: #303030;
 }

@@ -13,7 +13,6 @@ import AboutBanner from './AboutBanner/aboutBanner';
 import '../../Components/ContactPage/SeeProject/seeProject.css';
 import WeStandFor from './WeStandFor/weStandFor';
 
-
 class About extends React.Component {
 
   constructor(props) {
@@ -23,8 +22,10 @@ class About extends React.Component {
       sendPrp: 'Send a request',
       hedngPrp: "Let's build something ",
       hedngPrp1: "awesome together!",
+      getIdd: '',
     };
   }
+
   componentWillMount() {
     let data = this.props.location.pathname;
     let routName;
@@ -32,15 +33,29 @@ class About extends React.Component {
     routName = routName.charAt(0).toUpperCase() + routName.slice(1);
     //  console.log(routName,'sss');
     this.setState({ headerPath: routName });
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }
 
-  render() {
-    const { headerPath } = this.state
-    return (
-      <div>
-        <Header2 headerPath={headerPath}  />
+  // componentDidMount(){
+  //   window.addEventListener('scroll', this.handleScroll);
+  // }
+ 
+  // componentWillUnmount(){
+  //   window.removeEventListener('scroll', this.handleScroll);
+  // } 
 
+  // handleScroll(event) {
+  //   const scrollTop = event.srcElement.body.scrollTop,
+  //   itemTranslate = Math.min(0, scrollTop/3 - 120);
+  //   this.setState({ getIdd: itemTranslate });
+  //   console.log('chaman',scrollTop)
+  // }
+  
+  render() {
+    const { headerPath,getIdd } = this.state
+    return (
+      <div className="all_backgrundImageAfter animateFadeIn">
+        <Header2 headerPath={headerPath} /> 
           <AboutBanner 
             Consl_text='Consultation'
             solu_text='with solution.'
@@ -58,34 +73,36 @@ class About extends React.Component {
             diviColotextt='divi_Colorsty_Mob'
             BnerAbtHome='col-10 backImgee_baner_Mob'
           />
-
         <br /><br />
 
-        <OurCoreValues />
+        {/* {getIdd === '' ?   */}
+          <OurCoreValues/>
+          {/* :null
+        } 
+           */}
+          <WeStandFor />
 
-        <WeStandFor />
+          <OurOffices
+            backColor='row raw_background'
+            headTextOff='off_head'
+            decripText='demo'
+          />
 
-        <OurOffices
-          backColor='row raw_background'
-          headTextOff='off_head'
-          decripText='demo'
-        />
+          <OurTeam />
 
-        <OurTeam />
-
-        <SocialMedia />
-
-        <Link to={`/contact`} className="changingColor">
-        <SeeProject
-          seeBckColr="row SEE_backColor"
-          roWalign='row RwO_aboUT'
-          se_Text="se_text"
-          se_Text1="large_text"
-          seeText="Let's build something awesome together"
-          lrgText="Send a request"
-          lgBrText=""
-          arrow_Right="arrowRight1_aboUt"
-        /></Link>
+          <SocialMedia />
+  
+          <Link to={`/contact`} className="changingColor">
+          <SeeProject
+            seeBckColr="row SEE_backColor"
+            roWalign='row RwO_aboUT'
+            se_Text="se_text"
+            se_Text1="large_text"
+            seeText="Let's build something awesome together"
+            lrgText="Send a request"
+            lgBrText=""
+            arrow_Right="arrowRight1_aboUt"
+          /></Link>
 
       </div>
 

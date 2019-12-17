@@ -1,74 +1,74 @@
 @media only screen and (min-device-width : 300px) and (max-device-width : 768px) {
     .baner_Text{
-        color: 	#303030;
+        color: 	white;
         font-size: calc(12px + 4.6vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         text-align: center;
     }
     .backk_Text{
         color: #ffffff;
         font-size: calc(12px + 4.6vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-left: -1.4vw;
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .baner_Text{
-        color: 	#303030;
+        color: 	white;
         font-size: calc(12px + 3.4vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         text-align: center;
         margin-left: -4.3vw;
     }
     .backk_Text{
         color: #ffffff;
         font-size: calc(12px + 3.4vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-left: -1.4vw;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .baner_Text{
-        color: #303030;
+        color: white;
         font-size: calc(12px + 4.3vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         text-align: left;
         margin-left: -1.7vw;
     }
     .backk_Text{
         color: #ffffff;
         font-size: calc(12px + 4.3vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-left: -1.4vw;
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px)  {
     .baner_Text{
-        color: #303030;
-        font-size: calc(12px + 4.6vw);
-        font-family: montserrat-extrabold;
+        color: white;
+        font-size: calc(12px + 4.5vw);
+        font-family: aleta-bold;
         text-align: left;
         margin-left: -1.5vw;
     }
     .backk_Text{
         color: #ffffff;
         font-size: calc(12px + 4.6vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-left: -1.4vw;
     }
 }
 @media only screen and (min-device-width : 1600px) {
     .baner_Text{
-        color: #303030;
+        color: white;
         font-size: calc(12px + 4.6vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         text-align: left;
         margin-left: -1vw;
     }
     .backk_Text{
         color: #ffffff;
         font-size: calc(12px + 4.6vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-left: -1.4vw;
     }
 }
@@ -93,7 +93,7 @@
    display: inline-flex;
    padding-bottom: 6vw;
 }
-{/*mobile classes*/}
+
 .backMob_baner{
     background-image: url("../../../Assets/Images/mobile.png");
     border-radius: 3vw;
@@ -109,28 +109,28 @@
 .backkMOB_Textblck{
     color: #ffffff;
     font-size: calc(12px + 5.5vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     margin-top: 1.01vw;
     margin-left: -5vw;
 }
 .backkMOB_Textblck_linE{
-    color: #303030;
+    color: white;
     font-size: calc(12px + 5.5vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     margin-top: -14.5vw;
     margin-left: -3.6vw;
 }
 .backkMOB_Textblck_hi{
-    color: #303030;
+    color: white;
     font-size: calc(12px + 5.5vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     margin-top: 17vw;
     margin-left: -3.6vw;
 }
 .backkMOB_Text{
     color: #ffffff;
     font-size: calc(12px + 5.5vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     margin-top: -3.2vw;
     margin-left: -1vw;
 }

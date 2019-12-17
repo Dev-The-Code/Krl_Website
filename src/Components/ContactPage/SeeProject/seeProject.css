@@ -1,4 +1,21 @@
-
+.all_backgrundImage{
+    background-image: url("../../../Assets/Images/bg-allScreen.jpg");
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-position-x: right;
+   transition: all 2s ease;
+   transform: translateZ(1px) scale(0.93);
+  }
+  .all_backgrundImageAfter{
+    background-image: url("../../../Assets/Images/bg-allScreen.jpg");
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-position-x: right;
+  }
 .SEE_backColor{
     background-color: #f7f7f7;
     padding-top: 8vw;
@@ -18,7 +35,7 @@
 .se_text{
     color: #C0C0C0;
     font-size: calc(10px + 0.5vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     font-weight: 700;
     margin-bottom: -0.6vw;
 }
@@ -26,7 +43,7 @@
 .se_text_cOnt{
     color: #C0C0C0;
     font-size: calc(10px + 0.5vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     font-weight: 700;
     margin-bottom: -0.6vw;
 }
@@ -34,7 +51,7 @@
 .large_text{
     color: black;
     font-size: calc(15px + 3vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
 }
 .arrowRight1{
     margin-top: calc(2.9em + -0.1vmax);
@@ -74,7 +91,7 @@
     .higH_TextContact{
         color: black;
         font-size: calc(15px + 0.6vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         letter-spacing: 0.1vw;
     }
     .arrowRight1_ConTact{
@@ -113,7 +130,7 @@
     .higH_TextContact{
         color: black;
         font-size: calc(15px + 2vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
     }
     .arrowRight1_ConTact{
         margin-top: calc(2.9em + 2.9vmax);
@@ -149,7 +166,7 @@
     .higH_TextContact{
         color: black;
         font-size: calc(15px + 2.8vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
     }
     .arrowRight1_ConTact{
         margin-top: calc(2.9em + 4.7vmax);
@@ -185,7 +202,7 @@
     .higH_TextContact{
         color: black;
         font-size: calc(15px + 3vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
     }
     .arrowRight1_ConTact{
         margin-top: calc(2.9em + 4.8vmax);
@@ -221,12 +238,12 @@
     .higH_TextContact{
         color: black;
         font-size: calc(15px + 3vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
     }
     .arrowRight1_ConTact{
         margin-top: calc(2.9em + 4.2vmax);
         width: 8vw;
-        margin-left: -8vw;
+        margin-left: -7vw;
     }
     .rEw_conT{
         margin-left: -1.3vw;
@@ -251,14 +268,14 @@
 .seProFotr_text{
     color: #adadad;
     font-size: calc(10px + 0.5vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     font-weight: 700;
     margin-bottom: -0.6vw;
 }
 .largeProFotr_text{
     color: #303030;
     font-size: calc(15px + 3vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
 }
 .footer_contact{
     padding-bottom: 6vw;

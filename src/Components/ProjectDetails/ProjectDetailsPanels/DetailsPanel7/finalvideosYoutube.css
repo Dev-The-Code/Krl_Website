@@ -1,7 +1,8 @@
 .finalHedng{
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     font-size: calc(12px + 0.7vmax);
     margin-top: 10vmax;
+    color: white;
 }
 .devFinal{
     background-color: orange;

@@ -5,14 +5,14 @@
 }
 .devFondp2Img{
     width: 4vmax;
-    padding-top: 10.4vw;
+    padding-top: 6vw;
     padding-bottom: 3.1vw;
     margin-left: 7.2vw;
 }
 .devFondp2Pera {
     font-size: calc(15px + 1.15vw);
     color: #adadad;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     margin-left: 7.2vw;
     margin-right: 3vw;
     letter-spacing: 0.25vw;
@@ -26,14 +26,14 @@
     margin-bottom: 3.1vw;
 }
 .devFondp2Name{
-    color: #303030;
-    font-family: montserrat-extrabold;
+    color: black;
+    font-family: aleta-bold;
     margin-top: calc(5px + 0.3vw);
     font-size: calc(15px + 0.5vw);
 }
 .devFondp2comp{
     color: black;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: calc(10px + 0.2vw);
     margin-top: calc(-10px - 0.5vw);
 }
@@ -43,15 +43,15 @@
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .devFondp2Name {
-        color: #303030;
-        font-family: montserrat-extrabold;
+        color: black;
+        font-family: aleta-bold;
         margin-top: calc(5px + 0.3vw);
         font-size: calc(15px + 0.5vw);
         padding-left: 4vw;
     }
     .devFondp2comp {
         color: black;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         font-size: calc(10px + 0.2vw);
         margin-top: calc(-10px - 0.5vw);
         padding-left: 4vw;

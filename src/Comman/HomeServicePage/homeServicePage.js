@@ -32,7 +32,7 @@ class HomeServicesPage extends Component {
 
         {/*hidden ipad tablet mobile */}
         <div className="d-none d-sm-none d-md-none d-lg-block d-xl-block">
-          <div className="row" style={{ marginBottom: '10vw' }}>
+          <div className="row">
             <div className="col-xl-1 col-lg-1"></div>
 
             <div className="col-xl-11 col-lg-11">
@@ -71,7 +71,7 @@ class HomeServicesPage extends Component {
 
                     <div className="col-xl-5 col-lg-5" style={{ padding: '0vw' }}>
                       <div className="designImage">
-                        <h3 className="designHedng" style={{ paddingTop: '3.1vw', paddingLeft: '3.1vw', fontSize: '1.2vmax', color: 'white', fontFamily: 'montserrat-extrabold' }}>
+                        <h3 className="designHedng" style={{ paddingTop: '3.1vw', paddingLeft: '3.1vw', fontSize: '1.2vmax', color: 'white', fontFamily: 'aleta-bold' }}>
                           Design
                           </h3>
                       </div>

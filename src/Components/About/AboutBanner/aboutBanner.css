@@ -34,22 +34,22 @@
  }
 
 .abut_banerText_Mob{
-    color: black;
+    color: white;
     font-size: calc(12px + 4.6vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     margin-left: -4vw;
     margin-top: -52vw;
 }
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .para_Textt{
         font-size: calc(12px + 0.2vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         color: #adadad;
     }
     .abut_banerText{
-        color: #303030;
+        color: white;
         font-size: calc(12px + 4.6vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-top: -19vw;
         margin-left: -35vmax;
     }
@@ -67,13 +67,13 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .para_Textt{
         font-size: calc(12px + 0.2vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         color: #adadad;
     }
     .abut_banerText{
-        color: #303030;
+        color: white;
         font-size: calc(12px + 4.6vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-top: -19vw;
         margin-left: -31.5vmax;
     }
@@ -91,14 +91,14 @@
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .para_Textt{
         font-size: calc(12px + 0.2vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         color: #adadad;
         line-height: 2.2vw;
     }
     .abut_banerText{
-        color: #303030;
+        color: white;
         font-size: calc(12px + 5.5vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-top: -19vw;
         margin-left: -41.5vmax;
     }
@@ -116,13 +116,13 @@
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .para_Textt{
         font-size: calc(12px + 0.3vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         color: #adadad;
         line-height: 2.2vw;
     }
     .abut_banerText{
-        color: #303030;
-        font-family: montserrat-extrabold;
+        color: white;
+        font-family: aleta-bold;
         margin-top: -19vw;
         font-size: calc(12px + 5.5vw);
         margin-left: -41.5vmax;
@@ -142,14 +142,14 @@
 @media only screen and (min-device-width : 1600px){
     .para_Textt{
         font-size: calc(12px + 0.4vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         color: #adadad;
         line-height: 2vw;
     }
     .abut_banerText{
-        color: #303030;
+        color: white;
         font-size: calc(12px + 5.5vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-top: -19vw;
         margin-left: -40.7vmax;
     }
@@ -169,7 +169,7 @@
 
 .para_Textt_Mob{
     font-size: calc(12px + 0.3vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #adadad;
     letter-spacing: -0.05vmax;
     line-height: 6vw;
@@ -201,3 +201,4 @@
 .rawWW_Top{
     padding-top: 10vmax;
 }
+

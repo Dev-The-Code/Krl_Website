@@ -19,10 +19,10 @@
 }
 .banPera{
     font-size: 1.15vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     background-color: #f8f8f8;
     border-radius: 1vw;
-    width: 12vw;
+    width: 13vw;
     padding: 1.1vw;
     background: -webkit-linear-gradient( 360deg,#0ac3d0 , #953797 );
        -webkit-background-clip: text;
@@ -30,7 +30,7 @@
 }
 .banPeraSmall{
     font-size: 2.15vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     background-color: #f8f8f8;
     border-radius: 1vw;
     width: 20vw;
@@ -41,14 +41,14 @@
 }
 .banPera1{
     font-size: 1.15vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     border-radius: 1vw;
     width: 12vw;
     padding: 1.1vw;
 }
 .banPera1Small{
     font-size: 1.15vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     border-radius: 1vw;
     width: 12vw;
     padding: 1.1vw;
@@ -121,9 +121,9 @@
 }
 .banHedng2{
     font-size: 5.1vw;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color: white;
-    padding-top: calc(0.3vw + 10vmax);
+    padding-top: calc(0.3vw + 8vmax);
 }
 
 .banChildDev1{
@@ -146,7 +146,7 @@
     padding-bottom: 1vw;
     font-size: calc(6.5px + 0.6vmax);
     color: #adadad;
-    font-family: montserrat-light;
+    font-family: aleta-light;
 }
 .peraChild2{
     padding-right: 2.9vw;
@@ -154,7 +154,7 @@
     padding-bottom: 2.9vw;
     font-size: calc(6.5px + 0.6vmax);
     color: #adadad;
-    font-family: montserrat-light;
+    font-family: aleta-light;
 }
 .banServiceChildDev1{
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
@@ -175,9 +175,10 @@
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .banHedngSmall{
-        font-size: 5.1vw;
-        font-family: montserrat-extrabold;
-        padding-top: 3vw;
+        font-size: 5vw;
+        font-family: aleta-bold;
+        padding-top: 0vw;
+        color: white;
     }
     
     .banHedng1Small{
@@ -185,19 +186,19 @@
     }
     .banHedng2Small {
         font-size: 5.1vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: white;
         padding-top: 6.2vw;
     }
     .banServiceHedng2Small {
         font-size: 4.8vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: white;
         padding-top: 14.5vw;
     }
     .banServiceHedngSmall{
         font-size: 4.8vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         padding-top: calc(2px + 8.9vmax);
     }
     .banChildDev1Small{
@@ -208,7 +209,7 @@
         border-radius: 1vw;
     }
     .BanrPera1Mb{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(0.5em + 0.5vw);
         color: #303030;
         padding: 3.15vw 0vw 1.15vw 1.15vw;
@@ -219,12 +220,13 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .banHedngSmall{
         font-size: 5.8vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         padding-top: calc(2px + 8.9vmax);
+        color: white;
     }
     .banServiceHedngSmall{
         font-size: 5.8vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         padding-top: calc(2px + 8.9vmax);
     }
     .banHedng1Small{
@@ -232,13 +234,13 @@
     }
     .banHedng2Small {
         font-size: 5.8vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: white;
         padding-top: calc(0.4vw + 9.2vmax);
     }
     .banServiceHedng2Small {
         font-size: 4.8vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: white;
         padding-top: 10.5vw;
     }
@@ -246,22 +248,23 @@
         font-size: 5.8vw;
     }
     .banHedngSmall {
-        font-size: 5.2vw;
-        font-family: montserrat-extrabold;
-        padding-top: 10.5vw;
+        font-size: 5.1vw;
+        font-family: aleta-bold;
+        padding-top: 7.2vw;
+        color: white;
     }
     .banHedng1Small {
         font-size: 5.1vw;
     }
     .banHedng2Small {
         font-size: 5.2vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: white;
         padding-top: 13.5vw;
     }
     .BanrPera1Mb{
         
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(0.5em + 0.5vw);
         color: #303030;
         padding: 3.15vw 4.1vw 1.15vw 1.15vw;
@@ -289,7 +292,7 @@
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .banServiceHedng {
         font-size: 4.9vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         padding-top: 10vmax;
     }
     .banServiceHedng1 {
@@ -297,17 +300,18 @@
     }
     .banServiceHedng2{
         font-size: 4.9vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: white;
         padding-top: calc(0.2vw + 8vmax);
     }
     .banHedng{
-        font-size: 5.2vw;
-        font-family: montserrat-extrabold;
-        padding-top: 8.8vw;
+        font-size: 5.15vw;
+        font-family: aleta-bold;
+        padding-top: 7vw;
+        color: white;
     }
     .banHedng1{
-        font-size: 5.2vw;
+        font-size: 5.15vw;
     }
     .banChildDev1{
         box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
@@ -321,22 +325,23 @@
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .banServiceHedng {
         font-size: 5vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         padding-top: 10vmax;
     }
     .banServiceHedng2{
         font-size: 5vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: white;
         padding-top: calc(0.3vw + 8vmax);
     }
     .banHedng{
-        font-size: 5.3vw;
-        font-family: montserrat-extrabold;
-        padding-top: 8.5vmax;
+        font-size: 5.15vw;
+        font-family: aleta-bold;
+        padding-top: 6.6vmax;
+        color: white;
     }
     .banHedng1{
-        font-size: 5.2vw;
+        font-size: 5.15vw;
     }
     .banChildDev1{
         box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
@@ -347,8 +352,8 @@
         padding: 2.15vw 4vw 1.3vw 2.15vw;
     }
     .banHedng2{
-        font-size: 5.3vw;
-        font-family: montserrat-extrabold;
+        font-size: 5.15vw;
+        font-family: aleta-bold;
         color: white;
         padding-top: 10vw;
     }
@@ -356,19 +361,20 @@
 @media only screen and (min-device-width : 1600px) {
     .banServiceHedng {
         font-size: 5vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         padding-top: 10vmax;
     }
     .banServiceHedng2{
         font-size: 5vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: white;
         padding-top: calc(0.3vw + 8vmax);
     }
     .banHedng{
-        font-size: 5.3vw;
-        font-family: montserrat-extrabold;
-        padding-top: 8.5vmax;
+        font-size: 5.2vw;
+        font-family: aleta-bold;
+        padding-top: 6.6vmax;
+        color: white;
     }
     .banHedng1{
         font-size: 5vw;
@@ -380,6 +386,12 @@
         /* padding: 3.1vw; */
         border-radius: 1vw;
         padding: 2.15vw 5vw 1.3vw 2.15vw;
+    }
+    .banHedng2{
+        font-size: 5.15vw;
+        font-family: aleta-bold;
+        color: white;
+        padding-top: 8.3vw;
     }
 }
 

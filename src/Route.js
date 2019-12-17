@@ -1,43 +1,47 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-
 //Components//
 import About from './Components/About/about';
 import Services from './Components/ServicesPage/servicesPage';
 import Home from './Components/Home/home';
 import Blog from './Components/Blog/blogMain';
+import BlogDetail from './Components/Blog/BlogDetails/blogDetails';
 import Project from './Components/Projects/projects';
 import Contact from './Components/ContactPage/contact';
 import ProjectDetails from './Components/ProjectDetails/projectDetailsMain';
+import Splash from './Components/SplashScreen/splashScreen';
 import './App.css';
 
 
 class Routes extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      firstScreen: Splash,
+    }
+  }
+
+  componentDidMount() {
+    setTimeout(function () {
+      this.setState({ firstScreen: Home });
+    }.bind(this), 4500);
+  }
+
   render() {
+    const {  } = this.state
     return (
       <div className='App'>
         <BrowserRouter>
           <div>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={this.state.firstScreen} />
             <Route path="/about" component={About} />
+            <Route path="/blog Detail" component={BlogDetail} />
             <Route path="/contact" component={Contact} />
             <Route path="/blog" component={Blog} />
             <Route path="/project" component={Project} />
             <Route path="/project Details" component={ProjectDetails} />
             <Route path="/services" component={Services} />
-
-            {/* </Route> */}
-            {/* <Route path="/about" render={props => { return <About {...props}/>}} 
-                ></Route>
-                <Route path="/contact" render={props => { return <Contact {...props}/>}} 
-                ></Route>
-                <Route path="/services" render={props => { return <Services {...props}/>}} 
-                ></Route>
-                <Route path="/projects" render={props => { return <Project {...props}/>}} 
-                ></Route>
-                <Route path="/blogs" render={props => { return <Blog {...props}/>}} 
-                ></Route> */}
           </div>
         </BrowserRouter>
       </div>

@@ -1,13 +1,13 @@
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .banNer_blaNk{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 4.6vw);
-        color: #303030;
+        color: white;
         margin-left: -3.7vw;
     }
     .banNer_iMgTeXt{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 5.3vw);
         color: #ffffff;
         margin-top: 8.5vw;
@@ -36,7 +36,7 @@
     }
     .serVice_Textt{
         font-size: calc(12px + 0.3vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         color: #adadad;
         letter-spacing: -0.05vmax;
         line-height: 6vw;
@@ -45,15 +45,15 @@
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .banNer_blaNk{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 4.2vw);
-        color: #303030;
+        color: white;
         margin-top: 8.5vw;
         letter-spacing: 0.15vw;
         line-height: 6vw;
     }
     .banNer_iMgTeXt{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 4.3vw);
         color: #ffffff;
         margin-top: 8.2vw;
@@ -85,22 +85,22 @@
        
     .serVice_Textt{
         font-size: calc(12px + 0.1vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         color: #adadad;
         line-height: 2.2vw;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .banNer_blaNk{
-        font-family: montserrat-extrabold;
-        font-size: calc(12px + 5.1vw);
-        color: #303030;
+        font-family: aleta-bold;
+        font-size: calc(12px + 5vw);
+        color: white;
         margin-top: 8.8vw;
         line-height: 6.5vmax;
         letter-spacing: 0.1vw;
     }
     .banNer_iMgTeXt{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 5.1vw);
         color: #ffffff;
         margin-top: 8.5vw;
@@ -132,21 +132,21 @@
        
     .serVice_Textt{
         font-size: calc(12px + 0.3vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         color: #adadad;
         line-height: 2.2vw;
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .banNer_blaNk{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 5.3vw);
-        color: #303030;
+        color: white;
         margin-top: 8.5vw;
         line-height: 6.5vmax;
     }
     .banNer_iMgTeXt{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 5.3vw);
         color: #ffffff;
         margin-top: 8vw;
@@ -178,20 +178,20 @@
        
     .serVice_Textt{
         font-size: calc(12px + 0.3vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         color: #adadad;
         line-height: 2.2vw;
     }
 }
 @media only screen and (min-device-width : 1600px) {
     .banNer_blaNk{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 5.6vw);
-        color: #303030;
+        color: white;
         margin-top: 8.5vw;
     }
     .banNer_iMgTeXt{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 5.6vw);
         color: #ffffff;
         margin-top: 8.5vw;
@@ -223,7 +223,7 @@
     
     .serVice_Textt{
         font-size: calc(12px + 0.3vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         color: #adadad;
         line-height: 2.2vw;
     }

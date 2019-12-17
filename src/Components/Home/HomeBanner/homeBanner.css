@@ -1,15 +1,18 @@
 .rAw_PadD{
-    padding-bottom: 6vw;
-    padding-top: 10vmax;
+    padding-bottom: 2vw;
+    /* padding-top: 10vmax; */
 }
+
+
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .Banerr_texxt{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 4.5vw);
-        color: #303030;
+        color: white;
         margin-left: 5vw;
-        margin-top: 37vw;
+        position: absolute;
+        bottom: -75vh;
     }
     .dot_imgBaner{
         position: absolute;
@@ -17,12 +20,32 @@
         margin-left: 37vw;
         margin-top: 26vw;
     }
+    .backImge_baner{
+        background-image: url("../../../Assets/Images/HomeBannerMob.jpg");
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+       background-image: url(/static/media/HomeBannerMob.547a3a3d.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+    }
+    .para_Textt-home{
+        font-size: calc(12px + 0.1vw);
+        font-family: aleta-light;
+        color: #adadad;
+        width: 80%;
+        margin-left: 5vw;
+        position: absolute;
+        bottom: -87vh;
+    }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .Banerr_texxt{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 5vw);
-        color: #303030;
+        color: white;
         margin-left: -25vw;
         margin-top: 10vw;
         line-height: 7vw;
@@ -33,12 +56,28 @@
         width: 25vw;
         margin-left: 7vw;
     }
+    .backImge_baner{
+        background-image: url("../../../Assets/Images/HomeBannerTab-min.jpg");
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+       background-position-x: right;
+       height: 100vh;
+       width: 100%;
+    }
+    .para_Textt-home{
+        font-size: calc(12px + 0.3vw);
+        font-family: aleta-light;
+        color: #adadad;
+        width: 43%;
+    }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .Banerr_texxt{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 5.5vw);
-        color: #303030;
+        color: white;
         margin-left: -24.7vw;
         margin-top: 10vw;
         line-height: 6.5vmax;
@@ -47,13 +86,30 @@
     .dot_imgBaner{
         position: absolute;
         width: 25vw;
+    }
+    .backImge_baner{
+        background-image: url("../../../Assets/Images/HomeBannerMac-min.jpg");
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+       background-position-x: right;
+       height: 100vh;
+       width: 100%;
+    }
+    .para_Textt-home{
+        font-size: calc(12px + 0.2vw);
+        font-family: aleta-light;
+        color: #adadad;
+        line-height: 2.2vw;
+        width: 33%;
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .Banerr_texxt{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 5.5vw);
-        color: #303030;
+        color: white;
         margin-left: -24.7vw;
         margin-top: 10vw;
         line-height: 6.5vmax;
@@ -63,17 +119,64 @@
         position: absolute;
         width: 25vw;
     }
+    .backImge_baner{
+        background-image: url("../../../Assets/Images/homebanner35.jpg");
+        /* background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1575720926/HomeBannerMain-min_poopix.jpg")-25px -50px; */
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+       /* position:fixed ; */
+       background-position-x: right;
+       height: 100vh;
+       width: 100%;
+    }
+    .para_Textt-home{
+        font-size: calc(12px + 0.3vw);
+        font-family: aleta-light;
+        color: #adadad;
+        line-height: 2.2vw;
+        width: 33%;
+    }
 }
 @media only screen and (min-device-width : 1600px) {
     .Banerr_texxt{
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 4.5vw);
-        color: #303030;
+        color: white;
         margin-left: -25vw;
         margin-top: 7vw;
     }
-    .dot_imgBaner{
-        position: absolute;
-        width: 25vw;
+    .backImge_baner{
+        /* background-image: url("../../../Assets/Images/homebanner35.jpg"); */
+        background-image: url("../../../Assets/Images/HomeBannerBigScreen-min.jpg");
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+       background-position-x: right;
+       height: 100vh;
+    }
+    .para_Textt-home{
+        font-size: calc(12px + 0.4vw);
+        font-family: aleta-light;
+        color: #adadad;
+        line-height: 2vw;
+        width: 30%;
     }
 }
+/* #backImge_baner{
+    background-image: url("../../../Assets/Images/homebanner35.jpg");
+    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1575720926/HomeBannerMain-min_poopix.jpg");
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   position:fixed ;
+   background-position-x: right;
+   height: 100vh;
+   top:0;
+width:100%;
+z-index:0;
+   background-size: calc(100% + 50px);
+} */

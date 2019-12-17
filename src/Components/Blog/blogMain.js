@@ -15,7 +15,7 @@ class blog extends React.Component {
   render() {
     const { headerPath } = this.state
     return (
-      <div>
+      <div className="all_backgrundImageAfter animateFadeIn">
         <Header2 headerPath={headerPath} />
         <Banner
           mainClas='raw_marg'

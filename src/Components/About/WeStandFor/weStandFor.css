@@ -3,13 +3,13 @@
 }
 .weStandHedng{
     font-size: calc(12px + 1.9vw);
-    font-family: montserrat-extrabold;
-    color: black;
+    font-family: aleta-bold;
+    color: white;
 }
 .ourLogoHedng{
     font-size: calc(10px + 1.4vw);
-    font-family: montserrat-extrabold;
-    color: black;
+    font-family: aleta-bold;
+    color: white;
     margin-top: 3vmax;
     margin-bottom: 3vmax;
 
@@ -55,7 +55,7 @@
 }
 .ourColorText{
     font-size: calc(12px + 0.3vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #adadad;
     line-height: 2.2vmax;
     /* margin-left: 2.1vw;
@@ -115,7 +115,7 @@
 }
 .ourColorTextMob{
     font-size: calc(12px + 0.3vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #adadad;
     letter-spacing: -0.05vmax;
     line-height: 6vw;

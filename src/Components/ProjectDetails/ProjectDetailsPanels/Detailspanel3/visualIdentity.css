@@ -1,7 +1,8 @@
 .visulIdntityHedng{
     margin-top: 10vmax;
     font-size : calc(12px + 0.4vmax);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
+    color: white;
 }
 .devVidentity{
     padding-left: 0vw;
@@ -9,12 +10,13 @@
 .V-IdentityLogo{
     margin-top: 3vmax;
     font-size : calc(9px + 0.7vmax);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
+    color: white;
 }
 .IdentityPera{
     margin-top: 1vmax;
     font-size: calc(12px + 0.3vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #adadad;
     line-height: 2.2vmax;
     padding-right: 3vw;
@@ -29,12 +31,13 @@
 .visulIdntityshortHedng{
     margin-top: 3vmax;
     font-size : calc(9px + 0.7vmax);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
+    color: white;
 }
 .IdentityPera2{
     margin-top: 1vmax;
     font-size: calc(12px + 0.3vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #adadad;
     line-height: 2.2vmax;
     padding-right: 3vw;
@@ -57,12 +60,13 @@
 .visulIdntityshortHedng1{
     margin-top: 3vmax;
     font-size: calc(9px + 0.7vmax);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
+    color: white;
 }
 .IdentityPera3{
     margin-top: 1vmax;
     font-size: calc(12px + 0.3vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #adadad;
     line-height: 2.2vmax;
     padding-right: 3vw;
@@ -70,9 +74,11 @@
 .visulIdntityshortHedng2{
     font-size: calc(10px + 0.9vmax);
     margin-top: 3vmax;
+    color: white;
 }
 .visulIdntityshortHedng3{
     font-size: calc(10px + 0.9vmax);
+    color: white;
 }
 .IdentityPeraMob{
     
@@ -81,13 +87,13 @@
     line-height: 6vw;
     margin-top: 1vmax;
     font-size : calc(9px + 0.7vmax);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     padding-right: 3vw;
 }
 .IdentityPeraMob2{
     margin-top: 1vmax;
     font-size : calc(9px + 0.7vmax);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     padding-right: 3vw;
     color: #adadad;
     letter-spacing: -0.05vmax;
