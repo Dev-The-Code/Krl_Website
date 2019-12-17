@@ -1,5 +1,4 @@
 .raw_background{
-    background-color: white;
     padding-top: 4vw;
     margin-bottom: 12.5vw;
     
@@ -20,7 +19,7 @@
 .locat_office{
     width: 17.5vw;
     padding-top: 2.6vw;
-    padding-left: 2vw;
+    padding-left: 1vw;
 }
 .local_imgOffice{
     width: 71.5vw;
@@ -30,22 +29,22 @@
 }
 .detail_text{
     font-size: 5vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #adadad;
     padding-left: 2vw;
 }
 .detail_Email{
     font-size: 5vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #adadad;
     padding-left: 2vw;
     padding-bottom: 6vw;
 }
 .iner_head_text{
     font-size: 1.15vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #adadad;
-    padding-left: 2vw;
+    padding-left: 1vw;
 }
 
 .background_office{
@@ -54,8 +53,8 @@
 
 .off_head_Mob{
     font-size: 7vw;
-    font-family: montserrat-extrabold;
-    color: black;
+    font-family: aleta-bold;
+    color: white;
     padding-bottom: 10vw;
     margin-left: -8vw;
     margin-top: -6vw;
@@ -63,37 +62,37 @@
 .demo{
     color:white;
     margin-top: 20%;
-    font-family: montserrat-light;
+    font-family: aleta-light;
 }
 .off_head_cont{
     font-size: 1.2vw;
-    font-family: montserrat-extrabold;
-    color:black;
+    font-family: aleta-bold;
+    color:white;
 }
 .demo_cont{
     color:black;
     margin-top: 20%;
-    font-family: montserrat-light;
+    font-family: aleta-light;
 }
 
 .ari_head{
     font-size:1.875vw;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color:white; 
 }
 .tus_head{
     font-size:1.875vw;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color:white; 
 }
 .kara_head{
     font-size:1.875vw;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color:white; 
 }
 .mini_head{
     font-size: 1.2vw;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color:white;
     opacity: 0.5;
 }
@@ -109,31 +108,31 @@
 @media only screen and (min-device-width : 360px) and (max-device-width : 767px) {
     .off_head{
         font-size: calc(12px + 1.9vw);
-        font-family: montserrat-extrabold;
-        color: black;
+        font-family: aleta-bold;
+        color: white;
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
 
     .off_head{
         font-size: calc(12px + 1.7vw);
-        font-family: montserrat-extrabold;
-        color: black;
+        font-family: aleta-bold;
+        color: white;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
 
     .off_head{
         font-size: calc(12px + 1.9vw);
-        font-family: montserrat-extrabold;
-        color: black;
+        font-family: aleta-bold;
+        color: white;
     }
 }
 @media only screen and (min-device-width : 1366px){
 
     .off_head{
         font-size: calc(12px + 1.9vw);
-        font-family: montserrat-extrabold;
-        color: black;
+        font-family: aleta-bold;
+        color: white;
     }
 }

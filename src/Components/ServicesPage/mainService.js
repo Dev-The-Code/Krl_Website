@@ -35,7 +35,7 @@ class ServicesPage extends Component {
       developmentHeading, designHeading, productionHeading, marketPeragraph,} = this.state
 
     return (
-      <div>
+      <div className="animateFadeIn">
 
         {/* mobile hidden */}
         <div className="d-none d-xl-block d-lg-block d-md-block">

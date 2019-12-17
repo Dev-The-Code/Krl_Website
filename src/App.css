@@ -1,10 +1,78 @@
 
 
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,15vw,0)
+  }
 
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,15vw,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+.animatedup {
+  animation-duration: 3.5s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3.5s;
+  -webkit-animation-fill-mode: both
+}
+.animatedFadeInUp {
+  opacity: 0
+}
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+.animateFadeIn{
+  -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2.5s; /* Firefox < 16 */
+      -ms-animation: fadein 2.5s; /* Internet Explorer */
+       -o-animation: fadein 2.5s; /* Opera < 12.1 */
+          animation: fadein 2.5s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
 
 .App {
   overflow-x: hidden;
+  cursor: url('../src/Assets/Images/cursorPointer.png'),auto;
 }
+
 /*
 
 .App-logo {

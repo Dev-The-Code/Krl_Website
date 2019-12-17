@@ -8,19 +8,19 @@
 
 .sh{
     font-size: calc(10px + 0.8vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     margin-top: 6.25vw;
     color: white;
 }
 .sh1{
     color: white;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     padding-top: 4vw;
     padding-right: 7vw;
 }
 .sh2{
     color: white;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     padding-right: 7vw;
 }
 .sh3{
@@ -29,7 +29,7 @@
 }
 .sh4{
     font-size: calc(10px + 0.8vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     padding-top: 5vw;
     color: white;
     padding-left: 5vw;
@@ -39,7 +39,7 @@
     padding-bottom: 5vw;
     padding-left: 5vw;
     padding-right: 18vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: white;
 }
 
@@ -51,7 +51,7 @@
     padding-top: 5vw;
     padding-left: 5vw;
     font-size: calc(10px + 0.8vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color: white;
 }
 .sh8{
@@ -59,7 +59,7 @@
     padding-right: 5vw;
     padding-bottom: 5vw;
     padding-top: 4vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: white;
 }
 .sh9{

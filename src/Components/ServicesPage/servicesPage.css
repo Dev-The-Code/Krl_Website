@@ -5,13 +5,13 @@
 .see_Txt{
     color: black;
     font-size: calc(10px + 0.5vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     margin-top: 10vw;
 }
 .see_txt1{
     color: black;
     font-size: calc(1vw + 3vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     margin-bottom: 10vw;
 }
 .arrowRight{
@@ -81,7 +81,6 @@
     margin-bottom: 6vmax;
 }
 .bgColr{
-    background-color: #f7f7f7;
     margin-bottom: 16vw;
 }
 
@@ -102,7 +101,7 @@
     }
     .headServicess{
         font-size: 7vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: black;
         padding-bottom: 3.2vw;
         padding-left: 4.4vw;
@@ -124,7 +123,7 @@
         padding-right: 4.3vw;
         padding-bottom: 5.1vw;
         font-size: calc(12px + 0.3vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         color: #adadad;
         letter-spacing: -0.01vmax;
         line-height: calc(14px + 1.5vw);
@@ -146,7 +145,7 @@
         padding-left: 3.1vw;
         padding-bottom: 3.8vw;
         font-size: 6vw;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: #ffffff;
     }
     .devlop_BgImgSmMd {
@@ -189,7 +188,7 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .headServicess{
         font-size: calc(10px + 1.8vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: black;
         padding-bottom: 3.2vw;
     }
@@ -217,7 +216,7 @@
         padding-top: 3.1vw;
         padding-right: 2.3vw;
         padding-bottom: 3.1vw;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         font-size: calc(1em + 0.1vmax);
         color: #adadad;
         letter-spacing: -0.03vmax;
@@ -235,7 +234,7 @@
         padding-left: 3.1vw;
         padding-bottom: 5.8vw;
         font-size: 1.2vmax;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: #ffffff;
     }
     .devlop_BgImgSmMd {
@@ -268,7 +267,7 @@
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .headServicess{
         font-size: calc(10px + 1.8vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: black;
         padding-bottom: 3.2vw;
     }
@@ -296,7 +295,7 @@
         padding-top: 3.1vw;
         padding-right: 2.3vw;
         padding-bottom: 3.1vw;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         font-size: calc(1em + 0.1vmax);
         color: #adadad;
         letter-spacing: -0.03vmax;
@@ -314,7 +313,7 @@
         padding-left: 3.1vw;
         padding-bottom: 5.8vw;
         font-size: 1.2vmax;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: #ffffff;
     }
     .devlop_BgImgSmMd {
@@ -347,7 +346,7 @@
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .headServicess{
         font-size: calc(10px + 1.8vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: black;
         padding-bottom: 3.2vw;
     }
@@ -375,7 +374,7 @@
         padding-top: 3.1vw;
         padding-right: 2.3vw;
         padding-bottom: 3.1vw;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         font-size: calc(1em + 0.1vmax);
         color: #adadad;
         letter-spacing: -0.03vmax;
@@ -393,7 +392,7 @@
         padding-left: 3.1vw;
         padding-bottom: 5.8vw;
         font-size: 1.2vmax;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: #ffffff;
     }
     .devlop_BgImgSmMd {
@@ -426,7 +425,7 @@
 @media only screen and (min-device-width : 1600px) {
     .headServicess{
         font-size: calc(10px + 1.8vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: black;
         padding-bottom: 3.2vw;
     }
@@ -454,7 +453,7 @@
         padding-top: 3.1vw;
         padding-right: 2.3vw;
         padding-bottom: 3.1vw;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         font-size: calc(1em + 0.1vmax);
         color: #adadad;
         letter-spacing: -0.03vmax;
@@ -472,7 +471,7 @@
         padding-left: 3.1vw;
         padding-bottom: 5.8vw;
         font-size: 1.2vmax;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         color: #ffffff;
     }
     .devlop_BgImgSmMd {
@@ -527,7 +526,7 @@
     padding-left: 3.1vw;
     font-size: calc(1em + 0.1vmax);
     color: white;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
 }
 .consultDev{
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
@@ -554,7 +553,7 @@
     padding-left: 3.1vw;
     padding-right: 3.1vw;
     padding-bottom: 3.1vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
 }
 .develpImage{
     background-image: url(../../Assets/Images/dev.png);
@@ -570,7 +569,7 @@
     padding-left: 3.1vw;
     font-size: 1.2vmax;
     color: white;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
 }
 .developmentDev{
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
@@ -589,7 +588,7 @@
     padding-left: 3.1vw;
     padding-right: 3.1vw;
     padding-bottom: 3.1vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
 }
 .developmentPeraSm{
     font-size: calc(1em + 0.1vmax);
@@ -598,7 +597,7 @@
     padding-left: 3.1vw;
     padding-right: 3.1vw;
     padding-bottom: 3.1vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
 }
 .designImage{
     background-image: url(../../Assets/Images/design.png);
@@ -614,7 +613,7 @@
     padding-left: 3.1vw;
     font-size: 1.2vmax;
     color: white;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
 }
 .designDev{
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
@@ -642,7 +641,7 @@
     padding-left: 3.1vw;
     padding-right: 3.1vw;
     padding-bottom: 3.1vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
 }
 /*  */
 .consultImageSm{
@@ -659,7 +658,7 @@
     padding-left: 3.1vw;
     font-size: 1.2vmax;
     color: white;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
 }
 .consultDevSm{
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
@@ -679,7 +678,7 @@
     padding-left: 3.1vw;
     padding-right: 3.1vw;
     padding-bottom: 3.1vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
 }
 .develpImageSm{
     background-image: url(../../Assets/Images/dev.png);
@@ -708,14 +707,14 @@
     padding-left: 3.1vw;
     padding-right: 3.1vw;
     padding-bottom: 3.1vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
 }
 .develpHedngSm{
     padding-top: 3.1vw;
     padding-left: 3.1vw;
     font-size: 1.2vmax;
     color: white;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
 }
 .designImageSm{
     background-image: url(../../Assets/Images/design.png);
@@ -731,7 +730,7 @@
     padding-left: 3.1vw;
     font-size: 1.2vmax;
     color: white;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
 }
 .designDevSm{
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
@@ -767,14 +766,14 @@
     font-size: calc(12px + 0.3vw);
     color: #adadad;
     padding: 7.1vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
 }
 .consulHedngMb {
     padding-top: 6.1vw;
     padding-left: 4.1vw;
     font-size: 2.6vmax;
     color: white;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
 }
 .develpImageMb {
     background-image: url(/static/media/dev.49b8018f.png);
@@ -800,7 +799,7 @@
     padding-left: 4.1vw;
     font-size: 2.6vmax;
     color: white;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
 }
 .designImageMb {
     background-image: url(/static/media/design.cf494167.png);
@@ -824,7 +823,7 @@
     font-size: calc(12px + 0.3vw);
     color: #adadad;
     padding: 7.1vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
 }
 .blankDesign{
     background-color: #f7f7f7;
@@ -889,7 +888,7 @@
 .blankperaimg1 {
     padding-left: 2.5vw;
     padding-bottom: 1.5vmax;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color: #303030;
     font-size: calc(0.8em + 0.5vw);
     padding-top: 19vw;
@@ -897,7 +896,7 @@
 .blankperaimgMd1 {
     padding-left: 2.5vw;
     padding-bottom: 1.5vmax;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color: #303030;
     font-size: calc(0.8em + 0.5vw);
     padding-top: 3.5vw;
@@ -905,7 +904,7 @@
 .blankperaimgMb1 {
     padding-left: 8.5vw;
     padding-bottom: 1.5vmax;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color: #303030;
     font-size: calc(0.8em + 0.5vw);
     padding-top: 9vw;

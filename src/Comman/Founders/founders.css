@@ -12,7 +12,7 @@
 .devFondPera{
     font-size: calc(1em + 0.3vw);
     color: white;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     margin-left: 3.1vw;
     margin-right: 3vw;
 }
@@ -26,14 +26,14 @@
 }
 .devFondName{
     color: white;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     margin-top: calc(5px + 0.3vw);
     font-size: calc(1em + 0.3vw);
     margin-left: 2vmax;
 }
 .devFondcomp{
     color: white;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: 0.7vmax;
     margin-top: -1vw;
     margin-left: calc(6em - 2vmax);
@@ -41,14 +41,14 @@
 
 .devFondName1{
     color: white;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     margin-top: calc(5px + 0.3vw);
     font-size: calc(1em + 0.3vw);
     margin-left: 2vmax;
 }
 .devFondcomp1{
     color: white;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: 1.7vmax;
     margin-top: -1vw;
     margin-left: 2vmax;
@@ -64,14 +64,14 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .devFondcomp1{
         color: white;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         font-size: 1vmax;
         margin-top: -1vw;
         margin-left: 5vmax;
     }
     .devFondName1 {
         color: white;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-top: calc(5px + 0.3vw);
         margin-left: 5vmax;
     }
@@ -87,14 +87,14 @@
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .devFondName {
         color: white;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-top: calc(5px + 0.3vw);
         font-size: calc(1em + 0.3vw);
         margin-left: 1vmax;
     }
     .devFondcomp {
         color: white;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         font-size: 1vmax;
         margin-top: -1vw;
         margin-left: 1vw;
@@ -103,14 +103,14 @@
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .devFondName {
         color: white;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-top: calc(5px + 0.3vw);
         font-size: calc(1em + 0.3vw);
         margin-left: 1vmax;
     }
     .devFondcomp {
         color: white;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         font-size: 1vmax;
         margin-top: -1vw;
         margin-left: 1vw;
@@ -119,14 +119,14 @@
 @media only screen and (min-device-width : 1600px) {
     .devFondName {
         color: white;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-top: calc(5px + 0.3vw);
         font-size: calc(1em + 0.3vw);
         margin-left: 1vmax;
     }
     .devFondcomp {
         color: white;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         font-size: 1vmax;
         margin-top: -1vw;
         margin-left: 1vw;

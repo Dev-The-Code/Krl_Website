@@ -17,11 +17,11 @@
 }
 .clients{
     font-size: calc(10px + 1.8vw);
-    font-family: montserrat-extrabold;
-    color: black;
+    font-family: aleta-bold;
+    color: white;
     padding-bottom: 4.2vw;
 }
 .sOClients{
-    margin-top: 10.4vw;
+    margin-top: 5.7vw;
 
 }

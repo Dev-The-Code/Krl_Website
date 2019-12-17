@@ -32,6 +32,7 @@ class OurOffices extends Component {
     return (
       <div>
         <div className="d-none d-sm-block">
+        <div className="animatedup animatedFadeInUp fadeInUp">
           <div className="row raw_background">
             <div className="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
             <div className="col-sm-2 col-md-2 col-lg-2 col-xl-2">
@@ -80,8 +81,11 @@ class OurOffices extends Component {
             </div>
             <div className="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
           </div>
+          </div>
         </div>
+        
         <div className="d-block d-sm-none">
+        <div className="animatedup animatedFadeInUp fadeInUp">
           <div className="row">
             <div className="col-1"></div>
             <div className="col-9  raw_background">
@@ -129,6 +133,7 @@ class OurOffices extends Component {
             </div>
           </div>
           <div className="col-2"></div>
+          </div>
         </div>
         {/*<div className={this.props.backColor}>
                 <div className="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>

@@ -1,13 +1,15 @@
 .team_txt{
     font-size: calc(10px + 1.9vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     text-align: center;
+    color: white;
 }
 .team_txt_mob{
     font-size: 7vw;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     text-align: center;
     margin-top: 2.2vw;
+    color: white;
 
 }
 @media only screen and (min-device-width : 300) and (max-device-width : 767px){

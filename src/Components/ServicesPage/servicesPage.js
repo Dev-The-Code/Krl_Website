@@ -35,7 +35,8 @@ class ServicesPage extends React.Component {
 
       devPeraImg: false,
       devParagraph: true,
-      headerPath: ''
+      headerPath: '',
+      sassLess : true,
     }
   }
   componentWillMount() {
@@ -46,6 +47,10 @@ class ServicesPage extends React.Component {
     //  console.log(routName,'sss');
     this.setState({ headerPath: routName });
     window.scrollTo(0, 0)
+
+    // setTimeout(() => {
+    //   this.setState({ sassLess: false });
+    // }, 4000);
   }
 
   render() {
@@ -53,7 +58,7 @@ class ServicesPage extends React.Component {
       banrPeragh, banrPeragh1, headingpera, headingpera1, headingpera2, devParagraph, headerPath } = this.state
     // console.log(headerPath,'ssss');
     return (
-      <div>
+      <div className='all_backgrundImageAfter animateFadeIn'>
         <Header2 headerPath={headerPath} />
         <Servicebanner /><br /><br /><br />
         {/* <div className="row">
@@ -110,7 +115,7 @@ class ServicesPage extends React.Component {
 
                 <div className="col-xl-3 col-lg-3" style={{ padding: '0vw' }}>
                   <div className="designImage">
-                    <h3 className="designHedng" style={{ paddingTop: '3.1vw', paddingLeft: '3.1vw', fontSize: '1.2vmax', color: 'white', fontFamily: 'montserrat-extrabold' }}>
+                    <h3 className="designHedng" style={{ paddingTop: '3.1vw', paddingLeft: '3.1vw', fontSize: '1.2vmax', color: 'white', fontFamily: 'aleta-bold' }}>
                       Enterprises
                       </h3>
                   </div>
@@ -347,7 +352,7 @@ export default ServicesPage;
 
 // <div className="row" style={{ marginTop: '21vw' }}>
 //               <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-//                 <h1 className="srvsHedng" style={{ fontSize: '3.vmax', fontFamily: 'montserrat-extrabold', color: '#303030', paddingBottom: '4.2vw' }}>Services</h1>
+//                 <h1 className="srvsHedng" style={{ fontSize: '3.vmax', fontFamily: 'aletaextrabold', color: '#303030', paddingBottom: '4.2vw' }}>Services</h1>
 //               </div>
 
 //               {/* hidden xs sm md  */}

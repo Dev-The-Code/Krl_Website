@@ -11,13 +11,14 @@
     .onColor{
         color: #adadad;
         margin-top: -0.3vw;
+        font-family: aleta-light;
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .onColor{
         color: #adadad;
         margin-top: -1.8vw;
-        font-family: montserrat-light;
+        font-family: aleta-light;
     }
     .Ocv3{
         -webkit-background-size: cover;
@@ -34,7 +35,8 @@
     }
     .Ocv2{
         font-size: calc(12px + 1.9vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
+        color: white;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
@@ -42,7 +44,7 @@
         color: #adadad;
         margin-top: -0.4vw;
         font-size: calc(12px + 0.4vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
     }
     .Ocv3{
         -webkit-background-size: cover;
@@ -59,8 +61,9 @@
     }
     .Ocv2{
         font-size: calc(12px + 1.9vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-top: 0.5vw;
+        color: white;
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
@@ -68,7 +71,7 @@
         color: #adadad;
         margin-top: -0.2vw;
         font-size: calc(12px + 0.4vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
     }
     .Ocv3{
         -webkit-background-size: cover;
@@ -85,8 +88,9 @@
     }
     .Ocv2{
         font-size: calc(12px + 1.9vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-top: 0.5vw;
+        color: white;
 }
     
 }
@@ -95,7 +99,7 @@
         color: #adadad;
         margin-top: 1vw;
         font-size: calc(12px + 0.6vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
     }
     .Ocv3{
         -webkit-background-size: cover;
@@ -112,8 +116,9 @@
     }
     .Ocv2{
         font-size: calc(12px + 1.9vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         margin-top: 0.6vw;
+        color: white;
     }
 }
 .onColor:hover {
@@ -122,7 +127,7 @@
 }
 .onColor_mob{
     color: #adadad;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: 5vw;
     margin-top: 4.5vw;
 }
@@ -132,15 +137,16 @@
 }
 .onColor_mob_emp{
     color: red;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: 5vw;
     margin-top: 4.5vw;
 }
 .Ocv2_mob{
     font-size: 7vw;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     text-align: center;
     padding-top: 10vw;
+    color: white;
 }
 .Ocv3_mob{
     -webkit-background-size: cover;

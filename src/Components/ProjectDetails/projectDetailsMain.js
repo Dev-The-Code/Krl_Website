@@ -30,7 +30,7 @@ class ProjectDetailsPage extends Component {
     const {headerPath}= this. state
 
     return (
-        <div>
+        <div className="all_backgrundImage animateFadeIn">
           <Header2 headerPath={headerPath} />
             <PanelDetails />
             <DetailBanner />

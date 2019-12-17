@@ -1,49 +1,62 @@
 .blgDetl{
-    font-family: montserrat-light;
+    font-family: aleta-light;
+    color:white;
 }
 .blgDetl2{
     font-weight: 600;
+    color:white;
 }
 .blgDetl3{
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
+    color:white;
 }
 .blgDetl5{
     text-align: center;
-    font-family: montserrat-light;
+    font-family: aleta-light;
+    color:white;
 }
 .blgDetl6{
     color: blue;
 }
 .blgDetlDev{
     height: 90vh;
-    background-color: black;
+    background-color: white;
+    color:white;
 }
 .blgDetl7{
     text-align: center;
+    color:white;
 }
 .blgDetlDev1{
-    border: 1px solid black;
+    border: 1px solid white;
     padding-top: 5vw;
     text-align: center;
     padding-right: 15vw;
+    color:white;
     padding-left: 14vw;
 }
 .blgDetl8{
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
+    color:white;
 }
 .blgDev{
     padding-right: 3vw;
     padding-left: 3vw;
+    padding-top: 4vw;
     line-height: calc(1rem + 1vw);
+    color:white;
 }
 .blgDetlImg{
     width: calc(1rem + 1vw);
+    color:white;
 }
 .blgDetl9{
     float: left;
-    font-family: montserrat-light; 
+    font-family: aleta-light; 
+    color:white;
 }
 .blgDetl10{
     float: right;
-    font-family: montserrat-light; 
+    font-family: aleta-light; 
+    color:white;
 }

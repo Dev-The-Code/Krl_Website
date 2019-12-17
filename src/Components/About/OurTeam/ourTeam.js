@@ -10,6 +10,7 @@ class OurTeam extends Component {
     return (
       <div>
         <div className="d-none d-sm-block">
+        <div className="animatedup animatedFadeInUp fadeInUp">
           <div className="row war_marG">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
               <h2 className="team_txt">The Team</h2>
@@ -36,8 +37,10 @@ class OurTeam extends Component {
             <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
           </div>
         </div>
+        </div>
 
         <div className="d-block d-sm-none">
+        <div className="animatedup animatedFadeInUp fadeInUp">
           <div className="row war_marG">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
               <h2 className="team_txt_mob">The Team</h2>
@@ -71,6 +74,7 @@ class OurTeam extends Component {
             </div>
             <div className="col-1"></div>
           </div>
+        </div>
         </div>
       </div>
 

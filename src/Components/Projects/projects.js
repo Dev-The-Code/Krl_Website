@@ -55,7 +55,7 @@ class Projects extends React.Component {
       headingpera2, banFuturPro, ViewPro, headerPath } = this.state
     return (
 
-      <div>
+      <div  className="all_backgrundImageAfter animateFadeIn">
         <Header2 headerPath={headerPath} />
         <div className="row">
           <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>

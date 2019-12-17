@@ -1,20 +1,22 @@
 .iconSetHedng{
     margin-top: 10vmax;
     font-size: calc(12px + 0.7vmax);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
+    color: white;
 }
 .devIcon{
     padding-left: 0vw;
 }
 .iconSetShortHedng{
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
+    color: white;
     font-size: calc(9px + 0.7vmax);
     margin-top: 3vmax;
 }
 .iconPera{
     margin-top: 1vmax;
     font-size: calc(12px + 0.3vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #adadad;
     line-height: 2.2vmax;
     padding-right: 3vw;
@@ -45,7 +47,7 @@
 }
 .iconPeraMob{
     font-size: calc(12px + 0.3vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #adadad;
     letter-spacing: -0.05vmax;
     line-height: 6vw;

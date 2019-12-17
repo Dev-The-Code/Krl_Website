@@ -2,7 +2,7 @@
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .head_quote{
         color: white;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: 7vw;
         margin-top: calc(10px + 5vw);
         margin-left: calc(10px + 5vw);
@@ -10,7 +10,7 @@
     }
     .quote_descrip{
         color: white;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         font-size: 4vw;
         margin-bottom: calc(10px + 25vw);
         margin-left: calc(10px + 5vw);
@@ -59,14 +59,14 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
    .head_quote{
         color: white;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 1vw);
         margin-top: calc(10px + 19vw);
         margin-left: 2vw;
     }
     .quote_descrip{
         color: white;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         font-size: 1.1vw;
         margin-left: 2vw;
     }
@@ -112,7 +112,7 @@
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .head_quote{
         color: white;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 1.9vw);
         margin-top: calc(10px + 16.5vw);
         margin-bottom: 3vw;
@@ -120,7 +120,7 @@
     }
     .quote_descrip{
         color: white;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         font-size: 1.15vw;
         margin-left: 3vw;
     }
@@ -166,14 +166,14 @@
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .head_quote{
         color: white;
-        font-family: montserrat-extrabold;
+        font-family:  aleta-bold;
         font-size: calc(12px + 1.9vw);
         margin-top: calc(10px + 16.3vw);
         margin-left: 3vw;
     }
     .quote_descrip{
         color: white;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         font-size: 1.15vw;
         margin-left: 3vw;
         margin-top: 3.2vw;
@@ -221,14 +221,14 @@
 @media only screen and (min-device-width : 1600px) {
     .head_quote{
         color: white;
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         font-size: calc(12px + 2vw);
         margin-top: calc(10px + 19vw);
         margin-left: 3vw;
     }
     .quote_descrip{
         color: white;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         font-size: 1.15vw;
         margin-left: 3vw;
     }
@@ -318,7 +318,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: calc(10px + 0.7vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         letter-spacing: -0.1vw;
     }
     ::-webkit-input-placeholder { /* Edge */
@@ -347,7 +347,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 1.5vw;
-        font-family: montserrat-light;
+        font-family: aleta-light;
         letter-spacing: -0.1vw;
         margin-left: -1vw;
         cursor: pointer;
@@ -378,7 +378,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: calc(10px + 0.7vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         letter-spacing: -0.1vw;
         cursor: pointer;
     }
@@ -395,7 +395,7 @@
         font-size: 1.15vw;
     }
     .hR_LIne{
-        width: 8.6vw;
+        width: 10vw;
         margin-top: 0.3vw;
         margin-left: 0.4vw;
         height: 0.2vh;
@@ -408,7 +408,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: calc(10px + 0.7vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         letter-spacing: -0.1vw;
         cursor: pointer;
     }
@@ -425,7 +425,7 @@
         font-size: 1.15vw;
     }
     .hR_LIne{
-        width: 8vw;
+        width: 9.5vw;
         margin-top: 0.3vw;
         margin-left: 0.3vw;
         height: 0.2vh;
@@ -438,7 +438,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: calc(10px + 0.7vw);
-        font-family: montserrat-light;
+        font-family: aleta-light;
         letter-spacing: -0.1vw;
         cursor: pointer;
     }
@@ -483,7 +483,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: calc(10px + 1.7vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     letter-spacing: -0.1vw;
 }
 

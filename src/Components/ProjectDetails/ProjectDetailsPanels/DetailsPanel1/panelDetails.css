@@ -4,7 +4,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
     font-size: calc(13px + 0.5vmax);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     cursor: pointer;
     text-decoration: underline;
     background: none;
@@ -15,19 +15,20 @@
 .panelHeading{
     margin-top: 11vw;
     font-size: calc(15px + 2.5vmax);
-    font-family: montserrat-extrabold;
+    font-family: aleta-extrabold;
+    color: white;
 }
 .panelPera{
     margin-top: 12vw;
     font-size: calc(12px + 0.3vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #adadad;
     line-height: 2.2vw;
 }
 .panelPeraMob{
     margin-top: 12vw;
     font-size: calc(12px + 0.3vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #adadad;
     letter-spacing: -0.05vmax;
     line-height: 6vw;

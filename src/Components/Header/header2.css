@@ -1,7 +1,9 @@
 .logo{
     width: calc(10px + 13.9vw);
 }
-
+.nav_list{
+    padding-top: 1vw;
+}
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .menu{
@@ -21,12 +23,16 @@
         margin-top: 5.8vw;
         margin-right: -11vw;
         font-size: 4vw;
-        font-family: montserrat-extrabold;
-        color: #adadad;
-        cursor: pointer;
+        font-family: aleta-bold;
+        color: white;
+        cursor : pointer;
     }
     .naVBar_aliGN{
         box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
+    }
+    .innerRuww{
+        padding-top: 5vw; 
+        padding-bottom: 3vw;
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
@@ -46,12 +52,16 @@
         margin-top: 7vw;
         margin-right: -5vw;
         font-size: 1.5vw;
-        font-family: montserrat-extrabold;
-        color: #adadad;
-        cursor: pointer;
+        font-family: aleta-bold;
+        color: white;
+        cursor : pointer;
     }
     .naVBar_aliGN{
         box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
+    }
+    .innerRuww{
+        padding-top: 40vw;
+        padding-bottom: 40vw;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
@@ -72,12 +82,16 @@
         margin-top: 3.8vw;
         margin-right: -4vw;
         font-size: calc(1em + 0.1vmax);
-        font-family: montserrat-extrabold;
-        color: #adadad;
-        cursor: pointer;
+        font-family: aleta-bold;
+        color: white;
+        cursor : pointer;
     }
     .naVBar_aliGN{
         box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
+    }
+    .innerRuww{
+        padding-top: 15vw; 
+        padding-bottom: 15vw;
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
@@ -97,12 +111,16 @@
         margin-top: 3.3vw;
         margin-right: -4vw;
         font-size: calc(1em + 0.1vmax);
-        font-family: montserrat-extrabold;
-        color: #adadad;
-        cursor: pointer;
+        font-family: aleta-bold;
+        color: white;
+        cursor : pointer;
     }
     .naVBar_aliGN{
         box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
+    }
+    .innerRuww{
+        padding-top: 6vw; 
+        padding-bottom: 3vw;
     }
 }
 @media only screen and (min-device-width : 1600px) {
@@ -120,19 +138,25 @@
         margin-top: 3rem!important;
     }
     .header_Textt{
-        margin-top: 2.5vw;
+        margin-top: 2.7vw;
         margin-right: -4vw;
         font-size: calc(12px + 0.7vw);
-        font-family: montserrat-extrabold;
-        color: #adadad;
-        cursor: pointer;
+        font-family: aleta-bold;
+        color: white;
+        cursor : pointer;
     }
     .naVBar_aliGN{
         box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
     }
+    .innerRuww{
+        /* padding-top: 15vw;  */
+        padding-top: 4vw; 
+        padding-bottom: 15vw;
+    }
 }
 .cursiraPoinT{
-    cursor: pointer;
+    /* cursor : pointer; */
+    cursor : pointer;
 }
 .menu_List{
     list-style-type: none;
@@ -151,7 +175,7 @@
     padding: 2vw;
     margin-top: 2vw;
     font-size: calc(10px + 1vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-extrabold;
 }
 .logoo_Mob{
     width: 37vw;
@@ -186,27 +210,53 @@
     font-size: 60px;
 }
  
-
+.adressNav{
+    color: white;
+    font-size: calc(10px + 0.2vw);
+    font-family: aleta-light;
+    padding-top: 3vw;
+}
 
 .nav_bTnTeXt{
-    font-size: calc(10px + 1vw);
-    font-family: montserrat-extrabold;
+    font-size: calc(10px + 2.3vw);
+    font-family: aleta-bold;
+    color:rgb(66, 66, 66);
     background: none;
     border:none; 
+    cursor : pointer;  
 }
 .nav_bTnTeXt:hover{
-    font-size: calc(10px + 1vw);
-    font-family: montserrat-extrabold;
+    font-size: calc(10px + 2.3vw);
+    font-family: aleta-bold;
     background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border:none; 
+    cursor : pointer;
+}
+.nav_bTnTeXt-Mob{
+    font-size: calc(10px + 5vw);
+    font-family: aleta-bold;
+    color:rgb(66, 66, 66);
+    background: none;
+    border:none; 
+    cursor : pointer;  
+}
+.nav_bTnTeXt-Mob:hover{
+    font-size: calc(10px + 5vw);
+    font-family: aleta-bold;
+    background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border:none; 
+    cursor : pointer;
 }
 .btNCenter{
     text-align: center;
+    color: black;
 }
 .btNCenter_MoBB{
-    text-align: center;
+    /* text-align: center; */
     padding-bottom: 9vw;
 }
 
@@ -222,557 +272,539 @@
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .nav_bTnhoM{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
     }
     .nav_bTnAbot{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
     }
     .nav_bTnCont{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
     }
 
     .nav_bTnBlog{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
     }
-
+    .halfNav{
+        padding: 14.5vw 3vw 6vw 3vw
+    }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .nav_bTnhoM{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
     }
     .nav_bTnhoM:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnAbot{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
     }
     .nav_bTnAbot:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnCont{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnCont:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnBlog{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnBlog:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
-        cursor: pointer;
+        cursor : pointer;
+    }
+    .halfNav{
+        padding: 11.5vw 3vw 6vw 0vw;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .nav_bTnhoM{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
         margin-left: -1.5vw;
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnhoM:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
         margin-left: -1.5vw;
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnAbot{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
         margin-left: 4vw;
     }
     .nav_bTnAbot:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
         margin-left: 4vw;
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnCont{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
         margin-left: 5.2vw;
     }
     .nav_bTnCont:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
         margin-left: 5.2vw;
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnBlog{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none;
         margin-left: 6.5vw; 
     }
     .nav_bTnBlog:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
         margin-left: 6.5vw;
-        cursor: pointer;
+        cursor : pointer;
+    }
+    .halfNav{
+        padding: 14.5vw 3vw 6vw 3vw
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .nav_bTnhoM{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
         margin-left: -1.2vw;
     }
     .nav_bTnhoM:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
         margin-left: -1.2vw;
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnAbot{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
         margin-left: 4vw;
     }
     .nav_bTnAbot:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
         margin-left: 4vw;
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnCont{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
         margin-left: 5vw;
     }
     .nav_bTnCont:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
         margin-left: 5vw;
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnBlog{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
         margin-left: 6vw;
     }
     .nav_bTnBlog:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
         margin-left: 6vw;
-        cursor: pointer;
+        cursor : pointer;
+    }
+    .halfNav{
+        padding: 14.5vw 3vw 6vw 3vw
     }
 }
 @media only screen and (min-device-width : 1600px) {
     .nav_bTnhoM{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
         margin-left: -1vw;
     }
     .nav_bTnhoM:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
         margin-left: -1vw;
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnAbot{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
         margin-left: 4vw;
     }
     .nav_bTnAbot:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none;
         margin-left: 4vw; 
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnCont{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
         margin-left: 5vw;
     }
     .nav_bTnCont:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
         margin-left: 5vw;
-        cursor: pointer;
+        cursor : pointer;
     }
     .nav_bTnBlog{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: none;
         border:none; 
         margin-left: 6vw;
     }
     .nav_bTnBlog:hover{
         font-size: calc(10px + 1vw);
-        font-family: montserrat-extrabold;
+        font-family: aleta-bold;
         background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border:none; 
         margin-left: 6vw;
-        cursor: pointer;
+        cursor : pointer;
     }
-
+    .halfNav{
+        padding: 16vw 3vw 6vw 3vw
+    }
 }
 
+.hederStickyMobAfter{
+    /* position: fixed; */
+    width: 100vw;
+    height: 9vmax;
+    z-index: 8;
+    transition: all 1s ease;
+    transform: translateX(400px) translateY(0px); opacity: 1;
+    z-index: 4;
+    animation: fadeIn ease 0.7s;
+  -webkit-animation: fadeIn ease 0.7s;
+  -moz-animation: fadeIn ease 0.7s;
+  -o-animation: fadeIn ease 0.7s;
+  -ms-animation: fadeIn ease 0.7s;
+}
+.headClascssAfter{
+    position: fixed;
+    background-color: black;
+    z-index: 7 ;
+    height: 100vh;
+    transition: all 1s ease;
+    transform: translateX(400px) translateY(0px); opacity: 1;
+    z-index: 4;
+    animation: fadeIn ease 0.7s;
+  -webkit-animation: fadeIn ease 0.7s;
+  -moz-animation: fadeIn ease 0.7s;
+  -o-animation: fadeIn ease 0.7s;
+  -ms-animation: fadeIn ease 0.7s;
+}
+.hederStickyMob{
+    position: fixed;
+    background-color: black;
+    width: 100vw;
+    height: 9vmax;
+    z-index: 8;
+    transition: all 1s ease;
+    transform: translateX(0px) translateY(0px); opacity: 1; 
+}
+.headClascss{
+    position: fixed;
+    background-color: black;
+    z-index: 7 ;
+    height: 100vh;
+    transition: all 1s ease;
+    transform: translateX(0px) translateY(0px); opacity: 1; 
+}
 
-
-
-
+.headRuwAfter{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    transition: all 1s ease;
+    transform: translateX(0px) translateY(0px); opacity: 1;
+    z-index: 4;
+    animation: fadeIn ease 0.7s;
+  -webkit-animation: fadeIn ease 0.7s;
+  -moz-animation: fadeIn ease 0.7s;
+  -o-animation: fadeIn ease 0.7s;
+  -ms-animation: fadeIn ease 0.7s;
+}
+.headRuw{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+     /* transition: all 2s ease; */
+    transform: translateX(1370px) translateY(0px); opacity: 1; 
+    z-index: 4;
+}
+.hederStickyMob2{
+    /* position: fixed; */
+    width: 100vw;
+    height: 9vmax;
+    z-index: 8;
+    transform: translateX(0px) translateY(0px); opacity: 1; 
+    z-index: 4;
+}
 .devIcons{
     display: inline-block;
     margin-bottom: 3.1vmax;
+    padding-top: 2vw;
 }
 .devIconsMob{
     margin-bottom: 3.1vmax;
 }
-.fb{
-    background-image: url("../../Assets/Images/Icons/fb.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 1.5vmax;
-    width: 1.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-.fb:hover{
-    background-image: url("../../Assets/Images/Icons/fb-hover.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 1.5vmax;
-    width: 1.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-.twitter{
-    background-image: url("../../Assets/Images/Icons/twitter.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 1.5vmax;
-    width: 1.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-.twitter:hover{
-    background-image: url("../../Assets/Images/Icons/twitter-hover.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 1.5vmax;
-    width: 1.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-.linkdin{
-    background-image: url("../../Assets/Images/Icons/linkedin.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 1.5vmax;
-    width: 1.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-.linkdin:hover{
-    background-image: url("../../Assets/Images/Icons/linkedin-hover.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 1.5vmax;
-    width: 1.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-.insta{
-    background-image: url("../../Assets/Images/Icons/insta.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 1.5vmax;
-    width: 1.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-.insta:hover{
-    background-image: url("../../Assets/Images/Icons/insta-hover.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 1.5vmax;
-    width: 1.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-
-.fbMob{
-    background-image: url("../../Assets/Images/Icons/fb.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 3.5vmax;
-    width: 3.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-.fbMob:hover{
-    background-image: url("../../Assets/Images/Icons/fb-hover.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 3.5vmax;
-    width: 3.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-
-.twitterMob{
-    background-image: url("../../Assets/Images/Icons/twitter.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 3.5vmax;
-    width: 3.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-.twitterMob:hover{
-    background-image: url("../../Assets/Images/Icons/twitter-hover.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 3.5vmax;
-    width: 3.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-
-.linkdinMob{
-    background-image: url("../../Assets/Images/Icons/linkedin.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 3.5vmax;
-    width: 3.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-.linkdinMob:hover{
-    background-image: url("../../Assets/Images/Icons/linkedin-hover.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 3.5vmax;
-    width: 3.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-
-.instaMob{
-    background-image: url("../../Assets/Images/Icons/insta.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 3.5vmax;
-    width: 3.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-.instaMob:hover{
-    background-image: url("../../Assets/Images/Icons/insta-hover.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: right;
-    height: 3.5vmax;
-    width: 3.5vmax;
-    cursor: pointer;
-    float: left;
-    margin-right: 1.5vmax;
-}
-
-
-
 
 
 .hederSticky{
-    position: fixed;
+    /* position: fixed; */
     width: 100vw;
-    margin-top: -2;
+    /* margin-top: -2; */
     height: 7vmax;
     z-index: 8;
-    background-color: white !important;
 }
-.hederStickyMob{
-    position: fixed;
-    width: 100vw;
-    /* margin-top: -22vw; */
-    height: 9vmax;
-    z-index: 8;
-    background-color: white !important;
-}
+
 .hederStickyMob1{
-    position: fixed;
+    /* position: fixed; */
     width: 100vw;
     margin-top: -22vw;
     height: 9vmax;
     z-index: 8;
     background-color: white !important;
 }
+.colorrr{
+    background-color: black;
+}
+
+
+.social_lst-Nav{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+.fB_sitesNam-Nav{
+    font-family: aleta-bold;
+    color:rgb(66, 66, 66) ;
+    text-decoration: underline;
+}
+.fB_sitesNam-Nav:hover{
+    font-family: aleta-bold;
+    color:#3b5998;
+    text-decoration: none;
+    cursor : pointer;
+}
+.linkColor{
+    color: rgb(66, 66, 66);
+}
+.linKDi_sitesNam-Nav{
+    margin-left: 2vw;
+    font-family: aleta-bold;
+    color: rgb(66, 66, 66);
+    text-decoration: underline;
+}
+.linKDi_sitesNam-Nav:hover{
+    font-family: aleta-bold;
+    color:#0077b5;
+    text-decoration: none;
+    cursor : pointer;
+}
+.twiTer_sitesNam-Nav{
+    margin-left: 2vw;
+    font-family: aleta-bold;
+    color: rgb(66, 66, 66);
+    text-decoration: underline;
+}
+.twiTer_sitesNam-Nav:hover{
+    font-family: aleta-bold;
+    color:#1da1f2;
+    text-decoration: none;
+    cursor : pointer;
+}
+.insta_sitesNam-Nav{
+    margin-left: 2vw;
+    font-family: aleta-bold;
+    color: rgb(66, 66, 66);
+    text-decoration: underline;
+}
+.insta_sitesNam-Nav:hover{
+    font-family: aleta-bold;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    cursor : pointer;
+}
+.social_lst-Nav_mob{
+    padding-left: 1vw;
+    list-style: none;
+    display: flex;
+}
+.fB_sitesNam-Nav_mob{
+    font-family: aleta-bold;
+    color:#3b5998;
+    text-decoration: none;
+    cursor : pointer;
+}
+.linKDi_sitesNam-Nav_mob{
+    font-family: aleta-bold;
+    color:#0077b5;
+    text-decoration: none;
+    cursor : pointer;
+    margin-left: 8vw;
+}
+.twiTer_sitesNam-Nav_mob{
+    font-family: aleta-bold;
+    color:#1da1f2;
+    text-decoration: none;
+    cursor : pointer;
+    margin-left: 8vw;
+}
+.insta_sitesNam-Nav_mob{
+    font-family: aleta-bold;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    cursor : pointer;
+    margin-left: 8vw;
+}
+.MobLinkColorF{
+    color:#3b5998;
+    cursor : pointer;
+}
+.MobLinkColorL{
+    color:#0077b5;
+    cursor : pointer;
+}
+
+.MobLinkColorT{
+    color:#1da1f2;
+    cursor : pointer;
+}
+
+.MobLinkColorI{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor : pointer;
+}
+
+

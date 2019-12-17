@@ -4,12 +4,14 @@
 }
 .sm2{
     font-size: calc(10px + 1.9vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
+    color: white;
 }
 .sm2_MoB{
     font-size: 7vw;
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     margin-top: 8vw;
+    color: white;
 }
 
 .social_lst{
@@ -18,37 +20,85 @@
     display: flex;
 }
 .fB_sitesNam{
-    font-family: montserrat-light;
-    color: #3b5998;
+    font-family:  aleta-bold;
+    color:rgb(66, 66, 66);
     text-decoration: underline;
 }
 .fB_sitesNam:hover{
-    color:black;
+    font-family:  aleta-bold;
+    color:#3b5998;
     text-decoration: none;
+    cursor: pointer;
 }
 .linKDi_sitesNam{
     margin-left: 2vw;
-    font-family: montserrat-light;
-    color: #0077b5;
+    font-family:  aleta-bold;
+    color: rgb(66, 66, 66);
     text-decoration: underline;
 }
 .linKDi_sitesNam:hover{
-    color:black;
+    font-family: aleta-bold;
+    color:#0077b5;
     text-decoration: none;
+    cursor: pointer;
 }
 .twiTer_sitesNam{
     margin-left: 2vw;
-    font-family: montserrat-light;
-    color: #1da1f2;
+    font-family :aleta-bold;
+    color: rgb(66, 66, 66);
     text-decoration: underline;
 }
 .twiTer_sitesNam:hover{
-    color:black;
+    font-family: aleta-bold;
+    color:#1da1f2;
     text-decoration: none;
+    cursor: pointer;
 }
-.driBle_sitesNam{
+.insta_sitesNam{
     margin-left: 2vw;
-    font-family: montserrat-light;
+    font-family:  aleta-bold;
+    color: rgb(66, 66, 66);
+    text-decoration: underline;
+}
+.insta_sitesNam:hover{
+    font-family:  aleta-bold;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fB_sitesNam_mob{
+    font-family:  aleta-bold;
+    color:#3b5998;
+    text-decoration: none;
+    cursor: pointer;
+}
+.linKDi_sitesNam_mob{
+    font-family:  aleta-bold;
+    color:#0077b5;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 8vw;
+}
+.twiTer_sitesNam_mob{
+    font-family:  aleta-bold;
+    color:#1da1f2;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 8vw;
+}
+.insta_sitesNam_mob{
+    font-family: aleta-bold;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* .driBle_sitesNam{
+    margin-left: 2vw;
+    font-family: aleta-light;
     color: #ea4c89;
     text-decoration: underline;
 }
@@ -58,7 +108,7 @@
 }
 .driBle_sitesNam_Mob{
 
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #ea4c89;
     text-decoration: underline;
 }
@@ -68,11 +118,11 @@
 }
 .beHance_sitesNam{
     margin-left: 2vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #1769ff;
     text-decoration: underline;
 }
 .beHance_sitesNam:hover{
     color:black;
     text-decoration: none;
-}
+} */

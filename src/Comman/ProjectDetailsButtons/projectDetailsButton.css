@@ -14,13 +14,13 @@
     padding-bottom: 2vmax;
 }
 .preHedng{
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     font-size: calc(9px + 0.7vmax);
-    color: black;
+    color: white;
 }
 .prePera{
     font-size: calc(14px + 0.3vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     color: #adadad;
 }
 .rightAeroImage{

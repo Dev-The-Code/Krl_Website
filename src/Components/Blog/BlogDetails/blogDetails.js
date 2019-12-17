@@ -1,11 +1,23 @@
 import React, { Component } from 'react';
+import Header2 from '../../Header/header2';
 import './blogDetails.css';
 class BlogDetails extends Component {
- 
+
+    componentWillMount() {
+      let data = this.props.location.pathname;
+      let routName;
+      routName = data.slice(1);
+      routName = routName.charAt(0).toUpperCase() + routName.slice(1);
+      //  console.log(routName,'sss');
+      this.setState({ headerPath: routName });
+      window.scrollTo(0, 0)
+    }
+
     render() {
+      const { headerPath } = this.state
       return (
-          <div>
-            <hr/>
+        <div className="all_backgrundImageAfter animateFadeIn">
+          <Header2 headerPath={headerPath} />
             <div className="row">
               <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3"></div>
               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">

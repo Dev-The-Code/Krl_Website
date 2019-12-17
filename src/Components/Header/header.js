@@ -68,7 +68,7 @@ class Header extends Component {
                     
                     <div className="col-xl-1 col-lg-1 col-md-1"></div>
                     <div className="row">
-                  <div className="col-12">
+                  <div className="col-12" style={{cursor: 'pointer'}}>
                     <div className="row" style={{ paddingTop: '16vw' }}>
                       <div className="col-12 btNCenter_MoBB">
                         <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav} >

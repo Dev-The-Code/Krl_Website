@@ -31,9 +31,10 @@
     position: absolute;
 }
 .hedngSir{
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     font-size: calc(16px + 1.8vw);
     margin-bottom: 3vw;
+    color:white;
 }
 .marketDev2{
     position: relative;
@@ -47,7 +48,7 @@
     margin-top: 3.1vmax;
     margin-bottom: 3.1vmax;
     font-size: calc(10px + 1.4vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     color: white;
 }
 .marketChildDev1{
@@ -73,7 +74,7 @@
     margin-left: 4.1vw;
 }
 .marketPera{
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: calc(12px + 0.3vw);
     color: #adadad;
     letter-spacing: -0.05vmax;
@@ -81,18 +82,18 @@
 }
 .weOffer{
     font-size: calc(12px + 0.3vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
 }
 .offerPeras{
     padding-left: 1vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: calc(12px + 0.3vw);
     color: #adadad;
     letter-spacing: -0.05vmax;
     line-height: 2.2vw;
 }
 .peraAero{
-    font-family: montserrat-extrabold;
+    font-family: aleta-bold;
     font-size: calc(12px + 0.3vw);
     color: black;
 }
@@ -159,7 +160,7 @@
     margin-left: 0.5vmax;
 }
 .marketPeraMob{
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: calc(12px + 0.3vw);
     color: #adadad;
     letter-spacing: -0.05vmax;
@@ -167,7 +168,7 @@
 }
 .offerPerasMob{
     padding-left: 1vw;
-    font-family: montserrat-light;
+    font-family: aleta-light;
     font-size: calc(12px + 0.3vw);
     color: #adadad;
     letter-spacing: -0.05vmax;

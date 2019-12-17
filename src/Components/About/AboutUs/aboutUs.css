@@ -1,16 +1,16 @@
 .pnl_h{
     font-size: calc(10px + 0.8vw);
-    font-family: montserrat-extrabold;
+    font-family: aleta-extrabold;
     
 }
 .pnl_p2{
     font-size: calc(15px + 2.5vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
     line-height: calc(12.2px + 2.45vw);
     letter-spacing: -0.3vw;
 }
 .pnl-p3{
     font-size: calc(10.7px + 0.5vw);
     padding-right: calc(1.5px + 2.6vw);
-    font-family: montserrat-light;
+    font-family: aleta-light;
 }
