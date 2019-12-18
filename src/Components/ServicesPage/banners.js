@@ -18,7 +18,7 @@ class Banners extends Component {
             peraChld1, banPera2, banPera3, peraChld2, BanParagraph, peraDev } = this.props
 
         return (
-            <div>
+            <div className="animatedup animatedFadeInUp fadeInUp">
 
                 <div className={banrs}>{/*"row ban" */}
                     <div className={devChld}>{/*"col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5 banDev" */}
@@ -35,7 +35,7 @@ class Banners extends Component {
                             <div className={devChld1}>{/*"col-xl-8 col-lg-8 col-md-5 col-sm-5 col-5 banChildDev" */}
                             </div>
                             <div className={devChld2}>{/*"col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 banChildDev1" */}
-                                <Link rel="noopener noreferrer" to={`/project Details`}  className="changingdec">
+                                <Link rel="noopener noreferrer" to={`/projects`}  className="changingdec">
                                     {seeAerro ? <p href={this.props.locationUrl} className={projctPera1}>
                                         View Project<img href="#" className={proAeroImg} src={require('../../Assets/Images/arrowPurple.png')} />
                                     </p>

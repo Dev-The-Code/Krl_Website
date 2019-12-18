@@ -25,7 +25,7 @@ class Seeproject extends React.Component {
     render() {
         const { headerPath } = this.state
         return (
-            <div className="servicE_Banner animateFadeIn">
+            <div>
                 <Link to={`/contact`} className="changingColor">
                     <div className="row fot_hoMe_coLor">
                         <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>

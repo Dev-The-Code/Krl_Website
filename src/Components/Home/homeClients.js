@@ -26,7 +26,7 @@ class Clients extends React.Component {
     render() {
         const { headerPath } = this.state
         return (
-            <div className="servicE_Banner animateFadeIn">
+            <div>
 
                 {/* <Header headerPath={headerPath} /> */}
 

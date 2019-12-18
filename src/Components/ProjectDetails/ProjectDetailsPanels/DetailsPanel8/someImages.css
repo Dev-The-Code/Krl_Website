@@ -28,13 +28,13 @@
     font-family: aleta-bold;
     font-size: calc(12px + 0.7vmax);
     margin-top: 10vmax;
-    color: white;
+    color: black;
 }
 .sumShortHedng{
     margin-top: 3vmax;
     font-size: calc(9px + 0.7vmax);
     font-family: aleta-bold;
-    color: white;
+    color: black;
 }
 .sumPera{
     margin-top: 1vmax;

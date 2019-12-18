@@ -1,15 +1,15 @@
 .all_backgrundImage{
-    background-image: url("../../../Assets/Images/bg-allScreen.jpg");
+    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1576561427/bg-allScreen_jvwbz1.jpg");
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
    background-position-x: right;
    transition: all 2s ease;
-   transform: translateZ(1px) scale(0.93);
+   /* transform: translateZ(1px) scale(0.93); */
   }
   .all_backgrundImageAfter{
-    background-image: url("../../../Assets/Images/bg-allScreen.jpg");
+    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1576561427/bg-allScreen_jvwbz1.jpg");
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;

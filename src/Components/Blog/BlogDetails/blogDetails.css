@@ -1,19 +1,19 @@
 .blgDetl{
     font-family: aleta-light;
-    color:white;
+    color:black;
 }
 .blgDetl2{
     font-weight: 600;
-    color:white;
+    color:black;
 }
 .blgDetl3{
     font-family: aleta-bold;
-    color:white;
+    color:black;
 }
 .blgDetl5{
     text-align: center;
     font-family: aleta-light;
-    color:white;
+    color:black;
 }
 .blgDetl6{
     color: blue;
@@ -25,10 +25,10 @@
 }
 .blgDetl7{
     text-align: center;
-    color:white;
+    color:black;
 }
 .blgDetlDev1{
-    border: 1px solid white;
+    border: 1px solid black;
     padding-top: 5vw;
     text-align: center;
     padding-right: 15vw;
@@ -37,15 +37,9 @@
 }
 .blgDetl8{
     font-family: aleta-bold;
-    color:white;
+    color:#adadad;
 }
-.blgDev{
-    padding-right: 3vw;
-    padding-left: 3vw;
-    padding-top: 4vw;
-    line-height: calc(1rem + 1vw);
-    color:white;
-}
+
 .blgDetlImg{
     width: calc(1rem + 1vw);
     color:white;
@@ -53,10 +47,28 @@
 .blgDetl9{
     float: left;
     font-family: aleta-light; 
-    color:white;
+    color: #adadad;
 }
 .blgDetl10{
     float: right;
     font-family: aleta-light; 
-    color:white;
+    color:#adadad;
+}
+@media only screen and (min-device-width : 360px) and (max-device-width : 767px) {
+    .blgDev{
+        padding-right: 3vw;
+        padding-left: 3vw;
+        padding-top: 22vw;
+        line-height: calc(1rem + 1vw);
+        color:white;
+    }
+}
+@media only screen and (min-device-width : 768px) {
+    .blgDev{
+        padding-right: 3vw;
+        padding-left: 3vw;
+        padding-top: 10vw;
+        line-height: calc(1rem + 1vw);
+        color:white;
+    }
 }

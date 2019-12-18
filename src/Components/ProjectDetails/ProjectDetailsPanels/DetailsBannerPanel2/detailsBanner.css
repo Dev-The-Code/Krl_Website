@@ -7,7 +7,7 @@
         background-repeat: no-repeat;
         background-position-x: center;
     height: 33vw;
-    margin-top: 5vw;
+    
 }
 .bannerDetails-MOb{
     background-image: url("../../../../Assets/Images/Asset1.png");
@@ -18,12 +18,11 @@
         background-repeat: no-repeat;
         background-position-x: center;
     height: 33vh;
-    margin-top: 5vw;
 }
 .chalnge{
     font-family: aleta-bold;
     font-size: calc(12px + 0.4vmax);
-    color: white;
+    color: black;
 }
 .chalngePera{
     font-family: aleta-light;
@@ -33,7 +32,7 @@
     line-height: 2.2vw;
 }
 .devChalnge{
-    margin-top: 10vmax;
+    padding-top: 10vmax;
 }
 .devChildChalnge{
     padding-left: 0vw;

@@ -6,7 +6,7 @@ class DetailBanner extends Component {
   render() {
 
     return (
-        <div>
+        <div className="animatedup animatedFadeInUp fadeInUp">
             <div className="col-xl-12 col-lg-12 col-md-12 d-none d-xl-block d-lg-block d-md-block bannerDetails"></div>
             <div className="d-block col-12 d-xl-none d-lg-none d-md-none bannerDetails-MOb"></div>
 

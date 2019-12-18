@@ -7,7 +7,7 @@ class FinalVideosYouTube extends Component {
   render() {
 
     return (
-        <div>
+        <div className="animatedup animatedFadeInUp fadeInUp">
             <div className="row">
                 <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
 

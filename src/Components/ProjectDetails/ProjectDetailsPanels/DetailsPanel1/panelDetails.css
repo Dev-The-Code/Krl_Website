@@ -9,14 +9,14 @@
     text-decoration: underline;
     background: none;
     color: #d4d4d4;
-    margin-top: 8vmax;
+    margin-top: 13vmax;
     
 }
 .panelHeading{
     margin-top: 11vw;
     font-size: calc(15px + 2.5vmax);
-    font-family: aleta-extrabold;
-    color: white;
+    font-family: aleta-bold;
+    color: black;
 }
 .panelPera{
     margin-top: 12vw;
@@ -32,5 +32,5 @@
     color: #adadad;
     letter-spacing: -0.05vmax;
     line-height: 6vw;
-    margin-bottom: 1vw;
+    margin-bottom: 6vw;
 }

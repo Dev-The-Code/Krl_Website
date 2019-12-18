@@ -13,7 +13,7 @@ class ProjectContainer extends Component {
     const { projctBox, projctBox1, projctHedng, hed, hed1, projctChildBox, projctPera, pera, projctPera1, proAeroImg, seeAerro } = this.props;
     console.log(this.props,'location');
     return (
-      <div>
+      <div className="animatedup animatedFadeInUp fadeInUp">
         <div className="row" style={{ paddingRight: '0vw' }}>
           <div className={projctBox1}></div>{/*"col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12" */}
           <div className={projctBox}>
@@ -24,7 +24,7 @@ class ProjectContainer extends Component {
                 <p className={projctPera}>
                   {pera}
                 </p>
-                <Link rel="noopener noreferrer" to={`/project Details`}  className="changingdec">
+                <Link rel="noopener noreferrer" to={`/projects`}  className="changingdec">
                 <a href={this.props.locationUrl} className="changingdec">
                   {seeAerro ? <p className={projctPera1}>
                     View Project<img href="#" className={proAeroImg} src={require('../../Assets/Images/arrowPurple.png')} />

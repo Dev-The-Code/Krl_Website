@@ -16,9 +16,9 @@ class blog extends React.Component {
     const { headerPath } = this.state
     return (
       <div className="all_backgrundImageAfter animateFadeIn">
-        <Header2 headerPath={headerPath} />
+        <Header2 headerPath={headerPath}  headerDesktop="hederSticky" headerMob="hederStickyMob2" />
         <Banner
-          mainClas='raw_marg'
+          mainClas='raw_marg animatedup animatedFadeInUp fadeInUp'
           styleHeading='banner_textStyle'
           bannerText='How to manage a rebrand'
           lateText='Latest post'

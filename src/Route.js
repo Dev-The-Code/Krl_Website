@@ -29,18 +29,18 @@ class Routes extends React.Component {
   }
 
   render() {
-    const {  } = this.state
+    const { firstScreen  } = this.state
     return (
       <div className='App'>
         <BrowserRouter>
           <div>
-            <Route exact path="/" component={this.state.firstScreen} />
+            <Route exact path="/" component={firstScreen} />
             <Route path="/about" component={About} />
             <Route path="/blog Detail" component={BlogDetail} />
             <Route path="/contact" component={Contact} />
             <Route path="/blog" component={Blog} />
             <Route path="/project" component={Project} />
-            <Route path="/project Details" component={ProjectDetails} />
+            <Route path="/projects" component={ProjectDetails} />
             <Route path="/services" component={Services} />
           </div>
         </BrowserRouter>

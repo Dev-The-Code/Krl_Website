@@ -6,7 +6,7 @@ class ContactBanner extends Component {
 
   render() {
     return (
-      <div>
+      <div className="animatedup animatedFadeInUp fadeInUp">
         <div className="d-none d-sm-block">
           <div className="row rawWW_BOtop">
             <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>

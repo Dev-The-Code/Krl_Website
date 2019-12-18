@@ -6,7 +6,7 @@ class PanelDetails extends Component {
   render() {
 
     return (
-        <div>
+        <div className="animatedup animatedFadeInUp fadeInUp">
             <div className="row">
                 <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
                 <div className="col-xl-10 col-lg-10 col-md-10 col-12">
@@ -17,7 +17,7 @@ class PanelDetails extends Component {
                 <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
             </div>
 
-            <div className="row">
+            <div className="row" style={{paddingBottom:'5vw'}}>
               <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
               <div className="col-xl-5 col-lg-5 col-md-5 col-12">
                 <h3 className="panelHeading" style={{}}>Drent Luxury

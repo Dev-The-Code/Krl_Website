@@ -249,7 +249,8 @@ class Header2 extends Component {
           :
           <div>
             <div className="d-none d-sm-block">
-              <div className="row hederSticky">
+              {/* <div className="row hederSticky"> */}
+              <div className={`row ${ this.props.headerDesktop}`}> 
                 <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
                 <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6 loGo_devv">
                   <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
@@ -269,7 +270,8 @@ class Header2 extends Component {
             </div>
 
             <div className="d-block d-sm-none">
-              <div className="row hederStickyMob2">
+              {/* <div className="row hederStickyMob2"> */}
+              <div className={`row ${ this.props.headerMob}`}>
                 <div className="col-6">
                   <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
                     <img href="#" className="logoo_Mob" src={require('../../Assets/Images/logo-03.png')} />

@@ -22,7 +22,8 @@ class About extends React.Component {
       sendPrp: 'Send a request',
       hedngPrp: "Let's build something ",
       hedngPrp1: "awesome together!",
-      getIdd: '',
+      getCore: false,
+      getStand : false,
     };
   }
 
@@ -44,18 +45,25 @@ class About extends React.Component {
   //   window.removeEventListener('scroll', this.handleScroll);
   // } 
 
-  // handleScroll(event) {
-  //   const scrollTop = event.srcElement.body.scrollTop,
-  //   itemTranslate = Math.min(0, scrollTop/3 - 120);
-  //   this.setState({ getIdd: itemTranslate });
-  //   console.log('chaman',scrollTop)
+  // handleScrollTwo=(event)=>{
+  //   const scrollTopCore = event.srcElement.body.scrollTop,
+  //         Core = Math.min(0, scrollTopCore/3 - 150);
+  //         console.log('func2 >>', Core)
+  //         this.setState({ getStand: Core });
+  // }
+
+  // handleScroll=(event)=> {
+  //        const scrollTopCore = event.srcElement.body.scrollTop,
+  //        Core = Math.min(0, scrollTopCore/1 - 50);
+  //        this.setState({ getCore: true});
+         
   // }
   
   render() {
-    const { headerPath,getIdd } = this.state
+    const { headerPath, getCore , getStand } = this.state
     return (
       <div className="all_backgrundImageAfter animateFadeIn">
-        <Header2 headerPath={headerPath} /> 
+        <Header2 headerPath={headerPath} headerDesktop="hederSticky" headerMob="hederStickyMob2" /> 
           <AboutBanner 
             Consl_text='Consultation'
             solu_text='with solution.'
@@ -74,13 +82,25 @@ class About extends React.Component {
             BnerAbtHome='col-10 backImgee_baner_Mob'
           />
         <br /><br />
-
-        {/* {getIdd === '' ?   */}
-          <OurCoreValues/>
-          {/* :null
+        <OurCoreValues/>
+        <WeStandFor/>
+         {/* {getCore ?  
+          <div>
+              <OurCoreValues/>
+          </div>
+          
+          :
+         null
         } 
-           */}
-          <WeStandFor />
+        {
+          getStand == -90 ?
+          <div>
+                 <WeStandFor/>
+          </div>
+          
+          :
+          null
+        }  */}
 
           <OurOffices
             backColor='row raw_background'

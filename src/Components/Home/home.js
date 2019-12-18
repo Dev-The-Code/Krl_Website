@@ -97,11 +97,13 @@ class Home extends React.Component {
     const { mainSlider, homeServicesState, HomeBannerState, projectBannerState, HomeClientsState, HomeSeeProjectState, bannerService, projectClient, seePro } = this.state
     return (
       <div>
-        <HomeBanner />
-        <HomeService />
-        <HomeProject />
-        <HomeClients/>
-        <HomeSeeProject />
+          <HomeBanner />
+        <div className="servicE_Banner animateFadeIn">
+          <HomeService />
+          <HomeProject />
+          <HomeClients/>
+          <HomeSeeProject />
+        </div>
         {/* <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
           <ul class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0"></li>

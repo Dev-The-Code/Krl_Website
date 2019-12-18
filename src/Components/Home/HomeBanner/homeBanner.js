@@ -38,7 +38,7 @@ render() {
     // console.log('props >>>', this.props)
     return (
         <div className="backImge_baner animateFadeIn">
-            <Header headerPath={headerPath} />
+            <Header headerPath={headerPath} headerDesktop="hederSticky" headerMob="hederStickyMob2" />
             <div className="row rAw_PadD">
                 <div className="col-12 col-md-4 col-lg-4 col-xl-4"></div>
                 <div className="col-12 col-md-4 col-lg-4 col-xl-4">

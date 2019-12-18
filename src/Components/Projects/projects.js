@@ -56,7 +56,7 @@ class Projects extends React.Component {
     return (
 
       <div  className="all_backgrundImageAfter animateFadeIn">
-        <Header2 headerPath={headerPath} />
+        <Header2 headerPath={headerPath} headerDesktop="hederSticky" headerMob="hederStickyMob2" />
         <div className="row">
           <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
           <div className="d-none d-md-none d-lg-block d-xl-block col-xl-10 col-lg-10" style={{ paddingRight: "0vw", paddingLeft: '0vw' }}>

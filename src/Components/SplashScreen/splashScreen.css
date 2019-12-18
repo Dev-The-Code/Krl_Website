@@ -91,19 +91,40 @@
 .fly-Name.hidden li:nth-child(12){ transform: translateX(130px) translateY(140px); opacity: 0.1;}
 
 
+.fly-nameTwo.hidden li {
+  /* opacity: 0; */
+}
+.fly-nameTwo.hidden li:nth-child(1){ transform: translateX(-200px) translateY(-200px); opacity: 0.1;}
+.fly-nameTwo.hidden li:nth-child(2){ transform: translateX(20px) translateY(100px); opacity: 0.1;}
+
+
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
   .fly-in-text{
     list-style: none;
     position: absolute;
-    left: 9%;
-    top: 45%;
     text-align: center;
   }
   .fly-in-text li {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 17px;
     font-family: aleta-light;
-    font-size: 2vw;
+    font-size: 4vw;
+    font-weight: 800;
+    color: white;
+    opacity: 1;
+    transition: all 2s ease;
+  }
+  .fly-nameTwo{
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    margin-left: 21vw;
+  }
+  .fly-nameTwo li {
+    display: inline-block;
+    margin-right: 17px;
+    font-family: aleta-light;
+    font-size: 4vw;
     font-weight: 800;
     color: white;
     opacity: 1;
@@ -112,15 +133,14 @@
   .fly-Name{
     list-style: none;
     position: absolute;
-    left: -1%;
-    top: 78%;
     text-align: center;
+    margin-left: -9vw;
   }
   .fly-Name li {
     display: inline-block;
-    margin-right: 21px;
+    margin-right: 12px;
     font-family: aleta-light;
-    font-size: 2vw;
+    font-size: 4vw;
     color: white;
     font-weight: 800;
     opacity: 1;
@@ -131,7 +151,7 @@
   .fly-in-text{
     list-style: none;
     position: absolute;
-    left: 8%;
+    left: 7.5%;
     top: 45%;
     text-align: center;
   }
@@ -167,7 +187,7 @@
   .fly-in-text{
     list-style: none;
     position: absolute;
-    left: 9%;
+    left: 7%;
     top: 45%;
     text-align: center;
   }
@@ -184,7 +204,7 @@
   .fly-Name{
     list-style: none;
     position: absolute;
-    left: 0%;
+    left: -2%;
     top: 53%;
     text-align: center;
   }
@@ -203,7 +223,7 @@
   .fly-in-text{
     list-style: none;
     position: absolute;
-    left: 9%;
+    left: 11%;
     top: 45%;
     text-align: center;
   }
@@ -239,7 +259,7 @@
   .fly-in-text{
     list-style: none;
     position: absolute;
-    left: 16%;
+    left: 14.5%;
     top: 45%;
     text-align: center;
   }
@@ -256,7 +276,7 @@
   .fly-Name{
     list-style: none;
     position: absolute;
-    left: 9%;
+    left: 7.3%;
     top: 55%;
     text-align: center;
   }

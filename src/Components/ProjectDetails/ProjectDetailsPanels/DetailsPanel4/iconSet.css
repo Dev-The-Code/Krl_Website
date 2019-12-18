@@ -2,14 +2,14 @@
     margin-top: 10vmax;
     font-size: calc(12px + 0.7vmax);
     font-family: aleta-bold;
-    color: white;
+    color: black;
 }
 .devIcon{
     padding-left: 0vw;
 }
 .iconSetShortHedng{
     font-family: aleta-bold;
-    color: white;
+    color: black;
     font-size: calc(9px + 0.7vmax);
     margin-top: 3vmax;
 }

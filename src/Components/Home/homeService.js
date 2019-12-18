@@ -30,7 +30,7 @@ class Service extends React.Component {
     render() {
         const { headerPath } = this.state
         return (
-            <div className="servicE_Banner animateFadeIn">
+            <div>
                 {/* <Header headerPath={headerPath} /> */}
                 <div className="row">
                     <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>

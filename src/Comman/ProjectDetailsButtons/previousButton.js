@@ -7,7 +7,7 @@ class PreviousButton extends Component {
   render() {
 
     return (
-        <div>
+        <div className="animatedup animatedFadeInUp fadeInUp">
             <div className="row devProDetail">
                 <div className="col-xl-6 col-lg-6 col-md-6 col-12 devChildProDetail">
                     <div className="row">

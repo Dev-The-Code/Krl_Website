@@ -1,6 +1,6 @@
 .rAw_PadD{
     padding-bottom: 2vw;
-    /* padding-top: 10vmax; */
+    padding-top: 6.5vmax;
 }
 
 
@@ -12,7 +12,7 @@
         color: white;
         margin-left: 5vw;
         position: absolute;
-        bottom: -75vh;
+        bottom: -70vh;
     }
     .dot_imgBaner{
         position: absolute;
@@ -38,7 +38,7 @@
         width: 80%;
         margin-left: 5vw;
         position: absolute;
-        bottom: -87vh;
+        bottom: -82vh;
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {

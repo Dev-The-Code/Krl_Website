@@ -8,7 +8,7 @@ class ProjectDetailFooter extends Component {
   render() {
 
     return (
-        <div>
+        <div className="animatedup animatedFadeInUp fadeInUp">
             {/*<Link to={`/contact`} className="changingColor"> */}
                 <div className="row proSeeFotr">
                     <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-2"></div>

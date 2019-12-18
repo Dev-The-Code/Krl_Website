@@ -59,7 +59,7 @@ class ServicesPage extends React.Component {
     // console.log(headerPath,'ssss');
     return (
       <div className='all_backgrundImageAfter animateFadeIn'>
-        <Header2 headerPath={headerPath} />
+        <Header2 headerPath={headerPath} headerDesktop="hederSticky" headerMob="hederStickyMob2" />
         <Servicebanner /><br /><br /><br />
         {/* <div className="row">
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>

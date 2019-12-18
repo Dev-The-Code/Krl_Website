@@ -2,7 +2,7 @@
     margin-top: 10vmax;
     font-size : calc(12px + 0.4vmax);
     font-family: aleta-bold;
-    color: white;
+    color: black;
 }
 .devVidentity{
     padding-left: 0vw;
@@ -11,7 +11,7 @@
     margin-top: 3vmax;
     font-size : calc(9px + 0.7vmax);
     font-family: aleta-bold;
-    color: white;
+    color: black;
 }
 .IdentityPera{
     margin-top: 1vmax;
@@ -32,7 +32,7 @@
     margin-top: 3vmax;
     font-size : calc(9px + 0.7vmax);
     font-family: aleta-bold;
-    color: white;
+    color: black;
 }
 .IdentityPera2{
     margin-top: 1vmax;
@@ -61,7 +61,7 @@
     margin-top: 3vmax;
     font-size: calc(9px + 0.7vmax);
     font-family: aleta-bold;
-    color: white;
+    color: black;
 }
 .IdentityPera3{
     margin-top: 1vmax;
@@ -74,11 +74,11 @@
 .visulIdntityshortHedng2{
     font-size: calc(10px + 0.9vmax);
     margin-top: 3vmax;
-    color: white;
+    color: black;
 }
 .visulIdntityshortHedng3{
     font-size: calc(10px + 0.9vmax);
-    color: white;
+    color: black;
 }
 .IdentityPeraMob{
     

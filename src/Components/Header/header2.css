@@ -20,7 +20,7 @@
         margin-left: 1rem!important;
     }
     .header_Textt{
-        margin-top: 5.8vw;
+        margin-top: 6.8vw;
         margin-right: -11vw;
         font-size: 4vw;
         font-family: aleta-bold;
@@ -39,6 +39,7 @@
     .menu{
         width: calc(10px + 1.5vw);
         margin-left: 3.3vw;
+        margin-top: -4vw;
     }
     .menu_OfClose{
         width: calc(10px + 1.5vw);
@@ -46,10 +47,10 @@
     }
     .loGo_devv{
         margin-bottom: 3rem!important;
-        margin-top: 3rem!important;
+        margin-top: 2rem!important;
     }
     .header_Textt{
-        margin-top: 7vw;
+        margin-top: 5vw;
         margin-right: -5vw;
         font-size: 1.5vw;
         font-family: aleta-bold;
@@ -75,7 +76,7 @@
     }
     .loGo_devv{
         margin-bottom: 3rem!important;
-        margin-top: 3rem!important;
+        margin-top: 2rem!important;
         
     }
     .header_Textt{
@@ -105,7 +106,7 @@
     }
     .loGo_devv{
         margin-bottom: 3rem!important;
-        margin-top: 3rem!important;
+        margin-top: 2rem!important;
     }
     .header_Textt{
         margin-top: 3.3vw;
@@ -135,7 +136,7 @@
     }
     .loGo_devv{
         margin-bottom: 3rem!important;
-        margin-top: 3rem!important;
+        margin-top: 2rem!important;
     }
     .header_Textt{
         margin-top: 2.7vw;
@@ -184,7 +185,7 @@
 }
 .heaD_Mob{
     width: 6vw;
-    margin-top: 6.7vw;
+    margin-top: 8.7vw;
     margin-left: 6vw;
 }
 .overlay {
@@ -656,14 +657,7 @@
     transform: translateX(1370px) translateY(0px); opacity: 1; 
     z-index: 4;
 }
-.hederStickyMob2{
-    /* position: fixed; */
-    width: 100vw;
-    height: 9vmax;
-    z-index: 8;
-    transform: translateX(0px) translateY(0px); opacity: 1; 
-    z-index: 4;
-}
+
 .devIcons{
     display: inline-block;
     margin-bottom: 3.1vmax;
@@ -673,13 +667,43 @@
     margin-bottom: 3.1vmax;
 }
 
-
+.hederStickyMob2{
+    position: fixed;
+    width: 100vw;
+    height: 9vmax;
+    z-index: 8;
+    transform: translateX(0px) translateY(0px); opacity: 1; 
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.3);
+    /* background-image: url(/static/media/bg-allScreen.bec0f91d.jpg); */
+    /* background-color: #0a1720; */
+}
 .hederSticky{
-    /* position: fixed; */
+    position: fixed;
     width: 100vw;
     /* margin-top: -2; */
     height: 7vmax;
     z-index: 8;
+    background: rgba(0, 0, 0, 0.3);
+}
+.hederStickyMob2Prop{
+    position: fixed;
+    width: 100vw;
+    height: 9vmax;
+    z-index: 8;
+    transform: translateX(0px) translateY(0px); opacity: 1; 
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.6);
+    /* background-image: url(/static/media/bg-allScreen.bec0f91d.jpg); */
+    /* background-color: #0a1720; */
+}
+.hederStickyProp{
+    position: fixed;
+    width: 100vw;
+    /* margin-top: -2; */
+    height: 7vmax;
+    z-index: 8;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .hederStickyMob1{

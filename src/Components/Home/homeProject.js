@@ -40,7 +40,7 @@ class Project extends React.Component {
         const { GFAHeading, GFAHeadingBr, DrentHeading, DrentHeadingBr, GFAperaas, Drentperaas, ADBHeading, ADBHeadingBr,
             DPWHeading, DPWHeadingBr, DPWperaas, ODSHeading, ODSHeadingBr, devPeraImg, headerPath } = this.state
         return (
-            <div className="servicE_Banner animateFadeIn">
+            <div>
                 {/* <Header headerPath={headerPath} /> */}
                 
                 <div className="row">

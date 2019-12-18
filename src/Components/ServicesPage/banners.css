@@ -1,5 +1,5 @@
 .ban{
-    margin-top: 10vmax;
+    margin-top: 17vmax;
 }
 .banDev{
     padding-right: 0vw;
@@ -119,12 +119,7 @@
     padding-left: 0vw;
     height: 17.3vmax;
 }
-.banHedng2{
-    font-size: 5.1vw;
-    font-family: aleta-bold;
-    color: white;
-    padding-top: calc(0.3vw + 8vmax);
-}
+
 
 .banChildDev1{
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
@@ -180,7 +175,12 @@
         padding-top: 0vw;
         color: white;
     }
-    
+    .banHedng2{
+        font-size: 5.1vw;
+        font-family: aleta-bold;
+        color: white;
+        padding-top: calc(0.3vw + 8vmax);
+    }
     .banHedng1Small{
         font-size: 5vw;
     }
@@ -276,6 +276,12 @@
         /* padding: 3.1vw; */
         border-radius: 1vw;
     }
+    .banHedng2{
+        font-size: 5.1vw;
+        font-family: aleta-bold;
+        color: white;
+        padding-top: calc(0.3vw + 8vmax);
+    }
     .banDev1ProSmall{
         background-image: url("../../Assets/Images/acf.png");
         -webkit-background-size: cover;
@@ -312,6 +318,12 @@
     }
     .banHedng1{
         font-size: 5.15vw;
+    }
+    .banHedng2{
+        font-size: 5.1vw;
+        font-family: aleta-bold;
+        color: white;
+        padding-top: calc(0.3vw + 8.3vmax);
     }
     .banChildDev1{
         box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
@@ -355,7 +367,7 @@
         font-size: 5.15vw;
         font-family: aleta-bold;
         color: white;
-        padding-top: 10vw;
+        padding-top: 8.25vw;
     }
 }
 @media only screen and (min-device-width : 1600px) {

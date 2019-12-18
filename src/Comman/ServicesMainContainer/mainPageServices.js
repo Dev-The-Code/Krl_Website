@@ -14,7 +14,7 @@ class MainServices extends Component {
       marketMobBox, marketMobBox1,}= this.props
       
       return (
-        <div>
+        <div className="animatedup animatedFadeInUp fadeInUp">
           {/* mobile hidden */}
           <div className="d-none d-xl-block d-lg-block d-md-block">
             <div className="row">

@@ -59,9 +59,10 @@ class Splash extends React.Component {
           </div>
         </div>
         <div className="d-block d-sm-none">
-          <div className="row mainBacksplash">
-            <div className="col-12"></div>
-            <div className="col-12">
+          <div className="mainBacksplash">
+          <div className="row" style={{paddingTop:'60%'}}>
+            <div className="col-1"></div>
+            <div className="col-10">
               <ul className={this.state.show ? 'fly-in-text' : 'fly-in-text hidden'} id="myDev_ani">
                 <li>W</li>
                 <li>E</li>
@@ -69,16 +70,18 @@ class Splash extends React.Component {
                 <li>C</li>
                 <li>O</li>
                 <li>M</li>
-                <li>E</li><br /><br />
-                <li style={{marginLeft: '-6vw'}}>T</li>
+                <li>E</li>
+              </ul><br /><br />
+              <ul className={this.state.show ? 'fly-nameTwo' : 'fly-nameTwo hidden'} id="myDev_ani">
+                <li>T</li>
                 <li>O</li>
-              </ul><br /><br /><br /><br />
+              </ul><br /><br />
               <ul className={this.state.show ? 'fly-Name' : 'fly-Name hidden'} id="myDev_ani">
                 <li>K</li>
                 <li>R</li>
                 <li>L</li>
 
-                <li style={{ marginLeft: '2.3vw' }}>C</li>
+                <li style={{ marginLeft: '4vw' }}>C</li>
                 <li>R</li>
                 <li>E</li>
                 <li>A</li>
@@ -89,7 +92,8 @@ class Splash extends React.Component {
                 <li>S</li>
               </ul>
             </div>
-            <div className="col-12"></div>
+            <div className="col-1"></div>
+          </div>
           </div>
         </div>
       </div>
