@@ -6,17 +6,94 @@ class OurCoreValues extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      carousel: 'empathize'
+      carousel: 'empathize',
+      empathize: 'onColorClicked',
+      helpGood: 'onColor',
+      listenCarefull: 'onColor',
+      beHonest: 'onColor',
+      beCreative: 'onColor',
+      beArtistic: 'onColor'
     };
   }
 
   coreSlider = (param) => {
-    console.log("TCL: OurCoreValues -> coreSlider -> param", param)
-    this.setState({ carousel: param });
+    if (param == 'empathize') {
+      console.log("TCL: OurCoreValues -> coreSlider -> param", param)
+      this.setState({
+        carousel: param,
+        empathize: "onColorClicked",
+        helpGood: 'onColor',
+        listenCarefull: 'onColor',
+        beHonest: "onColor",
+        beCreative: "onColor",
+        beArtistic: "onColor",
+      });
+
+    }
+    else if (param == 'helpGood') {
+      this.setState({
+        carousel: param,
+        helpGood: "onColorClicked",
+        empathize: 'onColor',
+        listenCarefull: 'onColor',
+        beHonest: "onColor",
+        beCreative: "onColor",
+        beArtistic: "onColor",
+      });
+    }
+
+    else if (param == 'listenCarefull') {
+      this.setState({
+        carousel: param,
+        listenCarefull: "onColorClicked",
+        empathize: 'onColor',
+        helpGood: 'onColor',
+        beHonest: "onColor",
+        beCreative: "onColor",
+        beArtistic: "onColor",
+      });
+    }
+
+    else if (param == 'beHonest') {
+      this.setState({
+        carousel: param,
+        beHonest: "onColorClicked",
+        empathize: 'onColor',
+        helpGood: 'onColor',
+        listenCarefull: 'onColor',
+        beCreative: "onColor",
+        beArtistic: "onColor",
+      });
+    }
+
+    else if (param == 'beCreative') {
+      this.setState({
+        carousel: param,
+        beCreative: "onColorClicked",
+        empathize: 'onColor',
+        helpGood: 'onColor',
+        listenCarefull: 'onColor',
+        beHonest: "onColor",
+        beArtistic: "onColor",
+      });
+    }
+
+    else if (param == 'beArtistic') {
+      this.setState({
+        carousel: param,
+        beArtistic: "onColorClicked",
+        empathize: 'onColor',
+        helpGood: 'onColor',
+        listenCarefull: 'onColor',
+        beHonest: "onColor",
+        beCreative: "onColor",
+      });
+    }
     // console.log(">>>", this.state.carousel)
   }
 
   render() {
+    const { empathize, helpGood, listenCarefull, beHonest, beCreative, beArtistic } = this.state;
     return (
       <div>
         <div className="d-none d-sm-block">
@@ -30,12 +107,12 @@ class OurCoreValues extends Component {
               </div>
               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 Ocv1">
                 <p className="Ocv2">Core values</p>
-                <p className="onColor" onClick={this.coreSlider.bind(this, 'empathize')}>empathize</p>
-                <p className="onColor" onClick={this.coreSlider.bind(this, 'helpGood')}>help the good</p>
-                <p className="onColor" onClick={this.coreSlider.bind(this, 'listenCarefull')}>listen carefully</p>
-                <p className="onColor" onClick={this.coreSlider.bind(this, 'beHonest')}>be honest</p>
-                <p className="onColor" onClick={this.coreSlider.bind(this, 'beCreative')}>be creative</p>
-                <p className="onColor" onClick={this.coreSlider.bind(this, 'beArtistic')}>be artistic</p>
+                <p className={empathize} onClick={this.coreSlider.bind(this, 'empathize')}>empathize</p>
+                <p className={helpGood} onClick={this.coreSlider.bind(this, 'helpGood')}>help the good</p>
+                <p className={listenCarefull} onClick={this.coreSlider.bind(this, 'listenCarefull')}>listen carefully</p>
+                <p className={beHonest} onClick={this.coreSlider.bind(this, 'beHonest')}>be honest</p>
+                <p className={beCreative} onClick={this.coreSlider.bind(this, 'beCreative')}>be creative</p>
+                <p className={beArtistic} onClick={this.coreSlider.bind(this, 'beArtistic')}>be artistic</p>
               </div>
               <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1"></div>
             </div>
