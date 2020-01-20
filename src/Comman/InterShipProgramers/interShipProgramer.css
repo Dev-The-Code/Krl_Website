@@ -1,13 +1,13 @@
 .internShipImg{
     position: absolute;
-    background-image: url("../../Assets/Images/interImage.png");
+    background-image: url("../../Assets/Images/Interns/InterSkrl.jpg");
     height: 26.5vmax;
     border-radius: 1vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position-x: right;
+    background-position-y: center;
 }
 .internShipText{
     position: relative;

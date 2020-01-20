@@ -15,7 +15,12 @@ import ProjectDetailFooter from './ProjectDetailsPanels/DetailsPanelFooter9/proj
 
 class ProjectDetailsPage extends Component {
 
-
+  constructor(props) {
+    super(props);
+    this.state = {
+      
+    }
+  }
   componentWillMount() {
     let data = this.props.location.pathname;
     let routName;
@@ -24,6 +29,9 @@ class ProjectDetailsPage extends Component {
     //  console.log(routName,'sss');
     this.setState({ headerPath: routName });
       window.scrollTo(0, 0)
+  }
+  componentDidMount(){
+    console.log("TCL: ProjectDetailsPage -> ", this.props.location.state)  ;
   }
 
   render() {

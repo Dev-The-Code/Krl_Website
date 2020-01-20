@@ -94,6 +94,181 @@
 
 /* new design */
 
+/*Freshh new Css by Daniyal*/
+
+.LightFDesktop {
+    background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: bottom;
+    margin-bottom: calc(15vw - 1vmax);
+}
+.GetFitDesktop{
+    background-image: url("../../Assets/Images/getfit.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(15vw - 1vmax);
+}
+.CircleDesktop {
+    background-image: url("../../Assets/Images/circle.jpg");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(15vw - 1vmax);
+}
+.ZiyaratDesktop{
+    background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: center;
+    margin-bottom: calc(15vw - 1vmax);
+}
+.DallasPalmDesktop{
+    background-image: url("../../Assets/Images/dallaspalm.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: center;
+    margin-bottom: calc(15vw - 1vmax);
+}
+
+.LightFTablet {
+    background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: bottom;
+    margin-bottom: 15vmax;
+}
+.GetFitTablet {
+    background-image: url("../../Assets/Images/getfit.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: 18vmax;
+}
+.CircleTablet {
+    background-image: url("../../Assets/Images/circle.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: 18vmax;
+}
+.ZiyaratTablet {
+    background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: 18vmax;
+}
+.DallasPalmTablet {
+    background-image: url("../../Assets/Images/dallaspalm.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: 18vmax;
+}
+
+.GFA_BgImgProMb {
+    background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
+    height: 30.5vmax;
+    border-radius: 3vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(15vw - -9.5vmax);
+    margin-top: 15vw;
+}
+.DrentBgImgMb {
+    background-image: url("../../Assets/Images/ACF-Image-min.jpg");
+    height: 30.5vmax;
+    border-radius: 3vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(15vw - -9.5vmax);
+}
+.GFA_BgImgProMb {
+    background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
+    height: 30.5vmax;
+    border-radius: 3vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(15vw - -9.5vmax);
+    margin-top: 15vw;
+}
+.DrentBgImgMb {
+    background-image: url("../../Assets/Images/ACF-Image-min.jpg");
+    height: 30.5vmax;
+    border-radius: 3vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(15vw - -9.5vmax);
+}
+.GFA_BgImgProMb {
+    background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
+    height: 30.5vmax;
+    border-radius: 3vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(15vw - -9.5vmax);
+    margin-top: 15vw;
+}
+
+/*Freshh css ENd by daniyal*/
+
 .GFA_BgImg {
     background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
     height: 26.5vmax;
@@ -105,6 +280,7 @@
     background-position-x: right;
     margin-bottom: calc(15vw - 1vmax);
 }
+
 .GFA_BgImgHomeMb {
     background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
     height: 26.5vmax;
@@ -505,7 +681,7 @@
     height: 33vmax;
     border-radius: 3vw;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
+    -moz-background-size: co ver;
     -o-background-size: cover;
     background-size: cover;
     background-position-x: right;

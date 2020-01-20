@@ -14,7 +14,6 @@ class Projects extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-
       GFAHeading: 'LIGHT-F Project By',
       GFAHeadingBr: 'JICA & Sindh Gvt',
       DrentHeading: 'ACF Animal Rescue',
@@ -155,7 +154,7 @@ class Projects extends React.Component {
 
           <div className="d-none d-md-none d-lg-block d-xl-block col-xl-6 col-lg-6" style={{ marginTop: '21vw' }}>
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImg'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 LightFDesktop'
               projctHedng="GFAhedng"
               locationUrl={""}
               hed='LIGHT-F Project By'
@@ -169,10 +168,10 @@ class Projects extends React.Component {
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImg'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GetFitDesktop'
               projctHedng="Drenthedng"
-              hed={DrentHeading}
-              hed1={DrentHeadingBr}
+              hed='GetFitAthletic Branding'
+              hed1='Mobile App & Website'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
               locationUrl={""}
@@ -184,10 +183,10 @@ class Projects extends React.Component {
 
             <Founder />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImg'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 CircleDesktop'
               projctHedng="GFAhedng"
-              hed={GFAHeading}
-              hed1={GFAHeadingBr}
+              hed='Circle Women Merch'
+              hed1='Design'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
               locationUrl={""}
@@ -197,10 +196,10 @@ class Projects extends React.Component {
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImg'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 ZiyaratDesktop'
               projctHedng="Drenthedng"
-              hed={DrentHeading}
-              hed1={DrentHeadingBr}
+              hed='Ziyarat Branding'
+              hed1='Websites'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
               locationUrl={""}
@@ -210,10 +209,10 @@ class Projects extends React.Component {
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImg'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DallasPalmDesktop'
               projctHedng="Drenthedng"
-              hed={DrentHeading}
-              hed1={DrentHeadingBr}
+              hed='Dallas Palms'
+              hed1='Website'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
               locationUrl={""}
@@ -229,10 +228,10 @@ class Projects extends React.Component {
           {/*ipad visible */}
 
           <div className="d-none d-md-block col-lg-none d-xl-none col-md-5" style={{ marginTop: '21vw' }}>
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgMd'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 LightFTablet'
               projctHedng="GFAhedng"
-              hed={GFAHeading}
-              hed1={GFAHeadingBr}
+              hed='LIGHT-F Project By'
+              hed1='JICA & Sindh Gvt'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
               locationUrl={""}
@@ -242,10 +241,10 @@ class Projects extends React.Component {
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMd'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GetFitTablet'
               projctHedng="Drenthedng"
-              hed={DrentHeading}
-              hed1={DrentHeadingBr}
+              hed='GetFitAthletic Branding'
+              hed1='Mobile App & Website'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
               locationUrl={""}
@@ -257,10 +256,10 @@ class Projects extends React.Component {
 
             <Founder />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgMd'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 CircleTablet'
               projctHedng="GFAhedng"
-              hed={GFAHeading}
-              hed1={GFAHeadingBr}
+              hed='Circle Women Merch'
+              hed1='Design'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
               locationUrl={""}
@@ -270,10 +269,10 @@ class Projects extends React.Component {
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMd'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 ZiyaratTablet'
               projctHedng="Drenthedng"
-              hed={DrentHeading}
-              hed1={DrentHeadingBr}
+              hed='Ziyarat Branding'
+              hed1='Websites'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
               locationUrl={""}
@@ -283,10 +282,10 @@ class Projects extends React.Component {
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMd'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DallasPalmTablet'
               projctHedng="Drenthedng"
-              hed={DrentHeading}
-              hed1={DrentHeadingBr}
+              hed='Dallas Palms'
+              hed1='Website'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
               locationUrl={""}
@@ -304,8 +303,8 @@ class Projects extends React.Component {
 
             <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgProMb'
               projctHedng="GFAhedng"
-              hed={GFAHeading}
-              hed1={GFAHeadingBr}
+              hed='LIGHT-F Project By'
+              hed1='JICA & Sindh Gvt'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
               projctPera="GFApera"
               locationUrl={""}
@@ -317,8 +316,8 @@ class Projects extends React.Component {
 
             <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMb'
               projctHedng="Drenthedng"
-              hed={DrentHeading}
-              hed1={DrentHeadingBr}
+              hed='GetFitAthletic Branding'
+              hed1='Mobile App & Website'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
               projctPera="GFApera"
               locationUrl={""}
@@ -332,8 +331,8 @@ class Projects extends React.Component {
 
             <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgProMb'
               projctHedng="GFAhedng"
-              hed={GFAHeading}
-              hed1={GFAHeadingBr}
+              hed='Circle Women Merch'
+              hed1='Design'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
               projctPera="GFApera"
               locationUrl={""}
@@ -345,8 +344,8 @@ class Projects extends React.Component {
 
             <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMb'
               projctHedng="Drenthedng"
-              hed={DrentHeading}
-              hed1={DrentHeadingBr}
+              hed='Ziyarat Branding'
+              hed1='Websites'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
               projctPera="GFApera"
               locationUrl={""}
@@ -358,8 +357,8 @@ class Projects extends React.Component {
 
             <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMb'
               projctHedng="Drenthedng"
-              hed={DrentHeading}
-              hed1={DrentHeadingBr}
+              hed='Dallas Palms'
+              hed1='Website'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
               projctPera="GFApera"
               locationUrl={""}
@@ -376,28 +375,26 @@ class Projects extends React.Component {
           <div className="col-xl-5 col-lg-5 col-md-5 col-12 ">{/* style={{paddingRight: "0vw"}} */}
 
             {/*mobile, ipad hidden*/}
-            <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
-              projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ADB_BgImg'
-              projctHedng="ADBhedng"
-              hed={ADBHeading}
-              hed1={ADBHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
-              projctPera="ADBpera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="ADBpera1"
-              pera={Drentperaas}
-              proAeroImg="ADBimg"
-              ViewPro={ViewPro}
-            />
-
+              <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
+                projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ADB_BgImg'
+                projctHedng="ADBhedng"
+                hed="Drent Branding"
+                hed1='& Website'
+                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
+                projctPera="ADBpera"
+                locationUrl={""}
+                seeAerro={devPeraImg}
+                projctPera1="ADBpera1"
+                pera={Drentperaas}
+                proAeroImg="ADBimg"
+                ViewPro={ViewPro}
+              />
             {/*ipad visible*/}
             <div className="row">
-
               <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none ADB_BgImgSmMd'
                 projctHedng="ADBhedngSmMd"
-                hed={ADBHeading}
-                hed1={ADBHeadingBr}
+                hed="Drent Branding"
+                hed1='& Website'
                 projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ADB_BgChildMd"
                 projctPera="ADBpera"
                 locationUrl={""}
@@ -407,16 +404,13 @@ class Projects extends React.Component {
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
               />
-
             </div>
-
             {/*mobile visible*/}
             <div className="row">
-
               <ProjectContainer projctBox='d-block d-sm-none d-md-none d-xl-none d-lg-none col-11 ADB_BgImgMb'
                 projctHedng="ADBhedngMb"
-                hed={ADBHeading}
-                hed1={ADBHeadingBr}
+                hed="Drent Branding"
+                hed1='& Website'
                 projctChildBox="col-xl-12 col-lg-12 col-md-11 col-12 ADB_BgChildSmMd"
                 projctPera="ADBpera"
                 locationUrl={""}
@@ -426,199 +420,150 @@ class Projects extends React.Component {
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
               />
-
             </div>
 
 
-
+            {/*mobile, ipad hidden*/}
+              <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block d-xl-block"
+                projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 DPW_BgImg'
+                projctHedng="ADBhedng"
+                hed='ACF Animal'
+                hed1='Rescue Website'
+                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 DPW_BgChild"
+                projctPera="ADBpera"
+                locationUrl={""}
+                seeAerro={devPeraImg}
+                projctPera1="ADBpera1"
+                pera={DPWperaas}
+                proAeroImg="ADBimg"
+                ViewPro={ViewPro}
+              />
+            {/*ipad visible*/}
+              <ProjectContainer projctBox='d-none d-md-block d-xl-none d-lg-none DPW_BgImg'
+                projctHedng="ADBhedngSmMd"
+                hed='ACF Animal'
+                hed1='Rescue Website'
+                projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 DPW_BgChildMd"
+                projctPera="ADBpera"
+                locationUrl={""}
+                seeAerro={devPeraImg}
+                projctPera1="ADBpera1"
+                pera={DPWperaas}
+                proAeroImg="ADBimg"
+                ViewPro={ViewPro}
+              />
+            {/*mobile visible*/}
+              <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 DPW_BgImgMb'
+                projctHedng="ADBhedngSmMd"
+                hed='ACF Animal'
+                hed1='Rescue Website'
+                projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 DPW_BgChildSmMd"
+                projctPera="ADBpera"
+                locationUrl={""}
+                seeAerro={devPeraImg}
+                projctPera1="ADBpera1"
+                pera={DPWperaas}
+                proAeroImg="ADBimg"
+                ViewPro={ViewPro}
+              />
 
 
 
             {/*mobile, ipad hidden*/}
-            <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block d-xl-block"
-              projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 DPW_BgImg'
-              projctHedng="ADBhedng"
-              hed={DPWHeading}
-              hed1={DPWHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 DPW_BgChild"
-              projctPera="ADBpera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="ADBpera1"
-              pera={DPWperaas}
-              proAeroImg="ADBimg"
-              ViewPro={ViewPro}
-            />
+              <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
+                projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ODW_BgImg'
+                projctHedng="ADBhedng"
+                hed='Pakjazba Online'
+                hed1='Portal System'
+                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
+                projctPera="ADBpera"
+                locationUrl={""}
+                seeAerro={devPeraImg}
+                projctPera1="ADBpera1"
+                pera={DPWperaas}
+                proAeroImg="ADBimg"
+                ViewPro={ViewPro}
+              />
             {/*ipad visible*/}
-            <ProjectContainer projctBox='d-none d-md-block d-xl-none d-lg-none DPW_BgImg'
-              projctHedng="ADBhedngSmMd"
-              hed={DPWHeading}
-              hed1={DPWHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 DPW_BgChildMd"
-              projctPera="ADBpera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="ADBpera1"
-              pera={DPWperaas}
-              proAeroImg="ADBimg"
-              ViewPro={ViewPro}
-            />
+              <ProjectContainer projctBox='d-none d-md-block d-xl-none d-lg-none col-md-12 ODW_BgImg'
+                projctHedng="ADBhedngSmMd"
+                hed='Pakjazba Online'
+                hed1='Portal System'
+                projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ODW_BgChildMd"
+                projctPera="ADBpera"
+                locationUrl={""}
+                seeAerro={devPeraImg}
+                projctPera1="ADBpera1"
+                pera={DPWperaas}
+                proAeroImg="ADBimg"
+                ViewPro={ViewPro}
+              />
             {/*mobile visible*/}
-            <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 DPW_BgImgMb'
-              projctHedng="ADBhedngSmMd"
-              hed={DPWHeading}
-              hed1={DPWHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 DPW_BgChildSmMd"
-              projctPera="ADBpera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="ADBpera1"
-              pera={DPWperaas}
-              proAeroImg="ADBimg"
-              ViewPro={ViewPro}
-            />
+              <ProjectContainer projctBox='d-block d-sm-none d-md-none d-xl-none d-lg-none col-11 ODW_BgImgMb'
+                projctHedng="ADBhedngSmMd"
+                hed='Pakjazba Online'
+                hed1='Portal System'
+                projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 ODW_BgChildSmMd"
+                projctPera="ADBpera"
+                locationUrl={""}
+                seeAerro={devPeraImg}
+                projctPera1="ADBpera1"
+                pera={DPWperaas}
+                proAeroImg="ADBimg"
+                ViewPro={ViewPro}
+              />
+
+
 
             {/*mobile, ipad hidden*/}
-            <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
-              projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ODW_BgImg'
-              projctHedng="ADBhedng"
-              hed={ODSHeading}
-              hed1={ODSHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
-              projctPera="ADBpera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="ADBpera1"
-              pera={DPWperaas}
-              proAeroImg="ADBimg"
-              ViewPro={ViewPro}
-            />
+              <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
+                projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ODW_BgImg'
+                projctHedng="ADBhedng"
+                hed='Oxbridge Video,'
+                hed1='Social Media & Website'
+                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
+                projctPera="ADBpera"
+                locationUrl={""}
+                seeAerro={devPeraImg}
+                projctPera1="ADBpera1"
+                pera={DPWperaas}
+                proAeroImg="ADBimg"
+                ViewPro={ViewPro}
+              />
             {/*ipad visible*/}
-            <ProjectContainer projctBox='d-none d-md-block d-xl-none d-lg-none col-md-12 ODW_BgImg'
-              projctHedng="ADBhedngSmMd"
-              hed={ODSHeading}
-              hed1={ODSHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ODW_BgChildMd"
-              projctPera="ADBpera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="ADBpera1"
-              pera={DPWperaas}
-              proAeroImg="ADBimg"
-              ViewPro={ViewPro}
-            />
+              <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none col-md-12 ODW_BgImg'
+                projctHedng="ADBhedngSmMd"
+                hed='Oxbridge Video,'
+                hed1='Social Media & Website'
+                projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ODW_BgChildMd"
+                projctPera="ADBpera"
+                locationUrl={""}
+                seeAerro={devPeraImg}
+                projctPera1="ADBpera1"
+                pera={DPWperaas}
+                proAeroImg="ADBimg"
+                ViewPro={ViewPro}
+              />
             {/*mobile visible*/}
-            <ProjectContainer projctBox='d-block d-sm-none d-md-none d-xl-none d-lg-none col-11 ODW_BgImgMb'
-              projctHedng="ADBhedngSmMd"
-              hed={ODSHeading}
-              hed1={ODSHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 ODW_BgChildSmMd"
-              projctPera="ADBpera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="ADBpera1"
-              pera={DPWperaas}
-              proAeroImg="ADBimg"
-              ViewPro={ViewPro}
-            />
-
-            {/*mobile, ipad hidden*/}
-            <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
-              projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ODW_BgImg'
-              projctHedng="ADBhedng"
-              hed={ODSHeading}
-              hed1={ODSHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
-              projctPera="ADBpera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="ADBpera1"
-              pera={DPWperaas}
-              proAeroImg="ADBimg"
-              ViewPro={ViewPro}
-            />
-            {/*ipad visible*/}
-            <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none col-md-12 ODW_BgImg'
-              projctHedng="ADBhedngSmMd"
-              hed={ODSHeading}
-              hed1={ODSHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ODW_BgChildMd"
-              projctPera="ADBpera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="ADBpera1"
-              pera={DPWperaas}
-              proAeroImg="ADBimg"
-              ViewPro={ViewPro}
-            />
-            {/*mobile visible*/}
-            <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 ODW_BgImgMb'
-              projctHedng="ADBhedngSmMd"
-              hed={ODSHeading}
-              hed1={ODSHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 ODW_BgChildSmMd"
-              projctPera="ADBpera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="ADBpera1"
-              pera={DPWperaas}
-              proAeroImg="ADBimg"
-              ViewPro={ViewPro}
-            />
-
-            {/*mobile, ipad hidden*/}
-            <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
-              projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ODW_BgImg'
-              projctHedng="ADBhedng"
-              hed={ODSHeading}
-              hed1={ODSHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
-              projctPera="ADBpera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="ADBpera1"
-              pera={DPWperaas}
-              proAeroImg="ADBimg"
-              ViewPro={ViewPro}
-            />
-            {/*ipad visible*/}
-            <ProjectContainer projctBox='d-none d-md-block d-xl-none d-lg-none ODW_BgImg'
-              projctHedng="ADBhedngSmMd"
-              hed={ODSHeading}
-              hed1={ODSHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ODW_BgChildMd"
-              projctPera="ADBpera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="ADBpera1"
-              pera={DPWperaas}
-              proAeroImg="ADBimg"
-              ViewPro={ViewPro}
-            />
-            {/*mobile visible*/}
-            <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 ODW_BgImgMb'
-              projctHedng="ADBhedngSmMd"
-              hed={ODSHeading}
-              hed1={ODSHeadingBr}
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 ODW_BgChildSmMd"
-              projctPera="ADBpera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="ADBpera1"
-              pera={DPWperaas}
-              proAeroImg="ADBimg"
-              ViewPro={ViewPro}
-            />
-
-
+              <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 ODW_BgImgMb'
+                projctHedng="ADBhedngSmMd"
+                hed='Oxbridge Video,'
+                hed1='Social Media & Website'
+                projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 ODW_BgChildSmMd"
+                projctPera="ADBpera"
+                locationUrl={""}
+                seeAerro={devPeraImg}
+                projctPera1="ADBpera1"
+                pera={DPWperaas}
+                proAeroImg="ADBimg"
+                ViewPro={ViewPro}
+              />
 
           </div>
           <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12"></div>
         </div>
 
-        {/*<SeeProject 
-          seeBckColr="proSeeFotr"
-          colSetText=""/>*/}
+        
         <Link to={`/contact`} className="changingColor">
           <div className="row proSeeFotr">
             <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-2"></div>
