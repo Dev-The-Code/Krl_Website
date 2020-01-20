@@ -20,7 +20,7 @@
         margin-top: -1.8vw;
         font-family: aleta-light;
     }
-    .Ocv3{
+    .empathize{
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -46,7 +46,7 @@
         font-size: calc(12px + 0.4vw);
         font-family: aleta-light;
     }
-    .Ocv3{
+    .empathize{
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -73,11 +73,24 @@
         font-size: calc(12px + 0.4vw);
         font-family: aleta-light;
     }
-    .Ocv3{
+    .empathize{
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-image: url(../../../Assets/Images/acf.png);
+        background-size: cover;
+        background-position-x: center;
+        background-color: #f2f2f2;
+        height: 20.5vw;
+        box-shadow: 0px 2px 1vw rgba(0, 0 ,0 , 0.18);
+        border-radius: 2vw;
+        margin-top: 1.5vw;
+    }
+    .helpGood{
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-image: url(../../../Assets/Images/dallas.png);
         background-size: cover;
         background-position-x: center;
         background-color: #f2f2f2;
@@ -101,7 +114,7 @@
         font-size: calc(12px + 0.6vw);
         font-family: aleta-light;
     }
-    .Ocv3{
+    .empathize{
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;

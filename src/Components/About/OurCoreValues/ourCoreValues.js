@@ -6,15 +6,15 @@ class OurCoreValues extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      carousel: 'Ocv3'
+      carousel: 'empathize'
     };
   }
 
-  coreSlider(param){
+  coreSlider = (param) => {
     console.log("TCL: OurCoreValues -> coreSlider -> param", param)
-    // this.setState({carousel : param});
+    this.setState({ carousel: param });
+    // console.log(">>>", this.state.carousel)
   }
-
 
   render() {
     return (
@@ -30,12 +30,12 @@ class OurCoreValues extends Component {
               </div>
               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 Ocv1">
                 <p className="Ocv2">Core values</p>
-                <p className="onColor" onClick={this.coreSlider.bind('empathize',)}>empathize</p>
-                <p className="onColor" onClick={this.coreSlider.bind('helpGood')}>help the good</p>
-                <p className="onColor" onClick={this.coreSlider.bind('listenCarefull')}>listen carefully</p>
-                <p className="onColor" onClick={this.coreSlider.bind('beHonest')}>be honest</p>
-                <p className="onColor" onClick={this.coreSlider.bind('beCreative')}>be creative</p>
-                <p className="onColor" onClick={this.coreSlider.bind('beArtistic')}>be artistic</p>
+                <p className="onColor" onClick={this.coreSlider.bind(this, 'empathize', )}>empathize</p>
+                <p className="onColor" onClick={this.coreSlider.bind(this, 'helpGood')}>help the good</p>
+                <p className="onColor" onClick={this.coreSlider.bind(this, 'listenCarefull')}>listen carefully</p>
+                <p className="onColor" onClick={this.coreSlider.bind(this, 'beHonest')}>be honest</p>
+                <p className="onColor" onClick={this.coreSlider.bind(this, 'beCreative')}>be creative</p>
+                <p className="onColor" onClick={this.coreSlider.bind(this, 'beArtistic')}>be artistic</p>
               </div>
               <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1"></div>
             </div>
