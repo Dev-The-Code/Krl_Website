@@ -110,6 +110,12 @@
         margin-top: -1.8vw;
         font-family: aleta-light;
     }
+    .onColorClicked{
+        color: red;
+        margin-top: -1.8vw;
+        font-family: aleta-light;
+        cursor: pointer;
+    }
     .empathize{
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -200,6 +206,13 @@
         margin-top: -0.4vw;
         font-size: calc(12px + 0.4vw);
         font-family: aleta-light;
+    }
+    .onColorClicked{
+        color: red;
+        margin-top: -0.4vw;
+        font-size: calc(12px + 0.4vw);
+        font-family: aleta-light;
+        cursor: pointer;
     }
     .empathize{
         -webkit-background-size: cover;
@@ -292,6 +305,13 @@
         margin-top: -0.2vw;
         font-size: calc(12px + 0.4vw);
         font-family: aleta-light;
+    }
+    .onColorClicked{
+        color: red;
+        margin-top: -0.2vw;
+        font-size: calc(12px + 0.4vw);
+        font-family: aleta-light;
+        cursor: pointer;
     }
     .empathize{
         -webkit-background-size: cover;
@@ -386,6 +406,13 @@
         font-size: calc(12px + 0.6vw);
         font-family: aleta-light;
     }
+    .onColorClicked{
+        color: red;
+        margin-top: 1vw;
+        font-size: calc(12px + 0.6vw);
+        font-family: aleta-light;
+        cursor: pointer;
+    }
     .empathize{
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -475,10 +502,7 @@
     color: red;
     cursor: pointer;
 }
-.onColorClicked{
-    color: red;
-    cursor: pointer;
-}
+
 .onColor_mob{
     color: #adadad;
     font-family: aleta-light;
