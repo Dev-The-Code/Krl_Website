@@ -32,7 +32,7 @@ class serviceBanners extends Component {
                     </div>
                 </div>
                 <div className="d-block d-sm-none">
-                    <div className="row" style={{paddingTop:'22vw'}}>
+                    <div className="row" style={{paddingTop:'40vw'}}>
                         <div className="col-1"></div>
                         <div className="col-10">
                             <h1 className="banNer_blaNk">We have got you all covered.</h1>

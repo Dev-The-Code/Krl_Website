@@ -14,7 +14,7 @@ class Founders2 extends Component {
           
           <div className="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 devFondp2">
             <img href="#" className="devFondp2Img" src={require('../../Assets/Images/inverted-coma.png')}/>
-            <p className="devFondp2Pera">KRL Creatives worked on the project with a blend of pra- gmatic approach and creativity. They are meticulous and always receptive to feedback.
+            <p className="devFondp2Pera">KRL Creatives worked on the project with a blend of pragmatic approach and creativity. They are meticulous and always receptive to feedback.
              We are so pleased with the outcome and look forward to a continued working relationship with them.</p>
 
 

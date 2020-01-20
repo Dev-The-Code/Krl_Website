@@ -20,7 +20,7 @@ class Contact extends React.Component {
     const { headerPath } = this.state
     return (
       <div className="all_backgrundImageAfter animateFadeIn">
-        <Header2 headerPath={headerPath}  headerDesktop="hederSticky" headerMob="hederStickyMob2" />
+        <Header2 headerPath={headerPath}  headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
         <ContBanner />
 
         <ReqQoute />

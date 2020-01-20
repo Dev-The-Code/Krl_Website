@@ -36,7 +36,7 @@ class ServicesPage extends React.Component {
       devPeraImg: false,
       devParagraph: true,
       headerPath: '',
-      sassLess : true,
+      sassLess: true,
     }
   }
   componentWillMount() {
@@ -59,7 +59,7 @@ class ServicesPage extends React.Component {
     // console.log(headerPath,'ssss');
     return (
       <div className='all_backgrundImageAfter animateFadeIn'>
-        <Header2 headerPath={headerPath} headerDesktop="hederSticky" headerMob="hederStickyMob2" />
+        <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
         <Servicebanner /><br /><br /><br />
         {/* <div className="row">
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
@@ -70,8 +70,13 @@ class ServicesPage extends React.Component {
         <MainServicesPage />
 
 
-
-
+        <div className="row">
+          <div className="col-md-1 col-xl-1 col-lg-1"></div>
+          <div className="col-10 col-md-10 col-xl-10 col-lg-10">
+            <h1 className="heaD_font" style={{marginBottom:'10px'}}>We Work With</h1>
+          </div>
+          <div className="col-1 col-md-1 col-xl-1 col-lg-1"></div>
+        </div>
 
         {/* home service ka page he ye */}
         <div className="d-none d-sm-none d-md-none d-lg-block d-xl-block">
@@ -95,10 +100,10 @@ class ServicesPage extends React.Component {
                 </div>
                 <div className="col-xl-1 col-lg-1"></div>
 
-                
-                  
+
+
                 <div className="col-xl-3 col-lg-3" style={{ padding: '0vw' }}>
-                  <div className="develpImage">
+                  <div className="develpImageStart">
                     <h3 className="devlpHedng">
                       Startups
                       </h3>
@@ -114,7 +119,7 @@ class ServicesPage extends React.Component {
                 <div className="col-xl-1 col-lg-1"></div>
 
                 <div className="col-xl-3 col-lg-3" style={{ padding: '0vw' }}>
-                  <div className="designImage">
+                  <div className="ServiceImageEnterprise">
                     <h3 className="designHedng" style={{ paddingTop: '3.1vw', paddingLeft: '3.1vw', fontSize: '1.2vmax', color: 'white', fontFamily: 'aleta-bold' }}>
                       Enterprises
                       </h3>
@@ -136,7 +141,7 @@ class ServicesPage extends React.Component {
 
 
 
-        {/*visible ipad tablet and mobile hidden */}
+        {/*visible ipad tablet */}
         <div className="d-none d-sm-block d-md-block d-lg-none d-xl-none">
           <div className="row">
             <div className="col-md-1 col-sm-1 col-12"></div>
@@ -147,7 +152,7 @@ class ServicesPage extends React.Component {
                 <div className="col-md-6 col-sm-6 col-12" style={{ paddingLeft: '0vw' }}>
                   <div className="consultImageSm">
                     <h3 className="consulHedngSm">
-                      Non Profits 
+                      Non Profits
                       </h3>
                   </div>
                   <div className="consultDevSm">
@@ -159,7 +164,7 @@ class ServicesPage extends React.Component {
                 </div>
 
                 <div className="col-md-6 col-sm-6 col-12">
-                  <div className="develpImageSm">
+                  <div className="develpImageStartSm">
                     <h3 className="develpHedngSm">
                       Startups
                       </h3>
@@ -173,7 +178,7 @@ class ServicesPage extends React.Component {
                 </div>
 
                 <div className="col-md-6 col-sm-6 col-12" style={{ paddingLeft: '0vw' }}>
-                  <div className="designImageSm">
+                  <div className="ServiceImageEnterpriseSm">
                     <h3 className="designHedng">
                       Enterprises
                       </h3>
@@ -186,7 +191,7 @@ class ServicesPage extends React.Component {
                   </div>
                 </div>
 
-                
+
               </div>
             </div>
           </div>
@@ -216,7 +221,7 @@ class ServicesPage extends React.Component {
                 </div>
 
                 <div className="col-12">
-                  <div className="develpImageMb">
+                  <div className="develpImageStartMb">
                     <h3 className="develpHedngMb">
                       Startups
                       </h3>
@@ -231,7 +236,7 @@ class ServicesPage extends React.Component {
 
 
                 <div className="col-12">
-                  <div className="designImageMb">
+                  <div className="ServiceImageEnterpriseMb">
                     <h3 className="develpHedngMb">
                       Enterprises
                       </h3>
@@ -244,7 +249,7 @@ class ServicesPage extends React.Component {
                   </div>
                 </div>
 
-                
+
               </div>
             </div>
           </div>
@@ -252,9 +257,9 @@ class ServicesPage extends React.Component {
 
 
 
-          {/* yahan khatam */}
+        {/* yahan khatam */}
 
-          <InterShipProgramer />
+        <InterShipProgramer />
 
 
         <div className="row">

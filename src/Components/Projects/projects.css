@@ -95,7 +95,7 @@
 /* new design */
 
 .GFA_BgImg {
-    background-image: url("../../Assets/Images/getfit.png");
+    background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
     height: 26.5vmax;
     border-radius: 1vw;
     -webkit-background-size: cover;
@@ -106,7 +106,7 @@
     margin-bottom: calc(15vw - 1vmax);
 }
 .GFA_BgImgHomeMb {
-    background-image: url("../../Assets/Images/getfit.png");
+    background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
     height: 26.5vmax;
     border-radius: 3vw;
     -webkit-background-size: cover;
@@ -119,7 +119,7 @@
     margin-bottom: calc(15vw - -9.5vmax);
 }
 .GFA_BgImgMd {
-    background-image: url("../../Assets/Images/getfit.png");
+    background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
     height: 26.5vmax;
     border-radius: 1vw;
     -webkit-background-size: cover;
@@ -130,7 +130,7 @@
     margin-bottom: 15vmax;
 }
 .GFA_BgImgMb {
-    background-image: url("../../Assets/Images/getfit.png");
+    background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
     height: 30.5vmax;
     border-radius: 3vw;
     -webkit-background-size: cover;
@@ -142,7 +142,7 @@
     margin-top: 20vw;
 }
 .GFA_BgImgProMb {
-    background-image: url("../../Assets/Images/getfit.png");
+    background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
     height: 30.5vmax;
     border-radius: 3vw;
     -webkit-background-size: cover;
@@ -223,7 +223,7 @@
 }
 
 .DrentBgImg {
-    background-image: url("../../Assets/Images/drent.png");
+    background-image: url("../../Assets/Images/ACF-Image-min.jpg");
     height: 26.5vmax;
     border-radius: 1vw;
     -webkit-background-size: cover;
@@ -234,7 +234,7 @@
     margin-bottom: calc(15vw - 1vmax);
 }
 .DrentBgImgHomeMb {
-    background-image: url("../../Assets/Images/drent.png");
+    background-image: url("../../Assets/Images/ACF-Image-min.jpg");
     height: 26.5vmax;
     border-radius: 3vw;
     -webkit-background-size: cover;
@@ -247,7 +247,7 @@
     margin-bottom: calc(2vw + -8.5vmax);
 }
 .DrentBgImgMd {
-    background-image: url("../../Assets/Images/drent.png");
+    background-image: url("../../Assets/Images/ACF-Image-min.jpg");
     height: 26.5vmax;
     border-radius: 1vw;
     -webkit-background-size: cover;
@@ -258,7 +258,7 @@
     margin-bottom: 18vmax;
 }
 .DrentBgImgMb {
-    background-image: url("../../Assets/Images/drent.png");
+    background-image: url("../../Assets/Images/ACF-Image-min.jpg");
     height: 30.5vmax;
     border-radius: 3vw;
     -webkit-background-size: cover;
@@ -322,7 +322,7 @@
     margin-top: 40.7vmax;
 }
 .ADB_BgImgSmMd {
-    background-image: url("../../Assets/Images/amber-dazzle.png");
+    background-image: url("../../Assets/Images/siddiqsons-min.jpg");
     height: 26.5vmax;
     border-radius: 1vw;
     -webkit-background-size: cover;
@@ -334,7 +334,7 @@
     margin-top: 29vmax;
 }
 .ADB_BgImgHomeMb {
-    background-image: url("../../Assets/Images/amber-dazzle.png");
+    background-image: url("../../Assets/Images/siddiqsons-min.jpg");
     height: 28.5vmax;
     border-radius: 3vw;
     -webkit-background-size: cover;
@@ -347,7 +347,7 @@
     margin-left: 4.3vw;
 }
 .ADB_BgImgSmMd1 {
-    background-image: url("../../Assets/Images/amber-dazzle.png");
+    background-image: url("../../Assets/Images/siddiqsons-min.jpg");
     height: 26.5vmax;
     border-radius: 1vw;
     -webkit-background-size: cover;
@@ -359,7 +359,7 @@
     margin-top: 40.7vmax;
 }
 .ADB_BgImgMb {
-    background-image: url("../../Assets/Images/amber-dazzle.png");
+    background-image: url("../../Assets/Images/siddiqsons-min.jpg");
     height: 30.5vmax;
     border-radius: 3vw;
     -webkit-background-size: cover;
@@ -515,7 +515,7 @@
 
 }
 .ADB_HomBgImg {
-    background-image: url(/static/media/amber-dazzle.06b11d44.png);
+    background-image: url(../../Assets/Images/siddiqsons-min.jpg);
     height: 26.5vmax;
     border-radius: 1vw;
     background-size: cover;
@@ -524,7 +524,7 @@
     margin-top: 19.7vmax;
 }
 .GFA_BgImgHome {
-    background-image: url(/static/media/getfit.2073e563.png);
+    background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
     height: 26.5vmax;
     border-radius: 1vw;
     background-size: cover;

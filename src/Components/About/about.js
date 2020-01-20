@@ -63,7 +63,7 @@ class About extends React.Component {
     const { headerPath, getCore , getStand } = this.state
     return (
       <div className="all_backgrundImageAfter animateFadeIn">
-        <Header2 headerPath={headerPath} headerDesktop="hederSticky" headerMob="hederStickyMob2" /> 
+        <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" /> 
           <AboutBanner 
             Consl_text='Consultation'
             solu_text='with solution.'

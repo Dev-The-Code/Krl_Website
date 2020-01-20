@@ -8,6 +8,7 @@
     "font-awesome": "^4.7.0",
     "ityped": "^1.0.3",
     "mdbreact": "^4.23.0",
+    "moment": "^2.24.0",
     "react": "^16.9.0",
     "react-bootstrap-carousel": "^4.0.1",
     "react-device-detect": "^1.9.9",

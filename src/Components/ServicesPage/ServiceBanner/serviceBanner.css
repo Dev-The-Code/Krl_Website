@@ -46,18 +46,17 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .banNer_blaNk{
         font-family: aleta-bold;
-        font-size: calc(12px + 4.2vw);
+        font-size: calc(12px + 4.5vw);
         color: white;
         margin-top: 8.5vw;
-        letter-spacing: 0.15vw;
         line-height: 6vw;
     }
     .banNer_iMgTeXt{
         font-family: aleta-bold;
-        font-size: calc(12px + 4.3vw);
+        font-size: calc(12px + 4.5vw);
         color: #ffffff;
-        margin-top: 8.2vw;
-        margin-left: -2vw;
+        margin-top: 7.9vw;
+        margin-left: -2.3vw;
     }
     .CircleBanerBack{
         background-image: url("../../../Assets/Images/circle.png");
@@ -98,13 +97,14 @@
         margin-top: 8.8vw;
         line-height: 6.5vmax;
         letter-spacing: 0.1vw;
+        margin-left: 0.6vw;
     }
     .banNer_iMgTeXt{
         font-family: aleta-bold;
         font-size: calc(12px + 5.1vw);
         color: #ffffff;
         margin-top: 8.5vw;
-        margin-left: -1vw;
+        margin-left: -1.4vw;
     }
     .CircleBanerBack{
         background-image: url("../../../Assets/Images/circle.png");

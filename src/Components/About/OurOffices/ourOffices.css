@@ -32,6 +32,16 @@
     font-family: aleta-light;
     color: #adadad;
     padding-left: 2vw;
+    font-weight: 700;
+}
+.detail_textKhi{
+    font-size: 5vw;
+    font-family: aleta-light;
+    padding-left: 2vw;
+    background: -webkit-linear-gradient( 360deg, #FF9B54, #FF3B5F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
 }
 .detail_Email{
     font-size: 5vw;
@@ -45,6 +55,15 @@
     font-family: aleta-light;
     color: #adadad;
     padding-left: 1vw;
+}
+.iner_head_textKhi{
+    font-size: 1.15vw;
+    font-family: aleta-light;
+    padding-left: 1vw;
+    background: -webkit-linear-gradient( 360deg, #FF9B54, #FF3B5F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
 }
 
 .background_office{

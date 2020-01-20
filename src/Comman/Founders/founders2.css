@@ -9,34 +9,13 @@
     padding-bottom: 3.1vw;
     margin-left: 7.2vw;
 }
-.devFondp2Pera {
-    font-size: calc(15px + 1.15vw);
-    color: #adadad;
-    font-family: aleta-light;
-    margin-left: 7.2vw;
-    margin-right: 3vw;
-    letter-spacing: 0.25vw;
-    padding-bottom: 3.1vw;
-}
+
 .devFondp2Prof{
     width: calc(25px + 4vmax);
     margin-left: calc(-25px + 1.2vw);
 }
-.devFond1{
-    margin-bottom: 3.1vw;
-}
-.devFondp2Name{
-    color: black;
-    font-family: aleta-bold;
-    margin-top: calc(5px + 0.3vw);
-    font-size: calc(15px + 0.5vw);
-}
-.devFondp2comp{
-    color: black;
-    font-family: aleta-light;
-    font-size: calc(10px + 0.2vw);
-    margin-top: calc(-10px - 0.5vw);
-}
+
+
 .imgDev{
     padding: 0vw;
 } 
@@ -56,9 +35,121 @@
         margin-top: calc(-10px - 0.5vw);
         padding-left: 4vw;
     }
+    .devFondp2Pera {
+        font-size: calc(10px + 0.5vw);
+        color: #adadad;
+        font-family: aleta-light;
+        margin-left: 7.2vw;
+        margin-right: 3vw;
+        letter-spacing: 0.15vw;
+        padding-bottom: 1vw;
+    }
+    .devFond1{
+        margin-bottom: 3.1vw;
+    }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {}
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {}
-@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {}
-@media only screen and (min-device-width : 1600px) {}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .devFondp2Name{
+        color: black;
+        font-family: aleta-bold;
+        margin-top: calc(5px + 0.3vw);
+        font-size: calc(15px + 0.5vw);
+    }
+    .devFondp2comp{
+        color: black;
+        font-family: aleta-light;
+        font-size: calc(10px + 0.2vw);
+        margin-top: calc(-10px - 0.5vw);
+    }
+    .devFondp2Pera {
+        font-size: calc(10px + 0.5vw);
+        color: #adadad;
+        font-family: aleta-light;
+        margin-left: 7.2vw;
+        margin-right: 3vw;
+        letter-spacing: 0.15vw;
+        padding-bottom: 1vw;
+    }
+    .devFond1{
+        margin-bottom: 3.1vw;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .devFondp2Name{
+        color: black;
+        font-family: aleta-bold;
+        margin-top: calc(5px + 0.3vw);
+        font-size: calc(15px + 0.5vw);
+    }
+    .devFondp2comp{
+        color: black;
+        font-family: aleta-light;
+        font-size: calc(10px + 0.2vw);
+        margin-top: calc(-10px - 0.5vw);
+    }
+    .devFondp2Pera {
+        font-size: calc(10px + 0.4vw);
+        color: #adadad;
+        font-family: aleta-light;
+        margin-left: 7.2vw;
+        margin-right: 3vw;
+        letter-spacing: 0.15vw;
+        padding-bottom: 1vw;
+    }
+    .devFond1{
+        margin-bottom: 3.1vw;
+    }
+}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .devFondp2Name{
+        color: black;
+        font-family: aleta-bold;
+        margin-top: calc(5px + 0.3vw);
+        font-size: calc(15px + 0.5vw);
+    }
+    .devFondp2comp{
+        color: black;
+        font-family: aleta-light;
+        font-size: calc(10px + 0.2vw);
+        margin-top: calc(-10px - 0.5vw);
+    }
+    .devFondp2Pera {
+        font-size: calc(10px + 0.5vw);
+        color: #adadad;
+        font-family: aleta-light;
+        margin-left: 7.2vw;
+        margin-right: 3vw;
+        letter-spacing: 0.15vw;
+        padding-bottom: 2vw;
+    }
+    .devFond1{
+        margin-bottom: 5.1vw;
+    }
+}
+@media only screen and (min-device-width : 1600px) {
+    .devFondp2Name{
+        color: black;
+        font-family: aleta-bold;
+        margin-top: calc(5px + 0.3vw);
+        font-size: calc(15px + 0.5vw);
+    }
+    .devFondp2comp{
+        color: black;
+        font-family: aleta-light;
+        font-size: calc(10px + 0.2vw);
+        margin-top: calc(-10px - 0.5vw);
+    }
+    .devFondp2Pera {
+        font-size: calc(10px + 0.8vw);
+        color: #adadad;
+        font-family: aleta-light;
+        margin-left: 7.2vw;
+        margin-right: 3vw;
+        letter-spacing: 0.15vw;
+        padding-bottom: 3vw;
+    }
+    .devFond1{
+        margin-bottom: 6.1vw;
+    }
+}

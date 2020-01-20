@@ -33,6 +33,7 @@
         font-size: calc(12px + 4.3vw);
         font-family: aleta-bold;
         text-align: left;
+        letter-spacing: 0.1vw;
         margin-left: -1.7vw;
     }
     .backk_Text{
@@ -64,6 +65,7 @@
         font-family: aleta-bold;
         text-align: left;
         margin-left: -1vw;
+        letter-spacing: 0.1vw;
     }
     .backk_Text{
         color: #ffffff;

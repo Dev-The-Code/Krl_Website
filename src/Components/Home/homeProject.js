@@ -9,14 +9,14 @@ class Project extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            GFAHeading: 'GetFitAthletic',
-            GFAHeadingBr: 'Mobile App',
-            DrentHeading: 'Drent Luxury Dress',
-            DrentHeadingBr: 'Rental Website',
+            GFAHeading: 'LIGHT-F Project By',
+            GFAHeadingBr: 'JICA & Sindh Gvt',
+            DrentHeading: 'ACF Animal Rescue',
+            DrentHeadingBr: 'Websites',
             GFAperaas: 'An ambitious willing to help people be healthy. We designed and developed a...',
             Drentperaas: 'A luxury cloth rental service needed a new website. We design and developed...',
-            ADBHeading: 'Amber Dazzle',
-            ADBHeadingBr: 'Branding',
+            ADBHeading: 'Siddiqsons Limited',
+            ADBHeadingBr: 'Brochure',
             DPWHeading: 'Dallas Palms',
             DPWHeadingBr: 'Website',
             DPWperaas: 'A Dallas based wedding venue needed a strong online presence. We design...',

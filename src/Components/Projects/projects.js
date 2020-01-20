@@ -56,7 +56,7 @@ class Projects extends React.Component {
     return (
 
       <div  className="all_backgrundImageAfter animateFadeIn">
-        <Header2 headerPath={headerPath} headerDesktop="hederSticky" headerMob="hederStickyMob2" />
+        <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
         <div className="row">
           <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
           <div className="d-none d-md-none d-lg-block d-xl-block col-xl-10 col-lg-10" style={{ paddingRight: "0vw", paddingLeft: '0vw' }}>
@@ -116,7 +116,7 @@ class Projects extends React.Component {
               />
             </div>
           </div>
-          <div className="d-block d-md-none d-lg-none d-xl-none col-12" style={{ paddingLeft: '0vw',marginTop: '20vw'}}>
+          <div className="d-block d-md-none d-lg-none d-xl-none col-12" style={{ paddingLeft: '0vw',marginTop: '40vw'}}>
             <div className="col-12 d-block d-md-none d-lg-none d-xl-none">
               <Banners
                 locationUrl={"https://www.acfanimalrescue.org/"}

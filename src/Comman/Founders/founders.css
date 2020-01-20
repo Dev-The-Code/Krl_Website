@@ -20,10 +20,10 @@
     width: calc(25px + 4vmax);
     /* margin-left: calc(-5px + 1.2vw); */
 }
-.devFond1{
+/* .devFond1{
     margin-bottom: 3.1vw;
     padding-left: 0vw;
-}
+} */
 .devFondName{
     color: white;
     font-family: aleta-bold;
@@ -75,10 +75,10 @@
         margin-top: calc(5px + 0.3vw);
         margin-left: 5vmax;
     }
-    .devFond1{
+    /* .devFond1{
         margin-bottom: 3.1vw;
         padding-left: 0vw;
-    }
+    } */
     .devFondProf1 {
         width: 7vmax;
         padding-left: 1vw;

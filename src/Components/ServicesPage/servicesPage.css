@@ -502,9 +502,8 @@
     }
 }
 
-/* newdesign checking */
 .consultImage{
-    background-image: url(../../Assets/Images/consultation.png);
+    background-image: url(../../Assets/Images/marketing-min.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 1vw;
@@ -513,7 +512,7 @@
     position: absolute;
 }
 .nonProfitImage{
-    background-image: url(../../Assets/Images/consultation.png);
+    background-image: url(../../Assets/Images/ngo.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 1vw;
@@ -555,8 +554,109 @@
     padding-bottom: 3.1vw;
     font-family: aleta-light;
 }
+.develpImageStart{
+    background-image: url(../../Assets/Images/startup.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 1vw;
+    width: 20vw;
+    height: 23.1vw;
+    position: absolute;
+}
+.develpImageStartSm{
+    background-image: url(../../Assets/Images/startup.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 1vw;
+    width: 37vw;
+    height: 32.1vw;
+    position: absolute;
+    margin-bottom: 4vw;
+}
+.develpImageStartMb {
+    background-image: url(../../Assets/Images/startup.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 3vw;
+    width: 84vw;
+    height: 19vh;
+    position: absolute;
+}
+.develpImageMb {
+    background-image: url(../../Assets/Images/dev-min.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 3vw;
+    width: 84vw;
+    height: 19vh;
+    position: absolute;
+}
+.develpImageSm{
+    background-image: url(../../Assets/Images/dev-min.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 1vw;
+    width: 37vw;
+    height: 32.1vw;
+    position: absolute;
+    margin-bottom: 4vw;
+}
 .develpImage{
-    background-image: url(../../Assets/Images/dev.png);
+    background-image: url(../../Assets/Images/dev-min.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 1vw;
+    width: 20vw;
+    height: 23.1vw;
+    position: absolute;
+}
+.designImageSm{
+    background-image: url(../../Assets/Images/design.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1vw;
+    width: 37vw;
+    height: 32.1vw;
+    position: absolute;
+}
+.designImageMb {
+    background-image: url(/static/media/design.cf494167.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vw;
+    width: 84vw;
+    height: 19vh;
+    position: absolute;
+}
+.designImage{
+    background-image: url(../../Assets/Images/design.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1vw;
+    width: 20vw;
+    height: 23.1vw;
+    position: absolute;
+}
+.ServiceImageEnterpriseSm{
+    background-image: url(../../Assets/Images/enterprises.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1vw;
+    width: 37vw;
+    height: 32.1vw;
+    position: absolute;
+}
+.ServiceImageEnterpriseMb{
+    background-image: url(../../Assets/Images/enterprises.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vw;
+    width: 84vw;
+    height: 19vh;
+    position: absolute;
+}
+.ServiceImageEnterprise{
+    background-image: url(../../Assets/Images/enterprises.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 1vw;
@@ -599,15 +699,7 @@
     padding-bottom: 3.1vw;
     font-family: aleta-light;
 }
-.designImage{
-    background-image: url(../../Assets/Images/design.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 1vw;
-    width: 20vw;
-    height: 23.1vw;
-    position: absolute;
-}
+
 .designHedng{
     padding-top: 3.1vw;
     padding-left: 3.1vw;
@@ -645,7 +737,7 @@
 }
 /*  */
 .consultImageSm{
-    background-image: url(/static/media/consultation.fc339c9a.png);
+    background-image: url(../../Assets/Images/marketing-min.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 1vw;
@@ -680,16 +772,7 @@
     padding-bottom: 3.1vw;
     font-family: aleta-light;
 }
-.develpImageSm{
-    background-image: url(../../Assets/Images/dev.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 1vw;
-    width: 37vw;
-    height: 32.1vw;
-    position: absolute;
-    margin-bottom: 4vw;
-}
+
 .develpDevSm{
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
     margin-left: 3.1vw;
@@ -716,15 +799,7 @@
     color: white;
     font-family: aleta-bold;
 }
-.designImageSm{
-    background-image: url(../../Assets/Images/design.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 1vw;
-    width: 37vw;
-    height: 32.1vw;
-    position: absolute;
-}
+
 .designHedng{
     padding-top: 3.1vw;
     padding-left: 3.1vw;
@@ -744,7 +819,7 @@
     margin-bottom: 4vw;
 }
 .consultImageMb {
-    background-image: url(/static/media/consultation.fc339c9a.png);
+    background-image: url(../../Assets/Images/marketing-min.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 3vw;
@@ -775,15 +850,7 @@
     color: white;
     font-family: aleta-bold;
 }
-.develpImageMb {
-    background-image: url(/static/media/dev.49b8018f.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 3vw;
-    width: 84vw;
-    height: 19vh;
-    position: absolute;
-}
+
 .develpDevMb {
     box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
     margin-left: 3.3vw;
@@ -801,17 +868,9 @@
     color: white;
     font-family: aleta-bold;
 }
-.designImageMb {
-    background-image: url(/static/media/design.cf494167.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 3vw;
-    width: 84vw;
-    height: 19vh;
-    position: absolute;
-}
+
 .productionImageMb {
-    background-image: url(../../Assets/Images/production.png);
+    background-image: url(../../Assets/Images/production-min.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 3vw;
@@ -868,16 +927,16 @@
     margin-bottom: 4vw;
 }
 .productionImageSm{
-    background-image: url(../../Assets/Images/production.png);
+    background-image: url(../../Assets/Images/production-min.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     border-radius: 1vw;
     width: 37vw;
     height: 32.1vw;
     position: absolute;
 }
 .productionImage{
-    background-image: url(../../Assets/Images/production.png);
+    background-image: url(../../Assets/Images/production-min.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 1vw;

@@ -274,15 +274,15 @@
     }
     .fot_hoMe_coLor{
         background-color: #f7f7f7;
-        padding-top: 25vw;
-        padding-bottom: 15vw;
-        height: 100vh;
+        padding-top: 7vw;
+        padding-bottom: 8vw;
+        height: 35vh;
     }
     .fot_hoMe_coLor:hover{
         background-color: #e0e0e0;
-        padding-top: 25vw;
-        padding-bottom: 15vw;
-        height: 100vh;
+        padding-top: 7vw;
+        padding-bottom: 8vw;
+        height: 35vh;
     }
     .seeProfoot_home{
         color: #adadad;
@@ -293,13 +293,13 @@
     }
     .largerFoottext{
         color: #303030;
-        font-size: calc(15px + 5vw);
+        font-size: calc(15px + 3.5vw);
         font-family: aleta-bold;
     }
     .aroowFootHome{
         margin-top: calc(2.9em + 0.9vmax);
-        width: 10vw;
-        margin-left: 3vw;
+        width: 8vw;
+        margin-left: 1vw;
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
@@ -313,32 +313,32 @@
     }
     .fot_hoMe_coLor{
         background-color: #f7f7f7;
-        padding-top: 17vw;
+        padding-top: 8vw;
         padding-bottom: 15vw;
-        height: 100vh;
+        height: 12vh;
     }
     .fot_hoMe_coLor:hover{
         background-color: #e0e0e0;
-        padding-top: 17vw;
+        padding-top: 8vw;
         padding-bottom: 15vw;
-        height: 100vh;
+        height: 12vh;
     }
     .seeProfoot_home{
         color: #adadad;
-        font-size: calc(10px + 1vw);
+        font-size: calc(10px + 0.5vw);
         font-family: aleta-bold;
         font-weight: 700;
         margin-bottom: -0.6vw;
     }
     .largerFoottext{
         color: #303030;
-        font-size: calc(15px + 5vw);
+        font-size: calc(15px + 2.8vw);
         font-family: aleta-bold;
     }
     .aroowFootHome{
-        margin-top: calc(2.9em + 0.9vmax);
-        width: 10vw;
-        margin-left: 3vw;
+        margin-top: calc(2.4em + 0.15vmax);
+        width: 7vw;
+        margin-left: 2.5vw;
     }
 }
 @media only screen and (min-device-width : 1600px) {
@@ -352,15 +352,15 @@
     }
     .fot_hoMe_coLor{
         background-color: #f7f7f7;
-        padding-top: 24.5vw;
-        padding-bottom: 15vw;
-        height: 100vh;
+        padding-top: 7vw;
+        padding-bottom: 9vw;
+        height: 40vh;
     }
     .fot_hoMe_coLor:hover{
         background-color: #e0e0e0;
-        padding-top: 24.5vw;
-        padding-bottom: 15vw;
-        height: 100vh;
+        padding-top: 7vw;
+        padding-bottom: 9vw;
+        height: 40vh;
     }
     .seeProfoot_home{
         color: #adadad;
@@ -371,7 +371,7 @@
     }
     .largerFoottext{
         color: #303030;
-        font-size: calc(15px + 5vw);
+        font-size: calc(15px + 4vw);
         font-family: aleta-bold;
     }
     .aroowFootHome{

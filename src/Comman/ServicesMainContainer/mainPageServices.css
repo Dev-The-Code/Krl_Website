@@ -1,13 +1,13 @@
 .market{
-    background-image: url(../../Assets/Images/imagecompressor/marketing-min.jpg);
+    background-image: url(../../Assets/Images/marketing-serviecs.png);
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     border-radius: 1vw;
     height: 23.5vmax;
     position: absolute;
 }
 .development{
-    background-image: url(../../Assets/Images/imagecompressor/dev-min.jpg);
+    background-image: url(../../Assets/Images/dev-services.png);
     background-size: cover;
     background-position: center;
     border-radius: 1vw;
@@ -23,7 +23,7 @@
     position: absolute;
 }
 .production{
-    background-image: url(../../Assets/Images/imagecompressor/production-min.jpg);
+    background-image: url(../../Assets/Images/production-02.png);
     background-size: cover;
     background-position: center;
     border-radius: 1vw;
@@ -100,7 +100,7 @@
 
 /* mobile css */
 .marketMob{
-    background-image: url(../../Assets/Images/consultation.png);
+    background-image: url(../../Assets/Images/marketing-serviecs.png);
     background-size: cover;
     background-position: center;
     border-radius: 1vw;
@@ -108,7 +108,7 @@
     position: absolute;
 }
 .developmentMob{
-    background-image: url(../../Assets/Images/dev.png);
+    background-image: url(../../Assets/Images/dev-services.png);
     background-size: cover;
     background-position: center;
     border-radius: 1vw;
@@ -124,7 +124,7 @@
     position: absolute;
 }
 .productionMob{
-    background-image: url(../../Assets/Images/production.png);
+    background-image: url(../../Assets/Images/production-02.png);
     background-size: cover;
     background-position: center;
     border-radius: 1vw;

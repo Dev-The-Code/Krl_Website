@@ -15,7 +15,6 @@ class HomeServicesPage extends Component {
       dsgnHedng: 'Design',
       dsgnPeraas: 'Our designers works hard to design delightful experiences that help you achieve business goals.',
       productionHedng: 'Production',
-
       devPeraImg: true,
       ViewPro: true,
     }
@@ -28,7 +27,7 @@ class HomeServicesPage extends Component {
 
     return (
       <div>
-        
+
 
         {/*hidden ipad tablet mobile */}
         <div className="d-none d-sm-none d-md-none d-lg-block d-xl-block">

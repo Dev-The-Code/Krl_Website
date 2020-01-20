@@ -7,21 +7,154 @@
     width: 7vmax;
 }
 .companiesLogo2{
-    margin-bottom: 9.6vw;
-    width: 10vmax;
-    margin-top: 2vw;
+    margin-bottom: -1.4vw;
+    width: 80%;
+    margin-left: -7vw;
 }
 .logos{
     text-align: left;
-    padding: 0vw;
+    /* padding: 0vw; */
 }
 .clients{
     font-size: calc(10px + 1.8vw);
     font-family: aleta-bold;
     color: white;
-    padding-bottom: 4.2vw;
+    /* padding-bottom: 1.2vw; */
 }
 .sOClients{
-    margin-top: 5.7vw;
-
+    margin-top: 4.4vw;
 }
+
+.sindhGove{
+    background-image: url("../../Assets/Images/clientLogo/gvtLogo.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+}
+.sindhGove:hover{
+    background-image: url("../../Assets/Images/clientLogo/sindhGovColor.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+    cursor: pointer;
+}
+
+.jicaLightF{
+    background-image: url("../../Assets/Images/clientLogo/jicaLogo.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+}
+.jicaLightF:hover{
+    background-image: url("../../Assets/Images/clientLogo/jicaColor.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+    cursor: pointer;
+}
+
+.acfLog{
+    background-image: url("../../Assets/Images/clientLogo/acfFoundation.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+}
+.acfLog:hover{
+    background-image: url("../../Assets/Images/clientLogo/acfColor.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+    cursor: pointer;
+}
+
+.siddiqSons{
+    background-image: url("../../Assets/Images/clientLogo/SiddqSons.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+}
+.siddiqSons:hover{
+    background-image: url("../../Assets/Images/clientLogo/SiddqColor.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+    cursor: pointer;
+}
+
+.surmawallahLog{
+    background-image: url("../../Assets/Images/clientLogo/Surmawala.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+}
+.surmawallahLog:hover{
+    background-image: url("../../Assets/Images/clientLogo/SurmawalaColor.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+    cursor: pointer;
+}
+
+.selMorelog{
+    background-image: url("../../Assets/Images/clientLogo/selmoreLogo.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+}
+.selMorelog:hover{
+    background-image: url("../../Assets/Images/clientLogo/selmoreLogo.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+    cursor: pointer;
+}
+
+

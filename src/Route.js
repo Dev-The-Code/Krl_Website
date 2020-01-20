@@ -23,9 +23,12 @@ class Routes extends React.Component {
   }
 
   componentDidMount() {
+    // setTimeout(function () {
+    //   this.setState({ firstScreen: Home });
+    // }.bind(this), 4500);
     setTimeout(function () {
       this.setState({ firstScreen: Home });
-    }.bind(this), 4500);
+    }.bind(this), 0);
   }
 
   render() {

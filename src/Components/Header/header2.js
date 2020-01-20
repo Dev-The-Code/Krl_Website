@@ -82,14 +82,14 @@ class Header2 extends Component {
                               />
                             </Link>
                           </li>
-                          <li className="nav_list">
+                          {/* <li className="nav_list">
                             <Link rel="noopener noreferrer" to={`/blog`} onClick={this.closeNav} >
                               <Button
                                 classMd="nav_bTnTeXt"
                                 label='Blog'
                               />
                             </Link>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                       <div className="col-md-6 col-lg-6 col-xl-6" style={{ borderLeft: '1px solid' }}>
@@ -185,14 +185,14 @@ class Header2 extends Component {
                           />
                         </Link>
                       </div>
-                      <div className="col-12 btNCenter_MoBB">
+                      {/* <div className="col-12 btNCenter_MoBB">
                         <Link rel="noopener noreferrer" to={`/blog`} onClick={this.closeNav} >
                           <Button
                             classMd="nav_bTnTeXt-Mob"
                             label='Blog'
                           />
                         </Link>
-                      </div>
+                      </div> */}
                       <div className="row">
                         <div className="col-2"></div>
                         <div className="col-8">
