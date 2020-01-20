@@ -639,8 +639,8 @@
 }
 .ServiceImageEnterpriseSm{
     background-image: url(../../Assets/Images/enterprises.jpg);
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover; */
+    background-position: bottom;
     border-radius: 1vw;
     width: 37vw;
     height: 32.1vw;
@@ -648,8 +648,8 @@
 }
 .ServiceImageEnterpriseMb{
     background-image: url(../../Assets/Images/enterprises.jpg);
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover; */
+    background-position: bottom;
     border-radius: 3vw;
     width: 84vw;
     height: 19vh;
@@ -657,8 +657,8 @@
 }
 .ServiceImageEnterprise{
     background-image: url(../../Assets/Images/enterprises.jpg);
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover; */
+    background-position: bottom;
     border-radius: 1vw;
     width: 20vw;
     height: 23.1vw;

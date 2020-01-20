@@ -63,7 +63,7 @@ class OfficesContainer extends Component {
           <p className={cont_textStyle2}>{inerHedTxt2}</p>
           <p className={cont_textStyle3}>{inerHedTxt3}</p>
           {/* <p className={cont_textStyle1}>{liveTiming}</p> */}
-          <p className="officeContainerTimerClass">{liveTiming}</p>
+          {/* <p className="officeContainerTimerClass">{liveTiming}</p> */}
 
         </div>
     );

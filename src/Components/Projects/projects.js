@@ -15,10 +15,10 @@ class Projects extends React.Component {
     super(props);
     this.state = {
 
-      GFAHeading: 'GetFitAthletic',
-      GFAHeadingBr: 'Mobile App',
-      DrentHeading: 'Drent Luxury Dress',
-      DrentHeadingBr: 'Rental Website',
+      GFAHeading: 'LIGHT-F Project By',
+      GFAHeadingBr: 'JICA & Sindh Gvt',
+      DrentHeading: 'ACF Animal Rescue',
+      DrentHeadingBr: 'Websites',
       GFAperaas: 'An ambitious willing to help people be healthy. We designed and developed a...',
       Drentperaas: 'A luxury cloth rental service needed a new website. We design and developed...',
       ADBHeading: 'Amber Dazzle',
@@ -30,9 +30,9 @@ class Projects extends React.Component {
       ODSHeadingBr: 'Website',
       banrPeragh: 'KRL Creatives covers you for all digital assets your brand needs to serve your audience well.',
       banrPeragh1: 'We design, develop and produce.',
-      headingpera: 'ACF Animal ',
-      headingpera1: 'Rescue',
-      headingpera2: ' Mobile App.',
+      headingpera: 'Siddiqsons',
+      headingpera1: 'Limited',
+      headingpera2: ' Brochure',
       banFuturPro: 'Featured project',
       devPeraImg: true,
       devParagraph: false,
@@ -46,7 +46,7 @@ class Projects extends React.Component {
     routName = routName.charAt(0).toUpperCase() + routName.slice(1);
     //  console.log(routName,'sss');
     this.setState({ headerPath: routName });
-      window.scrollTo(0, 0)
+    window.scrollTo(0, 0)
   }
 
   render() {
@@ -55,7 +55,7 @@ class Projects extends React.Component {
       headingpera2, banFuturPro, ViewPro, headerPath } = this.state
     return (
 
-      <div  className="all_backgrundImageAfter animateFadeIn">
+      <div className="all_backgrundImageAfter animateFadeIn">
         <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
         <div className="row">
           <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
@@ -63,7 +63,7 @@ class Projects extends React.Component {
             {/*hidden mobile tablet ipad */}
             <div className="col-xl-12 col-lg-12 d-none d-sm-none d-md-none d-xl-block d-lg-block" style={{ paddingRight: "0vw", paddingLeft: '0vw' }}>
               <Banners
-                locationUrl={"https://www.acfanimalrescue.org/"}
+                // locationUrl={"https://www.acfanimalrescue.org/"}
                 banrs="row ban"
                 devChld="col-xl-5 col-lg-5 banDev"
                 peraDev="banPeraDev"
@@ -91,7 +91,7 @@ class Projects extends React.Component {
           <div className="d-none d-md-block d-lg-none d-xl-none col-md-10" style={{ paddingRight: "0vw", paddingLeft: '0vw' }}>
             <div className="col-md-12 d-none d-md-block d-lg-none d-xl-none" style={{ paddingRight: "0vw", paddingLeft: '0vw' }}>
               <Banners
-                locationUrl={"https://www.acfanimalrescue.org/"}
+                // locationUrl={"https://www.acfanimalrescue.org/"}
                 banrs="row banSmall"
                 devChld="col-md-5 col-sm-5 col-5 banDevSmall"
                 peraDev="banPeraDevsmall"
@@ -116,10 +116,10 @@ class Projects extends React.Component {
               />
             </div>
           </div>
-          <div className="d-block d-md-none d-lg-none d-xl-none col-12" style={{ paddingLeft: '0vw',marginTop: '40vw'}}>
+          <div className="d-block d-md-none d-lg-none d-xl-none col-12" style={{ paddingLeft: '0vw', marginTop: '40vw' }}>
             <div className="col-12 d-block d-md-none d-lg-none d-xl-none">
               <Banners
-                locationUrl={"https://www.acfanimalrescue.org/"}
+                // locationUrl={"https://www.acfanimalrescue.org/"}
                 banrs="row banSmall"
                 devChld="col-md-5 col-sm-5 col-5 banDevSmall"
                 peraDev="banPeraDevsmall"
@@ -158,8 +158,8 @@ class Projects extends React.Component {
             <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImg'
               projctHedng="GFAhedng"
               locationUrl={""}
-              hed={GFAHeading}
-              hed1={GFAHeadingBr}
+              hed='LIGHT-F Project By'
+              hed1='JICA & Sindh Gvt'
               projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
               projctPera="GFApera"
 

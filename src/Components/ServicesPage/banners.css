@@ -72,13 +72,13 @@
     height: 29.3vmax;
 }
 .banDevPro{
-    background-image: url("../../Assets/Images/acf.png");
+    background-image: url("../../Assets/Images/siddiqBrochure.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-position-y: center;
     border-radius: calc(10px + 1vh);
     /* padding-left: 0vw; */
     height: 29.3vmax;
@@ -96,7 +96,7 @@
     height: 29.3vmax;
 }
 .banDev1ProSmall{
-    background-image: url("../../Assets/Images/acf.png");
+    background-image: url("../../Assets/Images/siddiqBrochure.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -108,13 +108,13 @@
     height: 25.3vmax;
 }
 .banDev1ProMb{
-    background-image: url("../../Assets/Images/acf.png");
+    background-image: url("../../Assets/Images/siddiqBrochure.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-position-y: center !important;
     border-radius: 2vw;
     padding-left: 0vw;
     height: 17.3vmax;
@@ -174,6 +174,7 @@
         font-family: aleta-bold;
         padding-top: 0vw;
         color: white;
+        letter-spacing: 1px;
     }
     .banHedng2{
         font-size: 5.1vw;
@@ -221,8 +222,9 @@
     .banHedngSmall{
         font-size: 5.8vw;
         font-family: aleta-bold;
-        padding-top: calc(2px + 8.9vmax);
+        padding-top: calc(2px + 4.6vmax);
         color: white;
+        letter-spacing: 1px;
     }
     .banServiceHedngSmall{
         font-size: 5.8vw;
@@ -247,12 +249,7 @@
     .banServiceHedng1Small {
         font-size: 5.8vw;
     }
-    .banHedngSmall {
-        font-size: 5.1vw;
-        font-family: aleta-bold;
-        padding-top: 7.2vw;
-        color: white;
-    }
+    
     .banHedng1Small {
         font-size: 5.1vw;
     }
@@ -283,7 +280,7 @@
         padding-top: calc(0.3vw + 8vmax);
     }
     .banDev1ProSmall{
-        background-image: url("../../Assets/Images/acf.png");
+        background-image: url("../../Assets/Images/siddiqBrochure.jpg");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -293,6 +290,9 @@
         border-radius: 2vw;
         padding-left: 0.3vw;
         height: 25.3vmax;
+    }
+    .banSmall{
+        margin-top: 20vw;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
@@ -315,6 +315,7 @@
         font-family: aleta-bold;
         padding-top: 7vw;
         color: white;
+        letter-spacing: 1px;
     }
     .banHedng1{
         font-size: 5.15vw;
@@ -352,6 +353,7 @@
         font-family: aleta-bold;
         padding-top: 6.6vmax;
         color: white;
+        letter-spacing: 2px;
     }
     .banHedng1{
         font-size: 5.15vw;
@@ -389,6 +391,7 @@
         font-family: aleta-bold;
         padding-top: 6.6vmax;
         color: white;
+        letter-spacing: 2px;
     }
     .banHedng1{
         font-size: 5vw;
