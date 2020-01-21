@@ -94,7 +94,7 @@
 
 /* new design */
 
-/*Freshh new Css by Daniyal*/
+/*Freshh new Css for LeftSide Projects by Daniyal*/
 
 .LightFDesktop {
     background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
@@ -175,7 +175,7 @@
     margin-bottom: 18vmax;
 }
 .CircleTablet {
-    background-image: url("../../Assets/Images/circle.png");
+    background-image: url("../../Assets/Images/circle.jpg");
     height: 26.5vmax;
     border-radius: 1vw;
     -webkit-background-size: cover;
@@ -208,7 +208,7 @@
     margin-bottom: 18vmax;
 }
 
-.GFA_BgImgProMb {
+.LightFMobiLe {
     background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
     height: 30.5vmax;
     border-radius: 3vw;
@@ -220,8 +220,8 @@
     margin-bottom: calc(15vw - -9.5vmax);
     margin-top: 15vw;
 }
-.DrentBgImgMb {
-    background-image: url("../../Assets/Images/ACF-Image-min.jpg");
+.GetFitMobiLe {
+    background-image: url("../../Assets/Images/getfit.png");
     height: 30.5vmax;
     border-radius: 3vw;
     -webkit-background-size: cover;
@@ -231,8 +231,8 @@
     background-position-x: right;
     margin-bottom: calc(15vw - -9.5vmax);
 }
-.GFA_BgImgProMb {
-    background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
+.CircleMobiLe {
+    background-image: url("../../Assets/Images/circle.jpg");
     height: 30.5vmax;
     border-radius: 3vw;
     -webkit-background-size: cover;
@@ -243,31 +243,147 @@
     margin-bottom: calc(15vw - -9.5vmax);
     margin-top: 15vw;
 }
-.DrentBgImgMb {
-    background-image: url("../../Assets/Images/ACF-Image-min.jpg");
+.ZiyaratMobiLe {
+    background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
     height: 30.5vmax;
     border-radius: 3vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position-x: right;
+    background-position-y: bottom;
     margin-bottom: calc(15vw - -9.5vmax);
 }
-.GFA_BgImgProMb {
-    background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
+.DallasPalmMobiLe {
+    background-image: url("../../Assets/Images/dallaspalm.png");
     height: 30.5vmax;
     border-radius: 3vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position-x: right;
+    background-position-y: top;
     margin-bottom: calc(15vw - -9.5vmax);
     margin-top: 15vw;
 }
 
-/*Freshh css ENd by daniyal*/
+/*Freshh css ENd for LeftSide Projects by daniyal*/
+
+/*Freshh new Css for RightSide Projects by Daniyal*/
+
+.DrentDesktop {
+    background-image: url("../../Assets/Images/drent.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(17.5vmax - 1vmax);
+    margin-top: 40.7vmax;
+}
+.DrentTablet{
+    background-image: url("../../Assets/Images/drent.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: 12vmax;
+    margin-top: 29vmax;
+}
+.DrentMobiLe{
+    background-image: url("../../Assets/Images/drent.png");
+    height: 30.5vmax;
+    border-radius: 3vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    /* margin-bottom: 7vmax; */
+    margin-left: 4.3vw;
+    margin-bottom: calc(15vw - -9.5vmax);
+}
+
+.ACFDesktopTab {
+    background-image: url("../../Assets/Images/acf.png");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(17.5vmax - 1vmax);
+}
+.ACFMobiLe {
+    background-image: url("../../Assets/Images/acf.png");
+    height: 33.5vmax;
+    border-radius: 3vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    /* margin-bottom: 11vmax; */
+    margin-left: 4.3vw;
+    margin-bottom: calc(15vw - -9.5vmax);
+}
+
+.PakJazbaDesktopTab {
+    background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    margin-bottom: calc(17.5vmax - 0vmax);
+}
+.PakJazbaMobiLe {
+    background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
+    height: 33vmax;
+    border-radius: 3vw;
+    -webkit-background-size: cover;
+    -moz-background-size: co ver;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    /* margin-bottom: 11vmax; */
+    margin-left: 4.3vw;
+    margin-bottom: calc(15vw - -9.5vmax);
+}
+
+.OxbridgeDesktopTab {
+    background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: bottom;
+    margin-bottom: calc(17.5vmax - 0vmax);
+}
+.OxbridgeMobiLe {
+    background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
+    height: 33vmax;
+    border-radius: 3vw;
+    -webkit-background-size: cover;
+    -moz-background-size: co ver;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    /* margin-bottom: 11vmax; */
+    margin-left: 4.3vw;
+    margin-bottom: calc(15vw - -9.5vmax);
+}
+/*Freshh css ENd for RightSide Projects by daniyal*/
 
 .GFA_BgImg {
     background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
@@ -688,7 +804,6 @@
     /* margin-bottom: 11vmax; */
     margin-left: 4.3vw;
     margin-bottom: calc(15vw - -9.5vmax);
-
 }
 .ADB_HomBgImg {
     background-image: url(../../Assets/Images/siddiqsons-min.jpg);

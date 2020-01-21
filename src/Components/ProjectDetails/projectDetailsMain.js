@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Header2 from '../Header/header2';
-import PanelDetails from './ProjectDetailsPanels/DetailsPanel1/panelDetails'; 
+import PanelDetails from './ProjectDetailsPanels/DetailsPanel1/panelDetails';
 import DetailBanner from './ProjectDetailsPanels/DetailsBannerPanel2/detailsBanner';
 import VisualIdentity from './ProjectDetailsPanels/Detailspanel3/visualIdentity';
 import IconSet from './ProjectDetailsPanels/DetailsPanel4/iconSet';
@@ -18,7 +18,7 @@ class ProjectDetailsPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      
+
     }
   }
   componentWillMount() {
@@ -28,32 +28,31 @@ class ProjectDetailsPage extends Component {
     routName = routName.charAt(0).toUpperCase() + routName.slice(1);
     //  console.log(routName,'sss');
     this.setState({ headerPath: routName });
-      window.scrollTo(0, 0)
+    window.scrollTo(0, 0)
   }
-  componentDidMount(){
-    console.log("TCL: ProjectDetailsPage -> ", this.props.location.state)  ;
+  componentDidMount() {
+    console.log("TCL: ProjectDetailsPage -> ", this.props.location.state);
   }
 
   render() {
-    const {headerPath}= this. state
-
+    const { headerPath } = this.state
+    console.log(this.props.location.state, 'state with route')
     return (
-        <div className="animateFadeIn">
-          <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
-            <PanelDetails />
-            <DetailBanner />
-            <VisualIdentity />
-            <IconSet />
-            <Illustration />
-            <WebSiteVideo />
-            <FinalVideosYouTube />
-            <SomeImages />
-            <PreviousButton />
-            <ProjectDetailFooter />
-        </div>
+      <div className="animateFadeIn">
+        <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
+        <PanelDetails />
+        <DetailBanner />
+        <VisualIdentity />
+        <IconSet />
+        <Illustration />
+        <WebSiteVideo />
+        <FinalVideosYouTube />
+        <SomeImages />
+        <PreviousButton />
+        <ProjectDetailFooter />
+      </div>
     );
   }
 }
 
 export default ProjectDetailsPage;
-    

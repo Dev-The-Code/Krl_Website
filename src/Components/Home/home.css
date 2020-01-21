@@ -195,16 +195,10 @@
     }
     .fot_hoMe_coLor{
         background-color: #f7f7f7;
-        padding-top: 110%;
-        /* padding-bottom: 15vw; */
-        height: 100vh;
+        padding-top: 7vw;
+        height: 29vh;
     }
-    .fot_hoMe_coLor:hover{
-        background-color: #e0e0e0;
-        padding-top: 110%;
-        /* padding-bottom: 15vw; */
-        height: 100vh;
-    }
+    
     .seeProfoot_home{
         color: #adadad;
         font-size: calc(10px + 0.5vw);
@@ -216,9 +210,10 @@
         color: #303030;
         font-size: calc(15px + 3.5vw);
         font-family: aleta-bold;
+        margin-top: -10px;
     }
     .aroowFootHome{
-        margin-top: calc(2.9em + -1.3vmax);
+        margin-top: calc(2.9em + -2.3vmax);
         width: 10vw;
         margin-left: -3vw;
     }
@@ -235,9 +230,8 @@
     }
     .fot_hoMe_coLor{
         background-color: #f7f7f7;
-        padding-top: 55vw;
-        padding-bottom: 15vw;
-        height: 100vh;
+        padding-top: 10vw;
+        height: 25vh;
     }
     .fot_hoMe_coLor:hover{
         background-color: #e0e0e0;
@@ -254,7 +248,7 @@
     }
     .largerFoottext{
         color: #303030;
-        font-size: calc(15px + 5vw);
+        font-size: calc(15px + 4vw);
         font-family: aleta-bold;
     }
     .aroowFootHome{

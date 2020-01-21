@@ -8,25 +8,16 @@ import Founder from '../../Comman/Founders/founders';
 import Banners from '../ServicesPage/banners';
 import Modal from './projectModal';
 import { smart } from '@babel/template';
-
+var siddiqSons = {
+  name : 'Siddiq',
+  lastName :'Sons'
+}
 class Projects extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      GFAHeading: 'LIGHT-F Project By',
-      GFAHeadingBr: 'JICA & Sindh Gvt',
-      DrentHeading: 'ACF Animal Rescue',
-      DrentHeadingBr: 'Websites',
-      GFAperaas: 'An ambitious willing to help people be healthy. We designed and developed a...',
-      Drentperaas: 'A luxury cloth rental service needed a new website. We design and developed...',
-      ADBHeading: 'Amber Dazzle',
-      ADBHeadingBr: 'Branding',
-      DPWHeading: 'Dallas Palms',
-      DPWHeadingBr: 'Website',
-      DPWperaas: 'A Dallas based wedding venue needed a strong online presence. We design...',
-      ODSHeading: 'Online Design',
-      ODSHeadingBr: 'Website',
+     
       banrPeragh: 'KRL Creatives covers you for all digital assets your brand needs to serve your audience well.',
       banrPeragh1: 'We design, develop and produce.',
       headingpera: 'Siddiqsons',
@@ -52,6 +43,7 @@ class Projects extends React.Component {
     const { GFAHeading, GFAHeadingBr, DrentHeading, DrentHeadingBr, GFAperaas, Drentperaas, ADBHeading, ADBHeadingBr,
       DPWHeading, DPWHeadingBr, DPWperaas, ODSHeading, ODSHeadingBr, devPeraImg, banrPeragh, banrPeragh1, headingpera, headingpera1,
       headingpera2, banFuturPro, ViewPro, headerPath } = this.state
+      console.log(siddiqSons , 'siddiqSons')
     return (
 
       <div className="all_backgrundImageAfter animateFadeIn">
@@ -164,9 +156,10 @@ class Projects extends React.Component {
 
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={GFAperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
-              ViewPro={ViewPro} />
+              ViewPro={ViewPro} 
+              projectData={siddiqSons}/>
 
             <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GetFitDesktop'
               projctHedng="Drenthedng"
@@ -177,7 +170,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={Drentperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
@@ -192,7 +185,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={GFAperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
@@ -205,7 +198,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={Drentperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
@@ -218,7 +211,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={Drentperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
@@ -237,7 +230,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={GFAperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
@@ -250,7 +243,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={Drentperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
@@ -265,7 +258,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={GFAperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
@@ -278,7 +271,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={Drentperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
@@ -291,7 +284,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={Drentperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
@@ -301,7 +294,7 @@ class Projects extends React.Component {
 
           <div className="d-block d-md-none d-lg-none d-xl-none col-11" style={{ marginTop: '21vw', marginLeft: '4.3vw' }}>
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgProMb'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 LightFMobiLe'
               projctHedng="GFAhedng"
               hed='LIGHT-F Project By'
               hed1='JICA & Sindh Gvt'
@@ -310,11 +303,11 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={GFAperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMb'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GetFitMobiLe'
               projctHedng="Drenthedng"
               hed='GetFitAthletic Branding'
               hed1='Mobile App & Website'
@@ -323,13 +316,13 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={Drentperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
             <Founder />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgProMb'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 CircleMobiLe'
               projctHedng="GFAhedng"
               hed='Circle Women Merch'
               hed1='Design'
@@ -338,11 +331,11 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={GFAperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMb'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 ZiyaratMobiLe'
               projctHedng="Drenthedng"
               hed='Ziyarat Branding'
               hed1='Websites'
@@ -351,11 +344,11 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={Drentperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgMb'
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DallasPalmMobiLe'
               projctHedng="Drenthedng"
               hed='Dallas Palms'
               hed1='Website'
@@ -364,7 +357,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera={Drentperaas}
+              pera='An ambitious willing to help people be healthy. We designed and developed a...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro} />
 
@@ -372,11 +365,11 @@ class Projects extends React.Component {
 
 
 
-          <div className="col-xl-5 col-lg-5 col-md-5 col-12 ">{/* style={{paddingRight: "0vw"}} */}
+          <div className="col-xl-5 col-lg-5 col-md-5 col-12 ">
 
             {/*mobile, ipad hidden*/}
-              <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
-                projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ADB_BgImg'
+              <ProjectContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 DrentDesktop'
+                projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
                 projctHedng="ADBhedng"
                 hed="Drent Branding"
                 hed1='& Website'
@@ -385,13 +378,13 @@ class Projects extends React.Component {
                 locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
-                pera={Drentperaas}
+                pera='An ambitious willing to help people be healthy. We designed and developed a...'
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
               />
             {/*ipad visible*/}
             <div className="row">
-              <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none ADB_BgImgSmMd'
+              <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none DrentTablet'
                 projctHedng="ADBhedngSmMd"
                 hed="Drent Branding"
                 hed1='& Website'
@@ -400,14 +393,14 @@ class Projects extends React.Component {
                 locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
-                pera={Drentperaas}
+                pera='An ambitious willing to help people be healthy. We designed and developed a...'
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
               />
             </div>
             {/*mobile visible*/}
             <div className="row">
-              <ProjectContainer projctBox='d-block d-sm-none d-md-none d-xl-none d-lg-none col-11 ADB_BgImgMb'
+              <ProjectContainer projctBox='d-block d-sm-none d-md-none d-xl-none d-lg-none col-11 DrentMobiLe'
                 projctHedng="ADBhedngMb"
                 hed="Drent Branding"
                 hed1='& Website'
@@ -416,7 +409,7 @@ class Projects extends React.Component {
                 locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
-                pera={Drentperaas}
+                pera='An ambitious willing to help people be healthy. We designed and developed a...'
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
               />
@@ -425,7 +418,7 @@ class Projects extends React.Component {
 
             {/*mobile, ipad hidden*/}
               <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block d-xl-block"
-                projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 DPW_BgImg'
+                projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ACFDesktopTab'
                 projctHedng="ADBhedng"
                 hed='ACF Animal'
                 hed1='Rescue Website'
@@ -434,12 +427,12 @@ class Projects extends React.Component {
                 locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
-                pera={DPWperaas}
+                pera='An ambitious willing to help people be healthy. We designed and developed a...'
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
               />
             {/*ipad visible*/}
-              <ProjectContainer projctBox='d-none d-md-block d-xl-none d-lg-none DPW_BgImg'
+              <ProjectContainer projctBox='d-none d-md-block d-xl-none d-lg-none ACFDesktopTab'
                 projctHedng="ADBhedngSmMd"
                 hed='ACF Animal'
                 hed1='Rescue Website'
@@ -448,12 +441,12 @@ class Projects extends React.Component {
                 locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
-                pera={DPWperaas}
+                pera='An ambitious willing to help people be healthy. We designed and developed a...'
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
               />
             {/*mobile visible*/}
-              <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 DPW_BgImgMb'
+              <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 ACFMobiLe'
                 projctHedng="ADBhedngSmMd"
                 hed='ACF Animal'
                 hed1='Rescue Website'
@@ -462,7 +455,7 @@ class Projects extends React.Component {
                 locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
-                pera={DPWperaas}
+                pera='An ambitious willing to help people be healthy. We designed and developed a...'
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
               />
@@ -471,7 +464,7 @@ class Projects extends React.Component {
 
             {/*mobile, ipad hidden*/}
               <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
-                projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ODW_BgImg'
+                projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 PakJazbaDesktopTab'
                 projctHedng="ADBhedng"
                 hed='Pakjazba Online'
                 hed1='Portal System'
@@ -480,12 +473,12 @@ class Projects extends React.Component {
                 locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
-                pera={DPWperaas}
+                pera='An ambitious willing to help people be healthy. We designed and developed a...'
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
               />
             {/*ipad visible*/}
-              <ProjectContainer projctBox='d-none d-md-block d-xl-none d-lg-none col-md-12 ODW_BgImg'
+              <ProjectContainer projctBox='d-none d-md-block d-xl-none d-lg-none col-md-12 PakJazbaDesktopTab'
                 projctHedng="ADBhedngSmMd"
                 hed='Pakjazba Online'
                 hed1='Portal System'
@@ -494,12 +487,12 @@ class Projects extends React.Component {
                 locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
-                pera={DPWperaas}
+                pera='An ambitious willing to help people be healthy. We designed and developed a...'
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
               />
             {/*mobile visible*/}
-              <ProjectContainer projctBox='d-block d-sm-none d-md-none d-xl-none d-lg-none col-11 ODW_BgImgMb'
+              <ProjectContainer projctBox='d-block d-sm-none d-md-none d-xl-none d-lg-none col-11 PakJazbaMobiLe'
                 projctHedng="ADBhedngSmMd"
                 hed='Pakjazba Online'
                 hed1='Portal System'
@@ -508,7 +501,7 @@ class Projects extends React.Component {
                 locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
-                pera={DPWperaas}
+                pera='An ambitious willing to help people be healthy. We designed and developed a...'
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
               />
@@ -517,7 +510,7 @@ class Projects extends React.Component {
 
             {/*mobile, ipad hidden*/}
               <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
-                projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ODW_BgImg'
+                projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 OxbridgeDesktopTab'
                 projctHedng="ADBhedng"
                 hed='Oxbridge Video,'
                 hed1='Social Media & Website'
@@ -526,12 +519,12 @@ class Projects extends React.Component {
                 locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
-                pera={DPWperaas}
+                pera='An ambitious willing to help people be healthy. We designed and developed a...'
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
               />
             {/*ipad visible*/}
-              <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none col-md-12 ODW_BgImg'
+              <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none col-md-12 OxbridgeDesktopTab'
                 projctHedng="ADBhedngSmMd"
                 hed='Oxbridge Video,'
                 hed1='Social Media & Website'
@@ -540,12 +533,12 @@ class Projects extends React.Component {
                 locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
-                pera={DPWperaas}
+                pera='An ambitious willing to help people be healthy. We designed and developed a...'
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
               />
             {/*mobile visible*/}
-              <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 ODW_BgImgMb'
+              <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 OxbridgeMobiLe'
                 projctHedng="ADBhedngSmMd"
                 hed='Oxbridge Video,'
                 hed1='Social Media & Website'
@@ -554,7 +547,7 @@ class Projects extends React.Component {
                 locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
-                pera={DPWperaas}
+                pera='An ambitious willing to help people be healthy. We designed and developed a...'
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
               />
