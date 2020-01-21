@@ -8,15 +8,15 @@ class Banners extends Component {
         super(props);
         this.state = {
             devPeraImg: true,
-
-
+            projectData: this.props.projectData,
         }
     }
 
     render() {
         const { projctPera1, seeAerro, proAeroImg, banrs, devChld, banhedng1, banhedng2, devChild1, devChld2, devChld3, devChldPera, peraChld, banPera, banPera1, devChld1, devChldPera1, hedPera, colrHed, hedPera1, hedPera2, banhedng,
             peraChld1, banPera2, banPera3, peraChld2, BanParagraph, peraDev } = this.props
-
+        const { projectData } = this.state;
+        // console.log("TCL: Banners -> render -> projectData", projectData)
         return (
             <div className="animatedup animatedFadeInUp fadeInUp">
 
@@ -35,7 +35,9 @@ class Banners extends Component {
                             <div className={devChld1}>{/*"col-xl-8 col-lg-8 col-md-5 col-sm-5 col-5 banChildDev" */}
                             </div>
                             <div className={devChld2}>{/*"col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 banChildDev1" */}
-                                <Link rel="noopener noreferrer" to={`/projects`}  className="changingdec">
+                                <Link rel="noopener noreferrer"
+                                    to={{ pathname: `/projects`, state: projectData }} 
+                                    className="changingdec">
                                     {seeAerro ? <p href={this.props.locationUrl} className={projctPera1}>
                                         View Project<img href="#" className={proAeroImg} src={require('../../Assets/Images/arrowPurple.png')} />
                                     </p>

@@ -43,7 +43,6 @@ class VisualIdentity extends Component {
                             <div className="devColors"></div>
 
                             <div className="devColors"></div>
-
                         </div>
 
                         <div className="col-xl-4 col-lg-4 col-md-4 col-12 devVidentity4">

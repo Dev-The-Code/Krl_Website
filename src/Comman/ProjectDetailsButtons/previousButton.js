@@ -9,7 +9,7 @@ class PreviousButton extends Component {
     return (
         <div className="animatedup animatedFadeInUp fadeInUp">
             <div className="row devProDetail">
-                <div className="col-xl-6 col-lg-6 col-md-6 col-12 devChildProDetail">
+                {/* <div className="col-xl-6 col-lg-6 col-md-6 col-12 devChildProDetail">
                     <div className="row">
                         <div className="col-xl-2 col-lg-2 col-md-2 col-12"></div>
                         <div className="col-xl-10 col-lg-10 col-md-10 col-12 devPrev">
@@ -24,9 +24,9 @@ class PreviousButton extends Component {
                     </div>
 
 
-                </div>
+                </div> */}
                 
-                <div className="col-xl-6 col-lg-6 col-md-6 col-12 devChildProDetail">
+                {/* <div className="col-xl-6 col-lg-6 col-md-6 col-12 devChildProDetail">
                     <div className="row">
                         
                         <div className="col-xl-10 col-lg-10 col-md-10 col-12 devNext">
@@ -41,7 +41,7 @@ class PreviousButton extends Component {
                         <div className="col-xl-2 col-lg-2 col-md-2 col-12"></div>
 
                     </div>
-                </div>
+                </div> */}
 
             </div>
 

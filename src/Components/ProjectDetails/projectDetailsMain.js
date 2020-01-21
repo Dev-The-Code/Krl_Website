@@ -18,7 +18,7 @@ class ProjectDetailsPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-
+      data : this.props.location.state,
     }
   }
   componentWillMount() {
@@ -31,25 +31,25 @@ class ProjectDetailsPage extends Component {
     window.scrollTo(0, 0)
   }
   componentDidMount() {
-    console.log("TCL: ProjectDetailsPage -> ", this.props.location.state);
+    
   }
 
   render() {
-    const { headerPath } = this.state
-    console.log(this.props.location.state, 'state with route')
+    const { headerPath , data } = this.state
+    console.log("ProjectDetailsPage -> data", data)
     return (
       <div className="animateFadeIn">
         <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
-        <PanelDetails />
-        <DetailBanner />
-        <VisualIdentity />
-        <IconSet />
-        <Illustration />
-        <WebSiteVideo />
-        <FinalVideosYouTube />
-        <SomeImages />
-        <PreviousButton />
-        <ProjectDetailFooter />
+        <PanelDetails data={data} />
+        <DetailBanner data={data} />
+        <VisualIdentity data={data} />
+        <IconSet data={data} />
+        <Illustration data={data} />
+        <WebSiteVideo data={data} />
+        <FinalVideosYouTube data={data} />
+        <SomeImages data={data} />
+        <PreviousButton data={data} />
+        <ProjectDetailFooter data={data} />
       </div>
     );
   }
