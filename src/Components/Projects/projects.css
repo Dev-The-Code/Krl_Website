@@ -383,6 +383,31 @@
     margin-left: 4.3vw;
     margin-bottom: calc(15vw - -9.5vmax);
 }
+
+.AmberDazelDesktopTab {
+    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
+    height: 26.5vmax;
+    border-radius: 1vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: center;
+    margin-bottom: calc(17.5vmax - 0vmax);
+}
+.AmberDazelMobiLe {
+    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
+    height: 33vmax;
+    border-radius: 3vw;
+    -webkit-background-size: cover;
+    -moz-background-size: co ver;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-x: right;
+    /* margin-bottom: 11vmax; */
+    margin-left: 4.3vw;
+    margin-bottom: calc(15vw - -9.5vmax);
+}
 /*Freshh css ENd for RightSide Projects by daniyal*/
 
 .GFA_BgImg {

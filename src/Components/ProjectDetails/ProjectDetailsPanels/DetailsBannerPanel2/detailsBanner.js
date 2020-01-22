@@ -7,12 +7,12 @@ class DetailBanner extends Component {
         const { data } = this.props
         return (
             <div className="animatedup animatedFadeInUp fadeInUp">
-                <div className="d-none d-xl-block d-lg-block d-md-block">
+                {data.coverImg && <div className="d-none d-xl-block d-lg-block d-md-block">
                     <img src={data.coverImg[0]} alt="banner" className="bannerDetails" />
-                </div>
-                <div className="d-block d-xl-none d-lg-none d-md-none">
+                </div>}
+                {data.coverImg && <div className="d-block d-xl-none d-lg-none d-md-none">
                     <img src={data.coverImg[0]} alt="banner" className="bannerDetails-MOb" />
-                </div>
+                </div>}
 
                 {/*Banner bottom text*/}
 
@@ -22,16 +22,15 @@ class DetailBanner extends Component {
                     {/* mobile hidden */}
                     <div className="col-xl-11 col-lg-11 col-md-11 d-none d-xl-block d-lg-block d-md-block">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-12 devChildChalnge">
+                            {data.ourRole  && <div className="col-xl-6 col-lg-6 col-md-6 col-12 devChildChalnge">
                                 <h3 className="chalnge">
                                     Our Role
                             </h3>
-                                <p className="chalngePera">In early 2017, we received a request DSX a london-based
-                                    financial company to develop a trading platform for cryptocurrency exchange
-                                    from ground zero. This was  DSX's entry into the global marketplace
-                                    in response to the skyrocketing cryptocurrency demand.</p>
-                            </div>
-                           {data.technologyUsed != '' &&  <div className="col-xl-6 col-lg-6 col-md-6 col-12 devChildChalnge">
+                                <p className="chalngePera">
+                                    {data.ourRole}
+                                </p>
+                            </div>}
+                            {data.technologyUsed  && <div className="col-xl-6 col-lg-6 col-md-6 col-12 devChildChalnge">
                                 <h3 className="chalnge">
                                     Technology Used
                                 </h3>
@@ -46,26 +45,24 @@ class DetailBanner extends Component {
                     {/* mobile visible */}
                     <div className="col-12 d-block d-xl-none d-lg-none d-md-none">
                         <div className="row">
-                            <div className="col-12 devChildChalnge">
+                            {data.ourRole != '' && <div className="col-12 devChildChalnge">
                                 <h3 className="chalnge">
-                                    The Challenge
-                            </h3>
+                                    Our Role
+                                </h3>
 
-                                <p className="chalngePeraMob">In early 2017, we received a request DSX a london-based
-                                financial company to develop a trading platform for cryptocurrency exchange
-                                from ground zero. This was  DSX's entry into the global marketplace
-                            in response to the skyrocketing cryptocurrency demand.</p>
-                            </div>
-                            <div className="col-12 devChildChalnge">
+                                <p className="chalngePeraMob">
+                                    {data.ourRole}
+                                </p>
+                            </div>}
+                            {data.technologyUsed != '' &&  <div className="col-12 devChildChalnge">
                                 <h3 className="chalnge">
-                                    The Challenge
-                            </h3>
+                                    Technology Used
+                                </h3>
 
-                                <p className="chalngePeraMob">In early 2017, we received a request DSX a london-based
-                                financial company to develop a trading platform for cryptocurrency exchange
-                                from ground zero. This was  DSX's entry into the global marketplace
-                            in response to the skyrocketing cryptocurrency demand.</p>
-                            </div>
+                                <p className="chalngePeraMob">
+                                    {data.technologyUsed}
+                                </p>
+                            </div>}
                         </div>
                     </div>
 

@@ -5,23 +5,29 @@ import '../DetailsPanel7/finalvideosYoutube.css';
 class FinalVideosYouTube extends Component {
 
   render() {
-
+    const { data } = this.props
     return (
         <div className="animatedup animatedFadeInUp fadeInUp">
-            <div className="row">
-                <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
-
-                <div className="col-xl-10 col-lg-10 col-md-10 col-12">
-                    <h3 className="finalHedng">Final Video</h3>
-                
-                    <div className="col-xl-12 col-lg-12 col-md-12 col-12 devFinal"></div>
+            {data.documentDemo != '' && <div>
+                <div className="row">
+                    <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+                    <div className="col-xl-10 col-lg-10 col-md-10 col-12">
+                        <h3 className="finalHedng">{data.documentHeading}</h3>
+                    </div>
+                    <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
                 </div>
-                
-
-                <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
-
-            </div>
-
+                <div className="row">
+                    <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+                    <div className="col-xl-10 col-lg-10 col-md-10 col-12">
+                        {data.documentDemo.map((elem,key)=>{
+                            return (
+                                    <img src={elem} alt="banner" className="devFinal" />
+                                    )
+                                })}
+                        </div>
+                    <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+                </div>
+            </div>}
         </div>
         );
     }
