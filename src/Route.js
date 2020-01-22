@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+
 import { BrowserRouter, Route } from 'react-router-dom';
+import Favicon from 'react-favicon';
 
 //Components//
 import About from './Components/About/about';
@@ -37,7 +40,7 @@ class Routes extends React.Component {
       <div className='App'>
         <BrowserRouter>
           <div>
-            <Route exact path="/" component={firstScreen} />
+            <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/blog Detail" component={BlogDetail} />
             <Route path="/contact" component={Contact} />
