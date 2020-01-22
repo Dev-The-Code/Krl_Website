@@ -174,7 +174,7 @@
         font-family: aleta-bold;
         padding-top: 0vw;
         color: white;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
     }
     .banHedng2{
         font-size: 5.1vw;
@@ -315,7 +315,7 @@
         font-family: aleta-bold;
         padding-top: 7vw;
         color: white;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
     }
     .banHedng1{
         font-size: 5.15vw;
@@ -353,7 +353,7 @@
         font-family: aleta-bold;
         padding-top: 6.6vmax;
         color: white;
-        letter-spacing: 2px;
+        letter-spacing: 2.5px;
     }
     .banHedng1{
         font-size: 5.15vw;
@@ -391,7 +391,7 @@
         font-family: aleta-bold;
         padding-top: 6.6vmax;
         color: white;
-        letter-spacing: 2px;
+        letter-spacing: 3px;
     }
     .banHedng1{
         font-size: 5vw;

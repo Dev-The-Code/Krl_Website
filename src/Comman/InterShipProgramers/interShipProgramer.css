@@ -1,14 +1,4 @@
-.internShipImg{
-    position: absolute;
-    background-image: url("../../Assets/Images/Interns/InterSkrl.jpg");
-    height: 26.5vmax;
-    border-radius: 1vw;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-y: center;
-}
+
 .internShipText{
     position: relative;
     background-color: white;
@@ -70,4 +60,69 @@
     box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
     margin-top: 20vmax;
     padding: 3.1vmax;
+}
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .internShipImg{
+        position: absolute;
+        background-image: url("../../Assets/Images/Interns/InterSkrl.jpg");
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-y: center;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .internShipImg{
+        position: absolute;
+        background-image: url("../../Assets/Images/Interns/InterSkrl.jpg");
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-y: center;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .internShipImg{
+        position: absolute;
+        background-image: url("../../Assets/Images/Interns/InterSkrl.jpg");
+        height: 32vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-y: center;
+    }
+}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .internShipImg{
+        position: absolute;
+        background-image: url("../../Assets/Images/Interns/InterSkrl.jpg");
+        height: 28.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-y: center;
+    }
+}
+@media only screen and (min-device-width : 1600px) {
+    .internShipImg{
+        position: absolute;
+        background-image: url("../../Assets/Images/Interns/InterSkrl.jpg");
+        height: 26vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-y: center;
+    }
 }

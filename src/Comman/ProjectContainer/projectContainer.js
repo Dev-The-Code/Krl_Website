@@ -2,24 +2,21 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../../Components/Projects/projects.css';
 
-var obj = {
-  name : 'Daniyal',
-  lastName :'Raza Noorani'
-}
+
 
 class ProjectContainer extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      drent: obj
+      projectData : this.props.projectData,
     }
   }
 
   render() {
     const { projctBox, projctBox1, projctHedng, hed, hed1, projctChildBox, projctPera, pera, projctPera1, proAeroImg, seeAerro } = this.props;
-    const { drent } = this.state;
-    console.log(this.props,'location');
+    const { projectData } = this.state;
+    // console.log(this.props.projectData,'location');
     return (
       <div className="animatedup animatedFadeInUp fadeInUp">
         <div className="row" style={{ paddingRight: '0vw' }}>
@@ -32,7 +29,9 @@ class ProjectContainer extends Component {
                 <p className={projctPera}>
                   {pera}
                 </p>
-                <Link rel="noopener noreferrer" to={{ pathname: `/projects`, state: drent }}  className="changingdec">
+                <Link rel="noopener noreferrer" 
+                to={{ pathname: `/projects`, state: projectData }} 
+                 className="changingdec">
                 <a href={this.props.locationUrl} className="changingdec">
                   {seeAerro ? <p className={projctPera1}>
                     View Project<img href="#" className={proAeroImg} src={require('../../Assets/Images/arrowPurple.png')} />
