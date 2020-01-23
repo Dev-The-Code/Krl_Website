@@ -10,7 +10,7 @@ class MainServices extends Component {
  
     render() {
       const {serviceH1, serviceH1text, marketBox, marketBox1, marketBox2, marketH1, marketH1text, marketBox3, marketPragph, marketPeraText, marketBox4,
-      offerH5, offerH5text, offerPragph, offerPeraText, offerPeraText1, offerPeraText2, marketBox5, PeraAerroImg, peraAeroImg, LP_rightAeroImg,
+      offerH5, offerH5text, offerPragph, offerPeraText, offerPeraText1, offerPeraText2,offerPeraText3, marketBox5, PeraAerroImg, peraAeroImg, LP_rightAeroImg,
       marketMobBox, marketMobBox1,}= this.props
       
       return (
@@ -44,6 +44,7 @@ class MainServices extends Component {
                       <p className={offerPragph}>{offerPeraText}</p>{/* "offerPeras" -Social Media Marketing */}
                       <p className={offerPragph}>{offerPeraText1}</p>{/* "offerPeras" -Billboard Advertisement */}
                       <p className={offerPragph}>{offerPeraText2}</p>{/* "offerPeras" -Compaign Marketing*/}
+                      <p className={offerPragph}>{offerPeraText3}</p>
                     </div>
 
                     <div className={marketBox5}>{/* "marketChildDev2" */}

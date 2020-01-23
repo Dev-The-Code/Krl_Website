@@ -1,29 +1,10 @@
-.sumImg{
-    background-image: url("../../../../Assets/Images/getfit.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
+.mainDemoImg{
     border-radius: 1vmax;
     height: 34vmax;
-    margin-top: 10vmax;
+    margin-top: 1vmax;
+    width: 100%;
 }
-.sumImgMob{
-    background-image: url("../../../../Assets/Images/getfit.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    border-radius: 1vmax;
-    height: 34vmax;
-}
-.devSum{
-    padding-left: 0vw;
-}
+
 .sumHedng{
     font-family: aleta-bold;
     font-size: calc(12px + 0.7vmax);

@@ -1,15 +1,15 @@
 .illustrImg1{
-    background-image: url("../../../../Assets//Images/ProjectDetail/Asset1.png");
-    -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position-x: center;
-        height: 15vmax;
-        margin-top: 2vmax;
+    /* height: 15vmax; */
+    margin-top: 2vmax;
+    width: 100%;
 }
-.illustrImg2{
+
+.illustrImgMob1{
+    height: 25vh;
+    margin-top: 2vmax;
+    width: 100%;
+}
+/* .illustrImg2{
     background-image: url("../../../../Assets//Images/ProjectDetail/Asset2.png");
     -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -52,22 +52,11 @@
         background-position-x: center;
         height: 15vmax;
         margin-top: 2vmax;
-}
+} */
 
 
 
-.illustrImgMob1{
-    background-image: url("../../../../Assets//Images/ProjectDetail/Asset1.png");
-    -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position-x: center;
-        height: 25vh;
-        margin-top: 2vmax;
-}
-.illustrImgMob2{
+/* .illustrImgMob2{
     background-image: url("../../../../Assets//Images/ProjectDetail/Asset2.png");
     -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -110,7 +99,7 @@
         background-position-x: center;
         height: 25vh;
         margin-top: 2vmax;
-}
+} */
 
 
 

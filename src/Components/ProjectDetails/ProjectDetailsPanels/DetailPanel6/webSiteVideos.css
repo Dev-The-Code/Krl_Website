@@ -4,3 +4,9 @@
     margin-top: 10vmax;
     color: black;
 }
+.videoDemo{ 
+    height: 42vmax; 
+    /* border-radius: 1vmax; */
+    margin-top: 3vmax;
+    width: 100%;
+}

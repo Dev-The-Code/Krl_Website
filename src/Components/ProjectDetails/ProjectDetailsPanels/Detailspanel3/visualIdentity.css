@@ -23,7 +23,7 @@
 }
 .D-logo{
     margin-top: 3vmax;
-    width: calc(50px + 16vmax);
+    /* width: calc(50px + 16vmax); */
 }
 .devVidentity2{
     padding-left: 0vw;
@@ -49,7 +49,6 @@
 .devColors{
     height: 3vmax;
     width: 3vmax;
-    background-color: black;
     margin-top: 5vmax;
     float: left;
     margin-right: 3vmax;
@@ -72,7 +71,7 @@
     padding-right: 3vw;
 }
 .visulIdntityshortHedng2{
-    font-size: calc(10px + 0.9vmax);
+    font-size: calc(10px + 1.9vmax);
     margin-top: 3vmax;
     color: black;
 }

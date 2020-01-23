@@ -36,17 +36,17 @@ class ProjectDetailsPage extends Component {
 
   render() {
     const { headerPath , data } = this.state
-    console.log("ProjectDetailsPage -> data", data)
+    // console.log("ProjectDetailsPage -> data", data)
     return (
       <div className="animateFadeIn">
         <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
         <PanelDetails data={data} />
         <DetailBanner data={data} />
         <VisualIdentity data={data} />
-        <IconSet data={data} />
+        {/* <IconSet data={data} /> */}
         <Illustration data={data} />
-        <WebSiteVideo data={data} />
         <FinalVideosYouTube data={data} />
+        <WebSiteVideo data={data} />
         <SomeImages data={data} />
         <PreviousButton data={data} />
         <ProjectDetailFooter data={data} />

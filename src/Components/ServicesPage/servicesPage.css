@@ -937,8 +937,8 @@
 }
 .productionImage{
     background-image: url(../../Assets/Images/production-min.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    /* background-position: center; */
     border-radius: 1vw;
     width: 20vw;
     height: 23.1vw;

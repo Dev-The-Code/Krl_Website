@@ -7,6 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 @font-face{
+  font-family: 'ChuckFive-Regular';
+  font-style : normal;
+  font-weight : 400;
+  src: url('./Assets/fonts/ChunkFive-Regular.otf');
+  /* src: url('./Assets/fonts/Chunk\ Five\ Print.otf');   */
+}
+@font-face{
+  font-family: 'San-Marino';
+  font-style : normal;
+  font-weight : 600;
+  src: url('./Assets/fonts/San-Marino.otf');
+}
+@font-face{
     font-family: 'kalam';
     font-style : normal;
     font-weight : 400;

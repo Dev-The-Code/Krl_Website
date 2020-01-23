@@ -21,16 +21,42 @@ class OurTeam extends Component {
             <div className="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10">
               <div className="row">
                 <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                  <AllTeam drnClass='imG_teamMem' teamImg={Handsome_img} />
+                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/khumarbnw_ejdx7d.jpg'} />
                 </div>
                 <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                  <AllTeam drnClass='imG_teamMem' teamImg={Handsome_img} />
+                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/saadbnw_jorehz.jpg'} />
                 </div>
                 <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                  <AllTeam drnClass='imG_teamMem' teamImg={Handsome_img} />
+                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/masoodbnw_ugiv7k.jpg'} />
                 </div>
                 <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                  <AllTeam drnClass='imG_teamMem' teamImg={Handsome_img} />
+                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/shayanbnw_xunz3m.jpg'} />
+                </div>
+              </div>
+              <div className="row" style={{marginTop: '3vw'}}>
+                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/Awaisbnw_aug18u.jpg'} />
+                </div>
+                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/daniyalbnw_zynssw.jpg'} />
+                </div>
+                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/waqasbnw_q8wazj.jpg'} />
+                </div>
+                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/tahabnw_fjjr5n.jpg'} />
+                </div>
+              </div>
+              <div className="row" style={{marginTop: '3vw'}}>
+                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787052/sheerazbnw_rccsbi.jpg'} />
+                </div>
+                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/zainabbnw_mr5aeg.jpg'} />
+                </div>
+                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                </div>
+                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
                 </div>
               </div>
             </div>
@@ -49,28 +75,70 @@ class OurTeam extends Component {
           <div className="row">
             <div className="col-1"></div>
             <div className="col-10">
-              <AllTeam drnClass='imG_teamMem_Mob' teamImg={Handsome_img} />
+              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/khumarbnw_ejdx7d.jpg'} />
             </div>
             <div className="col-1"></div>
           </div><br />
           <div className="row">
             <div className="col-1"></div>
             <div className="col-10">
-              <AllTeam drnClass='imG_teamMem_Mob' teamImg={Handsome_img} />
+              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/saadbnw_jorehz.jpg'} />
             </div>
             <div className="col-1"></div>
           </div><br />
           <div className="row">
             <div className="col-1"></div>
             <div className="col-10">
-              <AllTeam drnClass='imG_teamMem_Mob' teamImg={Handsome_img} />
+              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/masoodbnw_ugiv7k.jpg'} />
             </div>
             <div className="col-1"></div>
           </div><br />
           <div className="row">
             <div className="col-1"></div>
             <div className="col-10">
-              <AllTeam drnClass='imG_teamMem_Mob' teamImg={Handsome_img} />
+              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/shayanbnw_xunz3m.jpg'} />
+            </div>
+            <div className="col-1"></div>
+          </div>
+          <div className="row">
+            <div className="col-1"></div>
+            <div className="col-10">
+              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/Awaisbnw_aug18u.jpg'} />
+            </div>
+            <div className="col-1"></div>
+          </div><br />
+          <div className="row">
+            <div className="col-1"></div>
+            <div className="col-10">
+              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/daniyalbnw_zynssw.jpg'} />
+            </div>
+            <div className="col-1"></div>
+          </div>
+          <div className="row">
+            <div className="col-1"></div>
+            <div className="col-10">
+              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/waqasbnw_q8wazj.jpg'} />
+            </div>
+            <div className="col-1"></div>
+          </div><br />
+          <div className="row">
+            <div className="col-1"></div>
+            <div className="col-10">
+              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/tahabnw_fjjr5n.jpg'} />
+            </div>
+            <div className="col-1"></div>
+          </div>
+          <div className="row">
+            <div className="col-1"></div>
+            <div className="col-10">
+              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787052/sheerazbnw_rccsbi.jpg'} />
+            </div>
+            <div className="col-1"></div>
+          </div><br />
+          <div className="row">
+            <div className="col-1"></div>
+            <div className="col-10">
+              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/zainabbnw_mr5aeg.jpg'} />
             </div>
             <div className="col-1"></div>
           </div>
