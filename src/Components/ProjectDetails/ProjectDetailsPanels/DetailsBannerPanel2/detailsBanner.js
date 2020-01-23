@@ -32,7 +32,7 @@ class DetailBanner extends Component {
                             </div>}
                             {data.technologyUsed  && <div className="col-xl-6 col-lg-6 col-md-6 col-12 devChildChalnge">
                                 <h3 className="chalnge">
-                                    Technology Used
+                                    Technologies Used
                                 </h3>
 
                                 <p className="chalngePera">

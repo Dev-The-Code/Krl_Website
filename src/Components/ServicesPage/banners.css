@@ -54,7 +54,45 @@
     padding: 1.1vw;
 }
 
+/*Siddiq Sons Banner classStart*/
 
+.SiddiqSonsDeskstop{
+    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687373/cover_h7qavr.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    border-radius: calc(10px + 1vh);
+    /* padding-left: 0vw; */
+    height: 29.3vmax;
+}
+.SiddiqSonsTablet{
+    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687373/cover_h7qavr.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 2vw;
+    padding-left: 0vw;
+    height: 25.3vmax;
+}
+.SiddiqSonsMobile{
+    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687373/cover_h7qavr.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center !important;
+    border-radius: 2vw;
+    padding-left: 0vw;
+    height: 17.3vmax;
+}
+/*Siddiq Sons Banner classEnd*/
 .banHedng1{
     font-size: 5vw;
 }
@@ -71,18 +109,7 @@
     padding-left: 0vw;
     height: 29.3vmax;
 }
-.banDevPro{
-    background-image: url("../../Assets/Images/siddiqBrochure.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    border-radius: calc(10px + 1vh);
-    /* padding-left: 0vw; */
-    height: 29.3vmax;
-}
+
 .banDev1Small{
     background-image: url("../../Assets/Images/circle.png");
     -webkit-background-size: cover;
@@ -95,18 +122,7 @@
     padding-left: 0vw;
     height: 29.3vmax;
 }
-.banDev1ProSmall{
-    background-image: url("../../Assets/Images/siddiqBrochure.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    border-radius: 2vw;
-    padding-left: 0vw;
-    height: 25.3vmax;
-}
+
 .banDev1ProMb{
     background-image: url("../../Assets/Images/siddiqBrochure.jpg");
     -webkit-background-size: cover;

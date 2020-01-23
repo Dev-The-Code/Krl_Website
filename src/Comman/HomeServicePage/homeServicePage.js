@@ -44,7 +44,7 @@ class HomeServicesPage extends Component {
                   </div>
                   <div className="consultDev">
                     <p className="consultPera">
-                      With the power of empathy, transpar- ent communication and honest deal- ing we work with
+                      With the power of empathy, transparent communication and honest dealing we work with
                       you to help you find the right path to maximising the out- come your brand creates.
                       </p>
                   </div>
@@ -60,8 +60,8 @@ class HomeServicesPage extends Component {
                       </div>
                       <div className="developmentDev">
                         <p className="developmentPera">
-                          Did you say photos and videos? Our producers are here with all
-                          their experience and expertise!
+                        Our developers use the latest and cutting edge 
+                        technologies to develop efficient solutions.
                           </p>
                       </div>
                     </div>

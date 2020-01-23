@@ -14,6 +14,7 @@ class ServicesPage extends Component {
       offerPeragraph: '-Social Media Marketing',
       offerPeragraph1: '-Billboard Advertisement',
       offerPeragraph2: '-Compaign Marketing',
+      offerPeragraph3:'',
       developmentHeading: 'Development',
       designHeading: 'Design',
       productionHeading: 'Production',
@@ -31,7 +32,7 @@ class ServicesPage extends Component {
 
 
   render() {
-    const {serviceHeading, marketHeading, offerHeading, offerPeragraph, offerPeragraph1, offerPeragraph2, devPeraAeroImg, devParagraph, ViewPro,
+    const {serviceHeading, marketHeading, offerHeading, offerPeragraph, offerPeragraph1, offerPeragraph2,offerPeragraph3, devPeraAeroImg, devParagraph, ViewPro,
       developmentHeading, designHeading, productionHeading, marketPeragraph,} = this.state
 
     return (
@@ -49,7 +50,7 @@ class ServicesPage extends Component {
           marketH1text={marketHeading}
           marketBox3="marketChildDev1"
           marketPragph="marketPera"
-          marketPeraText={marketPeragraph}
+          marketPeraText='With the power of empathy transparent communication and honest dealing, we work with you to help you find the right path to maximissing the outcome your brand creates.'
           marketBox4="marketChildDev1"
           offerH5="weOffer"
           offerH5text={offerHeading}
@@ -74,14 +75,15 @@ class ServicesPage extends Component {
             marketH1text={developmentHeading}
             marketBox3="marketChildDev1"
             marketPragph="marketPera"
-            marketPeraText={marketPeragraph}
+            marketPeraText='Our developers use the latest and cutting edge technologies to develop efficient solutions.'
             marketBox4="marketChildDev1"
             offerH5="weOffer"
             offerH5text={offerHeading}
             offerPragph="offerPeras"
-            offerPeraText={offerPeragraph}
-            offerPeraText1={offerPeragraph1}
-            offerPeraText2={offerPeragraph2}
+            offerPeraText='- Mobile Apps'
+            offerPeraText1='- Web Development'
+            offerPeraText2='- Wordpress Development'
+            offerPeraText3='- Ecommerce Websites'
             marketBox5="marketChildDev2"
 
             PeraAerroImg={devPeraAeroImg}
@@ -98,14 +100,15 @@ class ServicesPage extends Component {
             marketH1text={designHeading}
             marketBox3="marketChildDev1"
             marketPragph="marketPera"
-            marketPeraText={marketPeragraph}
+            marketPeraText='Our designers works hard to design delightful experiences that help you achieve business goals'
             marketBox4="marketChildDev1"
             offerH5="weOffer"
             offerH5text={offerHeading}
-            offerPragph="offerPeras"
-            offerPeraText={offerPeragraph}
-            offerPeraText1={offerPeragraph1}
-            offerPeraText2={offerPeragraph2}
+            offerPragph="offerPeras"    
+            offerPeraText='- Creative Direction'
+            offerPeraText1='- Branding'
+            offerPeraText2='- UI / UX, Web Design'
+            offerPeraText3='- Print Designs'
             marketBox5="marketChildDev2"
 
             PeraAerroImg={devPeraAeroImg}
@@ -122,14 +125,15 @@ class ServicesPage extends Component {
             marketH1text={productionHeading}
             marketBox3="marketChildDev1"
             marketPragph="marketPera"
-            marketPeraText={marketPeragraph}
+            marketPeraText='Did you say photos and videos? Our producers are here with all their experience and expertise!'
             marketBox4="marketChildDev1"
             offerH5="weOffer"
             offerH5text={offerHeading}
             offerPragph="offerPeras"
-            offerPeraText={offerPeragraph}
-            offerPeraText1={offerPeragraph1}
-            offerPeraText2={offerPeragraph2}
+            offerPeraText='- Product Photography'
+            offerPeraText1='- TVC & Decumentaries'
+            offerPeraText2='- Event Coverage'
+            offerPeraText3='- Interviews & Podcasts'
             marketBox5="marketChildDev2"
 
             PeraAerroImg={devPeraAeroImg}
@@ -152,7 +156,7 @@ class ServicesPage extends Component {
             marketH1text={marketHeading}
             marketMobBox="marketChildDevMob1"
             marketPragph="marketPeraMob"
-            marketPeraText={marketPeragraph}
+            marketPeraText='With the power of empathy transparent communication and honest dealing, we work with you to help you find the right path to maximissing the outcome your brand creates.'
             offerH5="weOffer"
             offerH5text={offerHeading}
             offerPragph="offerPerasMob"
@@ -174,13 +178,14 @@ class ServicesPage extends Component {
             marketH1text={developmentHeading}
             marketMobBox="marketChildDevMob1"
             marketPragph="marketPeraMob"
-            marketPeraText={marketPeragraph}
+            marketPeraText='Our developers use the latest and cutting edge technologies to develop efficient solutions.'
             offerH5="weOffer"
             offerH5text={offerHeading}
             offerPragph="offerPerasMob"
-            offerPeraText={offerPeragraph}
-            offerPeraText1={offerPeragraph1}
-            offerPeraText2={offerPeragraph2}
+            offerPeraText='- Mobile Apps'
+            offerPeraText1='- Web Development'
+            offerPeraText2='- Wordpress Development'
+            offerPeraText3='- Ecommerce Websites'
             marketMobBox1="marketChildDevMob2"
 
             PeraAerroImg={devPeraAeroImg}
@@ -196,13 +201,14 @@ class ServicesPage extends Component {
             marketH1text={designHeading}
             marketMobBox="marketChildDevMob1"
             marketPragph="marketPeraMob"
-            marketPeraText={marketPeragraph}
+            marketPeraText='Our designers works hard to design delightful experiences that help you achieve business goals'
             offerH5="weOffer"
             offerH5text={offerHeading}
             offerPragph="offerPerasMob"
-            offerPeraText={offerPeragraph}
-            offerPeraText1={offerPeragraph1}
-            offerPeraText2={offerPeragraph2}
+            offerPeraText='- Creative Direction'
+            offerPeraText1='- Branding'
+            offerPeraText2='- UI / UX, Web Design'
+            offerPeraText3='- Print Designs'
             marketMobBox1="marketChildDevMob2"
 
             PeraAerroImg={devPeraAeroImg}
@@ -218,13 +224,14 @@ class ServicesPage extends Component {
             marketH1text={productionHeading}
             marketMobBox="marketChildDevMob1"
             marketPragph="marketPeraMob"
-            marketPeraText={marketPeragraph}
+            marketPeraText='Did you say photos and videos? Our producers are here with all their experience and expertise!'
             offerH5="weOffer"
             offerH5text={offerHeading}
             offerPragph="offerPerasMob"
-            offerPeraText={offerPeragraph}
-            offerPeraText1={offerPeragraph1}
-            offerPeraText2={offerPeragraph2}
+            offerPeraText='- Product Photography'
+            offerPeraText1='- TVC & Decumentaries'
+            offerPeraText2='- Event Coverage'
+            offerPeraText3='- Interviews & Podcasts'
             marketMobBox1="marketChildDevMob2"
 
             PeraAerroImg={devPeraAeroImg}

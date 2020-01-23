@@ -14,30 +14,26 @@
 }
 @media only screen and (min-device-width : 300) and (max-device-width : 767px){
     .imG_teamMem{
-        margin-left: -1vw;
         border-radius: 1vw;
-        width: 17vw;
+        width: 100%;
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px){
     .imG_teamMem{
-        margin-left: -1vw;
         border-radius: 1vw;
-        width: 17vw;
+        width: 100%;
     }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px){
     .imG_teamMem{
-        margin-left: -1vw;
         border-radius: 1vw;
-        width: 17vw;
+        width: 100%;
     }
 }
 @media only screen and (min-device-width : 1366px){
     .imG_teamMem{
-        margin-left: -1vw;
-        width: 17vw;
         border-radius: 1vw;
+        width: 100%;
     }
 }
 .imG_teamMem_Mob{

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import { BrowserRouter, Route } from 'react-router-dom';
-import Favicon from 'react-favicon';
 
 //Components//
 import About from './Components/About/about';
@@ -26,12 +25,12 @@ class Routes extends React.Component {
   }
 
   componentDidMount() {
-    // setTimeout(function () {
-    //   this.setState({ firstScreen: Home });
-    // }.bind(this), 4500);
     setTimeout(function () {
       this.setState({ firstScreen: Home });
-    }.bind(this), 0);
+    }.bind(this), 4500);
+    // setTimeout(function () {
+    //   this.setState({ firstScreen: Home });
+    // }.bind(this), 0);
   }
 
   render() {
@@ -40,7 +39,7 @@ class Routes extends React.Component {
       <div className='App'>
         <BrowserRouter>
           <div>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={firstScreen} />
             <Route path="/about" component={About} />
             <Route path="/blog Detail" component={BlogDetail} />
             <Route path="/contact" component={Contact} />

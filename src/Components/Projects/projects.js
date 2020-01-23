@@ -94,7 +94,7 @@ var getFit = {
   ],
   fontText: 'We chose ChunkFive Roman because of its friendly and strong nature.',
   fontFamilyText: ['Chunk Five Roman'],
-  fontFamily: ['Nunito Sans'],
+  fontFamily: ['ChuckFive-Regular'],
   illustration: [
     {
       illustrationText: 'Mobile App Screens',
@@ -122,7 +122,7 @@ var drentBrand = {
   desciption: 'Drent needed a luxurious website to formally launch their dress rental service in UK for Asian communities. Their focus was making it a personalised brand that would make great impact on their customers.',
   coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579697423/Asset_1_seshuz.png'],
   ourRole: 'We designed them a new brand that speaks to the UK community, but at the same time was impactful for the Asian users. We decided to go with a heavily branded website design that would leave its impact on the customers’ minds, while keeping it simple to use.',
-  technologyUsed: 'React.js and Node.js',
+  technologyUsed: 'Drents website was created using React.js on frontend and Node.js on backend.',
   visualidentityLogo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579696864/drent-logo_d0usqb.png'],
   visualidentityLogoText: 'The logo consists of a rhombus shape made out of leaves Ancient Greek kings are known to wear. We chose this symbol and a luxurious serif font to give a royal look.',
   colorpaletteText: 'Since Drent was going with a royal look, we decided to go with a combination of Purple (that represents royalty and wealth) and Gold (because of its association with the precious metal: gold).',
@@ -196,9 +196,8 @@ var aCFRescue = {
     },
   ],
   demoHeading: 'Final Website Videos',
-  demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698701/2_ircyfy.mp4',
-              'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698708/3_qr4mto.mp4',
-              'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698702/1_hsmghk.mp4'],
+  demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698702/1_hsmghk.mp4',
+              'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698708/3_qr4mto.mp4'],
   documentHeading: '',
   documentDemo: ['',
                  ],
@@ -279,7 +278,7 @@ var circleWomen = {
   },]
 }
 var oxBridge = {
-  name: 'Oxbridge Video, Social Media & Website',
+  name: 'Oxbridge Video Website',
   desciption: 'Oxbridge, an English training start up, had an innovative approach to training and educational centers. They contacted KRL Creatives to design and develop their website.',
   coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579707315/waldemar-brandt-U3Ptj3jafX8-unsplash_osnp6q.jpg'],
   ourRole: 'We were responsible for coming up with a website design that would communicate their innovative approach effectively and could help connect their customers to the young brand.',
@@ -299,9 +298,9 @@ var oxBridge = {
     },
   ],
   demoHeading: 'Final Website Video',
-  demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707212/3_gbbfe9.mp4',
+  demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707232/1_srkudb.mp4',
               'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707223/2_c2iriy.mp4',
-              'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707232/1_srkudb.mp4'
+              
   ],
   documentHeading: '',
   documentDemo: ['',
@@ -309,11 +308,11 @@ var oxBridge = {
   mainVideoPanel: [{
     mainHead: 'Marketing & Video',
     mainHeadsubText: 'KRL Creatives’ marketing department provides consultation to Oxbridge for strengthening their brand and find the right target audience. We also shoot their video podcasts for their website and social media.',
-    mainVideos: "https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703973/03_dg5fcg.mp4",
+    mainVideos: "https://res.cloudinary.com/dxk0bmtei/video/upload/v1579780552/oxbridge_3_tips_fy9sd2.mp4",
   },]
 }
 var ziyaratBrand = {
-  name: 'Ziyarat Branding Websites',
+  name: 'Ziyarat Branding Website',
   desciption: 'Ziyarat, a Pakistani designer wear retail brand needed a logo for their launch in UK. They also needed an ecommerce website which would help the brand sell.',
   coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579706873/artem-beliaikin-9Jr9hUzRVhc-unsplash_wao7xo.jpg'],
   ourRole: 'We were responsible for coming up with a logo which would represent their luxury lineup and serve as a strong face for the brand.',
@@ -324,7 +323,7 @@ var ziyaratBrand = {
   colorPaletteAllColor: ['#671429','#E3B16D','#CE8497'],
   fontText: 'Ziyarat Logo uses San Marino font that is modern and royal.',
   fontFamilyText: ['San Marino'],
-  fontFamily: ['San Marino'],
+  fontFamily: ['San-Marino'],
   illustration: [
     {
       illustrationText: '',
@@ -334,7 +333,6 @@ var ziyaratBrand = {
   ],
   demoHeading: 'Final Website Video',
   demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706642/1_jtphb8.mp4',
-              'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706645/3_lafafi.mp4',
               'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706651/2_zch1v6.mp4'    
   ],
   documentHeading: '',
@@ -346,11 +344,11 @@ var ziyaratBrand = {
   },]
 }
 var dallasPalm = {
-  name: 'Oxbridge Video, Social Media & Website',
-  desciption: '',
-  coverImg: [''],
-  ourRole: '',
-  technologyUsed: '',
+  name: 'Dallas Palms Website',
+  desciption: 'Dallas Palms, a wedding venue in Dallas, wanted to launch their website that could effectively showcase their venues and provide information for their customers.',
+  coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579774103/dallas-palms_znfrqa.jpg'],
+  ourRole: 'KRL Creatives designed and developed their website.',
+  technologyUsed: 'This website was built using Wordpress',
   visualidentityLogo: [''],
   visualidentityLogoText: '',
   colorpaletteText: '',
@@ -365,8 +363,14 @@ var dallasPalm = {
       illustrationImages: [''],
     },
   ],
-  demoHeading: '',
-  demoVideo: [''],
+  demoHeading: 'Final Website Videos',
+  demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774405/2_jym2hq.mp4',
+            'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774411/6_av7vol.mp4',
+            'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774412/4_afbv1d.mp4',
+            'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774414/1_jr5o25.mp4',
+            'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774414/3_yeogym.mp4',
+            'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774419/5_wfpqik.mp4',   
+            ],
   documentHeading: '',
   documentDemo: ['',
                  ],
@@ -470,7 +474,7 @@ class Projects extends React.Component {
                 banhedng={headingpera}
                 hedPera1="banHedng1"
                 banhedng1={headingpera2}
-                devChild1="col-xl-7 col-lg-7 banDevPro"
+                devChild1="col-xl-7 col-lg-7 SiddiqSonsDeskstop"
                 banPera1="banPera1"
                 hedPera2="banHedng2"
                 banhedng2={headingpera1}
@@ -499,7 +503,7 @@ class Projects extends React.Component {
                 banhedng={headingpera}
                 hedPera1="banHedng1Small"
                 banhedng1={headingpera2}
-                devChild1="col-md-7 col-sm-7 col-7 banDev1ProSmall"
+                devChild1="col-md-7 col-sm-7 col-7 SiddiqSonsTablet"
                 banPera1="banPera1Small"
                 hedPera2="banHedng2Small"
                 banhedng2={headingpera1}
@@ -528,7 +532,7 @@ class Projects extends React.Component {
                 banhedng={headingpera}
                 hedPera1="banHedng1Small"
                 banhedng1={headingpera2}
-                devChild1="col-md-7 col-sm-7 col-7 banDev1ProMb"
+                devChild1="col-md-7 col-sm-7 col-7 SiddiqSonsMobile"
                 banPera1="banPera1Small"
                 hedPera2="banHedng2Small"
                 banhedng2={headingpera1}
@@ -565,7 +569,7 @@ class Projects extends React.Component {
 
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program fo...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={jicaLightF}
@@ -580,7 +584,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='A young & ambitious fitness trainer wanted to rebrand his venture, GitFitAthleti...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={getFit}
@@ -597,7 +601,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Circle Women, an non-profit organization working for women empowerment, neede...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={circleWomen}
@@ -612,7 +616,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Ziyarat, a Pakistani designer wear retail brand needed a logo for their launch i...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={ziyaratBrand}
@@ -627,7 +631,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Dallas Palms, a wedding venue in Dallas, wanted to launch their website that co...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={dallasPalm}
@@ -649,7 +653,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program fo...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={jicaLightF}
@@ -664,7 +668,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='A young & ambitious fitness trainer wanted to rebrand his venture, GitFitAthleti...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={getFit}
@@ -681,7 +685,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Circle Women, an non-profit organization working for women empowerment, neede...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={circleWomen}
@@ -696,7 +700,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Ziyarat, a Pakistani designer wear retail brand needed a logo for their launch i...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={ziyaratBrand}
@@ -711,7 +715,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Dallas Palms, a wedding venue in Dallas, wanted to launch their website that co...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={dallasPalm}
@@ -732,7 +736,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program fo...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={jicaLightF}
@@ -747,7 +751,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='A young & ambitious fitness trainer wanted to rebrand his venture, GitFitAthleti...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={getFit}
@@ -764,7 +768,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Circle Women, an non-profit organization working for women empowerment, neede...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={circleWomen}
@@ -779,7 +783,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Ziyarat, a Pakistani designer wear retail brand needed a logo for their launch i...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={ziyaratBrand}
@@ -794,7 +798,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="GFApera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Dallas Palms, a wedding venue in Dallas, wanted to launch their website that co...'
               proAeroImg="GFAimg"
               ViewPro={ViewPro}
               projectData={dallasPalm}
@@ -817,7 +821,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Drent needed a luxurious website to formally launch their dress rental servic...'
               proAeroImg="ADBimg"
               ViewPro={ViewPro}
               projectData={drentBrand}
@@ -833,7 +837,7 @@ class Projects extends React.Component {
                 locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
-                pera='An ambitious willing to help people be healthy. We designed and developed a...'
+                pera='Drent needed a luxurious website to formally launch their dress rental servic...'
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
                 projectData={drentBrand}
@@ -850,7 +854,7 @@ class Projects extends React.Component {
                 locationUrl={""}
                 seeAerro={devPeraImg}
                 projctPera1="ADBpera1"
-                pera='An ambitious willing to help people be healthy. We designed and developed a...'
+                pera='Drent needed a luxurious website to formally launch their dress rental servic...'
                 proAeroImg="ADBimg"
                 ViewPro={ViewPro}
                 projectData={drentBrand}
@@ -869,7 +873,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Ayesha Chundrigar Foundation, an NGO helping out troubled animals, needed a websi...'
               proAeroImg="ADBimg"
               ViewPro={ViewPro}
               projectData={aCFRescue}
@@ -884,7 +888,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Ayesha Chundrigar Foundation, an NGO helping out troubled animals, needed a websi...'
               proAeroImg="ADBimg"
               ViewPro={ViewPro}
               projectData={aCFRescue}
@@ -899,7 +903,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Ayesha Chundrigar Foundation, an NGO helping out troubled animals, needed a websi...'
               proAeroImg="ADBimg"
               ViewPro={ViewPro}
               projectData={aCFRescue}
@@ -918,7 +922,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Pakjazba is a one stop portal that allows users to buy & sell stuff, book room...'
               proAeroImg="ADBimg"
               ViewPro={ViewPro}
               projectData={pakJazba}
@@ -933,7 +937,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Pakjazba is a one stop portal that allows users to buy & sell stuff, book room...'
               proAeroImg="ADBimg"
               ViewPro={ViewPro}
               projectData={pakJazba}
@@ -948,7 +952,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Pakjazba is a one stop portal that allows users to buy & sell stuff, book room...'
               proAeroImg="ADBimg"
               ViewPro={ViewPro}
               projectData={pakJazba}
@@ -967,7 +971,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Oxbridge, an English training start up, had an innovative approach to trainin...'
               proAeroImg="ADBimg"
               ViewPro={ViewPro}
               projectData={oxBridge}
@@ -982,7 +986,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Oxbridge, an English training start up, had an innovative approach to trainin...'
               proAeroImg="ADBimg"
               ViewPro={ViewPro}
               projectData={oxBridge}
@@ -997,7 +1001,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Oxbridge, an English training start up, had an innovative approach to trainin...'
               proAeroImg="ADBimg"
               ViewPro={ViewPro}
               projectData={oxBridge}
@@ -1015,7 +1019,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Amber Dazzle, an American cosmetics brand, wanted to launch their product lin...'
               proAeroImg="ADBimg"
               ViewPro={ViewPro}
               projectData={AmberDazzel}
@@ -1030,7 +1034,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Amber Dazzle, an American cosmetics brand, wanted to launch their product lin...'
               proAeroImg="ADBimg"
               ViewPro={ViewPro}
               projectData={AmberDazzel}
@@ -1045,7 +1049,7 @@ class Projects extends React.Component {
               locationUrl={""}
               seeAerro={devPeraImg}
               projctPera1="ADBpera1"
-              pera='An ambitious willing to help people be healthy. We designed and developed a...'
+              pera='Amber Dazzle, an American cosmetics brand, wanted to launch their product lin...'
               proAeroImg="ADBimg"
               ViewPro={ViewPro}
               projectData={AmberDazzel}

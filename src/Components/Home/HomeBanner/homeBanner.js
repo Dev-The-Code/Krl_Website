@@ -49,8 +49,8 @@ render() {
             <div className="row">
                 <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
                 <div className="col-12 col-md-11 col-lg-11 col-xl-11">
-                    <p className="para_Textt-home">KRL Creatives covers you for all your digital needs your brand needs to serve your audience well
-                        We design, develop and produce</p>
+                    <p className="para_Textt-home">KRL Creatives covers you for all your needs your brand needs to serve your audience well. We do consultation 
+                        and then we provide the right solutions.We design, develop and produce</p>
                 </div>
             </div>
         </div>

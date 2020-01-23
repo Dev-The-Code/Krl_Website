@@ -93,8 +93,7 @@ class ServicesPage extends React.Component {
                   </div>
                   <div className="nonProfitDev">
                     <p className="consultPera">
-                      Did you say photos and videos? Our producers are here with all
-                      their experience and expertise!
+                      We work with NGOs because we like to give back to the society and our people.
                       </p>
                   </div>
                 </div>
@@ -110,8 +109,7 @@ class ServicesPage extends React.Component {
                   </div>
                   <div className="developmentDev">
                     <p className="developmentPera">
-                      Did you say photos and videos? Our producers are here with all
-                      their experience and expertise!
+                    We know the struggles of a startup, and we are up to help them grow!
                       </p>
                   </div>
                 </div>
@@ -126,8 +124,7 @@ class ServicesPage extends React.Component {
                   </div>
                   <div className="designDev">
                     <p className="designPera">
-                      Did you say photos and videos? Our producers are here with all
-                      their experience and expertise!
+                    We have grown stronger enough to work with the biggest enterprises of the world!
                       </p>
                   </div>
                 </div>

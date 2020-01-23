@@ -102,7 +102,7 @@
         font-family: aleta-light;
         color: #adadad;
         line-height: 2.2vw;
-        width: 33%;
+        width: 44%;
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
@@ -136,7 +136,7 @@
         font-family: aleta-light;
         color: #adadad;
         line-height: 2.2vw;
-        width: 33%;
+        width: 45%;
     }
 }
 @media only screen and (min-device-width : 1600px) {
@@ -162,7 +162,7 @@
         font-family: aleta-light;
         color: #adadad;
         line-height: 2vw;
-        width: 30%;
+        width: 38%;
     }
 }
 /* #backImge_baner{

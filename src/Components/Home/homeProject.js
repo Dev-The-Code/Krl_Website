@@ -52,6 +52,7 @@ class Project extends React.Component {
                 <div className="row">
                     <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
                     <div className="d-none d-md-none d-lg-block d-xl-block col-lg-6 col-xl-6">
+                        {/*JIca*/}
                         <ProjectsContainer
                             projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-11 GFA_BgImg'
                             projctHedng="GFAhedng"
@@ -62,10 +63,10 @@ class Project extends React.Component {
                             locationUrl={"https://getfitathletic.pk/"}
                             seeAerro={devPeraImg}
                             projctPera1="GFApera1"
-                            pera={GFAperaas}
+                            pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program for...'
                             proAeroImg="GFAimg"
                         />
-
+                        {/*Acf*/}
                         <ProjectsContainer
                             projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImg'
                             projctHedng="Drenthedng"
@@ -76,13 +77,14 @@ class Project extends React.Component {
                             locationUrl={"http://drent1.herokuapp.com/"}
                             seeAerro={devPeraImg}
                             projctPera1="GFApera1"
-                            pera={Drentperaas}
+                            pera='Ayesha Chundrigar Foundation, an NGO helping out troubled animals, needed a...'
                             proAeroImg="GFAimg"
                         />
                     </div>
 
                     {/*ipad visible */}
                     <div className="d-none d-md-block d-lg-none d-xl-none col-md-6">
+                        {/*JIca*/}
                         <ProjectsContainer
                             projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-11 GFA_BgImg'
                             projctHedng="GFAhedng"
@@ -93,10 +95,10 @@ class Project extends React.Component {
                             locationUrl={"https://getfitathletic.pk/"}
                             seeAerro={devPeraImg}
                             projctPera1="GFApera1"
-                            pera={GFAperaas}
+                            pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program for...'
                             proAeroImg="GFAimg"
                         />
-
+                        {/*Acf*/}
                         <ProjectsContainer
                             projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImg'
                             projctHedng="Drenthedng"
@@ -107,13 +109,14 @@ class Project extends React.Component {
                             locationUrl={"http://drent1.herokuapp.com/"}
                             seeAerro={devPeraImg}
                             projctPera1="GFApera1"
-                            pera={Drentperaas}
+                            pera='Ayesha Chundrigar Foundation, an NGO helping out troubled animals, needed a...'
                             proAeroImg="GFAimg"
                         />
                     </div>
 
                     {/*monbile visible */}
                     <div className="d-block d-md-none d-lg-none d-xl-none col-11">
+                        {/*JIca*/}
                         <ProjectsContainer
                             projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgHomeMb'
                             projctHedng="GFAhedng"
@@ -124,10 +127,10 @@ class Project extends React.Component {
                             locationUrl={"https://getfitathletic.pk/"}
                             seeAerro={devPeraImg}
                             projctPera1="GFApera1"
-                            pera={GFAperaas}
+                            pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program for...'
                             proAeroImg="GFAimg"
                         />
-
+                        {/*Acf*/}
                         <ProjectsContainer
                             projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgHomeMb'
                             projctHedng="Drenthedng"
@@ -138,14 +141,14 @@ class Project extends React.Component {
                             locationUrl={"http://drent1.herokuapp.com/"}
                             seeAerro={devPeraImg}
                             projctPera1="GFApera1"
-                            pera={Drentperaas}
+                            pera='Ayesha Chundrigar Foundation, an NGO helping out troubled animals, needed a...'
                             proAeroImg="GFAimg"
                         />
                     </div>
 
 
                     <div className="col-12 col-md-5 col-lg-5 col-xl-5">
-
+                        {/*Siddiq Sons*/}
                         {/*mobile, ipad hidden*/}
                         <ProjectsContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-10 col-lg-10 ADB_HomBgImg'
                             projctHedng="ADBhedng"
@@ -156,7 +159,7 @@ class Project extends React.Component {
                             locationUrl={"https://www.amberdazzle.com/"}
                             seeAerro={devPeraImg}
                             projctPera1="ADBpera1"
-                            pera={Drentperaas}
+                            pera='Siddiqsons needed a brochure that could effectively communicate their...'
                             proAeroImg="ADBimg"
                         />
 
@@ -170,7 +173,7 @@ class Project extends React.Component {
                             locationUrl={"https://www.amberdazzle.com/"}
                             seeAerro={devPeraImg}
                             projctPera1="ADBpera1"
-                            pera={Drentperaas}
+                            pera='Siddiqsons needed a brochure that could effectively communicate their new direc...'
                             proAeroImg="ADBimg"
                         />
                         {/*mobile visible*/}
@@ -183,7 +186,7 @@ class Project extends React.Component {
                             locationUrl={"https://www.amberdazzle.com/"}
                             seeAerro={devPeraImg}
                             projctPera1="ADBpera1"
-                            pera={Drentperaas}
+                            pera='Siddiqsons needed a brochure that could effectively communicate their new direc...'
                             proAeroImg="ADBimg"
                         />
 
