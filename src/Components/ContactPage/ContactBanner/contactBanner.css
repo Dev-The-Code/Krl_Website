@@ -61,7 +61,7 @@
 @media only screen and (min-device-width : 1600px) {
     .baner_Text{
         color: white;
-        font-size: calc(12px + 4.6vw);
+        font-size: calc(12px + 4.5vw);
         font-family: aleta-bold;
         text-align: left;
         margin-left: -1vw;
