@@ -62,7 +62,7 @@ class OurTeam extends Component {
                   <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/waqasbnw_q8wazj.jpg'} />
                   <br/>
                   <h3>Waqas Mumtaz</h3>
-                  <p>(Application Developer")</p>
+                  <p>(Application Developer)</p>
                 </div>
                 <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{textAlign:'center',color:'white'}}>
                   <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/tahabnw_fjjr5n.jpg'} />
@@ -161,7 +161,7 @@ class OurTeam extends Component {
             <div className="col-10" style={{textAlign:'center',color:'white'}}>
               <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/waqasbnw_q8wazj.jpg'} />
               <h3>Waqas Mumtaz</h3>
-              <p>(Application Developer")</p>
+              <p>(Application Developer)</p>
             </div>
             <div className="col-1"></div>
           </div><br />
