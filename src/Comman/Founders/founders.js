@@ -38,8 +38,8 @@ class Founder extends Component {
                 <img href="#" className="devFondProf1" src={require('../../Assets/Images/profilePic.png')} />
               </div>
               <div className="col-md-10 col-sm-10 col-8 devFond1">
-                <p className="devFondName1">Muzaffer Khan</p>
-                <p className="devFondcomp1">CEO, Selmore Group</p>
+                <p className="devFondName1">Chiyo Mamiya</p>
+                <p className="devFondcomp1">Chief Advisor / Inter-Organizational Collaboration (JICA Project Team) </p>
               </div>
             </div>
           </div>
@@ -51,8 +51,8 @@ class Founder extends Component {
                 <img href="#" className="devFondProf1" src={require('../../Assets/Images/profilePic.png')} />
               </div>
               <div className="col-md-10 col-sm-10 col-8 devFond1">
-                <p className="devFondName1">Muzaffer Khan</p>
-                <p className="devFondcomp1">CEO, Selmore Group</p>
+                <p className="devFondName1">Chiyo Mamiya</p>
+                <p className="devFondcomp1">Chief Advisor / Inter-Organizational Collaboration (JICA Project Team) </p>
               </div>
             </div>
           </div>
