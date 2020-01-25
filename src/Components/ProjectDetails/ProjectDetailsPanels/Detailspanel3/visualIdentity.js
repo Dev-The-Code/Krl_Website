@@ -62,8 +62,8 @@ class VisualIdentity extends Component {
 
 
                     <div className="col-12 d-block d-xl-none d-lg-none d-md-none">
-                        <h3 className="visulIdntityHedng">Visual Identity</h3>
-                        {data.visualidentityLogo && <div className="row">
+                    {data.visualidentityLogo != '' &&  <h3 className="visulIdntityHedng">Visual Identity</h3>}
+                        {data.visualidentityLogo != '' &&  <div className="row">
                             <div className="col-12 devVidentity">
                                 <h3 className="V-IdentityLogo">Logo</h3>
                                 <p className="IdentityPeraMob">
@@ -74,7 +74,7 @@ class VisualIdentity extends Component {
                                 <img href="#" className="D-logo" src={data.visualidentityLogo[0]} />
                             </div>
                         </div> } 
-                        {data.colorPaletteAllColor && <div className="row">     
+                        {data.colorPaletteAllColor != '' && <div className="row">     
                             <div className="col-12 devVidentity2">
                                 <h3 className="visulIdntityshortHedng">Color Palette</h3>
                                 <p className="IdentityPeraMob2">
@@ -89,7 +89,7 @@ class VisualIdentity extends Component {
                                 })} 
                             </div>
                         </div>}
-                        {data.fontFamilyText && <div className="row">
+                        {data.fontFamilyText != '' && <div className="row">
                             <div className="col-12 devVidentity4">
                                 <h3 className="visulIdntityshortHedng1">Fonts</h3>
                                 <p className="IdentityPeraMob2">

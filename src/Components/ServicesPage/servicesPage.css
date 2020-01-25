@@ -512,12 +512,30 @@
     position: absolute;
 }
 .nonProfitImage{
-    background-image: url(../../Assets/Images/ngo.jpg);
+    background-image: url('https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872349/ngo_ynibp2.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 1vw;
     width: 20vw;
     height: 23.1vw;
+    position: absolute;
+}
+.nonProfitImageTablet{
+    background-image: url('https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872349/ngo_ynibp2.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1vw;
+    width: 37vw;
+    height: 32.1vw;
+    position: absolute;
+}
+.nonProfitImageMobile{
+    background-image: url('https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872349/ngo_ynibp2.jpg');
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 3vw;
+    width: 84vw;
+    height: 23vh;
     position: absolute;
 }
 .consulHedng{

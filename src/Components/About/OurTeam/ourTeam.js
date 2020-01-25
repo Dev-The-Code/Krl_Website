@@ -156,7 +156,7 @@ class OurTeam extends Component {
             </div>
             <div className="col-1"></div>
           </div>
-          <div className="row">
+        <div className="row">
             <div className="col-1"></div>
             <div className="col-10" style={{textAlign:'center',color:'white'}}>
               <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/waqasbnw_q8wazj.jpg'} />

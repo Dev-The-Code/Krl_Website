@@ -147,7 +147,7 @@ class ServicesPage extends React.Component {
               <div className="row">
 
                 <div className="col-md-6 col-sm-6 col-12" style={{ paddingLeft: '0vw' }}>
-                  <div className="consultImageSm">
+                  <div className="nonProfitImageTablet">
                     <h3 className="consulHedngSm">
                       Non Profits
                       </h3>
@@ -204,7 +204,7 @@ class ServicesPage extends React.Component {
             <div className="col-12">
               <div className="row">
                 <div className="col-12">
-                  <div className="consultImageMb">
+                  <div className="nonProfitImageMobile">
                     <h3 className="consulHedngMb">
                       Non Profits
                       </h3>
