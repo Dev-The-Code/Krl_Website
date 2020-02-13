@@ -131,7 +131,7 @@ class ServicesPage extends Component {
             offerH5text={offerHeading}
             offerPragph="offerPeras"
             offerPeraText='- Product Photography'
-            offerPeraText1='- TVC & Decumentaries'
+            offerPeraText1='- TVC & Documentaries'
             offerPeraText2='- Event Coverage'
             offerPeraText3='- Interviews & Podcasts'
             marketBox5="marketChildDev2"
@@ -229,7 +229,7 @@ class ServicesPage extends Component {
             offerH5text={offerHeading}
             offerPragph="offerPerasMob"
             offerPeraText='- Product Photography'
-            offerPeraText1='- TVC & Decumentaries'
+            offerPeraText1='- TVC & Documentaries'
             offerPeraText2='- Event Coverage'
             offerPeraText3='- Interviews & Podcasts'
             marketMobBox1="marketChildDevMob2"

@@ -10,189 +10,176 @@ class OurTeam extends Component {
     return (
       <div>
         <div className="d-none d-sm-block">
-        <div className="animatedup animatedFadeInUp fadeInUp">
-          <div className="row war_marG">
-            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-              <h2 className="team_txt">The Team</h2>
+          <div className="animatedup animatedFadeInUp fadeInUp">
+            <div className="row war_marG">
+              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <h2 className="team_txt">The Team</h2>
+              </div>
+            </div><br />
+            <div className="row" style={{ paddingBottom: '6vw' }}>
+              <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+              <div className="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+                <div className="row">
+                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{ textAlign: 'center', color: 'white' }}>
+                    <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/khumarbnw_ejdx7d.jpg'} />
+                    <br />
+                    <h3>Khumar Raza</h3>
+                    <p>(Co-Founder Of KRl Creatives)</p>
+                  </div>
+                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{ textAlign: 'center', color: 'white' }}>
+                    <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/saadbnw_jorehz.jpg'} />
+                    <br />
+                    <h3>Saad Masroor</h3>
+                    <p>(Design Department Lead)</p>
+                  </div>
+                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{ textAlign: 'center', color: 'white' }}>
+                    <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/masoodbnw_ugiv7k.jpg'} />
+                    <br />
+                    <h3>Masood Bukhari</h3>
+                    <p>(Production Department Lead)</p>
+                  </div>
+                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{ textAlign: 'center', color: 'white' }}>
+                    <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/shayanbnw_xunz3m.jpg'} />
+                    <br />
+                    <h3>Shayan Mutahir</h3>
+                    <p>(Wordpress Department Lead)</p>
+                  </div>
+                </div>
+                <div className="row" style={{ marginTop: '3vw' }}>
+                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{ textAlign: 'center', color: 'white' }}>
+                    <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/Awaisbnw_aug18u.jpg'} />
+                    <br />
+                    <h3>Awais Rehman</h3>
+                    <p>(Full Stack Developer)</p>
+                  </div>
+                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{ textAlign: 'center', color: 'white' }}>
+                    <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/daniyalbnw_zynssw.jpg'} />
+                    <br />
+                    <h3>Daniyal Raza</h3>
+                    <p>(Front End Developer)</p>
+                  </div>
+                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{ textAlign: 'center', color: 'white' }}>
+                    <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/waqasbnw_q8wazj.jpg'} />
+                    <br />
+                    <h3>Waqas Mumtaz</h3>
+                    <p>(Application Developer)</p>
+                  </div>
+                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{ textAlign: 'center', color: 'white' }}>
+                    <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787052/sheerazbnw_rccsbi.jpg'} />
+                    <br />
+                    <h3>M.Sheeraz</h3>
+                    <p>(Application Intern)</p>
+                  </div>
+                </div>
+                <div className="row" style={{ marginTop: '3vw' }}>
+                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{ textAlign: 'center', color: 'white' }}>
+                    <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/zainabbnw_mr5aeg.jpg'} />
+                    <br />
+                    <h3>Zainab Dawood</h3>
+                    <p>(Design Intern)</p>
+                  </div>
+                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  </div>
+                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  </div>
+                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
             </div>
-          </div><br />
-          <div className="row" style={{ paddingBottom: '6vw' }}>
-            <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-            <div className="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10">
-              <div className="row">
-                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{textAlign:'center',color:'white'}}>
-                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/khumarbnw_ejdx7d.jpg'} />
-                  <br/>
-                  <h3>Khumar Raza</h3>
-                  <p>(Co-Founder Of KRl Creatives)</p>
-                </div>
-                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{textAlign:'center',color:'white'}}>
-                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/saadbnw_jorehz.jpg'} />
-                  <br/>
-                  <h3>Saad Masroor</h3>
-                  <p>(Design Department Lead)</p>
-                </div>
-                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{textAlign:'center',color:'white'}}>
-                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/masoodbnw_ugiv7k.jpg'} />
-                  <br/>
-                  <h3>Masood Bukhari</h3>
-                  <p>(Production Department Lead)</p>
-                </div>
-                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{textAlign:'center',color:'white'}}>
-                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/shayanbnw_xunz3m.jpg'} />
-                  <br/>
-                  <h3>shayan Mutahir</h3>
-                  <p>(Wordpress Department Lead)</p>
-                </div>
-              </div>
-              <div className="row" style={{marginTop: '3vw'}}>
-                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{textAlign:'center',color:'white'}}>
-                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/Awaisbnw_aug18u.jpg'} />
-                  <br/>
-                  <h3>Awais Rehman</h3>
-                  <p>(Full Stack Developer)</p>
-                </div>
-                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{textAlign:'center',color:'white'}}>
-                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/daniyalbnw_zynssw.jpg'} />
-                  <br/>
-                  <h3>Daniyal Raza</h3>
-                  <p>(Front End Developer)</p>
-                </div>
-                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{textAlign:'center',color:'white'}}>
-                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/waqasbnw_q8wazj.jpg'} />
-                  <br/>
-                  <h3>Waqas Mumtaz</h3>
-                  <p>(Application Developer)</p>
-                </div>
-                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{textAlign:'center',color:'white'}}>
-                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/tahabnw_fjjr5n.jpg'} />
-                  <br/>
-                  <h3>M.Taha Siddiqi</h3>
-                  <p>(Web Intern)</p>
-                </div>
-              </div>
-              <div className="row" style={{marginTop: '3vw'}}>
-                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{textAlign:'center',color:'white'}}>
-                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787052/sheerazbnw_rccsbi.jpg'} />
-                  <br/>
-                  <h3>M.Sheeraz</h3>
-                  <p>(Application Intern)</p>
-                </div>
-                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3" style={{textAlign:'center',color:'white'}}>
-                  <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/zainabbnw_mr5aeg.jpg'} />
-                  <br/>
-                  <h3>Zainab Dawood</h3>
-                  <p>(Design Intern)</p>
-                </div>
-                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                </div>
-                <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
           </div>
-        </div>
         </div>
 
         <div className="d-block d-sm-none">
-        <div className="animatedup animatedFadeInUp fadeInUp">
-          <div className="row war_marG">
-            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-              <h2 className="team_txt_mob">The Team</h2>
+          <div className="animatedup animatedFadeInUp fadeInUp">
+            <div className="row war_marG">
+              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <h2 className="team_txt_mob">The Team</h2>
+              </div>
+            </div><br />
+            <div className="row">
+              <div className="col-1"></div>
+              <div className="col-10" style={{ textAlign: 'center', color: 'white' }}>
+                <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/khumarbnw_ejdx7d.jpg'} />
+                <h3>Khumar Raza</h3>
+                <p>(Co-Founder Of KRl Creatives)</p>
+              </div>
+              <div className="col-1"></div>
+            </div><br />
+            <div className="row">
+              <div className="col-1"></div>
+              <div className="col-10" style={{ textAlign: 'center', color: 'white' }}>
+                <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/saadbnw_jorehz.jpg'} />
+                <h3>Saad Masroor</h3>
+                <p>(Design Department Lead)</p>
+              </div>
+              <div className="col-1"></div>
+            </div><br />
+            <div className="row">
+              <div className="col-1"></div>
+              <div className="col-10" style={{ textAlign: 'center', color: 'white' }}>
+                <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/masoodbnw_ugiv7k.jpg'} />
+                <h3>Masood Bukhari</h3>
+                <p>(Production Department Lead)</p>
+              </div>
+              <div className="col-1"></div>
+            </div><br />
+            <div className="row">
+              <div className="col-1"></div>
+              <div className="col-10" style={{ textAlign: 'center', color: 'white' }}>
+                <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/shayanbnw_xunz3m.jpg'} />
+                <h3>Shayan Mutahir</h3>
+                <p>(Wordpress Department Lead)</p>
+              </div>
+              <div className="col-1"></div>
             </div>
-          </div><br />
-          <div className="row">
-            <div className="col-1"></div>
-            <div className="col-10" style={{textAlign:'center',color:'white'}}>
-              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/khumarbnw_ejdx7d.jpg'} />
-              <h3>Khumar Raza</h3>
-              <p>(Co-Founder Of KRl Creatives)</p>
+            <div className="row">
+              <div className="col-1"></div>
+              <div className="col-10" style={{ textAlign: 'center', color: 'white' }}>
+                <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/Awaisbnw_aug18u.jpg'} />
+                <h3>Awais Rehman</h3>
+                <p>(Full Stack Developer)</p>
+              </div>
+              <div className="col-1"></div>
+            </div><br />
+            <div className="row">
+              <div className="col-1"></div>
+              <div className="col-10" style={{ textAlign: 'center', color: 'white' }}>
+                <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/daniyalbnw_zynssw.jpg'} />
+                <h3>Daniyal Raza</h3>
+                <p>(Front End Developer)</p>
+              </div>
+              <div className="col-1"></div>
             </div>
-            <div className="col-1"></div>
-          </div><br />
-          <div className="row">
-            <div className="col-1"></div>
-            <div className="col-10" style={{textAlign:'center',color:'white'}}>
-              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/saadbnw_jorehz.jpg'} />
-              <h3>Saad Masroor</h3>
-              <p>(Design Department Lead)</p>
+            <div className="row">
+              <div className="col-1"></div>
+              <div className="col-10" style={{ textAlign: 'center', color: 'white' }}>
+                <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/waqasbnw_q8wazj.jpg'} />
+                <h3>Waqas Mumtaz</h3>
+                <p>(Application Developer)</p>
+              </div>
+              <div className="col-1"></div>
+            </div><br />
+            <div className="row">
+              <div className="col-1"></div>
+              <div className="col-10" style={{ textAlign: 'center', color: 'white' }}>
+                <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787052/sheerazbnw_rccsbi.jpg'} />
+                <h3>M.Sheeraz</h3>
+                <p>(Application Intern)</p>
+              </div>
+              <div className="col-1"></div>
+            </div><br />
+            <div className="row">
+              <div className="col-1"></div>
+              <div className="col-10" style={{ textAlign: 'center', color: 'white' }}>
+                <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/zainabbnw_mr5aeg.jpg'} />
+                <h3>Zainab Dawood</h3>
+                <p>(Design Intern)</p>
+              </div>
+              <div className="col-1"></div>
             </div>
-            <div className="col-1"></div>
-          </div><br />
-          <div className="row">
-            <div className="col-1"></div>
-            <div className="col-10" style={{textAlign:'center',color:'white'}}>
-              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/masoodbnw_ugiv7k.jpg'} />
-              <h3>Masood Bukhari</h3>
-              <p>(Production Department Lead)</p>
-            </div>
-            <div className="col-1"></div>
-          </div><br />
-          <div className="row">
-            <div className="col-1"></div>
-            <div className="col-10" style={{textAlign:'center',color:'white'}}>
-              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/shayanbnw_xunz3m.jpg'} />
-              <h3>shayan Mutahir</h3>
-              <p>(Wordpress Department Lead)</p>
-            </div>
-            <div className="col-1"></div>
           </div>
-          <div className="row">
-            <div className="col-1"></div>
-            <div className="col-10" style={{textAlign:'center',color:'white'}}>
-              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787050/Awaisbnw_aug18u.jpg'} />
-              <h3>Awais Rehman</h3>
-              <p>(Full Stack Developer)</p>
-            </div>
-            <div className="col-1"></div>
-          </div><br />
-          <div className="row">
-            <div className="col-1"></div>
-            <div className="col-10" style={{textAlign:'center',color:'white'}}>
-              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/daniyalbnw_zynssw.jpg'} />
-              <h3>Daniyal Raza</h3>
-              <p>(Front End Developer)</p>
-            </div>
-            <div className="col-1"></div>
-          </div>
-        <div className="row">
-            <div className="col-1"></div>
-            <div className="col-10" style={{textAlign:'center',color:'white'}}>
-              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/waqasbnw_q8wazj.jpg'} />
-              <h3>Waqas Mumtaz</h3>
-              <p>(Application Developer)</p>
-            </div>
-            <div className="col-1"></div>
-          </div><br />
-          <div className="row">
-            <div className="col-1"></div>
-            <div className="col-10" style={{textAlign:'center',color:'white'}}>
-              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/tahabnw_fjjr5n.jpg'} />
-              <h3>M.Taha Siddiqi</h3>
-              <p>(Web Intern)</p>
-            </div>
-            <div className="col-1"></div>
-          </div>
-          <div className="row">
-            <div className="col-1"></div>
-            <div className="col-10" style={{textAlign:'center',color:'white'}}>
-              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787052/sheerazbnw_rccsbi.jpg'} />
-              <h3>M.Sheeraz</h3>
-              <p>(Application Intern)</p>
-            </div>
-            <div className="col-1"></div>
-          </div><br />
-          <div className="row">
-            <div className="col-1"></div>
-            <div className="col-10" style={{textAlign:'center',color:'white'}}>
-              <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/zainabbnw_mr5aeg.jpg'} />
-              <h3>Zainab Dawood</h3>
-              <p>(Design Intern)</p>
-            </div>
-            <div className="col-1"></div>
-          </div>
-        </div>
         </div>
       </div>
 

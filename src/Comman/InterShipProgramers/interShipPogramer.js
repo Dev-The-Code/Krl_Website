@@ -22,7 +22,7 @@ class InterShipProgramer extends Component {
                     <div className="row">
                         <div className="col-xl-5 col-lg-5 col-md-5 col-12"></div> 
                         <div className="col-xl-7 col-lg-7 col-md-7 col-12 d-none d-xl-block d-lg-block d-md-block internShipText">
-                            <h1 className="interH1">Intership Programs</h1>
+                            <h1 className="interH1">Internship Programs</h1>
                             <p className="internPera">There is something so beautiful and special about handmade things. 
                                 The thought, the effort, the planning, the delivery, the emotions. 
                                 It can’t be quantified. The result might be one simple card or item but it 
@@ -34,7 +34,7 @@ class InterShipProgramer extends Component {
                             </p>
                         </div>
                         <div className="col-12 d-block d-xl-none d-lg-none d-md-none internShipTextMob">
-                            <h1 className="interH1Mob">Intership Programs</h1>
+                            <h1 className="interH1Mob">Internship Programs</h1>
                             <p className="internPeraMob">There is something so beautiful and special about handmade things. 
                                 The thought, the effort, the planning, the delivery, the emotions. 
                                 It can’t be quantified. The result might be one simple card or item but it 

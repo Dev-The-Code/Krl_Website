@@ -12,7 +12,7 @@ class PanelDetails extends Component {
                 <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
                 <div className="col-xl-10 col-lg-10 col-md-10 col-12">
                   <Link rel="noopener noreferrer" to={`/project`}  className="changingdec">
-                    <button className="bck-to-pro"> &lt;Back to project list</button>
+                    <button className="bck-to-pro"> &lt; Back to project list</button>
                   </Link>
                 </div>
                 <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>

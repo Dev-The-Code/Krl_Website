@@ -21,7 +21,7 @@
 }
 .fB_sitesNam{
     font-family:  aleta-bold;
-    color:rgb(66, 66, 66);
+    color:rgb(93, 89, 89);
     text-decoration: underline;
 }
 .fB_sitesNam:hover{
@@ -33,19 +33,19 @@
 .linKDi_sitesNam{
     margin-left: 2vw;
     font-family:  aleta-bold;
-    color: rgb(66, 66, 66);
+    color: rgb(93, 89, 89);
     text-decoration: underline;
 }
 .linKDi_sitesNam:hover{
     font-family: aleta-bold;
-    color:#0077b5;
+    color:#007bb6;
     text-decoration: none;
     cursor: pointer;
 }
 .twiTer_sitesNam{
     margin-left: 2vw;
     font-family :aleta-bold;
-    color: rgb(66, 66, 66);
+    color:rgb(93, 89, 89);
     text-decoration: underline;
 }
 .twiTer_sitesNam:hover{
@@ -57,7 +57,7 @@
 .insta_sitesNam{
     margin-left: 2vw;
     font-family:  aleta-bold;
-    color: rgb(66, 66, 66);
+    color: rgb(93, 89, 89);
     text-decoration: underline;
 }
 .insta_sitesNam:hover{

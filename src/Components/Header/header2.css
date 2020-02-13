@@ -2,7 +2,7 @@
     width: calc(10px + 13.9vw);
 }
 .nav_list{
-    padding-top: 2.1vw;
+    padding-top: 3.3vw;
 }
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
@@ -151,7 +151,7 @@
     }
     .innerRuww{
         /* padding-top: 15vw;  */
-        padding-top: 4vw; 
+        padding-top: 6vw; 
         padding-bottom: 15vw;
     }
 }
@@ -438,7 +438,7 @@
         cursor : pointer;
     }
     .halfNav{
-        padding: 14.5vw 3vw 6vw 3vw
+        padding: 13.8vw 3vw 6vw 3vw
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
@@ -726,7 +726,7 @@
 }
 .fB_sitesNam-Nav{
     font-family: aleta-bold;
-    color:rgb(66, 66, 66) ;
+    color:rgb(93, 89, 89);
     text-decoration: underline;
 }
 .fB_sitesNam-Nav:hover{
@@ -736,12 +736,12 @@
     cursor : pointer;
 }
 .linkColor{
-    color: rgb(66, 66, 66);
+    color: rgb(93, 89, 89);
 }
 .linKDi_sitesNam-Nav{
     margin-left: 2vw;
     font-family: aleta-bold;
-    color: rgb(66, 66, 66);
+    color: rgb(93, 89, 89);
     text-decoration: underline;
 }
 .linKDi_sitesNam-Nav:hover{
@@ -753,7 +753,7 @@
 .twiTer_sitesNam-Nav{
     margin-left: 2vw;
     font-family: aleta-bold;
-    color: rgb(66, 66, 66);
+    color: rgb(93, 89, 89);
     text-decoration: underline;
 }
 .twiTer_sitesNam-Nav:hover{
@@ -765,7 +765,7 @@
 .insta_sitesNam-Nav{
     margin-left: 2vw;
     font-family: aleta-bold;
-    color: rgb(66, 66, 66);
+    color: rgb(93, 89, 89);
     text-decoration: underline;
 }
 .insta_sitesNam-Nav:hover{

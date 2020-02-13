@@ -8,7 +8,7 @@ class Header2 extends Component {
     super(props);
     this.state = {
       response: false,
-      classAfter : false
+      classAfter: false
     };
   }
   openNav = () => {
@@ -18,11 +18,11 @@ class Header2 extends Component {
     }, 0);
   }
   closeNav = () => {
-    this.setState({ response: false , classAfter: false  });
+    this.setState({ response: false, classAfter: false });
   }
 
   // componentDidMount() {
-    
+
   // }
 
   render() {
@@ -34,22 +34,22 @@ class Header2 extends Component {
         {this.state.response ?
           <div>
             <div className="d-none d-sm-block">
-              <div className="naVBar_aliGN">              
-                  <div className={this.state.classAfter ? 'row headRuwAfter' : 'row headRuw'}>
+              <div className="naVBar_aliGN">
+                <div className={this.state.classAfter ? 'row headRuwAfter' : 'row headRuw'}>
                   <div className="col-md-1 col-lg-1 col-xl-1 colorrr"></div>
                   <div className="col-md-10 col-lg-10 col-xl-10 colorrr">
                     <div className="row innerRuww colorrr">
                       <div className="col-md-1 col-lg-2 col-xl-2"></div>
                       <div className="col-md-4 col-lg-4 col-xl-4">
                         <ul style={{ listStyle: 'none' }}>
-                          <li className="nav_list">
+                          {/* <li className="nav_list">
                             <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
                               <Button
                                 classMd="nav_bTnTeXt"
                                 label='Home'
                               />
                             </Link>
-                          </li>
+                          </li> */}
                           <li className="nav_list">
                             <Link rel="noopener noreferrer" to={`/services`} onClick={this.closeNav}>
                               <Button
@@ -104,20 +104,31 @@ class Header2 extends Component {
                           <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
                             <img href="#" className="logo" src={require('../../Assets/Images/logo-03.png')} />
                           </Link>
-
                           <br />
                           <p className="adressNav">
-                            3rd floor، 59-C 24th St,<br />
-                            Phase V Tauheed Commercial Area <br />
-                            Defence V Defence Housing Authority,<br />
-                            Karachi, Karachi City, Sindh 75500</p>
-                          <br />
+                            2nd Floor, 1-D, Sunset Tower, <br />
+                            Sunset Boulevard, D.H.A ,<br />
+                            Phase 2 Punjab Colony,<br />
+                            Karachi, Sindh 75500</p>
                           <div>
                             <ul className="social_lst-Nav">
-                              <li className="fB_sitesNam-Nav"><a href="https://www.facebook.com/krlcreatives/" target="_blank" className="linkColor">Facebook</a></li>
-                              <li className="linKDi_sitesNam-Nav"><a href="https://www.linkedin.com/company/krl-creatives/" target="_blank" className="linkColor">Linkedin</a></li>
-                              <li className="twiTer_sitesNam-Nav"><a href="https://twitter.com/KrlCreatives" target="_blank" className="linkColor">Twitter</a></li>
-                              <li className="insta_sitesNam-Nav"><a href="https://www.instagram.com/krlcreatives/" target="_blank" className="linkColor">Instagram</a></li>
+                              <li>
+                                <a href="https://www.facebook.com/krlcreatives/" target="_blank" className="linkColor">
+                                  <p className="fB_sitesNam-Nav">Facebook</p>
+                                  </a>
+                              </li>
+                              <li>
+                                <a href="https://www.linkedin.com/company/krl-creatives/" target="_blank" className="linkColor">
+                                  <p className="linKDi_sitesNam-Nav">Linkedin</p>
+                                </a></li>
+                              <li>
+                                <a href="https://twitter.com/KrlCreatives" target="_blank" className="linkColor">
+                                  <p className="twiTer_sitesNam-Nav">Twitter</p>
+                                </a></li>
+                              <li>
+                                <a href="https://www.instagram.com/krlcreatives/" target="_blank" className="linkColor">
+                                  <p className="insta_sitesNam-Nav">Instagram</p>
+                                </a></li>
                             </ul>
                           </div>
                         </div>
@@ -126,7 +137,7 @@ class Header2 extends Component {
                   </div>
                   <div className="col-md-1 col-lg-1 col-xl-1 colorrr"></div>
                 </div>
-                  
+
               </div>
             </div>
 
@@ -223,7 +234,7 @@ class Header2 extends Component {
 
                       </div>
                     </div>
-                    <div className="row" style={{marginTop: '-7vw'}}>
+                    <div className="row" style={{ marginTop: '-7vw' }}>
                       <div className="col-12">
                         <ul className="social_lst-Nav_mob">
                           <li className="fB_sitesNam-Nav_mob"><a href="https://www.facebook.com/krlcreatives/" target="_blank" className="MobLinkColorF">Fb</a></li>
@@ -235,8 +246,8 @@ class Header2 extends Component {
                       <div className="row">
                         <div className="col-12">
                           <ul className="social_lst-Nav_mob">
-                            
-                            
+
+
                           </ul>
                         </div>
                       </div>
@@ -250,7 +261,7 @@ class Header2 extends Component {
           <div>
             <div className="d-none d-sm-block">
               {/* <div className="row hederSticky"> */}
-              <div className={`row ${ this.props.headerDesktop}`}> 
+              <div className={`row ${this.props.headerDesktop}`}>
                 <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
                 <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6 loGo_devv">
                   <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
@@ -271,7 +282,7 @@ class Header2 extends Component {
 
             <div className="d-block d-sm-none">
               {/* <div className="row hederStickyMob2"> */}
-              <div className={`row ${ this.props.headerMob}`}>
+              <div className={`row ${this.props.headerMob}`}>
                 <div className="col-6">
                   <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
                     <img href="#" className="logoo_Mob" src={require('../../Assets/Images/logo-03.png')} />

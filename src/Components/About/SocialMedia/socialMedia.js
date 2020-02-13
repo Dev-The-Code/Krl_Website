@@ -19,10 +19,26 @@ class SocialMedia extends Component {
               <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
               <div className="col-12 col-md-10 col-lg-10 col-xl-10">
                 <ul className="social_lst">
-                  <li className="fB_sitesNam"><a href="https://www.facebook.com/krlcreatives/" target="_blank" className="linkColor">Facebook</a></li>
-                  <li className="linKDi_sitesNam"><a href="https://www.linkedin.com/company/krl-creatives/" target="_blank" className="linkColor">Linkedin</a></li>
-                  <li className="twiTer_sitesNam"><a href="https://twitter.com/KrlCreatives" target="_blank" className="linkColor">Twitter</a></li>
-                  <li className="insta_sitesNam"><a href="https://www.instagram.com/krlcreatives/" target="_blank" className="linkColor">Instagram</a></li>
+                  <li>
+                    <a href="https://www.facebook.com/krlcreatives/" target="_blank" className="linkColor">
+                      <p className="fB_sitesNam">Facebook</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/krl-creatives/" target="_blank" className="linkColor">
+                      <p className="linKDi_sitesNam">Linkedin</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/KrlCreatives" target="_blank" className="linkColor">
+                      <p className="twiTer_sitesNam">Twitter</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/krlcreatives/" target="_blank" className="linkColor">
+                      <p className="insta_sitesNam">Instagram</p>
+                    </a>
+                  </li>
                 </ul>
               </div>
               <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>

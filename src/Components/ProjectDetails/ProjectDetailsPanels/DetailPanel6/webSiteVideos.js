@@ -20,14 +20,14 @@ class WebSiteVideo extends Component {
                         return (
 
                             <div className="row">
-                                <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+                                <div className="col-xl-1 col-lg-1 col-md-1 col-1"></div>
                                 <div className="col-xl-10 col-lg-10 col-md-10 col-10">
                                     <video className="videoDemo" controls autoplay>
                                         <source src={elem} type="video/ogg" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
-                                <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+                                <div className="col-xl-1 col-lg-1 col-md-1 col-1"></div>
                             </div>
 
                         )
