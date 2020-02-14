@@ -13,6 +13,7 @@ import Project from './Components/Projects/projects';
 import Contact from './Components/ContactPage/contact';
 import ProjectDetails from './Components/ProjectDetails/projectDetailsMain';
 import Splash from './Components/SplashScreen/splashScreen';
+import FourZeroFour from './Components/404page/404';
 import './App.css';
 
 
@@ -37,6 +38,7 @@ class Routes extends React.Component {
         <BrowserRouter>
           <div>
             <Route exact path="/" component={firstScreen} />
+            {/* <Route path='*' exact={true} component={FourZeroFour} /> */}
             <Route path="/about" component={About} />
             <Route path="/blog Detail" component={BlogDetail} />
             <Route path="/contact" component={Contact} />
@@ -44,6 +46,7 @@ class Routes extends React.Component {
             <Route path="/project" component={Project} />
             <Route path="/projects" component={ProjectDetails} />
             <Route path="/services" component={Services} />
+            <Route path="*" component={FourZeroFour} />
           </div>
         </BrowserRouter>
       </div>

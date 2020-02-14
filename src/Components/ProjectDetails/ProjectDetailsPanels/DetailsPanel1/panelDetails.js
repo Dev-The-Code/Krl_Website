@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../DetailsPanel1/panelDetails.css';
+import ArrowImg from '../../../../Assets/Images/arrow.png';
 class PanelDetails extends Component {
 
   render() {
@@ -12,7 +13,8 @@ class PanelDetails extends Component {
                 <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
                 <div className="col-xl-10 col-lg-10 col-md-10 col-12">
                   <Link rel="noopener noreferrer" to={`/project`}  className="changingdec">
-                    <button className="bck-to-pro"> &lt; Back to project list</button>
+                    <img src={ArrowImg} alt="arrow" className="arowBackImg" />
+                    <button className="bck-to-pro">Back to project list</button>
                   </Link>
                 </div>
                 <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>

@@ -1,16 +1,38 @@
 .bck-to-pro{
-    border: none !important;
-    /* background: -webkit-linear-gradient( 360deg,#0ac3d0 , #953797 );
+    /* border: none !important;
+    background: -webkit-linear-gradient( 360deg,#0ac3d0 , #953797 );
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
     font-size: calc(13px + 0.5vmax);
     font-family: aleta-light;
     cursor: pointer;
     text-decoration: underline;
     background: none;
     color: #d4d4d4;
+    margin-top: 13vmax; */
+    border: none !important;
+    font-size: calc(13px + 0.5vmax);
+    font-family: aleta-light;
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+    color: #b7abab;
     margin-top: 13vmax;
-    
+    margin-left: 10px;
+}
+.arowBackImg{
+    -webkit-transform: translateX(100%) rotate(180deg); /* Safari */
+    -moz-transform: translateX(100%) rotate(180deg); /* Firefox 3.6 Firefox 4 */
+    -ms-transform: translateX(100%) rotate(180deg); /* IE9 */
+    -o-transform: translateX(100%) rotate(180deg); /* Opera */
+    transform: translateX(100%) rotate(180deg); /* W3C */  
+    -webkit-transform-origin: left bottom;
+    -moz-transform-origin: left bottom;
+    -ms-transform-origin: left bottom;
+    -o-transform-origin: left bottom;
+    transform-origin: left bottom;
+    margin-top: -85px;
+    height: 40px;
 }
 .panelHeading{
     margin-top: 11vw;
