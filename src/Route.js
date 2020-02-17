@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-import { BrowserRouter, Route } from 'react-router-dom';
+import {Switch, BrowserRouter, Route } from 'react-router-dom';
 
 //Components//
 import About from './Components/About/about';
@@ -38,7 +38,7 @@ class Routes extends React.Component {
         <BrowserRouter>
           <div>
             <Route exact path="/" component={firstScreen} />
-            {/* <Route path='*' exact={true} component={FourZeroFour} /> */}
+            {/* <Route path='*' component={FourZeroFour} /> */}
             <Route path="/about" component={About} />
             <Route path="/blog Detail" component={BlogDetail} />
             <Route path="/contact" component={Contact} />
@@ -46,8 +46,10 @@ class Routes extends React.Component {
             <Route path="/project" component={Project} />
             <Route path="/projects" component={ProjectDetails} />
             <Route path="/services" component={Services} />
-            <Route path="*" component={FourZeroFour} />
           </div>
+        </BrowserRouter>
+        <BrowserRouter>
+            <Route component={FourZeroFour} />
         </BrowserRouter>
       </div>
     );

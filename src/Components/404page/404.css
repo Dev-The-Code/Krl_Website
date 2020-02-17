@@ -1,3 +1,54 @@
-.padTop404Pg{
-    padding-top: 16vw;
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .padTop404Pg{
+        padding-top: 60vw;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .padTop404Pg{
+        padding-top: 18vw;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .padTop404Pg{
+        padding-top: 18vw;
+    }
+}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .padTop404Pg{
+        padding-top: 18vw;
+    }
+}
+@media only screen and (min-device-width : 1600px){
+    .padTop404Pg{
+        padding-top: 25vw;
+    }
+}
+
+.opHeading{
+    color: white;
+    font-family: aleta-bold;
+    letter-spacing: 2px;
+}
+.erorPara{
+    color: white;
+    font-family: aleta-bold;
+    letter-spacing: 2px;
+}
+.goBackHomBtn{
+    color: white;
+    font-family: aleta-bold;
+    background-color: black;
+    padding: 0.5vw 2vw 0.5vw 2vw;
+    font-size: 14px;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.goBackHomBtn:hover{
+    color: black;
+    font-family: aleta-bold;
+    background: -webkit-linear-gradient( 360deg, #0ac3d0, #953797 );
+    padding: 0.5vw 2vw 0.5vw 2vw;
+    font-size: 14px;
+    margin-top: 10px;
+    border: 1px solid #953797;
 }

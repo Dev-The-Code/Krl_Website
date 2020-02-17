@@ -26,12 +26,14 @@ class FourZeroFour extends React.Component {
         return (
             <div>
                 <Header2 headerPath={'404'} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
-                <div className="all_backgrundImageAfter animateFadeIn" style={{height:'100vh'}}>
+                <div className="all_backgrundImageAfter animateFadeIn" style={{ height: '100vh' }}>
                     <div className="row padTop404Pg">
-                        <div className="col-12 col-md-12 col-lg-12 col-xl-12">
-                            <h1 className="">Oops.</h1>
-                            <p className="">The Page you're trying to reach doesn't exist</p>
-                            <button className="">Go back to Homepage</button>
+                        <div className="col-12 col-md-12 col-lg-12 col-xl-12" style={{ textAlign: 'center' }}>
+                            <h1 className="opHeading">Oops.</h1>
+                            <p className="erorPara">The Page you're trying to reach doesn't exist</p>
+                            <Link rel="noopener noreferrer" to={`/`}>
+                                <button className="goBackHomBtn">Go back to Homepage</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
