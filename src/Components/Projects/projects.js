@@ -38,7 +38,7 @@ var siddiqSons = {
   demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579702459/VID2_nmkc9u.mp4'],
   documentHeading: 'Brochure Design',
   documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864122/iteration_2_a_abk0ic.jpg',
-                 ],
+  ],
   mainVideoPanel: [{
     mainHead: '',
     mainHeadsubText: '',
@@ -74,7 +74,7 @@ var jicaLightF = {
   demoVideo: [''],
   documentHeading: 'Letterhead & Business Card',
   documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864122/jica-identity_ulopt4.jpg',
-                 ],
+  ],
   mainVideoPanel: [{
     mainHead: '',
     mainHeadsubText: '',
@@ -126,10 +126,10 @@ var drentBrand = {
   visualidentityLogo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579696864/drent-logo_d0usqb.png'],
   visualidentityLogoText: 'The logo consists of a rhombus shape made out of leaves Ancient Greek kings are known to wear. We chose this symbol and a luxurious serif font to give a royal look.',
   colorpaletteText: 'Since Drent was going with a royal look, we decided to go with a combination of Purple (that represents royalty and wealth) and Gold (because of its association with the precious metal: gold).',
-  colorPaletteAllColor: ['#CB9D6C', '#F0D1B2', '#473463', '#2A1F3B', '#353535','#9B9B9B'],
+  colorPaletteAllColor: ['#CB9D6C', '#F0D1B2', '#473463', '#2A1F3B', '#353535', '#9B9B9B'],
   fontText: 'We chose Playfair Display and Tajawal for their elegant feel. Being luxurious yet modern, the combo is a perfect fit.',
-  fontFamilyText: ['Playfair Display','Tajawal'],
-  fontFamily: ['Playfair Display','Tajawal'],
+  fontFamilyText: ['Playfair Display', 'Tajawal'],
+  fontFamily: ['Playfair Display', 'Tajawal'],
   illustration: [
     {
       illustrationText: 'Illustrations',
@@ -147,7 +147,7 @@ var drentBrand = {
   demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698351/1_vqvncd.mp4'],
   documentHeading: '',
   documentDemo: ['',
-                 ],
+  ],
   mainVideoPanel: [{
     mainHead: '',
     mainHeadsubText: '',
@@ -174,7 +174,7 @@ var aCFRescue = {
       illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579699563/img_8152_p3wsuj.jpg',
         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579699574/img_8150_kdyq2a.jpg',
         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579699581/img_8160_rrdzzo.jpg',
-        ],
+      ],
     },
     {
       illustrationText: 'Photography',
@@ -183,7 +183,7 @@ var aCFRescue = {
         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701229/IMG_9056_jzjlou.jpg',
         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701613/IMG_9159_cdmznr.jpg',
         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701604/IMG_9165_ly5g7n.jpg'
-        ],
+      ],
     },
     {
       illustrationText: 'Product Photography',
@@ -192,15 +192,15 @@ var aCFRescue = {
         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700752/IMG_0984_ihidlo.jpg',
         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700753/IMG_1014_sf8ej9.jpg',
         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700760/IMG_0938_hf3txp.jpg'
-        ],
+      ],
     },
   ],
   demoHeading: 'Final Website Videos',
   demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698702/1_hsmghk.mp4',
-              'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698708/3_qr4mto.mp4'],
+    'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698708/3_qr4mto.mp4'],
   documentHeading: '',
   documentDemo: ['',
-                 ],
+  ],
   mainVideoPanel: [{
     mainHead: '',
     mainHeadsubText: '',
@@ -229,13 +229,13 @@ var pakJazba = {
   ],
   demoHeading: 'Final Portal Videos',
   demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703973/03_dg5fcg.mp4',
-              'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703984/04_exnwk9.mp4',
-              'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703993/02_qyajzu.mp4',
-              'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579704003/01_bn99ch.mp4'  
-          ],
+    'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703984/04_exnwk9.mp4',
+    'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703993/02_qyajzu.mp4',
+    'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579704003/01_bn99ch.mp4'
+  ],
   documentHeading: '',
   documentDemo: ['',
-                 ],
+  ],
   mainVideoPanel: [{
     mainHead: '',
     mainHeadsubText: '',
@@ -302,12 +302,12 @@ var oxBridge = {
   ],
   demoHeading: 'Final Website Video',
   demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707232/1_srkudb.mp4',
-              'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707223/2_c2iriy.mp4',
-              
+    'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707223/2_c2iriy.mp4',
+
   ],
   documentHeading: '',
   documentDemo: ['',
-                 ],
+  ],
   mainVideoPanel: [{
     mainHead: 'Marketing & Video',
     mainHeadsubText: 'KRL Creatives’ marketing department provides consultation to Oxbridge for strengthening their brand and find the right target audience. We also shoot their video podcasts for their website and social media.',
@@ -323,7 +323,7 @@ var ziyaratBrand = {
   visualidentityLogo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579706510/Ziyarat-Final_sbrpqx.png'],
   visualidentityLogoText: 'Since Ziyarat needed a premium, traditional yet modern feel for their brand, we gave them a logo with ornaments and a modern font.',
   colorpaletteText: 'We gave Ziyarat a royal combination of Burgundy and Gold that gives it a rich feeling.',
-  colorPaletteAllColor: ['#671429','#E3B16D','#CE8497'],
+  colorPaletteAllColor: ['#671429', '#E3B16D', '#CE8497'],
   fontText: 'Ziyarat Logo uses San Marino font that is modern and royal.',
   fontFamilyText: ['San Marino'],
   fontFamily: ['San-Marino'],
@@ -336,7 +336,7 @@ var ziyaratBrand = {
   ],
   demoHeading: 'Final Website Video',
   demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706642/1_jtphb8.mp4',
-              'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706651/2_zch1v6.mp4'    
+    'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706651/2_zch1v6.mp4'
   ],
   documentHeading: '',
   documentDemo: [''],
@@ -368,15 +368,15 @@ var dallasPalm = {
   ],
   demoHeading: 'Final Website Videos',
   demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774405/2_jym2hq.mp4',
-            'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774411/6_av7vol.mp4',
-            'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774412/4_afbv1d.mp4',
-            'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774414/1_jr5o25.mp4',
-            'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774414/3_yeogym.mp4',
-            'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774419/5_wfpqik.mp4',   
-            ],
+    'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774411/6_av7vol.mp4',
+    'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774412/4_afbv1d.mp4',
+    'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774414/1_jr5o25.mp4',
+    'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774414/3_yeogym.mp4',
+    'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579774419/5_wfpqik.mp4',
+  ],
   documentHeading: '',
   documentDemo: ['',
-                 ],
+  ],
   mainVideoPanel: [{
     mainHead: '',
     mainHeadsubText: '',
@@ -404,10 +404,10 @@ var AmberDazzel = {
     },
   ],
   demoHeading: 'Final Website Video',
-  demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703499/01_dbtzfq.mp4','https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703523/02_iyiama.mp4'],
+  demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703499/01_dbtzfq.mp4', 'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703523/02_iyiama.mp4'],
   documentHeading: '',
   documentDemo: ['',
-                 ],
+  ],
   mainVideoPanel: [{
     mainHead: '',
     mainHeadsubText: '',
@@ -429,7 +429,7 @@ class Projects extends React.Component {
       oxBridge: oxBridge,
       ziyaratBrand: ziyaratBrand,
       dallasPalm: dallasPalm,
-      AmberDazzel:AmberDazzel,
+      AmberDazzel: AmberDazzel,
 
       banrPeragh: 'KRL Creatives covers you for all digital assets your brand needs to serve your audience well.',
       banrPeragh1: 'We design, develop and produce.',
@@ -454,7 +454,7 @@ class Projects extends React.Component {
 
   render() {
     const { GFAperaas, devPeraImg, headingpera, headingpera1, headingpera2, banFuturPro, ViewPro, headerPath,
-      siddiqSons, jicaLightF, getFit, drentBrand, aCFRescue, pakJazba, circleWomen, oxBridge, ziyaratBrand, dallasPalm,AmberDazzel
+      siddiqSons, jicaLightF, getFit, drentBrand, aCFRescue, pakJazba, circleWomen, oxBridge, ziyaratBrand, dallasPalm, AmberDazzel
     } = this.state
     // console.log(siddiqSons, 'siddiqSons')
     return (
@@ -551,23 +551,21 @@ class Projects extends React.Component {
               />
             </div>
           </div>
+
+
           <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
+        </div>
+        <div className="row">
+          <div className="col-12 col-md-1 col-xl-1 col-lg-1"></div>
 
+          <div className="col-11 col-md-5 col-xl-6 col-lg-6 bigProjectLeft">
 
-          {/*peraChld="childPera"
-                banPera={banrPeragh}
-                banPera1={banrPeragh1} */}
-
-          <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
-
-          <div className="d-none d-md-none d-lg-block d-xl-block col-xl-6 col-lg-6" style={{ marginTop: '21vw' }}>
-
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 LightFDesktop'
+            <ProjectContainer projctBox='col-12 col-md-12 col-xl-11 col-lg-11 LightFProject'
               projctHedng="GFAhedng"
               locationUrl={""}
               hed='LIGHT-F Project By'
               hed1='JICA & Sindh Gvt'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctChildBox="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject"
               projctPera="GFApera"
 
               seeAerro={devPeraImg}
@@ -578,11 +576,11 @@ class Projects extends React.Component {
               projectData={jicaLightF}
             />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GetFitDesktop'
+            <ProjectContainer projctBox='col-12 col-md-12 col-xl-11 col-lg-11 GetFitProject'
               projctHedng="Drenthedng"
               hed='GetFitAthletic Branding'
               hed1='Mobile App & Website'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctChildBox="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject"
               projctPera="GFApera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -593,13 +591,11 @@ class Projects extends React.Component {
               projectData={getFit}
             />
 
-            <Founder />
-
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 CircleDesktop'
+            <ProjectContainer projctBox='col-12 col-md-12 col-xl-11 col-lg-11 CircleProject'
               projctHedng="GFAhedng"
               hed='Circle Women Merch'
               hed1='Design'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctChildBox="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject"
               projctPera="GFApera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -610,11 +606,11 @@ class Projects extends React.Component {
               projectData={circleWomen}
             />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 ZiyaratDesktop'
+            <ProjectContainer projctBox='col-12 col-md-12 col-xl-11 col-lg-11 ZiyaratProject'
               projctHedng="Drenthedng"
               hed='Ziyarat Branding'
               hed1='Websites'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctChildBox="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject"
               projctPera="GFApera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -625,95 +621,11 @@ class Projects extends React.Component {
               projectData={ziyaratBrand}
             />
 
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DallasPalmDesktop'
+            <ProjectContainer projctBox='col-12 col-md-12 col-xl-11 col-lg-11 DallasPalmProject'
               projctHedng="Drenthedng"
               hed='Dallas Palms'
               hed1='Website'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
-              projctPera="GFApera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="GFApera1"
-              pera='Dallas Palms, a wedding venue in Dallas, wanted to launch their website that co...'
-              proAeroImg="GFAimg"
-              ViewPro={ViewPro}
-              projectData={dallasPalm}
-
-            />
-
-          </div>
-
-
-          {/*ipad visible */}
-
-          <div className="d-none d-md-block col-lg-none d-xl-none col-md-5" style={{ marginTop: '21vw' }}>
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 LightFTablet'
-              projctHedng="GFAhedng"
-              hed='LIGHT-F Project By'
-              hed1='JICA & Sindh Gvt'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
-              projctPera="GFApera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="GFApera1"
-              pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program fo...'
-              proAeroImg="GFAimg"
-              ViewPro={ViewPro}
-              projectData={jicaLightF}
-            />
-
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GetFitTablet'
-              projctHedng="Drenthedng"
-              hed='GetFitAthletic Branding'
-              hed1='Mobile App & Website'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
-              projctPera="GFApera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="GFApera1"
-              pera='A young & ambitious fitness trainer wanted to rebrand his venture, GitFitAthleti...'
-              proAeroImg="GFAimg"
-              ViewPro={ViewPro}
-              projectData={getFit}
-            />
-
-            <Founder />
-
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 CircleTablet'
-              projctHedng="GFAhedng"
-              hed='Circle Women Merch'
-              hed1='Design'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
-              projctPera="GFApera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="GFApera1"
-              pera='Circle Women, an non-profit organization working for women empowerment, neede...'
-              proAeroImg="GFAimg"
-              ViewPro={ViewPro}
-              projectData={circleWomen}
-            />
-
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 ZiyaratTablet'
-              projctHedng="Drenthedng"
-              hed='Ziyarat Branding'
-              hed1='Websites'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
-              projctPera="GFApera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="GFApera1"
-              pera='Ziyarat, a Pakistani designer wear retail brand needed a logo for their launch i...'
-              proAeroImg="GFAimg"
-              ViewPro={ViewPro}
-              projectData={ziyaratBrand}
-            />
-
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DallasPalmTablet'
-              projctHedng="Drenthedng"
-              hed='Dallas Palms'
-              hed1='Website'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChild"
+              projctChildBox="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject"
               projctPera="GFApera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -723,103 +635,17 @@ class Projects extends React.Component {
               ViewPro={ViewPro}
               projectData={dallasPalm}
             />
-
-          </div>
-
-          {/*mobile visible */}
-
-          <div className="d-block d-md-none d-lg-none d-xl-none col-11" style={{ marginTop: '21vw', marginLeft: '4.3vw' }}>
-
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 LightFMobiLe'
-              projctHedng="GFAhedng"
-              hed='LIGHT-F Project By'
-              hed1='JICA & Sindh Gvt'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
-              projctPera="GFApera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="GFApera1"
-              pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program fo...'
-              proAeroImg="GFAimg"
-              ViewPro={ViewPro}
-              projectData={jicaLightF}
-            />
-
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GetFitMobiLe'
-              projctHedng="Drenthedng"
-              hed='GetFitAthletic Branding'
-              hed1='Mobile App & Website'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
-              projctPera="GFApera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="GFApera1"
-              pera='A young & ambitious fitness trainer wanted to rebrand his venture, GitFitAthleti...'
-              proAeroImg="GFAimg"
-              ViewPro={ViewPro}
-              projectData={getFit}
-            />
-
-            <Founder />
-
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 CircleMobiLe'
-              projctHedng="GFAhedng"
-              hed='Circle Women Merch'
-              hed1='Design'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
-              projctPera="GFApera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="GFApera1"
-              pera='Circle Women, an non-profit organization working for women empowerment, neede...'
-              proAeroImg="GFAimg"
-              ViewPro={ViewPro}
-              projectData={circleWomen}
-            />
-
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 ZiyaratMobiLe'
-              projctHedng="Drenthedng"
-              hed='Ziyarat Branding'
-              hed1='Websites'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
-              projctPera="GFApera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="GFApera1"
-              pera='Ziyarat, a Pakistani designer wear retail brand needed a logo for their launch i...'
-              proAeroImg="GFAimg"
-              ViewPro={ViewPro}
-              projectData={ziyaratBrand}
-            />
-
-            <ProjectContainer projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DallasPalmMobiLe'
-              projctHedng="Drenthedng"
-              hed='Dallas Palms'
-              hed1='Website'
-              projctChildBox="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 bgChildMb"
-              projctPera="GFApera"
-              locationUrl={""}
-              seeAerro={devPeraImg}
-              projctPera1="GFApera1"
-              pera='Dallas Palms, a wedding venue in Dallas, wanted to launch their website that co...'
-              proAeroImg="GFAimg"
-              ViewPro={ViewPro}
-              projectData={dallasPalm}
-            />
-
           </div>
 
 
+          <div className="col-12 col-md-5 col-xl-5 col-lg-5">
 
-          <div className="col-xl-5 col-lg-5 col-md-5 col-12 ">
-
-            {/*mobile, ipad hidden*/}
-            <ProjectContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 DrentDesktop'
-              projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
-              projctHedng="ADBhedng"
+            <ProjectContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 DrentProject'
+              projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block d-xl-block"
+              projctHedng="ADBhedngProject"
               hed="Drent Branding"
               hed1='& Website'
-              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
+              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChildProject"
               projctPera="ADBpera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -830,48 +656,43 @@ class Projects extends React.Component {
               projectData={drentBrand}
             />
             {/*ipad visible*/}
-            <div className="row">
-              <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none DrentTablet'
-                projctHedng="ADBhedngSmMd"
-                hed="Drent Branding"
-                hed1='& Website'
-                projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ADB_BgChildMd"
-                projctPera="ADBpera"
-                locationUrl={""}
-                seeAerro={devPeraImg}
-                projctPera1="ADBpera1"
-                pera='Drent needed a luxurious website to formally launch their dress rental servic...'
-                proAeroImg="ADBimg"
-                ViewPro={ViewPro}
-                projectData={drentBrand}
-              />
-            </div>
+            <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none DrentProject'
+              projctHedng="ADBhedngProject"
+              hed="Drent Branding"
+              hed1='& Website'
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ADB_BgChildProject"
+              projctPera="ADBpera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera='Drent needed a luxurious website to formally launch their dress rental servic...'
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+              projectData={drentBrand}
+            />
             {/*mobile visible*/}
-            <div className="row">
-              <ProjectContainer projctBox='d-block d-sm-none d-md-none d-xl-none d-lg-none col-11 DrentMobiLe'
-                projctHedng="ADBhedngMb"
-                hed="Drent Branding"
-                hed1='& Website'
-                projctChildBox="col-xl-12 col-lg-12 col-md-11 col-12 ADB_BgChildSmMd"
-                projctPera="ADBpera"
-                locationUrl={""}
-                seeAerro={devPeraImg}
-                projctPera1="ADBpera1"
-                pera='Drent needed a luxurious website to formally launch their dress rental servic...'
-                proAeroImg="ADBimg"
-                ViewPro={ViewPro}
-                projectData={drentBrand}
-              />
-            </div>
+            <ProjectContainer projctBox='d-block d-sm-none d-md-none d-xl-none d-lg-none col-11 DrentProject'
+              projctHedng="ADBhedngProject"
+              hed="Drent Branding"
+              hed1='& Website'
+              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-12 ADB_BgChildProject"
+              projctPera="ADBpera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="ADBpera1"
+              pera='Drent needed a luxurious website to formally launch their dress rental servic...'
+              proAeroImg="ADBimg"
+              ViewPro={ViewPro}
+              projectData={drentBrand}
+            />
 
 
-            {/*mobile, ipad hidden*/}
-            <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block d-xl-block"
-              projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ACFDesktopTab'
-              projctHedng="ADBhedng"
+            <ProjectContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 ACFProject'
+              projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block d-xl-block"
+              projctHedng="ADBhedngProject"
               hed='ACF Animal'
               hed1='Rescue Website'
-              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 DPW_BgChild"
+              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChildProject"
               projctPera="ADBpera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -882,11 +703,11 @@ class Projects extends React.Component {
               projectData={aCFRescue}
             />
             {/*ipad visible*/}
-            <ProjectContainer projctBox='d-none d-md-block d-xl-none d-lg-none ACFDesktopTab'
-              projctHedng="ADBhedngSmMd"
+            <ProjectContainer projctBox='d-none d-md-block d-xl-none d-lg-none ACFProject'
+              projctHedng="ADBhedngProject"
               hed='ACF Animal'
               hed1='Rescue Website'
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 DPW_BgChildMd"
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ADB_BgChildProject"
               projctPera="ADBpera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -897,11 +718,11 @@ class Projects extends React.Component {
               projectData={aCFRescue}
             />
             {/*mobile visible*/}
-            <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 ACFMobiLe'
-              projctHedng="ADBhedngSmMd"
+            <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 ACFProject'
+              projctHedng="ADBhedngProject"
               hed='ACF Animal'
               hed1='Rescue Website'
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 DPW_BgChildSmMd"
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 ADB_BgChildProject"
               projctPera="ADBpera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -913,14 +734,12 @@ class Projects extends React.Component {
             />
 
 
-
-            {/*mobile, ipad hidden*/}
-            <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
-              projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 PakJazbaDesktopTab'
-              projctHedng="ADBhedng"
+            <ProjectContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 PakJazbaProject'
+              projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
+              projctHedng="ADBhedngProject"
               hed='Pakjazba Online'
               hed1='Portal System'
-              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
+              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChildProject"
               projctPera="ADBpera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -931,11 +750,11 @@ class Projects extends React.Component {
               projectData={pakJazba}
             />
             {/*ipad visible*/}
-            <ProjectContainer projctBox='d-none d-md-block d-xl-none d-lg-none col-md-12 PakJazbaDesktopTab'
-              projctHedng="ADBhedngSmMd"
+            <ProjectContainer projctBox='d-none d-md-block d-xl-none d-lg-none col-md-12 PakJazbaProject'
+              projctHedng="ADBhedngProject"
               hed='Pakjazba Online'
               hed1='Portal System'
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ODW_BgChildMd"
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ADB_BgChildProject"
               projctPera="ADBpera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -946,11 +765,11 @@ class Projects extends React.Component {
               projectData={pakJazba}
             />
             {/*mobile visible*/}
-            <ProjectContainer projctBox='d-block d-sm-none d-md-none d-xl-none d-lg-none col-11 PakJazbaMobiLe'
-              projctHedng="ADBhedngSmMd"
+            <ProjectContainer projctBox='d-block d-sm-none d-md-none d-xl-none d-lg-none col-11 PakJazbaProject'
+              projctHedng="ADBhedngProject"
               hed='Pakjazba Online'
               hed1='Portal System'
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 ODW_BgChildSmMd"
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 ADB_BgChildProject"
               projctPera="ADBpera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -961,15 +780,13 @@ class Projects extends React.Component {
               projectData={pakJazba}
             />
 
-            
 
-            {/*mobile, ipad hidden*/}
-            <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
-              projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 OxbridgeDesktopTab'
-              projctHedng="ADBhedng"
+            <ProjectContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 OxbridgeProject'
+              projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
+              projctHedng="ADBhedngProject"
               hed='Oxbridge Video,'
               hed1='Social Media & Website'
-              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
+              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChildProject"
               projctPera="ADBpera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -980,11 +797,11 @@ class Projects extends React.Component {
               projectData={oxBridge}
             />
             {/*ipad visible*/}
-            <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none col-md-12 OxbridgeDesktopTab'
-              projctHedng="ADBhedngSmMd"
+            <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none col-md-12 OxbridgeProject'
+              projctHedng="ADBhedngProject"
               hed='Oxbridge Video,'
               hed1='Social Media & Website'
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ODW_BgChildMd"
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ADB_BgChildProject"
               projctPera="ADBpera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -995,11 +812,11 @@ class Projects extends React.Component {
               projectData={oxBridge}
             />
             {/*mobile visible*/}
-            <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 OxbridgeMobiLe'
-              projctHedng="ADBhedngSmMd"
+            <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 OxbridgeProject'
+              projctHedng="ADBhedngProject"
               hed='Oxbridge Video,'
               hed1='Social Media & Website'
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 ODW_BgChildSmMd"
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 ADB_BgChildProject"
               projctPera="ADBpera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -1011,13 +828,12 @@ class Projects extends React.Component {
             />
 
 
-            {/*mobile, ipad hidden*/}
-            <ProjectContainer projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
-              projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 AmberDazelDesktopTab'
-              projctHedng="ADBhedng"
+            <ProjectContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-9 col-lg-9 AmberDazelProject'
+              projctBox1="col-xl-1 col-lg-1 d-none d-sm-none d-md-none d-lg-block dxl-block"
+              projctHedng="ADBhedngProject"
               hed='Amber Dazzel'
               hed1='Website & TVC'
-              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
+              projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChildProject"
               projctPera="ADBpera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -1028,11 +844,11 @@ class Projects extends React.Component {
               projectData={AmberDazzel}
             />
             {/*ipad visible*/}
-            <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none col-md-12 AmberDazelDesktopTab'
-              projctHedng="ADBhedngSmMd"
+            <ProjectContainer projctBox='d-none d-sm-block d-md-block d-xl-none d-lg-none col-md-12 AmberDazelProject'
+              projctHedng="ADBhedngProject"
               hed='Amber Dazzel'
               hed1='Website & TVC'
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ODW_BgChildMd"
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-11 ADB_BgChildProject"
               projctPera="ADBpera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -1043,11 +859,11 @@ class Projects extends React.Component {
               projectData={AmberDazzel}
             />
             {/*mobile visible*/}
-            <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 AmberDazelMobiLe'
-              projctHedng="ADBhedngSmMd"
+            <ProjectContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 AmberDazelProject'
+              projctHedng="ADBhedngProject"
               hed='Amber Dazzel'
               hed1='Website & TVC'
-              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 ODW_BgChildSmMd"
+              projctChildBox="col-xl-12 col-lg-12 col-md-12 col-12 ADB_BgChildProject"
               projctPera="ADBpera"
               locationUrl={""}
               seeAerro={devPeraImg}
@@ -1057,10 +873,10 @@ class Projects extends React.Component {
               ViewPro={ViewPro}
               projectData={AmberDazzel}
             />
-
 
           </div>
-          <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12"></div>
+
+          <div className="col-12 col-md-1 col-xl-1 col-lg-1"></div>
         </div>
 
 
@@ -1081,6 +897,256 @@ class Projects extends React.Component {
             <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12"></div>
           </div>
         </Link>
+
+        {/* <div className="d-none d-md-none d-lg-block d-xl-block col-xl-6 col-lg-6" style={{ marginTop: '10vw' }}>
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 LightFProject'
+              projctHedng="GFAhedng"
+              locationUrl={""}
+              hed='LIGHT-F Project By'
+              hed1='JICA & Sindh Gvt'
+              projctChildBox="col-xl-8 col-lg-9 bgChildProject"
+              projctPera="GFApera"
+
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program fo...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={jicaLightF}
+            />
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 GetFitProject'
+              projctHedng="Drenthedng"
+              hed='GetFitAthletic Branding'
+              hed1='Mobile App & Website'
+              projctChildBox="col-xl-8 col-lg-9 bgChildProject"
+              projctPera="GFApera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='A young & ambitious fitness trainer wanted to rebrand his venture, GitFitAthleti...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={getFit}
+            />
+
+            <Founder />
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 CircleProject'
+              projctHedng="GFAhedng"
+              hed='Circle Women Merch'
+              hed1='Design'
+              projctChildBox="col-xl-8 col-lg-9 bgChildProject"
+              projctPera="GFApera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='Circle Women, an non-profit organization working for women empowerment, neede...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={circleWomen}
+            />
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 ZiyaratProject'
+              projctHedng="Drenthedng"
+              hed='Ziyarat Branding'
+              hed1='Websites'
+              projctChildBox="col-xl-8 col-lg-9 bgChildProject"
+              projctPera="GFApera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='Ziyarat, a Pakistani designer wear retail brand needed a logo for their launch i...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={ziyaratBrand}
+            />
+
+            <ProjectContainer projctBox='col-xl-11 col-lg-11 DallasPalmProject'
+              projctHedng="Drenthedng"
+              hed='Dallas Palms'
+              hed1='Website'
+              projctChildBox="col-xl-8 col-lg-9 bgChildProject"
+              projctPera="GFApera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='Dallas Palms, a wedding venue in Dallas, wanted to launch their website that co...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={dallasPalm}
+            />
+
+          </div> */}
+
+
+        {/*ipad visible */}
+
+        {/* <div className="d-none d-md-block col-lg-none d-xl-none col-md-5" style={{ marginTop: '10vw' }}>
+            <ProjectContainer projctBox='col-md-12 LightFProject'
+              projctHedng="GFAhedng"
+              hed='LIGHT-F Project By'
+              hed1='JICA & Sindh Gvt'
+              projctChildBox="col-md-12 bgChildProject"
+              projctPera="GFApera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program fo...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={jicaLightF}
+            />
+
+            <ProjectContainer projctBox='col-md-12 GetFitProject'
+              projctHedng="Drenthedng"
+              hed='GetFitAthletic Branding'
+              hed1='Mobile App & Website'
+              projctChildBox="col-md-12 bgChildProject"
+              projctPera="GFApera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='A young & ambitious fitness trainer wanted to rebrand his venture, GitFitAthleti...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={getFit}
+            />
+
+            <Founder />
+
+            <ProjectContainer projctBox='col-md-12 CircleProject'
+              projctHedng="GFAhedng"
+              hed='Circle Women Merch'
+              hed1='Design'
+              projctChildBox="col-md-12 bgChildProject"
+              projctPera="GFApera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='Circle Women, an non-profit organization working for women empowerment, neede...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={circleWomen}
+            />
+
+            <ProjectContainer projctBox='col-md-12 ZiyaratProject'
+              projctHedng="Drenthedng"
+              hed='Ziyarat Branding'
+              hed1='Websites'
+              projctChildBox="col-md-12 bgChildProject"
+              projctPera="GFApera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='Ziyarat, a Pakistani designer wear retail brand needed a logo for their launch i...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={ziyaratBrand}
+            />
+
+            <ProjectContainer projctBox='col-md-12 DallasPalmProject'
+              projctHedng="Drenthedng"
+              hed='Dallas Palms'
+              hed1='Website'
+              projctChildBox="col-md-12 bgChildProject"
+              projctPera="GFApera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='Dallas Palms, a wedding venue in Dallas, wanted to launch their website that co...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={dallasPalm}
+            />
+
+          </div> */}
+
+        {/*mobile visible */}
+
+        {/* <div className="d-block d-md-none d-lg-none d-xl-none col-11" style={{ marginTop: '21vw', marginLeft: '4.3vw' }}>
+
+            <ProjectContainer projctBox='col-12 LightFProject'
+              projctHedng="GFAhedng"
+              hed='LIGHT-F Project By'
+              hed1='JICA & Sindh Gvt'
+              projctChildBox="col-12 bgChildProject"
+              projctPera="GFApera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program fo...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={jicaLightF}
+            />
+
+            <ProjectContainer projctBox='col-12 GetFitProject'
+              projctHedng="Drenthedng"
+              hed='GetFitAthletic Branding'
+              hed1='Mobile App & Website'
+              projctChildBox="col-12 bgChildProject"
+              projctPera="GFApera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='A young & ambitious fitness trainer wanted to rebrand his venture, GitFitAthleti...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={getFit}
+            />
+
+            <Founder />
+
+            <ProjectContainer projctBox='col-12 CircleProject'
+              projctHedng="GFAhedng"
+              hed='Circle Women Merch'
+              hed1='Design'
+              projctChildBox="col-12 bgChildProject"
+              projctPera="GFApera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='Circle Women, an non-profit organization working for women empowerment, neede...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={circleWomen}
+            />
+
+            <ProjectContainer projctBox='col-12 ZiyaratProject'
+              projctHedng="Drenthedng"
+              hed='Ziyarat Branding'
+              hed1='Websites'
+              projctChildBox="col-12 bgChildProject"
+              projctPera="GFApera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='Ziyarat, a Pakistani designer wear retail brand needed a logo for their launch i...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={ziyaratBrand}
+            />
+
+            <ProjectContainer projctBox='col-12 DallasPalmProject'
+              projctHedng="Drenthedng"
+              hed='Dallas Palms'
+              hed1='Website'
+              projctChildBox="col-12 bgChildProject"
+              projctPera="GFApera"
+              locationUrl={""}
+              seeAerro={devPeraImg}
+              projctPera1="GFApera1"
+              pera='Dallas Palms, a wedding venue in Dallas, wanted to launch their website that co...'
+              proAeroImg="GFAimg"
+              ViewPro={ViewPro}
+              projectData={dallasPalm}
+            />
+
+          </div> */}
+
+
 
 
       </div>
