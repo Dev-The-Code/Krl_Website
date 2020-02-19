@@ -76,7 +76,7 @@
         margin-bottom: calc(15vw - -9.5vmax);
     }
     .ACFProject {
-        background-image: url("../../Assets/Images/acf.png");
+        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
         height: 33.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
@@ -151,6 +151,54 @@
         border-radius: 3vw;
         box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
     }
+
+    .SiddiqHomeProject{
+        background-image: url('../../Assets/Images/siddiqsons-min.jpg');
+        height: 30.5vmax;
+        border-radius: 3vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: right;
+        /* margin-bottom: 7vmax; */
+        margin-left: 4.3vw;
+        margin-bottom: calc(15vw - -9.5vmax);
+    }
+    .LightFHomeProject {
+        background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
+        height: 30.5vmax;
+        border-radius: 3vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: right;
+        margin-bottom: calc(15vw - -9.5vmax);
+        margin-top: 15vw;
+        margin-left: 4.3vw;
+    }
+    .ACFHomeProject {
+        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
+        height: 33.5vmax;
+        border-radius: 3vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: right;
+        /* margin-bottom: 11vmax; */
+        margin-left: 4.3vw;
+        margin-bottom: calc(15vw - -9.5vmax);
+    }
+    .ProjectHomeRightText{
+        padding-top: 4.2vw;
+        padding-left: 4vw;
+        padding-bottom: 3.2vw;
+        font-size: 2.6vmax;
+        font-family: aleta-bold;
+        color: #ffffff;
+    } 
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .LightFProject {
@@ -219,9 +267,10 @@
         background-position-x: right;
         margin-bottom: 12vmax;
         margin-top: 29vmax;
+        margin-left: 1.5vw;
     }
     .ACFProject {
-        background-image: url("../../Assets/Images/acf.png");
+        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
         height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
@@ -230,6 +279,7 @@
         background-size: cover;
         background-position-x: right;
         margin-bottom: calc(17.5vmax - 1vmax);
+        margin-left: 1.5vw;
     }
     .PakJazbaProject {
         background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
@@ -241,6 +291,7 @@
         background-size: cover;
         background-position-x: right;
         margin-bottom: calc(17.5vmax - 0vmax);
+        margin-left: 1.5vw;
     }
     .OxbridgeProject {
         background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
@@ -252,6 +303,7 @@
         background-size: cover;
         background-position-y: bottom;
         margin-bottom: calc(17.5vmax - 0vmax);
+        margin-left: 1.5vw;
     }
     .AmberDazelProject {
         background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
@@ -263,6 +315,7 @@
         background-size: cover;
         background-position-x: center;
         margin-bottom: calc(17.5vmax - 0vmax);
+        margin-left: 1.5vw;
     }
     .bgChildProject{
         color: #fafafa;
@@ -288,6 +341,49 @@
         border-radius: 1vw;
         box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
     }
+
+    .SiddiqHomeProject{
+        background-image: url('../../Assets/Images/siddiqsons-min.jpg');
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: right;
+        margin-bottom: 12vmax;
+        margin-top: 23.5vmax;
+    }
+    .LightFHomeProject {
+        background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: bottom;
+        margin-bottom: 15vmax;
+    }
+    .ACFHomeProject {
+        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: right;
+        margin-bottom: calc(17.5vmax - 1vmax);
+    }
+    .ProjectHomeRightText{
+        padding-top: 4.2vw;
+        padding-left: 4vw;
+        padding-bottom: 3.2vw;
+        font-size: 2.4vmax;
+        font-family: aleta-bold;
+        color: #ffffff;
+    }  
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .LightFProject {
@@ -356,9 +452,10 @@
         background-position-x: right;
         margin-bottom: calc(17.5vmax - 1vmax);
         margin-top: 40.7vmax;
+        margin-left: 1.5vw;
     }
     .ACFProject {
-        background-image: url("../../Assets/Images/acf.png");
+        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
         height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
@@ -367,6 +464,7 @@
         background-size: cover;
         background-position-x: right;
         margin-bottom: calc(17.5vmax - 1vmax);
+        margin-left: 1.5vw;
     }
     .PakJazbaProject {
         background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
@@ -378,6 +476,7 @@
         background-size: cover;
         background-position-x: right;
         margin-bottom: calc(17.5vmax - 0vmax);
+        margin-left: 1.5vw;
     }
     .OxbridgeProject {
         background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
@@ -389,6 +488,7 @@
         background-size: cover;
         background-position-y: bottom;
         margin-bottom: calc(17.5vmax - 0vmax);
+        margin-left: 1.5vw;
     }
     .AmberDazelProject {
         background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
@@ -400,6 +500,7 @@
         background-size: cover;
         background-position-x: center;
         margin-bottom: calc(17.5vmax - 0vmax);
+        margin-left: 1.5vw;
     }
     .bgChildProject{
         color: #fafafa;
@@ -424,6 +525,49 @@
         background-color: #fafafa;
         border-radius: 1vw;
         box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+    }
+
+    .SiddiqHomeProject {
+        background-image: url('../../Assets/Images/siddiqsons-min.jpg');
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: right;
+        margin-bottom: calc(17.5vmax - 1vmax);
+        margin-top: 29vmax;
+    }
+    .LightFHomeProject {
+        background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-y: bottom;
+        margin-bottom: calc(15vw - 1vmax);
+    }
+    .ACFHomeProject {
+        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: right;
+        margin-bottom: calc(17.5vmax - 1vmax);
+    }
+    .ProjectHomeRightText{
+        padding-top: 4.2vw;
+        padding-left: 2.1vw;
+        padding-bottom: 4.2vw;
+        font-size: 2.4vmax;
+        font-family: aleta-bold;
+        color: #ffffff;
     }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
@@ -493,9 +637,10 @@
         background-position-x: right;
         margin-bottom: calc(17.5vmax - 1vmax);
         margin-top: 40.7vmax;
+        margin-left: 1.5vw;
     }
     .ACFProject {
-        background-image: url("../../Assets/Images/acf.png");
+        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
         height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
@@ -504,6 +649,7 @@
         background-size: cover;
         background-position-x: right;
         margin-bottom: calc(17.5vmax - 1vmax);
+        margin-left: 1.5vw;
     }
     .PakJazbaProject {
         background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
@@ -515,6 +661,7 @@
         background-size: cover;
         background-position-x: right;
         margin-bottom: calc(17.5vmax - 0vmax);
+        margin-left: 1.5vw;
     }
     .OxbridgeProject {
         background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
@@ -526,6 +673,7 @@
         background-size: cover;
         background-position-y: bottom;
         margin-bottom: calc(17.5vmax - 0vmax);
+        margin-left: 1.5vw;
     }
     .AmberDazelProject {
         background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
@@ -537,6 +685,7 @@
         background-size: cover;
         background-position-x: center;
         margin-bottom: calc(17.5vmax - 0vmax);
+        margin-left: 1.5vw;
     }
     .bgChildProject{
         color: #fafafa;
@@ -561,6 +710,49 @@
         background-color: #fafafa;
         border-radius: 1vw;
         box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+    }
+
+    .SiddiqHomeProject {
+        background-image: url('../../Assets/Images/siddiqsons-min.jpg');
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: right;
+        margin-bottom: calc(17.5vmax - 1vmax);
+        margin-top: 27vmax;
+    }
+    .LightFHomeProject {
+        background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-y: bottom;
+        margin-bottom: calc(15vw - 1vmax);
+    }
+    .ACFHomeProject {
+        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: right;
+        margin-bottom: calc(17.5vmax - 1vmax);
+    }
+    .ProjectHomeRightText{
+        padding-top: 4.2vw;
+        padding-left: 2.1vw;
+        padding-bottom: 4.2vw;
+        font-size: 2.5vmax;
+        font-family: aleta-bold;
+        color: #ffffff;
     }
 }
 @media only screen and (min-device-width : 1600px){
@@ -630,9 +822,10 @@
         background-position-x: right;
         margin-bottom: calc(17.5vmax - 1vmax);
         margin-top: 40.7vmax;
+        margin-left: 1.5vw;
     }
     .ACFProject {
-        background-image: url("../../Assets/Images/acf.png");
+        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
         height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
@@ -641,6 +834,7 @@
         background-size: cover;
         background-position-x: right;
         margin-bottom: calc(17.5vmax - 1vmax);
+        margin-left: 1.5vw;
     }
     .PakJazbaProject {
         background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
@@ -652,6 +846,7 @@
         background-size: cover;
         background-position-x: right;
         margin-bottom: calc(17.5vmax - 0vmax);
+        margin-left: 1.5vw;
     }
     .OxbridgeProject {
         background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
@@ -663,6 +858,7 @@
         background-size: cover;
         background-position-y: bottom;
         margin-bottom: calc(17.5vmax - 0vmax);
+        margin-left: 1.5vw;
     }
     .AmberDazelProject {
         background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
@@ -674,6 +870,7 @@
         background-size: cover;
         background-position-x: center;
         margin-bottom: calc(17.5vmax - 0vmax);
+        margin-left: 1.5vw;
     }
     .bgChildProject{
         color: #fafafa;
@@ -698,6 +895,49 @@
         background-color: #fafafa;
         border-radius: 1vw;
         box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+    }
+
+    .SiddiqHomeProject {
+        background-image: url('../../Assets/Images/siddiqsons-min.jpg');
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: right;
+        margin-bottom: calc(17.5vmax - 1vmax);
+        margin-top: 22.7vmax;
+    }
+    .LightFHomeProject {
+        background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-y: bottom;
+        margin-bottom: calc(15vw - 1vmax);
+    }
+    .ACFHomeProject {
+        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: right;
+        margin-bottom: calc(17.5vmax - 1vmax);
+    }
+    .ProjectHomeRightText{
+        padding-top: 4.2vw;
+        padding-left: 2.1vw;
+        padding-bottom: 4.2vw;
+        font-size: 2.5vmax;
+        font-family: aleta-bold;
+        color: #ffffff;
     }
 }
 
@@ -872,7 +1112,6 @@
     font-family: aleta-bold;
     color: #ffffff;
 }
-
 .ADBhedng{
     padding-top: 4.2vw;
     padding-left: 2.1vw;
@@ -1110,7 +1349,7 @@
     margin-bottom: calc(15vw - -9.5vmax);
 }
 .ADB_HomBgImg {
-    background-image: url(../../Assets/Images/siddiqsons-min.jpg);
+    background-image: url('../../Assets/Images/siddiqsons-min.jpg');
     height: 26.5vmax;
     border-radius: 1vw;
     background-size: cover;

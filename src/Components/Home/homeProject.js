@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './home.css';
 import Smallarrow from '../../Assets/Images/latest-post-arrow.png';
 import Header from '../Header/header2';
-import ProjectsContainer from '../../Comman/ProjectContainer/projectContainer';
+import ProjectContainer from '../../Comman/ProjectContainer/projectContainer';
 var siddiqSons = {
     name: 'Siddiqsons Limited Brochure',
     desciption: 'Siddiqsons needed a brochure that could effectively communicate their new direction of environmental friendly denim production.',
@@ -133,9 +133,9 @@ class Project extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            siddiqSons:siddiqSons,
-            jicaLightF:jicaLightF,
-            aCFRescue:aCFRescue,
+            siddiqSons: siddiqSons,
+            jicaLightF: jicaLightF,
+            aCFRescue: aCFRescue,
             GFAHeading: 'LIGHT-F Project By',
             GFAHeadingBr: 'JICA & Sindh Gvt',
             DrentHeading: 'ACF Animal Rescue',
@@ -164,7 +164,7 @@ class Project extends React.Component {
     }
 
     render() {
-        const {siddiqSons,jicaLightF,aCFRescue, GFAHeading, GFAHeadingBr, DrentHeading, DrentHeadingBr, GFAperaas, Drentperaas, ADBHeading, ADBHeadingBr,
+        const { siddiqSons, jicaLightF, aCFRescue, GFAHeading, GFAHeadingBr, DrentHeading, DrentHeadingBr, GFAperaas, Drentperaas, ADBHeading, ADBHeadingBr,
             DPWHeading, DPWHeadingBr, DPWperaas, ODSHeading, ODSHeadingBr, devPeraImg, headerPath } = this.state
         return (
             <div>
@@ -178,24 +178,79 @@ class Project extends React.Component {
                 </div>
                 <div className="row">
                     <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
-                    <div className="d-none d-md-none d-lg-block d-xl-block col-lg-6 col-xl-6">
-                        {/*JIca*/}
-                        <ProjectsContainer
+                    <div className="col-11 col-md-5 col-lg-6 col-xl-6">
+                        {/* JIca */}
+                        <ProjectContainer projctBox='col-12 col-md-12 col-xl-11 col-lg-11 LightFHomeProject'
+                            projctHedng="GFAhedng"
+                            locationUrl={""}
+                            hed='LIGHT-F Project By'
+                            hed1='JICA & Sindh Gvt'
+                            projctChildBox="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject"
+                            projctPera="GFApera"
+                            seeAerro={devPeraImg}
+                            projctPera1="GFApera1"
+                            pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program fo...'
+                            proAeroImg="GFAimg"
+                            projectData={jicaLightF}
+                        />
+                        {/* Acf */}
+                        <ProjectContainer projctBox='col-12 col-md-12 col-xl-11 col-lg-11 ACFHomeProject'
+                            projctHedng="GFAhedng"
+                            hed='ACF Animal'
+                            hed1='Rescue Website'
+                            projctChildBox="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject"
+                            projctPera="ADBpera"
+                            locationUrl={""}
+                            seeAerro={devPeraImg}
+                            projctPera1="ADBpera1"
+                            pera='Ayesha Chundrigar Foundation, an NGO helping out troubled animals, needed a websi...'
+                            proAeroImg="ADBimg"
+                            projectData={aCFRescue}
+                        />
+                    </div>
+                    <div className="col-12 col-md-5 col-lg-4 col-xl-4">
+                        {/*Siddiq Sons*/}
+                        <ProjectContainer projctBox='col-11 col-md-12 col-xl-12 col-lg-12 SiddiqHomeProject'
+                            projctHedng="ProjectHomeRightText"
+                            hed="Siddiqsons Limited"
+                            hed1='Brochure'
+                            projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-12 ADB_BgChildProject"
+                            projctPera="ADBpera"
+                            locationUrl={""}
+                            seeAerro={devPeraImg}
+                            projctPera1="ADBpera1"
+                            pera='Siddiqsons needed a brochure that could effectively communicate their...'
+                            proAeroImg="ADBimg"
+                            projectData={siddiqSons}
+                        />
+                        <Link to={`/project`} className="changingdec">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-12 col-md-11 col-lg-11 col-xl-11 vieW_btn">
+                                        <p className="arroW_lastesT">View All Projects <img src={Smallarrow} className="" /></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </Link>
+                    </div>
+                    <div className="col-12 col-md-12 col-lg-1 col-xl-1"></div>
+                </div>
+                {/* JIca
+                        <ProjectContainer
                             projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-11 GFA_BgImg'
                             projctHedng="GFAhedng"
                             hed={GFAHeading}
                             hed1={GFAHeadingBr}
                             projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
                             projctPera="GFApera"
-                            locationUrl={"https://getfitathletic.pk/"}
                             seeAerro={devPeraImg}
                             projctPera1="GFApera1"
                             pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program for...'
                             proAeroImg="GFAimg"
                             projectData={jicaLightF}
                         />
-                        {/*Acf*/}
-                        <ProjectsContainer
+                        Acf
+                        <ProjectContainer
                             projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImg'
                             projctHedng="Drenthedng"
                             hed={DrentHeading}
@@ -208,13 +263,13 @@ class Project extends React.Component {
                             pera='Ayesha Chundrigar Foundation, an NGO helping out troubled animals, needed a...'
                             proAeroImg="GFAimg"
                             projectData={aCFRescue}
-                        />
-                    </div>
+                        /> */}
 
-                    {/*ipad visible */}
+
+                {/* ipad visible
                     <div className="d-none d-md-block d-lg-none d-xl-none col-md-6">
-                        {/*JIca*/}
-                        <ProjectsContainer
+                        JIca
+                        <ProjectContainer
                             projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-11 GFA_BgImg'
                             projctHedng="GFAhedng"
                             hed={GFAHeading}
@@ -228,8 +283,8 @@ class Project extends React.Component {
                             proAeroImg="GFAimg"
                             projectData={jicaLightF}
                         />
-                        {/*Acf*/}
-                        <ProjectsContainer
+                        Acf
+                        <ProjectContainer
                             projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImg'
                             projctHedng="Drenthedng"
                             hed={DrentHeading}
@@ -243,12 +298,12 @@ class Project extends React.Component {
                             proAeroImg="GFAimg"
                             projectData={aCFRescue}
                         />
-                    </div>
+                    </div> */}
 
-                    {/*monbile visible */}
+                {/* mobile visible
                     <div className="d-block d-md-none d-lg-none d-xl-none col-11">
-                        {/*JIca*/}
-                        <ProjectsContainer
+                        JIca
+                        <ProjectContainer
                             projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgHomeMb'
                             projctHedng="GFAhedng"
                             hed={GFAHeading}
@@ -262,8 +317,8 @@ class Project extends React.Component {
                             proAeroImg="GFAimg"
                             projectData={jicaLightF}
                         />
-                        {/*Acf*/}
-                        <ProjectsContainer
+                        Acf
+                        <ProjectContainer
                             projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgHomeMb'
                             projctHedng="Drenthedng"
                             hed={DrentHeading}
@@ -277,14 +332,13 @@ class Project extends React.Component {
                             proAeroImg="GFAimg"
                             projectData={aCFRescue}
                         />
-                    </div>
+                    </div> */}
 
 
-                    <div className="col-12 col-md-5 col-lg-5 col-xl-5">
-                        {/*Siddiq Sons*/}
-                        {/*mobile, ipad hidden*/}
+
+                {/* mobile, ipad hidden
                         <ProjectsContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-10 col-lg-10 ADB_HomBgImg'
-                            projctHedng="ADBhedng"
+                            projctHedng="ADBhedngProject"
                             hed={ADBHeading}
                             hed1={ADBHeadingBr}
                             projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
@@ -297,7 +351,7 @@ class Project extends React.Component {
                             projectData={siddiqSons}
                         />
 
-                        {/*ipad visible*/}
+                        ipad visible
                         <ProjectsContainer projctBox='d-none d-md-block d-xl-none d-lg-none col-md-10 ADB_BgImgSmMd'
                             projctHedng="ADBhedng"
                             hed={ADBHeading}
@@ -311,7 +365,7 @@ class Project extends React.Component {
                             proAeroImg="ADBimg"
                             projectData={siddiqSons}
                         />
-                        {/*mobile visible*/}
+                        mobile visible
                         <ProjectsContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 ADB_BgImgHomeMb'
                             projctHedng="ADBhedngHomeMb"
                             hed={ADBHeading}
@@ -324,20 +378,7 @@ class Project extends React.Component {
                             pera='Siddiqsons needed a brochure that could effectively communicate their new direc...'
                             proAeroImg="ADBimg"
                             projectData={siddiqSons}
-                        />
-
-                        <Link to={`/project`} className="changingdec">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-12 col-md-11 col-lg-11 col-xl-11 vieW_btn">
-                                        <p className="arroW_lastesT">View All Projects <img src={Smallarrow} className="" /></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </Link>
-                    </div>
-                    <div className="col-12 col-md-12 col-lg-1 col-xl-1"></div>
-                </div>
+                        /> */}
             </div>
         );
     }
