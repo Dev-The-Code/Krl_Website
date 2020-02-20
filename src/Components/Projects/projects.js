@@ -10,14 +10,49 @@ import Modal from './projectModal';
 import { smart } from '@babel/template';
 import { Tabs } from 'antd';
 
-
+var siddiqSons = {
+  name: 'Siddiqsons Limited Brochure',
+  desciption: 'Siddiqsons needed a brochure that could effectively communicate their new direction of environmental friendly denim production.',
+  coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687373/cover_h7qavr.jpg'],
+  ourRole: 'KRL Creatives was responsible for all photography and full design direction and creative execution of this campaign. We photographed their facility, designed a creative and visual strategy and prepared a brochure that would communicate the story of the hugely successful denim brand.',
+  technologyUsed: '',
+  visualidentityLogo: [''],
+  visualidentityLogoText: '',
+  colorpaletteText: '',
+  colorPaletteAllColor: [''],
+  fontText: '',
+  fontFamilyText: [''],
+  fontFamily: [''],
+  illustration: [
+    {
+      illustrationText: 'Photography',
+      illustrationSubText: 'Siddiqsons new denim production facility was photographer by KRL Creatives.',
+      illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687745/2_-pathway_plhjlc.jpg',
+        'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687782/10_-_washing_axkjqd.jpg',
+        'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687815/18_-_quality_assurance_eusdgz.jpg',
+        'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687823/6_-_two_side_laser_uueepf.jpg',
+        'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687830/15_-_Ozone_Machine_ddgl3d.jpg',
+        'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687847/8_-_single_side_laser_vrkktf.jpg'],
+    },
+  ],
+  demoHeading: 'Final Printed Brochure',
+  demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579702459/VID2_nmkc9u.mp4'],
+  documentHeading: 'Brochure Design',
+  documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864122/iteration_2_a_abk0ic.jpg',
+  ],
+  mainVideoPanel: [{
+    mainHead: '',
+    mainHeadsubText: '',
+    mainVideos: "",
+  },]
+}
 
 class Projects extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-     
+      siddiqSons:siddiqSons,
 
       banrPeragh: 'KRL Creatives covers you for all digital assets your brand needs to serve your audience well.',
       banrPeragh1: 'We design, develop and produce.',
@@ -27,7 +62,9 @@ class Projects extends React.Component {
       banFuturPro: 'Featured project',
       devPeraImg: true,
       devParagraph: false,
-      ViewPro: true
+      ViewPro: true,
+
+      projectStateFromHome : this.props.location.state,
     }
   }
   componentWillMount() {
@@ -35,15 +72,15 @@ class Projects extends React.Component {
     let routName;
     routName = data.slice(1);
     routName = routName.charAt(0).toUpperCase() + routName.slice(1);
-    //  console.log(routName,'sss');
     this.setState({ headerPath: routName });
     window.scrollTo(0, 0)
   }
-
+  
   render() {
+    // let projectStateFromHome = this.props.location.state;
     const { TabPane } = Tabs;
     const { GFAperaas, devPeraImg, headingpera, headingpera1, headingpera2, banFuturPro, ViewPro, headerPath,
-            projects  } = this.state
+            projects , siddiqSons,projectStateFromHome  } = this.state
     return (
 
       <div className="all_backgrundImageAfter animateFadeIn">
@@ -70,7 +107,7 @@ class Projects extends React.Component {
                 banhedng2={headingpera1}
                 devChld1="col-xl-7 col-lg-7 banChildDev"
                 devChld2="col-xl-4 col-lg-4 banChildDev1"
-                projectData={projects}
+                projectData={siddiqSons}
 
                 seeAerro={devPeraImg}
                 projctPera1="BanrPera1"
@@ -99,7 +136,7 @@ class Projects extends React.Component {
                 banhedng2={headingpera1}
                 devChld1="col-md-5 col-sm-5 col-3 banChildDevSmall"
                 devChld2="col-md-6 col-sm-6 col-7 banChildDev1Small"
-                projectData={projects}
+                projectData={siddiqSons}
 
                 seeAerro={devPeraImg}
                 projctPera1="BanrPera1Mb"
@@ -128,7 +165,7 @@ class Projects extends React.Component {
                 banhedng2={headingpera1}
                 devChld1="col-md-5 col-sm-5 col-3 banChildDevSmall"
                 devChld2="col-md-6 col-sm-6 col-7 banChildDev1Small"
-                projectData={projects}
+                projectData={siddiqSons}
 
                 seeAerro={devPeraImg}
                 projctPera1="BanrPera1Mb"
@@ -141,7 +178,7 @@ class Projects extends React.Component {
           <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
         </div>
 
-        <ProjectContainer/>
+        <ProjectContainer projectStateFromHome={projectStateFromHome} />
 
         <Link to={`/contact`} className="changingColor">
           <div className="row proSeeFotr">

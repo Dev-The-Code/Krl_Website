@@ -36,7 +36,7 @@ class Routes extends React.Component {
     return (
       <div className='App'>
         <BrowserRouter>
-          <div>
+          <Switch>
             <Route exact path="/" component={firstScreen} />
             {/* <Route path='*' component={FourZeroFour} /> */}
             <Route path="/about" component={About} />
@@ -46,10 +46,8 @@ class Routes extends React.Component {
             <Route path="/project" component={Project} />
             <Route path="/projects" component={ProjectDetails} />
             <Route path="/services" component={Services} />
-          </div>
-        </BrowserRouter>
-        <BrowserRouter>
-            <Route component={FourZeroFour} />
+            <Route path="*" component={FourZeroFour} />
+          </Switch>
         </BrowserRouter>
       </div>
     );

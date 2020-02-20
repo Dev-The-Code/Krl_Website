@@ -39,7 +39,6 @@ class Service extends React.Component {
                     </div>
                 </div>
                 <HomeServicesPage />
-
             </div>
         );
     }

@@ -986,3 +986,14 @@
     font-size: calc(0.8em + 0.5vw);
     padding-top: 9vw;
 }
+
+
+.ArrowHomeSErvice{
+    padding-left: 3.5vw;
+    padding-top: 1.1vw;
+    padding-bottom: 1.5vmax;
+    font-family: aleta-bold;
+    color: #303030;
+    font-size: calc(0.8em + 0.2vw);
+    cursor: pointer;
+}

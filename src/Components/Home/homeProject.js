@@ -160,7 +160,6 @@ class Project extends React.Component {
     componentWillMount() {
         this.setState({ headerPath: 'Home' });
         window.scrollTo(0, 0)
-        // this.wheelListener()
     }
 
     render() {
@@ -176,62 +175,109 @@ class Project extends React.Component {
                         <h2 className="heaD_fontPro">Projects</h2>
                     </div>
                 </div>
+
                 <div className="row">
-                    <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
-                    <div className="col-11 col-md-5 col-lg-6 col-xl-6">
-                        {/* JIca */}
-                        <ProjectContainer projctBox='col-12 col-md-12 col-xl-11 col-lg-11 LightFHomeProject'
-                            projctHedng="GFAhedng"
-                            locationUrl={""}
-                            hed='LIGHT-F Project By'
-                            hed1='JICA & Sindh Gvt'
-                            projctChildBox="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject"
-                            projctPera="GFApera"
-                            seeAerro={devPeraImg}
-                            projctPera1="GFApera1"
-                            pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program fo...'
-                            proAeroImg="GFAimg"
-                            projectData={jicaLightF}
-                        />
-                        {/* Acf */}
-                        <ProjectContainer projctBox='col-12 col-md-12 col-xl-11 col-lg-11 ACFHomeProject'
-                            projctHedng="GFAhedng"
-                            hed='ACF Animal'
-                            hed1='Rescue Website'
-                            projctChildBox="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject"
-                            projctPera="ADBpera"
-                            locationUrl={""}
-                            seeAerro={devPeraImg}
-                            projctPera1="ADBpera1"
-                            pera='Ayesha Chundrigar Foundation, an NGO helping out troubled animals, needed a websi...'
-                            proAeroImg="ADBimg"
-                            projectData={aCFRescue}
-                        />
+                    <div className="col-12 col-md-1 col-xl-1 col-lg-1"></div>
+                    <div className="col-11 col-md-5 col-xl-6 col-lg-5">
+                        <div className="animatedup animatedFadeInUp fadeInUp">
+                            <div className="row" style={{ paddingRight: '0vw' }}>
+                                <div className='col-12 col-md-12 col-xl-11 col-lg-11 LightFHomeProject'>
+                                    <h2 className="GFAhedngProjects">LIGHT-F Project By JICA & Sindh Gvt</h2>
+                                    <div className="row">
+                                        <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                                        <div className="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject">
+                                            <p className="GFApera">
+                                            LIGHT-F (started by JICA with Sindh Government) wanted to launch ...
+                                            </p>
+                                            <Link rel="noopener noreferrer"
+                                                to={{ pathname: `/projects`, state: jicaLightF }}
+                                                className="changingdec">
+                                                <a className="changingdec">
+                                                    <p className="GFApera1">
+                                                        View Project<img href="#" className="GFAimg" src={require('../../Assets/Images/arrowPurple.png')} />
+                                                    </p>
+                                                </a>
+                                            </Link>
+                                        </div>
+                                        <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
+                            </div>
+                        </div>
+                        <div className="animatedup animatedFadeInUp fadeInUp">
+                            <div className="row" style={{ paddingRight: '0vw' }}>
+                                <div className='col-12 col-md-12 col-xl-11 col-lg-11 ACFHomeProject'>
+                                    <h2 className="GFAhedngProjects">ACF Animal Rescue Website</h2>
+                                    <div className="row">
+                                        <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                                        <div className="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject">
+                                            <p className="GFApera">
+                                            Ayesha Chundrigar Foundation, an NGO helping out troubled animals ...
+                                            </p>
+                                            <Link rel="noopener noreferrer"
+                                                to={{ pathname: `/projects`, state: aCFRescue }}
+                                                className="changingdec">
+                                                <a className="changingdec">
+                                                    <p className="GFApera1">
+                                                        View Project<img href="#" className="GFAimg" src={require('../../Assets/Images/arrowPurple.png')} />
+                                                    </p>
+                                                </a>
+                                            </Link>
+                                        </div>
+                                        <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="col-12 col-md-5 col-lg-4 col-xl-4">
-                        {/*Siddiq Sons*/}
-                        <ProjectContainer projctBox='col-11 col-md-12 col-xl-12 col-lg-12 SiddiqHomeProject'
-                            projctHedng="ProjectHomeRightText"
-                            hed="Siddiqsons Limited"
-                            hed1='Brochure'
-                            projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-12 ADB_BgChildProject"
-                            projctPera="ADBpera"
-                            locationUrl={""}
-                            seeAerro={devPeraImg}
-                            projctPera1="ADBpera1"
-                            pera='Siddiqsons needed a brochure that could effectively communicate their...'
-                            proAeroImg="ADBimg"
-                            projectData={siddiqSons}
-                        />
+                    <div className="col-12 col-md-5 col-xl-4 col-lg-4">
+                        <div className="animatedup animatedFadeInUp fadeInUp">
+                            <div className="row" style={{ paddingRight: '0vw' }}>
+                                <div className='col-11 col-md-12 col-xl-12 col-lg-12 SiddiqHomeProject'>
+                                    <h2 className="ADBhedngProject">Siddiqsons Limited Brochure</h2>
+                                    <div className="row">
+                                        <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                                        <div className="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-12 ADB_BgChildProject">
+                                            <p className="ADBpera">
+                                            Siddiqsons needed a brochure that could effectively communicate their ...
+                                            </p>
+                                            <Link rel="noopener noreferrer"
+                                                to={{ pathname: `/projects`, state: siddiqSons }}
+                                                className="changingdec">
+                                                <a href={this.props.locationUrl} className="changingdec">
+                                                    <p className="ADBpera1">
+                                                        View Project<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
+                                                    </p>
+                                                </a>
+                                            </Link>
+                                        </div>
+                                        <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
+                            </div>
+                        </div>
                         <Link to={`/project`} className="changingdec">
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-12 col-md-11 col-lg-11 col-xl-11 vieW_btn">
+                                    <div className="col-12 col-md-12 col-lg-12 col-xl-12 vieW_btn">
                                         <p className="arroW_lastesT">View All Projects <img src={Smallarrow} className="" /></p>
                                     </div>
                                 </div>
                             </div>
                         </Link>
+                    </div>
+                    <div className="col-12 col-md-1 col-xl-1 col-lg-1"></div>
+                </div>
+
+                <div className="row">
+                    <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
+                    <div className="col-11 col-md-5 col-lg-6 col-xl-6">
+                    </div>
+                    <div className="col-12 col-md-5 col-lg-4 col-xl-4">
+                        
                     </div>
                     <div className="col-12 col-md-12 col-lg-1 col-xl-1"></div>
                 </div>

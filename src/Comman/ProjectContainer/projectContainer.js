@@ -4,45 +4,10 @@ import '../../Components/Projects/projects.css';
 
 var projects = [
   {
-    name: 'Siddiqsons Limited Brochure',
-    desciption: 'Siddiqsons needed a brochure that could effectively communicate their new direction of environmental friendly denim production.',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687373/cover_h7qavr.jpg'],
-    ourRole: 'KRL Creatives was responsible for all photography and full design direction and creative execution of this campaign. We photographed their facility, designed a creative and visual strategy and prepared a brochure that would communicate the story of the hugely successful denim brand.',
-    technologyUsed: '',
-    visualidentityLogo: [''],
-    visualidentityLogoText: '',
-    colorpaletteText: '',
-    colorPaletteAllColor: [''],
-    fontText: '',
-    fontFamilyText: [''],
-    fontFamily: [''],
-    illustration: [
-      {
-        illustrationText: 'Photography',
-        illustrationSubText: 'Siddiqsons new denim production facility was photographer by KRL Creatives.',
-        illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687745/2_-pathway_plhjlc.jpg',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687782/10_-_washing_axkjqd.jpg',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687815/18_-_quality_assurance_eusdgz.jpg',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687823/6_-_two_side_laser_uueepf.jpg',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687830/15_-_Ozone_Machine_ddgl3d.jpg',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687847/8_-_single_side_laser_vrkktf.jpg'],
-      },
-    ],
-    demoHeading: 'Final Printed Brochure',
-    demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579702459/VID2_nmkc9u.mp4'],
-    documentHeading: 'Brochure Design',
-    documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864122/iteration_2_a_abk0ic.jpg',
-    ],
-    mainVideoPanel: [{
-      mainHead: '',
-      mainHeadsubText: '',
-      mainVideos: "",
-    },]
-  },
-  {
     name: 'LIGHT-F Project By JICA & Sindh Gvt',
     desciption: 'LIGHT-F (started by JICA with Sindh Government) wanted to launch a program for the welfare of women in interior Sindh. They needed to brand the program and needed a brand identity designed.',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579610272/cover_vjziro.jpg'],
+    frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 LightFProject',
     ourRole: 'KRL Creatives designed their brand, gave the brand an identity which included a logo, letterheads, certificate design, and brand guidelines.Apart from branding, we also designed and photographed their product catalog.',
     technologyUsed: '',
     visualidentityLogo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579610909/light-f-logo_lpqdtl.png'],
@@ -76,45 +41,10 @@ var projects = [
     },]
   },
   {
-    name: 'GetFitAthletic Branding Mobile App & Website',
-    desciption: 'A young & ambitious fitness trainer wanted to rebrand his venture, GitFitAthletic. He reached us for a new logo, a mobile application for iPhones and Android devices, and a website.',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579696454/shutterstock_696813646_1_d90qsc.jpg'],
-    ourRole: 'We designed a brand new logo for GetFitAthletic. Developed a hybrid mobile app for iPhones & Android and a website',
-    technologyUsed: 'We used React Native for hybrid mobile app and developed a Wordpress website.',
-    visualidentityLogo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579693689/logo_1_ni7ufn.png'],
-    visualidentityLogoText: 'This logo, with its colors and symbol, captures the energetic, strong and friendly personality of the GetFitAthletic brand.',
-    colorpaletteText: 'GetFitAthletic has a young, strong and friendly personality. The combo of orange and black captures it just right.',
-    colorPaletteAllColor: ['#FD5F01', '#000000'
-    ],
-    fontText: 'We chose ChunkFive Roman because of its friendly and strong nature.',
-    fontFamilyText: ['Chunk Five Roman'],
-    fontFamily: ['ChuckFive-Regular'],
-    illustration: [
-      {
-        illustrationText: 'Mobile App Screens',
-        illustrationSubText: 'Our designers worked with the client to come up with an app experience that covers all the business activities and help increase sales and income.',
-        illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/009_-_Invoices-01_knb8is.png',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/004_-_Add_calories-01_xo8v1h.png',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/006_-_Reports-01_gga7ad.png',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/001_-_Login-01_fttfgy.png',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872063/019_-_Packages-02_akz0u5.jpg',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872063/003_-_Homescreen_-_User_20-05-02_lkiyos.png'],
-      },
-    ],
-    demoHeading: 'Final Application Video',
-    demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579695940/VID1_kg8xfj.mp4'],
-    documentHeading: '',
-    documentDemo: [''],
-    mainVideoPanel: [{
-      mainHead: '',
-      mainHeadsubText: '',
-      mainVideos: "",
-    },]
-  },
-  {
     name: 'Drent Branding & Website',
     desciption: 'Drent needed a luxurious website to formally launch their dress rental service in UK for Asian communities. Their focus was making it a personalised brand that would make great impact on their customers.',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579697423/Asset_1_seshuz.png'],
+    frontImg: 'col-11 col-md-12 col-xl-11 col-lg-11 DrentProject',
     ourRole: 'We designed them a new brand that speaks to the UK community, but at the same time was impactful for the Asian users. We decided to go with a heavily branded website design that would leave its impact on the customers’ minds, while keeping it simple to use.',
     technologyUsed: 'Drents website was created using React.js on frontend and Node.js on backend.',
     visualidentityLogo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579696864/drent-logo_d0usqb.png'],
@@ -149,9 +79,47 @@ var projects = [
     },]
   },
   {
+    name: 'GetFitAthletic Branding Mobile App & Website',
+    desciption: 'A young & ambitious fitness trainer wanted to rebrand his venture, GitFitAthletic. He reached us for a new logo, a mobile application for iPhones and Android devices, and a website.',
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579696454/shutterstock_696813646_1_d90qsc.jpg'],
+    frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 GetFitProject',
+    ourRole: 'We designed a brand new logo for GetFitAthletic. Developed a hybrid mobile app for iPhones & Android and a website',
+    technologyUsed: 'We used React Native for hybrid mobile app and developed a Wordpress website.',
+    visualidentityLogo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579693689/logo_1_ni7ufn.png'],
+    visualidentityLogoText: 'This logo, with its colors and symbol, captures the energetic, strong and friendly personality of the GetFitAthletic brand.',
+    colorpaletteText: 'GetFitAthletic has a young, strong and friendly personality. The combo of orange and black captures it just right.',
+    colorPaletteAllColor: ['#FD5F01', '#000000'
+    ],
+    fontText: 'We chose ChunkFive Roman because of its friendly and strong nature.',
+    fontFamilyText: ['Chunk Five Roman'],
+    fontFamily: ['ChuckFive-Regular'],
+    illustration: [
+      {
+        illustrationText: 'Mobile App Screens',
+        illustrationSubText: 'Our designers worked with the client to come up with an app experience that covers all the business activities and help increase sales and income.',
+        illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/009_-_Invoices-01_knb8is.png',
+          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/004_-_Add_calories-01_xo8v1h.png',
+          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/006_-_Reports-01_gga7ad.png',
+          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/001_-_Login-01_fttfgy.png',
+          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872063/019_-_Packages-02_akz0u5.jpg',
+          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872063/003_-_Homescreen_-_User_20-05-02_lkiyos.png'],
+      },
+    ],
+    demoHeading: 'Final Application Video',
+    demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579695940/VID1_kg8xfj.mp4'],
+    documentHeading: '',
+    documentDemo: [''],
+    mainVideoPanel: [{
+      mainHead: '',
+      mainHeadsubText: '',
+      mainVideos: "",
+    },]
+  },
+  {
     name: 'ACF Animal Rescue Website',
     desciption: 'Ayesha Chundrigar Foundation, an NGO helping out troubled animals, needed a website for their cause, as well as photography that would help move their audience and motivate them to do good for the poor animals. They also needed an application for Android that would help them collect data of rescued animals in areas that lack internet connectivity.',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864118/acf-cover-img_srzfhp.jpg'],
+    frontImg: 'col-11 col-md-12 col-xl-11 col-lg-11 ACFProject',
     ourRole: 'We were responsible for coming up with the right kind of design for the website that would connect emotionally to the viewers. We built their website. We also did the photography for their website. For the mobile application, we developed a system that could store data without internet connectivity and then uploads it to their server when internet is made available again.',
     technologyUsed: 'The website was created using Wordpress. The mobile application was created using Ant.design, React.Js, Redux-Saga and Firebase.',
     visualidentityLogo: [''],
@@ -202,44 +170,10 @@ var projects = [
     },]
   },
   {
-    name: 'Pakjazba Online Portal System',
-    desciption: 'Pakjazba is a one stop portal that allows users to buy & sell stuff, book rooms, find jobs and more. It is created for overseas Pakistanis.',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579704937/pawel-nolbert-4u2U8EO9OzY-unsplash_jhrdz9.jpg'],
-    ourRole: 'KRL Creatives designed and developed this portal and maintain it to manage bug fixes and performance improvements.',
-    technologyUsed: 'PakJazba is developed using React.JS and NODE.JS. It uses Amazon for server and database deployment.',
-    visualidentityLogo: [''],
-    visualidentityLogoText: '',
-    colorpaletteText: '',
-    colorPaletteAllColor: [''],
-    fontText: '',
-    fontFamilyText: [''],
-    fontFamily: [''],
-    illustration: [
-      {
-        illustrationText: '',
-        illustrationSubText: '',
-        illustrationImages: ['']
-      },
-    ],
-    demoHeading: 'Final Portal Videos',
-    demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703973/03_dg5fcg.mp4',
-      'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703984/04_exnwk9.mp4',
-      'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703993/02_qyajzu.mp4',
-      'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579704003/01_bn99ch.mp4'
-    ],
-    documentHeading: '',
-    documentDemo: ['',
-    ],
-    mainVideoPanel: [{
-      mainHead: '',
-      mainHeadsubText: '',
-      mainVideos: "",
-    },]
-  },
-  {
     name: 'Circle Women Merch Design',
     desciption: 'Circle Women, an non-profit organization working for women empowerment, needed merchandise design for their educational event.',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579705454/christin-hume-Hcfwew744z4-unsplash_dlkimg.jpg'],
+    frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 CircleProject',
     ourRole: 'KRL Creatives researched their brand and event, and came up with interesting and beautiful merch design that would engage their audience and make a mark in their minds.',
     technologyUsed: '',
     visualidentityLogo: [''],
@@ -275,9 +209,79 @@ var projects = [
     },]
   },
   {
+    name: 'Pakjazba Online Portal System',
+    desciption: 'Pakjazba is a one stop portal that allows users to buy & sell stuff, book rooms, find jobs and more. It is created for overseas Pakistanis.',
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579704937/pawel-nolbert-4u2U8EO9OzY-unsplash_jhrdz9.jpg'],
+    frontImg: 'col-11 col-md-12 col-xl-11 col-lg-11 PakJazbaProject',
+    ourRole: 'KRL Creatives designed and developed this portal and maintain it to manage bug fixes and performance improvements.',
+    technologyUsed: 'PakJazba is developed using React.JS and NODE.JS. It uses Amazon for server and database deployment.',
+    visualidentityLogo: [''],
+    visualidentityLogoText: '',
+    colorpaletteText: '',
+    colorPaletteAllColor: [''],
+    fontText: '',
+    fontFamilyText: [''],
+    fontFamily: [''],
+    illustration: [
+      {
+        illustrationText: '',
+        illustrationSubText: '',
+        illustrationImages: ['']
+      },
+    ],
+    demoHeading: 'Final Portal Videos',
+    demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703973/03_dg5fcg.mp4',
+      'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703984/04_exnwk9.mp4',
+      'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703993/02_qyajzu.mp4',
+      'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579704003/01_bn99ch.mp4'
+    ],
+    documentHeading: '',
+    documentDemo: ['',
+    ],
+    mainVideoPanel: [{
+      mainHead: '',
+      mainHeadsubText: '',
+      mainVideos: "",
+    },]
+  },
+  {
+    name: 'Ziyarat Branding Website',
+    desciption: 'Ziyarat, a Pakistani designer wear retail brand needed a logo for their launch in UK. They also needed an ecommerce website which would help the brand sell.',
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579706873/artem-beliaikin-9Jr9hUzRVhc-unsplash_wao7xo.jpg'],
+    frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 ZiyaratProject',
+    ourRole: 'We were responsible for coming up with a logo which would represent their luxury lineup and serve as a strong face for the brand.',
+    technologyUsed: '',
+    visualidentityLogo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579706510/Ziyarat-Final_sbrpqx.png'],
+    visualidentityLogoText: 'Since Ziyarat needed a premium, traditional yet modern feel for their brand, we gave them a logo with ornaments and a modern font.',
+    colorpaletteText: 'We gave Ziyarat a royal combination of Burgundy and Gold that gives it a rich feeling.',
+    colorPaletteAllColor: ['#671429', '#E3B16D', '#CE8497'],
+    fontText: 'Ziyarat Logo uses San Marino font that is modern and royal.',
+    fontFamilyText: ['San Marino'],
+    fontFamily: ['San-Marino'],
+    illustration: [
+      {
+        illustrationText: '',
+        illustrationSubText: '',
+        illustrationImages: [''],
+      },
+    ],
+    demoHeading: 'Final Website Video',
+    demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706642/1_jtphb8.mp4',
+      'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706651/2_zch1v6.mp4'
+    ],
+    documentHeading: '',
+    documentDemo: [''],
+    mainVideoPanel: [{
+      mainHead: '',
+      mainHeadsubText: '',
+      mainVideos: '',
+    },]
+  },
+  {
     name: 'Oxbridge Video Website',
     desciption: 'Oxbridge, an English training start up, had an innovative approach to training and educational centers. They contacted KRL Creatives to design and develop their website.',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579707315/waldemar-brandt-U3Ptj3jafX8-unsplash_osnp6q.jpg'],
+    frontImg: 'col-11 col-md-12 col-xl-11 col-lg-11 OxbridgeProject',
     ourRole: 'We were responsible for coming up with a website design that would communicate their innovative approach effectively and could help connect their customers to the young brand.',
     technologyUsed: '',
     visualidentityLogo: [''],
@@ -309,41 +313,10 @@ var projects = [
     },]
   },
   {
-    name: 'Ziyarat Branding Website',
-    desciption: 'Ziyarat, a Pakistani designer wear retail brand needed a logo for their launch in UK. They also needed an ecommerce website which would help the brand sell.',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579706873/artem-beliaikin-9Jr9hUzRVhc-unsplash_wao7xo.jpg'],
-    ourRole: 'We were responsible for coming up with a logo which would represent their luxury lineup and serve as a strong face for the brand.',
-    technologyUsed: '',
-    visualidentityLogo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579706510/Ziyarat-Final_sbrpqx.png'],
-    visualidentityLogoText: 'Since Ziyarat needed a premium, traditional yet modern feel for their brand, we gave them a logo with ornaments and a modern font.',
-    colorpaletteText: 'We gave Ziyarat a royal combination of Burgundy and Gold that gives it a rich feeling.',
-    colorPaletteAllColor: ['#671429', '#E3B16D', '#CE8497'],
-    fontText: 'Ziyarat Logo uses San Marino font that is modern and royal.',
-    fontFamilyText: ['San Marino'],
-    fontFamily: ['San-Marino'],
-    illustration: [
-      {
-        illustrationText: '',
-        illustrationSubText: '',
-        illustrationImages: [''],
-      },
-    ],
-    demoHeading: 'Final Website Video',
-    demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706642/1_jtphb8.mp4',
-      'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706651/2_zch1v6.mp4'
-    ],
-    documentHeading: '',
-    documentDemo: [''],
-    mainVideoPanel: [{
-      mainHead: '',
-      mainHeadsubText: '',
-      mainVideos: '',
-    },]
-  },
-  {
     name: 'Dallas Palms Website',
     desciption: 'Dallas Palms, a wedding venue in Dallas, wanted to launch their website that could effectively showcase their venues and provide information for their customers.',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579774103/dallas-palms_znfrqa.jpg'],
+    frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 DallasPalmProject',
     ourRole: 'KRL Creatives designed and developed their website.',
     technologyUsed: 'This website was built using Wordpress',
     visualidentityLogo: [''],
@@ -381,6 +354,7 @@ var projects = [
     name: 'Amber Dazzle Website & TVC',
     desciption: 'Amber Dazzle, an American cosmetics brand, wanted to launch their product lineup in Pakistan. For this, they needed a new website that appealed to the Pakistani audience and communicated the brand’s heritage.',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg'],
+    frontImg: 'col-11 col-md-12 col-xl-11 col-lg-11 AmberDazelProject',
     ourRole: 'Our production department videographed models and composed the shots into an appealing TVC. Our designers worked with their product photographs and branding guidelines to design and set up a beautiful and simple to use website on Woocommerce.',
     technologyUsed: 'Wordpress and Woocommerce',
     visualidentityLogo: [''],
@@ -410,6 +384,7 @@ var projects = [
   }
 ]
 
+
 class ProjectContainer extends Component {
 
   constructor(props) {
@@ -419,81 +394,96 @@ class ProjectContainer extends Component {
     }
   }
 
+  componentDidMount() {
+    let dataFromHome = this.props.projectStateFromHome;
+    console.log("TCL: ProjectContainer -> componentDidMount -> dataFromHome", dataFromHome)
+    if(dataFromHome != undefined){
+      this.setState({ projects: dataFromHome })
+    }
+    else{
+      this.setState({ projects: projects })
+    }
+  }
+
   render() {
     const { projctBox, projctBox1, projctHedng, hed, hed1, projctChildBox, projctPera, pera, projctPera1, proAeroImg, seeAerro } = this.props;
     const { projects } = this.state;
-    console.log(projects[0].name, 'all projectss')
-    // console.log(this.props.projectData,'location');
+
     return (
       <div>
         <div className="row">
           <div className="col-12 col-md-1 col-xl-1 col-lg-1"></div>
-          {projects.map((elem, key) => {
-            if(key % 2 == 0){
-            return (
-              <div className="col-11 col-md-5 col-xl-5 col-lg-5 bigProjectLeft">
-                <div className="animatedup animatedFadeInUp fadeInUp">
-                  <div className="row" style={{ paddingRight: '0vw' }}>
-                    <div className='col-12 col-md-12 col-xl-11 col-lg-11 LightFProject'>
-                      <h2 className="GFAhedng">{elem.name}</h2>
-                      <div className="row">
-                        <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
-                        <div className="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject">
-                          <p className="GFApera">
-                            {elem.desciption.slice(0, 70)}...
+          <div className="col-12 col-md-10 col-xl-10 col-lg-10 bigProjectLeft" style={{ padding: '0' }}>
+            <div className="row">
+              {projects.map((elem, key) => {
+                if (key % 2 == 0) {
+                  return (
+                    // <div className="col-11 col-md-5 col-xl-7 col-lg-7 bigProjectLeft">
+                    <div className="col-11 col-md-6 col-xl-7 col-lg-7">
+                      <div className="animatedup animatedFadeInUp fadeInUp">
+                        <div className="row" style={{ paddingRight: '0vw' }}>
+                          <div className={elem.frontImg}>
+                            <h2 className="GFAhedngProjects">{elem.name}</h2>
+                            <div className="row">
+                              <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                              <div className="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject">
+                                <p className="GFApera">
+                                  {elem.desciption.slice(0, 70)}...
                             </p>
-                          <Link rel="noopener noreferrer"
-                            to={{ pathname: `/projects`, state: projects }}
-                            className="changingdec">
-                            <a className="changingdec">
-                              <p className="GFApera1">
-                                View Project<img href="#" className="GFAimg" src={require('../../Assets/Images/arrowPurple.png')} />
-                              </p>
-                            </a>
-                          </Link>
-                        </div>
-                        <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
-                      </div>
-                    </div>
-                    <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
-                  </div>
-                </div>
-              </div>
-            )
-            }
-            else if (key % 2 == 1) {
-              return (
-                <div className="col-12 col-md-5 col-xl-5 col-lg-5">
-                  <div className="animatedup animatedFadeInUp fadeInUp">
-                    <div className="row" style={{ paddingRight: '0vw' }}>
-                      <div className="col-11 col-md-12 col-xl-9 col-lg-9 DrentProject">
-                        <h2 className="ADBhedngProject">{elem.name}</h2>
-                        <div className="row">
-                          <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
-                          <div className="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-12 ADB_BgChildProject">
-                            <p className="ADBpera">
-                              {elem.desciption.slice(0, 70)}...
-                            </p>
-                            <Link rel="noopener noreferrer"
-                              to={{ pathname: `/projects`, state: projects }}
-                              className="changingdec">
-                              <a href={this.props.locationUrl} className="changingdec">
-                                <p className="ADBpera1">
-                                  View Project<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
-                                </p>
-                              </a>
-                            </Link>
+                                <Link rel="noopener noreferrer"
+                                  to={{ pathname: `/projects`, state: elem }}
+                                  className="changingdec">
+                                  <a className="changingdec">
+                                    <p className="GFApera1">
+                                      View Project<img href="#" className="GFAimg" src={require('../../Assets/Images/arrowPurple.png')} />
+                                    </p>
+                                  </a>
+                                </Link>
+                              </div>
+                              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
+                            </div>
                           </div>
                           <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
                         </div>
                       </div>
-                      <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
                     </div>
-                  </div>
-                </div>
-              )
-            }
-          })}
+                  )
+                }
+                else if (key % 2 == 1) {
+                  return (
+                    <div className="col-12 col-md-6 col-xl-5 col-lg-5">
+                      <div className="animatedup animatedFadeInUp fadeInUp">
+                        <div className="row" style={{ paddingRight: '0vw' }}>
+                          <div className={elem.frontImg}>
+                            <h2 className="ADBhedngProject">{elem.name}</h2>
+                            <div className="row">
+                              <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                              <div className="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-12 ADB_BgChildProject">
+                                <p className="ADBpera">
+                                  {elem.desciption.slice(0, 80)}...
+                            </p>
+                                <Link rel="noopener noreferrer"
+                                  to={{ pathname: `/projects`, state: elem }}
+                                  className="changingdec">
+                                  <a href={this.props.locationUrl} className="changingdec">
+                                    <p className="ADBpera1">
+                                      View Project<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
+                                    </p>
+                                  </a>
+                                </Link>
+                              </div>
+                              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
+                            </div>
+                          </div>
+                          <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
+                        </div>
+                      </div>
+                    </div>
+                  )
+                }
+              })}
+            </div>
+          </div>
           <div className="col-12 col-md-1 col-xl-1 col-lg-1"></div>
         </div>
         {/* <div className="animatedup animatedFadeInUp fadeInUp">
