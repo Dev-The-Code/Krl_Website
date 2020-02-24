@@ -9,7 +9,7 @@ class serviceBanners extends Component {
                     <div className="row" style={{ paddingTop: '17vmax' }}>
                         <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
                         <div className="col-12 col-md-5 col-lg-5 col-xl-5">
-                            <h1 className="banNer_blaNk">We have go <br />all covered.</h1>
+                            <h1 className="banNer_blaNk">We have go <br />covered.</h1>
                         </div>
                         <div className="col-12 col-md-5 col-lg-5 col-xl-5 CircleBanerBack">
                             <h1 className="banNer_iMgTeXt">t you</h1><br /><br />

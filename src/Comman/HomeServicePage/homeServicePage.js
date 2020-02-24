@@ -972,8 +972,9 @@ class HomeServicesPage extends Component {
                   </div>
                   <div className="consultDev">
                     <p className="consultPera" style={{ marginBottom: '-10px' }}>
-                      With the power of empathy, transparent communication and honest dealing we work with
-                      you to help you find the right path to maximising the out- come your brand creates.
+                      We stand by the triad of empathy, transparency and honest
+                      dealing in order to help you find the right path to maximise
+                      the success and outcome created by your brand.
                     </p>
                     <Link rel="noopener noreferrer"
                       to={{ pathname: `/project`, state: marketing }}
@@ -997,8 +998,9 @@ class HomeServicesPage extends Component {
                       </div>
                       <div className="developmentDev">
                         <p className="developmentPera" style={{ marginBottom: '-10px' }}>
-                          Our developers use the latest and cutting edge
-                          technologies to develop efficient solutions.
+                          Our developers are up-to-date with the latest and cutting-edge
+                          technologies being used today and do not shy away from using
+                          them to provide efficient solutions for your brand.
                           </p>
                         <Link rel="noopener noreferrer"
                           to={{ pathname: `/project`, state: development }}
@@ -1022,8 +1024,8 @@ class HomeServicesPage extends Component {
                       </div>
                       <div className="designDev">
                         <p className="designPera" style={{ marginBottom: '-10px' }}>
-                          Our designers works hard to design delightful experiences that
-                          help you achieve business goals.
+                          Our designers work diligently to create immersive experiences
+                           that help you achieve your business goals.
                           </p>
                         <Link rel="noopener noreferrer"
                           to={{ pathname: `/project`, state: design }}
@@ -1056,8 +1058,8 @@ class HomeServicesPage extends Component {
                       </div>
                       <div className="developmentDev">
                         <p className="developmentPera" style={{ marginBottom: '-10px' }}>
-                          Did you say photos and videos? Our producers are here with all
-                          their experience and expertise!
+                          Did you say photos and videos? Our producers have got
+                          you covered with their expertise and their eye for great lighting.
                           </p>
                         <Link rel="noopener noreferrer"
                           to={{ pathname: `/project`, state: production }}
@@ -1109,10 +1111,11 @@ class HomeServicesPage extends Component {
                       Marketing
                       </h3>
                   </div>
-                  <div className="consultDevSm" style={{height:'auto'}}>
-                    <p className="consultPeraSm" style={{paddingBottom: '0'}}>
-                      With the power of empathy, transparent communication and honest deal- ing we work with
-                      you to help you find the right path to maximising the outcome your brand creates.
+                  <div className="consultDevSm" style={{ height: 'auto' }}>
+                    <p className="consultPeraSm" style={{ paddingBottom: '0' }}>
+                      We stand by the triad of empathy, transparency and honest
+                      dealing in order to help you find the right path to maximise
+                      the success and outcome created by your brand.
                       </p>
                     <Link rel="noopener noreferrer"
                       to={{ pathname: `/project`, state: marketing }}
@@ -1133,9 +1136,10 @@ class HomeServicesPage extends Component {
                       </h3>
                   </div>
                   <div className="develpDevSm">
-                    <p className="develpPera" style={{paddingBottom: '0'}}>
-                      Did you say photos and videos? Our pro- ducers are here with all
-                      their experience and expertise!
+                    <p className="develpPera" style={{ paddingBottom: '0' }}>
+                      ` Our developers are up-to-date with the latest and cutting-edge
+                         technologies being used today and do not shy away from using
+                         them to provide efficient solutions for your brand.
                       </p>
                     <Link rel="noopener noreferrer"
                       to={{ pathname: `/project`, state: development }}
@@ -1156,9 +1160,9 @@ class HomeServicesPage extends Component {
                       </h3>
                   </div>
                   <div className="designDevSm">
-                    <p className="developmentPeraSm" style={{paddingBottom: '0'}}>
-                      Our designers works hard to design delightful experiences that
-                      help you achieve business goals.
+                    <p className="developmentPeraSm" style={{ paddingBottom: '0' }}>
+                      Our designers work diligently to create immersive experiences
+                      that help you achieve your business goals.
                       </p>
                     <Link rel="noopener noreferrer"
                       to={{ pathname: `/project`, state: design }}
@@ -1179,9 +1183,9 @@ class HomeServicesPage extends Component {
                       </h3>
                   </div>
                   <div className="designDevSm">
-                    <p className="developmentPeraSm" style={{paddingBottom: '0'}}>
-                      Our designers works hard to design delightful experiences that
-                      help you achieve business goals.
+                    <p className="developmentPeraSm" style={{ paddingBottom: '0' }}>
+                      Did you say photos and videos? Our producers have got
+                      you covered with their expertise and their eye for great lighting.
                       </p>
                     <Link rel="noopener noreferrer"
                       to={{ pathname: `/project`, state: production }}
@@ -1224,19 +1228,20 @@ class HomeServicesPage extends Component {
                       </h3>
                   </div>
                   <div className="consultDevMb">
-                    <p className="consultPeraMb" style={{paddingBottom: '0'}}>
-                      With the power of empathy, transparent communication and honest dealing we work with
-                      you to help you find the right path to maximising the outcome your brand creates.
+                    <p className="consultPeraMb" style={{ paddingBottom: '0' }}>
+                      We stand by the triad of empathy, transparency and honest
+                      dealing in order to help you find the right path to maximise
+                      the success and outcome created by your brand.
                       </p>
-                      <Link rel="noopener noreferrer"
-                          to={{ pathname: `/project`, state: marketing }}
-                          className="changingdec">
-                          <a href={this.props.locationUrl} className="changingdec">
-                            <p className="ArrowHomeSErvice" style={{ paddingTop: '0',paddingLeft:'7.5vw'}}>
-                              View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
-                            </p>
-                          </a>
-                        </Link>
+                    <Link rel="noopener noreferrer"
+                      to={{ pathname: `/project`, state: marketing }}
+                      className="changingdec">
+                      <a href={this.props.locationUrl} className="changingdec">
+                        <p className="ArrowHomeSErvice" style={{ paddingTop: '0', paddingLeft: '7.5vw' }}>
+                          View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
+                        </p>
+                      </a>
+                    </Link>
                   </div>
                 </div>
 
@@ -1247,19 +1252,20 @@ class HomeServicesPage extends Component {
                       </h3>
                   </div>
                   <div className="develpDevMb">
-                    <p className="develpPeraMb" style={{paddingBottom: '0'}}>
-                      Did you say photos and videos? Our pro- ducers are here with all
-                      their experience and expertise!
+                    <p className="develpPeraMb" style={{ paddingBottom: '0' }}>
+                      Our developers are up-to-date with the latest and cutting-edge
+                       technologies being used today and do not shy away from using
+                       them to provide efficient solutions for your brand.
                       </p>
-                      <Link rel="noopener noreferrer"
-                          to={{ pathname: `/project`, state: development }}
-                          className="changingdec">
-                          <a href={this.props.locationUrl} className="changingdec">
-                            <p className="ArrowHomeSErvice" style={{ paddingTop: '0',paddingLeft:'7.5vw'}}>
-                              View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
-                            </p>
-                          </a>
-                        </Link>
+                    <Link rel="noopener noreferrer"
+                      to={{ pathname: `/project`, state: development }}
+                      className="changingdec">
+                      <a href={this.props.locationUrl} className="changingdec">
+                        <p className="ArrowHomeSErvice" style={{ paddingTop: '0', paddingLeft: '7.5vw' }}>
+                          View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
+                        </p>
+                      </a>
+                    </Link>
                   </div>
                 </div>
 
@@ -1271,19 +1277,19 @@ class HomeServicesPage extends Component {
                       </h3>
                   </div>
                   <div className="develpDevMb">
-                    <p className="develpPeraMb" style={{paddingBottom: '0'}}>
-                      Our designers works hard to design delightful experiences that
-                      help you achieve business goals.
+                    <p className="develpPeraMb" style={{ paddingBottom: '0' }}>
+                      Our designers work diligently to create immersive experiences
+                           that help you achieve your business goals.
                       </p>
-                      <Link rel="noopener noreferrer"
-                          to={{ pathname: `/project`, state: design }}
-                          className="changingdec">
-                          <a href={this.props.locationUrl} className="changingdec">
-                            <p className="ArrowHomeSErvice" style={{ paddingTop: '0',paddingLeft:'7.5vw'}}>
-                              View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
-                            </p>
-                          </a>
-                        </Link>
+                    <Link rel="noopener noreferrer"
+                      to={{ pathname: `/project`, state: design }}
+                      className="changingdec">
+                      <a href={this.props.locationUrl} className="changingdec">
+                        <p className="ArrowHomeSErvice" style={{ paddingTop: '0', paddingLeft: '7.5vw' }}>
+                          View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
+                        </p>
+                      </a>
+                    </Link>
                   </div>
                 </div>
 
@@ -1294,19 +1300,19 @@ class HomeServicesPage extends Component {
                       </h3>
                   </div>
                   <div className="develpDevMb">
-                    <p className="develpPeraMb" style={{paddingBottom: '0'}}>
-                      Our designers works hard to design delightful experiences that
-                      help you achieve business goals.
+                    <p className="develpPeraMb" style={{ paddingBottom: '0' }}>
+                      Did you say photos and videos? Our producers have got
+                      you covered with their expertise and their eye for great lighting.
                       </p>
-                      <Link rel="noopener noreferrer"
-                          to={{ pathname: `/project`, state: production }}
-                          className="changingdec">
-                          <a href={this.props.locationUrl} className="changingdec">
-                            <p className="ArrowHomeSErvice" style={{ paddingTop: '0',paddingLeft:'7.5vw'}}>
-                              View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
-                            </p>
-                          </a>
-                        </Link>
+                    <Link rel="noopener noreferrer"
+                      to={{ pathname: `/project`, state: production }}
+                      className="changingdec">
+                      <a href={this.props.locationUrl} className="changingdec">
+                        <p className="ArrowHomeSErvice" style={{ paddingTop: '0', paddingLeft: '7.5vw' }}>
+                          View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
+                        </p>
+                      </a>
+                    </Link>
                   </div>
                 </div>
                 <Link to={`/services`}>

@@ -33,7 +33,7 @@ class Seeproject extends React.Component {
                             <SeeProject se_Text="seeProfoot_home"
                                 roWalign='row ReW_home'
                                 se_Text1="largerFoottext"
-                                seeText="Lets build something awesome together!"
+                                seeText="Lets create something awesome together!"
                                 lrgText="Send a request "
                                 lgBrText=""
                                 arrow_Right="aroowFootHome"

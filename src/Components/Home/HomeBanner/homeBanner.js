@@ -50,7 +50,7 @@ class Home extends Component {
                     <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
                     <div className="col-12 col-md-11 col-lg-11 col-xl-11">
                         <p className="para_Textt-home">KRL Creatives covers all your brand needs to serve
-                                                        your audience well. We do consultation and then we
+                                                        your audience well. We do consultations and then we
                                                         provide the right solutions. We design, develop and
                                                         produce.</p>
                     </div>
