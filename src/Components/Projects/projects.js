@@ -12,9 +12,9 @@ import { Tabs } from 'antd';
 
 var siddiqSons = {
   name: 'Siddiqsons Limited Brochure',
-  desciption: 'Siddiqsons needed a brochure that could effectively communicate their new direction of environmental friendly denim production.',
+  desciption: 'Siddiqsons Limited, the pioneer of the denim industry in Pakistan, was in need of a magazine to effectively communicate their strategic direction to begin environmentally friendly denim manufacturing and production.',
   coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687373/cover_h7qavr.jpg'],
-  ourRole: 'KRL Creatives was responsible for all photography and full design direction and creative execution of this campaign. We photographed their facility, designed a creative and visual strategy and prepared a brochure that would communicate the story of the hugely successful denim brand.',
+  ourRole: 'KRL Creatives was responsible for the creative direction and design execution of this campaign. We were behind the creative and visual strategies that went into the production of the videos and magazine that were to communicate the story and success of the denim giant.',
   technologyUsed: '',
   visualidentityLogo: [''],
   visualidentityLogoText: '',
@@ -26,7 +26,7 @@ var siddiqSons = {
   illustration: [
     {
       illustrationText: 'Photography',
-      illustrationSubText: 'Siddiqsons new denim production facility was photographer by KRL Creatives.',
+      illustrationSubText: 'Our team played around with various light sources whilst covering Siddiqsons’ new infrastructure, machinery and manufacturing processes. We made sure to highlight the innovative processes to bring forward their message of sustainability.',
       illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687745/2_-pathway_plhjlc.jpg',
         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687782/10_-_washing_axkjqd.jpg',
         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687815/18_-_quality_assurance_eusdgz.jpg',
@@ -52,7 +52,7 @@ class Projects extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      siddiqSons:siddiqSons,
+      siddiqSons: siddiqSons,
 
       banrPeragh: 'KRL Creatives covers you for all digital assets your brand needs to serve your audience well.',
       banrPeragh1: 'We design, develop and produce.',
@@ -63,24 +63,37 @@ class Projects extends React.Component {
       devPeraImg: true,
       devParagraph: false,
       ViewPro: true,
-
-      projectStateFromHome : this.props.location.state,
+      projectStateFromHome: [],
     }
   }
   componentWillMount() {
-    let data = this.props.location.pathname;
+    let data = this.props.location.state;
+    console.log(data, 'data')
+    if (data) {
+      if (data.projectObj == undefined) {
+        this.setState({
+          projectStateFromHome: data
+        })
+      }
+      else if (data.projectObj != undefined) {
+        this.setState({
+          projectStateFromHome: data.projectObj
+        })
+      }
+    }
+    let dataLocation = this.props.location.pathname;
     let routName;
-    routName = data.slice(1);
+    routName = dataLocation.slice(1);
     routName = routName.charAt(0).toUpperCase() + routName.slice(1);
     this.setState({ headerPath: routName });
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }
-  
+
   render() {
-    // let projectStateFromHome = this.props.location.state;
+    // console.log("render -> this.props.location.state;", this.props.location.state);
     const { TabPane } = Tabs;
     const { GFAperaas, devPeraImg, headingpera, headingpera1, headingpera2, banFuturPro, ViewPro, headerPath,
-            projects , siddiqSons,projectStateFromHome  } = this.state
+      projects, siddiqSons, projectStateFromHome } = this.state;
     return (
 
       <div className="all_backgrundImageAfter animateFadeIn">

@@ -26,6 +26,7 @@
         background-size: cover;
         background-position-x: right;
         margin-bottom: calc(15vw - -9.5vmax);
+        margin-top: 11vw;
     }
     .CircleProject {
         background-image: url("../../Assets/Images/circle.jpg");
@@ -36,8 +37,8 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(15vw - -9.5vmax);
-        margin-top: 15vw;
+        margin-bottom: calc(15vw - -6.5vmax);
+         margin-top: 25vw;
     }
     .ZiyaratProject {
         background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
@@ -48,7 +49,8 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-y: bottom;
-        margin-bottom: calc(15vw - -9.5vmax);
+        margin-bottom: calc(15vw - -6.5vmax);
+        margin-top: 20vw;
     }
     .DallasPalmProject {
         background-image: url("../../Assets/Images/dallaspalm.png");
@@ -59,8 +61,8 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-y: top;
-        margin-bottom: calc(15vw - -9.5vmax);
-        margin-top: 15vw;
+        margin-bottom: calc(15vw - -4.5vmax);
+        margin-top: 20vw;
     }
 
     .DrentProject{
@@ -72,8 +74,8 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        /* margin-bottom: 7vmax; */
-        margin-left: 4.3vw;
+        /* margin-bottom: 7vmax;
+        margin-left: 4.3vw; */
         margin-bottom: calc(5vw - -6.5vmax);
     }
     .ACFProject {
@@ -86,7 +88,7 @@
         background-size: cover;
         background-position-x: right;
         /* margin-bottom: 11vmax; */
-        margin-left: 4.3vw;
+        /* margin-left: 4.3vw; */
         /* margin-bottom: calc(15vw - -9.5vmax); */
     }
     .PakJazbaProject {
@@ -99,7 +101,7 @@
         background-size: cover;
         background-position-x: right;
         /* margin-bottom: 11vmax; */
-        margin-left: 4.3vw;
+        /* margin-left: 4.3vw; */
         margin-bottom: calc(5vw - -5.5vmax);
     }
     .OxbridgeProject {
@@ -112,7 +114,7 @@
         background-size: cover;
         background-position-x: right;
         /* margin-bottom: 11vmax; */
-        margin-left: 4.3vw;
+        /* margin-left: 4.3vw; */
         /* margin-bottom: calc(15vw - -9.5vmax); */
     }
     .AmberDazelProject {
@@ -125,7 +127,7 @@
         background-size: cover;
         background-position-x: right;
         /* margin-bottom: 11vmax; */
-        margin-left: 4.3vw;
+        /* margin-left: 4.3vw; */
         margin-bottom: calc(5vw - -5.5vmax);
     }
 

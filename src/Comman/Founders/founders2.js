@@ -14,11 +14,11 @@ class Founders2 extends Component {
           
           <div className="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 devFondp2">
             <img href="#" className="devFondp2Img" src={require('../../Assets/Images/inverted-coma.png')}/>
-            <p className="devFondp2Pera"> “KRL, represented by Ms. Khumar Raza, has been working on the 
-            LIGHT-F project since January 2018. They helped us to develop our logo, our brand colour and 
-            logo usage guidelines. In addition, they also designed various print materials such as leaflets 
-            and catalogs. They are young and energetic and understood our requirements working to achieve 
-            them carefully. We love the products they created for us and are very happy to work with them.” </p>
+            <p className="devFondp2Pera"> "KRL represented by Ms. Khumar Raza worked with LIGHT-F project 
+            since January 2018. They helped us to develop project logo, image color and logo usage guidelines. 
+            They also designed carious materials using logo and brand color such as leaflets and catalogues. 
+            They are young and energetic, trying to understandwhat we want very carefully. We love their 
+            products and are very happy to work with them." </p>
 
 
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">

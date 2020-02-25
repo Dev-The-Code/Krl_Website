@@ -11,7 +11,7 @@ class MainServices extends Component {
     render() {
       const {serviceH1, serviceH1text, marketBox, marketBox1, marketBox2, marketH1, marketH1text, marketBox3, marketPragph, marketPeraText, marketBox4,
       offerH5, offerH5text, offerPragph, offerPeraText, offerPeraText1, offerPeraText2,offerPeraText3, marketBox5, PeraAerroImg, peraAeroImg, LP_rightAeroImg,
-      marketMobBox, marketMobBox1,}= this.props
+      marketMobBox, marketMobBox1,projectObj}= this.props
       
       return (
         <div className="animatedup animatedFadeInUp fadeInUp">
@@ -48,7 +48,8 @@ class MainServices extends Component {
                     </div>
 
                     <div className={marketBox5}>{/* "marketChildDev2" */}
-                    <Link rel="noopener noreferrer" to={`/project`}  className="changingdec">
+                    <Link rel="noopener noreferrer" 
+                          to={{ pathname: `/project`, state: {projectObj} }}  className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec" target='_blank'>
                         {PeraAerroImg ? <p className={peraAeroImg}>
                           View Project 

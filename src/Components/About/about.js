@@ -66,10 +66,10 @@ class About extends React.Component {
         <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" /> 
           <AboutBanner 
             Consl_text='Consultation'
-            solu_text='with solution.'
+            solu_text='with solution'
             para_Text='divi_Colorsty'
             para_ClaSs='para_Textt'
-            descrip_Text='KRL Creatives provides consultation businesses to help them grow. We listen thouroughly to your problem, empathize with you and your customers and create useful digital solutions that maximise your return on investments.'
+            descrip_Text='KRL Creatives consults with businesses to help provide efficient solutions to their business problems. We listen astutely to understand your business needs and engage our teams to come up with digital solutions to maximise your return on investment.'
             mOR_texT=''
             conts_sol='Consultation '
             With_sool='with solution.'

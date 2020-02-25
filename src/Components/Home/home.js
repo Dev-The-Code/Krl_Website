@@ -44,7 +44,7 @@ class Home extends React.Component {
       HomeClientsState: false,
       HomeSeeProjectState: false
     });
-    console.log('params data >>', param);
+    // console.log('params data >>', param);
     // if(param == 'home'){
     //   this.setState({
     //      HomeBannerState:true,

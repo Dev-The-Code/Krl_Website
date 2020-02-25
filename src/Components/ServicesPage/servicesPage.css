@@ -700,12 +700,12 @@
     margin-bottom: 4vw;
 }
 .developmentPera{
-    font-size: calc(1em + 0.1vmax);
+    font-size: calc(1em + 0.7px);
     color: #adadad;
-    padding-top: 3.1vw;
-    padding-left: 3.1vw;
-    padding-right: 3.1vw;
-    padding-bottom: 3.1vw;
+    padding-top: 3vw;
+    padding-left: 3vw;
+    padding-right: 2vw;
+    padding-bottom: 2vw;
     font-family: aleta-light;
 }
 .developmentPeraSm{

@@ -73,7 +73,7 @@ class ServicesPage extends React.Component {
         <div className="row">
           <div className="col-md-1 col-xl-1 col-lg-1"></div>
           <div className="col-10 col-md-10 col-xl-10 col-lg-10">
-            <h1 className="heaD_font" style={{marginBottom:'10px'}}>We Work With</h1>
+            <h1 className="heaD_font" style={{ marginBottom: '10px' }}>We Work With</h1>
           </div>
           <div className="col-1 col-md-1 col-xl-1 col-lg-1"></div>
         </div>
@@ -93,8 +93,10 @@ class ServicesPage extends React.Component {
                   </div>
                   <div className="nonProfitDev">
                     <p className="consultPera">
-                      We work with NGOs because we like to give back to the society and our people.
-                      </p>
+                      We work with NGOs because there is nothing as fulfilling
+                      as working towards the betterment of society and bringing
+                      about substantial change.
+                    </p>
                   </div>
                 </div>
                 <div className="col-xl-1 col-lg-1"></div>
@@ -109,8 +111,11 @@ class ServicesPage extends React.Component {
                   </div>
                   <div className="developmentDev">
                     <p className="developmentPera">
-                    We know the struggles of a startup, and we are up to help them grow!
-                      </p>
+                      The struggles faced by startups are closer to
+                      home than you would believe. We understand that
+                      any form of help can go a long way and contribute
+                      to their growth.
+                    </p>
                   </div>
                 </div>
 
@@ -124,8 +129,10 @@ class ServicesPage extends React.Component {
                   </div>
                   <div className="designDev">
                     <p className="designPera">
-                    We have grown stronger enough to work with the biggest enterprises of the world!
-                      </p>
+                      We take on live projects with industry giants in
+                      order to work with outstanding brands and outstanding
+                      people to deliver sustainable growth to their businesses.
+                    </p>
                   </div>
                 </div>
 
@@ -154,8 +161,9 @@ class ServicesPage extends React.Component {
                   </div>
                   <div className="consultDevSm">
                     <p className="consultPeraSm">
-                      With the power of empathy, transparent communication and honest deal- ing we work with
-                      you to help you find the right path to maximising the outcome your brand creates.
+                      We work with NGOs because there is nothing as fulfilling
+                      as working towards the betterment of society and bringing
+                      about substantial change.
                       </p>
                   </div>
                 </div>
@@ -168,9 +176,11 @@ class ServicesPage extends React.Component {
                   </div>
                   <div className="develpDevSm">
                     <p className="develpPera">
-                      Did you say photos and videos? Our pro- ducers are here with all
-                      their experience and expertise!
-                      </p>
+                      The struggles faced by startups are closer to
+                      home than you would believe. We understand that
+                      any form of help can go a long way and contribute
+                      to their growth.
+                    </p>
                   </div>
                 </div>
 
@@ -182,8 +192,9 @@ class ServicesPage extends React.Component {
                   </div>
                   <div className="designDevSm">
                     <p className="developmentPeraSm">
-                      Our designers works hard to design delightful experiences that
-                      help you achieve business goals.
+                      We take on live projects with industry giants in
+                      order to work with outstanding brands and outstanding
+                      people to deliver sustainable growth to their businesses.
                       </p>
                   </div>
                 </div>
@@ -211,8 +222,9 @@ class ServicesPage extends React.Component {
                   </div>
                   <div className="consultDevMb">
                     <p className="consultPeraMb">
-                      Did you say photos and videos? Our pro- ducers are here with all
-                      their experience and expertise!
+                      We work with NGOs because there is nothing as fulfilling
+                      as working towards the betterment of society and bringing
+                      about substantial change.
                       </p>
                   </div>
                 </div>
@@ -225,9 +237,11 @@ class ServicesPage extends React.Component {
                   </div>
                   <div className="develpDevMb">
                     <p className="develpPeraMb">
-                      Did you say photos and videos? Our pro- ducers are here with all
-                      their experience and expertise!
-                      </p>
+                      The struggles faced by startups are closer to
+                      home than you would believe. We understand that
+                      any form of help can go a long way and contribute
+                      to their growth.
+                    </p>
                   </div>
                 </div>
 
@@ -240,9 +254,10 @@ class ServicesPage extends React.Component {
                   </div>
                   <div className="develpDevMb">
                     <p className="develpPeraMb">
-                      Did you say photos and videos? Our pro- ducers are here with all
-                      their experience and expertise!
-                      </p>
+                      We take on live projects with industry giants in
+                      order to work with outstanding brands and outstanding
+                      people to deliver sustainable growth to their businesses.
+                    </p>
                   </div>
                 </div>
 
@@ -279,7 +294,7 @@ class ServicesPage extends React.Component {
               <SeeProject se_Text="seProFotr_text"
                 se_Text1="largeProFotr_text"
                 roWalign='row ReW_SerVice'
-                seeText="Lets build something awesome together!"
+                seeText="Lets create something awesome together!"
                 lrgText="Send a request "
                 lgBrText=""
                 arrow_Right="arrowRight1_aboUt"

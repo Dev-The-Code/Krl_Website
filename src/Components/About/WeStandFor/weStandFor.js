@@ -62,10 +62,11 @@ class WeStandFor extends Component {
                             <div className="col-xl-6 col-lg-6 col-md-6 col-12 " style={{ padding: '0.3vmax 4.1vw 3.1vw 3.1vw' }}>
                                 <div className="row">
                                     <div className="col-xl-10 col-lg-10 col-md-11 col-12 ">
-                                        <p className="ourColorText">KRL Creatives brand uses to diffrent gradients to show or
-                                        dynamic nature. The blue to purple gradients represents our
-                                        imaginative thinking and leadership quality. The orange to
-                                        red gradients shows our energy.
+                                        <p className="ourColorText">
+                                        Our brand uses two different colour gradients to depict 
+                                        our dynamic nature. The blue to purple gradient represents 
+                                        our imaginative and leadership qualities. Whereas, the orange 
+                                        to red gradient represents our strong and charged energy.  
                             </p>
                                     </div>
                                     <div className="col-xl-2 col-lg-2 col-md-1 col-12 "></div>
@@ -119,10 +120,11 @@ class WeStandFor extends Component {
                             <div className="col-12 " style={{ padding: '0.3vmax 4.1vw 3.1vw 3.1vw' }}>
                                 <div className="row">
                                     <div className="col-xl-10 col-lg-10 col-md-11 col-12 ">
-                                        <p className="ourColorTextMob">KRL Creatives brand uses to diffrent gradients to show or
-                                            dynamic nature. The blue to purple gradients represents our
-                                            imaginative thinking and leadership quality. The orange to
-                                            red gradients shows our energy.
+                                        <p className="ourColorTextMob">
+                                        Our brand uses two different colour gradients to depict 
+                                        our dynamic nature. The blue to purple gradient represents 
+                                        our imaginative and leadership qualities. Whereas, the orange 
+                                        to red gradient represents our strong and charged energy.
                                     </p>
                                     </div>
                                 </div>

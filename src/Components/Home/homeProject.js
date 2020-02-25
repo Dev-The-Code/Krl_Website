@@ -6,9 +6,9 @@ import Header from '../Header/header2';
 import ProjectContainer from '../../Comman/ProjectContainer/projectContainer';
 var siddiqSons = {
     name: 'Siddiqsons Limited Brochure',
-    desciption: 'Siddiqsons needed a brochure that could effectively communicate their new direction of environmental friendly denim production.',
+    desciption: 'Siddiqsons Limited, the pioneer of the denim industry in Pakistan, was in need of a magazine to effectively communicate their strategic direction to begin environmentally friendly denim manufacturing and production.',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687373/cover_h7qavr.jpg'],
-    ourRole: 'KRL Creatives was responsible for all photography and full design direction and creative execution of this campaign. We photographed their facility, designed a creative and visual strategy and prepared a brochure that would communicate the story of the hugely successful denim brand.',
+    ourRole: 'KRL Creatives was responsible for the creative direction and design execution of this campaign. We were behind the creative and visual strategies that went into the production of the videos and magazine that were to communicate the story and success of the denim giant.',
     technologyUsed: '',
     visualidentityLogo: [''],
     visualidentityLogoText: '',
@@ -20,7 +20,7 @@ var siddiqSons = {
     illustration: [
         {
             illustrationText: 'Photography',
-            illustrationSubText: 'Siddiqsons new denim production facility was photographer by KRL Creatives.',
+            illustrationSubText: 'Our team played around with various light sources whilst covering Siddiqsons’ new infrastructure, machinery and manufacturing processes. We made sure to highlight the innovative processes to bring forward their message of sustainability.',
             illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687745/2_-pathway_plhjlc.jpg',
                 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687782/10_-_washing_axkjqd.jpg',
                 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687815/18_-_quality_assurance_eusdgz.jpg',
@@ -32,7 +32,7 @@ var siddiqSons = {
     demoHeading: 'Final Printed Brochure',
     demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579702459/VID2_nmkc9u.mp4'],
     documentHeading: 'Brochure Design',
-    documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579688090/iteration_2_a_bqswtf.jpg',
+    documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864122/iteration_2_a_abk0ic.jpg',
     ],
     mainVideoPanel: [{
         mainHead: '',
@@ -42,21 +42,21 @@ var siddiqSons = {
 }
 var jicaLightF = {
     name: 'LIGHT-F Project By JICA & Sindh Gvt',
-    desciption: 'LIGHT-F (started by JICA with Sindh Government) wanted to launch a program for the welfare of women in interior Sindh. They needed to brand the program and needed a brand identity designed.',
+    desciption: 'LIGHT-F (founded by JICA in association with the Sindh Government) aimed to launch a program working towards the welfare of rural women in interior Sindh. They were in need of a brand identity and approached KRL.',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579610272/cover_vjziro.jpg'],
-    ourRole: 'KRL Creatives designed their brand, gave the brand an identity which included a logo, letterheads, certificate design, and brand guidelines.Apart from branding, we also designed and photographed their product catalog.',
+    ourRole: 'KRL Creatives designed a visual representation for their brand, thus giving them a brand identity by creating various materials such as letterheads, certificates and brand guidelines. In addition, our design and production teams worked together to create their product catalogue.',
     technologyUsed: '',
     visualidentityLogo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579610909/light-f-logo_lpqdtl.png'],
-    visualidentityLogoText: 'The Light-F logo is a word mark. It incorporates a torch that faces upwards, symbolising life, truth and the regenerative power of flame.',
-    colorpaletteText: 'Purple color of LIGHT-F shows ambition to bring change. And the orange color shows the energy of the brand.',
+    visualidentityLogoText: 'The LIGHT-F logo is a word mark. It incorporates a torch facing upwards which symbolises life, truth and the regenerative quality of a flame.',
+    colorpaletteText: 'Purple was chosen to depict ambition and bringing about change. The complementary orange demonstrates the energy of the brand.',
     colorPaletteAllColor: ['#662D91', '#F58441', '#912F6C', '#FFC907', '#CCAED3',],
-    fontText: 'The font chosen for LIGHT-F has a clean and mature look, which shows the open and mature nature of the brand.',
+    fontText: 'The font chosen for LIGHT-F has a clean look which shows the openness and maturity of the brand. ',
     fontFamilyText: ['Nunito Sans'],
     fontFamily: ['Nunito Sans'],
     illustration: [
         {
             illustrationText: 'Product Photography',
-            illustrationSubText: 'Product photography done for the LIGHT-F handcrafted gift catalogue.',
+            illustrationSubText: 'Product photography for the LIGHT-F handcrafted gift catalogue.',
             illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579611945/big_asharfi_small_ng7xdd.jpg',
                 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579612007/coin_pouch_2_o9p8wm.jpg',
                 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579612047/coin_pouch_4_cvg6yl.jpg',
@@ -78,10 +78,10 @@ var jicaLightF = {
 }
 var aCFRescue = {
     name: 'ACF Animal Rescue Website',
-    desciption: 'Ayesha Chundrigar Foundation, an NGO helping out troubled animals, needed a website for their cause, as well as photography that would help move their audience and motivate them to do good for the poor animals. They also needed an application for Android that would help them collect data of rescued animals in areas that lack internet connectivity.',
+    desciption: 'Ayesha Chundrigar Foundation, an NGO coming to the aid of troubled animals, needed a website for their cause as well as photography that would help move their audience and motivate them to join in on their cause. They were in need of a mobile application that would help collect the data of rescued animals in areas where internet connectivity was unavailable. ',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579699559/ACF_Image_ygb5f9.jpg'],
-    ourRole: 'We were responsible for coming up with the right kind of design for the website that would connect emotionally to the viewers. We built their website. We also did the photography for their website. For the mobile application, we developed a system that could store data without internet connectivity and then uploads it to their server when internet is made available again.',
-    technologyUsed: 'The website was created using Wordpress. The mobile application was created using Ant.design, React.Js, Redux-Saga and Firebase.',
+    ourRole: 'We were responsible for coming up with the right kind of design for the website that would connect emotionally to their viewers. KRL Creatives was behind the lens for ACF’s website photography. ',
+    technologyUsed: 'The website was built using Wordpress. For the Android mobile application, we used Ant.design, React.JS, Redux-Saga and Firebase to develop a system that could store data offline and then upload it to ACF’s server once an internet connection was available.',
     visualidentityLogo: [''],
     visualidentityLogoText: '',
     colorpaletteText: '',
@@ -100,7 +100,7 @@ var aCFRescue = {
         },
         {
             illustrationText: 'Photography',
-            illustrationSubText: 'We shot these pictures filled with emotions to help ACF move their audience.',
+            illustrationSubText: 'We made sure to capture raw and genuine emotions through our photography to help captivate the ACF audience. ',
             illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701227/IMG_4397_tde6ds.jpg',
                 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701229/IMG_9056_jzjlou.jpg',
                 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701613/IMG_9159_cdmznr.jpg',
@@ -109,7 +109,7 @@ var aCFRescue = {
         },
         {
             illustrationText: 'Product Photography',
-            illustrationSubText: 'We photographed ACFs website images and their product photography.',
+            illustrationSubText: 'Our product photography highlighted the colourful new line of environmentally friendly leashes being produced by ACF. ',
             illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700752/IMG_1002_jckxdg.jpg',
                 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700752/IMG_0984_ihidlo.jpg',
                 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700753/IMG_1014_sf8ej9.jpg',
@@ -187,7 +187,7 @@ class Project extends React.Component {
                                         <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
                                         <div className="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject">
                                             <p className="GFApera">
-                                            LIGHT-F (started by JICA with Sindh Government) wanted to launch ...
+                                                LIGHT-F (founded by JICA in association with the Sindh governe...
                                             </p>
                                             <Link rel="noopener noreferrer"
                                                 to={{ pathname: `/projects`, state: jicaLightF }}
@@ -213,7 +213,7 @@ class Project extends React.Component {
                                         <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
                                         <div className="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject">
                                             <p className="GFApera">
-                                            Ayesha Chundrigar Foundation, an NGO helping out troubled animals ...
+                                                Ayesha Chundrigar Foundation, an NGO coming to the aid of troub...
                                             </p>
                                             <Link rel="noopener noreferrer"
                                                 to={{ pathname: `/projects`, state: aCFRescue }}
@@ -241,7 +241,7 @@ class Project extends React.Component {
                                         <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
                                         <div className="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-12 ADB_BgChildProject">
                                             <p className="ADBpera">
-                                            Siddiqsons needed a brochure that could effectively communicate their ...
+                                                Siddiqsons Limited, the pioneer of the denim industry in Pakista...
                                             </p>
                                             <Link rel="noopener noreferrer"
                                                 to={{ pathname: `/projects`, state: siddiqSons }}
@@ -277,7 +277,6 @@ class Project extends React.Component {
                     <div className="col-11 col-md-5 col-lg-6 col-xl-6">
                     </div>
                     <div className="col-12 col-md-5 col-lg-4 col-xl-4">
-                        
                     </div>
                     <div className="col-12 col-md-12 col-lg-1 col-xl-1"></div>
                 </div>
