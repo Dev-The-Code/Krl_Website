@@ -5,11 +5,13 @@ import Header2 from '../Header/header2'
 class blog extends React.Component {
   componentWillMount() {
     let data = this.props.location.pathname;
-    let routName;
-    routName = data.slice(1);
-    routName = routName.charAt(0).toUpperCase() + routName.slice(1);
+    if(data){
+      let routName;
+      routName = data.slice(1);
+      routName = routName.charAt(0).toUpperCase() + routName.slice(1);
+      this.setState({ headerPath: routName });
+    }
     //  console.log(routName,'sss');
-    this.setState({ headerPath: routName });
     window.scrollTo(0, 0)
   }
   render() {

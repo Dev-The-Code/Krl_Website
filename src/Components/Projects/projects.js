@@ -82,10 +82,12 @@ class Projects extends React.Component {
       }
     }
     let dataLocation = this.props.location.pathname;
-    let routName;
-    routName = dataLocation.slice(1);
-    routName = routName.charAt(0).toUpperCase() + routName.slice(1);
-    this.setState({ headerPath: routName });
+    if(dataLocation){
+      let routName;
+      routName = dataLocation.slice(1);
+      routName = routName.charAt(0).toUpperCase() + routName.slice(1);
+      this.setState({ headerPath: routName });
+    }
     window.scrollTo(0, 0);
   }
 
