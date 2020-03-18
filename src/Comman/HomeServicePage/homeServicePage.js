@@ -983,7 +983,7 @@ class HomeServicesPage extends Component {
                       to={{ pathname: `/project`, state: marketing }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
-                        <p className="ArrowHomeSErvice" style={{ paddingTop: '0' }}>
+                        <p className="ArrowHomeSErvice">
                           View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
                         </p>
                       </a>
@@ -1009,7 +1009,7 @@ class HomeServicesPage extends Component {
                           to={{ pathname: `/project`, state: development }}
                           className="changingdec">
                           <a href={this.props.locationUrl} className="changingdec">
-                            <p className="ArrowHomeSErvice" style={{ paddingTop: '0' }}>
+                            <p className="ArrowHomeSErviceDev">
                               View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
                             </p>
                           </a>
@@ -1034,7 +1034,7 @@ class HomeServicesPage extends Component {
                           to={{ pathname: `/project`, state: design }}
                           className="changingdec">
                           <a href={this.props.locationUrl} className="changingdec">
-                            <p className="ArrowHomeSErvice" style={{ paddingTop: '0' }}>
+                            <p className="ArrowHomeSErvice">
                               View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
                             </p>
                           </a>
@@ -1068,7 +1068,7 @@ class HomeServicesPage extends Component {
                           to={{ pathname: `/project`, state: production }}
                           className="changingdec">
                           <a href={this.props.locationUrl} className="changingdec">
-                            <p className="ArrowHomeSErvice" style={{ paddingTop: '0' }}>
+                            <p className="ArrowHomeSErvice">
                               View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
                             </p>
                           </a>
@@ -1124,7 +1124,7 @@ class HomeServicesPage extends Component {
                       to={{ pathname: `/project`, state: marketing }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
-                        <p className="ArrowHomeSErvice" style={{ paddingTop: '0' }}>
+                        <p className="ArrowHomeSErvice">
                           View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
                         </p>
                       </a>
@@ -1148,7 +1148,7 @@ class HomeServicesPage extends Component {
                       to={{ pathname: `/project`, state: development }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
-                        <p className="ArrowHomeSErvice" style={{ paddingTop: '0' }}>
+                        <p className="ArrowHomeSErviceDev">
                           View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
                         </p>
                       </a>
@@ -1171,7 +1171,7 @@ class HomeServicesPage extends Component {
                       to={{ pathname: `/project`, state: design }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
-                        <p className="ArrowHomeSErvice" style={{ paddingTop: '0' }}>
+                        <p className="ArrowHomeSErvice">
                           View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
                         </p>
                       </a>
@@ -1194,7 +1194,7 @@ class HomeServicesPage extends Component {
                       to={{ pathname: `/project`, state: production }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
-                        <p className="ArrowHomeSErvice" style={{ paddingTop: '0' }}>
+                        <p className="ArrowHomeSErvice">
                           View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
                         </p>
                       </a>
@@ -1264,7 +1264,7 @@ class HomeServicesPage extends Component {
                       to={{ pathname: `/project`, state: development }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
-                        <p className="ArrowHomeSErvice" style={{ paddingTop: '0', paddingLeft: '7.5vw' }}>
+                        <p className="ArrowHomeSErviceDev" style={{ paddingTop: '0', paddingLeft: '7.5vw' }}>
                           View Projects<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
                         </p>
                       </a>

@@ -9,6 +9,7 @@ import Banners from '../ServicesPage/banners';
 import Modal from './projectModal';
 import { smart } from '@babel/template';
 import { Tabs } from 'antd';
+import './projects.css';
 
 var siddiqSons = {
   name: 'Siddiqsons Limited Brochure',
@@ -83,10 +84,10 @@ class Projects extends React.Component {
     }
     let dataLocation = this.props.location.pathname;
     // if(dataLocation){
-      let routName;
-      routName = dataLocation.slice(1);
-      routName = routName.charAt(0).toUpperCase() + routName.slice(1);
-      this.setState({ headerPath: routName });
+    let routName;
+    routName = dataLocation.slice(1);
+    routName = routName.charAt(0).toUpperCase() + routName.slice(1);
+    this.setState({ headerPath: routName });
     // }
     window.scrollTo(0, 0);
   }
@@ -192,6 +193,30 @@ class Projects extends React.Component {
           </div>
           <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
         </div>
+
+        <Tabs defaultActiveKey="1" style={{ color: 'white' }}>
+          <TabPane
+            tab={
+              <span>
+                Tab 1
+              </span>
+            }
+            key="1"
+          >
+            Tab 1
+          </TabPane>
+          <TabPane
+            tab={
+              <span>
+                Tab 2
+              </span>
+            }
+            key="2"
+          >
+            Tab 2
+          </TabPane>
+        </Tabs>
+
 
         <ProjectContainer projectStateFromHome={projectStateFromHome} />
 

@@ -93,7 +93,7 @@ class ServicesPage extends React.Component {
                       Non Profits
                       </h3>
                   </div>
-                  <div className="nonProfitDev">
+                  <div className="startupDev">
                     <p className="consultPera">
                       We work with NGOs because there is nothing as fulfilling
                       as working towards the betterment of society and bringing
@@ -111,7 +111,7 @@ class ServicesPage extends React.Component {
                       Startups
                       </h3>
                   </div>
-                  <div className="developmentDev">
+                  <div className="startupDev">
                     <p className="developmentPera">
                       The struggles faced by startups are closer to
                       home than you would believe. We understand that
@@ -129,7 +129,7 @@ class ServicesPage extends React.Component {
                       Enterprises
                       </h3>
                   </div>
-                  <div className="designDev">
+                  <div className="startupDev">
                     <p className="designPera">
                       We take on live projects with industry giants in
                       order to work with outstanding brands and outstanding
@@ -161,7 +161,7 @@ class ServicesPage extends React.Component {
                       Non Profits
                       </h3>
                   </div>
-                  <div className="consultDevSm">
+                  <div className="startupDev">
                     <p className="consultPeraSm">
                       We work with NGOs because there is nothing as fulfilling
                       as working towards the betterment of society and bringing
@@ -176,7 +176,7 @@ class ServicesPage extends React.Component {
                       Startups
                       </h3>
                   </div>
-                  <div className="develpDevSm">
+                  <div className="startupDev">
                     <p className="develpPera">
                       The struggles faced by startups are closer to
                       home than you would believe. We understand that
@@ -192,12 +192,12 @@ class ServicesPage extends React.Component {
                       Enterprises
                       </h3>
                   </div>
-                  <div className="designDevSm">
+                  <div className="startupDev">
                     <p className="developmentPeraSm">
                       We take on live projects with industry giants in
                       order to work with outstanding brands and outstanding
                       people to deliver sustainable growth to their businesses.
-                      </p>
+                    </p>
                   </div>
                 </div>
 
@@ -222,7 +222,7 @@ class ServicesPage extends React.Component {
                       Non Profits
                       </h3>
                   </div>
-                  <div className="consultDevMb">
+                  <div className="startupDev">
                     <p className="consultPeraMb">
                       We work with NGOs because there is nothing as fulfilling
                       as working towards the betterment of society and bringing
@@ -233,11 +233,11 @@ class ServicesPage extends React.Component {
 
                 <div className="col-12">
                   <div className="develpImageStartMb">
-                    <h3 className="develpHedngMb">
+                    <h3 className="consulHedngMb">
                       Startups
                       </h3>
                   </div>
-                  <div className="develpDevMb">
+                  <div className="startupDev">
                     <p className="develpPeraMb">
                       The struggles faced by startups are closer to
                       home than you would believe. We understand that
@@ -254,7 +254,7 @@ class ServicesPage extends React.Component {
                       Enterprises
                       </h3>
                   </div>
-                  <div className="develpDevMb">
+                  <div className="startupDev">
                     <p className="develpPeraMb">
                       We take on live projects with industry giants in
                       order to work with outstanding brands and outstanding

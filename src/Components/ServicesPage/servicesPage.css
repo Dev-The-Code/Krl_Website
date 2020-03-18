@@ -541,7 +541,7 @@
 .consulHedng{
     padding-top: 3.1vw;
     padding-left: 3.1vw;
-    font-size: calc(1em + 0.1vmax);
+    font-size: 1.2vmax;
     color: white;
     font-family: aleta-bold;
 }
@@ -553,16 +553,9 @@
     border-radius: 1vw;
     width: 27.8vw;
     position: relative;
+    height: auto;
 }
-.nonProfitDev{
-    box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
-    margin-left: 3.1vw;
-    margin-top: 10vw;
-    background-color: white;
-    border-radius: 1vw;
-    width: 19.8vw;
-    position: relative;
-}
+
 .consultPera{
     font-size: calc(1em + 0.1vmax);
     color: #adadad;
@@ -698,6 +691,7 @@
     border-radius: 1vw;
     width: 19.8vw;
     margin-bottom: 4vw;
+    height: auto;
 }
 .developmentPera{
     font-size: calc(1em + 0.7px);
@@ -711,7 +705,7 @@
 .developmentPeraSm{
     font-size: calc(1em + 0.1vmax);
     color: #adadad;
-    padding-top: 5vw;
+    padding-top: 3vw;
     padding-left: 3.1vw;
     padding-right: 3.1vw;
     padding-bottom: 3.1vw;
@@ -734,6 +728,7 @@
     width: 19.8vw;
     position: relative;
     margin-bottom: 4vw;
+    height: auto;
 }
 .blankDevchild{
     box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
@@ -804,7 +799,7 @@
 .develpPera{
     font-size: calc(1em + 0.1vmax);
     color: #adadad;
-    padding-top: 5vw;
+    padding-top: 3vw;
     padding-left: 3.1vw;
     padding-right: 3.1vw;
     padding-bottom: 3.1vw;
@@ -988,12 +983,156 @@
 }
 
 
-.ArrowHomeSErvice{
-    padding-left: 3.5vw;
-    padding-top: 1.1vw;
-    padding-bottom: 1.5vmax;
-    font-family: aleta-bold;
-    color: #303030;
-    font-size: calc(0.8em + 0.2vw);
-    cursor: pointer;
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
+    .ArrowHomeSErvice{
+        padding-left: 3.5vw;
+        padding-bottom: 2.5vmax;
+        font-family: aleta-bold;
+        color: #303030;
+        font-size: calc(0.8em + 0.2vw);
+        cursor: pointer;
+    }
+    .ArrowHomeSErviceDev{
+        padding-left: 3.5vw;
+        padding-bottom: 2.5vmax;
+        font-family: aleta-bold;
+        color: #303030;
+        font-size: calc(0.8em + 0.2vw);
+        cursor: pointer;
+    }
+    .startupDev{
+        box-shadow: 0px 2px 3.3vmax rgba(0, 0 ,0 , 0.12);
+        margin-left: 3.3vw;
+        margin-top: 11vh;
+        background-color: #fafafa;
+        border-radius: 3vw;
+        width: 77vw;
+        position: relative;
+        margin-bottom: 10vw;
+    }
 }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    .ArrowHomeSErvice{
+        padding-left: 3.5vw;
+        padding-top: 1.8vw;
+        padding-bottom: 1.5vmax;
+        font-family: aleta-bold;
+        color: #303030;
+        font-size: calc(0.8em + 0.2vw);
+        cursor: pointer;
+    }
+    .ArrowHomeSErviceDev{
+        padding-left: 3.5vw;
+        /* padding-top: 3.8vw; */
+        padding-bottom: 1.5vmax;
+        font-family: aleta-bold;
+        color: #303030;
+        font-size: calc(0.8em + 0.2vw);
+        cursor: pointer;
+    }
+    .startupDev{
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+        margin-left: 3.1vw;
+        margin-top: 10vw;
+        background-color: white;
+        border-radius: 1vw;
+        width: 38vw;
+        height: 29vw;
+        position: relative;
+        margin-bottom: 4vw;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+    .ArrowHomeSErvice{
+        padding-left: 3.5vw;
+        padding-top: 4.9vw;
+        padding-bottom: 1.5vmax;
+        font-family: aleta-bold;
+        color: #303030;
+        font-size: calc(0.8em + 0.2vw);
+        cursor: pointer;
+    }
+    .ArrowHomeSErviceDev{
+        padding-left: 3.5vw;
+        /* padding-top: 4.9vw; */
+        padding-bottom: 1.5vmax;
+        font-family: aleta-bold;
+        color: #303030;
+        font-size: calc(0.8em + 0.2vw);
+        cursor: pointer;
+    }
+    .startupDev{
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+        position: relative;
+        margin-left: 3.1vw;
+        margin-top: 10vw;
+        background-color: white;
+        border-radius: 1vw;
+        width: 19.8vw;
+        margin-bottom: 4vw;
+        height: 42vh;
+    }
+}
+@media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
+    .ArrowHomeSErvice{
+        padding-left: 3.5vw;
+        padding-top: 3.8vw;
+        padding-bottom: 1.5vmax;
+        font-family: aleta-bold;
+        color: #303030;
+        font-size: calc(0.8em + 0.2vw);
+        cursor: pointer;
+    }
+    .ArrowHomeSErviceDev{
+        padding-left: 3.5vw;
+        /* padding-top: 3.8vw; */
+        padding-bottom: 1.5vmax;
+        font-family: aleta-bold;
+        color: #303030;
+        font-size: calc(0.8em + 0.2vw);
+        cursor: pointer;
+    }
+    .startupDev{
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+        position: relative;
+        margin-left: 3.1vw;
+        margin-top: 10vw;
+        background-color: white;
+        border-radius: 1vw;
+        width: 19.8vw;
+        margin-bottom: 4vw;
+        height: 48vh;
+    }
+}
+@media only screen and (min-device-width : 1600px){
+    .ArrowHomeSErvice{
+        padding-left: 3.5vw;
+        padding-top: 3.8vw;
+        padding-bottom: 1.5vmax;
+        font-family: aleta-bold;
+        color: #303030;
+        font-size: calc(0.8em + 0.2vw);
+        cursor: pointer;
+    }
+    .ArrowHomeSErviceDev{
+        padding-left: 3.5vw;
+        padding-top: 4.1vw;
+        padding-bottom: 1.5vmax;
+        font-family: aleta-bold;
+        color: #303030;
+        font-size: calc(0.8em + 0.2vw);
+        cursor: pointer;
+    }
+    .startupDev{
+        box-shadow: 0px 2px 1.9vw rgba(0, 0 ,0 , 0.18);
+        position: relative;
+        margin-left: 3.1vw;
+        margin-top: 10vw;
+        background-color: white;
+        border-radius: 1vw;
+        width: 19.8vw;
+        margin-bottom: 4vw;
+        height: 25vh;
+    }
+}
+

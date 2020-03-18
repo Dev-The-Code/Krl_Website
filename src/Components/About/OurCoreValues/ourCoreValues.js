@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './ourCoreValues.css';
 import ACF from '../../../Assets/Images/acf.png';
 
+let timer;
+
 class OurCoreValues extends Component {
   constructor(props) {
     super(props);
@@ -13,10 +15,21 @@ class OurCoreValues extends Component {
       beHonest: 'onColor',
       beCreative: 'onColor',
       beArtistic: 'onColor'
-    };
+    }
   }
 
+  // componentWillMount(){
+  //   timer = setTimeout( this.coreSlider(), 1000);
+  //   console.log("timer",timer);
+  //   console.log('componentWillMount after Didmount');
+  // }
+  // componentDidMount(){
+  //   clearTimeout(timer);
+  //   console.log('componentDidMount');
+  // }
+
   coreSlider = (param) => {
+
     if (param == 'Empathy') {
       console.log("TCL: OurCoreValues -> coreSlider -> param", param)
       this.setState({
@@ -30,6 +43,7 @@ class OurCoreValues extends Component {
       });
 
     }
+
     else if (param == 'Transparency') {
       this.setState({
         carousel: param,
@@ -89,7 +103,6 @@ class OurCoreValues extends Component {
         beCreative: "onColor",
       });
     }
-    // console.log(">>>", this.state.carousel)
   }
 
   render() {

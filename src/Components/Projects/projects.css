@@ -1,6 +1,54 @@
 
 /*Freshh new Css Projects by Daniyal*/
 
+/* .ant-tabs-nav-scroll {
+    overflow: hidden;
+   white-space: nowrap;
+}
+
+.ant-tabs-ink-bar {
+   z-index: 1;
+   position: absolute;
+   left: 0;
+   bottom: 1px;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   height: 2px;
+   background-color: rgb(34, 95, 86);;
+   -webkit-transform-origin: 0 0;
+   -ms-transform-origin: 0 0;
+   transform-origin: 0 0;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+   color: rgb(34, 95, 86)!important;
+   background-color: #E5E1D6 !important;
+}
+
+.ant-tabs-nav-container {
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    white-space: nowrap;
+    margin-bottom: -1px;
+    -webkit-transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    zoom: 1;
+}
+.ant-tabs-bar {
+    border-bottom: 1px solid #e8e8e8;
+    margin: 0 0 0 0;
+    outline: none;
+    -webkit-transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+} */
+
 
 
 @media only screen and (min-device-width : 360px) and (max-device-width : 767px) {

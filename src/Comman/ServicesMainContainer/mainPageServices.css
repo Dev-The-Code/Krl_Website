@@ -96,6 +96,8 @@
     font-family: aleta-bold;
     font-size: calc(12px + 0.3vw);
     color: black;
+    text-align: center;
+    margin-top: 2vw;
 }
 
 /* mobile css */

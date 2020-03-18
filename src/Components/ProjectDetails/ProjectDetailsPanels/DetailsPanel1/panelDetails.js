@@ -13,8 +13,8 @@ class PanelDetails extends Component {
                 <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
                 <div className="col-xl-10 col-lg-10 col-md-10 col-12">
                   <Link rel="noopener noreferrer" to={`/project`}  className="changingdec">
-                    <img src={ArrowImg} alt="arrow" className="arowBackImg" />
-                    <button className="bck-to-pro">Back to project list</button>
+                    {/* <img src={ArrowImg} alt="arrow" className="arowBackImg" /> */}
+                    <button className="bck-to-pro"><span className="backArowProjectDetail">&#8592;</span> Back to project list</button>
                   </Link>
                 </div>
                 <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
