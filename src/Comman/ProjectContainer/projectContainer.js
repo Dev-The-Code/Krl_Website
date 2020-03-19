@@ -415,11 +415,9 @@ class ProjectContainer extends Component {
         <div className="row">
           <div className="col-12 col-md-1 col-xl-1 col-lg-1"></div>
           <div className="col-12 col-md-10 col-xl-10 col-lg-10 bigProjectLeft" style={{ padding: '0' }}>
-            <div className="row">
               {projects.map((elem, key) => {
-                if (key % 2 == 0) {
-                  return (
-                    // <div className="col-11 col-md-5 col-xl-7 col-lg-7 bigProjectLeft">
+                return (
+                  <div className="row">
                     <div className="col-11 col-md-6 col-xl-7 col-lg-7">
                       <div className="animatedup animatedFadeInUp fadeInUp">
                         <div className="row" style={{ paddingRight: '0vw' }}>
@@ -430,7 +428,7 @@ class ProjectContainer extends Component {
                               <div className="col-12 col-md-12 col-xl-8 col-lg-9 bgChildProject">
                                 <p className="GFApera">
                                   {elem.desciption.slice(0, 70)}...
-                            </p>
+                                </p>
                                 <Link rel="noopener noreferrer"
                                   to={{ pathname: `/projects`, state: elem }}
                                   className="changingdec">
@@ -446,44 +444,12 @@ class ProjectContainer extends Component {
                           </div>
                           <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
                         </div>
-                      </div>
+                      </div><br/><br/><br/><br/><br/><br/><br/>
+                    </div>
+                    <div className="col-12 col-md-6 col-xl-5 col-lg-5"></div>
                     </div>
                   )
-                }
-                else if (key % 2 == 1) {
-                  return (
-                    <div className="col-12 col-md-6 col-xl-5 col-lg-5">
-                      <div className="animatedup animatedFadeInUp fadeInUp">
-                        <div className="row" style={{ paddingRight: '0vw' }}>
-                          <div className={elem.frontImg}>
-                            <h2 className="ADBhedngProject">{elem.name}</h2>
-                            <div className="row">
-                              <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
-                              <div className="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-12 ADB_BgChildProject">
-                                <p className="ADBpera">
-                                  {elem.desciption.slice(0, 80)}...
-                            </p>
-                                <Link rel="noopener noreferrer"
-                                  to={{ pathname: `/projects`, state: elem }}
-                                  className="changingdec">
-                                  <a href={this.props.locationUrl} className="changingdec">
-                                    <p className="ADBpera1">
-                                      View Project<img href="#" className='ADBimg' src={require('../../Assets/Images/arrowPurple.png')} />
-                                    </p>
-                                  </a>
-                                </Link>
-                              </div>
-                              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
-                            </div>
-                          </div>
-                          <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
-                        </div>
-                      </div>
-                    </div>
-                  )
-                }
               })}
-            </div>
           </div>
           <div className="col-12 col-md-1 col-xl-1 col-lg-1"></div>
         </div>

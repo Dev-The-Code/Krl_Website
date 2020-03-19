@@ -195,7 +195,7 @@ class Projects extends React.Component {
           <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
         </div>
 
-        <Tabs defaultActiveKey="1" tabPosition={mode} style={{ height: 220, color: 'white' }}>
+        {/* <Tabs defaultActiveKey="1" tabPosition={mode} style={{ height: 220, color: 'white' }}>
           <TabPane
             tab={
               <span>
@@ -226,7 +226,7 @@ class Projects extends React.Component {
           >
             Tab 3
           </TabPane>
-        </Tabs>
+        </Tabs> */}
 
 
         <ProjectContainer projectStateFromHome={projectStateFromHome} />

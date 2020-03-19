@@ -50,7 +50,6 @@
 } */
 
 
-
 @media only screen and (min-device-width : 360px) and (max-device-width : 767px) {
     .LightFProject {
         background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
@@ -61,8 +60,7 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(15vw - -9.5vmax);
-        margin-top: 15vw;
+        margin-bottom: calc(15vw - -6.5vmax);
     }
     .GetFitProject {
         background-image: url("../../Assets/Images/getfit.png");
@@ -73,8 +71,7 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(15vw - -9.5vmax);
-        margin-top: 11vw;
+        margin-bottom: calc(15vw - -6.5vmax);
     }
     .CircleProject {
         background-image: url("../../Assets/Images/circle.jpg");
@@ -86,7 +83,6 @@
         background-size: cover;
         background-position-x: right;
         margin-bottom: calc(15vw - -6.5vmax);
-         margin-top: 25vw;
     }
     .ZiyaratProject {
         background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
@@ -98,7 +94,6 @@
         background-size: cover;
         background-position-y: bottom;
         margin-bottom: calc(15vw - -6.5vmax);
-        margin-top: 20vw;
     }
     .DallasPalmProject {
         background-image: url("../../Assets/Images/dallaspalm.png");
@@ -109,8 +104,7 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-y: top;
-        margin-bottom: calc(15vw - -4.5vmax);
-        margin-top: 20vw;
+        margin-bottom: calc(15vw - -6.5vmax);
     }
 
     .DrentProject{
@@ -121,62 +115,57 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        background-position-x: right;
-        /* margin-bottom: 7vmax;
-        margin-left: 4.3vw; */
-        margin-bottom: calc(5vw - -6.5vmax);
+        background-position-y: right;
+        margin-bottom: calc(15vw - -6.5vmax);
+        margin-top: 20vw;
     }
     .ACFProject {
         background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 33.5vmax;
+        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        background-position-x: right;
-        /* margin-bottom: 11vmax; */
-        /* margin-left: 4.3vw; */
-        /* margin-bottom: calc(15vw - -9.5vmax); */
+        background-position-y: right;
+        margin-bottom: calc(15vw - -6.5vmax);
+        margin-top: 20vw;
     }
     .PakJazbaProject {
         background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
-        height: 33vmax;
+        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
-        -moz-background-size: co ver;
+        -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        background-position-x: right;
-        /* margin-bottom: 11vmax; */
-        /* margin-left: 4.3vw; */
-        margin-bottom: calc(5vw - -5.5vmax);
+        background-position-y: right;
+        margin-bottom: calc(15vw - -6.5vmax);
+        margin-top: 20vw;
     }
     .OxbridgeProject {
         background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 33vmax;
+        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
-        -moz-background-size: co ver;
+        -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        background-position-x: right;
-        /* margin-bottom: 11vmax; */
-        /* margin-left: 4.3vw; */
-        /* margin-bottom: calc(15vw - -9.5vmax); */
+        background-position-y: right;
+        margin-bottom: calc(15vw - -6.5vmax);
+        margin-top: 20vw;
     }
     .AmberDazelProject {
         background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 33vmax;
+        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
-        -moz-background-size: co ver;
+        -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        background-position-x: right;
-        /* margin-bottom: 11vmax; */
-        /* margin-left: 4.3vw; */
-        margin-bottom: calc(5vw - -5.5vmax);
+        background-position-y: right;
+        margin-bottom: calc(15vw - -6.5vmax);
+        margin-top: 20vw;
     }
 
     .bgChildProject{
@@ -259,190 +248,6 @@
         font-family: aleta-bold;
         color: #ffffff;
     } 
-
-    .GetFitProjectHomMartService {
-        background-image: url("../../Assets/Images/getfit.png");
-        height: 30.5vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(15vw - -9.5vmax);
-    }
-    .OxbridgeProjectHomMartService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 33vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: co ver;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: 9vmax;
-        /* margin-left: 4.3vw; */
-        /* margin-bottom: calc(15vw - -9.5vmax); */
-    }
-    .ACFProjectHomMartService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 33.5vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: 3vw;
-        margin-top: -15vw;;
-    }
-    .AmberDezelProjectHomMartService {
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 30.5vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-top: 10vw;
-        margin-bottom: calc(15vw - -9.5vmax);
-    }
-
-    .GetFitProjectHomdevService {
-        background-image: url("../../Assets/Images/getfit.png");
-        height: 30.5vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(15vw - -9.5vmax);
-    }
-    .OxbridgeProjectHomdevService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 33vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: co ver;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: 9vmax;
-        /* margin-left: 4.3vw; */
-        /* margin-bottom: calc(15vw - -9.5vmax); */
-    }
-    .DrentProjectHomdevService{
-        background-image: url("../../Assets/Images/drent.png");
-        height: 30.5vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(5vw - -6.5vmax);
-        margin-top: -10vw;
-    }
-    .ACFProjectHomdevService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 33.5vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: 3vw;
-        margin-top: -15vw;;
-    }
-    .PakJazbaProjectHomdevService {
-        background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
-        height: 33vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: co ver;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-top: -9vmax;
-        margin-bottom: calc(5vw - -5.5vmax);
-    }
-    .AmberDazelProjectHomdevService {
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 33vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: co ver;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        /* margin-bottom: 11vmax; */
-        margin-bottom: calc(5vw - -5.5vmax);
-    }
-
-    .ZiyaratProjectHomdesiService {
-        background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
-        height: 30.5vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-bottom: calc(15vw - -9.5vmax);
-    }
-    .OxbridgeProjectHomdesiService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 33vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: co ver;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-top: -16vw;
-        margin-bottom: 19vw;
-    }
-
-    .OxbridgeProjectHomProService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 33vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: co ver;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: 9vmax;
-        /* margin-left: 4.3vw; */
-        /* margin-bottom: calc(15vw - -9.5vmax); */
-    }
-    .ACFProjectHomProService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 33.5vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: 15vw;
-        margin-top: -15vw;;
-    }
-    .AmberDazelProjectHomProService {
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 33vmax;
-        border-radius: 3vw;
-        -webkit-background-size: cover;
-        -moz-background-size: co ver;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        /* margin-bottom: 11vmax; */
-        margin-bottom: calc(5vw - -5.5vmax);
-    }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .LightFProject {
@@ -454,7 +259,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: bottom;
-        margin-bottom: 5vmax;
     }
     .GetFitProject {
         background-image: url("../../Assets/Images/getfit.png");
@@ -465,7 +269,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-top: -20vw;
     }
     .CircleProject {
         background-image: url("../../Assets/Images/circle.jpg");
@@ -476,7 +279,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-top: -20vw;
     }
     .ZiyaratProject {
         background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
@@ -487,7 +289,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-top: -20vw;
     }
     .DallasPalmProject {
         background-image: url("../../Assets/Images/dallaspalm.png");
@@ -498,7 +299,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-top: -20vw;
     }
 
     .DrentProject{
@@ -510,9 +310,7 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: 12vmax;
-        margin-top: 20vmax;
-        margin-left: 1.5vw;
+        margin-top: -20vw;
     }
     .ACFProject {
         background-image: url("../../Assets/Images/ACF-Image-min.jpg");
@@ -523,8 +321,7 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-left: 1.5vw;
+        margin-top: -20vw;
     }
     .PakJazbaProject {
         background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
@@ -535,8 +332,7 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 1.5vw;
+        margin-top: -20vw;
     }
     .OxbridgeProject {
         background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
@@ -546,9 +342,8 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        background-position-y: bottom;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 1.5vw;
+        background-position-x: bottom;
+        margin-top: -20vw;
     }
     .AmberDazelProject {
         background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
@@ -559,8 +354,7 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: center;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 1.5vw;
+        margin-top: -20vw;
     }
 
     .bgChildProject{
@@ -637,192 +431,7 @@
         font-size: 2.4vmax;
         font-family: aleta-bold;
         color: #ffffff;
-    }  
-
-    .GetFitProjectHomMartService {
-        background-image: url("../../Assets/Images/getfit.png");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-top: -15vw;
-    }
-    .OxbridgeProjectHomMartService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-top: 15vw;
-    }
-    .ACFProjectHomMartService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-left: 1.5vw;
-    }
-    .AmberDezelProjectHomMartService {
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-top: -15vw;
-        margin-bottom: 15vw;
-    }
-    
-
-    .GetFitProjectHomdevService {
-        background-image: url("../../Assets/Images/getfit.png");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-top: 0vw;
-    }
-    .OxbridgeProjectHomdevService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-top: -27vw;
-    }
-    .DrentProjectHomdevService{
-        background-image: url("../../Assets/Images/drent.png");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: 12vmax;
-        margin-top: 20vmax;
-        margin-left: 1.5vw;
-    }
-    .ACFProjectHomdevService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-left: 1.5vw;
-    }
-    .PakJazbaProjectHomdevService {
-        background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 1.5vw;
-    }
-    .AmberDazelProjectHomdevService {
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: center;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 1.5vw;
-    }
-
-    .ZiyaratProjectHomdesiService {
-        background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-top: -20vw;
-        margin-bottom: calc(15vw - -9.5vmax);
-    }
-    .OxbridgeProjectHomdesiService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 1.5vw;
-    }
-
-    .OxbridgeProjectHomProService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-top: -15vw;
-    }
-    .ACFProjectHomProService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-left: 1.5vw;
-        margin-top: 15vw;
-    }
-    .AmberDazelProjectHomProService {
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: center;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 1.5vw;
-    }
+    } 
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .LightFProject {
@@ -844,7 +453,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-top: -20vw;
     }
     .CircleProject {
         background-image: url("../../Assets/Images/circle.jpg");
@@ -855,7 +463,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-top: -20vw;
     }
     .ZiyaratProject{
         background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
@@ -866,7 +473,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-y: center;
-        margin-top: -20vw;
     }
     .DallasPalmProject{
         background-image: url("../../Assets/Images/dallaspalm.png");
@@ -877,8 +483,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-y: center;
-        margin-bottom: 1vmax;
-        margin-top: -20vw;
     }
 
     .DrentProject {
@@ -890,9 +494,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-top: 20vmax;
-        margin-left: 3.5vw;
     }
     .ACFProject {
         background-image: url("../../Assets/Images/ACF-Image-min.jpg");
@@ -903,8 +504,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-left: 3.5vw;
     }
     .PakJazbaProject {
         background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
@@ -915,8 +514,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
     }
     .OxbridgeProject {
         background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
@@ -927,8 +524,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-y: bottom;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
     }
     .AmberDazelProject {
         background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
@@ -939,8 +534,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: center;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
     }
 
     .bgChildProject{
@@ -1018,192 +611,6 @@
         font-family: aleta-bold;
         color: #ffffff;
     }
-    
-    .GetFitProjectHomMartService{
-        background-image: url("../../Assets/Images/getfit.png");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-top: -15vw;
-    }
-    .OxbridgeProjectHomMartService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-top: 15vw;
-        margin-left: 3.5vw;
-    }
-    .ACFProjectHomMartService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-top: 7vw;
-        margin-left: 3.5vw;
-    }
-    .AmberDezelProjectHomMartService{
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-top: -21vw;
-        margin-bottom: 20vw;
-    }
-
-    .GetFitProjectHomdevService{
-        background-image: url("../../Assets/Images/getfit.png");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-top: 0vw;
-    }
-    .OxbridgeProjectHomdevService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-top: -23vw;
-    }
-    .DrentProjectHomdevService {
-        background-image: url("../../Assets/Images/drent.png");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-top: 20vmax;
-        margin-left: 3.5vw;
-    }
-    .ACFProjectHomdevService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-left: 3.5vw;
-    }
-    .PakJazbaProjectHomdevService {
-        background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
-    }
-    .AmberDazelProjectHomdevService {
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: center;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
-    }
-
-    .ZiyaratProjectHomdesiService{
-        background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: center;
-        margin-top: -20vw;
-        margin-bottom: calc(15vw - -9.5vmax);
-    }
-    .OxbridgeProjectHomdesiService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
-    }
-
-    .OxbridgeProjectHomProService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-top: -15vw;
-    }
-    .ACFProjectHomProService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-left: 3.5vw;
-        margin-top: 15vw;
-    }
-    .AmberDazelProjectHomProService {
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: center;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
-    }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .LightFProject {
@@ -1225,7 +632,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-top: -22vw;
     }
     .CircleProject {
         background-image: url("../../Assets/Images/circle.jpg");
@@ -1236,7 +642,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-top: -22vw;
     }
     .ZiyaratProject{
         background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
@@ -1247,7 +652,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-y: center;
-        margin-top: -22vw;
     }
     .DallasPalmProject{
         background-image: url("../../Assets/Images/dallaspalm.png");
@@ -1258,8 +662,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-y: center;
-        margin-bottom: calc(1vw - 1vmax);
-        margin-top: -22vw;
     }
 
     .DrentProject {
@@ -1271,9 +673,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-top: 20vmax;
-            margin-left: 3.5vw;
     }
     .ACFProject {
         background-image: url("../../Assets/Images/ACF-Image-min.jpg");
@@ -1284,8 +683,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-left: 3.5vw;
     }
     .PakJazbaProject {
         background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
@@ -1296,8 +693,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
     }
     .OxbridgeProject {
         background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
@@ -1308,8 +703,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-y: bottom;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
     }
     .AmberDazelProject {
         background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
@@ -1320,8 +713,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: center;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
     }
 
     .bgChildProject{
@@ -1399,188 +790,6 @@
         font-family: aleta-bold;
         color: #ffffff;
     }
-
-    .GetFitProjectHomMartService{
-        background-image: url("../../Assets/Images/getfit.png");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-    }
-    .OxbridgeProjectHomMartService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-top: 15vw;
-        margin-left: 2vw;
-    }
-    .ACFProjectHomMartService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-top: 15vw;
-        margin-left: 2vw;
-    }
-    .AmberDezelProjectHomMartService{
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-top: -15vw;
-        margin-bottom: 15vw;
-    }
-
-    .GetFitProjectHomdevService{
-        background-image: url("../../Assets/Images/getfit.png");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-top: -5vw;
-    }
-    .OxbridgeProjectHomdevService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-top: -23vw;
-    }
-    .DrentProjectHomdevService {
-        background-image: url("../../Assets/Images/drent.png");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-top: 20vmax;
-            margin-left: 3.5vw;
-    }
-    .ACFProjectHomdevService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-left: 3.5vw;
-    }
-    .PakJazbaProjectHomdevService {
-        background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
-    }
-    .AmberDazelProjectHomdevService {
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: center;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
-    }
-
-    .ZiyaratProjectHomdesiService{
-        background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: center;
-        margin-top: -20vw;
-        margin-bottom: calc(15vw - -9.5vmax);
-    }
-    .OxbridgeProjectHomdesiService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
-    }
-
-    .OxbridgeProjectHomProService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-top: -15vw;
-    }
-    .ACFProjectHomProService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-left: 3.5vw;
-        margin-top: 15vw;
-    }
-    .AmberDazelProjectHomProService {
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: center;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
-    }
 }
 @media only screen and (min-device-width : 1600px){
     .LightFProject {
@@ -1592,7 +801,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-y: bottom;
-        margin-bottom: calc(0vw - 1vmax);
     }
     .GetFitProject{
         background-image: url("../../Assets/Images/getfit.png");
@@ -1603,7 +811,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-top: -22vw;
     }
     .CircleProject {
         background-image: url("../../Assets/Images/circle.jpg");
@@ -1614,7 +821,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-top: -22vw;
     }
     .ZiyaratProject{
         background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
@@ -1625,7 +831,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-y: center;
-        margin-top: -22vw;
     }
     .DallasPalmProject{
         background-image: url("../../Assets/Images/dallaspalm.png");
@@ -1636,7 +841,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-y: center;
-        margin-top: -22vw;
     }
 
     .DrentProject {
@@ -1648,9 +852,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-top: 17vmax;
-        margin-left: 3.5vw;
     }
     .ACFProject {
         background-image: url("../../Assets/Images/ACF-Image-min.jpg");
@@ -1661,8 +862,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-left: 3.5vw;
     }
     .PakJazbaProject {
         background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
@@ -1673,8 +872,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
     }
     .OxbridgeProject {
         background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
@@ -1685,8 +882,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-y: bottom;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
     }
     .AmberDazelProject {
         background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
@@ -1697,8 +892,6 @@
         -o-background-size: cover;
         background-size: cover;
         background-position-x: center;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
     }
 
     .bgChildProject{
@@ -1777,189 +970,10 @@
         font-family: aleta-bold;
         color: #ffffff;
     }
-
-    .GetFitProjectHomMartService{
-        background-image: url("../../Assets/Images/getfit.png");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-    }
-    .OxbridgeProjectHomMartService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-top: 15vw;
-        margin-left: 2vw;
-    }
-    .ACFProjectHomMartService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-top: 15vw;
-        margin-left: 2vw;
-    }
-    .AmberDezelProjectHomMartService{
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-top: -15vw;
-        margin-bottom: 15vw;
-    }
-
-    .GetFitProjectHomdevService{
-        background-image: url("../../Assets/Images/getfit.png");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-top: -9vw;
-    }
-    .OxbridgeProjectHomdevService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-top: -23vw;
-    }
-    .DrentProjectHomdevService {
-        background-image: url("../../Assets/Images/drent.png");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-top: 17vmax;
-        margin-left: 3.5vw;
-    }
-    .ACFProjectHomdevService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-left: 3.5vw;
-    }
-    .PakJazbaProjectHomdevService {
-        background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
-    }
-    .AmberDazelProjectHomdevService {
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: center;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
-    }
-
-    .ZiyaratProjectHomdesiService{
-        background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: center;
-        margin-top: -22vw;
-        margin-bottom: calc(15vw - -9.5vmax);
-    }
-    .OxbridgeProjectHomdesiService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
-    }
-
-    .OxbridgeProjectHomProService {
-        background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-y: bottom;
-        margin-top: -15vw;
-    }
-    .ACFProjectHomProService {
-        background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: right;
-        margin-bottom: calc(17.5vmax - 1vmax);
-        margin-left: 3.5vw;
-        margin-top: 15vw;
-    }
-    .AmberDazelProjectHomProService {
-        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
-        border-radius: 1vw;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position-x: center;
-        margin-bottom: calc(17.5vmax - 0vmax);
-        margin-left: 3.5vw;
-    }
 }
+
+
+
 
 /*Freshh css ENd Projects by daniyal*/
 
