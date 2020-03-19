@@ -50,12 +50,12 @@
         margin-top: 2rem!important;
     }
     .header_Textt{
-        margin-top: 5vw;
-        margin-right: -5vw;
+        margin-top: 4.8vw;
+        margin-right: -4.8vw;
         font-size: 1.5vw;
         font-family: aleta-bold;
         color: white;
-        cursor : pointer;
+        cursor: pointer;
     }
     .naVBar_aliGN{
         box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
@@ -69,6 +69,7 @@
     .menu{
         width: calc(10px + 1.5vw);
         margin-left: 4.2vw;
+        margin-top: -1.5vw;
     }
     .menu_OfClose{
         width: calc(10px + 1vw);
@@ -80,12 +81,12 @@
         
     }
     .header_Textt{
-        margin-top: 3.8vw;
+        margin-top: 3.4vw;
         margin-right: -4vw;
         font-size: calc(1em + 0.1vmax);
         font-family: aleta-bold;
         color: white;
-        cursor : pointer;
+        cursor: pointer;
     }
     .naVBar_aliGN{
         box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);

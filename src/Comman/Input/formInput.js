@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Input } from 'antd';
+import 'antd/dist/antd.css';
 
 class InputComponent extends Component {
  

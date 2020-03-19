@@ -46,3 +46,28 @@
     margin-top: -2vw;
     padding-bottom: 1.5vw;
 }
+
+.teamName{
+    color: white;
+    font-family: aleta-bold;
+    font-size: 1.6vmax;
+    text-align: center;
+}
+.teamDesignation{
+    color: white;
+    font-family: aleta-light;
+    font-size: 1vmax;
+    text-align: center;
+}
+.teamNameMob{
+    color: white;
+    font-family: aleta-bold;
+    font-size: 3.5vmax;
+    text-align: center;
+}
+.teamDesignationMob{
+    color: white;
+    font-family: aleta-light;
+    font-size: 2vmax;
+    text-align: center;
+}

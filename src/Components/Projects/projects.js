@@ -4,12 +4,10 @@ import './projects.css';
 import Header2 from '../Header/header2';
 import ProjectContainer from '../../Comman/ProjectContainer/projectContainer';
 import SeeProject from '../ContactPage/SeeProject/seeProject';
-import Founder from '../../Comman/Founders/founders';
 import Banners from '../ServicesPage/banners';
-import Modal from './projectModal';
-import { smart } from '@babel/template';
 import { Tabs } from 'antd';
 import './projects.css';
+import 'antd/dist/antd.css';
 
 var siddiqSons = {
   name: 'Siddiqsons Limited Brochure',
@@ -65,6 +63,8 @@ class Projects extends React.Component {
       devParagraph: false,
       ViewPro: true,
       projectStateFromHome: [],
+
+      mode: 'left',
     }
   }
   componentWillMount() {
@@ -97,6 +97,7 @@ class Projects extends React.Component {
     const { TabPane } = Tabs;
     const { GFAperaas, devPeraImg, headingpera, headingpera1, headingpera2, banFuturPro, ViewPro, headerPath,
       projects, siddiqSons, projectStateFromHome } = this.state;
+    const { mode } = this.state;
     return (
 
       <div className="all_backgrundImageAfter animateFadeIn">
@@ -194,7 +195,7 @@ class Projects extends React.Component {
           <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
         </div>
 
-        <Tabs defaultActiveKey="1" style={{ color: 'white' }}>
+        <Tabs defaultActiveKey="1" tabPosition={mode} style={{ height: 220, color: 'white' }}>
           <TabPane
             tab={
               <span>
@@ -214,6 +215,16 @@ class Projects extends React.Component {
             key="2"
           >
             Tab 2
+          </TabPane>
+          <TabPane
+            tab={
+              <span>
+                Tab 3
+              </span>
+            }
+            key="3"
+          >
+            Tab 3
           </TabPane>
         </Tabs>
 

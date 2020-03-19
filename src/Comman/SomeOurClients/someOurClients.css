@@ -119,8 +119,8 @@
     cursor: pointer;
 }
 
-.surmawallahLog{
-    background-image: url("../../Assets/Images/clientLogo/Surmawala.png");
+.circleLog{
+    background-image: url("../../Assets/Images/clientLogo/circle-inactive.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -129,8 +129,8 @@
     background-position-x: center;
     height: 9vmax;
 }
-.surmawallahLog:hover{
-    background-image: url("../../Assets/Images/clientLogo/SurmawalaColor.png");
+.circleLog:hover{
+    background-image: url("../../Assets/Images/clientLogo/circle-active.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -141,8 +141,8 @@
     cursor: pointer;
 }
 
-.selMorelog{
-    background-image: url("../../Assets/Images/clientLogo/selmoreLogo.png");
+.oxBridgeLog{
+    background-image: url("../../Assets/Images/clientLogo/oxbridge-inactive.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -151,8 +151,8 @@
     background-position-x: center;
     height: 9vmax;
 }
-.selMorelog:hover{
-    background-image: url("../../Assets/Images/clientLogo/selmoreLogo.png");
+.oxBridgeLog:hover{
+    background-image: url("../../Assets/Images/clientLogo/oxbridge-active.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

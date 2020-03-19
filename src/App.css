@@ -1,4 +1,6 @@
 
+@import '~antd/dist/antd.css';
+
 .back{
   background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1576561427/bg-allScreen_jvwbz1.jpg");
  -webkit-background-size: cover;
@@ -16,6 +18,8 @@
   background-size:cover;
   background-attachment:fixed;
 }
+
+
 @keyframes fadeInUp {
   from {
       transform: translate3d(0,15vw,0)

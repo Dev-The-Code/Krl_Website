@@ -73,19 +73,19 @@ class SomeOurClients extends Component {
           <div className="row" style={{marginLeft: '-2vw'}}>
             <div className="col-xl-10 col-lg-10  col-sm-10 ">
               <div className="row">
-                {/* <div className="col-xl-6 col-lg-6 col-sm-6 logos">
-                  <div className="row">
-                    <div className="col-xl-1 col-lg-1 col-sm-1"></div>
-                    <div className="col-xl-10 col-lg-10  col-sm-10  surmawallahLog">
-                      image background
-                    </div>
-                    <div className="col-xl-1 col-lg-1 col-sm-1"></div>
-                  </div>
-                </div> */}
                 <div className="col-xl-6 col-lg-6 col-sm-6 logos">
                   <div className="row">
                     <div className="col-xl-1 col-lg-1 col-sm-1"></div>
-                    <div className="col-xl-10 col-lg-10  col-sm-10  selMorelog">
+                    <div className="col-xl-10 col-lg-10  col-sm-10  circleLog">
+                      {/* image background */}
+                    </div>
+                    <div className="col-xl-1 col-lg-1 col-sm-1"></div>
+                  </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-sm-6 logos">
+                  <div className="row">
+                    <div className="col-xl-1 col-lg-1 col-sm-1"></div>
+                    <div className="col-xl-10 col-lg-10  col-sm-10  oxBridgeLog">
                       {/*image background*/}
                     </div>
                     <div className="col-xl-1 col-lg-1 col-sm-1"></div>
@@ -121,11 +121,11 @@ class SomeOurClients extends Component {
                 </div>
             </div>
             <div className="row" style={{textAlign:'center'}}>
-                {/* <div className="col-md-6">
-                  <img className="companiesLogo2" src={require('../../Assets/Images/clientLogo/SurmawalaColor.png')} />
-                </div> */}
                 <div className="col-md-6">
-                  <img className="companiesLogo2" src={require('../../Assets/Images/clientLogo/selmoreLogo.png')} />
+                  <img className="companiesLogo2" src={require('../../Assets/Images/clientLogo/circle-active.png')} />
+                </div>
+                <div className="col-md-6">
+                  <img className="companiesLogo2" src={require('../../Assets/Images/clientLogo/oxbridge-active.png')} />
                 </div>
             </div>
         </div>
@@ -148,11 +148,11 @@ class SomeOurClients extends Component {
                 </div>
             </div>
             <div className="row">
-                {/* <div className="col-6">
-                  <img className="companiesLogo2" src={require('../../Assets/Images/clientLogo/SurmawalaColor.png')} />
-                </div> */}
                 <div className="col-6">
-                  <img className="companiesLogo2" src={require('../../Assets/Images/clientLogo/selmoreLogo.png')} />
+                  <img className="companiesLogo2" src={require('../../Assets/Images/clientLogo/circle-active.png')} />
+                </div>
+                <div className="col-6">
+                  <img className="companiesLogo2" src={require('../../Assets/Images/clientLogo/oxbridge-active.png')} />
                 </div>
             </div>
         </div>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Input from '../../../Comman/Input/formInput';
 import Button from '../../../Comman/Button/button';
 import './requestQuote.css';
+import 'antd/dist/antd.css';
 
 class contForm extends Component {
 
