@@ -381,7 +381,7 @@ var projects = [
       mainHeadsubText: '',
       mainVideos: "",
     }]
-  }
+  },
 ]
 
 

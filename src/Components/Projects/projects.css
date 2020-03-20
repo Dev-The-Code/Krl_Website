@@ -106,7 +106,17 @@
         background-position-y: top;
         margin-bottom: calc(15vw - -6.5vmax);
     }
-
+    .SiddiqSonsProject{
+        background-image: url('../../Assets/Images/siddiqsons-min.jpg');
+        height: 30.5vmax;
+        border-radius: 3vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: right;
+        margin-bottom: calc(15vw - -6.5vmax);
+    }
     .DrentProject{
         background-image: url("../../Assets/Images/drent.png");
         height: 30.5vmax;
@@ -300,7 +310,16 @@
         background-size: cover;
         background-position-x: right;
     }
-
+    .SiddiqSonsProject{
+        background-image: url('../../Assets/Images/siddiqsons-min.jpg');
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: right;
+    }
     .DrentProject{
         background-image: url("../../Assets/Images/drent.png");
         height: 26.5vmax;
@@ -484,7 +503,16 @@
         background-size: cover;
         background-position-y: center;
     }
-
+    .SiddiqSonsProject{
+        background-image: url('../../Assets/Images/siddiqsons-min.jpg');
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-y: bottom;
+    }
     .DrentProject {
         background-image: url("../../Assets/Images/drent.png");
         height: 26.5vmax;
@@ -577,7 +605,7 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        background-position-x: right;
+        background-position-y: bottom;
         margin-bottom: calc(17.5vmax - 1vmax);
         margin-top: 17.2vmax;
     }
@@ -663,7 +691,16 @@
         background-size: cover;
         background-position-y: center;
     }
-
+    .SiddiqSonsProject{
+        background-image: url('../../Assets/Images/siddiqsons-min.jpg');
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-y: bottom;
+    }
     .DrentProject {
         background-image: url("../../Assets/Images/drent.png");
         height: 26.5vmax;
@@ -756,7 +793,7 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        background-position-x: right;
+        background-position-y: bottom;
         margin-bottom: calc(13.5vmax - 1vmax);
         margin-top: 20vmax;
     }
@@ -842,7 +879,16 @@
         background-size: cover;
         background-position-y: center;
     }
-
+    .SiddiqSonsProject{
+        background-image: url('../../Assets/Images/siddiqsons-min.jpg');
+        height: 26.5vmax;
+        border-radius: 1vw;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-y: bottom;
+    }
     .DrentProject {
         background-image: url("../../Assets/Images/drent.png");
         height: 26.5vmax;
@@ -936,7 +982,7 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        background-position-x: right;
+        background-position-y: bottom;
         margin-bottom: calc(17.5vmax - 1vmax);
         margin-top: 12.7vmax;
     }

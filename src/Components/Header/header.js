@@ -31,7 +31,7 @@ class Header extends Component {
                     <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
                     <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6 loGo_devv">
                       <Link rel="noopener noreferrer" to={`/`} onClick={this.closeNav}>
-                        <img href="#" className="logo" src={require('../../Assets/Images/logo.png')} />
+                        <img href="#" className="logo" src={require('../../Assets/Images/logo-03.png')} />
                       </Link>
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6"></div>
@@ -56,7 +56,7 @@ class Header extends Component {
                     <div className="col-xl-10 col-lg-10 col-md-10" style={{marginBottom: '5vmax'}}>
                         <div className="row lol fixed-top">
                             <div className="col-xl-3 col-lg-3 col-md-3" style={{ paddingTop: '1vmax'}}>
-                                <img href="#" className="logo" src={require('../../Assets/Images/logo.png')} />
+                                <img href="#" className="logo" src={require('../../Assets/Images/logo-03.png')} />
                             </div>
                             <div className="col-xl-7 col-lg-7 col-md-7"></div>
                             <div className="col-xl-2 col-lg-2 col-md-2" style={{textAlign: 'right', paddingTop: '1.5vmax'}}>
