@@ -31,10 +31,27 @@
     letter-spacing: -0.05vmax;
     line-height: 2.2vmax;
 }
+.internPera2:hover{
+    background: -webkit-linear-gradient( 360deg, #631165 , #0ac3d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-family: aleta-light;
+    font-size: calc(12px + 0.3vw);
+    letter-spacing: -0.05vmax;
+    line-height: 2.2vmax;
+}
 .internPeraMob{
     font-family: aleta-light;
     font-size: calc(12px + 0.3vw);
     color: #adadad;
+    letter-spacing: -0.05vmax;
+    line-height: 6vw;
+}
+.internPeraMob:active{
+    font-family: aleta-light;
+    font-size: calc(12px + 0.3vw);
+    color: black;
     letter-spacing: -0.05vmax;
     line-height: 6vw;
 }

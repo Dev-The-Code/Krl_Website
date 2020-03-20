@@ -980,7 +980,7 @@ class HomeServicesPage extends Component {
                       the success and outcome created by your brand.
                     </p>
                     <Link rel="noopener noreferrer"
-                      to={{ pathname: `/project`, state: marketing }}
+                      to={{ pathname: `/projects`, state: marketing }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
                         <p className="ArrowHomeSErvice">
@@ -1006,7 +1006,7 @@ class HomeServicesPage extends Component {
                           them to provide efficient solutions for your brand.
                           </p>
                         <Link rel="noopener noreferrer"
-                          to={{ pathname: `/project`, state: development }}
+                          to={{ pathname: `/projects`, state: development }}
                           className="changingdec">
                           <a href={this.props.locationUrl} className="changingdec">
                             <p className="ArrowHomeSErviceDev">
@@ -1031,7 +1031,7 @@ class HomeServicesPage extends Component {
                            that help you achieve your business goals.
                           </p>
                         <Link rel="noopener noreferrer"
-                          to={{ pathname: `/project`, state: design }}
+                          to={{ pathname: `/projects`, state: design }}
                           className="changingdec">
                           <a href={this.props.locationUrl} className="changingdec">
                             <p className="ArrowHomeSErvice">
@@ -1065,7 +1065,7 @@ class HomeServicesPage extends Component {
                           you covered with their expertise and their eye for great lighting.
                           </p>
                         <Link rel="noopener noreferrer"
-                          to={{ pathname: `/project`, state: production }}
+                          to={{ pathname: `/projects`, state: production }}
                           className="changingdec">
                           <a href={this.props.locationUrl} className="changingdec">
                             <p className="ArrowHomeSErvice">
@@ -1121,7 +1121,7 @@ class HomeServicesPage extends Component {
                       the success and outcome created by your brand.
                       </p>
                     <Link rel="noopener noreferrer"
-                      to={{ pathname: `/project`, state: marketing }}
+                      to={{ pathname: `/projects`, state: marketing }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
                         <p className="ArrowHomeSErvice">
@@ -1145,7 +1145,7 @@ class HomeServicesPage extends Component {
                          them to provide efficient solutions for your brand.
                       </p>
                     <Link rel="noopener noreferrer"
-                      to={{ pathname: `/project`, state: development }}
+                      to={{ pathname: `/projects`, state: development }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
                         <p className="ArrowHomeSErviceDev">
@@ -1168,7 +1168,7 @@ class HomeServicesPage extends Component {
                       that help you achieve your business goals.
                       </p>
                     <Link rel="noopener noreferrer"
-                      to={{ pathname: `/project`, state: design }}
+                      to={{ pathname: `/projects`, state: design }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
                         <p className="ArrowHomeSErvice">
@@ -1191,7 +1191,7 @@ class HomeServicesPage extends Component {
                       you covered with their expertise and their eye for great lighting.
                       </p>
                     <Link rel="noopener noreferrer"
-                      to={{ pathname: `/project`, state: production }}
+                      to={{ pathname: `/projects`, state: production }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
                         <p className="ArrowHomeSErvice">
@@ -1237,7 +1237,7 @@ class HomeServicesPage extends Component {
                       the success and outcome created by your brand.
                       </p>
                     <Link rel="noopener noreferrer"
-                      to={{ pathname: `/project`, state: marketing }}
+                      to={{ pathname: `/projects`, state: marketing }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
                         <p className="ArrowHomeSErvice" style={{ paddingTop: '0', paddingLeft: '7.5vw' }}>
@@ -1261,7 +1261,7 @@ class HomeServicesPage extends Component {
                        them to provide efficient solutions for your brand.
                       </p>
                     <Link rel="noopener noreferrer"
-                      to={{ pathname: `/project`, state: development }}
+                      to={{ pathname: `/projects`, state: development }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
                         <p className="ArrowHomeSErviceDev" style={{ paddingTop: '0', paddingLeft: '7.5vw' }}>
@@ -1285,7 +1285,7 @@ class HomeServicesPage extends Component {
                            that help you achieve your business goals.
                       </p>
                     <Link rel="noopener noreferrer"
-                      to={{ pathname: `/project`, state: design }}
+                      to={{ pathname: `/projects`, state: design }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
                         <p className="ArrowHomeSErvice" style={{ paddingTop: '0', paddingLeft: '7.5vw' }}>
@@ -1308,7 +1308,7 @@ class HomeServicesPage extends Component {
                       you covered with their expertise and their eye for great lighting.
                       </p>
                     <Link rel="noopener noreferrer"
-                      to={{ pathname: `/project`, state: production }}
+                      to={{ pathname: `/projects`, state: production }}
                       className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec">
                         <p className="ArrowHomeSErvice" style={{ paddingTop: '0', paddingLeft: '7.5vw' }}>

@@ -32,7 +32,7 @@ class Contact extends React.Component {
           headTextOff='off_head_cont'
           decripText='demo_cont'
         />
-        <Link to={`/project`} className="changingColor">
+        <Link to={`/projects`} className="changingColor">
         <SeeProject
           seeBckColr="row footer_contact"
           roWalign='row rEw_conT'

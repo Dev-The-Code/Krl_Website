@@ -31,13 +31,15 @@ class InterShipProgramer extends Component {
                                     for final year university students that is completely
                                     immersive and challenging from start to finish.
                                 </p>
-                                <p className="internPera2">
-                                    Send your resume to careers@krlcreatives.com
-                            </p>
+                                <a href="mailto:careers@krlcreatives.com">
+                                    <p className="internPera2">
+                                        Send your resume to careers@krlcreatives.com
+                                    </p>
+                                </a>
                             </div>
                             <div className="col-12 d-block d-xl-none d-lg-none d-md-none internShipTextMob">
                                 <h1 className="interH1Mob">Internship Programs</h1>
-                                <p className="internPeraMob"> 
+                                <p className="internPeraMob">
                                     At KRL, we believe that it is important for students
                                     to receive a hands-on experience of what it is like to
                                     work within an organisation and as part of a dynamic
@@ -45,9 +47,11 @@ class InterShipProgramer extends Component {
                                     for final year university students that is completely
                                     immersive and challenging from start to finish.
                                 </p>
-                                <p className="internPeraMob2">
-                                    Send your resume to careers@krlcreatives.com
-                            </p>
+                                <a href="mailto:careers@krlcreatives.com">
+                                    <p className="internPeraMob2">
+                                        Send your resume to careers@krlcreatives.com
+                                    </p>
+                                </a>
                             </div>
                         </div>
 

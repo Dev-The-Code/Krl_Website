@@ -43,8 +43,8 @@ class Routes extends React.Component {
             <Route path="/blog Detail" component={BlogDetail} />
             <Route path="/contact" component={Contact} />
             <Route path="/blog" component={Blog} />
-            <Route path="/project" component={Project} />
-            <Route path="/projects" component={ProjectDetails} />
+            <Route path="/projects" component={Project} />
+            <Route path="/project" component={ProjectDetails} />
             <Route path="/services" component={Services} />
             <Route path="*" component={FourZeroFour} />
           </Switch>

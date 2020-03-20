@@ -49,7 +49,7 @@ class MainServices extends Component {
 
                     <div className={marketBox5}>{/* "marketChildDev2" */}
                     <Link rel="noopener noreferrer" 
-                          to={{ pathname: `/project`, state: {projectObj} }}  className="changingdec">
+                          to={{ pathname: `/projects`, state: {projectObj} }}  className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec" target='_blank'>
                         {PeraAerroImg ? <p className={peraAeroImg}>
                           View Project 

@@ -905,7 +905,7 @@
     position: absolute;
 }
 .blankDesign:hover{
-    background-color: #e0e0e0;
+    background-image: linear-gradient(45deg, #ff9b54 , #ff3b5f);
     border-radius: 1vw;
     width: 20vw;
     height: 23.1vw;
@@ -918,8 +918,8 @@
     height: 10vw;
     margin-bottom: 16vw;
 }
-.blankDesignSm:hover{
-    background-color: #e0e0e0;
+.blankDesignSm:active{
+    background-image: linear-gradient(45deg, #ff9b54 , #ff3b5f);
     border-radius: 1vw;
     width: 81vw;
     height: 10vw;
@@ -932,8 +932,8 @@
     height: 23.1vw;
     margin-bottom: 4vw;
 }
-.blankDesignMb:hover{
-    background-color: #e0e0e0;
+.blankDesignMb:active{
+    background-image: linear-gradient(45deg, #ff9b54 , #ff3b5f);
     border-radius: 1vw;
     width: 84vw;
     height: 23.1vw;
@@ -965,11 +965,19 @@
     font-size: calc(0.8em + 0.5vw);
     padding-top: 19vw;
 }
+.blankperaimg1:hover {
+    padding-left: 2.5vw;
+    padding-bottom: 1.5vmax;
+    font-family: aleta-bold;
+    color: white;
+    font-size: calc(0.8em + 0.5vw);
+    padding-top: 19vw;
+}
 .blankperaimgMd1 {
     padding-left: 2.5vw;
     padding-bottom: 1.5vmax;
     font-family: aleta-bold;
-    color: #303030;
+    color: white;
     font-size: calc(0.8em + 0.5vw);
     padding-top: 3.5vw;
 }

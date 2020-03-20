@@ -430,7 +430,7 @@ class ProjectContainer extends Component {
                                   {elem.desciption.slice(0, 70)}...
                                 </p>
                                 <Link rel="noopener noreferrer"
-                                  to={{ pathname: `/projects`, state: elem }}
+                                  to={{ pathname: `/project`, state: elem }}
                                   className="changingdec">
                                   <a className="changingdec">
                                     <p className="GFApera1">

@@ -59,7 +59,7 @@ class Header2 extends Component {
                             </Link>
                           </li>
                           <li className="nav_list">
-                            <Link rel="noopener noreferrer" to={`/project`} onClick={this.closeNav}>
+                            <Link rel="noopener noreferrer" to={`/projects`} onClick={this.closeNav}>
                               <Button
                                 classMd="nav_bTnTeXt"
                                 label='Project'
@@ -173,7 +173,7 @@ class Header2 extends Component {
                         </Link>
                       </div>
                       <div className="col-12 btNCenter_MoBB">
-                        <Link rel="noopener noreferrer" to={`/project`} onClick={this.closeNav} >
+                        <Link rel="noopener noreferrer" to={`/projects`} onClick={this.closeNav} >
                           <Button
                             classMd="nav_bTnTeXt-Mob"
                             label='Project'

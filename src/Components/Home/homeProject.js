@@ -190,7 +190,7 @@ class Project extends React.Component {
                                                 LIGHT-F (founded by JICA in association with the Sindh governe...
                                             </p>
                                             <Link rel="noopener noreferrer"
-                                                to={{ pathname: `/projects`, state: jicaLightF }}
+                                                to={{ pathname: `/project`, state: jicaLightF }}
                                                 className="changingdec">
                                                 <a className="changingdec">
                                                     <p className="GFApera1">
@@ -216,7 +216,7 @@ class Project extends React.Component {
                                                 Ayesha Chundrigar Foundation, an NGO coming to the aid of troub...
                                             </p>
                                             <Link rel="noopener noreferrer"
-                                                to={{ pathname: `/projects`, state: aCFRescue }}
+                                                to={{ pathname: `/project`, state: aCFRescue }}
                                                 className="changingdec">
                                                 <a className="changingdec">
                                                     <p className="GFApera1">
@@ -244,7 +244,7 @@ class Project extends React.Component {
                                                 Siddiqsons Limited, the pioneer of the denim industry in Pakista...
                                             </p>
                                             <Link rel="noopener noreferrer"
-                                                to={{ pathname: `/projects`, state: siddiqSons }}
+                                                to={{ pathname: `/project`, state: siddiqSons }}
                                                 className="changingdec">
                                                 <a href={this.props.locationUrl} className="changingdec">
                                                     <p className="ADBpera1">
