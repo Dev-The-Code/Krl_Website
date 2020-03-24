@@ -412,13 +412,13 @@ class ProjectContainer extends Component {
     // console.log("TCL: ProjectContainer -> render -> projects", projects)
     return (
       <div>
-        <div className="row">
-          <div className="col-12 col-md-1 col-xl-1 col-lg-1"></div>
-          <div className="col-12 col-md-10 col-xl-10 col-lg-10 bigProjectLeft" style={{ padding: '0' }}>
+        {/* <div className="row">
+          <div className="col-12 col-md-2 col-xl-2 col-lg-2"></div>
+          <div className="col-12 col-md-9 col-xl-9 col-lg-9" style={{ padding: '0' }}> */}
               {projects.map((elem, key) => {
                 return (
                   <div className="row">
-                    <div className="col-11 col-md-6 col-xl-7 col-lg-7">
+                    <div className="col-11 col-md-9 col-xl-10 col-lg-10">
                       <div className="animatedup animatedFadeInUp fadeInUp">
                         <div className="row" style={{ paddingRight: '0vw' }}>
                           <div className={elem.frontImg}>
@@ -446,13 +446,13 @@ class ProjectContainer extends Component {
                         </div>
                       </div><br/><br/><br/><br/><br/><br/><br/>
                     </div>
-                    <div className="col-12 col-md-6 col-xl-5 col-lg-5"></div>
+                    <div className="col-12 col-md-3 col-xl-2 col-lg-2"></div>
                     </div>
                   )
               })}
-          </div>
+          {/* </div>
           <div className="col-12 col-md-1 col-xl-1 col-lg-1"></div>
-        </div>
+        </div> */}
         {/* <div className="animatedup animatedFadeInUp fadeInUp">
           <div className="row" style={{ paddingRight: '0vw' }}>
             <div className={projctBox1}></div>

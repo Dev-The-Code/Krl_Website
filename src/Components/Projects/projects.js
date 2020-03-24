@@ -64,7 +64,6 @@ class Projects extends React.Component {
       ViewPro: true,
       projectStateFromHome: [],
 
-      mode: 'left',
     }
   }
   componentWillMount() {
@@ -92,12 +91,15 @@ class Projects extends React.Component {
     window.scrollTo(0, 0);
   }
 
+  handleBath = (e) => {
+    console.log(e);
+  }
+
   render() {
     // console.log("render -> this.props.location.state;", this.props.location.state);
     const { TabPane } = Tabs;
     const { GFAperaas, devPeraImg, headingpera, headingpera1, headingpera2, banFuturPro, ViewPro, headerPath,
       projects, siddiqSons, projectStateFromHome } = this.state;
-    const { mode } = this.state;
     return (
 
       <div className="all_backgrundImageAfter animateFadeIn">
@@ -195,41 +197,53 @@ class Projects extends React.Component {
           <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
         </div>
 
-        {/* <Tabs defaultActiveKey="1" tabPosition={mode} style={{ height: 220, color: 'white' }}>
-          <TabPane
-            tab={
-              <span>
-                Tab 1
-              </span>
-            }
-            key="1"
-          >
-            Tab 1
-          </TabPane>
-          <TabPane
-            tab={
-              <span>
-                Tab 2
-              </span>
-            }
-            key="2"
-          >
-            Tab 2
-          </TabPane>
-          <TabPane
-            tab={
-              <span>
-                Tab 3
-              </span>
-            }
-            key="3"
-          >
-            Tab 3
-          </TabPane>
-        </Tabs> */}
+
+        <div className="row bigProjectLeft">
+          <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+          <div className="col-12 col-sm-5 col-md-3 col-lg-3 col-xl-3">
+            <Tabs defaultActiveKey="1" tabPosition={'left'} style={{ color: 'white' }}>
+              <TabPane
+                    tab={<span>All</span>}
+                    key="1"
+                    onClick={this.handleBath("All")}
+                  >
+              </TabPane>
+              <TabPane
+                    tab={<span>Marketing</span>}
+                    key="2"
+                    onClick={this.handleBath("Marketing")}
+                  >
+              </TabPane>
+              <TabPane
+                    tab={<span>Development</span>}
+                    key="3"
+                    onClick={this.handleBath("Development")}
+                  >
+              </TabPane>
+              <TabPane
+                    tab={<span>Design</span>}
+                    key="4"
+                    onClick={this.handleBath("Design")}
+                  >
+              </TabPane> 
+              <TabPane
+                    tab={<span>Production</span>}
+                    key="5"
+                    onClick={this.handleBath("Production")}
+                  >
+              </TabPane>
+            </Tabs>
+          </div>
+          {/* <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div> */}
+          <div className="col-12 col-sm-5 col-md-5 col-lg-7 col-xl-7">
+            <ProjectContainer projectStateFromHome={projectStateFromHome} />
+          </div>
+          <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+        </div>
 
 
-        <ProjectContainer projectStateFromHome={projectStateFromHome} />
+
+
 
         <Link to={`/contact`} className="changingColor">
           <div className="row proSeeFotr">
