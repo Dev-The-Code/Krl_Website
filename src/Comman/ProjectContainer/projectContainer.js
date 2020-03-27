@@ -396,13 +396,14 @@ class ProjectContainer extends Component {
 
   componentDidMount() {
     let dataFromHome = this.props.projectStateFromHome;
-    // console.log("TCL: ProjectContainer -> componentDidMount -> dataFromHome", dataFromHome)
+    console.log("TCL: ProjectContainer -> componentDidMount -> dataFromHome", dataFromHome)
     if(dataFromHome.length != []){
       this.setState({ projects: dataFromHome })
       // console.log("TCL: ProjectContainer -> componentDidMount if -> dataFromHome", dataFromHome)
     }
     else{
       this.setState({ projects: projects })
+      // console.log("ProjectContainer -> componentDidMount -> projects", projects)
     }
   }
 

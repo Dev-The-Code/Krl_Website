@@ -62,8 +62,17 @@ class Projects extends React.Component {
       devPeraImg: true,
       devParagraph: false,
       ViewPro: true,
+
+      developBanner: 'developerFeatureBanner',
+      productionBanner: 'productionFeatureBanner',
+      designBanner: 'designFeatureBanner',
+      marketingBanner: 'marketingFeatureBanner',
+
+      featuredBannerImg : 'acfFeatureImgAllOver',
+
       projectStateFromHome: [],
 
+      defaultTab : '1'
     }
   }
   componentWillMount() {
@@ -72,15 +81,64 @@ class Projects extends React.Component {
     if (data) {
       if (data.projectObj == undefined) {
         this.setState({
-          projectStateFromHome: data
+          projectStateFromHome: data[0]
         })
+        if(data[1] == "marketing"){
+          this.setState({
+            featuredBannerImg : 'oxbridgeFeatureImgMarket',
+            defaultTab : '2'
+          })
+        }
+        else if(data[1] == "development"){
+          this.setState({
+            featuredBannerImg : 'pakjazbaFeatureImgDevelop',
+            defaultTab : '3'
+          })
+        }
+        else if(data[1] == "design"){
+          this.setState({
+            featuredBannerImg : 'siddiqSonFeatureImgDesign',
+            defaultTab : '4'
+          })
+        }
+        else if(data[1] == "production"){
+          this.setState({
+            featuredBannerImg : 'jicaFeatureImgProduct',
+            defaultTab : '5'
+          })
+        }
       }
       else if (data.projectObj != undefined) {
         this.setState({
-          projectStateFromHome: data.projectObj
+          projectStateFromHome: data.projectObj[0]
         })
+        if(data.projectObj[1] == "marketing"){
+          this.setState({
+            featuredBannerImg : 'oxbridgeFeatureImgMarket',
+            defaultTab : '2'
+          })
+        }
+        else if(data.projectObj[1] == "development"){
+          this.setState({
+            featuredBannerImg : 'pakjazbaFeatureImgDevelop',
+            defaultTab : '3'
+          })
+        }
+        else if(data.projectObj[1] == "production"){
+          this.setState({
+            featuredBannerImg : 'jicaFeatureImgProduct',
+            defaultTab : '4'
+          })
+        }
+        else if(data.projectObj[1] == "design"){
+          this.setState({
+            featuredBannerImg : 'siddiqSonFeatureImgDesign',
+            defaultTab : '5'
+          })
+        }
       }
     }
+    
     let dataLocation = this.props.location.pathname;
     // if(dataLocation){
     let routName;
@@ -91,7 +149,7 @@ class Projects extends React.Component {
     window.scrollTo(0, 0);
   }
 
-  handleBath = (e) => {
+  handleBath(e){
     console.log(e);
   }
 
@@ -99,137 +157,49 @@ class Projects extends React.Component {
     // console.log("render -> this.props.location.state;", this.props.location.state);
     const { TabPane } = Tabs;
     const { GFAperaas, devPeraImg, headingpera, headingpera1, headingpera2, banFuturPro, ViewPro, headerPath,
-      projects, siddiqSons, projectStateFromHome } = this.state;
+      projects, siddiqSons, projectStateFromHome , featuredBannerImg, defaultTab } = this.state;
     return (
 
       <div className="all_backgrundImageAfter animateFadeIn">
         <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
+        <div style={{paddingTop : '7vw '}}></div>
+        {/*Featured banner*/}
         <div className="row">
-          <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
-          <div className="d-none d-md-none d-lg-block d-xl-block col-xl-10 col-lg-10" style={{ paddingRight: "0vw", paddingLeft: '0vw' }}>
-            {/*hidden mobile tablet ipad */}
-            <div className="col-xl-12 col-lg-12 d-none d-sm-none d-md-none d-xl-block d-lg-block" style={{ paddingRight: "0vw", paddingLeft: '0vw' }}>
-              <Banners
-                // locationUrl={"https://www.acfanimalrescue.org/"}
-                banrs="row ban"
-                devChld="col-xl-5 col-lg-5 banDev"
-                peraDev="banPeraDev"
-                peraChld="banPera"
-                banPera={banFuturPro}
-                hedPera="banHedng"
-                banhedng={headingpera}
-                hedPera1="banHedng1"
-                banhedng1={headingpera2}
-                devChild1="col-xl-7 col-lg-7 SiddiqSonsDeskstop"
-                banPera1="banPera1"
-                hedPera2="banHedng2"
-                banhedng2={headingpera1}
-                devChld1="col-xl-7 col-lg-7 banChildDev"
-                devChld2="col-xl-4 col-lg-4 banChildDev1"
-                projectData={siddiqSons}
-
-                seeAerro={devPeraImg}
-                projctPera1="BanrPera1"
-                pera={GFAperaas}
-                proAeroImg="BanPeraimg"
-                devChld3="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 banChildDev2"
-              />
-            </div>
-          </div>
-          <div className="d-none d-md-block d-lg-none d-xl-none col-md-10" style={{ paddingRight: "0vw", paddingLeft: '0vw' }}>
-            <div className="col-md-12 d-none d-md-block d-lg-none d-xl-none" style={{ paddingRight: "0vw", paddingLeft: '0vw' }}>
-              <Banners
-                // locationUrl={"https://www.acfanimalrescue.org/"}
-                banrs="row banSmall"
-                devChld="col-md-5 col-sm-5 col-5 banDevSmall"
-                peraDev="banPeraDevsmall"
-                peraChld="banPeraSmall"
-                banPera={banFuturPro}
-                hedPera="banHedngSmall"
-                banhedng={headingpera}
-                hedPera1="banHedng1Small"
-                banhedng1={headingpera2}
-                devChild1="col-md-7 col-sm-7 col-7 SiddiqSonsTablet"
-                banPera1="banPera1Small"
-                hedPera2="banHedng2Small"
-                banhedng2={headingpera1}
-                devChld1="col-md-5 col-sm-5 col-3 banChildDevSmall"
-                devChld2="col-md-6 col-sm-6 col-7 banChildDev1Small"
-                projectData={siddiqSons}
-
-                seeAerro={devPeraImg}
-                projctPera1="BanrPera1Mb"
-                pera={GFAperaas}
-                proAeroImg="BanPeraimg"
-                devChld3="col-md-1 col-sm-1 col-1 banChildDev2Small"
-              />
-            </div>
-          </div>
-          <div className="d-block d-md-none d-lg-none d-xl-none col-12" style={{ paddingLeft: '0vw', marginTop: '40vw' }}>
-            <div className="col-12 d-block d-md-none d-lg-none d-xl-none">
-              <Banners
-                // locationUrl={"https://www.acfanimalrescue.org/"}
-                banrs="row banSmall"
-                devChld="col-md-5 col-sm-5 col-5 banDevSmall"
-                peraDev="banPeraDevsmall"
-                peraChld="banPeraSmall"
-                banPera={banFuturPro}
-                hedPera="banHedngSmall"
-                banhedng={headingpera}
-                hedPera1="banHedng1Small"
-                banhedng1={headingpera2}
-                devChild1="col-md-7 col-sm-7 col-7 SiddiqSonsMobile"
-                banPera1="banPera1Small"
-                hedPera2="banHedng2Small"
-                banhedng2={headingpera1}
-                devChld1="col-md-5 col-sm-5 col-3 banChildDevSmall"
-                devChld2="col-md-6 col-sm-6 col-7 banChildDev1Small"
-                projectData={siddiqSons}
-
-                seeAerro={devPeraImg}
-                projctPera1="BanrPera1Mb"
-                pera={GFAperaas}
-                proAeroImg="BanPeraimg"
-                devChld3="col-md-1 col-sm-1 col-1 banChildDev2Small"
-              />
-            </div>
-          </div>
-          <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
+          <div className={`col-12 col-md-12 col-lg-12 col-xl-12 ${featuredBannerImg}`}></div>
         </div>
-
 
         <div className="row bigProjectLeft">
           <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
           <div className="col-12 col-sm-5 col-md-3 col-lg-3 col-xl-3">
-            <Tabs defaultActiveKey="1" tabPosition={'left'} style={{ color: 'white' }}>
+            <Tabs defaultActiveKey={defaultTab} tabPosition={'left'} style={{ color: 'white'}}>
               <TabPane
                     tab={<span>All</span>}
                     key="1"
-                    onClick={this.handleBath("All")}
+                    onClick={this.handleBath.bind('All')}
                   >
               </TabPane>
               <TabPane
                     tab={<span>Marketing</span>}
                     key="2"
-                    onClick={this.handleBath("Marketing")}
+                    onClick={this.handleBath.bind('marketing')}
                   >
               </TabPane>
               <TabPane
                     tab={<span>Development</span>}
                     key="3"
-                    onClick={this.handleBath("Development")}
+                    onClick={this.handleBath.bind('development')}
                   >
               </TabPane>
               <TabPane
                     tab={<span>Design</span>}
                     key="4"
-                    onClick={this.handleBath("Design")}
+                    onClick={this.handleBath.bind('design')}
                   >
               </TabPane> 
               <TabPane
                     tab={<span>Production</span>}
                     key="5"
-                    onClick={this.handleBath("Production")}
+                    onClick={this.handleBath.bind('production')}
                   >
               </TabPane>
             </Tabs>
@@ -262,6 +232,97 @@ class Projects extends React.Component {
             <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12"></div>
           </div>
         </Link>
+
+        {/* <div className="row">
+          <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
+          <div className="d-none d-md-none d-lg-block d-xl-block col-xl-10 col-lg-10" style={{ paddingRight: "0vw", paddingLeft: '0vw' }}>
+            hidden mobile tablet ipad
+            <div className="col-xl-12 col-lg-12 d-none d-sm-none d-md-none d-xl-block d-lg-block" style={{ paddingRight: "0vw", paddingLeft: '0vw' }}>
+              <Banners
+                banrs="row ban"
+                devChld="col-xl-5 col-lg-5 banDev"
+                peraDev="banPeraDev"
+                peraChld="banPera"
+                banPera={banFuturPro}
+                hedPera="banHedng"
+                banhedng={headingpera}
+                hedPera1="banHedng1"
+                banhedng1={headingpera2}
+                devChild1="col-xl-7 col-lg-7 SiddiqSonsDeskstop"
+                banPera1="banPera1"
+                hedPera2="banHedng2"
+                banhedng2={headingpera1}
+                devChld1="col-xl-7 col-lg-7 banChildDev"
+                devChld2="col-xl-4 col-lg-4 banChildDev1"
+                projectData={siddiqSons}
+
+                seeAerro={devPeraImg}
+                projctPera1="BanrPera1"
+                pera={GFAperaas}
+                proAeroImg="BanPeraimg"
+                devChld3="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 banChildDev2"
+              />
+            </div>
+          </div>
+          <div className="d-none d-md-block d-lg-none d-xl-none col-md-10" style={{ paddingRight: "0vw", paddingLeft: '0vw' }}>
+            <div className="col-md-12 d-none d-md-block d-lg-none d-xl-none" style={{ paddingRight: "0vw", paddingLeft: '0vw' }}>
+              <Banners
+                banrs="row banSmall"
+                devChld="col-md-5 col-sm-5 col-5 banDevSmall"
+                peraDev="banPeraDevsmall"
+                peraChld="banPeraSmall"
+                banPera={banFuturPro}
+                hedPera="banHedngSmall"
+                banhedng={headingpera}
+                hedPera1="banHedng1Small"
+                banhedng1={headingpera2}
+                devChild1="col-md-7 col-sm-7 col-7 SiddiqSonsTablet"
+                banPera1="banPera1Small"
+                hedPera2="banHedng2Small"
+                banhedng2={headingpera1}
+                devChld1="col-md-5 col-sm-5 col-3 banChildDevSmall"
+                devChld2="col-md-6 col-sm-6 col-7 banChildDev1Small"
+                projectData={siddiqSons}
+
+                seeAerro={devPeraImg}
+                projctPera1="BanrPera1Mb"
+                pera={GFAperaas}
+                proAeroImg="BanPeraimg"
+                devChld3="col-md-1 col-sm-1 col-1 banChildDev2Small"
+              />
+            </div>
+          </div>
+          <div className="d-block d-md-none d-lg-none d-xl-none col-12" style={{ paddingLeft: '0vw', marginTop: '40vw' }}>
+            <div className="col-12 d-block d-md-none d-lg-none d-xl-none">
+              <Banners
+                banrs="row banSmall"
+                devChld="col-md-5 col-sm-5 col-5 banDevSmall"
+                peraDev="banPeraDevsmall"
+                peraChld="banPeraSmall"
+                banPera={banFuturPro}
+                hedPera="banHedngSmall"
+                banhedng={headingpera}
+                hedPera1="banHedng1Small"
+                banhedng1={headingpera2}
+                devChild1="col-md-7 col-sm-7 col-7 SiddiqSonsMobile"
+                banPera1="banPera1Small"
+                hedPera2="banHedng2Small"
+                banhedng2={headingpera1}
+                devChld1="col-md-5 col-sm-5 col-3 banChildDevSmall"
+                devChld2="col-md-6 col-sm-6 col-7 banChildDev1Small"
+                projectData={siddiqSons}
+
+                seeAerro={devPeraImg}
+                projctPera1="BanrPera1Mb"
+                pera={GFAperaas}
+                proAeroImg="BanPeraimg"
+                devChld3="col-md-1 col-sm-1 col-1 banChildDev2Small"
+              />
+            </div>
+          </div>
+          <div className="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12"></div>
+        </div> */}
+
         {/* <div className="row">
           <div className="col-12 col-md-1 col-xl-1 col-lg-1"></div>
           <div className="col-11 col-md-5 col-xl-6 col-lg-6 bigProjectLeft">

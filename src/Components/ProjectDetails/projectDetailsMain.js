@@ -51,22 +51,35 @@ class ProjectDetailsPage extends Component {
             <Tabs defaultActiveKey="1" style={{ textAlign: 'center' }}>
               <TabPane
                 tab={<span>Marketing</span>}
+                key="1"
+              >
+                
+              </TabPane>
+              <TabPane
+                tab={<span>Development</span>}
                 key="2"
               >
               </TabPane>
               <TabPane
-                tab={<span>Development</span>}
+                tab={<span>Design</span>}
                 key="3"
               >
-              </TabPane>
-              <TabPane
-                tab={<span>Design</span>}
-                key="4"
-              >
+
               </TabPane>
               <TabPane
                 tab={<span>Production</span>}
+                key="4"
+              >
+
+              </TabPane>
+              <TabPane
+                tab={<span>Consultation</span>}
                 key="5"
+              >
+              </TabPane>
+              <TabPane
+                tab={<span>Training</span>}
+                key="6"
               >
               </TabPane>
             </Tabs>
