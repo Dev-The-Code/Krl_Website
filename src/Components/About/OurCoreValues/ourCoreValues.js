@@ -123,10 +123,10 @@ class OurCoreValues extends Component {
                   <div className="Transparency"></div>
                 </div>
                 <div>
-                  <div className="listenCarefull"></div>
+                  <div className="beHonest"></div>
                 </div>
                 <div>
-                  <div className="beHonest"></div>
+                  <div className="beCreative"></div>
                 </div>
               </Carousel>
             </div>

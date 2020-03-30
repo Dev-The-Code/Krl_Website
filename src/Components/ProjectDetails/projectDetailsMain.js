@@ -3,15 +3,7 @@ import { Link } from 'react-router-dom';
 import Header2 from '../Header/header2';
 import PanelDetails from './ProjectDetailsPanels/DetailsPanel1/panelDetails';
 import DetailBanner from './ProjectDetailsPanels/DetailsBannerPanel2/detailsBanner';
-import DetailPanelTwo from './ProjectDetailsPanels/DetailPanel2/detailPanel2';
-import VisualIdentity from './ProjectDetailsPanels/Detailspanel3/visualIdentity';
-import IconSet from './ProjectDetailsPanels/DetailsPanel4/iconSet';
-import Illustration from './ProjectDetailsPanels/DetailsPanel5/illustration';
-import WebSiteVideo from './ProjectDetailsPanels/DetailPanel6/webSiteVideos';
-import FinalVideosYouTube from './ProjectDetailsPanels/DetailsPanel7/finalvideosYoutube';
-import SomeImages from './ProjectDetailsPanels/DetailsPanel8/someImages';
-import PreviousButton from '../../Comman/ProjectDetailsButtons/previousButton';
-import ProjectDetailFooter from './ProjectDetailsPanels/DetailsPanelFooter9/projectDetailsFooter';
+import ProjDetailsMainTabs from './projDetailMainTabs';
 import { Tabs } from 'antd';
 
 class ProjectDetailsPage extends Component {
@@ -53,47 +45,41 @@ class ProjectDetailsPage extends Component {
                 tab={<span>Marketing</span>}
                 key="1"
               >
-                
+                <ProjDetailsMainTabs data={data} />
               </TabPane>
               <TabPane
                 tab={<span>Development</span>}
                 key="2"
               >
               </TabPane>
+                <ProjDetailsMainTabs data={data} />
               <TabPane
                 tab={<span>Design</span>}
                 key="3"
               >
-
+                <ProjDetailsMainTabs data={data} />
               </TabPane>
               <TabPane
                 tab={<span>Production</span>}
                 key="4"
               >
-
+                <ProjDetailsMainTabs data={data} />
               </TabPane>
               <TabPane
                 tab={<span>Consultation</span>}
                 key="5"
               >
+                <ProjDetailsMainTabs data={data} />
               </TabPane>
               <TabPane
                 tab={<span>Training</span>}
                 key="6"
               >
+                <ProjDetailsMainTabs data={data} />
               </TabPane>
             </Tabs>
           </div>
         </div>
-        <DetailPanelTwo data={data} />
-        <VisualIdentity data={data} />
-        {/* <IconSet data={data} /> */}
-        <Illustration data={data} />
-        <FinalVideosYouTube data={data} />
-        <WebSiteVideo data={data} />
-        <SomeImages data={data} />
-        <PreviousButton data={data} />
-        <ProjectDetailFooter data={data} />
       </div>
     );
   }

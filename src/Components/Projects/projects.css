@@ -53,129 +53,135 @@
 @media only screen and (min-device-width : 360px) and (max-device-width : 767px) {
     .LightFProject {
         background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
-        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(15vw - -6.5vmax);
+        height: 28vmax;
+        margin-top: 10vmax;
+        margin-left: -1.1vmax;
     }
     .GetFitProject {
         background-image: url("../../Assets/Images/getfit.png");
-        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(15vw - -6.5vmax);
+        height: 28vmax;
+        margin-top: 10vmax;
+        margin-left: -1.1vmax;
     }
     .CircleProject {
         background-image: url("../../Assets/Images/circle.jpg");
-        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(15vw - -6.5vmax);
+        height: 28vmax;
+        margin-top: 10vmax;
+        margin-left: -1.1vmax;
     }
     .ZiyaratProject {
         background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
-        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-y: bottom;
-        margin-bottom: calc(15vw - -6.5vmax);
+        height: 28vmax;
+        margin-top: 10vmax;
+        margin-left: -1.1vmax;
     }
     .DallasPalmProject {
         background-image: url("../../Assets/Images/dallaspalm.png");
-        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-y: top;
-        margin-bottom: calc(15vw - -6.5vmax);
+        height: 28vmax;
+        margin-top: 10vmax;
+        margin-left: -1.1vmax;
     }
     .SiddiqSonsProject{
         background-image: url('../../Assets/Images/siddiqsons-min.jpg');
-        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-bottom: calc(15vw - -6.5vmax);
+        height: 28vmax;
+        margin-top: 10vmax;
+        margin-left: -1.1vmax;
     }
     .DrentProject{
         background-image: url("../../Assets/Images/drent.png");
-        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-y: right;
-        margin-bottom: calc(15vw - -6.5vmax);
-        margin-top: 20vw;
+        height: 28vmax;
+        margin-top: 10vmax;
+        margin-left: -1.1vmax;
     }
     .ACFProject {
         background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-y: right;
-        margin-bottom: calc(15vw - -6.5vmax);
-        margin-top: 20vw;
+        height: 28vmax;
+        margin-top: 10vmax;
+        margin-left: -1.1vmax;
     }
     .PakJazbaProject {
         background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
-        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-y: right;
-        margin-bottom: calc(15vw - -6.5vmax);
-        margin-top: 20vw;
+        height: 28vmax;
+        margin-top: 10vmax;
+        margin-left: -1.1vmax;
     }
     .OxbridgeProject {
         background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-y: right;
-        margin-bottom: calc(15vw - -6.5vmax);
-        margin-top: 20vw;
+        height: 28vmax;
+        margin-top: 10vmax;
+        margin-left: -1.1vmax;
     }
     .AmberDazelProject {
         background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 30.5vmax;
         border-radius: 3vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-y: right;
-        margin-bottom: calc(15vw - -6.5vmax);
-        margin-top: 20vw;
+        height: 28vmax;
+        margin-top: 10vmax;
+        margin-left: -1.1vmax;
     }
 
     .bgChildProject{
@@ -262,118 +268,124 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .LightFProject {
         background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
-        height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: bottom;
+        height: 25vmax;
+        margin-bottom: 8vmax;
     }
     .GetFitProject {
         background-image: url("../../Assets/Images/getfit.png");
-        height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
+        height: 25vmax;
+        margin-bottom: 8vmax;
     }
     .CircleProject {
         background-image: url("../../Assets/Images/circle.jpg");
-        height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
+        height: 25vmax;
+        margin-bottom: 8vmax;
     }
     .ZiyaratProject {
         background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
-        height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
+        height: 25vmax;
+        margin-bottom: 8vmax;
     }
     .DallasPalmProject {
         background-image: url("../../Assets/Images/dallaspalm.png");
-        height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
+        height: 25vmax;
+        margin-bottom: 8vmax;
     }
     .SiddiqSonsProject{
         background-image: url('../../Assets/Images/siddiqsons-min.jpg');
-        height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
+        height: 25vmax;
+        margin-bottom: 8vmax;
     }
     .DrentProject{
         background-image: url("../../Assets/Images/drent.png");
-        height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-top: -20vw;
+        height: 25vmax;
+        margin-bottom: 8vmax;
     }
     .ACFProject {
         background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-top: -20vw;
+        height: 25vmax;
+        margin-bottom: 8vmax;
     }
     .PakJazbaProject {
         background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
-        height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: right;
-        margin-top: -20vw;
+        height: 25vmax;
+        margin-bottom: 8vmax;
     }
     .OxbridgeProject {
         background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: bottom;
-        margin-top: -20vw;
+        height: 25vmax;
+        margin-bottom: 8vmax;
     }
     .AmberDazelProject {
         background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position-x: center;
-        margin-top: -20vw;
+        height: 25vmax;
+        margin-bottom: 8vmax;
     }
 
     .bgChildProject{
@@ -455,7 +467,8 @@
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .LightFProject {
         background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
-        height: 26.5vmax;
+        height: 28vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -465,7 +478,8 @@
     }
     .GetFitProject{
         background-image: url("../../Assets/Images/getfit.png");
-        height: 26.5vmax;
+        height: 28vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -475,7 +489,8 @@
     }
     .CircleProject {
         background-image: url("../../Assets/Images/circle.jpg");
-        height: 26.5vmax;
+        height: 28vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -485,7 +500,8 @@
     }
     .ZiyaratProject{
         background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
-        height: 26.5vmax;
+        height: 28vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -495,7 +511,8 @@
     }
     .DallasPalmProject{
         background-image: url("../../Assets/Images/dallaspalm.png");
-        height: 26.5vmax;
+        height: 28vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -505,7 +522,8 @@
     }
     .SiddiqSonsProject{
         background-image: url('../../Assets/Images/siddiqsons-min.jpg');
-        height: 26.5vmax;
+        height: 28vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -515,7 +533,8 @@
     }
     .DrentProject {
         background-image: url("../../Assets/Images/drent.png");
-        height: 26.5vmax;
+        height: 28vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -525,7 +544,8 @@
     }
     .ACFProject {
         background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
+        height: 28vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -535,7 +555,8 @@
     }
     .PakJazbaProject {
         background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
-        height: 26.5vmax;
+        height: 28vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -545,7 +566,8 @@
     }
     .OxbridgeProject {
         background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
+        height: 28vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -555,7 +577,8 @@
     }
     .AmberDazelProject {
         background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
+        height: 28vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -643,7 +666,8 @@
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .LightFProject {
         background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
-        height: 26.5vmax;
+        height: 27vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -653,7 +677,8 @@
     }
     .GetFitProject{
         background-image: url("../../Assets/Images/getfit.png");
-        height: 26.5vmax;
+        height: 27vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -663,7 +688,8 @@
     }
     .CircleProject {
         background-image: url("../../Assets/Images/circle.jpg");
-        height: 26.5vmax;
+        height: 27vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -673,7 +699,8 @@
     }
     .ZiyaratProject{
         background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
-        height: 26.5vmax;
+        height: 27vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -683,7 +710,8 @@
     }
     .DallasPalmProject{
         background-image: url("../../Assets/Images/dallaspalm.png");
-        height: 26.5vmax;
+        height: 27vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -693,7 +721,8 @@
     }
     .SiddiqSonsProject{
         background-image: url('../../Assets/Images/siddiqsons-min.jpg');
-        height: 26.5vmax;
+        height: 27vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -703,7 +732,8 @@
     }
     .DrentProject {
         background-image: url("../../Assets/Images/drent.png");
-        height: 26.5vmax;
+        height: 27vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -713,7 +743,8 @@
     }
     .ACFProject {
         background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
+        height: 27vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -723,7 +754,8 @@
     }
     .PakJazbaProject {
         background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
-        height: 26.5vmax;
+        height: 27vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -733,7 +765,8 @@
     }
     .OxbridgeProject {
         background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
+        height: 27vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -743,7 +776,8 @@
     }
     .AmberDazelProject {
         background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
+        height: 27vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -831,7 +865,8 @@
 @media only screen and (min-device-width : 1600px){
     .LightFProject {
         background-image: url("../../Assets/Images/DSC00144-treated-min.jpg");
-        height: 26.5vmax;
+        height: 26vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -841,7 +876,8 @@
     }
     .GetFitProject{
         background-image: url("../../Assets/Images/getfit.png");
-        height: 26.5vmax;
+        height: 26vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -851,7 +887,8 @@
     }
     .CircleProject {
         background-image: url("../../Assets/Images/circle.jpg");
-        height: 26.5vmax;
+        height: 26vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -861,7 +898,8 @@
     }
     .ZiyaratProject{
         background-image: url("../../Assets/Images/ProjectImages/Ziyarat.jpg");
-        height: 26.5vmax;
+        height: 26vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -871,7 +909,8 @@
     }
     .DallasPalmProject{
         background-image: url("../../Assets/Images/dallaspalm.png");
-        height: 26.5vmax;
+        height: 26vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -881,7 +920,8 @@
     }
     .SiddiqSonsProject{
         background-image: url('../../Assets/Images/siddiqsons-min.jpg');
-        height: 26.5vmax;
+        height: 26vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -891,7 +931,8 @@
     }
     .DrentProject {
         background-image: url("../../Assets/Images/drent.png");
-        height: 26.5vmax;
+        height: 26vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -901,7 +942,8 @@
     }
     .ACFProject {
         background-image: url("../../Assets/Images/ACF-Image-min.jpg");
-        height: 26.5vmax;
+        height: 26vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -911,7 +953,8 @@
     }
     .PakJazbaProject {
         background-image: url("../../Assets/Images/ProjectImages/pakjazba.jpg");
-        height: 26.5vmax;
+        height: 26vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -921,7 +964,8 @@
     }
     .OxbridgeProject {
         background-image: url("../../Assets/Images/ProjectImages/oxbridge.jpg");
-        height: 26.5vmax;
+        height: 26vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -931,7 +975,8 @@
     }
     .AmberDazelProject {
         background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg");
-        height: 26.5vmax;
+        height: 26vmax;
+        margin-bottom: 10vmax;
         border-radius: 1vw;
         -webkit-background-size: cover;
         -moz-background-size: cover;

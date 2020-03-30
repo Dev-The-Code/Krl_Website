@@ -170,7 +170,7 @@ class Projects extends React.Component {
 
         <div className="row bigProjectLeft">
           <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-          <div className="col-12 col-sm-5 col-md-3 col-lg-3 col-xl-3">
+          <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
             <Tabs defaultActiveKey={defaultTab} tabPosition={'left'} style={{ color: 'white'}}>
               <TabPane
                     tab={<span>All</span>}
@@ -205,7 +205,7 @@ class Projects extends React.Component {
             </Tabs>
           </div>
           {/* <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div> */}
-          <div className="col-12 col-sm-5 col-md-5 col-lg-7 col-xl-7">
+          <div className="col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7">
             <ProjectContainer projectStateFromHome={projectStateFromHome} />
           </div>
           <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>

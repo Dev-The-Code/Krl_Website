@@ -44,7 +44,7 @@ var projects = [
     name: 'Drent Branding & Website',
     desciption: 'Drent needed a luxurious website to formally launch their dress rental service in UK for Asian communities. Their focus was making it a personalised brand that would make great impact on their customers.',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579697423/Asset_1_seshuz.png'],
-    frontImg: 'col-11 col-md-12 col-xl-11 col-lg-11 DrentProject',
+    frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 DrentProject',
     ourRole: 'We designed them a new brand that speaks to the UK community, but at the same time was impactful for the Asian users. We decided to go with a heavily branded website design that would leave its impact on the customers’ minds, while keeping it simple to use.',
     technologyUsed: 'Drents website was created using React.js on frontend and Node.js on backend.',
     visualidentityLogo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579696864/drent-logo_d0usqb.png'],
@@ -119,7 +119,7 @@ var projects = [
     name: 'ACF Animal Rescue Website',
     desciption: 'Ayesha Chundrigar Foundation, an NGO coming to the aid of troubled animals, needed a website for their cause as well as photography that would help move their audience and motivate them to join in on their cause. They were in need of a mobile application that would help collect the data of rescued animals in areas where internet connectivity was unavailable. ',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864118/acf-cover-img_srzfhp.jpg'],
-    frontImg: 'col-11 col-md-12 col-xl-11 col-lg-11 ACFProject',
+    frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 ACFProject',
     ourRole: 'We were responsible for coming up with the right kind of design for the website that would connect emotionally to their viewers. KRL Creatives was behind the lens for ACF’s website photography. ',
     technologyUsed: 'The website was built using Wordpress. For the Android mobile application, we used Ant.design, React.JS, Redux-Saga and Firebase to develop a system that could store data offline and then upload it to ACF’s server once an internet connection was available.',
     visualidentityLogo: [''],
@@ -212,7 +212,7 @@ var projects = [
     name: 'Pakjazba Online Portal System',
     desciption: 'PakJazba is a one-stop portal, created for overseas Pakistanis, that allows users to buy and sell goods, book rooms, find jobs and much more. ',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579704937/pawel-nolbert-4u2U8EO9OzY-unsplash_jhrdz9.jpg'],
-    frontImg: 'col-11 col-md-12 col-xl-11 col-lg-11 PakJazbaProject',
+    frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 PakJazbaProject',
     ourRole: 'KRL Creatives designed and developed this portal and maintain it to manage bug fixes and performance improvements.',
     technologyUsed: 'This portal is developed using latest technologies such as React.Js for front-end and Node.Js for back-end. Due to the vast variety of data on this portal, we chose to use Amazon for server and database deployment. ',
     visualidentityLogo: [''],
@@ -281,7 +281,7 @@ var projects = [
     name: 'Oxbridge Video Website',
     desciption: 'Oxbridge, an English training startup, had an innovative approach to training and educational centres. They contacted KRL Creatives to design and develop their website.',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579707315/waldemar-brandt-U3Ptj3jafX8-unsplash_osnp6q.jpg'],
-    frontImg: 'col-11 col-md-12 col-xl-11 col-lg-11 OxbridgeProject',
+    frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 OxbridgeProject',
     ourRole: 'We were responsible for coming up with a website design that would communicate their innovative approach effectively and could help connect their customers to the young brand.',
     technologyUsed: '',
     visualidentityLogo: [''],
@@ -354,7 +354,7 @@ var projects = [
     name: 'Amber Dazzle Website & TVC',
     desciption: 'Amber Dazzle, an American cosmetics brand, wanted to launch their product line up in Pakistan for which they required a website that appealed to the Pakistani audience. ',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg'],
-    frontImg: 'col-11 col-md-12 col-xl-11 col-lg-11 AmberDazelProject',
+    frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 AmberDazelProject',
     ourRole: 'Our production team worked with models to compose the shots into an appealing TVC. Our designers worked with their product photographs and branding guidelines to design and set up an aesthetically pleasing and user-friendly website.',
     technologyUsed: 'Wordpress and Woocommerce.',
     visualidentityLogo: [''],
@@ -419,7 +419,7 @@ class ProjectContainer extends Component {
               {projects.map((elem, key) => {
                 return (
                   <div className="row">
-                    <div className="col-11 col-md-9 col-xl-10 col-lg-10">
+                    <div className="col-12 col-md-11 col-xl-10 col-lg-10">
                       <div className="animatedup animatedFadeInUp fadeInUp">
                         <div className="row" style={{ paddingRight: '0vw' }}>
                           <div className={elem.frontImg}>
@@ -445,9 +445,9 @@ class ProjectContainer extends Component {
                           </div>
                           <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
                         </div>
-                      </div><br/><br/><br/><br/><br/><br/><br/>
+                      </div><br/><br/>
                     </div>
-                    <div className="col-12 col-md-3 col-xl-2 col-lg-2"></div>
+                    <div className="col-12 col-md-1 col-xl-2 col-lg-2"></div>
                     </div>
                   )
               })}

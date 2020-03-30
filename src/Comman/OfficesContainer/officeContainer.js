@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Moment from 'moment';
+import moment from 'moment';
+import tz from 'moment-timezone';
 
 class OfficesContainer extends Component {
   constructor(props) {
@@ -15,6 +16,9 @@ class OfficesContainer extends Component {
 
   componentWillMount(){
     this.handleDateKHI();
+    // var jun = moment("2020-03-30 T 01:17:00");
+    // jun.tz('America/Los_Angeles').format('ha z');
+    // console.log("OfficesContainer -> jun", jun)
   }
 
   componentWillUnmount() {
@@ -25,14 +29,14 @@ class OfficesContainer extends Component {
 
   nowLiveTimer = () => {
     this.interval = setInterval(() =>{ 
-          const now = Moment().format('LTS');
+          const now = moment().format('LTS');
           this.setState({liveTiming : now})
       }, 1000)
   }
 
   handleDateKHI = () =>{
-    var currentTime = Moment().format('LT'); 
-    var currentDay = Moment().format('dddd');   
+    var currentTime = moment().format('LT'); 
+    var currentDay = moment().format('dddd');   
     
     if(currentDay == 'Monday' || currentDay == 'Tuesday' || currentDay == 'Wednesday'
         || currentDay == 'Thursday' || currentDay == 'Friday'){
