@@ -6,7 +6,6 @@ class OfficesContainer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      officeTiming : '',
       liveTiming : '',
     };
   }  
@@ -14,12 +13,6 @@ class OfficesContainer extends Component {
       this.nowLiveTimer();
   }
 
-  componentWillMount(){
-    this.handleDateKHI();
-    // var jun = moment("2020-03-30 T 01:17:00");
-    // jun.tz('America/Los_Angeles').format('ha z');
-    // console.log("OfficesContainer -> jun", jun)
-  }
 
   componentWillUnmount() {
     if (this.interval) {
@@ -34,36 +27,18 @@ class OfficesContainer extends Component {
       }, 1000)
   }
 
-  handleDateKHI = () =>{
-    var currentTime = moment().format('LT'); 
-    var currentDay = moment().format('dddd');   
-    
-    if(currentDay == 'Monday' || currentDay == 'Tuesday' || currentDay == 'Wednesday'
-        || currentDay == 'Thursday' || currentDay == 'Friday'){
-          if(currentTime >= '09:00:00 AM' && currentTime <= '6:00:00 PM'){
-            this.setState({officeTiming: 'Open'})
-            // console.log('if console Office Open');
-          }
-          else{
-            this.setState({officeTiming: 'Close'})
-            // console.log('Else console Office Close inner');
-          }
-    }
-    else{
-        this.setState({officeTiming: 'Close'})
-        // console.log('Else console Office Close');
-    }
-  }
+ 
+
     render() {
-      const { arizonDev, ariHead, img_Stylig , cont_textStyle1, cont_textStyle2, cont_textStyle3, inerHedTxt, inerHedTxt2, inerHedTxt3 }= this.props
-      const { officeTiming , liveTiming }= this.state
+      const {officeTimeStatus, arizonDev, ariHead, img_Stylig , cont_textStyle1, cont_textStyle2, cont_textStyle3, inerHedTxt, inerHedTxt2, inerHedTxt3 }= this.props
+      const { officeTimingKHI , officeTimingARZ , officeTimingDals ,  liveTiming }= this.state
       // console.log(officeTiming , 'office timming')
       // console.log(liveTiming , 'live timming')
 
       return (
         <div className={arizonDev}>
           <div><img src={ariHead} className={img_Stylig}/></div>
-          <p className={cont_textStyle1}>{officeTiming}</p>
+          <p className={cont_textStyle1}>{officeTimeStatus}</p>
           <p className={cont_textStyle2}>{inerHedTxt2}</p>
           <p className={cont_textStyle3}>{inerHedTxt3}</p>
           {/* <p className={cont_textStyle1}>{liveTiming}</p> */}

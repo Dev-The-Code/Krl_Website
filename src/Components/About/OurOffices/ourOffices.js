@@ -4,7 +4,8 @@ import OfficesContainer from '../../../Comman/OfficesContainer/officeContainer'
 import khi from '../../../Assets/Images/karachi.png';
 import Ari from '../../../Assets/Images/dallas.png';
 import Dal from '../../../Assets/Images/arizona.png';
-
+import moment from 'moment';
+import tz from 'moment-timezone';
 
 class OurOffices extends Component {
   constructor(props) {
@@ -22,11 +23,90 @@ class OurOffices extends Component {
       khiPhone: '+92 21 388-83676',
       khiMail: 'info@krlcreatives.com',
 
+      officeTimingKHI : '',
+      officeTimingARZ : '',
+      officeTimingDals : '',
     };
   }
 
+
+  componentWillMount(){
+    this.handleDateKHI();
+    this.handleDateARZ();
+    this.handleDateDals();
+  }
+
+  handleDateKHI = () =>{
+    var currentTimeKHI = moment().format('LT'); 
+    var currentDayKHI = moment().format('dddd');   
+    
+    if(currentDayKHI == 'Monday' || currentDayKHI == 'Tuesday' || currentDayKHI == 'Wednesday'
+        || currentDayKHI == 'Thursday' || currentDayKHI == 'Friday'){
+          if(currentTimeKHI >= '09:00:00 AM' && currentTimeKHI <= '6:00:00 PM'){
+            this.setState({officeTimingKHI: 'Open'})
+            // console.log('if console Office Open');
+          }
+          else{
+            this.setState({officeTimingKHI: 'Close'})
+            // console.log('Else console Office Close inner');
+          }
+    }
+    else{
+        this.setState({officeTimingKHI: 'Close'})
+        // console.log('Else console Office Close');
+    }
+  }
+
+  handleDateARZ = () =>{
+    var currentTimeARZ = moment.tz('America/Phoenix').format('LTS'); 
+    var currentDayARZ = moment.tz('America/Phoenix').format('dddd');   
+
+    // console.log("Arizona Time",currentTimeARZ);
+    // console.log("Arizona Day",currentDayARZ);
+
+    if(currentDayARZ == 'Monday' || currentDayARZ == 'Tuesday' || currentDayARZ == 'Wednesday'
+        || currentDayARZ == 'Thursday' || currentDayARZ == 'Friday'){
+          if(currentTimeARZ >= '9:00:00 AM' && currentTimeARZ <= '6:00:00 PM'){
+            this.setState({officeTimingARZ: 'Open'})
+            // console.log('if console Office Open');
+          }
+          else{
+            this.setState({officeTimingARZ: 'Close'})
+            // console.log('Else console Office Close inner');
+          }
+    }
+    else{
+        this.setState({officeTimingARZ: 'Close'})
+        // console.log('Else console Office Close');
+    }
+  }
+
+  handleDateDals = () =>{
+    var currentTimeDals = moment.tz('America/Jamaica').format('LTS'); 
+    var currentDayDals = moment.tz('America/Jamaica').format('dddd');   
+
+    console.log("Dallas Time",currentTimeDals);
+    console.log("Dallas Day",currentDayDals);
+
+    if(currentDayDals == 'Monday' || currentDayDals == 'Tuesday' || currentDayDals == 'Wednesday'
+        || currentDayDals == 'Thursday' || currentDayDals == 'Friday'){
+          if(currentTimeDals >= '9:00:00 AM' && currentTimeDals <= '6:00:00 PM'){
+            this.setState({officeTimingDals: 'Open'})
+            console.log('if console Office Open');
+          }
+          else{
+            this.setState({officeTimingDals: 'Close'})
+            console.log('Else console Office Close innerr');
+          }
+    }
+    else{
+        this.setState({officeTimingDals: 'Close'})
+        console.log('Else console Office Close');
+    }
+  }
+
   render() {
-    const { officeTiming , ariPhone, ariMail, dallas_No, tuscanMail, khiPhone, khiMail } = this.state
+    const { officeTimingKHI , officeTimingARZ, officeTimingDals,  officeTiming , ariPhone, ariMail, dallas_No, tuscanMail, khiPhone, khiMail } = this.state
     return (
       <div>
         <div className="d-none d-sm-block">
@@ -40,7 +120,8 @@ class OurOffices extends Component {
               <OfficesContainer
                 ariHead={khi}
                 img_Stylig='locat_office'
-                inerHedTxt={officeTiming}
+                officeTimeStatus={officeTimingKHI}
+                // inerHedTxt={officeTiming}
                 cont_textStyle1="mt-xl-4 mt-lg-4 mt-md-3 mt-sm-3 iner_head_textKhi"
                 inerHedTxt2={khiPhone}
                 cont_textStyle2="iner_head_text"
@@ -53,7 +134,8 @@ class OurOffices extends Component {
               <OfficesContainer
                 ariHead={Dal}
                 img_Stylig='locat_office'
-                inerHedTxt={officeTiming}
+                officeTimeStatus={officeTimingARZ}
+                // inerHedTxt={officeTiming}
                 cont_textStyle1="mt-xl-4 mt-lg-4 mt-md-3  mt-sm-3 iner_head_textKhi"
                 inerHedTxt2={ariPhone}
                 cont_textStyle2="iner_head_text"
@@ -67,7 +149,8 @@ class OurOffices extends Component {
               <OfficesContainer
                 ariHead={Ari}
                 img_Stylig='locat_office'
-                inerHedTxt={officeTiming}
+                officeTimeStatus={officeTimingDals}
+                // inerHedTxt={officeTiming}
                 cont_textStyle1="mt-xl-4 mt-lg-4 mt-md-3 mt-sm-3 iner_head_textKhi"
                 inerHedTxt2={dallas_No}
                 cont_textStyle2="iner_head_text"
@@ -93,7 +176,8 @@ class OurOffices extends Component {
                 <OfficesContainer
                   ariHead={khi}
                   img_Stylig='local_imgOffice'
-                  inerHedTxt={officeTiming}
+                  officeTimeStatus={officeTimingKHI}
+                  // inerHedTxt={officeTiming}
                   cont_textStyle1="detail_textKhi"
                   inerHedTxt2={khiPhone}
                   cont_textStyle2="detail_text"
@@ -106,7 +190,8 @@ class OurOffices extends Component {
                 <OfficesContainer
                   ariHead={Dal}
                   img_Stylig='local_imgOffice'
-                  inerHedTxt={officeTiming}
+                  officeTimeStatus={officeTimingARZ}
+                  // inerHedTxt={officeTiming}
                   cont_textStyle1="detail_textKhi"
                   inerHedTxt2={dallas_No}
                   cont_textStyle2="detail_text"
@@ -119,7 +204,8 @@ class OurOffices extends Component {
                 <OfficesContainer
                   ariHead={Ari}
                   img_Stylig='local_imgOffice'
-                  inerHedTxt={officeTiming}
+                  officeTimeStatus={officeTimingDals}
+                  // inerHedTxt={officeTiming}
                   cont_textStyle1="detail_textKhi"
                   inerHedTxt2={dallas_No}
                  cont_textStyle2="detail_text"
