@@ -8,55 +8,9 @@ import Banners from '../ServicesPage/banners';
 import { Tabs } from 'antd';
 import './projects.css';
 import 'antd/dist/antd.css';
+import VisualIdentity from '../ProjectDetails/ProjectDetailsPanels/Detailspanel3/visualIdentity';
 
-var siddiqSons = [
-  {
-    name: 'Siddiqsons Limited Brochure',
-    desciption: 'Siddiqsons Limited, the pioneer of the denim industry in Pakistan, was in need of a magazine to effectively communicate their strategic direction to begin environmentally friendly denim manufacturing and production.',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687373/cover_h7qavr.jpg'],
-    ourRole: 'KRL Creatives was responsible for the creative direction and design execution of this campaign. We were behind the creative and visual strategies that went into the production of the videos and magazine that were to communicate the story and success of the denim giant.',
-    technologyUsed: '',
-  },
-  {
-    visualidentityLogo: [''],
-    visualidentityLogoText: '',
-    colorpaletteText: '',
-    colorPaletteAllColor: [''],
-    fontText: '',
-    fontFamilyText: [''],
-    fontFamily: [''],
-  },
-  {
-    illustration: [
-      {
-        illustrationText: 'Photography',
-        illustrationSubText: 'Our team played around with various light sources whilst covering Siddiqsons’ new infrastructure, machinery and manufacturing processes. We made sure to highlight the innovative processes to bring forward their message of sustainability.',
-        illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687745/2_-pathway_plhjlc.jpg',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687782/10_-_washing_axkjqd.jpg',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687815/18_-_quality_assurance_eusdgz.jpg',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687823/6_-_two_side_laser_uueepf.jpg',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687830/15_-_Ozone_Machine_ddgl3d.jpg',
-          'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687847/8_-_single_side_laser_vrkktf.jpg'],
-      },
-    ],
-  },
-  {
-    demoHeading: 'Final Printed Brochure',
-    demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579702459/VID2_nmkc9u.mp4'],
-  },
-  {
-    documentHeading: 'Brochure Design',
-    documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864122/iteration_2_a_abk0ic.jpg',
-    ],
-  },
-  {
-    mainVideoPanel: [{
-      mainHead: '',
-      mainHeadsubText: '',
-      mainVideos: "",
-    },]
-  }
-]
+
 
 var Allprojects = [
   {
@@ -1600,7 +1554,7 @@ class Projects extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      siddiqSons: siddiqSons,
+      // siddiqSons: siddiqSons,
 
       projectStateFromHome: Allprojects,
 
@@ -1716,23 +1670,23 @@ class Projects extends React.Component {
     //   projectStateFromHome: '', 
     //   projectStateFromHome: param ,
     // });
-    if(param == 'Allprojects'){
+    if (param == 'Allprojects') {
       // console.log('Allprojects')
       this.setState({ projectStateFromHome: Allprojects });
     }
-    else if(param == 'marketing'){
+    else if (param == 'marketing') {
       // console.log('marketing')
       this.setState({ projectStateFromHome: marketing });
     }
-    else if(param == 'development'){
+    else if (param == 'development') {
       // console.log('development')
       this.setState({ projectStateFromHome: development });
     }
-    else if(param == 'design'){
+    else if (param == 'design') {
       // console.log('design')
       this.setState({ projectStateFromHome: design });
     }
-    else if(param == 'production'){
+    else if (param == 'production') {
       // console.log('production')
       this.setState({ projectStateFromHome: production });
     }
@@ -1742,7 +1696,8 @@ class Projects extends React.Component {
     const { TabPane } = Tabs;
     const { GFAperaas, devPeraImg, headingpera, headingpera1, headingpera2, banFuturPro, ViewPro, headerPath,
       projects, siddiqSons, projectStateFromHome, featuredBannerImg, defaultTab } = this.state;
-      // console.log('projectStateFromHome',projectStateFromHome);
+    // console.log('siddiqSons',siddiqSons);
+
     return (
 
       <div className="all_backgrundImageAfter animateFadeIn">
@@ -1757,8 +1712,8 @@ class Projects extends React.Component {
           <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
           <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
             <Tabs defaultActiveKey={defaultTab} tabPosition={'left'} style={{ color: 'white' }}>
-             
-              <TabPane 
+
+              <TabPane
                 tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'Allprojects')}>All</button>}
                 key="1"
               >
@@ -2489,3 +2444,57 @@ export default Projects;
 // colrHed="colrhedng"
 // hedPera1={headingpera1} 
 // hedPera2={headingpera2}
+
+// var siddiqSons = [
+//   [
+//     {
+//       name: 'Siddiqsons Limited Brochure',
+//       desciption: 'Siddiqsons Limited, the pioneer of the denim industry in Pakistan, was in need of a magazine to effectively communicate their strategic direction to begin environmentally friendly denim manufacturing and production.',
+//       coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687373/cover_h7qavr.jpg'],
+//       ourRole: 'KRL Creatives was responsible for the creative direction and design execution of this campaign. We were behind the creative and visual strategies that went into the production of the videos and magazine that were to communicate the story and success of the denim giant.',
+//       technologyUsed: '',
+//     }
+//   ],
+//   [
+//     {
+//       visualidentityLogo: [''],
+//       visualidentityLogoText: '',
+//       colorpaletteText: '',
+//       colorPaletteAllColor: [''],
+//       fontText: '',
+//       fontFamilyText: [''],
+//       fontFamily: [''],
+//     },
+//     {
+//       demoHeading: 'Final Printed Brochure',
+//       demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579702459/VID2_nmkc9u.mp4'],
+//     },
+//     {
+//       documentHeading: 'Brochure Design',
+//       documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864122/iteration_2_a_abk0ic.jpg'],
+//     }
+//   ],
+//   production : [
+//     {
+//       mainVideoPanel: [{
+//         mainHead: '',
+//         mainHeadsubText: '',
+//         mainVideos: "",
+//       },]
+//     },
+//     {
+//       illustration: [
+//         {
+//           illustrationText: 'Photography',
+//           illustrationSubText: 'Our team played around with various light sources whilst covering Siddiqsons’ new infrastructure, machinery and manufacturing processes. We made sure to highlight the innovative processes to bring forward their message of sustainability.',
+//           illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687745/2_-pathway_plhjlc.jpg',
+//             'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687782/10_-_washing_axkjqd.jpg',
+//             'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687815/18_-_quality_assurance_eusdgz.jpg',
+//             'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687823/6_-_two_side_laser_uueepf.jpg',
+//             'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687830/15_-_Ozone_Machine_ddgl3d.jpg',
+//             'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687847/8_-_single_side_laser_vrkktf.jpg'],
+//         },
+//       ],
+//     },
+//   ]
+// ]

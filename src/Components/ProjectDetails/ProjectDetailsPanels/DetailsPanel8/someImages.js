@@ -6,7 +6,7 @@ class SomeImages extends Component {
 
     render() {
         const { data } = this.props
-        console.log("TCL: SomeImages -> render -> data", data)
+        // console.log("TCL: SomeImages -> render -> data", data)
         return (
             <div>
                 {data.mainHead && data.mainHead != '' && <div className="animatedup animatedFadeInUp fadeInUp">

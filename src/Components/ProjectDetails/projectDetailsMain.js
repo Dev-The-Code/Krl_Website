@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Header2 from '../Header/header2';
 import PanelDetails from './ProjectDetailsPanels/DetailsPanel1/panelDetails';
 import DetailBanner from './ProjectDetailsPanels/DetailsBannerPanel2/detailsBanner';
+import DetailPanelTwo from './ProjectDetailsPanels/DetailPanel2/detailPanel2';
 import DetailAllTabs from './detailAllTabs';
 import { Tabs } from 'antd';
 
@@ -43,6 +44,7 @@ class ProjectDetailsPage extends Component {
         <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
         <PanelDetails data={data} />
         <DetailBanner data={data} />
+        <DetailPanelTwo data={data} />
         <div className="row devChalnge">
           <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <Tabs defaultActiveKey="1" style={{ textAlign: 'center' }}>

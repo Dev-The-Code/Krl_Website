@@ -5,7 +5,7 @@ class VisualIdentity extends Component {
 
     render() {
         const { data } = this.props
-        console.log(data,'data');
+        // console.log(data,'data');
         return (
             <div className="animatedup animatedFadeInUp fadeInUp">
                 <div className="row">

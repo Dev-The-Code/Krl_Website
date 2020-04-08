@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Header2 from '../Header/header2';
 import PanelDetails from './ProjectDetailsPanels/DetailsPanel1/panelDetails';
 import DetailBanner from './ProjectDetailsPanels/DetailsBannerPanel2/detailsBanner';
-import DetailPanelTwo from './ProjectDetailsPanels/DetailPanel2/detailPanel2';
 import VisualIdentity from './ProjectDetailsPanels/Detailspanel3/visualIdentity';
 import IconSet from './ProjectDetailsPanels/DetailsPanel4/iconSet';
 import Illustration from './ProjectDetailsPanels/DetailsPanel5/illustration';
@@ -41,7 +40,6 @@ class DetailAllTabs extends Component {
     // console.log(data, 'data in priject tabs file');
     return (
       <div className="animateFadeIn">
-        <DetailPanelTwo data={data} />
         <VisualIdentity data={data} />
         {/* <IconSet data={data} /> */}
         <Illustration data={data} />

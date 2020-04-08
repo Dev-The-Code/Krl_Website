@@ -6,7 +6,7 @@ class PanelDetails extends Component {
 
   render() {
     const { data } = this.props
-    console.log(data.name, 'data');
+    // console.log(data.name, 'data');
     return (
       <div className="animatedup animatedFadeInUp fadeInUp">
         <div className="row">

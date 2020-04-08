@@ -28,7 +28,7 @@ class Header2 extends Component {
   render() {
 
 
-    console.log(this.state.classAfter, 'sssssss');
+    // console.log(this.state.classAfter, 'sssssss');
     return (
       <div>
         {this.state.response ?
