@@ -14,7 +14,7 @@ class Illustration extends Component {
                         return (
                             <div className="row">
                                 <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
-                                <div className="col-xl-10 col-lg-10 col-md-10 col-12">
+                                <div className="col-xl-10 col-lg-10 col-md-10 col-12" style={{textAlign:'left'}}>
                                     <div className="row">
                                         <div className="col-xl-4 col-lg-4 col-md-4 col-12 d-none d-xl-block d-lg-block d-md-block devIlustration" style={{ paddingLeft: '0vw' }}>
                                             <h3 className="IlustrationHedng">{elem.illustrationText}</h3>

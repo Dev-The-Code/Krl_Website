@@ -5,14 +5,15 @@ class VisualIdentity extends Component {
 
     render() {
         const { data } = this.props
+        console.log(data,'data');
         return (
             <div className="animatedup animatedFadeInUp fadeInUp">
                 <div className="row">
 
                     <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
-                    <div className="col-xl-10 col-lg-10 col-md-10 col-12 d-none d-xl-block d-lg-block d-md-block">
-                        {data.visualidentityLogo != '' && <h3 className="visulIdntityHedng">Visual Identity</h3>}
-                        {data.visualidentityLogo != '' && <div className="row">
+                    <div className="col-xl-10 col-lg-10 col-md-10 col-12 d-none d-xl-block d-lg-block d-md-block" style={{textAlign:'left'}}>
+                        {data.visualidentityLogo && data.visualidentityLogo != '' && <h3 className="visulIdntityHedng">Visual Identity</h3>}
+                        {data.visualidentityLogo && data.visualidentityLogo != '' && <div className="row">
                             <div className="col-xl-4 col-lg-4 col-md-4 col-12 devVidentity">
                                 <h3 className="V-IdentityLogo">Logo</h3>
                                 <p className="IdentityPera">
@@ -23,7 +24,7 @@ class VisualIdentity extends Component {
                                 <img href="#" className="D-logo" src={data.visualidentityLogo[0]} />
                             </div>
                         </div>}
-                        {data.colorPaletteAllColor != '' && <div className="row">
+                        {data.colorPaletteAllColor && data.colorPaletteAllColor != '' && <div className="row">
                             <div className="col-xl-4 col-lg-4 col-md-4 col-12 devVidentity2">
                                 <h3 className="visulIdntityshortHedng">Color Palette</h3>
                                 <p className="IdentityPera2">
@@ -38,7 +39,7 @@ class VisualIdentity extends Component {
                                 })}             
                             </div>
                         </div>}
-                        {data.fontFamilyText != '' && <div className="row">
+                        {data.fontFamilyText && data.fontFamilyText != '' && <div className="row">
                             <div className="col-xl-4 col-lg-4 col-md-4 col-12 devVidentity4">
                                 <h3 className="visulIdntityshortHedng1">Fonts</h3>
                                 <p className="IdentityPera3">
@@ -61,9 +62,9 @@ class VisualIdentity extends Component {
 
 
 
-                    <div className="col-12 d-block d-xl-none d-lg-none d-md-none">
-                    {data.visualidentityLogo != '' &&  <h3 className="visulIdntityHedng">Visual Identity</h3>}
-                        {data.visualidentityLogo != '' &&  <div className="row">
+                    <div className="col-12 d-block d-xl-none d-lg-none d-md-none"  style={{textAlign:'left'}}>
+                    {data.visualidentityLogo && data.visualidentityLogo != '' &&  <h3 className="visulIdntityHedng">Visual Identity</h3>}
+                        {data.visualidentityLogo && data.visualidentityLogo != '' &&  <div className="row">
                             <div className="col-12 devVidentity">
                                 <h3 className="V-IdentityLogo">Logo</h3>
                                 <p className="IdentityPeraMob">
@@ -74,7 +75,7 @@ class VisualIdentity extends Component {
                                 <img href="#" className="D-logo" src={data.visualidentityLogo[0]} />
                             </div>
                         </div> } 
-                        {data.colorPaletteAllColor != '' && <div className="row">     
+                        {data.colorPaletteAllColor && data.colorPaletteAllColor != '' && <div className="row">     
                             <div className="col-12 devVidentity2">
                                 <h3 className="visulIdntityshortHedng">Color Palette</h3>
                                 <p className="IdentityPeraMob2">
@@ -89,7 +90,7 @@ class VisualIdentity extends Component {
                                 })} 
                             </div>
                         </div>}
-                        {data.fontFamilyText != '' && <div className="row">
+                        {data.fontFamilyText && data.fontFamilyText != '' && <div className="row">
                             <div className="col-12 devVidentity4">
                                 <h3 className="visulIdntityshortHedng1">Fonts</h3>
                                 <p className="IdentityPeraMob2">

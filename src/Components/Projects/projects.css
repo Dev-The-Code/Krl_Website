@@ -1109,6 +1109,12 @@
     background-size:cover;
 }
 
+.tabsBtnProject{
+    background: transparent;
+    border: none;
+    font-family: aleta-bold;
+    font-size: 14px;
+}
 
 /*Freshh css ENd Projects by daniyal*/
 

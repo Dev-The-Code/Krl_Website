@@ -14,25 +14,31 @@ import PreviousButton from '../../Comman/ProjectDetailsButtons/previousButton';
 import ProjectDetailFooter from './ProjectDetailsPanels/DetailsPanelFooter9/projectDetailsFooter';
 import { Tabs } from 'antd';
 
-class ProjectDetailsPage extends Component {
+class DetailAllTabs extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-    //   data: this.props.location.state,
-    data : ''
+      // data: this.props.location.state,
+      data: ''
     }
   }
-  componentWillMount() {
-    console.log(this.state.data,'data in priject tabs file');
-  }
+  // componentWillMount() {
+  //   console.log(this.state.data, 'data in priject tabs file');
+  // }
   componentDidMount() {
-    console.log(this.state.data,'data in priject tabs file');
+    let data = this.props.data;
+    if (data) {
+      this.setState({
+        data: data,
+      })
+    }
   }
 
   render() {
     const { data } = this.state
-    
+
+    // console.log(data, 'data in priject tabs file');
     return (
       <div className="animateFadeIn">
         <DetailPanelTwo data={data} />
@@ -49,4 +55,4 @@ class ProjectDetailsPage extends Component {
   }
 }
 
-export default ProjectDetailsPage;
+export default DetailAllTabs;

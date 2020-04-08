@@ -1180,10 +1180,10 @@ class ServicesPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      development: developmentObj,
-      production: productionObj,
-      design: designObj,
-      marketing: marketObj,
+      development: 'development',
+      production: 'production',
+      design: 'design',
+      marketing: 'marketing',
 
       serviceHeading: 'Services',
       marketHeading: 'Marketing',
