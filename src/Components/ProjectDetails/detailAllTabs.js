@@ -41,13 +41,13 @@ class DetailAllTabs extends Component {
     return (
       <div className="animateFadeIn">
         <VisualIdentity data={data} />
-        {/* <IconSet data={data} /> */}
         <Illustration data={data} />
         <FinalVideosYouTube data={data} />
         <WebSiteVideo data={data} />
         <SomeImages data={data} />
-        <PreviousButton data={data} />
-        <ProjectDetailFooter data={data} />
+        {/* <IconSet data={data} /> */}
+        {/* <PreviousButton data={data} /> */}
+        {/* <ProjectDetailFooter data={data} /> */}
       </div>
     );
   }

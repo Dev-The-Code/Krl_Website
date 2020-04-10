@@ -8,7 +8,7 @@ class ProjectDetailFooter extends Component {
   render() {
 
     return (
-        <div className="animatedup animatedFadeInUp fadeInUp">
+        <div style={{marginTop: '5vmax'}}>
             {/*<Link to={`/contact`} className="changingColor"> */}
                 <div className="row proSeeFotr">
                     <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-2"></div>

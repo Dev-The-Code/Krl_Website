@@ -98,3 +98,71 @@
     letter-spacing: -0.05vmax;
     line-height: 6vw;
 }
+
+.finalHedng{
+    font-family: aleta-bold;
+    font-size: calc(12px + 0.7vmax);
+    margin-top: 5vmax;
+    color: black;
+    text-align: left;
+}
+.devFinal{
+    /* background-color: orange; */
+    height: 42vmax;
+    width: 100%;
+    border-radius: 1vmax;
+    margin-top: 3vmax;
+}
+
+.webHedng{
+    font-family: aleta-bold;
+    font-size: calc(12px + 0.7vmax);
+    margin-top: 7vmax;
+    color: black;
+    text-align: left;
+}
+.videoDemo{ 
+    height: 42vmax; 
+    /* border-radius: 1vmax; */
+    margin-top: 3vmax;
+    width: 100%;
+}
+
+
+.illustrImg1{
+    /* height: 15vmax; */
+    margin-top: 2vmax;
+    width: 100%;
+}
+
+.illustrImgMob1{
+    /* height: 25vh; */
+    margin-top: 2vmax;
+    width: 100%;
+}
+.devIlustration{
+    padding-left: 0vw;
+}
+.IlustrationHedng{
+    font-family: aleta-bold;
+    font-size: calc(12px + 0.7vmax);
+    margin-top: 10vmax;
+    color:black;
+}
+.IlustrationPera{
+    margin-top: 1vmax;
+    font-size: calc(12px + 0.3vw);
+    font-family: aleta-light;
+    color: #adadad;
+    line-height: 2.2vmax;
+    padding-right: 3vw;
+}
+.IlustrationPeraMob{
+    margin-top: 1vmax;
+    padding-right: 3vw;
+    font-size: calc(12px + 0.3vw);
+    font-family: aleta-light;
+    color: #adadad;
+    letter-spacing: -0.05vmax;
+    line-height: 6vw;
+}

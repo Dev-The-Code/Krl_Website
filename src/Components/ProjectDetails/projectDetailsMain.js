@@ -4,7 +4,13 @@ import Header2 from '../Header/header2';
 import PanelDetails from './ProjectDetailsPanels/DetailsPanel1/panelDetails';
 import DetailBanner from './ProjectDetailsPanels/DetailsBannerPanel2/detailsBanner';
 import DetailPanelTwo from './ProjectDetailsPanels/DetailPanel2/detailPanel2';
-import DetailAllTabs from './detailAllTabs';
+import MarketingTab from './ContentTabsProjectDetail/MarketingTab/marketingTab';
+import DevelopmentTab from './ContentTabsProjectDetail/DevelopmentTab/developmentTab';
+import DesignTab from './ContentTabsProjectDetail/DesignTab/designTab';
+import ProductionTab from './ContentTabsProjectDetail/ProductionTab/productionTab';
+import TrainingTab from './ContentTabsProjectDetail/TrainingTab/trainingTabs';
+import ConsultationTab from './ContentTabsProjectDetail/ConsultationTab/consultationTabs';
+import ProjectDetailFooter from './ProjectDetailsPanels/DetailsPanelFooter9/projectDetailsFooter';
 import { Tabs } from 'antd';
 
 class ProjectDetailsPage extends Component {
@@ -37,7 +43,7 @@ class ProjectDetailsPage extends Component {
 
   render() {
     const { headerPath, data } = this.state
-    // console.log("ProjectDetailsPage -> data", data)
+    console.log("ProjectDetailsPage -> data", data)
     const { TabPane } = Tabs;
     return (
       <div className="animateFadeIn">
@@ -48,43 +54,52 @@ class ProjectDetailsPage extends Component {
         <div className="row devChalnge">
           <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <Tabs defaultActiveKey="1" style={{ textAlign: 'center' }}>
-              <TabPane
+              
+              {data.marketing.length != 0 && <TabPane
                 tab={<span>Marketing</span>}
                 key="1"
               >
-                <DetailAllTabs data={data}  />
-              </TabPane>
-              <TabPane
+                <MarketingTab data={data}  />
+              </TabPane>}
+
+              {data.development.length != 0 && <TabPane
                 tab={<span>Development</span>}
                 key="2"
               >
-                <DetailAllTabs data={data} />
-              </TabPane>
-              <TabPane
+                <DevelopmentTab data={data} />
+              </TabPane>}
+
+              {data.design.length != 0 && <TabPane
                 tab={<span>Design</span>}
                 key="3"
               >
-                <DetailAllTabs data={data} />
-              </TabPane>
-              <TabPane
+                <DesignTab data={data} />
+              </TabPane>}
+
+              {data.production.length != 0 && <TabPane
                 tab={<span>Production</span>}
                 key="4"
               >
-                <DetailAllTabs data={data} />
-              </TabPane>
-              <TabPane
+                <ProductionTab data={data} />
+              </TabPane>}
+
+              {data.consultation.length != 0 && <TabPane
                 tab={<span>Consultation</span>}
                 key="5"
               >
-                <DetailAllTabs data={data} />
-              </TabPane>
-              <TabPane
+                <ConsultationTab data={data} />
+              </TabPane>}
+
+              {data.training.length != 0 && <TabPane
                 tab={<span>Training</span>}
                 key="6"
               >
-                <DetailAllTabs data={data} />
-              </TabPane>
+                <TrainingTab data={data} />
+              </TabPane>}
+
             </Tabs>
+
+            <ProjectDetailFooter/>
           </div>
         </div>
       </div>
