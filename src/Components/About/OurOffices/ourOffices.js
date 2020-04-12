@@ -218,24 +218,6 @@ class OurOffices extends Component {
           <div className="col-2"></div>
           </div>
         </div>
-        {/*<div className={this.props.backColor}>
-                <div className="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1"></div>
-                <div className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                    <h4 className={this.props.headTextOff}>Our offices</h4> 
-                    <p className={this.props.decripText}>
-                      We are international digital consultation<br/>
-                      agency. Our offices are spread in Arizona,<br/>
-                      Tuscan and Pakistan </p>
-                </div>
-                
-                  <div className="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 oCvG">
-                  <div className="row">
-                      <OfficesContainer arizonDev={"col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 back_color_arr"} ariHead={ari_head} miniHead={ari_head1} inerHedTxt={ariTime} inerHedTxt2={ariPhone} inerHedTxt3={ariMail} />
-                      <OfficesContainer arizonDev={"col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 back_color_tus"} ariHead={tuscan_head} miniHead={ari_head1} inerHedTxt={ariTime} inerHedTxt2={ariPhone} inerHedTxt3={tuscanMail}/>
-                      <OfficesContainer arizonDev={"col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 back_color_khi"} ariHead={khi_head} miniHead={khi_head1} inerHedTxt={ariTime} inerHedTxt2={khiPhone} inerHedTxt3={khiMail}/>
-                    </div>
-                </div> 
-            </div>*/}
       </div>
 
     );

@@ -413,9 +413,10 @@ class ProjectContainer extends Component {
   render() {
     const { projctBox, projctBox1, projctHedng, hed, hed1, projctChildBox, projctPera, pera, projctPera1, proAeroImg, seeAerro } = this.props;
     // const { projects } = this.state;
-    const { projects } = this.props
+    const { projects , defaultTabOfAllProjects} = this.props
     // console.log("TCL: ProjectContainer -> render -> projects", projects)
     // console.log(this.props.projectStateFromHome , 'this.props.projectStateFromHome')
+    // console.log(defaultTabOfAllProjects,'defaultTabOfAllProjects');
     return (
       <div>
         {/* <div className="row">
@@ -436,7 +437,7 @@ class ProjectContainer extends Component {
                             {elem.desciption.slice(0, 70)}...
                                 </p>
                           <Link rel="noopener noreferrer"
-                            to={{ pathname: `/project`, state: elem }}
+                            to={{ pathname: `/project`, state: elem, }}
                             className="changingdec">
                             <a className="changingdec">
                               <p className="GFApera1">

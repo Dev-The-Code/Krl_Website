@@ -19,6 +19,7 @@ class ProjectDetailsPage extends Component {
     super(props);
     this.state = {
       data: '',
+      defaultTabInDetailPage: '1',
     }
   }
   componentWillMount() {
@@ -31,19 +32,42 @@ class ProjectDetailsPage extends Component {
       routName = routName.charAt(0).toUpperCase() + routName.slice(1);
       this.setState({
         headerPath: routName,
-        data: dataOfProject
       });
     }
-    //  console.log(routName,'sss');
+
+    if (dataOfProject) {
+      console.log(dataOfProject.defaultTab, 'dataOfProject')
+      this.setState({
+        data: dataOfProject
+      });
+      if (dataOfProject.defaultTab == 'marketing') {
+        this.setState({
+          defaultTabInDetailPage: '1'
+        })
+      }
+      else if (dataOfProject.defaultTab == 'development') {
+        this.setState({
+          defaultTabInDetailPage: '2'
+        })
+      }
+      else if (dataOfProject.defaultTab == 'design') {
+        this.setState({
+          defaultTabInDetailPage: '3'
+        })
+      }
+      else if (dataOfProject.defaultTab == 'production') {
+        this.setState({
+          defaultTabInDetailPage: '4'
+        })
+      }
+    }
     window.scrollTo(0, 0)
   }
   componentDidMount() {
-
   }
 
   render() {
-    const { headerPath, data } = this.state
-    console.log("ProjectDetailsPage -> data", data)
+    const { headerPath, data, defaultTabInDetailPage } = this.state
     const { TabPane } = Tabs;
     return (
       <div className="animateFadeIn">
@@ -53,13 +77,13 @@ class ProjectDetailsPage extends Component {
         <DetailPanelTwo data={data} />
         <div className="row devChalnge">
           <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <Tabs defaultActiveKey="1" style={{ textAlign: 'center' }}>
-              
+            <Tabs defaultActiveKey={defaultTabInDetailPage} style={{ textAlign: 'center' }}>
+
               {data.marketing.length != 0 && <TabPane
                 tab={<span>Marketing</span>}
                 key="1"
               >
-                <MarketingTab data={data}  />
+                <MarketingTab data={data} />
               </TabPane>}
 
               {data.development.length != 0 && <TabPane
@@ -99,7 +123,7 @@ class ProjectDetailsPage extends Component {
 
             </Tabs>
 
-            <ProjectDetailFooter/>
+            <ProjectDetailFooter />
           </div>
         </div>
       </div>

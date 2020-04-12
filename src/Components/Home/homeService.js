@@ -11,10 +11,6 @@ class Service extends React.Component {
             response: false
         };
     }
-    // wheelListener = () => {
-    //     window.addEventListener("wheel", this.props.myFun());
-    //     console.log('heloo event');
-    //   }
     openNav = () => {
         this.setState({ response: true });
     }
@@ -24,14 +20,12 @@ class Service extends React.Component {
     componentWillMount() {
         this.setState({ headerPath: 'Home' });
         window.scrollTo(0, 0)
-        // this.wheelListener()
     }
 
     render() {
         const { headerPath } = this.state
         return (
             <div>
-                {/* <Header headerPath={headerPath} /> */}
                 <div className="row">
                     <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
                     <div className="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-12">

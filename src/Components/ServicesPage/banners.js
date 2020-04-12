@@ -16,7 +16,6 @@ class Banners extends Component {
         const { projctPera1, seeAerro, proAeroImg, banrs, devChld, banhedng1, banhedng2, devChild1, devChld2, devChld3, devChldPera, peraChld, banPera, banPera1, devChld1, devChldPera1, hedPera, colrHed, hedPera1, hedPera2, banhedng,
             peraChld1, banPera2, banPera3, peraChld2, BanParagraph, peraDev } = this.props
         const { projectData } = this.state;
-        // console.log("TCL: Banners -> render -> projectData", projectData)
         return (
             <div className="animatedup animatedFadeInUp fadeInUp">
 

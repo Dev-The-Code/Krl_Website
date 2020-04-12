@@ -11,31 +11,13 @@ class Home extends Component {
 
         }
     }
-
-    //  wheelListener = () => {
-    //     window.addEventListener("wheel", this.props.myFun());
-    //     console.log('heloo event');
-    //   }
+    
     componentWillMount() {
         this.setState({ headerPath: 'Home' });
         window.scrollTo(0, 0);
-        // this.wheelListener()
     }
-    // backImagee = () => {
-    //     var movementStrength = 25;
-    //     var height = movementStrength / window.height();
-    //     var width = movementStrength / window.width();
-    //     document.getElementById("#backImge_baner").mousemove(function (e) {
-    //         var pageX = e.pageX - window.width() / 2;
-    //         var pageY = e.pageY - window.height() / 2;
-    //         var newvalueX = width * pageX * -1 - 25;
-    //         var newvalueY = height * pageY * -1 - 50;
-    //         document.getElementById("#backImge_baner").style.backgroundPosition = newvalueX + 'px'      + newvalueY + 'px';
-    //     });
-    // }
     render() {
         const { headerPath } = this.state;
-        // console.log('props >>>', this.props)
         return (
             <div className="backImge_baner animateFadeIn">
                 <Header headerPath={headerPath} headerDesktop="hederSticky" headerMob="hederStickyMob2" />

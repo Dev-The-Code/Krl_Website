@@ -13,14 +13,9 @@ class Clients extends React.Component {
 
         }
     }
-    // wheelListener = () => {
-    //     window.addEventListener("wheel", this.props.myFun());
-    //     console.log('heloo event');
-    //   }
     componentWillMount() {
         this.setState({ headerPath: 'Home' });
         window.scrollTo(0, 0)
-        // this.wheelListener()
     }
 
     render() {

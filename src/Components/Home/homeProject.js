@@ -199,7 +199,7 @@ var aCFRescue = {
         mainHeadsubText: '',
         mainVideos: "",
     },]
-}
+} 
 
 class Project extends React.Component {
     constructor(props) {
@@ -225,10 +225,6 @@ class Project extends React.Component {
             devPeraImg: true,
         }
     }
-    // wheelListener = () => {
-    //     window.addEventListener("wheel", this.props.myFun());
-    //     console.log('heloo event');
-    //   }
     componentWillMount() {
         this.setState({ headerPath: 'Home' });
         window.scrollTo(0, 0)
@@ -352,150 +348,6 @@ class Project extends React.Component {
                     </div>
                     <div className="col-12 col-md-12 col-lg-1 col-xl-1"></div>
                 </div>
-                {/* JIca
-                        <ProjectContainer
-                            projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-11 GFA_BgImg'
-                            projctHedng="GFAhedng"
-                            hed={GFAHeading}
-                            hed1={GFAHeadingBr}
-                            projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
-                            projctPera="GFApera"
-                            seeAerro={devPeraImg}
-                            projctPera1="GFApera1"
-                            pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program for...'
-                            proAeroImg="GFAimg"
-                            projectData={jicaLightF}
-                        />
-                        Acf
-                        <ProjectContainer
-                            projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImg'
-                            projctHedng="Drenthedng"
-                            hed={DrentHeading}
-                            hed1={DrentHeadingBr}
-                            projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
-                            projctPera="GFApera"
-                            locationUrl={"http://drent1.herokuapp.com/"}
-                            seeAerro={devPeraImg}
-                            projctPera1="GFApera1"
-                            pera='Ayesha Chundrigar Foundation, an NGO helping out troubled animals, needed a...'
-                            proAeroImg="GFAimg"
-                            projectData={aCFRescue}
-                        /> */}
-
-
-                {/* ipad visible
-                    <div className="d-none d-md-block d-lg-none d-xl-none col-md-6">
-                        JIca
-                        <ProjectContainer
-                            projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-11 GFA_BgImg'
-                            projctHedng="GFAhedng"
-                            hed={GFAHeading}
-                            hed1={GFAHeadingBr}
-                            projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
-                            projctPera="GFApera"
-                            locationUrl={"https://getfitathletic.pk/"}
-                            seeAerro={devPeraImg}
-                            projctPera1="GFApera1"
-                            pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program for...'
-                            proAeroImg="GFAimg"
-                            projectData={jicaLightF}
-                        />
-                        Acf
-                        <ProjectContainer
-                            projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImg'
-                            projctHedng="Drenthedng"
-                            hed={DrentHeading}
-                            hed1={DrentHeadingBr}
-                            projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChild"
-                            projctPera="GFApera"
-                            locationUrl={"http://drent1.herokuapp.com/"}
-                            seeAerro={devPeraImg}
-                            projctPera1="GFApera1"
-                            pera='Ayesha Chundrigar Foundation, an NGO helping out troubled animals, needed a...'
-                            proAeroImg="GFAimg"
-                            projectData={aCFRescue}
-                        />
-                    </div> */}
-
-                {/* mobile visible
-                    <div className="d-block d-md-none d-lg-none d-xl-none col-11">
-                        JIca
-                        <ProjectContainer
-                            projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 GFA_BgImgHomeMb'
-                            projctHedng="GFAhedng"
-                            hed={GFAHeading}
-                            hed1={GFAHeadingBr}
-                            projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChildMb"
-                            projctPera="GFApera"
-                            locationUrl={"https://getfitathletic.pk/"}
-                            seeAerro={devPeraImg}
-                            projctPera1="GFApera1"
-                            pera='LIGHT-F (started by JICA with Sindh Government) wanted to launch a program for...'
-                            proAeroImg="GFAimg"
-                            projectData={jicaLightF}
-                        />
-                        Acf
-                        <ProjectContainer
-                            projctBox='col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12 DrentBgImgHomeMb'
-                            projctHedng="Drenthedng"
-                            hed={DrentHeading}
-                            hed1={DrentHeadingBr}
-                            projctChildBox="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 bgChildMb"
-                            projctPera="GFApera"
-                            locationUrl={"http://drent1.herokuapp.com/"}
-                            seeAerro={devPeraImg}
-                            projctPera1="GFApera1"
-                            pera='Ayesha Chundrigar Foundation, an NGO helping out troubled animals, needed a...'
-                            proAeroImg="GFAimg"
-                            projectData={aCFRescue}
-                        />
-                    </div> */}
-
-
-
-                {/* mobile, ipad hidden
-                        <ProjectsContainer projctBox='d-none d-sm-none d-md-none d-lg-block dxl-block col-xl-10 col-lg-10 ADB_HomBgImg'
-                            projctHedng="ADBhedngProject"
-                            hed={ADBHeading}
-                            hed1={ADBHeadingBr}
-                            projctChildBox="col-xl-12 col-lg-12 col-md-11 col-sm-11 col-11 ADB_BgChild"
-                            projctPera="ADBpera"
-                            locationUrl={"https://www.amberdazzle.com/"}
-                            seeAerro={devPeraImg}
-                            projctPera1="ADBpera1"
-                            pera='Siddiqsons needed a brochure that could effectively communicate their...'
-                            proAeroImg="ADBimg"
-                            projectData={siddiqSons}
-                        />
-
-                        ipad visible
-                        <ProjectsContainer projctBox='d-none d-md-block d-xl-none d-lg-none col-md-10 ADB_BgImgSmMd'
-                            projctHedng="ADBhedng"
-                            hed={ADBHeading}
-                            hed1={ADBHeadingBr}
-                            projctChildBox="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-11 ADB_BgChildMd"
-                            projctPera="ADBpera"
-                            locationUrl={"https://www.amberdazzle.com/"}
-                            seeAerro={devPeraImg}
-                            projctPera1="ADBpera1"
-                            pera='Siddiqsons needed a brochure that could effectively communicate their new direc...'
-                            proAeroImg="ADBimg"
-                            projectData={siddiqSons}
-                        />
-                        mobile visible
-                        <ProjectsContainer projctBox='d-block d-md-none d-xl-none d-lg-none col-11 ADB_BgImgHomeMb'
-                            projctHedng="ADBhedngHomeMb"
-                            hed={ADBHeading}
-                            hed1={ADBHeadingBr}
-                            projctChildBox="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ADB_BgChildSmMd"
-                            projctPera="ADBpera"
-                            locationUrl={"https://www.amberdazzle.com/"}
-                            seeAerro={devPeraImg}
-                            projctPera1="ADBpera1"
-                            pera='Siddiqsons needed a brochure that could effectively communicate their new direc...'
-                            proAeroImg="ADBimg"
-                            projectData={siddiqSons}
-                        /> */}
             </div>
         );
     }
