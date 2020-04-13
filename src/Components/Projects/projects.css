@@ -264,6 +264,52 @@
         font-family: aleta-bold;
         color: #ffffff;
     } 
+
+    .acfFeatureImgAllOver{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586784389/ACF-banner-mobile_q4lno6.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .oxbridgeFeatureImgMarket{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586784372/Oxbridge-banner-mobile_okldbm.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .siddiqSonFeatureImgDesign{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586784468/Siddiqsons-banner-mobile_cvmjde.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .pakjazbaFeatureImgDevelop{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586784410/PakJazba-banner-mobile_scwrzm.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .jicaFeatureImgProduct{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586784488/JICA-banner-mobile_ozmuzc.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .LightFProject {
@@ -463,6 +509,52 @@
         font-family: aleta-bold;
         color: #ffffff;
     } 
+
+    .acfFeatureImgAllOver{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586784794/acf-banner-ipad_h9pjlh.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .oxbridgeFeatureImgMarket{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586784779/oxbridge-banner-ipad_xuhrjv.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .siddiqSonFeatureImgDesign{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586784844/siddiqsons-banner-ipad_sycvhs.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .pakjazbaFeatureImgDevelop{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586784798/pakJazba-banner-ipad_jgdqf0.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .jicaFeatureImgProduct{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586784837/JICA-banner-ipad_gdhuua.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
 }
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
     .LightFProject {
@@ -662,6 +754,52 @@
         font-family: aleta-bold;
         color: #ffffff;
     }
+
+    .acfFeatureImgAllOver{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785067/ACF-banner-desktop_gkqjfm.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .oxbridgeFeatureImgMarket{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785033/Oxbridge-banner-desktop_kthepm.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .siddiqSonFeatureImgDesign{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785071/Siddiqsons-banner-desktop_ree1kp.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .pakjazbaFeatureImgDevelop{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785140/pakJazba-banner-desktop_vssux6.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .jicaFeatureImgProduct{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785118/JICA-banner-desktop_sjl4np.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
 }
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .LightFProject {
@@ -860,6 +998,52 @@
         font-size: 2.5vmax;
         font-family: aleta-bold;
         color: #ffffff;
+    }
+
+    .acfFeatureImgAllOver{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785067/ACF-banner-desktop_gkqjfm.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .oxbridgeFeatureImgMarket{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785033/Oxbridge-banner-desktop_kthepm.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .siddiqSonFeatureImgDesign{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785071/Siddiqsons-banner-desktop_ree1kp.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .pakjazbaFeatureImgDevelop{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785140/pakJazba-banner-desktop_vssux6.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .jicaFeatureImgProduct{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785118/JICA-banner-desktop_sjl4np.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
     }
 }
 @media only screen and (min-device-width : 1600px){
@@ -1061,53 +1245,55 @@
         font-family: aleta-bold;
         color: #ffffff;
     }
+
+    .acfFeatureImgAllOver{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785067/ACF-banner-desktop_gkqjfm.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .oxbridgeFeatureImgMarket{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785033/Oxbridge-banner-desktop_kthepm.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .siddiqSonFeatureImgDesign{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785071/Siddiqsons-banner-desktop_ree1kp.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .pakjazbaFeatureImgDevelop{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785140/pakJazba-banner-desktop_vssux6.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
+    .jicaFeatureImgProduct{
+        background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586785118/JICA-banner-desktop_sjl4np.jpg");
+        height: 100vh;
+        background-size:100% 100%!important;
+        background-position:0 0!important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size:cover;
+    }
 }
 
-.acfFeatureImgAllOver{
-    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1585287754/ACF_banner_j9autw.png");
-    height: 100vh;
-    background-size:100% 100%!important;
-    background-position:0 0!important;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size:cover;
-}
-.oxbridgeFeatureImgMarket{
-    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1585313104/Oxbridge_banner_ytjycs.png");
-    height: 100vh;
-    background-size:100% 100%!important;
-    background-position:0 0!important;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size:cover;
-}
-.siddiqSonFeatureImgDesign{
-    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1585313152/Siddiqsons_banner_iasoqw.png");
-    height: 100vh;
-    background-size:100% 100%!important;
-    background-position:0 0!important;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size:cover;
-}
-.pakjazbaFeatureImgDevelop{
-    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1585313153/PakJazba_banner_eygvac.png");
-    height: 100vh;
-    background-size:100% 100%!important;
-    background-position:0 0!important;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size:cover;
-}
-.jicaFeatureImgProduct{
-    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1585313160/JICA_banner_hyojlw.png");
-    height: 100vh;
-    background-size:100% 100%!important;
-    background-position:0 0!important;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size:cover;
-}
+
 
 .tabsBtnProject{
     background: transparent;

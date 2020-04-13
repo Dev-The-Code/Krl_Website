@@ -2655,7 +2655,6 @@ class Projects extends React.Component {
 
       <div className="all_backgrundImageAfter animateFadeIn">
         <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
-        <div style={{ paddingTop: '7vw ' }}></div>
 
         {/*Featured banner*/}
         <div className="row">

@@ -162,5 +162,46 @@
     height: 9vmax;
     cursor: pointer;
 }
-
+.styleOfDallas{
+    background-image: url("../../Assets/Images/clientLogo/styleOfDallas-uncolour.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+}
+.styleOfDallas:hover{
+    background-image: url("../../Assets/Images/clientLogo/styleOfDallas.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+    cursor: pointer;
+}
+.selmoreAdvertising{
+    background-image: url("../../Assets/Images/clientLogo/selmore-uncolour.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+}
+.selmoreAdvertising:hover{
+    background-image: url("../../Assets/Images/clientLogo/selmore-colour.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 9vmax;
+    cursor: pointer;
+}
 

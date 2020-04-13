@@ -96,6 +96,32 @@ class SomeOurClients extends Component {
             <div className="col-xl-1 col-lg-1 col-sm-1"></div>
           </div>
 
+          <div className="row" style={{marginLeft: '-2vw'}}>
+            <div className="col-xl-10 col-lg-10  col-sm-10 ">
+              <div className="row">
+                <div className="col-xl-6 col-lg-6 col-sm-6 logos">
+                  <div className="row">
+                    <div className="col-xl-1 col-lg-1 col-sm-1"></div>
+                    <div className="col-xl-10 col-lg-10  col-sm-10  styleOfDallas">
+                      {/* image background */}
+                    </div>
+                    <div className="col-xl-1 col-lg-1 col-sm-1"></div>
+                  </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-sm-6 logos">
+                  <div className="row">
+                    <div className="col-xl-1 col-lg-1 col-sm-1"></div>
+                    <div className="col-xl-10 col-lg-10  col-sm-10  selmoreAdvertising">
+                      {/*image background*/}
+                    </div>
+                    <div className="col-xl-1 col-lg-1 col-sm-1"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-1 col-lg-1 col-sm-1"></div>
+          </div>
+
         </div>
         
         <div className="row sOClients d-none d-md-block d-lg-none">
@@ -128,6 +154,14 @@ class SomeOurClients extends Component {
                   <img className="companiesLogo2" src={require('../../Assets/Images/clientLogo/oxbridge-active.png')} />
                 </div>
             </div>
+            <div className="row" style={{textAlign:'center'}}>
+                <div className="col-md-6">
+                  <img className="companiesLogo2" src={require('../../Assets/Images/clientLogo//styleOfDallas.png')} />
+                </div>
+                <div className="col-md-6">
+                  <img className="companiesLogo2" src={require('../../Assets/Images/clientLogo/selmore-colour.png')} />
+                </div>
+            </div>
         </div>
         
         <div className="d-block d-sm-none">
@@ -153,6 +187,14 @@ class SomeOurClients extends Component {
                 </div>
                 <div className="col-6">
                   <img className="companiesLogo2" src={require('../../Assets/Images/clientLogo/oxbridge-active.png')} />
+                </div>
+            </div>
+            <div className="row">
+            <div className="col-6">
+                  <img className="companiesLogo2" src={require('../../Assets/Images/clientLogo//styleOfDallas.png')} />
+                </div>
+                <div className="col-6">
+                  <img className="companiesLogo2" src={require('../../Assets/Images/clientLogo/selmore-colour.png')} />
                 </div>
             </div>
         </div>
