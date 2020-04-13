@@ -26,9 +26,9 @@ class Routes extends React.Component {
   }
 
   componentDidMount() {
-    // setTimeout(function () {
-    //   this.setState({ SplashScreen: Home });
-    // }.bind(this), 4500);
+    setTimeout(function () {
+      this.setState({ SplashScreen: Home });
+    }.bind(this), 4500);
   }
 
   render() {
