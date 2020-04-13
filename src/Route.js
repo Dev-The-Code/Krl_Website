@@ -21,23 +21,23 @@ class Routes extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      firstScreen: Splash,
+      SplashScreen: Splash,
     }
   }
 
   componentDidMount() {
-    setTimeout(function () {
-      this.setState({ firstScreen: Home });
-    }.bind(this), 4500);
+    // setTimeout(function () {
+    //   this.setState({ SplashScreen: Home });
+    // }.bind(this), 4500);
   }
 
   render() {
-    const { firstScreen  } = this.state
+    const { SplashScreen  } = this.state
     return (
       <div className='App'>
         <BrowserRouter>
           <Switch>
-            <Route exact path="/" component={firstScreen} />
+            <Route exact path="/" component={SplashScreen} />
             {/* <Route path='*' component={FourZeroFour} /> */}
             <Route path="/about" component={About} />
             <Route path="/blog Detail" component={BlogDetail} />

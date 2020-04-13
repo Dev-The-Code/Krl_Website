@@ -103,10 +103,11 @@
     list-style: none;
     position: absolute;
     text-align: center;
+    margin-left: 6vw;
   }
   .fly-in-text li {
     display: inline-block;
-    margin-right: 17px;
+    margin-right: 8px;
     font-family: aleta-light;
     font-size: 4vw;
     font-weight: 800;
@@ -122,7 +123,7 @@
   }
   .fly-nameTwo li {
     display: inline-block;
-    margin-right: 17px;
+    margin-right: 8px;
     font-family: aleta-light;
     font-size: 4vw;
     font-weight: 800;
@@ -134,11 +135,11 @@
     list-style: none;
     position: absolute;
     text-align: center;
-    margin-left: -9vw;
+    margin-left: -5vw;
   }
   .fly-Name li {
     display: inline-block;
-    margin-right: 12px;
+    margin-right: 8px;
     font-family: aleta-light;
     font-size: 4vw;
     color: white;
@@ -157,7 +158,7 @@
   }
   .fly-in-text li {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 25px;
     font-family: aleta-light;
     font-size: 2vw;
     font-weight: 800;
@@ -168,13 +169,13 @@
   .fly-Name{
     list-style: none;
     position: absolute;
-    left:-3%;
+    left:-2%;
     top: 50%;
     text-align: center;
   }
   .fly-Name li {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 25px;
     font-family: aleta-light;
     font-size: 2vw;
     color: white;
@@ -193,7 +194,7 @@
   }
   .fly-in-text li {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 29px;
     font-family: aleta-light;
     font-size: 1.7vw;
     font-weight: 800;
@@ -210,7 +211,7 @@
   }
   .fly-Name li {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 29px;
     font-family: aleta-light;
     font-size: 1.7vw;
     color: white;
