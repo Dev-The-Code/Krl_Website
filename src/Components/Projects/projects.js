@@ -16,7 +16,7 @@ var Allprojects = [
   {
     name: 'LIGHT-F Project By JICA & Sindh Gvt',
     desciption: 'LIGHT-F (founded by JICA in association with the Sindh Government) aimed to launch a program working towards the welfare of rural women in interior Sindh. They were in need of a brand identity and approached KRL. ',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579610272/cover_vjziro.jpg'],
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586850185/cover-min_chq6br.jpg'],
     frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 LightFProject',
     ourRole: 'KRL Creatives designed a visual representation for their brand, thus giving them a brand identity by creating various materials such as letterheads, certificates and brand guidelines. In addition, our design and production teams worked together to create their product catalogue.',
     technologyUsed: '',
@@ -79,7 +79,7 @@ var Allprojects = [
   {
     name: 'Siddiqsons Limited Brochure',
     desciption: 'Siddiqsons Limited, the pioneer of the denim industry in Pakistan, was in need of a magazine to effectively communicate their strategic direction to begin environmentally friendly denim manufacturing and production.',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687373/cover_h7qavr.jpg'],
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586850138/Siddiqsons-min_vbeqf3.png'],
     ourRole: 'KRL Creatives was responsible for the creative direction and design execution of this campaign. We were behind the creative and visual strategies that went into the production of the videos and magazine that were to communicate the story and success of the denim giant.',
     frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 SiddiqSonsProject',
     technologyUsed: '',
@@ -238,12 +238,12 @@ var Allprojects = [
           {
             illustrationText: 'Mobile App Screens',
             illustrationSubText: 'Our designers worked together with the client to come up with an application experience that covers all business activities under one roof. Thus, it would serve to help increase sales and revenues.',
-            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/009_-_Invoices-01_knb8is.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/004_-_Add_calories-01_xo8v1h.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/006_-_Reports-01_gga7ad.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/001_-_Login-01_fttfgy.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872063/019_-_Packages-02_akz0u5.jpg',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872063/003_-_Homescreen_-_User_20-05-02_lkiyos.png'],
+            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851011/2_q8jzms.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/18_zejyql.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851011/6_vxdopp.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/10_m9ama1.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/13_jypxe5.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/4_nivwyf.jpg'],
           },
         ],
       }
@@ -381,9 +381,9 @@ var Allprojects = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579705289/close1_fatnwz.png',
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579705290/Paper_Bag_Mock-Up_Set_01_farfen.png',
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579705304/close2_e0wtca.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872349/Stickers-09_lh59no.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872349/Standee-02_wxvzd8.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872349/Circle_Banner-01_oamajd.png',],
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586849884/Shield_1_gp2xxz.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586849897/Standee_reqtuf.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586849869/banner_wtexjn.png',],
           },
         ],
       }
@@ -456,7 +456,7 @@ var Allprojects = [
   {
     name: 'Ziyarat Branding Website',
     desciption: 'Ziyarat, a Pakistani designer-wear retail brand was in need of a logo for their launch in the UK. In addition, they required an ecommerce website which would help the brand sell online. ',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579706873/artem-beliaikin-9Jr9hUzRVhc-unsplash_wao7xo.jpg'],
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586850126/artem-beliaikin-9Jr9hUzRVhc-unsplash-min_m72rxs.jpg'],
     frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 ZiyaratProject',
     ourRole: 'We were responsible for coming up with a logo which would represent their luxury line up and serve as a strong face for the brand. ',
     technologyUsed: '',
@@ -650,8 +650,59 @@ var Allprojects = [
         ]
       }
     ],
-    design: [],
-    marketing: [],
+    design: [
+      {
+        visualidentityLogo: [''],
+        visualidentityLogoText: '',
+        colorpaletteText: '',
+        colorPaletteAllColor: [''],
+        fontText: '',
+        fontFamilyText: [''],
+        fontFamily: [''],
+      },
+      {
+        documentHeading: '',
+        documentDemo: [''],
+      },
+      {
+        demoHeading: '',
+        demoVideo: [''],
+      },
+      {
+        illustration: [
+          {
+            illustrationText: 'Social Media posts',
+            illustrationSubText: 'We designed social media posts for Amber Dazzles Instagram and Facebook marketing',
+            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/Liquid_Foundation_zowxzz.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
+          },
+        ],
+      }
+    ],
+    marketing: [
+      {
+        mainVideoPanel: [
+          {
+            mainHead: '',
+            mainHeadsubText: '',
+            mainVideos: "",
+          }
+        ],
+      }
+    ],
     consultation: [],
     production: [],
     training: [],
@@ -703,12 +754,12 @@ var marketing = [
           {
             illustrationText: 'Mobile App Screens',
             illustrationSubText: 'Our designers worked together with the client to come up with an application experience that covers all business activities under one roof. Thus, it would serve to help increase sales and revenues.',
-            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/009_-_Invoices-01_knb8is.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/004_-_Add_calories-01_xo8v1h.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/006_-_Reports-01_gga7ad.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/001_-_Login-01_fttfgy.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872063/019_-_Packages-02_akz0u5.jpg',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872063/003_-_Homescreen_-_User_20-05-02_lkiyos.png'],
+            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851011/2_q8jzms.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/18_zejyql.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851011/6_vxdopp.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/10_m9ama1.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/13_jypxe5.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/4_nivwyf.jpg'],
           },
         ],
       }
@@ -728,17 +779,7 @@ var marketing = [
         ],
       }
     ],
-    marketing: [
-      {
-        mainVideoPanel: [
-          {
-            mainHead: '',
-            mainHeadsubText: '',
-            mainVideos: "",
-          }
-        ],
-      }
-    ],
+    marketing: [],
     production: [],
     consultation: [],
     training: [],
@@ -754,7 +795,7 @@ var marketing = [
   {
     name: 'LIGHT-F Project By JICA & Sindh Gvt',
     desciption: 'LIGHT-F (founded by JICA in association with the Sindh Government) aimed to launch a program working towards the welfare of rural women in interior Sindh. They were in need of a brand identity and approached KRL. ',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579610272/cover_vjziro.jpg'],
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586850185/cover-min_chq6br.jpg'],
     frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 LightFProject',
     ourRole: 'KRL Creatives designed a visual representation for their brand, thus giving them a brand identity by creating various materials such as letterheads, certificates and brand guidelines. In addition, our design and production teams worked together to create their product catalogue.',
     technologyUsed: '',
@@ -802,17 +843,7 @@ var marketing = [
         ],
       }
     ],
-    marketing: [
-      {
-        mainVideoPanel: [
-          {
-            mainHead: '',
-            mainHeadsubText: '',
-            mainVideos: "",
-          }
-        ],
-      }
-    ],
+    marketing: [],
     development: [],
     consultation: [],
     training: [],
@@ -985,7 +1016,48 @@ var marketing = [
         ]
       }
     ],
-    design: [],
+    design: [
+      {
+        visualidentityLogo: [''],
+        visualidentityLogoText: '',
+        colorpaletteText: '',
+        colorPaletteAllColor: [''],
+        fontText: '',
+        fontFamilyText: [''],
+        fontFamily: [''],
+      },
+      {
+        documentHeading: '',
+        documentDemo: [''],
+      },
+      {
+        demoHeading: '',
+        demoVideo: [''],
+      },
+      {
+        illustration: [
+          {
+            illustrationText: 'Social Media posts',
+            illustrationSubText: 'We designed social media posts for Amber Dazzles Instagram and Facebook marketing',
+            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/Liquid_Foundation_zowxzz.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
+          },
+        ],
+      }
+    ],
     marketing: [
       {
         mainVideoPanel: [
@@ -1120,12 +1192,12 @@ var development = [
           {
             illustrationText: 'Mobile App Screens',
             illustrationSubText: 'Our designers worked together with the client to come up with an application experience that covers all business activities under one roof. Thus, it would serve to help increase sales and revenues.',
-            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/009_-_Invoices-01_knb8is.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/004_-_Add_calories-01_xo8v1h.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/006_-_Reports-01_gga7ad.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/001_-_Login-01_fttfgy.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872063/019_-_Packages-02_akz0u5.jpg',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872063/003_-_Homescreen_-_User_20-05-02_lkiyos.png'],
+            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851011/2_q8jzms.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/18_zejyql.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851011/6_vxdopp.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/10_m9ama1.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/13_jypxe5.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/4_nivwyf.jpg'],
           },
         ],
       }
@@ -1287,7 +1359,7 @@ var development = [
   {
     name: 'Ziyarat Branding Website',
     desciption: 'Ziyarat, a Pakistani designer-wear retail brand was in need of a logo for their launch in the UK. In addition, they required an ecommerce website which would help the brand sell online. ',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579706873/artem-beliaikin-9Jr9hUzRVhc-unsplash_wao7xo.jpg'],
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586850126/artem-beliaikin-9Jr9hUzRVhc-unsplash-min_m72rxs.jpg'],
     frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 ZiyaratProject',
     ourRole: 'We were responsible for coming up with a logo which would represent their luxury line up and serve as a strong face for the brand. ',
     technologyUsed: '',
@@ -1484,7 +1556,48 @@ var development = [
         ]
       }
     ],
-    design: [],
+    design: [
+      {
+        visualidentityLogo: [''],
+        visualidentityLogoText: '',
+        colorpaletteText: '',
+        colorPaletteAllColor: [''],
+        fontText: '',
+        fontFamilyText: [''],
+        fontFamily: [''],
+      },
+      {
+        documentHeading: '',
+        documentDemo: [''],
+      },
+      {
+        demoHeading: '',
+        demoVideo: [''],
+      },
+      {
+        illustration: [
+          {
+            illustrationText: 'Social Media posts',
+            illustrationSubText: 'We designed social media posts for Amber Dazzles Instagram and Facebook marketing',
+            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/Liquid_Foundation_zowxzz.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
+          },
+        ],
+      }
+    ],
     marketing: [],
     consultation: [],
     production: [],
@@ -1511,7 +1624,7 @@ var design = [
   {
     name: 'Siddiqsons Limited Brochure',
     desciption: 'Siddiqsons Limited, the pioneer of the denim industry in Pakistan, was in need of a magazine to effectively communicate their strategic direction to begin environmentally friendly denim manufacturing and production.',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687373/cover_h7qavr.jpg'],
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586850138/Siddiqsons-min_vbeqf3.png'],
     ourRole: 'KRL Creatives was responsible for the creative direction and design execution of this campaign. We were behind the creative and visual strategies that went into the production of the videos and magazine that were to communicate the story and success of the denim giant.',
     frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 SiddiqSonsProject',
     technologyUsed: '',
@@ -1574,7 +1687,7 @@ var design = [
   {
     name: 'LIGHT-F Project By JICA & Sindh Gvt',
     desciption: 'LIGHT-F (founded by JICA in association with the Sindh Government) aimed to launch a program working towards the welfare of rural women in interior Sindh. They were in need of a brand identity and approached KRL. ',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579610272/cover_vjziro.jpg'],
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586850185/cover-min_chq6br.jpg'],
     frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 LightFProject',
     ourRole: 'KRL Creatives designed a visual representation for their brand, thus giving them a brand identity by creating various materials such as letterheads, certificates and brand guidelines. In addition, our design and production teams worked together to create their product catalogue.',
     technologyUsed: '',
@@ -1736,12 +1849,12 @@ var design = [
           {
             illustrationText: 'Mobile App Screens',
             illustrationSubText: 'Our designers worked together with the client to come up with an application experience that covers all business activities under one roof. Thus, it would serve to help increase sales and revenues.',
-            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/009_-_Invoices-01_knb8is.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/004_-_Add_calories-01_xo8v1h.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/006_-_Reports-01_gga7ad.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872062/001_-_Login-01_fttfgy.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872063/019_-_Packages-02_akz0u5.jpg',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872063/003_-_Homescreen_-_User_20-05-02_lkiyos.png'],
+            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851011/2_q8jzms.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/18_zejyql.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851011/6_vxdopp.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/10_m9ama1.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/13_jypxe5.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/4_nivwyf.jpg'],
           },
         ],
       }
@@ -1881,9 +1994,9 @@ var design = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579705289/close1_fatnwz.png',
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579705290/Paper_Bag_Mock-Up_Set_01_farfen.png',
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579705304/close2_e0wtca.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872349/Stickers-09_lh59no.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872349/Standee-02_wxvzd8.png',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579872349/Circle_Banner-01_oamajd.png',],
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586849884/Shield_1_gp2xxz.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586849897/Standee_reqtuf.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586849869/banner_wtexjn.png',],
           },
         ],
       }
@@ -1985,7 +2098,7 @@ var design = [
   {
     name: 'Ziyarat Branding Website',
     desciption: 'Ziyarat, a Pakistani designer-wear retail brand was in need of a logo for their launch in the UK. In addition, they required an ecommerce website which would help the brand sell online. ',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579706873/artem-beliaikin-9Jr9hUzRVhc-unsplash_wao7xo.jpg'],
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586850126/artem-beliaikin-9Jr9hUzRVhc-unsplash-min_m72rxs.jpg'],
     frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 ZiyaratProject',
     ourRole: 'We were responsible for coming up with a logo which would represent their luxury line up and serve as a strong face for the brand. ',
     technologyUsed: '',
@@ -2173,9 +2286,23 @@ var design = [
       {
         illustration: [
           {
-            illustrationText: '',
-            illustrationSubText: '',
-            illustrationImages: [''],
+            illustrationText: 'Social Media posts',
+            illustrationSubText: 'We designed social media posts for Amber Dazzles Instagram and Facebook marketing',
+            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/Liquid_Foundation_zowxzz.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
           },
         ],
       }
@@ -2276,7 +2403,7 @@ var production = [
   {
     name: 'Siddiqsons Limited Brochure',
     desciption: 'Siddiqsons Limited, the pioneer of the denim industry in Pakistan, was in need of a magazine to effectively communicate their strategic direction to begin environmentally friendly denim manufacturing and production.',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687373/cover_h7qavr.jpg'],
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586850138/Siddiqsons-min_vbeqf3.png'],
     ourRole: 'KRL Creatives was responsible for the creative direction and design execution of this campaign. We were behind the creative and visual strategies that went into the production of the videos and magazine that were to communicate the story and success of the denim giant.',
     frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 SiddiqSonsProject',
     technologyUsed: '',
@@ -2339,7 +2466,7 @@ var production = [
   {
     name: 'LIGHT-F Project By JICA & Sindh Gvt',
     desciption: 'LIGHT-F (founded by JICA in association with the Sindh Government) aimed to launch a program working towards the welfare of rural women in interior Sindh. They were in need of a brand identity and approached KRL. ',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579610272/cover_vjziro.jpg'],
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586850185/cover-min_chq6br.jpg'],
     frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 LightFProject',
     ourRole: 'KRL Creatives designed a visual representation for their brand, thus giving them a brand identity by creating various materials such as letterheads, certificates and brand guidelines. In addition, our design and production teams worked together to create their product catalogue.',
     technologyUsed: '',
@@ -2490,7 +2617,48 @@ var production = [
         ]
       }
     ],
-    design: [],
+    design: [
+      {
+        visualidentityLogo: [''],
+        visualidentityLogoText: '',
+        colorpaletteText: '',
+        colorPaletteAllColor: [''],
+        fontText: '',
+        fontFamilyText: [''],
+        fontFamily: [''],
+      },
+      {
+        documentHeading: '',
+        documentDemo: [''],
+      },
+      {
+        demoHeading: '',
+        demoVideo: [''],
+      },
+      {
+        illustration: [
+          {
+            illustrationText: 'Social Media posts',
+            illustrationSubText: 'We designed social media posts for Amber Dazzles Instagram and Facebook marketing',
+            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/Liquid_Foundation_zowxzz.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
+          },
+        ],
+      }
+    ],
     marketing: [],
     consultation: [],
     production: [
@@ -2523,6 +2691,7 @@ var production = [
     }]
   },
 ]
+
 class Projects extends React.Component {
 
   constructor(props) {

@@ -882,15 +882,7 @@
     font-family: aleta-bold;
 }
 
-.productionImageMb {
-    background-image: url(../../Assets/Images/production-min.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 3vw;
-    width: 84vw;
-    height: 19vh;
-    position: absolute;
-}
+
 .develpPeraMb {
     font-size: calc(12px + 0.3vw);
     color: #adadad;
@@ -939,8 +931,17 @@
     height: 23.1vw;
     margin-bottom: 4vw;
 }
+.productionImageMb {
+    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586849496/paul-gaudriault-cwy9yVBBPxg-unsplash-min_iztplb.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vw;
+    width: 84vw;
+    height: 19vh;
+    position: absolute;
+}
 .productionImageSm{
-    background-image: url(../../Assets/Images/production-min.jpg);
+    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586849496/paul-gaudriault-cwy9yVBBPxg-unsplash-min_iztplb.png");
     background-size: cover;
     background-position: bottom;
     border-radius: 1vw;
@@ -949,7 +950,7 @@
     position: absolute;
 }
 .productionImage{
-    background-image: url(../../Assets/Images/production-min.jpg);
+    background-image: url("https://res.cloudinary.com/dxk0bmtei/image/upload/v1586849496/paul-gaudriault-cwy9yVBBPxg-unsplash-min_iztplb.png");
     background-size: contain;
     /* background-position: center; */
     border-radius: 1vw;

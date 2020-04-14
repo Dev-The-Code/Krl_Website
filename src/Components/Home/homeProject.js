@@ -70,7 +70,7 @@ var siddiqSons = {
 var jicaLightF = {
     name: 'LIGHT-F Project By JICA & Sindh Gvt',
     desciption: 'LIGHT-F (founded by JICA in association with the Sindh Government) aimed to launch a program working towards the welfare of rural women in interior Sindh. They were in need of a brand identity and approached KRL. ',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579610272/cover_vjziro.jpg'],
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586850185/cover-min_chq6br.jpg'],
     frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 LightFProject',
     ourRole: 'KRL Creatives designed a visual representation for their brand, thus giving them a brand identity by creating various materials such as letterheads, certificates and brand guidelines. In addition, our design and production teams worked together to create their product catalogue.',
     technologyUsed: '',
@@ -199,7 +199,7 @@ var aCFRescue = {
         mainHeadsubText: '',
         mainVideos: "",
     },]
-} 
+}
 
 class Project extends React.Component {
     constructor(props) {
