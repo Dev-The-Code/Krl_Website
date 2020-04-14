@@ -11,7 +11,6 @@ import 'antd/dist/antd.css';
 import VisualIdentity from '../ProjectDetails/ProjectDetailsPanels/Detailspanel3/visualIdentity';
 
 
-
 var Allprojects = [
   {
     name: 'LIGHT-F Project By JICA & Sindh Gvt',
@@ -46,7 +45,12 @@ var Allprojects = [
             illustrationImages: [''],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: 'Final Product Catalog',
+        pdfPanelSubText: 'This is the final product catalog that JICA used for selling creators stock.',
+        pdfPanelFile: 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586862220/Catalogue_Bright_Print_compressed_mlrqxp.pdf',
+      },
     ],
     production: [
       {
@@ -110,7 +114,12 @@ var Allprojects = [
             illustrationImages: [''],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: 'Final Magazine',
+        pdfPanelSubText: 'This is the final design of the magazine that Siddiqsons Ltd used for their marketing.',
+        pdfPanelFile: 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586862241/Siddiqsons_Magazines_c64how.pdf',
+      },
     ],
     production: [
       {
@@ -177,7 +186,12 @@ var Allprojects = [
             ],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     development: [
       {
@@ -246,7 +260,12 @@ var Allprojects = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/4_nivwyf.jpg'],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     development: [
       {
@@ -386,7 +405,12 @@ var Allprojects = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586849869/banner_wtexjn.png',],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     consultation: ['consultation'],
     marketing: [],
@@ -486,7 +510,12 @@ var Allprojects = [
             illustrationImages: [''],
           },
         ]
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     development: [
       {
@@ -690,7 +719,12 @@ var Allprojects = [
             'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     marketing: [
       {
@@ -762,7 +796,12 @@ var marketing = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/4_nivwyf.jpg'],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     development: [
       {
@@ -825,7 +864,12 @@ var marketing = [
             illustrationImages: [''],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: 'Final Product Catalog',
+        pdfPanelSubText: 'This is the final product catalog that JICA used for selling creators stock.',
+        pdfPanelFile: 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586862220/Catalogue_Bright_Print_compressed_mlrqxp.pdf',
+      },
     ],
     production: [
       {
@@ -1056,7 +1100,12 @@ var marketing = [
             'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     marketing: [
       {
@@ -1130,7 +1179,12 @@ var development = [
             ],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     development: [
       {
@@ -1200,7 +1254,12 @@ var development = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/4_nivwyf.jpg'],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     development: [
       {
@@ -1389,7 +1448,12 @@ var development = [
             illustrationImages: [''],
           },
         ]
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     development: [
       {
@@ -1596,7 +1660,12 @@ var development = [
             'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     marketing: [],
     consultation: [],
@@ -1655,7 +1724,12 @@ var design = [
             illustrationImages: [''],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: 'Final Magazine',
+        pdfPanelSubText: 'This is the final design of the magazine that Siddiqsons Ltd used for their marketing.',
+        pdfPanelFile: 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586862241/Siddiqsons_Magazines_c64how.pdf',
+      },
     ],
     production: [
       {
@@ -1717,7 +1791,12 @@ var design = [
             illustrationImages: [''],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: 'Final Product Catalog',
+        pdfPanelSubText: 'This is the final product catalog that JICA used for selling creators stock.',
+        pdfPanelFile: 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586862220/Catalogue_Bright_Print_compressed_mlrqxp.pdf',
+      },
     ],
     production: [
       {
@@ -1787,7 +1866,12 @@ var design = [
             ],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     development: [
       {
@@ -1857,7 +1941,12 @@ var design = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586851012/4_nivwyf.jpg'],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     development: [
       {
@@ -1999,7 +2088,12 @@ var design = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586849869/banner_wtexjn.png',],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     consultation: ['consultation'],
     marketing: [],
@@ -2046,7 +2140,12 @@ var design = [
             illustrationImages: [''],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     development: [
       {
@@ -2128,7 +2227,12 @@ var design = [
             illustrationImages: [''],
           },
         ]
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     development: [
       {
@@ -2219,7 +2323,12 @@ var design = [
             illustrationImages: [''],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     consultation: [],
     production: [],
@@ -2305,7 +2414,12 @@ var design = [
             'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     marketing: [],
     consultation: [],
@@ -2434,7 +2548,12 @@ var production = [
             illustrationImages: [''],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: 'Final Magazine',
+        pdfPanelSubText: 'This is the final design of the magazine that Siddiqsons Ltd used for their marketing.',
+        pdfPanelFile: 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586862241/Siddiqsons_Magazines_c64how.pdf',
+      },
     ],
     production: [
       {
@@ -2496,7 +2615,12 @@ var production = [
             illustrationImages: [''],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: 'Final Product Catalog',
+        pdfPanelSubText: 'This is the final product catalog that JICA used for selling creators stock.',
+        pdfPanelFile: 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586862220/Catalogue_Bright_Print_compressed_mlrqxp.pdf',
+      },
     ],
     production: [
       {
@@ -2657,7 +2781,12 @@ var production = [
             'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
           },
         ],
-      }
+      },
+      {
+        pdfPanelHeading: '',
+        pdfPanelSubText: '',
+        pdfPanelFile: '',
+      },
     ],
     marketing: [],
     consultation: [],
@@ -2691,6 +2820,7 @@ var production = [
     }]
   },
 ]
+
 
 class Projects extends React.Component {
 

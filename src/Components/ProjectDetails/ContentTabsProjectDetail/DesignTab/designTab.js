@@ -153,6 +153,27 @@ class DesignTab extends Component {
                     </div>
                 </div>}
 
+                {/*PdfPanel*/}
+                {data.design && data.design[4].pdfPanelHeading != '' && <div>
+                    <div className="row">
+                        <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+                        <div className="col-xl-10 col-lg-10 col-md-10 col-12" style={{ textAlign: 'left' }}>
+                            <div className="row" style={{ marginTop: '4vmax' }}>
+                                <div className="col-xl-4 col-lg-4 col-md-4 col-12" style={{ paddingLeft: '0vw' }}>
+                                    <h3 className="sumShortHedngDesign">{data.design[4].pdfPanelHeading}</h3>
+                                    <p className="sumPeraDesign">
+                                        {data.design[4].pdfPanelSubText}
+                                    </p>
+                                </div>
+                                <div className="col-xl-8 col-lg-8 col-md-8 col-12">
+                                    <iframe src={data.design[4].pdfPanelFile} alt="PDF" className="mainDemoDesign"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+                    </div>
+                </div>}
+
                 {/*demo Heading*/}
                 {data.design && data.design[2].demoHeading != '' && <div>
                     <div className="row">
@@ -182,7 +203,7 @@ class DesignTab extends Component {
                         )
                     })}
                 </div>}
-                
+
                 {/*illustration*/}
                 {data.design && data.design[3].illustration[0].illustrationText != '' && <div>
                     {data.design[3].illustration.map((elem, key) => {
