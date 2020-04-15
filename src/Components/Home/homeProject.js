@@ -8,7 +8,7 @@ import ProjectContainer from '../../Comman/ProjectContainer/projectContainer';
 var siddiqSons = {
     name: 'Siddiqsons Limited Brochure',
     desciption: 'Siddiqsons Limited, the pioneer of the denim industry in Pakistan, was in need of a magazine to effectively communicate their strategic direction to begin environmentally friendly denim manufacturing and production.',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687373/cover_h7qavr.jpg'],
+    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586850138/Siddiqsons-min_vbeqf3.png'],
     ourRole: 'KRL Creatives was responsible for the creative direction and design execution of this campaign. We were behind the creative and visual strategies that went into the production of the videos and magazine that were to communicate the story and success of the denim giant.',
     frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 SiddiqSonsProject',
     technologyUsed: '',
@@ -39,7 +39,12 @@ var siddiqSons = {
                     illustrationImages: [''],
                 },
             ],
-        }
+        },
+        {
+            pdfPanelHeading: 'Final Magazine',
+            pdfPanelSubText: 'This is the final design of the magazine that Siddiqsons Ltd used for their marketing.',
+            pdfPanelFile: 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586862241/Siddiqsons_Magazines_c64how.pdf',
+        },
     ],
     production: [
         {
@@ -54,6 +59,15 @@ var siddiqSons = {
                         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687830/15_-_Ozone_Machine_ddgl3d.jpg',
                         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687847/8_-_single_side_laser_vrkktf.jpg'],
                 },
+            ],
+        },
+        {
+            mainVideoPanel: [
+                {
+                    mainHead: '',
+                    mainHeadsubText: '',
+                    mainVideos: "",
+                }
             ],
         }
     ],
@@ -86,7 +100,7 @@ var jicaLightF = {
         },
         {
             documentHeading: 'Letterhead & Business Card',
-            documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864122/jica-identity_ulopt4.jpg'],
+            documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586949529/Perspective_Business_Cards_MockUp_2-min_awooti.png'],
         },
         {
             demoHeading: '',
@@ -100,7 +114,12 @@ var jicaLightF = {
                     illustrationImages: [''],
                 },
             ],
-        }
+        },
+        {
+            pdfPanelHeading: 'Final Product Catalog',
+            pdfPanelSubText: 'This is the final product catalog that JICA used for selling creators stock.',
+            pdfPanelFile: 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586862220/Catalogue_Bright_Print_compressed_mlrqxp.pdf',
+        },
     ],
     production: [
         {
@@ -115,6 +134,20 @@ var jicaLightF = {
                         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866847/ajrak_uiktyt.jpg',
                         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866469/long_pen_holder_xeqle4.jpg'],
                 }
+            ],
+        },
+        {
+            mainVideoPanel: [
+                {
+                    mainHead: 'Video Production',
+                    mainHeadsubText: 'we recorded video interviews in rural Sindh for the social media of JICA',
+                    mainVideos: "https://www.youtube.com/embed/G7EFYUhVieQ",
+                },
+                {
+                    mainHead: 'Video Production',
+                    mainHeadsubText: 'we recorded video interviews in rural Sindh for the social media of JICA',
+                    mainVideos: "https://www.youtube.com/embed/qGvrDh7RvZ0",
+                },
             ],
         }
     ],
@@ -177,6 +210,15 @@ var aCFRescue = {
                         'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700760/IMG_0938_hf3txp.jpg'
                     ],
                 },
+            ],
+        },
+        {
+            mainVideoPanel: [
+                {
+                    mainHead: '',
+                    mainHeadsubText: '',
+                    mainVideos: "",
+                }
             ],
         }
     ],

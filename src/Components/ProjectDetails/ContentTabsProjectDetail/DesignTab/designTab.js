@@ -187,11 +187,11 @@ class DesignTab extends Component {
                         return (
 
                             <div className="row">
-                                <div className="col-xl-1 col-lg-1 col-md-1 col-1"></div>
-                                <div className="col-xl-10 col-lg-10 col-md-10 col-10">
+                                <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+                                <div className="col-xl-10 col-lg-10 col-md-10 col-12">
                                     <iframe src={elem} alt="PDF" className="videoDemo"></iframe>
                                 </div>
-                                <div className="col-xl-1 col-lg-1 col-md-1 col-1"></div>
+                                <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
                             </div>
 
                         )

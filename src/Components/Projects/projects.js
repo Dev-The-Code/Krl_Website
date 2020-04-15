@@ -184,7 +184,7 @@ var oxbridgeProject = {
         {
           mainHead: 'Marketing & Video',
           mainHeadsubText: 'KRL Creatives’ marketing department consults with Oxbridge to help strengthen their brand and further identify the correct target audience. Additionally, we also continue to shoot their video podcasts for their website and various social media platforms.',
-          mainVideos: "https://res.cloudinary.com/dxk0bmtei/video/upload/v1579780552/oxbridge_3_tips_fy9sd2.mp4",
+          mainVideos: "https://www.youtube.com/embed/ogX3xoOsQMQ",
         }
       ],
     }
@@ -192,9 +192,7 @@ var oxbridgeProject = {
   development: [
     {
       demoHeading: 'Final Website Video',
-      demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707232/1_srkudb.mp4',
-        'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707223/2_c2iriy.mp4',
-      ],
+      demoVideo: ['https://www.youtube.com/embed/C8w7rkZPwDI'],
     },
     {
       illustration: [
@@ -239,11 +237,7 @@ var pakJazbaProject = {
   development: [
     {
       demoHeading: 'Final Portal Videos',
-      demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703973/03_dg5fcg.mp4',
-        'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703984/04_exnwk9.mp4',
-        'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703993/02_qyajzu.mp4',
-        'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579704003/01_bn99ch.mp4'
-      ],
+      demoVideo: ['https://www.youtube.com/embed/vZNtnuolVSs'],
     },
     {
       illustration: [
@@ -567,7 +561,7 @@ var Allprojects = [
     development: [
       {
         demoHeading: 'Drent Final Website',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698351/1_vqvncd.mp4'],
+        demoVideo: ['https://www.youtube.com/embed/a-eQz-6qzDY'],
       },
       {
         illustration: [
@@ -792,7 +786,7 @@ var Allprojects = [
         pdfPanelFile: '',
       },
     ],
-    consultation: ['consultation'],
+    consultation: [],
     marketing: [],
     development: [],
     production: [],
@@ -814,11 +808,7 @@ var Allprojects = [
     development: [
       {
         demoHeading: 'Final Portal Videos',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703973/03_dg5fcg.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703984/04_exnwk9.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703993/02_qyajzu.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579704003/01_bn99ch.mp4'
-        ],
+        demoVideo: ['https://www.youtube.com/embed/vZNtnuolVSs'],
       },
       {
         illustration: [
@@ -900,9 +890,7 @@ var Allprojects = [
     development: [
       {
         demoHeading: 'Final Website Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706642/1_jtphb8.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706651/2_zch1v6.mp4'
-        ],
+        demoVideo: ['https://www.youtube.com/embed/OGaI30UIO8Y'],
       },
       {
         illustration: [
@@ -945,9 +933,7 @@ var Allprojects = [
     development: [
       {
         demoHeading: 'Final Website Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707232/1_srkudb.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707223/2_c2iriy.mp4',
-        ],
+        demoVideo: ['https://www.youtube.com/embed/C8w7rkZPwDI'],
       },
       {
         illustration: [
@@ -1047,7 +1033,7 @@ var Allprojects = [
     development: [
       {
         demoHeading: 'Final Website Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703499/01_dbtzfq.mp4', 'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703523/02_iyiama.mp4'],
+        demoVideo: ['https://www.youtube.com/embed/qzvg__FSI7c'],
       },
       {
         illustration: [
@@ -1106,17 +1092,7 @@ var Allprojects = [
         pdfPanelFile: '',
       },
     ],
-    marketing: [
-      {
-        mainVideoPanel: [
-          {
-            mainHead: '',
-            mainHeadsubText: '',
-            mainVideos: "",
-          }
-        ],
-      }
-    ],
+    marketing: [],
     consultation: [],
     production: [],
     training: [],
@@ -1404,9 +1380,7 @@ var marketing = [
     development: [
       {
         demoHeading: 'Final Website Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707232/1_srkudb.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707223/2_c2iriy.mp4',
-        ],
+        demoVideo: ['https://www.youtube.com/embed/C8w7rkZPwDI'],
       },
       {
         illustration: [
@@ -1451,7 +1425,7 @@ var marketing = [
     development: [
       {
         demoHeading: 'Final Website Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703499/01_dbtzfq.mp4', 'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703523/02_iyiama.mp4'],
+        demoVideo: ['https://www.youtube.com/embed/qzvg__FSI7c'],
       },
       {
         illustration: [
@@ -1510,17 +1484,7 @@ var marketing = [
         pdfPanelFile: '',
       },
     ],
-    marketing: [
-      {
-        mainVideoPanel: [
-          {
-            mainHead: '',
-            mainHeadsubText: '',
-            mainVideos: "",
-          }
-        ],
-      }
-    ],
+    marketing: [],
     consultation: [],
     production: [],
     training: [],
@@ -1592,7 +1556,7 @@ var development = [
     development: [
       {
         demoHeading: 'Drent Final Website',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698351/1_vqvncd.mp4'],
+        demoVideo: ['https://www.youtube.com/embed/a-eQz-6qzDY'],
       },
       {
         illustration: [
@@ -1783,11 +1747,7 @@ var development = [
     development: [
       {
         demoHeading: 'Final Portal Videos',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703973/03_dg5fcg.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703984/04_exnwk9.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703993/02_qyajzu.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579704003/01_bn99ch.mp4'
-        ],
+        demoVideo: ['https://www.youtube.com/embed/vZNtnuolVSs'],
       },
       {
         illustration: [
@@ -1870,9 +1830,7 @@ var development = [
     development: [
       {
         demoHeading: 'Final Website Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706642/1_jtphb8.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706651/2_zch1v6.mp4'
-        ],
+        demoVideo: ['https://www.youtube.com/embed/OGaI30UIO8Y'],
       },
       {
         illustration: [
@@ -1916,9 +1874,7 @@ var development = [
     development: [
       {
         demoHeading: 'Final Website Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707232/1_srkudb.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707223/2_c2iriy.mp4',
-        ],
+        demoVideo: ['https://www.youtube.com/embed/C8w7rkZPwDI'],
       },
       {
         illustration: [
@@ -2020,7 +1976,7 @@ var development = [
     development: [
       {
         demoHeading: 'Final Website Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703499/01_dbtzfq.mp4', 'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703523/02_iyiama.mp4'],
+        demoVideo: ['https://www.youtube.com/embed/qzvg__FSI7c'],
       },
       {
         illustration: [
@@ -2311,7 +2267,7 @@ var design = [
     development: [
       {
         demoHeading: 'Drent Final Website',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698351/1_vqvncd.mp4'],
+        demoVideo: ['https://www.youtube.com/embed/a-eQz-6qzDY'],
       },
       {
         illustration: [
@@ -2539,7 +2495,7 @@ var design = [
         pdfPanelFile: '',
       },
     ],
-    consultation: ['consultation'],
+    consultation: [],
     marketing: [],
     development: [],
     production: [],
@@ -2558,47 +2514,11 @@ var design = [
     frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 PakJazbaProject',
     ourRole: 'KRL Creatives designed and developed this portal and maintain it to manage bug fixes and performance improvements.',
     technologyUsed: 'This portal is developed using latest technologies such as React.Js for front-end and Node.Js for back-end. Due to the vast variety of data on this portal, we chose to use Amazon for server and database deployment. ',
-    design: [
-      {
-        visualidentityLogo: [''],
-        visualidentityLogoText: '',
-        colorpaletteText: '',
-        colorPaletteAllColor: [''],
-        fontText: '',
-        fontFamilyText: [''],
-        fontFamily: [''],
-      },
-      {
-        documentHeading: '',
-        documentDemo: [''],
-      },
-      {
-        demoHeading: '',
-        demoVideo: [''],
-      },
-      {
-        illustration: [
-          {
-            illustrationText: '',
-            illustrationSubText: '',
-            illustrationImages: [''],
-          },
-        ],
-      },
-      {
-        pdfPanelHeading: '',
-        pdfPanelSubText: '',
-        pdfPanelFile: '',
-      },
-    ],
+    design: [],
     development: [
       {
         demoHeading: 'Final Portal Videos',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703973/03_dg5fcg.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703984/04_exnwk9.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703993/02_qyajzu.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579704003/01_bn99ch.mp4'
-        ],
+        demoVideo: ['https://www.youtube.com/embed/vZNtnuolVSs'],
       },
       {
         illustration: [
@@ -2681,9 +2601,7 @@ var design = [
     development: [
       {
         demoHeading: 'Final Website Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706642/1_jtphb8.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579706651/2_zch1v6.mp4'
-        ],
+        demoVideo: ['https://www.youtube.com/embed/OGaI30UIO8Y'],
       },
       {
         illustration: [
@@ -2716,7 +2634,7 @@ var design = [
     development: [
       {
         demoHeading: 'Final Website Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703499/01_dbtzfq.mp4', 'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703523/02_iyiama.mp4'],
+        demoVideo: ['https://www.youtube.com/embed/qzvg__FSI7c'],
       },
       {
         illustration: [
@@ -3058,9 +2976,7 @@ var production = [
     development: [
       {
         demoHeading: 'Final Website Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707232/1_srkudb.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707223/2_c2iriy.mp4',
-        ],
+        demoVideo: ['https://www.youtube.com/embed/C8w7rkZPwDI'],
       },
       {
         illustration: [
@@ -3124,7 +3040,7 @@ var production = [
     development: [
       {
         demoHeading: 'Final Website Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703499/01_dbtzfq.mp4', 'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703523/02_iyiama.mp4'],
+        demoVideo: ['https://www.youtube.com/embed/qzvg__FSI7c'],
       },
       {
         illustration: [
@@ -3185,26 +3101,7 @@ var production = [
     ],
     marketing: [],
     consultation: [],
-    production: [
-      {
-        illustration: [
-          {
-            illustrationText: '',
-            illustrationSubText: '',
-            illustrationImages: [''],
-          }
-        ],
-      },
-      {
-        mainVideoPanel: [
-          {
-            mainHead: '',
-            mainHeadsubText: '',
-            mainVideos: "",
-          }
-        ],
-      }
-    ],
+    production: [],
     training: [],
     visualidentityLogo: [''],
     visualidentityLogoText: '',

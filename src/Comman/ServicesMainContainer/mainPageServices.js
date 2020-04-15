@@ -102,7 +102,8 @@ class MainServices extends Component {
                     
 
                     <div className={marketMobBox1}>{/* "marketChildDevMob2" */}
-                    <Link rel="noopener noreferrer" to={`/project`}  className="changingdec">
+                    <Link rel="noopener noreferrer" 
+                    to={{ pathname: `/projects`, state: {projectObj} }}   className="changingdec">
                       <a href={this.props.locationUrl} className="changingdec" target='_blank'>
                         {PeraAerroImg ? <p className={peraAeroImg}>
                           View Project 
