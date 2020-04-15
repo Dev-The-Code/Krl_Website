@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './productionTab.css'
 import { Link } from 'react-router-dom';
 
 class ProductionTab extends Component {
@@ -85,7 +86,31 @@ class ProductionTab extends Component {
 
           </div>}
         </div>}
-      
+
+        {/*mainVideo*/}
+        {data.production && data.production[1].mainVideoPanel[0].mainHead != '' && <div className="animatedup animatedFadeInUp fadeInUp">
+          {data.production[1].mainVideoPanel.map((elem, key) => {
+            return (
+              <div className="row">
+                <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+                <div className="col-xl-10 col-lg-10 col-md-10 col-12" style={{ textAlign: 'left' }}>
+                  <div className="row" style={{ marginTop: '4vmax' }}>
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-12" style={{ paddingLeft: '0vw' }}>
+                      <h3 className="sumShortHedngpro">{elem.mainHead}</h3>
+                      <p className="sumPerapro">
+                        {elem.mainHeadsubText}
+                      </p>
+                    </div>
+                    {elem.mainVideos != '' && <div className="col-xl-8 col-lg-8 col-md-8 col-12">
+                      <iframe src={elem.mainVideos} alt="Project Video" className="mainDemoImgpro"></iframe>
+                    </div>}
+                  </div>
+                </div>
+                <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
+              </div>
+            )
+          })}
+        </div>}
       </div>
     );
   }

@@ -10,6 +10,354 @@ import './projects.css';
 import 'antd/dist/antd.css';
 import VisualIdentity from '../ProjectDetails/ProjectDetailsPanels/Detailspanel3/visualIdentity';
 
+var jicaProject = {
+  name: 'LIGHT-F Project By JICA & Sindh Gvt',
+  desciption: 'LIGHT-F (founded by JICA in association with the Sindh Government) aimed to launch a program working towards the welfare of rural women in interior Sindh. They were in need of a brand identity and approached KRL. ',
+  coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586850185/cover-min_chq6br.jpg'],
+  frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 LightFProject',
+  ourRole: 'KRL Creatives designed a visual representation for their brand, thus giving them a brand identity by creating various materials such as letterheads, certificates and brand guidelines. In addition, our design and production teams worked together to create their product catalogue.',
+  technologyUsed: '',
+  design: [
+    {
+      visualidentityLogo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579610909/light-f-logo_lpqdtl.png'],
+      visualidentityLogoText: 'The LIGHT-F logo is a word mark. It incorporates a torch facing upwards which symbolises life, truth and the regenerative quality of a flame.',
+      colorpaletteText: 'Purple was chosen to depict ambition and bringing about change. The complementary orange demonstrates the energy of the brand. ',
+      colorPaletteAllColor: ['#662D91', '#F58441', '#912F6C', '#FFC907', '#CCAED3',],
+      fontText: 'The font chosen for LIGHT-F has a clean look which shows the openness and maturity of the brand. ',
+      fontFamilyText: ['Nunito Sans'],
+      fontFamily: ['Nunito Sans'],
+    },
+    {
+      documentHeading: 'Letterhead & Business Card',
+      documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586949529/Perspective_Business_Cards_MockUp_2-min_awooti.png'],
+    },
+    {
+      demoHeading: '',
+      demoVideo: [''],
+    },
+    {
+      illustration: [
+        {
+          illustrationText: '',
+          illustrationSubText: '',
+          illustrationImages: [''],
+        },
+      ],
+    },
+    {
+      pdfPanelHeading: 'Final Product Catalog',
+      pdfPanelSubText: 'This is the final product catalog that JICA used for selling creators stock.',
+      pdfPanelFile: 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586862220/Catalogue_Bright_Print_compressed_mlrqxp.pdf',
+    },
+  ],
+  production: [
+    {
+      illustration: [
+        {
+          illustrationText: 'Product Photography',
+          illustrationSubText: 'Product photography for the LIGHT-F handcrafted gift catalogue.',
+          illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866846/coin_pouch_2_kxpins.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866846/elephant_keychain_ys90go.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866846/long_pen_holder_fxj97k.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866846/big_asharfi_small_g9qkyx.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866847/ajrak_uiktyt.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866469/long_pen_holder_xeqle4.jpg'],
+        }
+      ],
+    },
+    {
+      mainVideoPanel: [
+        {
+          mainHead: 'Video Production',
+          mainHeadsubText: 'we recorded video interviews in rural Sindh for the social media of JICA',
+          mainVideos: "https://www.youtube.com/embed/G7EFYUhVieQ",
+        },
+        {
+          mainHead: 'Video Production',
+          mainHeadsubText: 'we recorded video interviews in rural Sindh for the social media of JICA',
+          mainVideos: "https://www.youtube.com/embed/qGvrDh7RvZ0",
+        },
+      ],
+    }
+  ],
+  marketing: [],
+  development: [],
+  consultation: [],
+  training: [],
+  mainVideoPanel: [
+    {
+      mainHead: '',
+      mainHeadsubText: '',
+      mainVideos: "",
+    }
+  ]
+}
+var acfProject = {
+  name: 'ACF Animal Rescue Website',
+  desciption: 'Ayesha Chundrigar Foundation, an NGO coming to the aid of troubled animals, needed a website for their cause as well as photography that would help move their audience and motivate them to join in on their cause. They were in need of a mobile application that would help collect the data of rescued animals in areas where internet connectivity was unavailable. ',
+  coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864118/acf-cover-img_srzfhp.jpg'],
+  frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 ACFProject',
+  ourRole: 'We were responsible for coming up with the right kind of design for the website that would connect emotionally to their viewers. KRL Creatives was behind the lens for ACF’s website photography. ',
+  technologyUsed: 'The website was built using Wordpress. For the Android mobile application, we used Ant.design, React.JS, Redux-Saga and Firebase to develop a system that could store data offline and then upload it to ACF’s server once an internet connection was available.',
+  development: [
+    {
+      demoHeading: 'Final Website Videos',
+      demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698702/1_hsmghk.mp4',
+        'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698708/3_qr4mto.mp4'],
+    },
+    {
+      illustration: [
+        {
+          illustrationText: 'Data Collection Application',
+          illustrationSubText: 'The data collection application being used by an ACF worker on site.',
+          illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579699563/img_8152_p3wsuj.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579699574/img_8150_kdyq2a.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579699581/img_8160_rrdzzo.jpg',
+          ],
+        },
+      ],
+    },
+  ],
+  production: [
+    {
+      illustration: [
+        {
+          illustrationText: 'Photography',
+          illustrationSubText: 'We made sure to capture raw and genuine emotions through our photography to help captivate the ACF audience. ',
+          illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701227/IMG_4397_tde6ds.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701229/IMG_9056_jzjlou.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701613/IMG_9159_cdmznr.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701604/IMG_9165_ly5g7n.jpg'
+          ],
+        },
+        {
+          illustrationText: 'Product Photography',
+          illustrationSubText: 'Our product photography highlighted the colourful new line of environmentally friendly leashes being produced by ACF. ',
+          illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700752/IMG_1002_jckxdg.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700752/IMG_0984_ihidlo.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700753/IMG_1014_sf8ej9.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700760/IMG_0938_hf3txp.jpg'
+          ],
+        },
+      ],
+    },
+    {
+      mainVideoPanel: [
+        {
+          mainHead: '',
+          mainHeadsubText: '',
+          mainVideos: "",
+        }
+      ],
+    }
+  ],
+  marketing: [],
+  design: [],
+  consultation: [],
+  training: [],
+  visualidentityLogo: [''],
+  visualidentityLogoText: '',
+  colorpaletteText: '',
+  colorPaletteAllColor: ['',],
+  fontText: '',
+  fontFamilyText: [''],
+  fontFamily: [''],
+  documentHeading: '',
+  documentDemo: ['',
+  ],
+  mainVideoPanel: [{
+    mainHead: '',
+    mainHeadsubText: '',
+    mainVideos: "",
+  },]
+}
+var oxbridgeProject = {
+  name: 'Oxbridge Video Website',
+  desciption: 'Oxbridge, an English training startup, had an innovative approach to training and educational centres. They contacted KRL Creatives to design and develop their website.',
+  coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579707315/waldemar-brandt-U3Ptj3jafX8-unsplash_osnp6q.jpg'],
+  frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 OxbridgeProject',
+  ourRole: 'We were responsible for coming up with a website design that would communicate their innovative approach effectively and could help connect their customers to the young brand.',
+  technologyUsed: '',
+  marketing: [
+    {
+      mainVideoPanel: [
+        {
+          mainHead: 'Marketing & Video',
+          mainHeadsubText: 'KRL Creatives’ marketing department consults with Oxbridge to help strengthen their brand and further identify the correct target audience. Additionally, we also continue to shoot their video podcasts for their website and various social media platforms.',
+          mainVideos: "https://res.cloudinary.com/dxk0bmtei/video/upload/v1579780552/oxbridge_3_tips_fy9sd2.mp4",
+        }
+      ],
+    }
+  ],
+  development: [
+    {
+      demoHeading: 'Final Website Video',
+      demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707232/1_srkudb.mp4',
+        'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707223/2_c2iriy.mp4',
+      ],
+    },
+    {
+      illustration: [
+        {
+          illustrationText: '',
+          illustrationSubText: '',
+          illustrationImages: [''],
+        },
+      ],
+    }
+  ],
+  design: [],
+  consultation: [],
+  production: [],
+  training: [],
+  visualidentityLogo: [''],
+  visualidentityLogoText: '',
+  colorpaletteText: '',
+  colorPaletteAllColor: [''],
+  fontText: '',
+  fontFamilyText: [''],
+  fontFamily: [''],
+  illustration: [
+    {
+      illustrationText: '',
+      illustrationSubText: '',
+      illustrationImages: [''],
+    },
+  ],
+  documentHeading: '',
+  documentDemo: ['',
+  ],
+}
+var pakJazbaProject = {
+  name: 'Pakjazba Online Portal System',
+  desciption: 'PakJazba is a one-stop portal, created for overseas Pakistanis, that allows users to buy and sell goods, book rooms, find jobs and much more. ',
+  coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579704937/pawel-nolbert-4u2U8EO9OzY-unsplash_jhrdz9.jpg'],
+  frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 PakJazbaProject',
+  ourRole: 'KRL Creatives designed and developed this portal and maintain it to manage bug fixes and performance improvements.',
+  technologyUsed: 'This portal is developed using latest technologies such as React.Js for front-end and Node.Js for back-end. Due to the vast variety of data on this portal, we chose to use Amazon for server and database deployment. ',
+  design: [],
+  development: [
+    {
+      demoHeading: 'Final Portal Videos',
+      demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703973/03_dg5fcg.mp4',
+        'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703984/04_exnwk9.mp4',
+        'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579703993/02_qyajzu.mp4',
+        'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579704003/01_bn99ch.mp4'
+      ],
+    },
+    {
+      illustration: [
+        {
+          illustrationText: '',
+          illustrationSubText: '',
+          illustrationImages: ['']
+        },
+      ],
+    }
+  ],
+  marketing: [],
+  consultation: [],
+  production: [],
+  training: [],
+  visualidentityLogo: [''],
+  visualidentityLogoText: '',
+  colorpaletteText: '',
+  colorPaletteAllColor: [''],
+  fontText: '',
+  fontFamilyText: [''],
+  fontFamily: [''],
+  illustration: [
+    {
+      illustrationText: '',
+      illustrationSubText: '',
+      illustrationImages: ['']
+    },
+  ],
+  documentHeading: '',
+  documentDemo: ['',
+  ],
+  mainVideoPanel: [{
+    mainHead: '',
+    mainHeadsubText: '',
+    mainVideos: "",
+  },]
+}
+var siddiqSonProject = {
+  name: 'Siddiqsons Limited Brochure',
+  desciption: 'Siddiqsons Limited, the pioneer of the denim industry in Pakistan, was in need of a magazine to effectively communicate their strategic direction to begin environmentally friendly denim manufacturing and production.',
+  coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586850138/Siddiqsons-min_vbeqf3.png'],
+  ourRole: 'KRL Creatives was responsible for the creative direction and design execution of this campaign. We were behind the creative and visual strategies that went into the production of the videos and magazine that were to communicate the story and success of the denim giant.',
+  frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 SiddiqSonsProject',
+  technologyUsed: '',
+  design: [
+    {
+      visualidentityLogo: [''],
+      visualidentityLogoText: '',
+      colorpaletteText: '',
+      colorPaletteAllColor: [''],
+      fontText: '',
+      fontFamilyText: [''],
+      fontFamily: [''],
+    },
+    {
+      documentHeading: 'Brochure Design',
+      documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864122/iteration_2_a_abk0ic.jpg',
+      ],
+    },
+    {
+      demoHeading: 'Final Printed Brochure',
+      demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579702459/VID2_nmkc9u.mp4'],
+    },
+    {
+      illustration: [
+        {
+          illustrationText: '',
+          illustrationSubText: '',
+          illustrationImages: [''],
+        },
+      ],
+    },
+    {
+      pdfPanelHeading: 'Final Magazine',
+      pdfPanelSubText: 'This is the final design of the magazine that Siddiqsons Ltd used for their marketing.',
+      pdfPanelFile: 'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586862241/Siddiqsons_Magazines_c64how.pdf',
+    },
+  ],
+  production: [
+    {
+      illustration: [
+        {
+          illustrationText: 'Photography',
+          illustrationSubText: 'Our team played around with various light sources whilst covering Siddiqsons’ new infrastructure, machinery and manufacturing processes. We made sure to highlight the innovative processes to bring forward their message of sustainability.',
+          illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687745/2_-pathway_plhjlc.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687782/10_-_washing_axkjqd.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687815/18_-_quality_assurance_eusdgz.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687823/6_-_two_side_laser_uueepf.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687830/15_-_Ozone_Machine_ddgl3d.jpg',
+            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687847/8_-_single_side_laser_vrkktf.jpg'],
+        },
+      ],
+    },
+    {
+      mainVideoPanel: [
+        {
+          mainHead: '',
+          mainHeadsubText: '',
+          mainVideos: "",
+        }
+      ],
+    }
+  ],
+  marketing: [],
+  development: [],
+  consultation: [],
+  training: [],
+  mainVideoPanel: [{
+    mainHead: '',
+    mainHeadsubText: '',
+    mainVideos: "",
+  }]
+}
 
 var Allprojects = [
   {
@@ -31,7 +379,7 @@ var Allprojects = [
       },
       {
         documentHeading: 'Letterhead & Business Card',
-        documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864122/jica-identity_ulopt4.jpg'],
+        documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586949529/Perspective_Business_Cards_MockUp_2-min_awooti.png'],
       },
       {
         demoHeading: '',
@@ -65,6 +413,20 @@ var Allprojects = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866847/ajrak_uiktyt.jpg',
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866469/long_pen_holder_xeqle4.jpg'],
           }
+        ],
+      },
+      {
+        mainVideoPanel: [
+          {
+            mainHead: 'Video Production',
+            mainHeadsubText: 'we recorded video interviews in rural Sindh for the social media of JICA',
+            mainVideos: "https://www.youtube.com/embed/G7EFYUhVieQ",
+          },
+          {
+            mainHead: 'Video Production',
+            mainHeadsubText: 'we recorded video interviews in rural Sindh for the social media of JICA',
+            mainVideos: "https://www.youtube.com/embed/qGvrDh7RvZ0",
+          },
         ],
       }
     ],
@@ -134,6 +496,15 @@ var Allprojects = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687830/15_-_Ozone_Machine_ddgl3d.jpg',
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687847/8_-_single_side_laser_vrkktf.jpg'],
           },
+        ],
+      },
+      {
+        mainVideoPanel: [
+          {
+            mainHead: '',
+            mainHeadsubText: '',
+            mainVideos: "",
+          }
         ],
       }
     ],
@@ -270,7 +641,7 @@ var Allprojects = [
     development: [
       {
         demoHeading: 'Final Application Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579695940/VID1_kg8xfj.mp4'],
+        demoVideo: ['https://www.youtube.com/embed/r1_C6PiVIws'],
       },
       {
         illustration: [
@@ -341,6 +712,15 @@ var Allprojects = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700760/IMG_0938_hf3txp.jpg'
             ],
           },
+        ],
+      },
+      {
+        mainVideoPanel: [
+          {
+            mainHead: '',
+            mainHeadsubText: '',
+            mainVideos: "",
+          }
         ],
       }
     ],
@@ -557,7 +937,7 @@ var Allprojects = [
           {
             mainHead: 'Marketing & Video',
             mainHeadsubText: 'KRL Creatives’ marketing department consults with Oxbridge to help strengthen their brand and further identify the correct target audience. Additionally, we also continue to shoot their video podcasts for their website and various social media platforms.',
-            mainVideos: "https://res.cloudinary.com/dxk0bmtei/video/upload/v1579780552/oxbridge_3_tips_fy9sd2.mp4",
+            mainVideos: "https://www.youtube.com/embed/ogX3xoOsQMQ",
           }
         ],
       }
@@ -703,20 +1083,20 @@ var Allprojects = [
             illustrationText: 'Social Media posts',
             illustrationSubText: 'We designed social media posts for Amber Dazzles Instagram and Facebook marketing',
             illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/Liquid_Foundation_zowxzz.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
           },
         ],
       },
@@ -806,7 +1186,7 @@ var marketing = [
     development: [
       {
         demoHeading: 'Final Application Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579695940/VID1_kg8xfj.mp4'],
+        demoVideo: ['https://www.youtube.com/embed/r1_C6PiVIws'],
       },
       {
         illustration: [
@@ -850,7 +1230,7 @@ var marketing = [
       },
       {
         documentHeading: 'Letterhead & Business Card',
-        documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864122/jica-identity_ulopt4.jpg'],
+        documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586949529/Perspective_Business_Cards_MockUp_2-min_awooti.png'],
       },
       {
         demoHeading: '',
@@ -884,6 +1264,20 @@ var marketing = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866847/ajrak_uiktyt.jpg',
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866469/long_pen_holder_xeqle4.jpg'],
           }
+        ],
+      },
+      {
+        mainVideoPanel: [
+          {
+            mainHead: 'Video Production',
+            mainHeadsubText: 'we recorded video interviews in rural Sindh for the social media of JICA',
+            mainVideos: "https://www.youtube.com/embed/G7EFYUhVieQ",
+          },
+          {
+            mainHead: 'Video Production',
+            mainHeadsubText: 'we recorded video interviews in rural Sindh for the social media of JICA',
+            mainVideos: "https://www.youtube.com/embed/qGvrDh7RvZ0",
+          },
         ],
       }
     ],
@@ -948,6 +1342,15 @@ var marketing = [
             ],
           },
         ],
+      },
+      {
+        mainVideoPanel: [
+          {
+            mainHead: '',
+            mainHeadsubText: '',
+            mainVideos: "",
+          }
+        ],
       }
     ],
     marketing: [
@@ -993,7 +1396,7 @@ var marketing = [
           {
             mainHead: 'Marketing & Video',
             mainHeadsubText: 'KRL Creatives’ marketing department consults with Oxbridge to help strengthen their brand and further identify the correct target audience. Additionally, we also continue to shoot their video podcasts for their website and various social media platforms.',
-            mainVideos: "https://res.cloudinary.com/dxk0bmtei/video/upload/v1579780552/oxbridge_3_tips_fy9sd2.mp4",
+            mainVideos: "https://www.youtube.com/embed/ogX3xoOsQMQ",
           }
         ],
       }
@@ -1084,20 +1487,20 @@ var marketing = [
             illustrationText: 'Social Media posts',
             illustrationSubText: 'We designed social media posts for Amber Dazzles Instagram and Facebook marketing',
             illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/Liquid_Foundation_zowxzz.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
           },
         ],
       },
@@ -1264,7 +1667,7 @@ var development = [
     development: [
       {
         demoHeading: 'Final Application Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579695940/VID1_kg8xfj.mp4'],
+        demoVideo: ['https://www.youtube.com/embed/r1_C6PiVIws'],
       },
       {
         illustration: [
@@ -1336,6 +1739,15 @@ var development = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700760/IMG_0938_hf3txp.jpg'
             ],
           },
+        ],
+      },
+      {
+        mainVideoPanel: [
+          {
+            mainHead: '',
+            mainHeadsubText: '',
+            mainVideos: "",
+          }
         ],
       }
     ],
@@ -1496,7 +1908,7 @@ var development = [
           {
             mainHead: 'Marketing & Video',
             mainHeadsubText: 'KRL Creatives’ marketing department consults with Oxbridge to help strengthen their brand and further identify the correct target audience. Additionally, we also continue to shoot their video podcasts for their website and various social media platforms.',
-            mainVideos: "https://res.cloudinary.com/dxk0bmtei/video/upload/v1579780552/oxbridge_3_tips_fy9sd2.mp4",
+            mainVideos: "https://www.youtube.com/embed/ogX3xoOsQMQ",
           }
         ],
       }
@@ -1644,20 +2056,20 @@ var development = [
             illustrationText: 'Social Media posts',
             illustrationSubText: 'We designed social media posts for Amber Dazzles Instagram and Facebook marketing',
             illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/Liquid_Foundation_zowxzz.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
           },
         ],
       },
@@ -1745,6 +2157,15 @@ var design = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687847/8_-_single_side_laser_vrkktf.jpg'],
           },
         ],
+      },
+      {
+        mainVideoPanel: [
+          {
+            mainHead: '',
+            mainHeadsubText: '',
+            mainVideos: "",
+          }
+        ],
       }
     ],
     marketing: [],
@@ -1777,7 +2198,7 @@ var design = [
       },
       {
         documentHeading: 'Letterhead & Business Card',
-        documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864122/jica-identity_ulopt4.jpg'],
+        documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586949529/Perspective_Business_Cards_MockUp_2-min_awooti.png'],
       },
       {
         demoHeading: '',
@@ -1811,6 +2232,20 @@ var design = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866847/ajrak_uiktyt.jpg',
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866469/long_pen_holder_xeqle4.jpg'],
           }
+        ],
+      },
+      {
+        mainVideoPanel: [
+          {
+            mainHead: 'Video Production',
+            mainHeadsubText: 'we recorded video interviews in rural Sindh for the social media of JICA',
+            mainVideos: "https://www.youtube.com/embed/G7EFYUhVieQ",
+          },
+          {
+            mainHead: 'Video Production',
+            mainHeadsubText: 'we recorded video interviews in rural Sindh for the social media of JICA',
+            mainVideos: "https://www.youtube.com/embed/qGvrDh7RvZ0",
+          },
         ],
       }
     ],
@@ -1951,7 +2386,7 @@ var design = [
     development: [
       {
         demoHeading: 'Final Application Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579695940/VID1_kg8xfj.mp4'],
+        demoVideo: ['https://www.youtube.com/embed/r1_C6PiVIws'],
       },
       {
         illustration: [
@@ -2023,6 +2458,15 @@ var design = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700760/IMG_0938_hf3txp.jpg'
             ],
           },
+        ],
+      },
+      {
+        mainVideoPanel: [
+          {
+            mainHead: '',
+            mainHeadsubText: '',
+            mainVideos: "",
+          }
         ],
       }
     ],
@@ -2263,96 +2707,6 @@ var design = [
     },]
   },
   {
-    name: 'Oxbridge Video Website',
-    desciption: 'Oxbridge, an English training startup, had an innovative approach to training and educational centres. They contacted KRL Creatives to design and develop their website.',
-    coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579707315/waldemar-brandt-U3Ptj3jafX8-unsplash_osnp6q.jpg'],
-    frontImg: 'col-12 col-md-12 col-xl-11 col-lg-11 OxbridgeProject',
-    ourRole: 'We were responsible for coming up with a website design that would communicate their innovative approach effectively and could help connect their customers to the young brand.',
-    technologyUsed: '',
-    marketing: [
-      {
-        mainVideoPanel: [
-          {
-            mainHead: 'Marketing & Video',
-            mainHeadsubText: 'KRL Creatives’ marketing department consults with Oxbridge to help strengthen their brand and further identify the correct target audience. Additionally, we also continue to shoot their video podcasts for their website and various social media platforms.',
-            mainVideos: "https://res.cloudinary.com/dxk0bmtei/video/upload/v1579780552/oxbridge_3_tips_fy9sd2.mp4",
-          }
-        ],
-      }
-    ],
-    development: [
-      {
-        demoHeading: 'Final Website Video',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707232/1_srkudb.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579707223/2_c2iriy.mp4',
-        ],
-      },
-      {
-        illustration: [
-          {
-            illustrationText: '',
-            illustrationSubText: '',
-            illustrationImages: [''],
-          },
-        ],
-      }
-    ],
-    design: [
-      {
-        visualidentityLogo: [''],
-        visualidentityLogoText: '',
-        colorpaletteText: '',
-        colorPaletteAllColor: [''],
-        fontText: '',
-        fontFamilyText: [''],
-        fontFamily: [''],
-      },
-      {
-        documentHeading: '',
-        documentDemo: [''],
-      },
-      {
-        demoHeading: '',
-        demoVideo: [''],
-      },
-      {
-        illustration: [
-          {
-            illustrationText: '',
-            illustrationSubText: '',
-            illustrationImages: [''],
-          },
-        ],
-      },
-      {
-        pdfPanelHeading: '',
-        pdfPanelSubText: '',
-        pdfPanelFile: '',
-      },
-    ],
-    consultation: [],
-    production: [],
-    training: [],
-    visualidentityLogo: [''],
-    visualidentityLogoText: '',
-    colorpaletteText: '',
-    colorPaletteAllColor: [''],
-    fontText: '',
-    fontFamilyText: [''],
-    fontFamily: [''],
-    defaultTab: 'design',
-    illustration: [
-      {
-        illustrationText: '',
-        illustrationSubText: '',
-        illustrationImages: [''],
-      },
-    ],
-    documentHeading: '',
-    documentDemo: ['',
-    ],
-  },
-  {
     name: 'Amber Dazzle Website & TVC',
     desciption: 'Amber Dazzle, an American cosmetics brand, wanted to launch their product line up in Pakistan for which they required a website that appealed to the Pakistani audience. ',
     coverImg: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579702268/amber-dazzle-image_egxm3v.jpg'],
@@ -2398,20 +2752,20 @@ var design = [
             illustrationText: 'Social Media posts',
             illustrationSubText: 'We designed social media posts for Amber Dazzles Instagram and Facebook marketing',
             illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/Liquid_Foundation_zowxzz.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
           },
         ],
       },
@@ -2492,6 +2846,15 @@ var production = [
             ],
           },
         ],
+      },
+      {
+        mainVideoPanel: [
+          {
+            mainHead: '',
+            mainHeadsubText: '',
+            mainVideos: "",
+          }
+        ],
       }
     ],
     marketing: [],
@@ -2569,6 +2932,15 @@ var production = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579687847/8_-_single_side_laser_vrkktf.jpg'],
           },
         ],
+      },
+      {
+        mainVideoPanel: [
+          {
+            mainHead: '',
+            mainHeadsubText: '',
+            mainVideos: "",
+          }
+        ],
       }
     ],
     marketing: [],
@@ -2601,7 +2973,7 @@ var production = [
       },
       {
         documentHeading: 'Letterhead & Business Card',
-        documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579864122/jica-identity_ulopt4.jpg'],
+        documentDemo: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586949529/Perspective_Business_Cards_MockUp_2-min_awooti.png'],
       },
       {
         demoHeading: '',
@@ -2636,6 +3008,20 @@ var production = [
               'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579866469/long_pen_holder_xeqle4.jpg'],
           }
         ],
+      },
+      {
+        mainVideoPanel: [
+          {
+            mainHead: 'Video Production',
+            mainHeadsubText: 'we recorded video interviews in rural Sindh for the social media of JICA',
+            mainVideos: "https://www.youtube.com/embed/G7EFYUhVieQ",
+          },
+          {
+            mainHead: 'Video Production',
+            mainHeadsubText: 'we recorded video interviews in rural Sindh for the social media of JICA',
+            mainVideos: "https://www.youtube.com/embed/qGvrDh7RvZ0",
+          },
+        ],
       }
     ],
     marketing: [],
@@ -2664,7 +3050,7 @@ var production = [
           {
             mainHead: 'Marketing & Video',
             mainHeadsubText: 'KRL Creatives’ marketing department consults with Oxbridge to help strengthen their brand and further identify the correct target audience. Additionally, we also continue to shoot their video podcasts for their website and various social media platforms.',
-            mainVideos: "https://res.cloudinary.com/dxk0bmtei/video/upload/v1579780552/oxbridge_3_tips_fy9sd2.mp4",
+            mainVideos: "https://www.youtube.com/embed/ogX3xoOsQMQ",
           }
         ],
       }
@@ -2695,6 +3081,15 @@ var production = [
             illustrationText: '',
             illustrationSubText: '',
             illustrationImages: [''],
+          }
+        ],
+      },
+      {
+        mainVideoPanel: [
+          {
+            mainHead: '',
+            mainHeadsubText: '',
+            mainVideos: "",
           }
         ],
       }
@@ -2765,20 +3160,20 @@ var production = [
             illustrationText: 'Social Media posts',
             illustrationSubText: 'We designed social media posts for Amber Dazzles Instagram and Facebook marketing',
             illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/Liquid_Foundation_zowxzz.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
-            'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852304/glitter_gloss_a_insta_hsnxqb.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852301/new_arrivals_insta_hdfemq.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852300/Mountains_itenmg.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852295/lipstick_insta_s98jxs.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852290/shimmer_insta_wi0cpz.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852287/Keratin_Shampoo_vqt28u.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/FB_Cover_1_v1nltg.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852283/lips_insta_uc642c.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852279/banner_3_insta_vvd2ud.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/banner_2_insta_jxwsaw.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852273/lip_kit_insta_i4yq5u.png',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852269/face-min_ksw6kk.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/eyes-min_oqtrxe.jpg',
+              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1586852266/brush-min_zce8ba.jpg'],
           },
         ],
       },
@@ -2797,6 +3192,15 @@ var production = [
             illustrationText: '',
             illustrationSubText: '',
             illustrationImages: [''],
+          }
+        ],
+      },
+      {
+        mainVideoPanel: [
+          {
+            mainHead: '',
+            mainHeadsubText: '',
+            mainVideos: "",
           }
         ],
       }
@@ -2828,6 +3232,7 @@ class Projects extends React.Component {
     super(props);
     this.state = {
       projectStateFromHome: Allprojects,
+      featuredProjectinLink: acfProject,
 
       banrPeragh: 'KRL Creatives covers you for all digital assets your brand needs to serve your audience well.',
       banrPeragh1: 'We design, develop and produce.',
@@ -2859,6 +3264,7 @@ class Projects extends React.Component {
           this.setState({
             featuredBannerImg: 'oxbridgeFeatureImgMarket',
             projectStateFromHome: marketing,
+            featuredProjectinLink: oxbridgeProject,
             defaultTab: '2'
           })
         }
@@ -2866,6 +3272,7 @@ class Projects extends React.Component {
           this.setState({
             featuredBannerImg: 'pakjazbaFeatureImgDevelop',
             projectStateFromHome: development,
+            featuredProjectinLink: pakJazbaProject,
             defaultTab: '3'
           })
         }
@@ -2873,6 +3280,7 @@ class Projects extends React.Component {
           this.setState({
             featuredBannerImg: 'siddiqSonFeatureImgDesign',
             projectStateFromHome: design,
+            featuredProjectinLink: siddiqSonProject,
             defaultTab: '4'
           })
         }
@@ -2880,6 +3288,7 @@ class Projects extends React.Component {
           this.setState({
             featuredBannerImg: 'jicaFeatureImgProduct',
             projectStateFromHome: production,
+            featuredProjectinLink: jicaProject,
             defaultTab: '5'
           })
         }
@@ -2889,6 +3298,7 @@ class Projects extends React.Component {
           this.setState({
             featuredBannerImg: 'oxbridgeFeatureImgMarket',
             projectStateFromHome: marketing,
+            featuredProjectinLink: oxbridgeProject,
             defaultTab: '2'
           })
         }
@@ -2896,6 +3306,7 @@ class Projects extends React.Component {
           this.setState({
             featuredBannerImg: 'pakjazbaFeatureImgDevelop',
             projectStateFromHome: development,
+            featuredProjectinLink: pakJazbaProject,
             defaultTab: '3'
           })
         }
@@ -2903,6 +3314,7 @@ class Projects extends React.Component {
           this.setState({
             featuredBannerImg: 'jicaFeatureImgProduct',
             projectStateFromHome: production,
+            featuredProjectinLink: jicaProject,
             defaultTab: '5'
           })
         }
@@ -2910,6 +3322,7 @@ class Projects extends React.Component {
           this.setState({
             featuredBannerImg: 'siddiqSonFeatureImgDesign',
             projectStateFromHome: design,
+            featuredProjectinLink: siddiqSonProject,
             defaultTab: '4'
           })
         }
@@ -2927,7 +3340,7 @@ class Projects extends React.Component {
   }
 
   tabFunction = (param) => {
-    
+
     if (param == 'Allprojects') {
       this.setState({ projectStateFromHome: Allprojects });
     }
@@ -2948,7 +3361,7 @@ class Projects extends React.Component {
   render() {
     const { TabPane } = Tabs;
     const { GFAperaas, devPeraImg, headingpera, headingpera1, headingpera2, banFuturPro, ViewPro, headerPath,
-      projects, siddiqSons, projectStateFromHome, featuredBannerImg, defaultTab } = this.state;
+      projects, featuredProjectinLink, projectStateFromHome, featuredBannerImg, defaultTab } = this.state;
 
     return (
 
@@ -2956,9 +3369,11 @@ class Projects extends React.Component {
         <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
 
         {/*Featured banner*/}
-        <div className="row">
-          <div className={`col-12 col-md-12 col-lg-12 col-xl-12 ${featuredBannerImg}`}></div>
-        </div>
+        <Link to={{ pathname: `/project`, state: featuredProjectinLink, }}>
+          <div className="row">
+            <div className={`col-12 col-md-12 col-lg-12 col-xl-12 ${featuredBannerImg}`}></div>
+          </div>
+        </Link>
 
         <div className="row bigProjectLeft">
           <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>

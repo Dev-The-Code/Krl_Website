@@ -41,13 +41,7 @@ class MarketingTab extends Component {
                       </p>
                     </div>
                     {elem.mainVideos != '' && <div className="col-xl-8 col-lg-8 col-md-8 col-12">
-                      {/* <video className="mainDemoImg" controls autoplay>
-                                                <source src={elem.mainVideos} type="video/ogg" />
-                                                Your browser does not support the video tag.
-                                            </video> */}
-                      <video className="mainDemoImg video-container video-container-overlay" controls="true" loop>
-                        <source src={elem.mainVideos} type="video/mp4" />
-                      </video>
+                      <iframe src={elem.mainVideos} alt="Project Video" className="mainDemoImg"></iframe>
                     </div>}
                   </div>
                 </div>
