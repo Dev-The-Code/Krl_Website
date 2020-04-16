@@ -2725,6 +2725,11 @@ var production = [
     technologyUsed: 'The website was built using Wordpress. For the Android mobile application, we used Ant.design, React.JS, Redux-Saga and Firebase to develop a system that could store data offline and then upload it to ACF’s server once an internet connection was available.',
     development: [
       {
+        demoHeading: 'Final Website Videos',
+        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698702/1_hsmghk.mp4',
+          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698708/3_qr4mto.mp4'],
+      },
+      {
         illustration: [
           {
             illustrationText: 'Data Collection Application',
@@ -2735,11 +2740,6 @@ var production = [
             ],
           },
         ],
-      },
-      {
-        demoHeading: 'Final Website Videos',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698702/1_hsmghk.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698708/3_qr4mto.mp4'],
       },
     ],
     production: [
@@ -2779,6 +2779,7 @@ var production = [
     design: [],
     consultation: [],
     training: [],
+    defaultTab: 'production',
     visualidentityLogo: [''],
     visualidentityLogoText: '',
     colorpaletteText: '',
@@ -2787,8 +2788,8 @@ var production = [
     fontFamilyText: [''],
     fontFamily: [''],
     documentHeading: '',
-    documentDemo: [''],
-    defaultTab: 'production',
+    documentDemo: ['',
+    ],
     mainVideoPanel: [{
       mainHead: '',
       mainHeadsubText: '',
@@ -2990,26 +2991,7 @@ var production = [
     ],
     design: [],
     consultation: [],
-    production: [
-      {
-        illustration: [
-          {
-            illustrationText: '',
-            illustrationSubText: '',
-            illustrationImages: [''],
-          }
-        ],
-      },
-      {
-        mainVideoPanel: [
-          {
-            mainHead: '',
-            mainHeadsubText: '',
-            mainVideos: "",
-          }
-        ],
-      }
-    ],
+    production: [],
     training: [],
     visualidentityLogo: [''],
     visualidentityLogoText: '',
