@@ -369,7 +369,7 @@ class Project extends React.Component {
                                 <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12"></div>
                             </div>
                         </div>
-                        <Link to={`/project`} className="changingdec">
+                        <Link to={`/projects`} className="changingdec">
                             <div className="container">
                                 <div className="row">
                                     <div className="col-12 col-md-12 col-lg-12 col-xl-12 vieW_btn">
