@@ -120,7 +120,7 @@ var smtpTransport = nodemailer.createTransport('SMTP', {
   port: 587,
   secure: false,
   auth: {
-    user: "farzan@krlcreatives.com",
+    user: "awais@krlcreatives.com",
     pass: "467738651092964101"
   },
   tls: {

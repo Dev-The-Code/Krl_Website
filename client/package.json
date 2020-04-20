@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "@ant-design/icons": "4.0.2",
+    "@callstack/async-storage": "^2.0.3",
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
-    "antd": "^4.0.3",
+    "antd": "^3.7.0",
+    "antd-init": "^2.0.6",
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "http-server": "^0.12.1",

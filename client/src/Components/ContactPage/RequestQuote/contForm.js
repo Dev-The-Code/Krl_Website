@@ -205,7 +205,7 @@ class ContForm extends Component {
     }
 }
 
-// export default contForm;
+// export default ContForm;
 
 const WrappedContForm = Form.create()(ContForm);
 export default WrappedContForm;
