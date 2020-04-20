@@ -117,7 +117,7 @@ app.get('/api/keys', (req, res) => {
 var smtpTransport = nodemailer.createTransport('SMTP', {
   // service: "webbase",
   host: 'business29.web-hosting.com',
-  port: 587,
+  port: 995,
   secure: false,
   auth: {
     user: "awais@krlcreatives.com",
