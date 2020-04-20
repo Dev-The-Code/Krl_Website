@@ -13,7 +13,8 @@ class ContForm extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            isLoader: false
+            isLoader: false,
+            isAlert: false
         }
     }
 
@@ -23,7 +24,8 @@ class ContForm extends Component {
         this.props.form.validateFieldsAndScroll((err, values) => {
             if (!err) {
                 this.setState({
-                    isLoader: true
+                    isLoader: true,
+                    isAlert: false
                 })
 
                 this.sendRequest(values)
@@ -33,28 +35,28 @@ class ContForm extends Component {
 
     sendRequest = async (values) => {
         let req = await HttpUtils.post('companiesContact', values)
-        let email = values.companyEmail;
-        // let response = await HttpUtils.get('userregister?nickname=' + values.name + '&email=' + values.companyEmail + '&password=' + values.contactnumber + '&notrobot=' + values.projectDescription)
         let response = await HttpUtils.post('sendEmailToCompany', values);
         console.log(response, 'send email response')
         if (req) {
             if (req.code == 200) {
                 this.setState({
-                    isLoader: false
+                    isLoader: false,
+                    isAlert: true
                 })
             }
             else {
                 this.setState({
-                    isLoader: false
+                    isLoader: false,
+                    isAlert: false
                 })
             }
         }
         else {
             this.setState({
-                isLoader: false
+                isLoader: false,
+                isAlert: false
             })
         }
-        console.log(req, 'req')
     }
 
     validateNumber(rule, value, callback) {
@@ -196,6 +198,16 @@ class ContForm extends Component {
                             </div>
                         </Form>
                         {this.state.isLoader ? <div class="loading1">   </div>
+                            : null
+                        }
+                        {this.state.isAlert ?
+                            <div class="alert alert-success message" role="alert">
+                                <strong>Request Submiting </strong>
+                                        Thank you for contact us.
+										Your request has been submited and
+										one of our support member will call & email you shortly.
+									</div>
+
                             : null
                         }
                     </div>
