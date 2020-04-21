@@ -25,7 +25,6 @@
         font-size: 4vw;
         font-family: aleta-bold;
         color: white;
-        cursor : pointer;
     }
     .naVBar_aliGN{
         box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
@@ -40,6 +39,7 @@
         width: calc(10px + 1.5vw);
         margin-left: 3.3vw;
         margin-top: -4vw;
+        cursor: pointer;
     }
     .menu_OfClose{
         width: calc(10px + 1.5vw);
@@ -55,7 +55,6 @@
         font-size: 1.5vw;
         font-family: aleta-bold;
         color: white;
-        cursor: pointer;
     }
     .naVBar_aliGN{
         box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
@@ -70,6 +69,7 @@
         width: calc(10px + 1.5vw);
         margin-left: 4.2vw;
         margin-top: -1.5vw;
+        cursor: pointer;
     }
     .menu_OfClose{
         width: calc(10px + 1vw);
@@ -86,7 +86,6 @@
         font-size: calc(1em + 0.1vmax);
         font-family: aleta-bold;
         color: white;
-        cursor: pointer;
     }
     .naVBar_aliGN{
         box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
@@ -100,6 +99,7 @@
     .menu{
         width: calc(10px + 1.5vw);
         margin-left: 4.1vw;
+        cursor: pointer;
     }
     .menu_OfClose{
         width: calc(10px + 1vw);
@@ -115,7 +115,6 @@
         font-size: calc(1em + 0.1vmax);
         font-family: aleta-bold;
         color: white;
-        cursor : pointer;
     }
     .naVBar_aliGN{
         box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);
@@ -130,6 +129,7 @@
         width: calc(10px + 1.5vw);
         margin-left: 4.3vw;
         margin-top: 0.5vw;
+        cursor: pointer;
     }
     .menu_OfClose{
         width: calc(10px + 1vw);
@@ -145,7 +145,6 @@
         font-size: calc(12px + 0.7vw);
         font-family: aleta-bold;
         color: white;
-        cursor : pointer;
     }
     .naVBar_aliGN{
         box-shadow: 0px 4px 2.5vw rgba(0, 0 ,0 , 0.18);

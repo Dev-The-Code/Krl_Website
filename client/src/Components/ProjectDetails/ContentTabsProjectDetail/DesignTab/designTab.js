@@ -165,8 +165,8 @@ class DesignTab extends Component {
                                         {data.design[4].pdfPanelSubText}
                                     </p>
                                 </div>
-                                <div className="col-xl-8 col-lg-8 col-md-8 col-12">
-                                    <iframe src={data.design[4].pdfPanelFile} alt="PDF" className="mainDemoDesign"></iframe>
+                                <div className="col-xl-8 col-lg-8 col-md-8 col-12"  style={{ paddingLeft: '0vw' }}>
+                                    <iframe src={data.design[4].pdfPanelFile} alt="PDF" className="mainDemoDesign" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -189,7 +189,7 @@ class DesignTab extends Component {
                             <div className="row">
                                 <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
                                 <div className="col-xl-10 col-lg-10 col-md-10 col-12">
-                                    <iframe src={elem} alt="PDF" className="videoDemo"></iframe>
+                                    <iframe src={elem} alt="PDF" className="videoDemo" allowfullscreen></iframe>
                                 </div>
                                 <div className="col-xl-1 col-lg-1 col-md-1 col-12"></div>
                             </div>

@@ -101,7 +101,7 @@ class ProductionTab extends Component {
                         {elem.mainHeadsubText}
                       </p>
                     </div>
-                    {elem.mainVideos != '' && <div className="col-xl-8 col-lg-8 col-md-8 col-12">
+                    {elem.mainVideos != '' && <div className="col-xl-8 col-lg-8 col-md-8 col-12" style={{ paddingLeft: '0vw' }}>
                       <iframe src={elem.mainVideos} alt="Project Video" className="mainDemoImgpro"></iframe>
                     </div>}
                   </div>

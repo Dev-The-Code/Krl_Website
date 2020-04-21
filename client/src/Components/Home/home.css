@@ -156,14 +156,7 @@
 
 /* @media only screen and (min-device-width : 1024px) and (max-device-width : 787px) {}
 @media only screen and (min-device-width : 768px) {} */
-.arroW_lastesT{
-    padding-left: 2.5vw;
-    padding-top: 3.1vw;
-    padding-bottom: 1.5vmax;
-    font-family: aleta-bold;
-    font-size: calc(10px + 0.8vw);
-    color: #303030;
-}
+
 /* .vieW_btn{
     background-color: #f7f7f7;
     height: 9vmax;
@@ -188,10 +181,17 @@
 @media only screen and (min-device-width : 300px) and (max-device-width : 767px) {
     .vieW_btn {
         background-color: #f7f7f7;
-        height: 9vmax;
         border-radius: 3vw;
         margin-bottom: 12vmax;
         
+    }
+    .arroW_lastesT{
+        padding-left: 2.5vw;
+        padding-top: 3.1vw;
+        padding-bottom: 1vmax;
+        font-family: aleta-bold;
+        font-size: calc(10px + 0.8vw);
+        color: #303030;
     }
     .fot_hoMe_coLor{
         background-color: #f7f7f7;
@@ -218,15 +218,20 @@
         margin-left: -3vw;
     }
 }
-
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     .vieW_btn {
         background-color: #f7f7f7;
-        height: 9vmax;
         border-radius: 1vw;
         margin-bottom: 12vmax;
-        margin-top: 17vw;
+        margin-top: 18vw;
         /* margin-left: -2.3vw; */
+    }
+    .arroW_lastesT{
+        padding-top: 3.1vw;
+        padding-bottom: 1vmax;
+        font-family: aleta-bold;
+        font-size: calc(10px + 0.8vw);
+        color: #303030;
     }
     .fot_hoMe_coLor{
         background-color: #f7f7f7;
@@ -264,7 +269,15 @@
         border-radius: 1vw;
         margin-bottom: 12vmax;
         margin-left: -4.7vw;
-        margin-top: 6.2vw;
+        margin-top: 5.2vw;
+    }
+    .arroW_lastesT{
+        padding-left: 2vw;
+        padding-top: 3.1vw;
+        padding-bottom: 1.5vmax;
+        font-family: aleta-bold;
+        font-size: calc(10px + 0.8vw);
+        color: #303030;
     }
     .fot_hoMe_coLor{
         background-color: #f7f7f7;
@@ -299,11 +312,19 @@
 @media only screen and (min-device-width : 1366px) and (max-device-width : 1600px) {
     .vieW_btn {
         background-color: #f7f7f7;
-        height: 9vmax;
+        /* height: 9vmax; */
         border-radius: 1vw;
         margin-bottom: 12vmax;
         margin-left: -4.7vw;
-        margin-top: 4.5vw;
+        margin-top: 5.2vw;
+    }
+    .arroW_lastesT{
+        padding-left: 1.5vw;
+        padding-top: 3.1vw;
+        padding-bottom: 1.5vmax;
+        font-family: aleta-bold;
+        font-size: calc(10px + 0.8vw);
+        color: #303030;
     }
     .fot_hoMe_coLor{
         background-color: #f7f7f7;
@@ -337,12 +358,20 @@
 }
 @media only screen and (min-device-width : 1600px) {
     .vieW_btn {
-        margin-top: 4.5vw;
+        margin-top: 6.5vw;
         background-color: #f7f7f7;
-        height: 9vmax;
+        height: 8vmax;
         border-radius: 1vw;
         margin-bottom: 12vmax;
         margin-left: -4.3vw;
+    }
+    .arroW_lastesT{
+        padding-left: 2.5vw;
+        padding-top: 3.1vw;
+        padding-bottom: 1.5vmax;
+        font-family: aleta-bold;
+        font-size: calc(10px + 0.8vw);
+        color: #303030;
     }
     .fot_hoMe_coLor{
         background-color: #f7f7f7;
