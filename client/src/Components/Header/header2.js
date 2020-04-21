@@ -272,7 +272,7 @@ class Header2 extends Component {
                 <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 cursiraPoinT" onClick={this.openNav} style={{ textAlign: 'right' }}>
                   <p className="header_Textt"><span>{this.props.headerPath}</span></p>
                 </div>
-                <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-3 mt-5 cursiraPoinT" onClick={this.openNav}>
+                <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-3 mt-5 cursiraPoinT" onClick={this.openNav}>
                   <img className="menu" src={require('../../Assets/Images/Homepage-04.png')} onClick={this.openNav} />
                 </div>
                 <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>

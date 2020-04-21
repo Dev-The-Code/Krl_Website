@@ -4,6 +4,7 @@ import Button from '../../../Comman/Button/button';
 import './requestQuote.css';
 import 'antd/dist/antd.css';
 import { Form, Input } from 'antd';
+import { Spin } from 'antd';
 import { HttpUtils } from "../../../Services/HttpUtils";
 
 const FormItem = Form.Item;
@@ -197,7 +198,7 @@ class ContForm extends Component {
                                 </div>
                             </div>
                         </Form>
-                        {this.state.isLoader ? <div class="loading1">   </div>
+                        {this.state.isLoader ? <div class="loader">   </div>
                             : null
                         }
                         {this.state.isAlert ?
