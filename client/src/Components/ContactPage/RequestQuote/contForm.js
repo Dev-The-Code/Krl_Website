@@ -82,7 +82,7 @@ class ContForm extends Component {
                         <Form onSubmit={this.handleSubmit}>
                             <div className="row">
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                    <FormItem style={{ padding: '2%' }}>
+                                    <FormItem>
                                         {getFieldDecorator('name', {
                                             // initialValue: jobTitle,
                                             rules: [{
@@ -91,7 +91,7 @@ class ContForm extends Component {
                                                 whitespace: true
                                             }],
                                         })(
-                                            <Input type="text" className="form-control" placeholder="Name" />
+                                            <Input type="text" className="form-control naam_input" placeholder="Name" />
                                         )}
                                     </FormItem>
                                     {/* <Input
@@ -116,7 +116,7 @@ class ContForm extends Component {
                                                 whitespace: true
                                             }],
                                         })(
-                                            <Input type="text" className="form-control" placeholder="Email" />
+                                            <Input type="text" className="form-control mailCont_input" placeholder="Email" />
                                         )}
                                     </FormItem>
                                 </div>
@@ -134,7 +134,7 @@ class ContForm extends Component {
                                             },
                                             { validator: this.validateNumber.bind(this) }]
                                         })(
-                                            <Input placeholder="Contact No" />
+                                            <Input placeholder="Contact No" className="mailCont_input" />
                                         )}
                                     </FormItem>
                                     {/* <Input
@@ -159,7 +159,7 @@ class ContForm extends Component {
                                                     validator: this.checkValue.bind(this)
                                                 }],
                                         })(
-                                            <TextArea rows={6} maxLength="500" placeholder="Project Description" />
+                                            <TextArea rows={3} maxLength="500" placeholder="Project Description" className="projectt_input" />
                                         )}
                                     </FormItem>
                                     {/* <Input

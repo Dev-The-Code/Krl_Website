@@ -88,13 +88,11 @@
         outline:0;
     }
     .projectt_input{
-        
         width: 100%;
         border: none;
         background: none;
         border-bottom: 1px solid #e6e6e6;
         margin-top: 6.2vw;
-        height: 9vw;
         outline:0;
     } 
     .qoute_backColor{
@@ -137,7 +135,6 @@
         border: none;
         background: none;
         border-bottom: 1px solid #e6e6e6;
-        margin-top: 2.7vw;
         height: 3vw;
         outline:0;
     }
@@ -146,8 +143,8 @@
         border: none;
         background: none;
         border-bottom: 1px solid #e6e6e6;
-        margin-top: 3.2vw;
-        height: 3vw;
+        height: 2vw !important;
+        margin-top: 1vw;
         outline:0;
     }
     .qoute_backColor{
@@ -191,7 +188,7 @@
         border: none;
         background: none;
         border-bottom: 1px solid #e6e6e6;
-        margin-top: 2.7vw;
+        margin-top: 1.5vw;
         height: 2.5vw;
         outline:0;
     }
@@ -200,8 +197,7 @@
         border: none;
         background: none;
         border-bottom: 1px solid #e6e6e6;
-        margin-top: 3.2vw;
-        height: 2.5vw;
+        margin-top: 1.5vw;
         outline:0;
     }
     .qoute_backColor{
@@ -246,7 +242,7 @@
         border: none;
         background: none;
         border-bottom: 1px solid #e6e6e6;
-        margin-top: 2.7vw;
+        margin-top: 1.5vw;
         height: 2.5vw;
         outline:0;
     }
@@ -255,8 +251,7 @@
         border: none;
         background: none;
         border-bottom: 1px solid #e6e6e6;
-        margin-top: 3.2vw;
-        height: 2.5vw;
+        margin-top: 1.7vw;
         outline:0;
     }
     .qoute_backColor{
@@ -309,7 +304,6 @@
         background: none;
         border-bottom: 1px solid #e6e6e6;
         margin-top: 3.2vw;
-        height: 2.2vw;
         outline:0;
     }
     .qoute_backColor{
@@ -388,7 +382,7 @@
         font-size: 4vw;
     }
     .hR_LIne{
-        width: 27.8vw;
+        width: 30vw;
         margin-top: 0.2vw;
         margin-left: -0.5vw;
         height: 0.1vh;
@@ -542,3 +536,19 @@
 }
 
 
+/*ant design class*/
+.ant-form-item {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum', "tnum";
+    margin-bottom: 0px !important;
+    vertical-align: top;
+}
