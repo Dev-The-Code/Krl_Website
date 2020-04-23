@@ -48,7 +48,14 @@
     -o-transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 } */
-
+/*ant design mobile tab arrow color*/
+.ant-tabs-tab-prev.ant-tabs-tab-arrow-show, .ant-tabs-tab-next.ant-tabs-tab-arrow-show {
+    width: 32px;
+    height: 100%;
+    opacity: 1;
+    pointer-events: auto;
+    color: white !important;
+}
 
 @media only screen and (min-device-width : 360px) and (max-device-width : 767px) {
     .LightFProject {

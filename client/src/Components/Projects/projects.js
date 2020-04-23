@@ -3257,37 +3257,67 @@ class Projects extends React.Component {
         <div className="row bigProjectLeft">
           <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
           <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-            <Tabs defaultActiveKey={defaultTab} tabPosition={'left'} style={{ color: 'white' }}>
-
-              <TabPane
-                tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'Allprojects')}>All</button>}
-                key="1"
-              >
-              </TabPane>
-              <TabPane
-                tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'marketing')}>Marketing</button>}
-                key="2"
-              >
-              </TabPane>
-              <TabPane
-                tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'development')}>Development</button>}
-                key="3"
-              >
-              </TabPane>
-              <TabPane
-                tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'design')}>Design</button>}
-                key="4"
-              >
-              </TabPane>
-              <TabPane
-                tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'production')}>Production</button>}
-                key="5"
-              >
-              </TabPane>
-            </Tabs>
+            <div className="d-none d-sm-block">
+              <Tabs defaultActiveKey={defaultTab} tabPosition={'left'} style={{ color: 'white' }}>
+                <TabPane
+                  tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'Allprojects')}>All</button>}
+                  key="1"
+                >
+                </TabPane>
+                <TabPane
+                  tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'marketing')}>Marketing</button>}
+                  key="2"
+                >
+                </TabPane>
+                <TabPane
+                  tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'development')}>Development</button>}
+                  key="3"
+                >
+                </TabPane>
+                <TabPane
+                  tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'design')}>Design</button>}
+                  key="4"
+                >
+                </TabPane>
+                <TabPane
+                  tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'production')}>Production</button>}
+                  key="5"
+                >
+                </TabPane>
+              </Tabs>
+            </div>
+            <div className="d-block d-sm-none">
+              <Tabs defaultActiveKey={defaultTab} style={{ color: 'white' , textAlign:'' }}>
+                <TabPane
+                  tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'Allprojects')}>All</button>}
+                  key="1"
+                >
+                </TabPane>
+                <TabPane
+                  tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'marketing')}>Marketing</button>}
+                  key="2"
+                >
+                </TabPane>
+                <TabPane
+                  tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'development')}>Development</button>}
+                  key="3"
+                >
+                </TabPane>
+                <TabPane
+                  tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'design')}>Design</button>}
+                  key="4"
+                >
+                </TabPane>
+                <TabPane
+                  tab={<button className="tabsBtnProject" onClick={this.tabFunction.bind(this, 'production')}>Production</button>}
+                  key="5"
+                >
+                </TabPane>
+              </Tabs>
+            </div>
           </div>
           <div className="col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7">
-            <ProjectContainer projects={projectStateFromHome} defaultTabOfAllProjects={defaultTab} />
+            <ProjectContainer projects={projectStateFromHome} />
           </div>
           <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
         </div>
