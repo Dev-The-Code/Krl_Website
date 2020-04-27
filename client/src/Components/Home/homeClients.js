@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './home.css';
 import SomeOurClients from '../../Comman/SomeOurClients/someOurClient';
 import Founders2 from '../../Comman/Founders/founders2';
-import Header from '../Header/header2';
-
 
 class Clients extends React.Component {
     constructor(props) {
@@ -14,16 +11,12 @@ class Clients extends React.Component {
         }
     }
     componentWillMount() {
-        this.setState({ headerPath: 'Home' });
         window.scrollTo(0, 0)
     }
 
     render() {
-        const { headerPath } = this.state
         return (
             <div>
-
-                {/* <Header headerPath={headerPath} /> */}
 
                 <div className="row clientAlignMent">
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 backG_colR">

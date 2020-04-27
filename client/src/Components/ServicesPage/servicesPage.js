@@ -2,17 +2,12 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './servicesPage.css';
 import Header2 from '../Header/header2';
-import Services from '../About/Services/services';
 import SomeOurClients from '../../Comman/SomeOurClients/someOurClient';
 import Founders2 from '../../Comman/Founders/founders2';
 import SeeProject from '../ContactPage/SeeProject/seeProject';
 import MainServicesPage from '../ServicesPage/mainService';
 import Servicebanner from './ServiceBanner/serviceBanner';
-import Mainservice from './mainService';
 import InterShipProgramer from '../../Comman/InterShipProgramers/interShipPogramer';
-
-import ProjectContainer from '../../Comman/ProjectContainer/projectContainer';
-import Banners from '../ServicesPage/banners'
 
 class ServicesPage extends React.Component {
 
@@ -47,18 +42,12 @@ class ServicesPage extends React.Component {
       routName = routName.charAt(0).toUpperCase() + routName.slice(1);
       this.setState({ headerPath: routName });
     }
-    //  console.log(routName,'sss');
     window.scrollTo(0, 0)
 
-    // setTimeout(() => {
-    //   this.setState({ sassLess: false });
-    // }, 4000);
   }
 
   render() {
-    const { ConsulHedng, ConsulPeraas, dvelpmntHedng, dvelpmntPeraas, dsgnHedng, dsgnPeraas, productionHedng, devPeraImg, GFAperaas, DPWperaas,
-      banrPeragh, banrPeragh1, headingpera, headingpera1, headingpera2, devParagraph, headerPath } = this.state
-    // console.log(headerPath,'ssss');
+    const { headerPath } = this.state
     return (
       <div className='all_backgrundImageAfter animateFadeIn'>
         <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />

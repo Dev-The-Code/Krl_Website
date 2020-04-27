@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import Dot from '../../../Assets/Images/dots.png';
-import Header from '../../Header/header2';
+import Header2 from '../../Header/header2';
 import './homeBanner.css';
 
 class Home extends Component {
     constructor(props) {
         super(props);
-
         this.state = {
 
         }
@@ -16,11 +14,12 @@ class Home extends Component {
         this.setState({ headerPath: 'Home' });
         window.scrollTo(0, 0);
     }
+    
     render() {
         const { headerPath } = this.state;
         return (
             <div className="backImge_baner animateFadeIn">
-                <Header headerPath={headerPath} headerDesktop="hederSticky" headerMob="hederStickyMob2" />
+                <Header2 headerPath={headerPath} headerDesktop="hederSticky" headerMob="hederStickyMob2" />
                 <div className="row rAw_PadD">
                     <div className="col-12 col-md-4 col-lg-4 col-xl-4"></div>
                     <div className="col-12 col-md-4 col-lg-4 col-xl-4">

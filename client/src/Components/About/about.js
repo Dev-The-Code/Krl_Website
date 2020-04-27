@@ -29,37 +29,14 @@ class About extends React.Component {
 
   componentWillMount() {
     let data = this.props.location.pathname;
-    // if(data){
+    if(data){
       let routName;
       routName = data.slice(1);
       routName = routName.charAt(0).toUpperCase() + routName.slice(1);
       this.setState({ headerPath: routName });
-    // }
-    //  console.log(routName,'sss');
+    }
     window.scrollTo(0, 0);
   }
-
-  // componentDidMount(){
-  //   window.addEventListener('scroll', this.handleScroll);
-  // }
- 
-  // componentWillUnmount(){
-  //   window.removeEventListener('scroll', this.handleScroll);
-  // } 
-
-  // handleScrollTwo=(event)=>{
-  //   const scrollTopCore = event.srcElement.body.scrollTop,
-  //         Core = Math.min(0, scrollTopCore/3 - 150);
-  //         console.log('func2 >>', Core)
-  //         this.setState({ getStand: Core });
-  // }
-
-  // handleScroll=(event)=> {
-  //        const scrollTopCore = event.srcElement.body.scrollTop,
-  //        Core = Math.min(0, scrollTopCore/1 - 50);
-  //        this.setState({ getCore: true});
-         
-  // }
   
   render() {
     const { headerPath, getCore , getStand } = this.state

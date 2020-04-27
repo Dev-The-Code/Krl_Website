@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Header2 from '../Header/header2';
 import './banners.css';
 
 class Banners extends Component {

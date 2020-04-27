@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header2 from '../Header/header2';
 import ArrowImg from '../../Assets/Images/latest-post-arrow.png';
 import './banner.css';
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Header2 from '../Header/header2';
 import PanelDetails from './ProjectDetailsPanels/DetailsPanel1/panelDetails';
 import DetailBanner from './ProjectDetailsPanels/DetailsBannerPanel2/detailsBanner';

@@ -65,24 +65,6 @@ class OurTeam extends Component {
                     <p className="teamDesignation">(Application Developer)</p>
                   </div>
                   <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                    <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787052/sheerazbnw_rccsbi.jpg'} />
-                    <br />
-                    <h3 className="teamName">M.Sheeraz</h3>
-                    <p className="teamDesignation">(Application Intern)</p>
-                  </div>
-                </div>
-                <div className="row" style={{ marginTop: '3vw' }}>
-                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                    <AllTeam drnClass='imG_teamMem' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/zainabbnw_mr5aeg.jpg'} />
-                    <br />
-                    <h3 className="teamName">Zainab Dawood</h3>
-                    <p className="teamDesignation">(Design Intern)</p>
-                  </div>
-                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                  </div>
-                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                  </div>
-                  <div className="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
                   </div>
                 </div>
               </div>
@@ -158,24 +140,6 @@ class OurTeam extends Component {
                 <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/waqasbnw_q8wazj.jpg'} />
                 <h3 className="teamNameMob">Waqas Mumtaz</h3>
                 <p className="teamDesignationMob">(Application Developer)</p>
-              </div>
-              <div className="col-1"></div>
-            </div><br />
-            <div className="row">
-              <div className="col-1"></div>
-              <div className="col-10">
-                <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787052/sheerazbnw_rccsbi.jpg'} />
-                <h3 className="teamNameMob">M.Sheeraz</h3>
-                <p className="teamDesignationMob">(Application Intern)</p>
-              </div>
-              <div className="col-1"></div>
-            </div><br />
-            <div className="row">
-              <div className="col-1"></div>
-              <div className="col-10">
-                <AllTeam drnClass='imG_teamMem_Mob' teamImg={'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579787051/zainabbnw_mr5aeg.jpg'} />
-                <h3 className="teamNameMob">Zainab Dawood</h3>
-                <p className="teamDesignationMob">(Design Intern)</p>
               </div>
               <div className="col-1"></div>
             </div>

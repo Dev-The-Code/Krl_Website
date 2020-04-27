@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './home.css';
-import Header from '../Header/header2';
 import SeeProject from '../ContactPage/SeeProject/seeProject';
 
 
@@ -13,12 +12,10 @@ class Seeproject extends React.Component {
         }
     }
     componentWillMount() {
-        this.setState({ headerPath: 'Home' });
         window.scrollTo(0, 0)
     }
 
     render() {
-        const { headerPath } = this.state
         return (
             <div>
                 <Link to={`/contact`} className="changingColor">

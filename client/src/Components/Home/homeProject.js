@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './home.css';
 import Smallarrow from '../../Assets/Images/latest-post-arrow.png';
-import Header from '../Header/header2';
-import ProjectContainer from '../../Comman/ProjectContainer/projectContainer';
 
 var siddiqSons = {
     name: 'Siddiqsons Limited Brochure',
@@ -171,56 +169,56 @@ var aCFRescue = {
     ourRole: 'We were responsible for coming up with the right kind of design for the website that would connect emotionally to their viewers. KRL Creatives was behind the lens for ACF’s website photography. ',
     technologyUsed: 'The website was built using Wordpress. For the Android mobile application, we used Ant.design, React.JS, Redux-Saga and Firebase to develop a system that could store data offline and then upload it to ACF’s server once an internet connection was available.',
     development: [
-      {
-        demoHeading: 'Final Website Videos',
-        demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698702/1_hsmghk.mp4',
-          'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698708/3_qr4mto.mp4'],
-      },
-      {
-        illustration: [
-          {
-            illustrationText: 'Data Collection Application',
-            illustrationSubText: 'The data collection application being used by an ACF worker on site.',
-            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579699563/img_8152_p3wsuj.jpg',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579699574/img_8150_kdyq2a.jpg',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579699581/img_8160_rrdzzo.jpg',
+        {
+            demoHeading: 'Final Website Videos',
+            demoVideo: ['https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698702/1_hsmghk.mp4',
+                'https://res.cloudinary.com/dxk0bmtei/video/upload/v1579698708/3_qr4mto.mp4'],
+        },
+        {
+            illustration: [
+                {
+                    illustrationText: 'Data Collection Application',
+                    illustrationSubText: 'The data collection application being used by an ACF worker on site.',
+                    illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579699563/img_8152_p3wsuj.jpg',
+                        'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579699574/img_8150_kdyq2a.jpg',
+                        'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579699581/img_8160_rrdzzo.jpg',
+                    ],
+                },
             ],
-          },
-        ],
-      },
+        },
     ],
     production: [
-      {
-        illustration: [
-          {
-            illustrationText: 'Photography',
-            illustrationSubText: 'We made sure to capture raw and genuine emotions through our photography to help captivate the ACF audience. ',
-            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701227/IMG_4397_tde6ds.jpg',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701229/IMG_9056_jzjlou.jpg',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701613/IMG_9159_cdmznr.jpg',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701604/IMG_9165_ly5g7n.jpg'
+        {
+            illustration: [
+                {
+                    illustrationText: 'Photography',
+                    illustrationSubText: 'We made sure to capture raw and genuine emotions through our photography to help captivate the ACF audience. ',
+                    illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701227/IMG_4397_tde6ds.jpg',
+                        'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701229/IMG_9056_jzjlou.jpg',
+                        'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701613/IMG_9159_cdmznr.jpg',
+                        'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579701604/IMG_9165_ly5g7n.jpg'
+                    ],
+                },
+                {
+                    illustrationText: 'Product Photography',
+                    illustrationSubText: 'Our product photography highlighted the colourful new line of environmentally friendly leashes being produced by ACF. ',
+                    illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700752/IMG_1002_jckxdg.jpg',
+                        'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700752/IMG_0984_ihidlo.jpg',
+                        'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700753/IMG_1014_sf8ej9.jpg',
+                        'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700760/IMG_0938_hf3txp.jpg'
+                    ],
+                },
             ],
-          },
-          {
-            illustrationText: 'Product Photography',
-            illustrationSubText: 'Our product photography highlighted the colourful new line of environmentally friendly leashes being produced by ACF. ',
-            illustrationImages: ['https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700752/IMG_1002_jckxdg.jpg',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700752/IMG_0984_ihidlo.jpg',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700753/IMG_1014_sf8ej9.jpg',
-              'https://res.cloudinary.com/dxk0bmtei/image/upload/v1579700760/IMG_0938_hf3txp.jpg'
+        },
+        {
+            mainVideoPanel: [
+                {
+                    mainHead: '',
+                    mainHeadsubText: '',
+                    mainVideos: "",
+                }
             ],
-          },
-        ],
-      },
-      {
-        mainVideoPanel: [
-          {
-            mainHead: '',
-            mainHeadsubText: '',
-            mainVideos: "",
-          }
-        ],
-      }
+        }
     ],
     marketing: [],
     design: [],
@@ -237,11 +235,11 @@ var aCFRescue = {
     documentDemo: ['',
     ],
     mainVideoPanel: [{
-      mainHead: '',
-      mainHeadsubText: '',
-      mainVideos: "",
+        mainHead: '',
+        mainHeadsubText: '',
+        mainVideos: "",
     },]
-  }
+}
 
 class Project extends React.Component {
     constructor(props) {
@@ -277,7 +275,6 @@ class Project extends React.Component {
             DPWHeading, DPWHeadingBr, DPWperaas, ODSHeading, ODSHeadingBr, devPeraImg, headerPath } = this.state
         return (
             <div>
-                {/* <Header headerPath={headerPath} /> */}
 
                 <div className="row">
                     <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>

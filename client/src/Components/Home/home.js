@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './home.css';
 import HomeBanner from './HomeBanner/homeBanner';
 import HomeService from './homeService';

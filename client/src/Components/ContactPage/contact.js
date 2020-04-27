@@ -15,7 +15,6 @@ class Contact extends React.Component {
       routName = routName.charAt(0).toUpperCase() + routName.slice(1);
       this.setState({ headerPath: routName });
     }
-    //  console.log(routName,'sss');
     window.scrollTo(0, 0)
   }
   render() {
@@ -24,9 +23,7 @@ class Contact extends React.Component {
       <div className="all_backgrundImageAfter animateFadeIn">
         <Header2 headerPath={headerPath}  headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
         <ContBanner />
-
         <ReqQoute />
-
         <OurOffice
           backColor='row background_office'
           headTextOff='off_head_cont'
