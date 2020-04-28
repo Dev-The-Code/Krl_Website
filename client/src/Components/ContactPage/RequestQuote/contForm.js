@@ -4,7 +4,7 @@ import Button from '../../../Comman/Button/button';
 import './requestQuote.css';
 import 'antd/dist/antd.css';
 import { Form, Input } from 'antd';
-import { Spin } from 'antd';
+import { Spin, notification, } from 'antd';
 import { HttpUtils } from "../../../Services/HttpUtils";
 
 const FormItem = Form.Item;
@@ -44,14 +44,23 @@ class ContForm extends Component {
         console.log(response, 'send email response')
         if (req) {
             if (req.code == 200) {
-                this.setState({
-                    isLoader: false,
-                    isAlert: true,
-                    name: '',
-                    email: '',
-                    contactNumber: '',
-                    projectDescription: ''
-                })
+
+                if (response) {
+                    if (response.code == 200) {
+                        this.openNotification()
+
+                        this.setState({
+                            isLoader: false,
+                            isAlert: true,
+                            name: '',
+                            email: '',
+                            contactNumber: '',
+                            projectDescription: ''
+                        })
+
+                    }
+
+                }
             }
             else {
                 this.setState({
@@ -90,13 +99,20 @@ class ContForm extends Component {
         callback();
     }
 
+    openNotification() {
+        notification.open({
+            message: 'Success ',
+            description: 'Thank you for contact us. One of our support member will contact with you shortly.',
+        });
+        window.location.reload(true);
+    };
     render() {
-        // const {
-        //     name,
-        //     email,
-        //     contactNumber,
-        //     projectDescription
-        // } = this.state;
+        const {
+            name,
+            email,
+            contactNumber,
+            projectDescription
+        } = this.state;
 
         // console.log(name, 'name')
         // console.log(email, 'email')
@@ -113,14 +129,14 @@ class ContForm extends Component {
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                     <Form.Item>
                                         {getFieldDecorator('name', {
-                                            // initialValue: this.state.name,
+                                            initialValue: this.state.name,
                                             rules: [{
                                                 required: true,
                                                 message: 'Please input your name',
                                                 whitespace: true
                                             }],
                                         })(
-                                            <Input type="text" className="form-control naam_input" placeholder="Name" value={this.state.name} />
+                                            <Input type="text" className="form-control naam_input" placeholder="Name" />
                                         )}
                                     </Form.Item>
                                 </div>
@@ -129,7 +145,7 @@ class ContForm extends Component {
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                     <Form.Item>
                                         {getFieldDecorator('companyEmail', {
-                                            // initialValue: this.state.email,
+                                            initialValue: this.state.email,
                                             rules: [{
                                                 type: 'email', message: 'The input is not valid E-mail!',
                                                 whitespace: true
@@ -139,7 +155,7 @@ class ContForm extends Component {
                                                 whitespace: true
                                             }],
                                         })(
-                                            <Input type="text" className="form-control mailCont_input" placeholder="Email" value={this.state.email} />
+                                            <Input type="text" className="form-control mailCont_input" placeholder="Email" />
                                         )}
                                     </Form.Item>
                                 </div>
@@ -150,14 +166,14 @@ class ContForm extends Component {
 
                                     >
                                         {getFieldDecorator('contactnumber', {
-                                            // initialValue: this.state.contactNumber,
+                                            initialValue: this.state.contactNumber,
                                             rules: [{
                                                 required: true, message: 'Please input your Number!',
                                                 whitespace: true
                                             },
                                             { validator: this.validateNumber.bind(this) }]
                                         })(
-                                            <Input placeholder="Contact No" className="mailCont_input" value={this.state.contactNumber} />
+                                            <Input placeholder="Contact No" className="mailCont_input" />
                                         )}
                                     </Form.Item>
                                 </div>
@@ -166,7 +182,7 @@ class ContForm extends Component {
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                                     <Form.Item>
                                         {getFieldDecorator('projectDescription', {
-                                            // initialValue: this.state.projectDescription,
+                                            initialValue: this.state.projectDescription,
                                             rules: [
                                                 {
                                                     required: true, message: 'Please input your project Description!',
@@ -176,7 +192,7 @@ class ContForm extends Component {
                                                     validator: this.checkValue.bind(this)
                                                 }],
                                         })(
-                                            <TextArea rows={3} maxLength="500" placeholder="Project Description" className="projectt_input" value={this.state.projectDescription} />
+                                            <TextArea rows={3} maxLength="500" placeholder="Project Description" className="projectt_input" />
                                         )}
                                     </Form.Item>
                                 </div>
@@ -195,6 +211,8 @@ class ContForm extends Component {
                                         <div className="col-sm-7 col-md-7 col-lg-7 col-xl-7"></div>
                                     </div>
                                 </div>
+                            </Form.Item>
+                            <Form.Item>
                                 <div className="d-block d-sm-none">
                                     <div className="row">
                                         <div className="col-12">

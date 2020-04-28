@@ -143,13 +143,15 @@ app.get('/api/keys', (req, res) => {
 
 // });
 // var rand, mailOptions, host, link;
-const smtpTransport = nodemailer.createTransport('SMTP',{
+const smtpTransport = nodemailer.createTransport('SMTP', {
   service: 'gmail',//smtp.gmail.com  //in place of service use host...
-  secure: false,//true
-  port: 25,//465
+  host: "smtp.gmail.com",
+  // secure: false,//true
+  // port: 25,//465
+  // port: 587,
   auth: {
     user: "krlcreatives@gmail.com",
-    pass: "CatalystRakhaTha!!"
+    pass: "uqlkzsuqdwrdavrt"
   }, tls: {
     rejectUnauthorized: false
   }
