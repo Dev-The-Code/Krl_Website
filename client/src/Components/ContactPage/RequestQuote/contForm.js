@@ -15,7 +15,11 @@ class ContForm extends Component {
         super(props)
         this.state = {
             isLoader: false,
-            isAlert: false
+            isAlert: false,
+            name: '',
+            email: '',
+            contactNumber: '',
+            projectDescription: ''
         }
     }
 
@@ -42,20 +46,32 @@ class ContForm extends Component {
             if (req.code == 200) {
                 this.setState({
                     isLoader: false,
-                    isAlert: true
+                    isAlert: true,
+                    name: '',
+                    email: '',
+                    contactNumber: '',
+                    projectDescription: ''
                 })
             }
             else {
                 this.setState({
                     isLoader: false,
-                    isAlert: false
+                    isAlert: false,
+                    name: '',
+                    email: '',
+                    contactNumber: '',
+                    projectDescription: ''
                 })
             }
         }
         else {
             this.setState({
                 isLoader: false,
-                isAlert: false
+                isAlert: false,
+                name: '',
+                email: '',
+                contactNumber: '',
+                projectDescription: ''
             })
         }
     }
@@ -75,6 +91,18 @@ class ContForm extends Component {
     }
 
     render() {
+        // const {
+        //     name,
+        //     email,
+        //     contactNumber,
+        //     projectDescription
+        // } = this.state;
+
+        // console.log(name, 'name')
+        // console.log(email, 'email')
+        // console.log(contactNumber, 'contactNumber')
+        // console.log(projectDescription, 'projectDescription')
+
         const { getFieldDecorator } = this.props.form;
         return (
             <div>
@@ -83,25 +111,25 @@ class ContForm extends Component {
                         <Form onSubmit={this.handleSubmit}>
                             <div className="row">
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                    <FormItem>
+                                    <Form.Item>
                                         {getFieldDecorator('name', {
-                                            // initialValue: jobTitle,
+                                            // initialValue: this.state.name,
                                             rules: [{
                                                 required: true,
                                                 message: 'Please input your name',
                                                 whitespace: true
                                             }],
                                         })(
-                                            <Input type="text" className="form-control naam_input" placeholder="Name" />
+                                            <Input type="text" className="form-control naam_input" placeholder="Name" value={this.state.name} />
                                         )}
-                                    </FormItem>
+                                    </Form.Item>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                    <FormItem>
+                                    <Form.Item>
                                         {getFieldDecorator('companyEmail', {
-                                            // initialValue: compEmail,
+                                            // initialValue: this.state.email,
                                             rules: [{
                                                 type: 'email', message: 'The input is not valid E-mail!',
                                                 whitespace: true
@@ -111,34 +139,34 @@ class ContForm extends Component {
                                                 whitespace: true
                                             }],
                                         })(
-                                            <Input type="text" className="form-control mailCont_input" placeholder="Email" />
+                                            <Input type="text" className="form-control mailCont_input" placeholder="Email" value={this.state.email} />
                                         )}
-                                    </FormItem>
+                                    </Form.Item>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                    <FormItem
+                                    <Form.Item
 
                                     >
                                         {getFieldDecorator('contactnumber', {
-                                            // initialValue: contactnumber,
+                                            // initialValue: this.state.contactNumber,
                                             rules: [{
                                                 required: true, message: 'Please input your Number!',
                                                 whitespace: true
                                             },
                                             { validator: this.validateNumber.bind(this) }]
                                         })(
-                                            <Input placeholder="Contact No" className="mailCont_input" />
+                                            <Input placeholder="Contact No" className="mailCont_input" value={this.state.contactNumber} />
                                         )}
-                                    </FormItem>
+                                    </Form.Item>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                    <FormItem>
+                                    <Form.Item>
                                         {getFieldDecorator('projectDescription', {
-                                            // initialValue: compDescription,
+                                            // initialValue: this.state.projectDescription,
                                             rules: [
                                                 {
                                                     required: true, message: 'Please input your project Description!',
@@ -148,37 +176,39 @@ class ContForm extends Component {
                                                     validator: this.checkValue.bind(this)
                                                 }],
                                         })(
-                                            <TextArea rows={3} maxLength="500" placeholder="Project Description" className="projectt_input" />
+                                            <TextArea rows={3} maxLength="500" placeholder="Project Description" className="projectt_input" value={this.state.projectDescription} />
                                         )}
-                                    </FormItem>
+                                    </Form.Item>
                                 </div>
                             </div>
-                            <div className="d-none d-sm-block">
-                                <div className="row">
-                                    <div className="col-sm-5 col-md-5 col-lg-5 col-xl-5">
-                                        <Button
-                                            label='Send request'
-                                            textCss='text_sendRqust'
-                                            classMd='btn_sendRequest'
-                                        />
-                                        <hr className="hR_LIne" />
+                            <Form.Item>
+                                <div className="d-none d-sm-block">
+                                    <div className="row">
+                                        <div className="col-sm-5 col-md-5 col-lg-5 col-xl-5">
+                                            <Button
+                                                label='Send request'
+                                                textCss='text_sendRqust'
+                                                classMd='btn_sendRequest'
+                                            />
+                                            <hr className="hR_LIne" />
+                                        </div>
+                                        <div className="col-sm-7 col-md-7 col-lg-7 col-xl-7"></div>
                                     </div>
-                                    <div className="col-sm-7 col-md-7 col-lg-7 col-xl-7"></div>
                                 </div>
-                            </div>
-                            <div className="d-block d-sm-none">
-                                <div className="row">
-                                    <div className="col-12">
-                                        <Button
-                                            label='Send request'
-                                            textCss='text_sendRqust_MOB'
-                                            classMd='btn_sendRequest_MOB'
-                                        />
-                                        <hr className="hR_LIne" />
+                                <div className="d-block d-sm-none">
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <Button
+                                                label='Send request'
+                                                textCss='text_sendRqust_MOB'
+                                                classMd='btn_sendRequest_MOB'
+                                            />
+                                            <hr className="hR_LIne" />
+                                        </div>
+                                        <div className="col-12"></div>
                                     </div>
-                                    <div className="col-12"></div>
                                 </div>
-                            </div>
+                            </Form.Item>
                         </Form>
                         {this.state.isLoader ? <div class="loader">   </div>
                             : null

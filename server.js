@@ -114,20 +114,46 @@ app.get('/api/keys', (req, res) => {
 //   maxMessages: 10
 // })
 
-var smtpTransport = nodemailer.createTransport('SMTP', {
-  service: "Gmail",
-  // host: 'business29.web-hosting.com',
-  port: 465,
-  secure: false,
+// var smtpTransport = nodemailer.createTransport('SMTP', {
+//   service: "Gmail",
+//   // host: 'business29.web-hosting.com',
+//   // port: 465,
+//   // secure: false,
+//   auth: {
+//     user: "krlcreatives@gmail.com",
+//     pass: "CatalystRakhaTha!!"
+//   },
+//   tls: {
+//     rejectUnauthorized: false
+//   }
+// })
+// var rand, mailOptions, host, link;
+// var smtpTransport = nodemailer.createTransport('SMTP', {
+//   service: "Gmail",
+//   host: 'smtp.gmail.com',
+//   port: 465,
+//   secure: true,
+//   auth: {
+//     user: "krlcreatives@gmail.com",
+//     pass: "CatalystRakhaTha!!"
+//   },
+//   tls: {
+//     rejectUnauthorized: false
+//   }
+
+// });
+// var rand, mailOptions, host, link;
+const smtpTransport = nodemailer.createTransport('SMTP',{
+  service: 'gmail',//smtp.gmail.com  //in place of service use host...
+  secure: false,//true
+  port: 25,//465
   auth: {
     user: "krlcreatives@gmail.com",
     pass: "CatalystRakhaTha!!"
-  },
-  tls: {
+  }, tls: {
     rejectUnauthorized: false
   }
-})
-var rand, mailOptions, host, link;
+});
 /*------------------SMTP Over-----------------------------*/
 
 
