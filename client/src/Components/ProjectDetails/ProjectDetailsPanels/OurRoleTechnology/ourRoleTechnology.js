@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../DetailsBannerPanel2/detailsBanner.css';
+import '../CoverImgOfProject/coverImgofProject.css';
 
 class DetailPanelTwo extends Component {
   render() {

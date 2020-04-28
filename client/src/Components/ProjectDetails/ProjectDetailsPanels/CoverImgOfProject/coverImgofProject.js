@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../DetailsBannerPanel2/detailsBanner.css';
+import './coverImgofProject.css';
 class DetailBanner extends Component {
 
     render() {

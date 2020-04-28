@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../DetailsPanel1/panelDetails.css';
+import './nameDescriptOfProject.css';
 import ArrowImg from '../../../../Assets/Images/arrow.png';
 class PanelDetails extends Component {
 

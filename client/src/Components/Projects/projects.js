@@ -4,11 +4,9 @@ import './projects.css';
 import Header2 from '../Header/header2';
 import ProjectContainer from '../../Comman/ProjectContainer/projectContainer';
 import SeeProject from '../ContactPage/SeeProject/seeProject';
-import Banners from '../ServicesPage/banners';
 import { Tabs } from 'antd';
 import './projects.css';
 import 'antd/dist/antd.css';
-import VisualIdentity from '../ProjectDetails/ProjectDetailsPanels/Detailspanel3/visualIdentity';
 
 var jicaProject = {
   name: 'LIGHT-F Project By JICA & Sindh Gvt',

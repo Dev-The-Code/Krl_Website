@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import Header2 from '../Header/header2';
-import PanelDetails from './ProjectDetailsPanels/DetailsPanel1/panelDetails';
-import DetailBanner from './ProjectDetailsPanels/DetailsBannerPanel2/detailsBanner';
-import DetailPanelTwo from './ProjectDetailsPanels/DetailPanel2/detailPanel2';
+import { Link } from 'react-router-dom';
+import NameDescriptOfProject from './ProjectDetailsPanels/NameDescriptionOfProject/nameDescriptOfProject';
+import CoverImgofProject from './ProjectDetailsPanels/CoverImgOfProject/coverImgofProject';
+import OurRoleTechnology from './ProjectDetailsPanels/OurRoleTechnology/ourRoleTechnology';
 import MarketingTab from './ContentTabsProjectDetail/MarketingTab/marketingTab';
 import DevelopmentTab from './ContentTabsProjectDetail/DevelopmentTab/developmentTab';
 import DesignTab from './ContentTabsProjectDetail/DesignTab/designTab';
 import ProductionTab from './ContentTabsProjectDetail/ProductionTab/productionTab';
 import TrainingTab from './ContentTabsProjectDetail/TrainingTab/trainingTabs';
 import ConsultationTab from './ContentTabsProjectDetail/ConsultationTab/consultationTabs';
-import ProjectDetailFooter from './ProjectDetailsPanels/DetailsPanelFooter9/projectDetailsFooter';
+import SeeProject from '../ContactPage/SeeProject/seeProject';
 import { Tabs } from 'antd';
 
 class ProjectDetailsPage extends Component {
@@ -71,9 +72,9 @@ class ProjectDetailsPage extends Component {
     return (
       <div className="animateFadeIn">
         <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" />
-        <PanelDetails data={data} />
-        <DetailBanner data={data} />
-        <DetailPanelTwo data={data} />
+        <NameDescriptOfProject data={data} />
+        <CoverImgofProject data={data} />
+        <OurRoleTechnology data={data} />
         <div className="row devChalnge">
           <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <Tabs defaultActiveKey={defaultTabInDetailPage} style={{ textAlign: 'center' }}>
@@ -122,7 +123,23 @@ class ProjectDetailsPage extends Component {
 
             </Tabs>
 
-            <ProjectDetailFooter />
+            <Link to={`/contact`} className="changingColor">
+              <div className="row proSeeFotr">
+                <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-2"></div>
+                <div className="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-12" style={{ textAlign: 'left' }}>{/*seeBckColr="proSeeFotr" ye class or css use hogi*/}
+                  <SeeProject
+                    roWalign='row ReW_home'
+                    se_Text="seProFotr_text"
+                    se_Text1="largeProFotr_text"
+                    seeText="Like what you see?"
+                    lrgText="Send a request "
+                    lgBrText=""
+                    arrow_Right="arrowRight1_ProjeCT"
+                  />
+                </div>
+                <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12"></div>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
