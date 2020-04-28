@@ -115,13 +115,13 @@ app.get('/api/keys', (req, res) => {
 // })
 
 var smtpTransport = nodemailer.createTransport('SMTP', {
-  // service: "webbase",
-  host: 'business29.web-hosting.com',
+  service: "Gmail",
+  // host: 'business29.web-hosting.com',
   port: 465,
   secure: false,
   auth: {
-    user: "awais@krlcreatives.com",
-    pass: "467738651092964101"
+    user: "krlcreatives@gmail.com",
+    pass: "CatalystRakhaTha!!"
   },
   tls: {
     rejectUnauthorized: false
@@ -139,7 +139,7 @@ app.post('/api/sendEmailToCompany', (req, res) => {
   var companiesContact = req.body;
   const mailOptions = {
     from: companiesContact.companyEmail,
-    to: `awais@krlcreatives.com`,
+    to: `krlcreatives@gmail.com`,
     subject: `Contact name: ${companiesContact.name}`,
     html: `<p>You have a new contact request</p>
     <h2>Contact details</h2>
