@@ -1,15 +1,4 @@
 .bck-to-pro{
-    /* border: none !important;
-    background: -webkit-linear-gradient( 360deg,#0ac3d0 , #953797 );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: calc(13px + 0.5vmax);
-    font-family: aleta-light;
-    cursor: pointer;
-    text-decoration: underline;
-    background: none;
-    color: #d4d4d4;
-    margin-top: 13vmax; */
     border: none !important;
     font-size: calc(13px + 0.5vmax);
     font-family: aleta-light;
@@ -34,9 +23,7 @@
     margin-top: -85px;
     height: 40px;
 }
-.backArowProjectDetail{
-    
-}
+
 .panelHeading{
     margin-top: 11vw;
     font-size: calc(15px + 2.5vmax);
