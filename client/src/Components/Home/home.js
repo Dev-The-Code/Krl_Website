@@ -10,41 +10,15 @@ class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mainSlider: true,
-      homeServicesState: false,
-      projectClient: false,
-      HomeBannerState: true,
-      projectBannerState: false,
-      seePro: false,
-      HomeClientsState: false,
-      HomeSeeProjectState: false
     }
   }
-  wheelListener = () => {
-    window.addEventListener("wheel", this.wheelSpinSlider);
-    console.log('heloo event');
-  }
   componentWillMount() {
-    this.setState({ headerPath: 'Home' });
     window.scrollTo(0, 0);
-    this.wheelListener();
   }
 
-
-
-  wheelSpinSlider = (param) => {
-    this.setState({
-      HomeBannerState: true,
-      mainSlider: true,
-      homeServicesState: true,
-      projectBannerState: false,
-      HomeClientsState: false,
-      HomeSeeProjectState: false
-    });
-  }
 
   render() {
-    const { mainSlider, homeServicesState, HomeBannerState, projectBannerState, HomeClientsState, HomeSeeProjectState, bannerService, projectClient, seePro } = this.state
+    const { } = this.state
     return (
       <div>
           <HomeBanner />

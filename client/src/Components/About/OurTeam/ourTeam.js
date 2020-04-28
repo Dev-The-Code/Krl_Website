@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import AllTeam from './allTeam';
-import Handsome_img from '../../../Assets/Images/handsome.jpg';
 import './ourTeam.css';
 
 

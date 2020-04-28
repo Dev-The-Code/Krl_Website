@@ -248,31 +248,14 @@ class Project extends React.Component {
             siddiqSons: siddiqSons,
             jicaLightF: jicaLightF,
             aCFRescue: aCFRescue,
-            GFAHeading: 'LIGHT-F Project By',
-            GFAHeadingBr: 'JICA & Sindh Gvt',
-            DrentHeading: 'ACF Animal Rescue',
-            DrentHeadingBr: 'Websites',
-            GFAperaas: 'An ambitious willing to help people be healthy. We designed and developed a...',
-            Drentperaas: 'A luxury cloth rental service needed a new website. We design and developed...',
-            ADBHeading: 'Siddiqsons Limited',
-            ADBHeadingBr: 'Brochure',
-            DPWHeading: 'Dallas Palms',
-            DPWHeadingBr: 'Website',
-            DPWperaas: 'A Dallas based wedding venue needed a strong online presence. We design...',
-            ODSHeading: 'Online Design',
-            ODSHeadingBr: 'Website',
-
-            devPeraImg: true,
         }
     }
     componentWillMount() {
-        this.setState({ headerPath: 'Home' });
         window.scrollTo(0, 0)
     }
 
     render() {
-        const { siddiqSons, jicaLightF, aCFRescue, GFAHeading, GFAHeadingBr, DrentHeading, DrentHeadingBr, GFAperaas, Drentperaas, ADBHeading, ADBHeadingBr,
-            DPWHeading, DPWHeadingBr, DPWperaas, ODSHeading, ODSHeadingBr, devPeraImg, headerPath } = this.state
+        const { siddiqSons, jicaLightF, aCFRescue } = this.state
         return (
             <div>
 

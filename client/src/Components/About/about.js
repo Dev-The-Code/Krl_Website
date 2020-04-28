@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import AboutUs from './AboutUs/aboutUs';
-import Services from './Services/services';
 import OurCoreValues from './OurCoreValues/ourCoreValues';
 import OurOffices from './OurOffices/ourOffices';
 import OurTeam from './OurTeam/ourTeam';
 import SocialMedia from './SocialMedia/socialMedia';
 import Header2 from '../Header/header2';
 import SeeProject from '../ContactPage/SeeProject/seeProject';
-import Contains from '../../Comman/ServiceContainer/contain';
 import AboutBanner from './AboutBanner/aboutBanner';
 import '../../Components/ContactPage/SeeProject/seeProject.css';
 import WeStandFor from './WeStandFor/weStandFor';
@@ -21,9 +18,7 @@ class About extends React.Component {
     this.state = {
       sendPrp: 'Send a request',
       hedngPrp: "Let's build something ",
-      hedngPrp1: "awesome together!",
-      getCore: false,
-      getStand : false,
+      hedngPrp1: "awesome together!"
     };
   }
 
@@ -39,7 +34,7 @@ class About extends React.Component {
   }
   
   render() {
-    const { headerPath, getCore , getStand } = this.state
+    const { headerPath } = this.state
     return (
       <div className="all_backgrundImageAfter animateFadeIn">
         <Header2 headerPath={headerPath} headerDesktop="hederStickyProp" headerMob="hederStickyMob2Prop" /> 
@@ -63,23 +58,6 @@ class About extends React.Component {
         <br /><br />
         <OurCoreValues/>
         <WeStandFor/>
-         {/* {getCore ?  
-          <div>
-              <OurCoreValues/>
-          </div>
-          
-          :
-         null
-        } 
-        {
-          getStand == -90 ?
-          <div>
-                 <WeStandFor/>
-          </div>
-          
-          :
-          null
-        }  */}
 
           <OurOffices
             backColor='row raw_background'

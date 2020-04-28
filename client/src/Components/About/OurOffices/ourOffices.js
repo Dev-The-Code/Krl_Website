@@ -5,7 +5,6 @@ import khi from '../../../Assets/Images/karachi.png';
 import Ari from '../../../Assets/Images/dallas.png';
 import Dal from '../../../Assets/Images/arizona.png';
 import moment from 'moment';
-import tz from 'moment-timezone';
 
 class OurOffices extends Component {
   constructor(props) {

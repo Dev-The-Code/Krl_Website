@@ -95,12 +95,6 @@ class ContForm extends Component {
                                             <Input type="text" className="form-control naam_input" placeholder="Name" />
                                         )}
                                     </FormItem>
-                                    {/* <Input
-                                    type='text'
-                                    holder='Name'
-                                    className='naam_input'
-                                    name='firstname'
-                                /> */}
                                 </div>
                             </div>
                             <div className="row">
@@ -138,12 +132,6 @@ class ContForm extends Component {
                                             <Input placeholder="Contact No" className="mailCont_input" />
                                         )}
                                     </FormItem>
-                                    {/* <Input
-                                    type='text'
-                                    holder='Contact # (optional)'
-                                    className='mailCont_input'
-                                    name='firstname'
-                                /> */}
                                 </div>
                             </div>
                             <div className="row">
@@ -163,12 +151,6 @@ class ContForm extends Component {
                                             <TextArea rows={3} maxLength="500" placeholder="Project Description" className="projectt_input" />
                                         )}
                                     </FormItem>
-                                    {/* <Input
-                                    type='text'
-                                    holder='Project description (optional)'
-                                    className='projectt_input'
-                                    name='firstname'
-                                /> */}
                                 </div>
                             </div>
                             <div className="d-none d-sm-block">

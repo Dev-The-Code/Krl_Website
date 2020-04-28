@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './projects.css';
 import Header2 from '../Header/header2';
-import ProjectContainer from '../../Comman/ProjectContainer/projectContainer';
+import AllProjectMaping from '../../Comman/AllProjectMaping/allProjectMaping';
 import SeeProject from '../ContactPage/SeeProject/seeProject';
 import { Tabs } from 'antd';
 import './projects.css';
@@ -3108,18 +3108,8 @@ class Projects extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      projectStateFromHome: Allprojects,
+      projectStatesForMap: Allprojects,
       featuredProjectinLink: acfProject,
-
-      banrPeragh: 'KRL Creatives covers you for all digital assets your brand needs to serve your audience well.',
-      banrPeragh1: 'We design, develop and produce.',
-      headingpera: 'Siddiqsons',
-      headingpera1: 'Limited',
-      headingpera2: ' Brochure',
-      banFuturPro: 'Featured project',
-      devPeraImg: true,
-      devParagraph: false,
-      ViewPro: true,
 
       developBanner: 'developerFeatureBanner',
       productionBanner: 'productionFeatureBanner',
@@ -3140,7 +3130,7 @@ class Projects extends React.Component {
         if (data == "marketing") {
           this.setState({
             featuredBannerImg: 'oxbridgeFeatureImgMarket',
-            projectStateFromHome: marketing,
+            projectStatesForMap: marketing,
             featuredProjectinLink: oxbridgeProject,
             defaultTab: '2'
           })
@@ -3148,7 +3138,7 @@ class Projects extends React.Component {
         else if (data == "development") {
           this.setState({
             featuredBannerImg: 'pakjazbaFeatureImgDevelop',
-            projectStateFromHome: development,
+            projectStatesForMap: development,
             featuredProjectinLink: pakJazbaProject,
             defaultTab: '3'
           })
@@ -3156,7 +3146,7 @@ class Projects extends React.Component {
         else if (data == "design") {
           this.setState({
             featuredBannerImg: 'siddiqSonFeatureImgDesign',
-            projectStateFromHome: design,
+            projectStatesForMap: design,
             featuredProjectinLink: siddiqSonProject,
             defaultTab: '4'
           })
@@ -3164,7 +3154,7 @@ class Projects extends React.Component {
         else if (data == "production") {
           this.setState({
             featuredBannerImg: 'jicaFeatureImgProduct',
-            projectStateFromHome: production,
+            projectStatesForMap: production,
             featuredProjectinLink: jicaProject,
             defaultTab: '5'
           })
@@ -3174,7 +3164,7 @@ class Projects extends React.Component {
         if (data.projectObj == "marketing") {
           this.setState({
             featuredBannerImg: 'oxbridgeFeatureImgMarket',
-            projectStateFromHome: marketing,
+            projectStatesForMap: marketing,
             featuredProjectinLink: oxbridgeProject,
             defaultTab: '2'
           })
@@ -3182,7 +3172,7 @@ class Projects extends React.Component {
         else if (data.projectObj == "development") {
           this.setState({
             featuredBannerImg: 'pakjazbaFeatureImgDevelop',
-            projectStateFromHome: development,
+            projectStatesForMap: development,
             featuredProjectinLink: pakJazbaProject,
             defaultTab: '3'
           })
@@ -3190,7 +3180,7 @@ class Projects extends React.Component {
         else if (data.projectObj == "production") {
           this.setState({
             featuredBannerImg: 'jicaFeatureImgProduct',
-            projectStateFromHome: production,
+            projectStatesForMap: production,
             featuredProjectinLink: jicaProject,
             defaultTab: '5'
           })
@@ -3198,7 +3188,7 @@ class Projects extends React.Component {
         else if (data.projectObj == "design") {
           this.setState({
             featuredBannerImg: 'siddiqSonFeatureImgDesign',
-            projectStateFromHome: design,
+            projectStatesForMap: design,
             featuredProjectinLink: siddiqSonProject,
             defaultTab: '4'
           })
@@ -3219,26 +3209,25 @@ class Projects extends React.Component {
   tabFunction = (param) => {
 
     if (param == 'Allprojects') {
-      this.setState({ projectStateFromHome: Allprojects });
+      this.setState({ projectStatesForMap: Allprojects });
     }
     else if (param == 'marketing') {
-      this.setState({ projectStateFromHome: marketing });
+      this.setState({ projectStatesForMap: marketing });
     }
     else if (param == 'development') {
-      this.setState({ projectStateFromHome: development });
+      this.setState({ projectStatesForMap: development });
     }
     else if (param == 'design') {
-      this.setState({ projectStateFromHome: design });
+      this.setState({ projectStatesForMap: design });
     }
     else if (param == 'production') {
-      this.setState({ projectStateFromHome: production });
+      this.setState({ projectStatesForMap: production });
     }
   }
 
   render() {
     const { TabPane } = Tabs;
-    const { GFAperaas, devPeraImg, headingpera, headingpera1, headingpera2, banFuturPro, ViewPro, headerPath,
-      projects, featuredProjectinLink, projectStateFromHome, featuredBannerImg, defaultTab } = this.state;
+    const { headerPath, featuredProjectinLink, projectStatesForMap, featuredBannerImg, defaultTab } = this.state;
 
     return (
 
@@ -3315,7 +3304,7 @@ class Projects extends React.Component {
             </div>
           </div>
           <div className="col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7">
-            <ProjectContainer projects={projectStateFromHome} />
+            <AllProjectMaping projects={projectStatesForMap} />
           </div>
           <div className="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
         </div>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './ourCoreValues.css';
-import ACF from '../../../Assets/Images/acf.png';
-import { Carousel, Radio } from 'antd';
+import { Carousel } from 'antd';
 
 let timer;
 

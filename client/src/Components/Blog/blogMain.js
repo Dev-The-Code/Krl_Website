@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Banner from '../Banner/banner';
 import Blog from './BlogContent/blog1';
-import Header2 from '../Header/header2'
+import Header2 from '../Header/header2';
+
 class blog extends React.Component {
   componentWillMount() {
     let data = this.props.location.pathname;
