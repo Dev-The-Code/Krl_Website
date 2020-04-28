@@ -31,9 +31,6 @@ class OfficesContainer extends Component {
 
     render() {
       const {officeTimeStatus, arizonDev, ariHead, img_Stylig , cont_textStyle1, cont_textStyle2, cont_textStyle3, inerHedTxt, inerHedTxt2, inerHedTxt3 }= this.props
-      const { officeTimingKHI , officeTimingARZ , officeTimingDals ,  liveTiming }= this.state
-      // console.log(officeTiming , 'office timming')
-      // console.log(liveTiming , 'live timming')
 
       return (
         <div className={arizonDev}>
@@ -41,8 +38,6 @@ class OfficesContainer extends Component {
           <p className={cont_textStyle1}>{officeTimeStatus}</p>
           <p className={cont_textStyle2}>{inerHedTxt2}</p>
           <p className={cont_textStyle3}>{inerHedTxt3}</p>
-          {/* <p className={cont_textStyle1}>{liveTiming}</p> */}
-          {/* <p className="officeContainerTimerClass">{liveTiming}</p> */}
 
         </div>
     );
